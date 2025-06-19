@@ -1,7 +1,7 @@
 <div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBanner.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
 
 # Dibujo asistido por computador - DAPC
-Keywords: `cad` `assisted-draw` `autodesk` `autocad` `revit` `bim` `qgis` `mapping-system`
+Keywords: `cad` `computed-assisted-draw` `autodesk` `autocad` `revit` `bim` `qgis` `mapping-system`
 
 La ingeniería eléctrica contemporánea implica un trabajo multidisciplinario que requiere una comprensión integral de diversos campos y la adopción constante de tecnologías avanzadas para enfrentar los desafíos actuales y futuros. El estudio del dibujo gráfico por computador brinda a los estudiantes la capacidad de visualizar de manera avanzada proyectos eléctricos antes de su implementación, así como la integración de los sistemas eléctricos en el contexto de una construcción o un entorno geográfico definido. La incorporación del dibujo gráfico por computador con herramientas actualizadas de diseño gráfico, sistemas de información geográfica y modelado de información para la construcción en la formación de estudiantes de ingeniería eléctrica promueve una perspectiva integral, mejora las capacidades técnicas y prepara a los futuros ingenieros para enfrentar los desafíos de una industria en evolución. 
 
