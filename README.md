@@ -10,7 +10,7 @@ La ingeniería eléctrica contemporánea implica un trabajo multidisciplinario q
 
 ## Participantes, metodología y requerimientos
 
-El contenido del curso está dirigido a estudiantes de pregrado que se encuentren cursando estudios de ingeniería eléctrica. Como pre-requisito, los estudiantes requieren de conocimientos básicos de programación de computadores.
+El contenido del curso está dirigido a estudiantes de pregrado que se encuentren cursando estudios de ingeniería eléctrica. Como prerrequisito, los estudiantes requieren de conocimientos básicos en programación de computadores.
 
 **Metodología académica**
 
@@ -21,4 +21,28 @@ El contenido del curso está dirigido a estudiantes de pregrado que se encuentre
 
 **Evaluación**
 
-La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias desarrolladas. Las calificaciones de los estudiantes como expresión cuantitativa de la evaluación del aprendizaje, considera tres calificaciones, una por cada tercio con los siguientes porcentajes: primer tercio 30%, segundo tercio 30% y tercer tercio 40 %. En el último tercio se realiza un examen final obligatorio que comprende todos los temas tratados durante el semestre. 
+La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias desarrolladas. Las calificaciones de los estudiantes como expresión cuantitativa de la evaluación del aprendizaje, considera tres calificaciones, una por cada tercio con los siguientes porcentajes: primer tercio 30%, segundo tercio 30% y tercer tercio 40 %. En el último tercio se realiza un examen final obligatorio que comprende todos los temas tratados durante el semestre.
+
+
+## Software requerido, repositorio de proyecto y estructura de directorios
+
+Para el desarrollo del curso y las actividades del proyecto final, son requeridas las siguientes herramientas, estructura de directorios y reportar su repositorio de archivos:
+
+<div align="center">
+
+| Requerimiento                                                     | Descripción                                                              |
+|:------------------------------------------------------------------|:-------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.office.com/)                   | Microsoft Office 365.                                                    |
+| [:toolbox:Herramienta](https://qgis.org/)                         | QGIS 3.42 o superior.                                                    |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)            | Notepad++ (editor de texto).                                             |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad) | Autodesk Autocad 3D 2026 o superior.                                     |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)   | Autodesk Revit 2026 o superior.                                          |
+| [:open_file_folder:Repositorio de proyecto]()                     | Repositorio creado y compartido para publicación de avances de proyecto. |
+| [:open_file_folder:Estructura de directorios](file/Readme.md)     | Estructura requerida para el desarrollo del proyecto.                    |
+
+</div>
+
+> :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
+
+
+## :globe_with_meridians:
