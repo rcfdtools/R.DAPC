@@ -1,2 +1,1 @@
-# R.DAPC
-CURSO - Dibijo asistido por computador
+# Dibijo asistido por computador - DAPC
