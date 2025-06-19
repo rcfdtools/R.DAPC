@@ -5,6 +5,8 @@ Keywords: `cad` `assisted-draw` `autodesk` `autocad` `revit` `bim` `qgis` `mappi
 
 La ingeniería eléctrica contemporánea implica un trabajo multidisciplinario que requiere una comprensión integral de diversos campos y la adopción constante de tecnologías avanzadas para enfrentar los desafíos actuales y futuros. El estudio del dibujo gráfico por computador brinda a los estudiantes la capacidad de visualizar de manera avanzada proyectos eléctricos antes de su implementación, así como la integración de los sistemas eléctricos en el contexto de una construcción o un entorno geográfico definido. La incorporación del dibujo gráfico por computador con herramientas actualizadas de diseño gráfico, sistemas de información geográfica y modelado de información para la construcción en la formación de estudiantes de ingeniería eléctrica promueve una perspectiva integral, mejora las capacidades técnicas y prepara a los futuros ingenieros para enfrentar los desafíos de una industria en evolución. 
 
+<div align="center"><img src="file/graph/Gemini_Generated_Image_6jixtu6jixtu6jix" alt="R.SIGE" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/aeeb9a71c799bdf7">https://gemini.google.com</a></sub><br><br></div>
+
 
 ## Participantes, metodología y requerimientos
 
