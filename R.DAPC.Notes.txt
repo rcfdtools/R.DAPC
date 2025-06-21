@@ -1,0 +1,17 @@
+Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7: 
+	Create an image of computer assisted drawing building sketch in electrical engineering.
+	Create an image of computer assisted drawing building 3D sketch in electrical engineering.
+	
+Practical exercices
+	With arrays determinte separation between elements.
+	With measure calculated perimeters, lengths, areas.
+	Crear plantilla con capas tipo.
+	Creación de bloques (fijos y dinámicos).
+	Samples: D:\Autodesk\AutoCAD 2026\Sample\en-us
+	External references.
+
+https://www.youtube.com/watch?v=2LumoE9KjoY
+3:03
+
+Commands
+	MIRRTEXT: use zero for not mirror text
