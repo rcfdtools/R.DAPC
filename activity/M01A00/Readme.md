@@ -138,7 +138,7 @@ AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran di
 
 Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en Excel manualmente la longitud de la línea a partir de las coordenadas de sus nodos inicio - fin y compare con el valor obtenido en AutoCAD.
 
-<div align="center">L = √((CXStart - CXEnd)² + (CYStart - CYEnd)²)</div>
+<div align="center">_**L = √((CXStart - CXEnd)² + (CYStart - CYEnd)²)**_</div><br>
 
 <div align="center"><img src="graph/Excel_Pitagoras.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
