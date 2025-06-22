@@ -56,7 +56,7 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 <div align="center"><img src="graph/MicrosoftWindows_ControlPanel1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
-> Si bien, la notación numérica en Colombia utiliza comas como separador decimal y punto como separador de miles, es recomendable configurar el sistema operativo con la notación indicada y dentro de AutoCAD establecer antes de la impresión definitiva de planos de proyecto, la notación a utilizar.
+> Si bien, la notación numérica en Colombia utiliza comas como separador decimal y punto como separador de miles, es recomendable configurar el sistema operativo con la notación indicada y luego dentro de AutoCAD, establecer antes de la impresión definitiva de planos de proyecto, la notación a utilizar.
 
 2. Desde el menú _Inicio_ de Windows, ingrese a AutoCAD y seleccione la opción _New_ que se encuentra en la barra de menús superior o desde el botón de AutoCAD (botón rojo arriba a la izquierda de la ventana).
 
@@ -66,7 +66,7 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 > Para dibujos en sistema imperial (en Colombia frecuentemente mencionando como sistema inglés) en los que se presupone que las unidades son pulgadas, utilice _**acad.dwt**_ o _**acadlt.dwt**_.
 >
-> Para dibujos en unidades métricas en las que se presupone que las unidades son metros, utilice _**acadiso.dwt**_ o _**acadltiso.dwt**_.
+> :blue_heart: Para dibujos en unidades métricas en las que se presupone que las unidades son metros, utilice _**acadiso.dwt**_ o _**acadltiso.dwt**_.
 
 4. Explore el espacio de trabajo, podrá observar lo siguiente:
 
