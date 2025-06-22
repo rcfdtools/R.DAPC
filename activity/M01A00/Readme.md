@@ -148,11 +148,11 @@ Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en Exce
 
 <div align="center">
 
-| Entrada               | Descripción                                                                                                                |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Manual                | Dando clic en el espacio de dibujo.                                                                                        |
-| Coordenadas absolutas | Ingresando valores desde el Command.                                                                                       |
-| Coordenadas relativas | Ingresando valores desde el Command utilizando el símbolo @<br><br>Es requerido un nodo previo en una línea o un polígono. |
+| Entrada                | Descripción                                                                                                                 |
+|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------|
+| Manual                 | Dando clic en el espacio de dibujo.                                                                                         |
+| Coordenadas absolutas  | Ingresando valores desde el Command.                                                                                        |
+| Coordenadas relativas  | Ingresando valores desde el Command utilizando el símbolo @<br><br>Es requerido un nodo previo en una línea o un polígono.  |
 
 </div>
 
