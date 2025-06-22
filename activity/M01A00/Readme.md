@@ -41,6 +41,7 @@ Los comandos asociados directamente al teclado en AutoCAD son los siguientes:
 
 <div align="center"><img src="graph/autocad-shortcut_1350x1080_2.jpg" alt="R.DAPC" width="100%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/shortcuts/autocad">https://www.autodesk.com/shortcuts/autocad</a></sub><br><br></div>
 
+> Consulte la lista completa de los comandos de AutoCAD.
 
 
 
