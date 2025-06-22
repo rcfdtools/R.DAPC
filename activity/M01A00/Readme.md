@@ -112,7 +112,7 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 <div align="center"><img src="graph/AutoCAD_Units.jpg" alt="R.DAPC" width="50%" border="0" /><img src="graph/AutoCAD_Units1.jpg" alt="R.DAPC" width="45%" border="0" /></div>
 
 
-## 4. Dibujo de elementos geométricos básicos
+## 3. Dibujo de elementos geométricos básicos
 
 El punto, la línea y el polígono son los elementos geométricos básicos con los que podemos dibujar todas las figuras geométricas. Los límites de un polígono son sus líneas perimetrales y de las líneas los puntos en sus extremos. Los polígonos tienen dos dimensiones, las líneas una única dimensión y los puntos ninguna dimensión, que únicamente determinan un lugar.
 
@@ -150,12 +150,12 @@ Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en un [
 
 <div align="center">
 
-| Entrada                   | Descripción                                                                                                                |
-|:--------------------------|:---------------------------------------------------------------------------------------------------------------------------|
-| Manual                    | Dando clic en el espacio de dibujo.                                                                                        |
-| Coordenadas absolutas     | Ingresando valores desde el Command.                                                                                       |
-| Coordenadas relativas     | Ingresando valores desde el Command utilizando el símbolo @<br><br>Es requerido un nodo previo en una línea o un polígono. |
-| Por secuencia de comandos | Comandos y nodos de localización que describen la secuencia de construcción del elemento.                                  |
+| Entrada                   | Descripción                                                                                                                                                     |
+|:--------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Manual                    | Dando clic en el espacio de dibujo.                                                                                                                             |
+| Coordenadas absolutas     | Ingresando valores desde el Command.                                                                                                                            |
+| Coordenadas relativas     | Ingresando valores desde el Command utilizando el símbolo @ y el desplazamiento requerido en XY.<br><br>Es requerido un nodo previo en una línea o un polígono. |
+| Por secuencia de comandos | Comandos y nodos de localización que describen la secuencia de construcción del elemento.                                                                       |
 
 </div>
 
@@ -189,7 +189,7 @@ Especificaciones:
 > La medición del área y perímetro de la figura puede ser realizada desde el menú _Home / Utilities / Measure_.
 
 
-## 5. Uso de comandos
+## 4. Uso básico de comandos
 
 1. La creación de líneas puede ser realizada a través del comando _**LINE**_ que puede ser ingresado desde el _Command_ ubicado en la parte inferior del espacio de trabajo o con el comando abreviado _**L**_. Por ejemplo, para la creación de una línea a 45 grados entre las coordenadas absolutas (250,250) y (550,550) cuyo desplazamiento horizontal y vertical es de 300 metros, podemos utilizar el siguiente comando:
 
@@ -215,22 +215,48 @@ LINE
 750,150
 
 ```
-
 <div align="center"><img src="graph/AutoCAD_Line5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+> Tenga en cuenta que la secuencia uttilizada para el comando _**LINE**_, crea 4 líneas independientes y no una poli-línea.
 
 
 ### Ejercicio #M01A01E02
 
-Aplicando los conceptos aprendidos, cree la secuencia para la construcción de la figura presentada en el Ejercicio M01A01E02, guarde la secuencia en _/file/report/M01A01E02.txt_.
+Aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas y otra con posiciones relativas) para la construcción de la figura presentada en el Ejercicio M01A01E02, guarde la secuencia en _/file/report/M01A01E02.txt_.
+
+<div align="center"><img src="graph/AutoCAD_Line6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Secuencia para coordenadas relativas usando @
+```
+LINE
+250,250
+@15,0
+@0,-11.5
+@40,0
+@0,42.5
+@20,0
+@0,-34
+@5,0
+@0,-3.5
+@17,0
+@-4,-20
+@-18,0
+@0,5
+@-75,0
+250,250
+
+```
 
 
-## 6. Comandos asociados directamente al teclado
+
+## 5. Comandos asociados directamente al teclado
 
 Para facilitar la creación de dibujos, varios de los comandos de AutoCAD están asociados al teclado, como se muestra en la siguiente ilustración.
 
 <div align="center"><img src="graph/autocad-shortcut_1350x1080_2.jpg" alt="R.DAPC" width="90%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/shortcuts/autocad">https://www.autodesk.com/shortcuts/autocad</a></sub><br><br></div>
 
-> Consulte la lista completa de los [comandos de AutoCAD](https://www.autodesk.com/shortcuts/autocad).
+> Consulte la lista completa de lo [comandos de AutoCAD](https://www.autodesk.com/shortcuts/autocad).
 
 
 
