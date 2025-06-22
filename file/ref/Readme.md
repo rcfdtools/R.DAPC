@@ -12,7 +12,7 @@
 * VÍCTOR OLAYA. Sistemas de Información Geográfica, Tomo II, versión 1.0, Rev. 21 de febrero de 2012.
 
 
-## Normas técnicas
+## Normas y reglamentos técnicos
 
 [Reglamento Técnico de Instalaciones Eléctricas - RETIE](https://www.minenergia.gov.co/es/misional/energia-electrica-2/reglamentos-tecnicos/reglamento-t%C3%A9cnico-de-instalaciones-el%C3%A9ctricas-retie/)
 
@@ -26,10 +26,10 @@ El Reglamento Técnico de Instalaciones Eléctricas - RETIE fue expedido en su �
 
 Otras normas técnicas y referencias
 
-* [NTC_2050_CodigoElectricoColombiano_19981125.pdf](https://www.electricoscarlostriana.com/gallery/NTC_2050.pdf)
-* [NTC_2050_CodigoElectricoColombiano_20180421.pdf](https://www1.upme.gov.co/DemandayEficiencia/Doc_Hemeroteca/Insumos_NTC_2050_Codigo_electrico_colombiano_V0_04212018.pdf)
-* [NTC_2050_CodigoElectricoColombiano_20200401.pdf](https://asieb.com/wp-content/uploads/2024/10/NTC_2050_codigo_electrico_nacional.pdf)
-* [NTC_2050_CodigoElectricoColombiano_20200401.pdf en ICONTEC](https://tienda.icontec.org/gpd-pb-9-codigo-electrico-colombiano-ntc-2050-segunda-actualizacion.htmlS)
+* [NTC2050_CodigoElectricoColombiano_19981125.pdf](https://www.electricoscarlostriana.com/gallery/NTC_2050.pdf)
+* [NTC2050_CodigoElectricoColombiano_20180421.pdf](https://www1.upme.gov.co/DemandayEficiencia/Doc_Hemeroteca/Insumos_NTC_2050_Codigo_electrico_colombiano_V0_04212018.pdf)
+* [NTC2050_CodigoElectricoColombiano_20200401.pdf](https://asieb.com/wp-content/uploads/2024/10/NTC_2050_codigo_electrico_nacional.pdf)
+* [NTC2050_CodigoElectricoColombiano_20200401.pdf en ICONTEC](https://tienda.icontec.org/gpd-pb-9-codigo-electrico-colombiano-ntc-2050-segunda-actualizacion.htmlS)
 * [NTC2050_CodigoElectricoColombiano_20081231_TrabajoGradoMetodosMateriales.pdf, Trabajo de grado: Manual del Código Eléctrico Colombiano (NTC 2050) / Métodos y materiales de las instalaciones, secciones (300-324)](https://repositorio.utp.edu.co/server/api/core/bitstreams/8cebd4a9-ff0b-4b56-acab-fb9b84d9f0c4/content)
 * [Video: Actualización NTC 2050: 2020](https://www.conte.org.co/videos/actualizacion-ntc-2050-2020/)
 
@@ -39,6 +39,7 @@ Otras normas técnicas y referencias
 * https://help.autodesk.com/view/ACD/2026/ESP/
 * https://www.bibliocad.com/
 * [AIA_CADLayerGuidelines_v5.pdf](https://facilities.duke.edu/sites/default/files/AIA%20CAD%20Layer%20Guidelines.pdf) 
+* [Neuferet](https://ia800205.us.archive.org/23/items/neufert_202402/NEUFERT.pdf) 
 
 
 ## Sitios web relevantes
