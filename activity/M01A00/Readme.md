@@ -64,8 +64,9 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 3. Como observa, aparece una nueva ventana solicitando seleccionar la plantilla a utilizar en la creación del dibujo, seleccione _**acadiso.dwt**_.
 
-* Para dibujos en sistema imperial (en Colombia frecuentemente mencionando como sistema inglés) en los que se presupone que las unidades son pulgadas, utilice _**acad.dwt**_ o _**acadlt.dwt**_.
-* Para dibujos en unidades métricas en las que se presupone que las unidades son metros, utilice _**acadiso.dwt**_ o _**acadltiso.dwt**_.
+> Para dibujos en sistema imperial (en Colombia frecuentemente mencionando como sistema inglés) en los que se presupone que las unidades son pulgadas, utilice _**acad.dwt**_ o _**acadlt.dwt**_.
+>
+> Para dibujos en unidades métricas en las que se presupone que las unidades son metros, utilice _**acadiso.dwt**_ o _**acadltiso.dwt**_.
 
 4. Explore el espacio de trabajo, podrá observar lo siguiente:
 
