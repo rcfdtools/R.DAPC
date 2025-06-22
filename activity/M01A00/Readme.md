@@ -10,8 +10,8 @@ Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos L
 
 Al finalizar esta unidad el estudiante:
 
-* Realiza ejercicios de práctica en los que demuestra que puede iniciar un dibujo nuevo
-* Realizar configuraciones básicas
+* Realiza ejercicios de práctica en los que demuestra que puede iniciar un dibujo nuevo en AutoCAD.
+* Realizar configuraciones básicas del entorno de trabajo CAD.
 * Identificar comandos y utilizar cuadros de diálogo en CAD. 
 
 
