@@ -123,6 +123,19 @@ AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran di
 
 <div align="center"><img src="graph/AutoCAD_Line.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Con el puntero del Mouse, de clic sobre la línea creada para seleccionarla. 
+
+> :bulb: Opcionalmente, puede dibujar una cuadro de selección de izquierda a derecha (para lo cual el cuadro debe ser lo suficientemente grande para contener toda la línea, o un cuadro de derecha a izquierda para seleccionar los elementos que tocan el cuadro. Note que el cuadro de selección derecha a izquierda es verde y el de izquierda a derecha es azul.)
+
+<div align="center"><img src="graph/AutoCAD_Select.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Para conocer las propiedades de la línea, de clic derecho sobre el elemento y seleccione la opción Properties. Podrá observar sus coordenadas y que la línea trazada tiene una longitud de 2686.77 metros con una inclinación es de 0.04 grados con respecto a la horizontal.
+
+> En AutoCAD, la localización al este o a la derecha del dibujo corresponde al ángulo cero, norte corresponde a 90 grados, oeste a 180 grados y sur a 270 grados.
+
+<div align="center"><img src="graph/AutoCAD_Properties.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. 
 
 
 
