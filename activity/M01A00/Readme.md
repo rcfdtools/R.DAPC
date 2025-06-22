@@ -78,8 +78,7 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 5. Desde el botón _AutoCAD / Drawing Utilities / Units_, defina las unidades de longitud en _Decimal_, ángulos en _Grads_, precisión usando dos decimales y unidades de escala para inserción de elementos externos (tales como bloques) en milímetros.    
 
-<div align="center"><img src="graph/AutoCAD_Units.jpg" alt="R.DAPC" width="50%" border="0" /></div>
-<div align="center"><img src="graph/AutoCAD_Units1.jpg" alt="R.DAPC" width="50%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Units.jpg" alt="R.DAPC" width="50%" border="0" /><img src="graph/AutoCAD_Units1.jpg" alt="R.DAPC" width="45%" border="0" /></div>
 
 
 ## 3. Uso de comandos
