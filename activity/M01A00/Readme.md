@@ -114,13 +114,13 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 ## 4. Dibujo de elementos geométricos básicos
 
-El punto, la línea y el polígono (conocidos como elementos vectoriales) son los elementos geométricos básicos con los que podemos dibujar todas las figuras geométricas. Se denominan propios si pertenecen a un espacio finito e impropios si están en el infinito. Los límites de un polígono son sus líneas perimetrales y de las líneas los puntos en sus extremos. Los polígonos tienen dos dimensiones, las líneas una única dimensión y ninguna dimensión los puntos, que únicamente determinan un lugar.
+El punto, la línea y el polígono son los elementos geométricos básicos con los que podemos dibujar todas las figuras geométricas. Los límites de un polígono son sus líneas perimetrales y de las líneas los puntos en sus extremos. Los polígonos tienen dos dimensiones, las líneas una única dimensión y los puntos ninguna dimensión, que únicamente determinan un lugar.
 
 > Tenga en cuenta que el dibujo CAD, el orden de trazado de las líneas define su dirección vectorial.
 
 AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran disponibles en el menú _Home_ dentro del grupo _Draw_. En esta actividad nos concentraremos en el uso de la línea o _Line_.
 
-1. Seleccione la herramienta _Line_ y trace una línea de izquierda a derecha en cualquier espacio del dibujo. Podrá observar que luego de establecer el nodo final, el puntero sigue solicitando la inserción de un nuevo nodo, para completar la línea oprima la tecla <kbd>esc</kbd>, de <kbd>enter</kbd> o uttilice el clic derecho del Mouse y seleccione la opción _Enter_.
+1. Seleccione la herramienta _Line_ y trace una línea de izquierda a derecha en cualquier lugar del espacio de dibujo. Podrá observar que luego de establecer el nodo final, el puntero sigue solicitando la inserción de un nuevo nodo, para completar la línea oprima la tecla <kbd>esc</kbd>, de <kbd>enter</kbd> o utilice el clic derecho del Mouse y seleccione la opción _Enter_.
 
 <div align="center"><img src="graph/AutoCAD_Line.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -130,13 +130,15 @@ AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran di
 
 <div align="center"><img src="graph/AutoCAD_Select.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Para conocer las propiedades de la línea, de clic derecho sobre el elemento y seleccione la opción Properties. Podrá observar sus coordenadas absolutas y que la línea trazada tiene una longitud de 2686.77 metros con una inclinación es de 0.04 grados con respecto a la horizontal.
+3. Para conocer las propiedades de la línea, de clic derecho sobre el elemento y seleccione la opción Properties. Podrá observar sus coordenadas absolutas y que para este ejemplo, la línea trazada tiene una longitud de 2686.77 metros con una inclinación es de 0.04 grados con respecto a la horizontal.
 
+> Tenga en cuenta que si traza una línea manualmente dando clic en la pantalla, su longitud e inclinación puede variar con respecto al ejemplo presentado.
+>
 > En AutoCAD, la localización al este o a la derecha del dibujo corresponde al ángulo cero, norte corresponde a 90 grados, oeste a 180 grados y sur a 270 grados.
 
 <div align="center"><img src="graph/AutoCAD_Properties.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en Excel manualmente la longitud de la línea a partir de las coordenadas de sus nodos inicio - fin y compare con el valor obtenido en AutoCAD.
+Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en un [Libro de Excel](../../file/table/DAPC_TeoremaPitagoras.xlsx) manualmente la longitud de la línea a partir de las coordenadas de sus nodos inicio - fin y compare con el valor obtenido en AutoCAD.
 
 <div align="center">L = √((CXStart - CXEnd)² + (CYStart - CYEnd)²)</div><br>
 
@@ -144,15 +146,16 @@ Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en Exce
 
 4. En la cinta de opciones superior, de clic en el botón guardar y almacene el archivo como _/file/cad/M01A00.dwg_. Utilizando la rueda del Mouse, acérquese (rueda hacia arriba), aléjese (rueda hacia abajo) y desplace el dibujo (rueda pulsada y desplazamiento del mouse).
 
-5. Como observó, AutoCAD permite trazar líneas utilizando localizaciones manuales en pantalla, sin embargo, para el trazado de dibujos con precisión, podemos utilizar las coordenadas absolutas o relativas.
+5. Como observó, AutoCAD permite trazar líneas utilizando localizaciones manuales en pantalla, sin embargo, para el trazado de dibujos con precisión, podemos utilizar coordenadas absolutas, coordenadas relativas o una secuencia de comandos indicando la localización de sus nodos.
 
 <div align="center">
 
-| Entrada                | Descripción                                                                                                                 |
-|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------|
-| Manual                 | Dando clic en el espacio de dibujo.                                                                                         |
-| Coordenadas absolutas  | Ingresando valores desde el Command.                                                                                        |
-| Coordenadas relativas  | Ingresando valores desde el Command utilizando el símbolo @<br><br>Es requerido un nodo previo en una línea o un polígono.  |
+| Entrada                   | Descripción                                                                                                                |
+|:--------------------------|:---------------------------------------------------------------------------------------------------------------------------|
+| Manual                    | Dando clic en el espacio de dibujo.                                                                                        |
+| Coordenadas absolutas     | Ingresando valores desde el Command.                                                                                       |
+| Coordenadas relativas     | Ingresando valores desde el Command utilizando el símbolo @<br><br>Es requerido un nodo previo en una línea o un polígono. |
+| Por secuencia de comandos | Comandos y nodos de localización que describen la secuencia de construcción del elemento.                                  |
 
 </div>
 
@@ -164,11 +167,31 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 
 <div align="center"><img src="graph/AutoCAD_Line2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+6. Tracemos ahora una línea de 2500 metros tomando como orígen la coordenada absoluta (50,50) e ingresando para el nodo final la coordenada relativa (@2500,0). Revise las propiedades de la línea, observará que la localización del nodo final estará a 2550 metros en la horizontal del orígen absoluto de coordenadas y 50 metros en la vertical.
+
+<div align="center"><img src="graph/AutoCAD_Line3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+### Ejercicio #0001
 
+Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A00_Ejercicio0001.dwg_.
+
+<div align="center"><img src="graph/M01A00_Ejercicio0001.jpg.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Especificaciones:
+
+* Distancias en metros.
+* La medida de 20 metros corresponde a la vertical del lado inclinado.
+* El tramo de 34 metros está alineado verticalmente con el tramo inferior de 5 metros.
+* El nodo de inicio asignado deberá corresponder con la esquina superior más a la izquierda (nodo azul) donde se encuentra el tramo de 15 metros.
 
 ## 5. Uso de comandos
+
+
+
+2. Para el trazado usando secuencias de comandos, crearemos 4 
+
+
 
 Los comandos asociados directamente al teclado en AutoCAD son los siguientes:
 
