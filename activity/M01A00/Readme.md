@@ -224,7 +224,7 @@ LINE
 Aplicando los conceptos aprendidos, cree la secuencia para la construcción de la figura presentada en el Ejercicio M01A01E02, guarde la secuencia en _/file/report/M01A01E02.txt_.
 
 
-## 3. Comandos asociados directamente al teclado
+## 6. Comandos asociados directamente al teclado
 
 Para facilitar la creación de dibujos, varios de los comandos de AutoCAD están asociados al teclado, como se muestra en la siguiente ilustración.
 
