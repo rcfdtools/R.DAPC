@@ -184,6 +184,7 @@ Especificaciones:
 * La medida de 20 metros corresponde a la vertical del lado inclinado.
 * El tramo de 34 metros está alineado verticalmente con el tramo inferior de 5 metros.
 * El nodo de inicio asignado deberá corresponder con la esquina superior más a la izquierda (nodo azul) donde se encuentra el tramo de 15 metros.
+* Para verificar el correcto trazado, la figura tiene un Área de 2190 m² y Perímetro de 328.396 metros.
 
 
 ## 5. Uso de comandos
