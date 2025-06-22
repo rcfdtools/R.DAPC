@@ -37,6 +37,32 @@ Las herramientas computacionales abarcan una amplia gama de aplicaciones en dive
 En resumen, las herramientas computacionales son elementos clave para la productividad, la innovación, el trabajo con enfoque colaborativo y la eficiencia en una amplia gama de aplicaciones profesionales. 
 
 
+### ¿Qué es AutoCAD?
+
+AutoCAD es un software de diseño asistido por computadora (CAD) desarrollado por Autodesk, utilizado para crear dibujos y modelos 2D y 3D precisos. Es una herramienta esencial en diversas industrias, como arquitectura, ingeniería y diseño industrial, para la creación de planos, diseños técnicos y modelos tridimensionales. 
+
+AutoCAD es una herramienta versátil que facilita el proceso de diseño y dibujo en diversas disciplinas, permitiendo a los profesionales crear diseños precisos, visualizar sus ideas y colaborar eficientemente en proyectos. 
+
+
+### ¿Para qué sirve AutoCAD?
+
+* Diseño y dibujo: permite crear dibujos y modelos 2D y 3D con mayor precisión y eficiencia que a mano. 
+* Automatización de tareas: automatiza tareas repetitivas de dibujo, lo que aumenta la productividad. 
+* Colaboración: facilita la colaboración entre equipos y dispositivos, permitiendo el acceso y la edición de diseños desde diferentes ubicaciones. 
+* Visualización: ofrece potentes herramientas de navegación y visualización 3D, como orbitar, recorrer, pivotar y volar sobre modelos 3D. 
+* Compatibilidad: garantiza la compatibilidad con otros programas de diseño y permite la importación y exportación de archivos. 
+* Planificación y presentaciones: permite crear planos, diagramas y presentaciones de diseños. 
+
+
+### Industrias que utilizan AutoCAD
+
+* Arquitectura: Diseño de planos de edificios, planos de planta, vistas en perspectiva y modelos 3D de edificios. 
+* Ingeniería: Diseño de puentes, carreteras, maquinaria, sistemas eléctricos y otros componentes. 
+* Diseño industrial: Diseño de productos, piezas y maquinarias. 
+* Manufactura: Creación de planos para la fabricación de productos. 
+* Construcción: Planificación y gestión de proyectos de construcción. 
+
+
 ## 2. Primeros pasos en AutoCAD y configuración general
 
 1. Antes de iniciar con el uso de herramientas computacionales en los campos de la ingeniería, es recomendable definir la siguiente configuración regional de su sistema operativo:
@@ -70,9 +96,11 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 4. Explore el espacio de trabajo, podrá observar lo siguiente:
 
-* En la parte superior se encuentra la cinta de opciones que dinámicamente es asociada a cada uno de los menús visibles en AutoCAD.
+* En la parte superior se encuentra la cinta de opciones que dinámicamente es asociada a cada uno de los menús visibles en AutoCAD. Debajo de esta barra podrá encontrar los dibujos abiertos, en este caso _Drawing1*_.
 * En la parte central se encuentra el espacio de dibujo o _Model_ que inicialmente presenta visible la grilla de referencia de dibujo. Observará además en la parte superior derecha, el visualizador del sistema global de coordenadas correspondiente a la vista superior (Top) del dibujo y en la parte inferior izquierda, el actual sistema de coordenadas correspondiente al plano XY. En la parte inferior del espacio de dibujo encontrará la barra de comandos o _Command_, que le permitirá ejecutar acciones sin tener que usar la cinta superior.
 * En la parte inferior y debajo del espacio de dibujo encontrará una barra con las pestañas del espacio de modelado, hojas de impresión y herramientas adicionales para facilitar el trazado de dibujos con precisión.
+
+> El * en el nombre del dibujo indica que este es nuevo o que no han sido guardados los cambios.
 
 <div align="center"><img src="graph/AutoCAD_Drawing1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
