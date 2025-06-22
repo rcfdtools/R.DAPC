@@ -111,11 +111,17 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 <div align="center"><img src="graph/AutoCAD_Units.jpg" alt="R.DAPC" width="50%" border="0" /><img src="graph/AutoCAD_Units1.jpg" alt="R.DAPC" width="45%" border="0" /></div>
 
 
-## 4. Dibujo de elementos geométricos
+## 4. Dibujo de elementos geométricos básicos
 
 El punto, la línea y el polígono (conocidos como elementos vectoriales) son los elementos geométricos básicos con los que podemos dibujar todas las figuras geométricas. Se denominan propios si pertenecen a un espacio finito e impropios si están en el infinito. Los límites de un polígono son sus líneas perimetrales y de las líneas los puntos en sus extremos. Los polígonos tienen dos dimensiones, las líneas una única dimensión y ninguna dimensión los puntos, que únicamente determinan un lugar.
 
 > Tenga en cuenta que el dibujo CAD, el orden de trazado de las líneas define su dirección vectorial.
+
+AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran disponibles en el menú _Home_ dentro del grupo _Draw_. En esta actividad nos concentraremos en el uso de la línea o _Line_.
+
+1. Seleccione la herramienta _Line_ y trace una línea de izquierda a derecha en cualquier espacio del dibujo. Podrá observar que luego de establecer el nodo final, el puntero sigue solicitando la inserción de un nuevo nodo, para completar la línea oprima la tecla <kbd>esc</kbd>, de <kbd>enter</kbd> o uttilice el clic derecho del Mouse y seleccione la opción _Enter_.
+
+<div align="center"><img src="graph/AutoCAD_Line.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
