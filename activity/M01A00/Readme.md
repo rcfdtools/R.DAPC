@@ -32,9 +32,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 1. Usos y aplicaciones de herramientas computacionales
 
-Las herramientas computacionales abarcan una amplia gama de aplicaciones en diversos campos, desde la gestión de datos en proyectos de ingeniería hasta la creación de modelos y la automatización de procesos. Estas herramientas, ya sean hardware (equipos) o software (programas), simplifican tareas, mejoran la eficiencia y facilitan la innovación en diferentes áreas. 
-
-El uso de software de automatización de tareas repetitivas o complejas, como scripts y macros, liberan tiempo para actividades estratégicas de un proyecto.
+Las herramientas computacionales abarcan una amplia gama de aplicaciones en diversos campos, desde la gestión de datos (planos, datos relacionales, organización y manejo) en proyectos de ingeniería, hasta la creación de modelos y la automatización de procesos. Estas herramientas, ya sean de hardware (equipos) o software (programas), simplifican tareas, mejoran la eficiencia y facilitan la innovación en diferentes áreas. El uso de software de automatización de tareas repetitivas o complejas, como scripts y macros, liberan tiempo para actividades estratégicas de un proyecto.
 
 En resumen, las herramientas computacionales son elementos clave para la productividad, la innovación, el trabajo con enfoque colaborativo y la eficiencia en una amplia gama de aplicaciones profesionales. 
 
