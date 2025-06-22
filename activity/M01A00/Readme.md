@@ -46,12 +46,14 @@ AutoCAD es una herramienta versátil que facilita el proceso de diseño y dibujo
 
 ### ¿Para qué sirve AutoCAD?
 
-* Diseño y dibujo: permite crear dibujos y modelos 2D y 3D con mayor precisión y eficiencia que a mano. 
-* Automatización de tareas: automatiza tareas repetitivas de dibujo, lo que aumenta la productividad. 
-* Colaboración: facilita la colaboración entre equipos y dispositivos, permitiendo el acceso y la edición de diseños desde diferentes ubicaciones. 
-* Visualización: ofrece potentes herramientas de navegación y visualización 3D, como orbitar, recorrer, pivotar y volar sobre modelos 3D. 
-* Compatibilidad: garantiza la compatibilidad con otros programas de diseño y permite la importación y exportación de archivos. 
-* Planificación y presentaciones: permite crear planos, diagramas y presentaciones de diseños. 
+| Alcance                        | Detalle                                                                                                                            |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| Diseño y dibujo                | Permite crear dibujos y modelos 2D y 3D con mayor precisión y eficiencia que a mano.                                               |
+| Automatización de tareas       | Automatiza tareas repetitivas de dibujo, lo que aumenta la productividad.                                                          |
+| Colaboración                   | Facilita la colaboración entre equipos y dispositivos, permitiendo el acceso y la edición de diseños desde diferentes ubicaciones. |
+| Visualización                  | Ofrece potentes herramientas de navegación y visualización 3D, como orbitar, recorrer, pivotar y volar sobre modelos 3D.           |
+| Compatibilidad                 | Garantiza la compatibilidad con otros programas de diseño y permite la importación y exportación de archivos.                      |
+| Planificación y presentaciones | Permite crear planos, diagramas y presentaciones de diseños.                                                                       |
 
 
 ### Industrias que utilizan AutoCAD
