@@ -202,8 +202,9 @@ LINE
 > Al insertar un espacio en blanco al final de las 3 sentencias utilizadas, estará ejecutando la tecla <kbd>enter</kbd> que completará la creación de la línea.
 
 <div align="center"><img src="graph/AutoCAD_Line4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf
 
-
+<div align="center"><img src="graph/AutoCAD_Line4.jpg" alt="R.SIGE" width="80%" border="0" /><sub><br> Imagen tomada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
 
 2. Para el trazado usando secuencias de comandos, crearemos 4 
