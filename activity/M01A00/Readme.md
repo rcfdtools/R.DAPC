@@ -176,7 +176,7 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 
 Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A00_Ejercicio0001.dwg_.
 
-<div align="center"><img src="graph/M01A00_Ejercicio0001.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Line4.jpg" alt="R.SIGE" width="80%" border="0" /><sub><br> Imagen tomada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
 Especificaciones:
 
@@ -202,10 +202,6 @@ LINE
 > Al insertar un espacio en blanco al final de las 3 sentencias utilizadas, estará ejecutando la tecla <kbd>enter</kbd> que completará la creación de la línea.
 
 <div align="center"><img src="graph/AutoCAD_Line4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf
-
-<div align="center"><img src="graph/AutoCAD_Line4.jpg" alt="R.SIGE" width="80%" border="0" /><sub><br> Imagen tomada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
-
 
 2. Para el trazado usando secuencias de comandos, crearemos 4 
 
