@@ -41,13 +41,22 @@ En resumen, las herramientas computacionales son elementos clave para la product
 
 Antes de iniciar con el uso de herramientas computacionales en los campos de la ingeniería, es recomendable definir la siguiente configuración regional de su sistema operativo:
 
+> El uso de la notación numérica del sistema inglés, facilitará el intercambio de datos entre sistemas CAD y sistemas GIS, además de otras herramientas de modelado cuyos núcleos de ejecución utilizan este sistema.
+
 En Microsoft Windows y desde el menú _Inicio_, acceda al _Panel de Control (Control Panel)_ y diríjase a la opción _Region_.
 
 <div align="center"><img src="graph/MicrosoftWindows_ControlPanel.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
+En _Region_, de clic en el botón con _Configuración adicional... (Aditional settings...)_ y en la ventana de personalización de formatos, establezca:
 
+* Separador decimal: punto (.)
+* Símbolo de agrupación de miles: coma (,)
+* Separador de listas: coma (,)
+* Sistema de medida: Metros
 
-> El uso de la notación numérica del sistema inglés, facilitará el intercambio de datos entre sistemas CAD y sistemas GIS, además de otras herramientas de modelado cuyos núcleos de ejecución utilizan este sistema.
+<div align="center"><img src="graph/MicrosoftWindows_ControlPanel1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+> Si bien, la notación numérica en Colombia utiliza comas como separador decimal y punto como separador de miles, es recomendable configurar el sistema operativo con la notación indicada y dentro de AutoCAD establecer antes de la impresión definitiva de planos de proyecto, la notación a utilizar.
 
 
 ## 3. Uso de comandos
