@@ -129,13 +129,23 @@ AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran di
 
 <div align="center"><img src="graph/AutoCAD_Select.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Para conocer las propiedades de la línea, de clic derecho sobre el elemento y seleccione la opción Properties. Podrá observar sus coordenadas y que la línea trazada tiene una longitud de 2686.77 metros con una inclinación es de 0.04 grados con respecto a la horizontal.
+3. Para conocer las propiedades de la línea, de clic derecho sobre el elemento y seleccione la opción Properties. Podrá observar sus coordenadas absolutas y que la línea trazada tiene una longitud de 2686.77 metros con una inclinación es de 0.04 grados con respecto a la horizontal.
 
 > En AutoCAD, la localización al este o a la derecha del dibujo corresponde al ángulo cero, norte corresponde a 90 grados, oeste a 180 grados y sur a 270 grados.
 
 <div align="center"><img src="graph/AutoCAD_Properties.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-4. 
+4. En la cinta de opciones superior, de clic en el botón guardar y almacene el archivo como _/file/cad/M01A00.dwg_
+
+5. Como observó, AutoCAD permite trazar líneas utilizando localizaciones manuales en pantalla, sin embargo, para el trazado de dibujos con precisión, podemos utilizar las coordenadas absolutas o relativas.
+
+| Entrada               | Descripción                                                  |
+|-----------------------|--------------------------------------------------------------|
+| Manual                | Dando clic en el espacio de dibujo.                          |
+| Coordenadas absolutas | Ingresando valores desde el Command.                         |
+| Coordenadas relativas | Ingresando valores desde el Command utilizando el símbolo @. |
+
+
 
 
 
