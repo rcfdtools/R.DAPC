@@ -3,7 +3,7 @@ Keywords: `realigment`  `m01a00`
 
 Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 
-<div align="center"><img src="file/graph/M01A00.png" alt="R.SIGE" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/470770e00e95fe53">https://gemini.google.com</a></sub><br><br></div>
+<div align="center"><img src="graph/M01A00.png" alt="R.SIGE" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/470770e00e95fe53">https://gemini.google.com</a></sub><br><br></div>
 
 
 ## Objetivos
