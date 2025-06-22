@@ -176,7 +176,7 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 
 Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A00_Ejercicio0001.dwg_.
 
-<div align="center"><img src="graph/M01A00_Ejercicio0001.jpg.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A00_Ejercicio0001.jpg.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 Especificaciones:
 
@@ -184,6 +184,7 @@ Especificaciones:
 * La medida de 20 metros corresponde a la vertical del lado inclinado.
 * El tramo de 34 metros está alineado verticalmente con el tramo inferior de 5 metros.
 * El nodo de inicio asignado deberá corresponder con la esquina superior más a la izquierda (nodo azul) donde se encuentra el tramo de 15 metros.
+
 
 ## 5. Uso de comandos
 
