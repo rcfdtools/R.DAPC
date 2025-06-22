@@ -1,5 +1,5 @@
 # 1.1. Conceptos básicos de diseño asistido por computador - CAD
-Keywords: `realigment`  `m01a00`
+Keywords: `CAD` `AutoCAD` `Model` `Layout` `m01a00`
 
 Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 
