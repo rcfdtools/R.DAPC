@@ -111,7 +111,16 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 <div align="center"><img src="graph/AutoCAD_Units.jpg" alt="R.DAPC" width="50%" border="0" /><img src="graph/AutoCAD_Units1.jpg" alt="R.DAPC" width="45%" border="0" /></div>
 
 
-## 3. Uso de comandos
+## 4. Dibujo de elementos geométricos
+
+El punto, la línea y el polígono (conocidos como elementos vectoriales) son los elementos geométricos básicos con los que podemos dibujar todas las figuras geométricas. Se denominan propios si pertenecen a un espacio finito e impropios si están en el infinito. Los límites de un polígono son sus líneas perimetrales y de las líneas los puntos en sus extremos. Los polígonos tienen dos dimensiones, las líneas una única dimensión y ninguna dimensión los puntos, que únicamente determinan un lugar.
+
+> Tenga en cuenta que el dibujo CAD, el orden de trazado de las líneas define su dirección vectorial.
+
+
+
+
+## 5. Uso de comandos
 
 Los comandos asociados directamente al teclado en AutoCAD son los siguientes:
 
