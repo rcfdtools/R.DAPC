@@ -39,6 +39,9 @@ El uso de software de automatización de tareas repetitivas o complejas, como sc
 En resumen, las herramientas computacionales son elementos clave para la productividad, la innovación, el trabajo con enfoque colaborativo y la eficiencia en una amplia gama de aplicaciones profesionales. 
 
 
+Los comandos asociados directamente al teclado en AutoCAD son los siguientes:
+
+<div align="center"><img src="graph/autocad-shortcut_1350x1080_2.jpg" alt="R.DAPC" width="100%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/shortcuts/autocad">https://www.autodesk.com/shortcuts/autocad</a></sub><br><br></div>
 
 
 
