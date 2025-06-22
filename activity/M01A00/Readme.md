@@ -189,6 +189,16 @@ Especificaciones:
 
 ## 5. Uso de comandos
 
+1. La creación de líneas puede ser realizada a través del comando _**LINE**_ que puede ser ingresado desde el _Command_ ubicado en la parte inferior del espacio de trabajo o con el comando abreviado _**L**_. Por ejemplo, para la creación de una línea a 45 grados entre las coordenadas absolutas (250,250) y (550,550) cuyo desplazamiento horizontal y vertical es de 300 metros, podemos utilizar el siguiente comando:
+
+```
+LINE
+250,250
+550,550
+```
+
+
+
 
 
 2. Para el trazado usando secuencias de comandos, crearemos 4 
