@@ -172,9 +172,9 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 <div align="center"><img src="graph/AutoCAD_Line3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio #0001
+### Ejercicio #M01A01E01
 
-Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A00_Ejercicio0001.dwg_.
+Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A01E01.dwg_.
 
 <div align="center"><img src="graph/M01A00_Ejercicio0001.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen tomada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
@@ -199,15 +199,34 @@ LINE
 550,550
 
 ```
+
 > Al insertar un espacio en blanco al final de las 3 sentencias utilizadas, estará ejecutando la tecla <kbd>enter</kbd> que completará la creación de la línea.
 
 <div align="center"><img src="graph/AutoCAD_Line4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Para el trazado usando secuencias de comandos, crearemos 4 
+2. Para el trazado de una figura compuesta por 4 líneas, p. ej. un cuadrado de 500 metros con origen en la coordenada absoluta (250,150), podremos usar la siguiente secuencia.
+
+```
+LINE
+750,150
+1250,150
+1250,650
+750,650
+750,150
+
+```
+
+<div align="center"><img src="graph/AutoCAD_Line5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+### Ejercicio #M01A01E02
 
-Los comandos asociados directamente al teclado en AutoCAD son los siguientes:
+Aplicando los conceptos aprendidos, cree la secuencia para la construcción de la figura presentada en el Ejercicio M01A01E02, guarde la secuencia en _/file/report/M01A01E02.txt_.
+
+
+## 3. Comandos asociados directamente al teclado
+
+Para facilitar la creación de dibujos, varios de los comandos de AutoCAD están asociados al teclado, como se muestra en la siguiente ilustración.
 
 <div align="center"><img src="graph/autocad-shortcut_1350x1080_2.jpg" alt="R.DAPC" width="90%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/shortcuts/autocad">https://www.autodesk.com/shortcuts/autocad</a></sub><br><br></div>
 
