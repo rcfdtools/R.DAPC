@@ -37,6 +37,7 @@ Otras normas técnicas y referencias
 ## CAD
 
 * https://help.autodesk.com/view/ACD/2026/ESP/
+* https://www.autodesk.com/shortcuts/autocad
 * https://www.bibliocad.com/
 * [AIA_CADLayerGuidelines_v5.pdf](https://facilities.duke.edu/sites/default/files/AIA%20CAD%20Layer%20Guidelines.pdf) 
 * [Neuferet](https://ia800205.us.archive.org/23/items/neufert_202402/NEUFERT.pdf) 

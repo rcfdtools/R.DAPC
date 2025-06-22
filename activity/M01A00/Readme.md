@@ -1,16 +1,18 @@
-# Plantilla para actividades
+# 1.1. Conceptos básicos de diseño asistido por computador - CAD
 Keywords: `realigment`  `m01a00`
 
-xxxxxxxxxxxxxxxxxxxxxxxxxx
+Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 
 <div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
-
-<div align="center"><img src="graph/Gravity_anomalies_on_Earth.jpg" alt="R.DAPC" width="60%" border="0" /><sub><br>Tomado de: <a href="Public Domain, https://commons.wikimedia.org/w/index.php?curid=479365">https://commons.wikimedia.org</a></sub><br><br></div>
 
 
 ## Objetivos
 
-* 
+Al finalizar esta unidad el estudiante:
+
+* Realiza ejercicios de práctica en los que demuestra que puede iniciar un dibujo nuevo
+* Realizar configuraciones básicas
+* Identificar comandos y utilizar cuadros de diálogo en CAD. 
 
 
 ## Requerimientos
@@ -22,21 +24,23 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                                           | Descripción                                                                                                                      |
 |:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                       | Autodesk Autocad 3D 2026 o superior.                                                                                             |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)                                         | Autodesk Revit 2026 o superior.                                                                                                  |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365.                                                                                                             |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                       | Microsoft Word 365.                                                                                                              |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                  | Notepad++.                                                                                                                       |
-| [:toolbox:Herramienta](https://qgis.org/)                                                               | QGIS 3.42 o superior.                                                                                                            |
-| [:notebook:Lectura](R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf)                                   | Factor de atenuación de la precipitación por área simultánea.                                                                    |
-| [:open_file_folder:R.HydroTools.FactorAtenuacion PrecipitacionFa.xlsx](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca.  |
-| [:round_pushpin:R.DAPC.NodoValle.shp](../../file/shp/R.DAPC.NodoValle.zip)                              | Capa de nodos eje valle recto (creada en actividad anterior).                                                                    |
 
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## Procedimiento general
+## 1. Usos y aplicaciones de herramientas computacionales
+
+Las herramientas computacionales abarcan una amplia gama de aplicaciones en diversos campos, desde la gestión de datos en proyectos de ingeniería hasta la creación de modelos y la automatización de procesos. Estas herramientas, ya sean hardware (equipos) o software (programas), simplifican tareas, mejoran la eficiencia y facilitan la innovación en diferentes áreas. 
+
+El uso de software de automatización de tareas repetitivas o complejas, como scripts y macros, liberan tiempo para actividades estratégicas de un proyecto.
+
+En resumen, las herramientas computacionales son elementos clave para la productividad, la innovación, el trabajo con enfoque colaborativo y la eficiencia en una amplia gama de aplicaciones profesionales. 
+
+
+
+
 
 
 
@@ -70,8 +74,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.06.12 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   8   |
-| 2014.01.11 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  18   |
+| 2025.06.22 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  18   |
 
 
 ##
