@@ -3,7 +3,7 @@ Keywords: `realigment`  `m01a00`
 
 Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 
-<div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="file/graph/M01A00.png" alt="R.SIGE" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/470770e00e95fe53">https://gemini.google.com</a></sub><br><br></div>
 
 
 ## Objetivos
@@ -39,7 +39,7 @@ En resumen, las herramientas computacionales son elementos clave para la product
 
 Los comandos asociados directamente al teclado en AutoCAD son los siguientes:
 
-<div align="center"><img src="graph/autocad-shortcut_1350x1080_2.jpg" alt="R.DAPC" width="100%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/shortcuts/autocad">https://www.autodesk.com/shortcuts/autocad</a></sub><br><br></div>
+<div align="center"><img src="graph/autocad-shortcut_1350x1080_2.jpg" alt="R.DAPC" width="90%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/shortcuts/autocad">https://www.autodesk.com/shortcuts/autocad</a></sub><br><br></div>
 
 > Consulte la lista completa de los comandos de AutoCAD.
 
