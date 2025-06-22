@@ -37,6 +37,21 @@ Las herramientas computacionales abarcan una amplia gama de aplicaciones en dive
 En resumen, las herramientas computacionales son elementos clave para la productividad, la innovación, el trabajo con enfoque colaborativo y la eficiencia en una amplia gama de aplicaciones profesionales. 
 
 
+## 2. Primeros pasos en AutoCAD y configuración general
+
+Antes de iniciar con el uso de herramientas computacionales en los campos de la ingeniería, es recomendable definir la siguiente configuración regional de su sistema operativo:
+
+En Microsoft Windows y desde el menú _Inicio_, acceda al _Panel de Control (Control Panel)_ y diríjase a la opción _Region_.
+
+<div align="center"><img src="graph/MicrosoftWindows_ControlPanel.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+
+
+> El uso de la notación numérica del sistema inglés, facilitará el intercambio de datos entre sistemas CAD y sistemas GIS, además de otras herramientas de modelado cuyos núcleos de ejecución utilizan este sistema.
+
+
+## 3. Uso de comandos
+
 Los comandos asociados directamente al teclado en AutoCAD son los siguientes:
 
 <div align="center"><img src="graph/autocad-shortcut_1350x1080_2.jpg" alt="R.DAPC" width="90%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/shortcuts/autocad">https://www.autodesk.com/shortcuts/autocad</a></sub><br><br></div>
