@@ -39,7 +39,7 @@ En resumen, las herramientas computacionales son elementos clave para la product
 
 ## 2. Primeros pasos en AutoCAD y configuración general
 
-Antes de iniciar con el uso de herramientas computacionales en los campos de la ingeniería, es recomendable definir la siguiente configuración regional de su sistema operativo:
+1. Antes de iniciar con el uso de herramientas computacionales en los campos de la ingeniería, es recomendable definir la siguiente configuración regional de su sistema operativo:
 
 > El uso de la notación numérica del sistema inglés, facilitará el intercambio de datos entre sistemas CAD y sistemas GIS, además de otras herramientas de modelado cuyos núcleos de ejecución utilizan este sistema.
 
@@ -58,6 +58,12 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 > Si bien, la notación numérica en Colombia utiliza comas como separador decimal y punto como separador de miles, es recomendable configurar el sistema operativo con la notación indicada y dentro de AutoCAD establecer antes de la impresión definitiva de planos de proyecto, la notación a utilizar.
 
+2. Desde el menú _Inicio_ de Windows, ingrese a AutoCAD.
+
+
+
+
+
 
 ## 3. Uso de comandos
 
@@ -65,7 +71,7 @@ Los comandos asociados directamente al teclado en AutoCAD son los siguientes:
 
 <div align="center"><img src="graph/autocad-shortcut_1350x1080_2.jpg" alt="R.DAPC" width="90%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/shortcuts/autocad">https://www.autodesk.com/shortcuts/autocad</a></sub><br><br></div>
 
-> Consulte la lista completa de los comandos de AutoCAD.
+> Consulte la lista completa de los [comandos de AutoCAD](https://www.autodesk.com/shortcuts/autocad).
 
 
 
