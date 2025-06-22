@@ -176,7 +176,7 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 
 Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A00_Ejercicio0001.dwg_.
 
-<div align="center"><img src="graph/M01A00_Ejercicio0001.jpg.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/M01A00_Ejercicio0001.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 Especificaciones:
 
