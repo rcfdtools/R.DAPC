@@ -146,11 +146,11 @@ Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en Exce
 
 5. Como observó, AutoCAD permite trazar líneas utilizando localizaciones manuales en pantalla, sin embargo, para el trazado de dibujos con precisión, podemos utilizar las coordenadas absolutas o relativas.
 
-| Entrada               | Descripción                                                                                                          |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------|
-| Manual                | Dando clic en el espacio de dibujo.                                                                                  |
-| Coordenadas absolutas | Ingresando valores desde el Command.                                                                                 |
-| Coordenadas relativas | Ingresando valores desde el Command utilizando el símbolo @. Es requerido un nodo previo en una línea o un polígono. |
+| Entrada               | Descripción                                                                                                            |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------|
+| Manual                | Dando clic en el espacio de dibujo.                                                                                    |
+| Coordenadas absolutas | Ingresando valores desde el Command.                                                                                   |
+| Coordenadas relativas | Ingresando valores desde el Command utilizando el símbolo @<br><br>Es requerido un nodo previo en una línea o un polígono. |
 
 Tracemos una línea horizontal de 2500 metros desde la coordenada X = 0 metros, Y = 0 metros hasta la coordenada X = 2500 metros, Y = 0 metros. Seleccione la herramienta _Line_, en el Command ingrese las coordenadas absolutas del punto inicial 0,0 y luego las coordenadas del punto final 2500,0 y presione la tecla <kbd>enter</kbd>. Para finalizar la creación, presione la tecla <kbd>enter</kbd>.
 
