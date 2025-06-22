@@ -186,6 +186,8 @@ Especificaciones:
 * El nodo de inicio asignado deberá corresponder con la esquina superior más a la izquierda (nodo azul) donde se encuentra el tramo de 15 metros.
 * Para verificar el correcto trazado, la figura tiene un Área de 2190 m² y Perímetro de 328.396 metros.
 
+> La medición del área y perímetro de la figura puede ser realizada desde el menú _Home / Utilities / Measure_.
+
 
 ## 5. Uso de comandos
 
@@ -195,8 +197,11 @@ Especificaciones:
 LINE
 250,250
 550,550
-```
 
+```
+> Al insertar un espacio en blanco al final de las 3 sentencias utilizadas, estará ejecutando la tecla <kbd>enter</kbd> que completará la creación de la línea.
+
+<div align="center"><img src="graph/AutoCAD_Line4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
