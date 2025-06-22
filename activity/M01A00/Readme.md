@@ -24,6 +24,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                                           | Descripción                                                                                                                      |
 |:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                       | Autodesk Autocad 3D 2026 o superior.                                                                                             |
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365.                                                                                                             |
 
 </div>
 
@@ -135,6 +136,12 @@ AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran di
 
 <div align="center"><img src="graph/AutoCAD_Properties.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en Excel manualmente la longitud de la línea a partir de las coordenadas de sus nodos inicio - fin y compare con el valor obtenido en AutoCAD.
+
+L = √((CXStart - CXEnd)² + (CYStart - CYEnd)²)
+
+<div align="center"><img src="graph/Excel_Pitagoras.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+
 4. En la cinta de opciones superior, de clic en el botón guardar y almacene el archivo como _/file/cad/M01A00.dwg_. Utilizando la rueda del Mouse, acérquese (rueda hacia arriba), aléjese (rueda hacia abajo) y desplace el dibujo (rueda pulsada y desplazamiento del mouse).
 
 5. Como observó, AutoCAD permite trazar líneas utilizando localizaciones manuales en pantalla, sin embargo, para el trazado de dibujos con precisión, podemos utilizar las coordenadas absolutas o relativas.
@@ -145,10 +152,13 @@ AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran di
 | Coordenadas absolutas | Ingresando valores desde el Command.                                                                                 |
 | Coordenadas relativas | Ingresando valores desde el Command utilizando el símbolo @. Es requerido un nodo previo en una línea o un polígono. |
 
-Tracemos una línea horizontal de 2500 metros desde la coordenada X = 0 metros, Y = 0 metros hasta la coordenada X = 2500 metros, Y = 0 metros. Seleccione la herramienta _Line_, en el Command ingrese las coordenadas absolutas del punto inicial 0,0 y luego las coordenadas del punto final 2500,0 y presione la tecla <kbd>enter</kbd>.
+Tracemos una línea horizontal de 2500 metros desde la coordenada X = 0 metros, Y = 0 metros hasta la coordenada X = 2500 metros, Y = 0 metros. Seleccione la herramienta _Line_, en el Command ingrese las coordenadas absolutas del punto inicial 0,0 y luego las coordenadas del punto final 2500,0 y presione la tecla <kbd>enter</kbd>. Para finalizar la creación, presione la tecla <kbd>enter</kbd>.
 
 <div align="center"><img src="graph/AutoCAD_Line1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+Consulte las propiedades de la línea, observará que su longitud es 2500 metros con un ángulo de 0 grados.
+
+<div align="center"><img src="graph/AutoCAD_Line2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 

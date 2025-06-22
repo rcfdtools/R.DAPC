@@ -1,12 +1,21 @@
 Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7: 
 	Create an image of computer assisted drawing building sketch in electrical engineering.
 	Create an image of computer assisted drawing building 3D sketch in electrical engineering.
+
+
+Δ°Σβθαπ∑√
+<kbd>esc</kbd>
+<kbd>enter</kbd>
+
+Windows + Shift + S for print screen
 	
 Practical exercices
 	With arrays determinte separation between elements.
 	With measure calculated perimeters, lengths, areas.
 	Crear plantilla con capas tipo.
-	Creación de bloques (fijos y dinámicos).
+	Creación de bloques (fijos y dinámicos). Usar especificaciones reglamento RETIE.
+	Crear toma levinton con caja.
+	Esquema NTC2050 pag 349
 	Samples: D:\Autodesk\AutoCAD 2026\Sample\en-us
 	External references.
 
@@ -14,4 +23,20 @@ https://www.youtube.com/watch?v=2LumoE9KjoY
 3:03
 
 Commands
-	MIRRTEXT: use zero for not mirror text
+	UNITS: units parameters
+	PTYPE: define the point type representation in the draw.
+	MIRRTEXT: use zero for not mirror text.
+	LTSCALE: change the drawing scale for lines.
+	REGEN: regenerates the entire draw.
+	REDRAW: refreshes the display in the current viewport.
+	TXT2MTXT: convert separate text into multiline text.
+	LAYER: abre el panel de capas.
+
+Layers curso
+	0
+	Texto
+	Dimensión
+	Eje
+	Objeto
+	Contorno
+	
