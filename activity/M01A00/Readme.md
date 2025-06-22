@@ -71,14 +71,15 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 4. Explore el espacio de trabajo, podrá observar lo siguiente:
 
 * En la parte superior se encuentra la cinta de opciones que dinámicamente es asociada a cada uno de los menús visibles en AutoCAD.
-* En la parte central se encuentra el espacio de dibujo o _Model_ que inicialmente presenta visible la grilla de referencia de dibujo. Observará además en la parte superior derecha el visualizador del sistema global de coordenadas correspondiente a la vista superior (Top) del dibujo y en la parte inferior izquierda el actual sistema de coordenadas correspondiente al plano XY.
-* En la parte inferior del espacio de dibujo encontrará la barra de comandos o _Command_ que le permitirá ejecutar acciones sin tener que usar la cinta superior.
-* En la parte inferior y debajo del espacio de dibujo encontrará una barra con las pestañas del espacio de modelado, hojas de impresión y herramientas de ayuda para facilitar el trazado de dibujos con precisión.
+* En la parte central se encuentra el espacio de dibujo o _Model_ que inicialmente presenta visible la grilla de referencia de dibujo. Observará además en la parte superior derecha, el visualizador del sistema global de coordenadas correspondiente a la vista superior (Top) del dibujo y en la parte inferior izquierda, el actual sistema de coordenadas correspondiente al plano XY. En la parte inferior del espacio de dibujo encontrará la barra de comandos o _Command_, que le permitirá ejecutar acciones sin tener que usar la cinta superior.
+* En la parte inferior y debajo del espacio de dibujo encontrará una barra con las pestañas del espacio de modelado, hojas de impresión y herramientas adicionales para facilitar el trazado de dibujos con precisión.
 
 <div align="center"><img src="graph/AutoCAD_Drawing1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+5. Desde el botón _AutoCAD / Drawing Utilities / Units_, defina las unidades de longitud en _Decimal_, ángulos en _Grads_, precisión usando dos decimales y unidades de escala para inserción de elementos externos (tales como bloques) en milímetros.    
 
-
+<div align="center"><img src="graph/AutoCAD_Units.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Units1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## 3. Uso de comandos
