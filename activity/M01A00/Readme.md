@@ -120,7 +120,7 @@ El punto, la línea y el polígono son los elementos geométricos básicos con l
 
 Para el dibujo de elementos cuando utiliza el Mouse, por defecto se pueden realizar las siguientes acciones:
 
-<div align="center"><img src="graph/M01A00_Mouse.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/M01A00_Mouse.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 :blue_heart: Al ampliar o reducir el zoom con la rueda del mouse, la ubicación del cursor es importante. Puede considerar el cursor como una lupa., p. ej. si coloca el cursor en el área superior derecha del área de dibujo, se amplía esa área sin cambiar su posición.
 
