@@ -29,7 +29,53 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## Procedimiento general
+## 1. Creación y manejo de capas (layers)
+
+En AutoCAD, una capa (o layer) es una herramienta de organización que permite agrupar objetos por función o tipo, facilitando la gestión y visualización de dibujos complejos. Piense en capas como hojas transparentes o papeles calcantes donde cada capa contiene un conjunto específico de elementos. Esto ayuda a controlar la visibilidad, el color, el tipo de línea y otras propiedades de los objetos de manera eficiente. Por defecto, todo dibujo nuevo de AutoCAD es creado incluyendo una capa denominada cero (0).
+
+La creación de capas puede obedecer a nombres propios con los que el usuario está familiarizado (p. ej., Dimension, Objeto, Eje, Lote, Circuito, Achurado, Contorno, Edificio, Instalacion), sin embargo, para la creación profesional de proyectos, se recomienda seguir estándares de creación y nombramiento de capas.
+
+Para este ejercicio, utilizaremos como referencia las especificaciones del [United States National CAD Stardard - v5](https://facilities.duke.edu/sites/default/files/AIA%20CAD%20Layer%20Guidelines.pdf) del [National Institute of Building Sciences](https://nibs.org/), en los que se encuentran las codificaciones para nombres de elementos.
+
+Para la designación de disciplinas, utilizaremos los siguientes prefijos:
+
+| Prefijo  | Disciplina (en)            | Disciplina (es)                |
+|:--------:|:---------------------------|:-------------------------------|
+|    A     | Architectural              | Arquitectura                   |
+|    B     | Geotechnical               | Geotecnia                      |
+|    C     | Civil                      | Civil                          |
+|    D     | Process                    | Procesos                       |
+|    E     | Electrical                 | Electricidad                   |
+|    F     | Fire Protection            | Protección contra incendios    |
+|    G     | General                    | General                        |
+|    H     | Hazardous Materials        | Materiales peligrosos          |
+|    I     | Interiors                  | Interiores                     |
+|    L     | Landscape                  | Paisajismo                     |
+|    M     | Mechanical                 | Mecánica                       |
+|    O     | Operations                 | Operaciones                    |
+|    P     | Plumbing                   | Fontanería                     |
+|    Q     | Equipment                  | Equipos                        |
+|    R     | Resource                   | Recursos                       |
+|    S     | Structural                 | Estructura                     |
+|    T     | Telecommunications         | Telecomunicaciones             |
+|    V     | Survey / Mapping           | Topografía / Cartografía       |
+|    W     | Distributed Energy         | Energía distribuida            |
+|    X     | Other Disciplines          | Otras disciplinas              |
+|    Z     | Contractor / Shop Drawings | Contratista / Planos de taller |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -55,7 +101,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
-* https://www.andresdeltoro.es/realizar-una-linea-poligonal-autocad-conociendo-los-angulos/
 * [Draw parabola in AutoCAD](https://www.youtube.com/watch?v=h8pjymm-A5I)
 
 
