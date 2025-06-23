@@ -266,10 +266,48 @@ Para facilitar la creación de dibujos, varios de los comandos de AutoCAD están
 
 <div align="center"><img src="graph/autocad-shortcut_1350x1080_2.jpg" alt="R.DAPC" width="90%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/shortcuts/autocad">https://www.autodesk.com/shortcuts/autocad</a></sub><br><br></div>
 
-> Consulte la lista completa de lo [comandos de AutoCAD](https://www.autodesk.com/shortcuts/autocad).
+> Consulte aquí la lista completa de [comandos de AutoCAD](https://www.autodesk.com/shortcuts/autocad).
 
 
-## 5. Uso de grillas de referencia y encajado de elementos
+## 5. Uso de grillas de referencia, encajado de elementos y asistencia de dibujo
+
+Herramientas complementarias facilitan el dibujo de elementos geométricos con precisión, estas herramientas se encuentran localizadas en la parte inferior de la pantalla o pueden ser activados a partir de teclas de funciones.
+
+<div align="center"><img src="graph/AutoCAD_DrawingAssistedTools.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+| Ícono                                                                              | Herramienta           | Atajo                         | Descripción                                                              |
+|------------------------------------------------------------------------------------|-----------------------|-------------------------------|--------------------------------------------------------------------------|
+| <img src="graph/AutoCAD_ToolCoordinates.jpg" alt="R.DAPC" width="50" border="0" /> | Coordinates           | <kbd>esc</kbd> + <kbd>i</kbd> | Activa la visualización de posición del cursor en el espacio de trabajo. |
+|                                                                                    | Model Space           |                               |                                                                          |
+|                                                                                    | Grid                  |                               |                                                                          |
+|                                                                                    | Snap Mode             |                               |                                                                          |
+|                                                                                    | Infer Constraints     |                               |                                                                          |
+|                                                                                    | Dynamic Input         |                               |                                                                          |
+|                                                                                    | Ortho Mode            |                               |                                                                          |
+|                                                                                    | Polar Tracking        |                               |                                                                          |
+|                                                                                    | Isometric Drafting    |                               |                                                                          |
+|                                                                                    | Object Snap Tracking  |                               |                                                                          |
+|                                                                                    | 2D Object Snap        |                               |                                                                          |
+|                                                                                    | LineWeight            |                               |                                                                          |
+|                                                                                    | Transparency          |                               |                                                                          |
+|                                                                                    | Selection Cycling     |                               |                                                                          |
+|                                                                                    | 3D Object Snap        |                               |                                                                          |
+|                                                                                    | Dynamic UCS           |                               |                                                                          |
+|                                                                                    | Selection Filtering   |                               |                                                                          |
+|                                                                                    | Gizmo                 |                               |                                                                          |
+|                                                                                    | Annotation Visibility |                               |                                                                          |
+|                                                                                    | AutoScale             |                               |                                                                          |
+|                                                                                    | Annoattion Scale      |                               |                                                                          |
+|                                                                                    | Workspace Switching   |                               |                                                                          |
+|                                                                                    | Annotation Monitor    |                               |                                                                          |
+|                                                                                    | Units                 |                               |                                                                          |
+|                                                                                    | Quick Properties      |                               |                                                                          |
+|                                                                                    | Lock UI               |                               |                                                                          |
+|                                                                                    | Isolate Objects       |                               |                                                                          |
+|                                                                                    | Graphics Performance  |                               |                                                                          |
+|                                                                                    | Clean Screen          |                               |                                                                          |
+|                                                                                    |                       |                               |                                                                          |
+
 
 1. El comando **GRID**, 
 
