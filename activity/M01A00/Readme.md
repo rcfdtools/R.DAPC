@@ -246,7 +246,7 @@ LINE
 
 ```
 
-> :idea: Para evitar la escritura de la letra **d** en la definición de ángulos, en las unidades de AutoCAD puede establecer grados decimales.
+> :bulb: Para evitar la escritura de la letra **d** en la definición de ángulos, en las unidades de AutoCAD puede establecer grados decimales.
 
 
 ### Ejercicio #M01A01E02
