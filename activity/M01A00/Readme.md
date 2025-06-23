@@ -269,7 +269,7 @@ Para facilitar la creación de dibujos, varios de los comandos de AutoCAD están
 > Consulte aquí la lista completa de [comandos de AutoCAD](https://www.autodesk.com/shortcuts/autocad).
 
 
-## 5. Uso de grillas de referencia, encajado de elementos y asistencia de dibujo
+## 5. Uso de grillas de referencia, encajado de elementos y asistentes de dibujo
 
 Herramientas complementarias facilitan el dibujo de elementos geométricos con precisión, estas herramientas se encuentran localizadas en la parte inferior de la pantalla o pueden ser activados a partir de teclas de funciones.
 
