@@ -29,7 +29,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 1. Creación y manejo de capas (layers)
+## 1. Normas para nombramiento de capas (layers)
 
 En AutoCAD, una capa (o layer) es una herramienta de organización que permite agrupar objetos por función o tipo, facilitando la gestión y visualización de dibujos complejos. Piense en capas como hojas transparentes o papeles calcantes donde cada capa contiene un conjunto específico de elementos. Esto ayuda a controlar la visibilidad, el color, el tipo de línea y otras propiedades de los objetos de manera eficiente. Por defecto, todo dibujo nuevo de AutoCAD es creado incluyendo una capa denominada cero (0).
 
@@ -739,7 +739,6 @@ Por ejemplo: **A-WALL-FULL-TEXT-N** representa los textos de anotación de los m
 | C□-WWAY-FEND      | Waterway: fender                                                    | Vía fluvial: defensa                                                          |
 | C□-WWAY-MOOR      | Waterway: mooring                                                   | Vía fluvial: amarre                                                           |
 
-
 </div>
 
 **En Electricidad:**
@@ -749,6 +748,15 @@ Por ejemplo: **A-WALL-FULL-TEXT-N** representa los textos de anotación de los m
 
 
 </div>
+
+
+## 2. Creación y manejo de capas (layers) en AutoCAD
+
+
+
+
+
+
 
 
 
