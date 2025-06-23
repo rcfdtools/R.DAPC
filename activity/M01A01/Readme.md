@@ -69,26 +69,76 @@ Para la designación de disciplinas, utilizaremos los siguientes prefijos:
 
 </div>
 
+Por ejemplo: **A**, representa la disciplina de arquitectura.
+
 
 ### Designación de prefijos por disciplina - Nivel 2
 
-El nivel dos, es un caracter opcional que es usado para definir la característica de las disciplina, por ejemplo para arquitectura:
+El nivel dos, es un caracter opcional que se coloca a la derecha del caracter de nivel 1, y es usado para definir la característica de las disciplinas, por ejemplo, para arquitectura, civil y electricidad:
 
-| Designador  | Descripción (en)         | Descripción (es)           |
-|:-----------:|:-------------------------|:---------------------------|
-|      **A**      | **Architectural**            | **Arquitectura**               |
-|     AD      | Architectural Demolition | Demolición arquitectónica  |
-|     AE      | Architectural Elements   | Elementos arquitectónicos  |
-|     AF      | Architectural Finishes   | Acabados arquitectónicos   |
-|     AG      | Architectural Graphics   | Gráficos arquitectónicos   |
-|     AI      | Architectural Interiors  | Interiores arquitectónicos |
-|     AJ      | User Defined             | Definido por el usuario    |
-|     AK      | User Defined             | Definido por el usuario    |
-|     AS      | Architectural Site       | Sitio arquitectónico       |
+| Designador | Descripción (en)              | Descripción (es)               |
+|:----------:|:------------------------------|:-------------------------------|
+|   **A**    | **Architectural**             | **Arquitectura**               |
+|     AD     | Architectural Demolition      | Demolición arquitectónica      |
+|     AE     | Architectural Elements        | Elementos arquitectónicos      |
+|     AF     | Architectural Finishes        | Acabados arquitectónicos       |
+|     AG     | Architectural Graphics        | Gráficos arquitectónicos       |
+|     AI     | Architectural Interiors       | Interiores arquitectónicos     |
+|     AJ     | User Defined                  | Definido por el usuario        |
+|     AK     | User Defined                  | Definido por el usuario        |
+|     AS     | Architectural Site            | Sitio arquitectónico           |
+|  **C**     | **Civil**                     | **Civil**                      |
+|     CD     | Civil Demolition              | Demolición Civil               |
+|     CG     | Civil Grading                 | Nivelación Civil               |
+|     CI     | Civil Improvements            | Mejoras Civiles                |
+|     CJ     | User Defined                  | Definido por el Usuario        |
+|     CK     | User Defined                  | Definido por el Usuario        |
+|     CN     | Civil Nodes                   | Nudos Civiles                  |
+|     CP     | Civil Paving                  | Pavimentación Civil            |
+|     CS     | Civil Site                    | Sitio Civil                    |
+|     CT     | Civil Transportation          | Transporte Civil               |
+|     CU     | Civil Utilities               | Servicios Civiles              |
+|   **E**    | **Electrical**                | **Electricidad**               |
+|     ED     | Electrical Demolition         | Demolición eléctrica           |
+|     EI     | Electrical Instrumentation    | Instrumentación eléctrica      |
+|     EJ     | User Defined                  | Definido por el usuario        |
+|     EK     | User Defined                  | Definido por el usuario        |
+|     EL     | Electrical Lighting           | Iluminación eléctrica          |
+|     EP     | Electrical Power              | Energía eléctrica              |
+|     ES     | Electrical Site               | Sitio eléctrico                |
+|     ET     | Electrical Telecommunications | Telecomunicaciones eléctricas  |
+|     EY     | Electrical Auxiliary Systems  | Sistemas auxiliares eléctricos |
+
+Por ejemplo: **AD**, representa una demolición arquitectónica.
 
 
+### Grupo mayor y grupo menor
 
+Seguido al nivel dos y separando con un guion, se definen los nombres de los grupos mayores contenidos en cada disciplina, se debe utilizar como máximo 4 caracteres para su abreviación y se pueden incluir subgrupos de la misma longitud.
 
+Por ejemplo: **A-WALL**, representa muros arquitectónicos.
+
+El uso de grupos menores es opcional y se pueden definir un segundo subnivel.
+
+Por ejemplo: **A-WALL-FULL**, representa muros arquitectónicos completos de piso a techo y **A-WALL-FULL-TEXT** representa los textos de anotación de los muros arquitectónicos completos de piso a techo.
+
+### Estado o fase
+
+Un último caracter, permite establecer el estado del elemento que se está representando en la capa.
+
+|  Estado  | Descripción (en)     | Descripción (es)         |
+|:--------:|:---------------------|:-------------------------|
+|    A     | Abandoned            | Abandonado               |
+|    D     | Existing to demolish | Existente para demoler   |
+|    E     | Existing to remain   | Existente para conservar |
+|    ß     | Future work          | Trabajo futuro           |
+|    M     | Items to be moved    | Artículos a trasladar    |
+|    N     | New work             | Trabajo nuevo            |
+|    T     | Temporary work       | Trabajo temporal         |
+|    X     | Not in contract      | Sin contrato             |
+|   1-9    | Phase numbers        | Número de fase           |
+
+Por ejemplo: **A-WALL-FULL-TEXT-N** representa los textos de anotación de los muros arquitectónicos completos de piso a techo que han sido proyectados a futuro.
 
 
 
