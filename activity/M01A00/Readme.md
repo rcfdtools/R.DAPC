@@ -311,6 +311,10 @@ Listado de herramientas complementarias.
 |                                              <img src="graph/AutoCAD_ToolGraphicsPerformance.jpg" alt="R.DAPC" height="28" border="0" />                                              | Graphics Performance  |                    GRAPHICSCONFIG                    | Permite cambiar la configuración de rendimiento de los gráficos o tarjeta gráfica del equipo.                                                                                                                                           |
 |                                                  <img src="graph/AutoCAD_ToolCleanScreen.jpg" alt="R.DAPC" height="28" border="0" />                                                  | Clean Screen          |     <kbd>ctrl</kbd>+<kbd>0</kbd> <br>CLEANSCREEN     | Permite visualizar AutoCAD en pantalla completa.                                                                                                                                                                                        |
 
+Para practicar estas herramientas, construiremos el siguiente dibujo isométrico a partir de líneas.
+
+
+
 1. El comando **GRID**, 
 
 
