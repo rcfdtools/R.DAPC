@@ -349,10 +349,102 @@ Un último caracter, permite establecer el estado del elemento que se está repr
 Por ejemplo: **A-WALL-FULL-TEXT-N** representa los textos de anotación de los muros arquitectónicos completos de piso a techo que han sido proyectados a futuro.
 
 
+### Nombres comunes de capas por disciplina
+
+> El símbolo □, representa la designación de nivel 2.
+
+**En Arquitectura:**
+
+<div align="center">
+
+| Layer name        | Descripción (en)                                                         | Descripción (es)                                                          |
+|-------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| A□-AREA           | Area                                                                     | Área                                                                      |
+| A□-AREA-OCCP      | Area: occupant or employee names                                         | Área: nombres de ocupantes o empleados                                    |
+| A□-BARR           | Barrier                                                                  | Barrera                                                                   |
+| A□-BARR-AIR~      | Barrier: air                                                             | Barrera: aire                                                             |
+| A□-CLNG           | Ceiling                                                                  | Techo                                                                     |
+| A□-CLNG-ACCS      | Ceiling: access                                                          | Techo: acceso                                                             |
+| A□-CLNG-GRID      | Ceiling: grid                                                            | Techo: rejilla                                                            |
+| A□-CLNG-OPNG      | Ceiling: openings                                                        | Techo: aberturas                                                          |
+| A□-CLNG-SUSP      | Ceiling: suspended elements                                              | Techo: elementos suspendidos                                              |
+| A□-CLNG-TEES      | Ceiling: main tees                                                       | Techo: tes principales                                                    |
+| A□-COLS           | Columns                                                                  | Columnas                                                                  |
+| A□-CONV           | Conveying systems                                                        | Sistemas de transporte                                                    |
+| A□-DOOR           | Doors                                                                    | Puertas                                                                   |
+| A□-DOOR-FULL      | Doors: full-height (swing and leaf)                                      | Puertas: altura completa (batientes y de hoja)                            |
+| A□-DOOR-PRHT      | Doors: partial-height (swing and leaf)                                   | Puertas: altura parcial (batientes y de hoja)                             |
+| A□-EQPM           | Equipment                                                                | Equipo                                                                    |
+| A□-EQPM-ACCS      | Equipment: access                                                        | Equipo: acceso                                                            |
+| A□-EQPM-FIXD      | Equipment: fixed                                                         | Equipo: fijo                                                              |
+| A□-EQPM-OVHD      | Equipment: overhead                                                      | Equipo: suspendido                                                        |
+| A□-FLOR           | Floor                                                                    | Piso                                                                      |
+| A□-FLOR-CSWK      | Floor: casework                                                          | Piso: carpintería                                                         |
+| A□-FLOR-EVTR      | Floor: elevator cars and equipment                                       | Piso: cabinas y equipo de ascensor                                        |
+| A□-FLOR-FIXT      | Floor: fixtures (plumbing)                                               | Piso: accesorios (fontanería)                                             |
+| A□-FLOR-HRAL      | Floor: handrails/guard rails                                             | Piso: pasamanos/barandillas                                               |
+| A□-FLOR-LEVL      | Floor: level changes (ramps, pits, depressions)                          | Piso: cambios de nivel (rampas, fosos, depresiones)                       |
+| A□-FLOR-OTLN      | Floor: outline                                                           | Piso: contorno                                                            |
+| A□-FLOR-OVHD      | Floor: overhead                                                          | Piso: suspendido                                                          |
+| A□-FLOR-RAIS      | Floor: raised                                                            | Piso: elevado                                                             |
+| A□-FLOR-RISR      | Floor: risers                                                            | Piso: contrahuellas                                                       |
+| A□-FLOR-SIGN      | Floor: signage                                                           | Piso: señalización                                                        |
+| A□-FLOR-SPCL      | Floor: specialties (toilet room accessories, display cases) A□-FLOR-STRS | Piso: artículos especiales (accesorios para baños, vitrinas) A□-FLOR-STRS |
+| A□-FLOR-TPTN      | Floor: toilet partitions                                                 | Suelo: mamparas de baño                                                   |
+| A□-FLOR-WDWK      | Floor: architectural woodwork                                            | Suelo: carpintería arquitectónica                                         |
+| A□-FURN           | Furnishings                                                              | Mobiliario                                                                |
+| A□-FURN-FILE      | Furnishings: file cabinets                                               | Mobiliario: archivadores                                                  |
+| A□-FURN-FIXD      | Furnishings: fixed                                                       | Mobiliario: fijo                                                          |
+| A□-FURN-FREE      | Furnishings: freestanding                                                | Mobiliario: independiente                                                 |
+| A□-FURN-PLNT      | Furnishings: plants                                                      | Mobiliario: plantas                                                       |
+| A□-FURN-PNLS      | Furnishings: system panels                                               | Mobiliario: paneles de sistema                                            |
+| A□-FURN-SEAT      | Furnishings: seating                                                     | Mobiliario: asientos                                                      |
+| A□-FURN-STOR      | Furnishings: storage (component system)                                  | Mobiliario: almacenamiento (sistema de componentes)                       |
+| A□-FURN-WKSF      | Furnishings: work surface (component system) A□-GLAZ                     | Mobiliario: superficie de trabajo (sistema de componentes) A□-GLAZ        |
+| A□-GLAZ-FULL      | Glazing: full-height                                                     | Acristalamiento: altura completa                                          |
+| A□-GLAZ-PRHT      | Glazing: partial-height                                                  | Acristalamiento: altura parcial                                           |
+| A□-GLAZ-SILL      | Glazing: window sills                                                    | Acristalamiento: alféizares de ventanas                                   |
+| A□-HVAC           | HVAC systems                                                             | Sistemas de climatización (HVAC)                                          |
+| A□-HVAC-RDFF      | HVAC systems: return air diffusers                                       | Sistemas de climatización (HVAC): difusores de aire de retorno            |
+| A□-HVAC-SDFF      | HVAC systems: supply diffusers                                           | Sistemas de climatización (HVAC): difusores de suministro                 |
+| A□-LITE           | Lighting                                                                 | Iluminación                                                               |
+| A□-ROOF           | Roof                                                                     | Techo                                                                     |
+| A□-ROOF-HRAL      | Roof: handrails/guard rails                                              | Techo: pasamanos/barandillas                                              |
+| A□-ROOF-LEVL      | Roof: level changes                                                      | Techo: cambios de nivel                                                   |
+| A□-ROOF-OTLN      | Roof: outline                                                            | Techo: contorno                                                           |
+| A□-ROOF-RISR      | Roof: risers                                                             | Techo: contrahuellas                                                      |
+| A□-ROOF-STRS      | Roof: stair treads (ladders)                                             | Techo: peldaños de escalera                                               |
+| A□-WALL           | Walls                                                                    | Paredes                                                                   |
+| A□-WALL-CAVI      | Walls: cavity                                                            | Paredes: cámara de aire                                                   |
+| A□-WALL-CNTR      | Walls: center                                                            | Paredes: centro                                                           |
+| A□-WALL-CURT      | Walls: curtain                                                           | Paredes: cortina                                                          |
+| A□-WALL-FIRE      | Walls: fire protection                                                   | Paredes: protección contra incendios                                      |
+| A□-WALL-FULL      | Walls: full-height                                                       | Paredes: Altura completa                                                  |
+| A□-WALL-FULL-EXTR | Walls: full-height: exterior A□-WALL-FULL-INTR                           | Paredes: altura completa: exterior A□-WALL-FULL-INTR                      |
+| A□-WALL-HEAD      | Walls: door and window headers                                           | Paredes: dintel de puertas y ventanas                                     |
+| A□-WALL-JAMB      | Walls: door and window jambs                                             | Paredes: jambas de puertas y ventanas                                     |
+| A□-WALL-MESH      | Walls: mesh or wire                                                      | Paredes: malla o alambre                                                  |
+| A□-WALL-MOVE      | Walls: moveable                                                          | Paredes: móviles                                                          |
+| A□-WALL-PATT      | Walls: texture and hatch patterns                                        | Paredes: textura y patrones de tramado                                    |
+| A□-WALL-PRHT      | Walls: partial-height                                                    | Paredes: altura parcial                                                   |
+
+</div>
+
+**En Ingeniería Civil:**
+
+<div align="center">
 
 
 
+</div>
 
+**En Electricidad:**
+
+<div align="center">
+
+
+
+</div>
 
 
 
