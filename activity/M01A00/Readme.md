@@ -116,8 +116,6 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 El punto, la línea y el polígono son los elementos geométricos básicos con los que podemos dibujar todas las figuras geométricas. Los límites de un polígono son sus líneas perimetrales y de las líneas los puntos en sus extremos. Los polígonos tienen dos dimensiones, las líneas una única dimensión y los puntos ninguna dimensión, que únicamente determinan un lugar.
 
-> Tenga en cuenta que el dibujo CAD, el orden de trazado de las líneas define su dirección vectorial.
-
 Para el dibujo de elementos cuando utiliza el Mouse, por defecto se pueden realizar las siguientes acciones:
 
 <div align="center"><img src="graph/M01A00_Mouse.jpg" alt="R.DAPC" width="50%" border="0" /></div>
@@ -127,6 +125,8 @@ Para el dibujo de elementos cuando utiliza el Mouse, por defecto se pueden reali
 AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran disponibles en el menú _Home_ dentro del grupo _Draw_. En esta actividad nos concentraremos en el uso de la línea o _Line_.
 
 1. Seleccione la herramienta _Line_ y trace una línea de izquierda a derecha en cualquier lugar del espacio de dibujo. Podrá observar que luego de establecer el nodo final, el puntero sigue solicitando la inserción de un nuevo nodo, para completar la línea oprima la tecla <kbd>esc</kbd>, de <kbd>enter</kbd> o utilice el clic derecho del Mouse y seleccione la opción _Enter_.
+
+> Tenga en cuenta que el dibujo CAD, el orden de trazado de las líneas define su dirección vectorial.
 
 <div align="center"><img src="graph/AutoCAD_Line.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
