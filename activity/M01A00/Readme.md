@@ -204,8 +204,11 @@ LINE
 
 <div align="center"><img src="graph/AutoCAD_Line4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Para el trazado de una figura compuesta por 4 líneas, p. ej. un cuadrado de 500 metros con origen en la coordenada absoluta (250,150), podremos usar la siguiente secuencia.
+2. Para el trazado de una figura compuesta por 4 líneas, p. ej. un cuadrado de 500 metros con origen en la coordenada absoluta (750,150), podremos usar la siguiente secuencia de posiciones absolutas o relativas.
 
+> Tenga en cuenta que la secuencia uttilizada para el comando _**LINE**_, crea 4 líneas independientes y no una poli-línea.
+
+Secuencia con coordenadas absolutas
 ```
 LINE
 750,150
@@ -215,15 +218,24 @@ LINE
 750,150
 
 ```
+
 <div align="center"><img src="graph/AutoCAD_Line5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+Secuencia con coordenadas relativas
+```
+LINE
+750,150
+@500,0
+@0,500
+@-500,0
+@0,-500
 
-> Tenga en cuenta que la secuencia uttilizada para el comando _**LINE**_, crea 4 líneas independientes y no una poli-línea.
+```
 
 
 ### Ejercicio #M01A01E02
 
-Aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas y otra con posiciones relativas) para la construcción de la figura presentada en el Ejercicio M01A01E02, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A01E02.txt_ y el dibujo en _/file/cad/M01A01E02.dwg_.
+Aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas y otra con posiciones relativas) para la construcción de la figura presentada en el Ejercicio M01A01E01, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A01E02.txt_ y el dibujo en _/file/cad/M01A01E02.dwg_.
 
 <div align="center"><img src="graph/AutoCAD_Line6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
