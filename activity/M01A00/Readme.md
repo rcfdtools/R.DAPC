@@ -148,7 +148,7 @@ Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en un [
 
 <div align="center">L = √((CXStart - CXEnd)² + (CYStart - CYEnd)²)</div><br>
 
-<div align="center"><img src="graph/Excel_Pitagoras.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/Excel_Pitagoras.jpg" alt="R.DAPC" width="50%" border="0" /></div>
 
 4. En la cinta de opciones superior, de clic en el botón guardar y almacene el archivo como _/file/cad/M01A00.dwg_. Utilizando la rueda del Mouse, acérquese (rueda hacia arriba), aléjese (rueda hacia abajo) y desplace el dibujo (rueda pulsada y desplazamiento del mouse).
 
@@ -242,13 +242,16 @@ Para crear una línea usando ángulos, p. ej. una línea a 45 grados con una lon
 ```
 LINE
 0,0
-50<45
+50<45d
 
 ```
 
+> :idea: Para evitar la escritura de la letra **d** en la definición de ángulos, en las unidades de AutoCAD puede establecer grados decimales.
+
+
 ### Ejercicio #M01A01E02
 
-Aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A01E02.txt_ y el dibujo en _/file/cad/M01A01E02.dwg_.
+**Parte A:** aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A01E02.txt_ y el dibujo en _/file/cad/M01A01E02.dwg_.
 
 <div align="center"><img src="graph/M01A01E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -272,6 +275,17 @@ LINE
 250,250
 
 ```
+
+**Parte B:** utilizando secuencias de comandos, cree los siguientes elementos:
+
+* Triángulo rectángulo de 50 metros de base por 20 metros de alto con orígen en la coordenada absoluta (400,250).
+* Triángulo equilátero de 50 metros de lado con orígen en la coordenada absoluta (500,250).
+* Triángulo rectángulo con área de 200 m² y con orígen en la coordenada absoluta (600,250).
+
+> Tenga en cuenta que la sumatoria interna de ángulos de un triángulo es de 180°.
+> 
+> Recuerde que si sus unidades angulares han sido establecidas en grados, deberá incluir la letra **d** luego del valor del ángulo requerido.
+
 
 ### Comandos asociados directamente al teclado
 
