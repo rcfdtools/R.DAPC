@@ -74,7 +74,9 @@ Por ejemplo: **A**, representa la disciplina de arquitectura.
 
 ### Designación de prefijos por disciplina - Nivel 2
 
-El nivel dos, es un caracter opcional que se coloca a la derecha del caracter de nivel 1, y es usado para definir la característica de las disciplinas, por ejemplo, para arquitectura, civil y electricidad:
+El nivel dos, es un caracter opcional que se coloca a la derecha del caracter de nivel 1, y es usado para definir la característica de las disciplinas, p. ej., para arquitectura, civil y electricidad:
+
+<div align="center">
 
 | Designador | Descripción (en)              | Descripción (es)               |
 |:----------:|:------------------------------|:-------------------------------|
@@ -109,12 +111,211 @@ El nivel dos, es un caracter opcional que se coloca a la derecha del caracter de
 |     ET     | Electrical Telecommunications | Telecomunicaciones eléctricas  |
 |     EY     | Electrical Auxiliary Systems  | Sistemas auxiliares eléctricos |
 
+</div>
+
 Por ejemplo: **AD**, representa una demolición arquitectónica.
 
 
 ### Grupo mayor y grupo menor
 
-Seguido al nivel dos y separando con un guion, se definen los nombres de los grupos mayores contenidos en cada disciplina, se debe utilizar como máximo 4 caracteres para su abreviación y se pueden incluir subgrupos de la misma longitud.
+Seguido al nivel dos y separando con un guion, se definen los nombres de los grupos mayores contenidos en cada disciplina, se debe utilizar como máximo 4 caracteres para su abreviación y se pueden incluir subgrupos de la misma longitud, p. ej. para arquitectura, civil y electricidad:
+
+<div align="center">
+
+| Grupo mayor  | Descripción (en)                       | Descripción (es)                                    |
+|:------------:|:---------------------------------------|:----------------------------------------------------|
+|     ACCS     | Access                                 | Acceso                                              |
+|     ACID     | Acid waste systems                     | Sistemas de residuos ácidos                         |
+|     AERI     | Aerial Survey                          | Levantamiento aéreo                                 |
+|     AFFF     | Aqueous film-forming foam system       | Sistema de espuma formadora de película acuosa      |
+|     AFLD     | Airfields                              | Aeródromos                                          |
+|     AIR~     | Air                                    | Aire                                                |
+|     ALGN     | Alignment                              | Alineación                                          |
+|     ALRM     | Alarm system                           | Sistema de alarma                                   |
+|     ANNO     | Annotation                             | Anotación                                           |
+|     AREA     | Area                                   | Área                                                |
+|     AUXL     | Auxiliary systems                      | Sistemas auxiliares                                 |
+|     BARR     | Barrier                                | Barrera                                             |
+|     BCST     | Broadcast related system (radio or TV) | Sistema de radiodifusión (radio o TV)               |
+|     BEAM     | Beams                                  | Vigas                                               |
+|     BELL     | Bell system                            | Sistema de timbres                                  |
+|     BLDG     | Buildings and primary structures       | Edificios y estructuras primarias                   |
+|     BLIN     | Baseline                               | Línea base                                          |
+|     BNDY     | Political boundaries                   | Límites políticos                                   |
+|     BORE     | Borings                                | Perforaciones                                       |
+|     BRCG     | Bracing                                | Arriostramiento                                     |
+|     BRDG     | Bridge                                 | Puente                                              |
+|     BRIN     | Brine systems                          | Sistemas de salmuera                                |
+|     BRKL     | Break / fault lines                    | Líneas de rotura/falla                              |
+|     BRLN     | Building restriction line              | Línea de restricción de edificaciones               |
+|     BZNA     | Buffer zone area                       | Zona de amortiguamiento                             |
+|     CABL     | Cable systems                          | Sistemas de cable                                   |
+|     CATH     | Cathodic Protection System             | Sistema de protección catódica                      |
+|     CATV     | Cable television system                | Sistema de televisión por cable                     |
+|     CCTV     | Closed-circuit television system       | Sistema de circuito cerrado de televisión           |
+|     CEME     | Cemetery                               | Cementerio                                          |
+|     CHAN     | Navigable channels                     | Canales navegables                                  |
+|     CHEM     | Chemical                               | Productos químicos                                  |
+|     CHIM     | Chimneys and stacks                    | Chimeneas y conductos                               |
+|     CLNG     | Ceiling                                | Techo                                               |
+|     CLOK     | Clock system                           | Sistema de relojería                                |
+|     CMPA     | Compressed / processed air systems     | Sistemas de aire comprimido/procesado               |
+|     CMPR     | Computer                               | Ordenador                                           |
+|     CNDW     | Condenser water systems                | Sistemas de agua del condensador                    |
+|     CO2S     | CO2 system                             | Sistema de CO2                                      |
+|     CODE     | Code compliance plan                   | Plan de cumplimiento normativo                      |
+|     COLS     | Columns                                | Columnas                                            |
+|     COMM     | Communications                         | Comunicaciones                                      |
+|     CONT     | Controls and instrumentation           | Controles e instrumentación                         |
+|     CONV     | Conveying systems                      | Sistemas de transporte                              |
+|     CRPT     | Carpet / carpet tiles                  | Alfombra/losetas de moqueta                         |
+|     CSWK     | Casework                               | Carpintería                                         |
+|     CTRL     | Control points                         | Puntos de control                                   |
+|     CWTR     | Chilled water systems                  | Sistemas de agua refrigerada                        |
+|     DATA     | Data / LAN system                      | Datos/LAN Sistema                                   |
+|     DECK     | Deck                                   | Cubierta                                            |
+|     DETL     | Detail                                 | Detalle                                             |
+|     DFLD     | Drain fields                           | Campos de drenaje                                   |
+|     DIAG     | Diagrams                               | Diagramas                                           |
+|     DICT     | Dictation system                       | Sistema de dictado                                  |
+|     DOMW     | Domestic water systems                 | Sistemas de agua potable                            |
+|     DOOR     | Doors                                  | Puertas                                             |
+|     DRAN     | Drains                                 | Desagües                                            |
+|     DRIV     | Driveways                              | Entradas de vehículos                               |
+|     DTCH     | Ditches or washes                      | Cunetas o lavaderos                                 |
+|     DUAL     | Dual temperature systems               | Sistemas de doble temperatura                       |
+|     DUST     | Dust and fume collection systems       | Sistemas de recolección de polvo y humos            |
+|     ELEC     | Electrical system, telecom plan        | Sistema eléctrico, plano de telecomunicaciones      |
+|     ELEV     | Elevation                              | Elevación                                           |
+|     ELHT     | Electric heat                          | Calefacción eléctrica                               |
+|     EMCS     | Energy monitoring control system       | Sistema de control de monitoreo de energía          |
+|     ENER     | Energy management systems              | Sistemas de gestión de energía                      |
+|     EQPM     | Equipment                              | Equipo                                              |
+|     EROS     | Erosion and sediment control           | Control de erosión y sedimentos                     |
+|     ESMT     | Easements                              | Servidumbres                                        |
+|     EVAC     | Evacuation plan                        | Plan de evacuación                                  |
+|     EXHS     | Exhaust system                         | Sistema de extracción                               |
+|     FENC     | Fences                                 | Cercas                                              |
+|     FIRE     | Fire protection                        | Protección contra incendios                         |
+|     FLHA     | Flood hazard area                      | Zona con riesgo de inundación                       |
+|     FLOR     | Floor                                  | Piso                                                |
+|     FNDN     | Foundation                             | Cimentación                                         |
+|     FNSH     | Finishes                               | Acabados                                            |
+|     FRAM     | Braced frame or moment frame           | Marco arriostrado o marco de momento                |
+|     FSTN     | Fasteners and connections              | Sujeciones y conexiones                             |
+|     FUEL     | Fuel systems                           | Sistemas de combustible                             |
+|     FUME     | Fume hood                              | Campana de extracción de gases                      |
+|     FURN     | Furnishings                            | Mobiliario                                          |
+|     GAS~     | Gas                                    | Gas                                                 |
+|     GATE     | Gate                                   | Portón                                              |
+|     GLAZ     | Glazing                                | Acristalamiento                                     |
+|     GLYC     | Glycol systems                         | Sistemas de glicol                                  |
+|     GRID     | Grids                                  | Rejillas                                            |
+|     GRLN     | Grade line                             | Línea de rasante                                    |
+|     GRND     | Ground system                          | Sistema de puesta a tierra                          |
+|     HALN     | Halon                                  | Halón                                               |
+|     HVAC     | HVAC systems                           | Sistemas de climatización (HVAC)                    |
+|     HWTR     | Hot water heating system               | Sistema de calentamiento de agua caliente           |
+|     HYDR     | Hydraulic structure                    | Estructura hidráulica                               |
+|     IGAS     | Inert gas                              | Gas inerte                                          |
+|     INGR     | Ingrants                               | Concesiones                                         |
+|     INST     | Instrumentation system                 | Sistema de instrumentación                          |
+|     INTC     | Intercom / PA systems                  | Intercomunicador/PA Sistemas                        |
+|     IRRG     | Irrigation                             | Riego                                               |
+|     JNTS     | Joints                                 | Juntas                                              |
+|     JOIS     | Joists                                 | Viguetas                                            |
+|     LAND     | Land                                   | Terreno                                             |
+|     LEGN     | Legend, symbols keys                   | Leyenda, símbolos y claves                          |
+|     LEVE     | Levee                                  | Dique                                               |
+|     LGAS     | Laboratory gas systems                 | Sistemas de gases de laboratorio                    |
+|     LIQD     | Liquid                                 | Líquido                                             |
+|     LITE     | Lighting                               | Iluminación                                         |
+|     LNTL     | Lintels                                | Dinteles                                            |
+|     LOCN     | Limits of construction                 | Límites de construcción                             |
+|     LTNG     | Lightning protection system            | Sistema de protección contra rayos                  |
+|     MACH     | Machine shop                           | Taller de maquinaria                                |
+|     MAJQ     | Major equipment                        | Equipo principal                                    |
+|     MDGS     | Medical gas systems                    | Sistemas de gases medicinales                       |
+|     MILL     | Millwork                               | Carpintería                                         |
+|     MINQ     | Minor equipment                        | Equipo menor                                        |
+|     MKUP     | Make-up air systems                    | Sistemas de aire de reposición                      |
+|     MNTG     | Mounting system                        | Sistema de montaje                                  |
+|     MPIP     | Miscellaneous piping systems           | Sistemas de tuberías misceláneos                    |
+|     NGAS     | Natural gas systems                    | Sistemas de gas natural                             |
+|     NODE     | Node                                   | Nodo                                                |
+|     NURS     | Nurse call system                      | Sistema de llamada a enfermeras                     |
+|     OBST     | Obstructions                           | Obstrucciones                                       |
+|     OIL~     | Oil                                    | Petróleo                                            |
+|     OTGR     | Outgrants                              | Conducciones de salida                              |
+|     PADS     | Pads                                   | Almohadillas                                        |
+|     PERC     | Perc testing                           | Prueba de percolación                               |
+|     PGNG     | Paging system                          | Sistema de buscapersonas                            |
+|     PHON     | Telephone system                       | Sistema telefónico                                  |
+|     PIPE     | Piping                                 | Tuberías                                            |
+|     PLAN     | Key Plan (Floor Plan)                  | Plano clave (Plano de planta)                       |
+|     PLAT     | Platform                               | Andén                                               |
+|     PLNT     | Plant and landscape material           | Planta y material de jardinería                     |
+|     POND     | Ponds                                  | Estanques                                           |
+|     POWR     | Power                                  | Energía                                             |
+|     PRKG     | Parking lots                           | Estacionamientos                                    |
+|     PROC     | Process systems                        | Sistemas de proceso                                 |
+|     PROJ     | Projector system                       | Sistema de proyectores                              |
+|     PROP     | Property                               | Propiedad                                           |
+|     PROT     | Fire protection system                 | Sistema de protección contra incendios              |
+|     PRTN     | Partitions                             | Tabiques                                            |
+|     PVMD     | Photovoltaic modules                   | Módulos fotovoltaicos                               |
+|     PVMT     | Pavement                               | Pavimento                                           |
+|     RAIL     | Railroad                               | Ferrocarril                                         |
+|     RAIR     | Relief air systems                     | Sistemas de aire de alivio                          |
+|     RCOV     | Energy recovery systems                | Sistemas de recuperación de energía                 |
+|     REFG     | Refrigeration systems                  | Sistemas de refrigeración                           |
+|     RIGG     | Rigging / automation systems           | Aparejos/automatización Sistemas                    |
+|     RIVR     | River                                  | Río                                                 |
+|     ROAD     | Roadways                               | Carreteras                                          |
+|     ROOF     | Roof                                   | Techo                                               |
+|     RRAP     | Riprap                                 | Escalones                                           |
+|     RUNW     | Runway                                 | Pista                                               |
+|     RWAY     | Right-of-way                           | Derecho de paso                                     |
+|     SECT     | Section                                | Sección                                             |
+|     SERT     | Security system                        | Sistema de seguridad                                |
+|     SGHT     | Sight distance                         | Distancia visual                                    |
+|     SIGN     | Sign                                   | Señal                                               |
+|     SITE     | Site features                          | Características del sitio                           |
+|     SLAB     | Slab                                   | Losa                                                |
+|     SLUR     | Slurry                                 | Lodo                                                |
+|     SMOK     | Smoke extraction systems               | Sistemas de extracción de humos                     |
+|     SOIL     | Soils                                  | Suelos                                              |
+|     SOUN     | Sound system                           | Sistema de sonido                                   |
+|     SPCL     | Special systems                        | Sistemas especiales                                 |
+|     SPFX     | Entertainment special effects system   | Sistema de efectos especiales para entretenimiento  |
+|     SPKL     | Sprinkler                              | Rociadores                                          |
+|     SSWR     | Sanitary sewer                         | Alcantarillado sanitario                            |
+|     STEM     | Steam system                           | Sistema de vapor                                    |
+|     STIF     | Stiffener                              | Refuerzo                                            |
+|     STRM     | Storm sewer                            | Alcantarillado pluvial                              |
+|     STRS     | Stairs                                 | Escaleras                                           |
+|     SURV     | Survey                                 | Topografía                                          |
+|     SWLK     | Sidewalks                              | Aceras                                              |
+|     TEST     | Test equipment                         | Equipo de prueba                                    |
+|     TILE     | Tile                                   | Tejas                                               |
+|     TINN     | Triangulated irregular network         | Red irregular triangular                            |
+|     TOPO     | Topographic feature                    | Característica topográfica                          |
+|     TRAL     | Trails or paths                        | Senderos o caminos                                  |
+|     TRAN     | Transmission system                    | Sistema de transmisión                              |
+|     TRUS     | Trusses                                | Cerchas                                             |
+|     TVAN     | Television antenna system              | Sistema de antena de televisión                     |
+|     TVVS     | Television and video system            | Sistema de televisión y video                       |
+|     UNID     | Unidentified site objects              | Objetos no identificados del sitio                  |
+|     UTIL     | Utilities                              | Servicios públicos                                  |
+|     VACU     | Vacuum                                 | Aspiradora                                          |
+|     VIDO     | Entertainment projection systems       | Sistemas de proyección de entretenimiento           |
+|     WALL     | Walls                                  | Muros                                               |
+|     WATR     | Water supply                           | Suministro de agua                                  |
+|     WETL     | Wetlands                               | Humedales                                           |
+|     WIND     | Wind powered                           | Energía eólica                                      |
+|     WWAY     | Waterway                               | Vía fluvial                                         |
+
+</div>
 
 Por ejemplo: **A-WALL**, representa muros arquitectónicos.
 
@@ -125,6 +326,8 @@ Por ejemplo: **A-WALL-FULL**, representa muros arquitectónicos completos de pis
 ### Estado o fase
 
 Un último caracter, permite establecer el estado del elemento que se está representando en la capa.
+
+<div align="center">
 
 |  Estado  | Descripción (en)     | Descripción (es)         |
 |:--------:|:---------------------|:-------------------------|
@@ -137,6 +340,8 @@ Un último caracter, permite establecer el estado del elemento que se está repr
 |    T     | Temporary work       | Trabajo temporal         |
 |    X     | Not in contract      | Sin contrato             |
 |   1-9    | Phase numbers        | Número de fase           |
+
+</div>
 
 Por ejemplo: **A-WALL-FULL-TEXT-N** representa los textos de anotación de los muros arquitectónicos completos de piso a techo que han sido proyectados a futuro.
 
