@@ -118,7 +118,7 @@ El punto, la línea y el polígono son los elementos geométricos básicos con l
 
 AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran disponibles en el menú _Home_ dentro del grupo _Draw_. En esta actividad nos concentraremos en el uso de la línea o _Line_.
 
-Para el dibujo de elementos cuando utiliza el Mouse, por defecto se pueden realizar las siguientes acciones:
+Para el dibujo de elementos, por defecto el mouse o apuntador realiza las siguientes acciones:
 
 <div align="center"><img src="graph/M01A00_Mouse.jpg" alt="R.DAPC" width="45%" border="0" /></div>
 
@@ -281,9 +281,7 @@ Herramientas complementarias facilitan el dibujo de elementos geométricos con p
 
 <div align="center"><img src="graph/AutoCAD_DrawingAssistedTools.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Listado de herramientas complementarias.
-
-> Dando clic derecho sobre la herramienta requerida, podrá acceder a las ventanas de configuración.
+Listado de herramientas complementarias:
 
 |                                                                                         Ícono                                                                                         | Herramienta           |                   Atajo / Comando                    | Descripción                                                                                                                                                                                                                             |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------|:----------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -316,11 +314,12 @@ Listado de herramientas complementarias.
 |                                                <img src="graph/AutoCAD_ToolIsolateObjects.jpg" alt="R.DAPC" height="28" border="0" />                                                 | Isolate Objects       | ISOLATEOBJECTS <br>HIDEOBJECTS  <br>UNISOLATEOBJECTS | Herramienta para aislar u ocultar objetos del espacio de trabajo. Luego de terminar de editar los objetos visibles, podrá volver a mostrar todos los elementos del diibujo.                                                             |
 |                                              <img src="graph/AutoCAD_ToolGraphicsPerformance.jpg" alt="R.DAPC" height="28" border="0" />                                              | Graphics Performance  |                    GRAPHICSCONFIG                    | Permite cambiar la configuración de rendimiento de los gráficos o tarjeta gráfica del equipo.                                                                                                                                           |
 |                                                  <img src="graph/AutoCAD_ToolCleanScreen.jpg" alt="R.DAPC" height="28" border="0" />                                                  | Clean Screen          |     <kbd>ctrl</kbd>+<kbd>0</kbd> <br>CLEANSCREEN     | Permite visualizar AutoCAD en pantalla completa.                                                                                                                                                                                        |
+> Dando clic derecho sobre la herramienta requerida, podrá acceder a las ventanas de configuración.
 
 
 ### Ejercicio #M01A01E03
 
-Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente dibujo isométrico a partir de líneas. Guarde el dibujo como _/file/cad/M01A01E03.dwg_.
+Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas. Guarde el dibujo como _/file/cad/M01A01E03.dwg_.
 
 <div align="center"><img src="graph/M01A01E03.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
