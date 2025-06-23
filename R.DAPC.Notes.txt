@@ -31,6 +31,7 @@ Commands
 	REDRAW: refreshes the display in the current viewport.
 	TXT2MTXT: convert separate text into multiline text.
 	LAYER: abre el panel de capas.
+	Ctril+9: reopen de Command Line. COMMANDLINE or COMMANDLINEHIDE.
 
 Layers curso
 	0
