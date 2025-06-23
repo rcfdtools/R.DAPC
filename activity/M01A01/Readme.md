@@ -37,6 +37,8 @@ La creación de capas puede obedecer a nombres propios con los que el usuario es
 
 Para este ejercicio, utilizaremos como referencia las especificaciones del [United States National CAD Stardard - v5](https://facilities.duke.edu/sites/default/files/AIA%20CAD%20Layer%20Guidelines.pdf) del [National Institute of Building Sciences](https://nibs.org/), en los que se encuentran las codificaciones para nombres de elementos.
 
+### Prefijos por disciplina
+
 Para la designación de disciplinas, utilizaremos los siguientes prefijos:
 
 | Prefijo  | Disciplina (en)            | Disciplina (es)                |
@@ -64,7 +66,7 @@ Para la designación de disciplinas, utilizaremos los siguientes prefijos:
 |    Z     | Contractor / Shop Drawings | Contratista / Planos de taller |
 
 
-
+###
 
 
 
