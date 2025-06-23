@@ -33,13 +33,15 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 En AutoCAD, una capa (o layer) es una herramienta de organización que permite agrupar objetos por función o tipo, facilitando la gestión y visualización de dibujos complejos. Piense en capas como hojas transparentes o papeles calcantes donde cada capa contiene un conjunto específico de elementos. Esto ayuda a controlar la visibilidad, el color, el tipo de línea y otras propiedades de los objetos de manera eficiente. Por defecto, todo dibujo nuevo de AutoCAD es creado incluyendo una capa denominada cero (0).
 
-La creación de capas puede obedecer a nombres propios con los que el usuario está familiarizado (p. ej., Dimension, Objeto, Eje, Lote, Circuito, Achurado, Contorno, Edificio, Instalacion), sin embargo, para la creación profesional de proyectos, se recomienda seguir estándares de creación y nombramiento de capas.
+La creación de capas puede obedecer a nombres propios con los que el usuario está familiarizado (p. ej., Dimension, Objeto, Eje, Lote, Circuito, Achurado, Contorno, Edificio, Instalacion), sin embargo, para la creación profesional de proyectos, se recomienda seguir estándares de creación y nombramiento de capas, como los establecidos en la norma internacional estándar [ISO 13567](https://www.iso.org/standard/70181.html).
 
 Para este ejercicio, utilizaremos como referencia las especificaciones del [United States National CAD Stardard - v5](https://facilities.duke.edu/sites/default/files/AIA%20CAD%20Layer%20Guidelines.pdf) del [National Institute of Building Sciences](https://nibs.org/), en los que se encuentran las codificaciones para nombres de elementos.
 
-### Prefijos por disciplina
+### Designación de prefijos por disciplina - Nivel 1
 
 Para la designación de disciplinas, utilizaremos los siguientes prefijos:
+
+<div align="center">
 
 | Prefijo  | Disciplina (en)            | Disciplina (es)                |
 |:--------:|:---------------------------|:-------------------------------|
@@ -65,8 +67,25 @@ Para la designación de disciplinas, utilizaremos los siguientes prefijos:
 |    X     | Other Disciplines          | Otras disciplinas              |
 |    Z     | Contractor / Shop Drawings | Contratista / Planos de taller |
 
+</div>
 
-###
+
+### Designación de prefijos por disciplina - Nivel 2
+
+El nivel dos, es un caracter opcional que es usado para definir la característica de las disciplina, por ejemplo para arquitectura:
+
+| Designador  | Descripción (en)         | Descripción (es)           |
+|:-----------:|:-------------------------|:---------------------------|
+|      **A**      | **Architectural**            | **Arquitectura**               |
+|     AD      | Architectural Demolition | Demolición arquitectónica  |
+|     AE      | Architectural Elements   | Elementos arquitectónicos  |
+|     AF      | Architectural Finishes   | Acabados arquitectónicos   |
+|     AG      | Architectural Graphics   | Gráficos arquitectónicos   |
+|     AI      | Architectural Interiors  | Interiores arquitectónicos |
+|     AJ      | User Defined             | Definido por el usuario    |
+|     AK      | User Defined             | Definido por el usuario    |
+|     AS      | Architectural Site       | Sitio arquitectónico       |
+
 
 
 
@@ -104,6 +123,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
 * [Draw parabola in AutoCAD](https://www.youtube.com/watch?v=h8pjymm-A5I)
+* https://blog.draftsperson.net/iso-13567-cad-layer-standard/
 
 
 ## Control de versiones
