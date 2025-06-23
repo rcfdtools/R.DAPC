@@ -179,11 +179,11 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 <div align="center"><img src="graph/AutoCAD_Line3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio #M01A01E01
+### Ejercicio #M01A00E01
 
-Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A01E01.dwg_.
+Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A00E01.dwg_.
 
-<div align="center"><img src="graph/M01A01E01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen tomada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
+<div align="center"><img src="graph/M01A00E01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen tomada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
 Especificaciones:
 
@@ -250,11 +250,11 @@ LINE
 > :bulb: Para evitar la escritura de la letra **d** en la definición de ángulos, en las unidades de AutoCAD puede establecer grados decimales.
 
 
-### Ejercicio #M01A01E02
+### Ejercicio #M01A00E02
 
-**Parte A:** aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A01E02.txt_ y el dibujo en _/file/cad/M01A01E02.dwg_.
+**Parte A:** aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A00E01, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A00E02.txt_ y el dibujo en _/file/cad/M01A00E02.dwg_.
 
-<div align="center"><img src="graph/M01A01E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A00E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 Secuencia para coordenadas relativas usando @
 ```
@@ -339,11 +339,11 @@ Listado de herramientas complementarias:
 > Dando clic derecho sobre la herramienta requerida, podrá acceder a las ventanas de configuración.
 
 
-### Ejercicio #M01A01E03
+### Ejercicio #M01A00E03
 
-Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas. Guarde el dibujo como _/file/cad/M01A01E03.dwg_.
+Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas. Guarde el dibujo como _/file/cad/M01A00E03.dwg_.
 
-<div align="center"><img src="graph/M01A01E03.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A00E03.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
