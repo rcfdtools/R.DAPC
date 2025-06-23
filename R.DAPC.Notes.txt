@@ -2,7 +2,6 @@ Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7:
 	Create an image of computer assisted drawing building sketch in electrical engineering.
 	Create an image of computer assisted drawing building 3D sketch in electrical engineering.
 
-
 Δ°Σβθαπ∑√
 <kbd>esc</kbd>
 <kbd>enter</kbd>
@@ -19,6 +18,7 @@ Practical exercices
 	Esquema NTC2050 pag 349
 	Samples: D:\Autodesk\AutoCAD 2026\Sample\en-us
 	External references.
+	Isometric view drawing example 2. Links to practice files in description. https://www.youtube.com/watch?v=bT96hOQ5ejQ
 
 https://www.youtube.com/watch?v=2LumoE9KjoY
 3:03

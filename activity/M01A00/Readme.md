@@ -314,7 +314,7 @@ Listado de herramientas complementarias.
 
 ### Ejercicio #M01A01E03
 
-Para practicar estas herramientas, construiremos en clase el siguiente dibujo isométrico a partir de líneas. Guarde el dibujo como _/file/cad/M01A01E03.dwg_.
+Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente dibujo isométrico a partir de líneas. Guarde el dibujo como _/file/cad/M01A01E03.dwg_.
 
 <div align="center"><img src="graph/M01A01E03.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
