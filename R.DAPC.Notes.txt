@@ -6,6 +6,7 @@ Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7:
 Δ°Σβθαπ∑√
 <kbd>esc</kbd>
 <kbd>enter</kbd>
+<kbd>ctrl</kbd> + <kbd>i</kbd> 
 
 Windows + Shift + S for print screen
 	
