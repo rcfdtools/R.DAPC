@@ -323,6 +323,9 @@ El uso de grupos menores es opcional y se pueden definir un segundo subnivel.
 
 Por ejemplo: **A-WALL-FULL**, representa muros arquitectónicos completos de piso a techo y **A-WALL-FULL-TEXT** representa los textos de anotación de los muros arquitectónicos completos de piso a techo.
 
+> Consulte el listado completo en [United States National CAD Stardard - v5](https://facilities.duke.edu/sites/default/files/AIA%20CAD%20Layer%20Guidelines.pdf)
+
+
 ### Estado o fase
 
 Un último caracter, permite establecer el estado del elemento que se está representando en la capa.
