@@ -176,7 +176,7 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 
 Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A01E01.dwg_.
 
-<div align="center"><img src="graph/M01A00_Ejercicio0001.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen tomada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
+<div align="center"><img src="graph/M01A01E01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen tomada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
 Especificaciones:
 
@@ -237,7 +237,7 @@ LINE
 
 Aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas y otra con posiciones relativas) para la construcción de la figura presentada en el Ejercicio M01A01E01, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A01E02.txt_ y el dibujo en _/file/cad/M01A01E02.dwg_.
 
-<div align="center"><img src="graph/AutoCAD_Line6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A01E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 Secuencia para coordenadas relativas usando @
 ```
@@ -311,12 +311,12 @@ Listado de herramientas complementarias.
 |                                              <img src="graph/AutoCAD_ToolGraphicsPerformance.jpg" alt="R.DAPC" height="28" border="0" />                                              | Graphics Performance  |                    GRAPHICSCONFIG                    | Permite cambiar la configuración de rendimiento de los gráficos o tarjeta gráfica del equipo.                                                                                                                                           |
 |                                                  <img src="graph/AutoCAD_ToolCleanScreen.jpg" alt="R.DAPC" height="28" border="0" />                                                  | Clean Screen          |     <kbd>ctrl</kbd>+<kbd>0</kbd> <br>CLEANSCREEN     | Permite visualizar AutoCAD en pantalla completa.                                                                                                                                                                                        |
 
-Para practicar estas herramientas, construiremos el siguiente dibujo isométrico a partir de líneas.
 
+### Ejercicio #M01A01E03
 
+Para practicar estas herramientas, construiremos en clase el siguiente dibujo isométrico a partir de líneas. Guarde el dibujo como _/file/cad/M01A01E03.dwg_.
 
-1. El comando **GRID**, 
-
+<div align="center"><img src="graph/M01A01E03.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
