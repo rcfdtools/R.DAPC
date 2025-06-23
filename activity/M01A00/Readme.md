@@ -156,12 +156,12 @@ Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en un [
 
 <div align="center">
 
-| Entrada                   | Descripción                                                                                                                                                     |
-|:--------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Manual                    | Dando clic en el espacio de dibujo.                                                                                                                             |
-| Coordenadas absolutas     | Ingresando valores desde el Command.                                                                                                                            |
-| Coordenadas relativas     | Ingresando valores desde el Command utilizando el símbolo @ y el desplazamiento requerido en XY.<br><br>Es requerido un nodo previo en una línea o un polígono. |
-| Por secuencia de comandos | Comandos y nodos de localización que describen la secuencia de construcción del elemento.                                                                       |
+| Entrada                   | Descripción                                                                                                                                                                                                                                             |
+|:--------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Manual                    | Dando clic en el espacio de dibujo.                                                                                                                                                                                                                     |
+| Coordenadas absolutas     | Ingresando valores desde el Command.                                                                                                                                                                                                                    |
+| Coordenadas relativas     | Ingresando valores desde el Command utilizando el símbolo @ y el desplazamiento requerido en XY o el valor de las distancias (distancia X distancia Y) y el ángulo (distancia < angulo).<br><br>Es requerido un nodo previo en una línea o un polígono. |
+| Por secuencia de comandos | Comandos y nodos de localización que describen la secuencia de construcción del elemento.                                                                                                                                                               |
 
 </div>
 
@@ -214,7 +214,7 @@ LINE
 
 > Tenga en cuenta que la secuencia uttilizada para el comando _**LINE**_, crea 4 líneas independientes y no una poli-línea.
 
-Secuencia con coordenadas absolutas
+Secuencia con coordenadas absolutas:
 ```
 LINE
 750,150
@@ -227,7 +227,7 @@ LINE
 
 <div align="center"><img src="graph/AutoCAD_Line5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Secuencia con coordenadas relativas
+Secuencia con coordenadas relativas:
 ```
 LINE
 750,150
@@ -238,6 +238,14 @@ LINE
 
 ```
 
+Para crear una línea usando ángulos, p. ej. una línea a 45 grados con una longitud de 50 metros desde el orígen de coordenadas absoluto (0,0):
+```
+LINE
+Line
+0,0
+50<45
+
+```
 
 ### Ejercicio #M01A01E02
 
