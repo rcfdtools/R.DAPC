@@ -249,7 +249,7 @@ Line
 
 ### Ejercicio #M01A01E02
 
-Aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas y otra con posiciones relativas) para la construcción de la figura presentada en el Ejercicio M01A01E01, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A01E02.txt_ y el dibujo en _/file/cad/M01A01E02.dwg_.
+Aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas, otra con posiciones relativas y otra con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A01E02.txt_ y el dibujo en _/file/cad/M01A01E02.dwg_.
 
 <div align="center"><img src="graph/M01A01E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -353,6 +353,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
+* https://www.andresdeltoro.es/realizar-una-linea-poligonal-autocad-conociendo-los-angulos/
 
 
 ## Control de versiones
