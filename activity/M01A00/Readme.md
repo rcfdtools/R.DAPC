@@ -223,7 +223,7 @@ LINE
 
 ### Ejercicio #M01A01E02
 
-Aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas y otra con posiciones relativas) para la construcción de la figura presentada en el Ejercicio M01A01E02, guarde la secuencia en _/file/report/M01A01E02.txt_.
+Aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas y otra con posiciones relativas) para la construcción de la figura presentada en el Ejercicio M01A01E02, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A01E02.txt_ y el dibujo en _/file/cad/M01A01E02.dwg_.
 
 <div align="center"><img src="graph/AutoCAD_Line6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -248,9 +248,7 @@ LINE
 
 ```
 
-
-
-## 5. Comandos asociados directamente al teclado
+### Comandos asociados directamente al teclado
 
 Para facilitar la creación de dibujos, varios de los comandos de AutoCAD están asociados al teclado, como se muestra en la siguiente ilustración.
 
@@ -259,6 +257,9 @@ Para facilitar la creación de dibujos, varios de los comandos de AutoCAD están
 > Consulte la lista completa de lo [comandos de AutoCAD](https://www.autodesk.com/shortcuts/autocad).
 
 
+## 5. Uso de grillas de referencia y encajado de elementos
+
+1. El comando **GRID**, 
 
 
 
