@@ -408,13 +408,15 @@ Para el desarrollo de curso, utilizaremos las siguientes capas y configuraciones
 
 En AutoCAD, una capa (o layer) es una herramienta de organización que permite agrupar objetos por función o tipo, facilitando la gestión y visualización de dibujos complejos. Piense en capas como hojas transparentes o papeles calcantes donde cada capa contiene un conjunto específico de elementos. Esto ayuda a controlar la visibilidad, el color, el tipo de línea y otras propiedades de los objetos de manera eficiente. Por defecto, todo dibujo nuevo de AutoCAD es creado incluyendo una capa denominada cero (0).
 
-1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_ y guarde como _/file/cad/M01A01a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, angulos en _grados_, precisiones en 2 decimales y unidades de escala de contenido insertado en _milímetros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
+1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_ y guarde como _/file/cad/M01A01a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, ángulos en _grados_, precisiones en 2 decimales y unidades de escala de contenido insertado en _milímetros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
 
-> Dando clic derecho dentro del panel de capas, podrá acceder al menú contextual y encontrará múltiples opciones, entre ella _New Layer_.
+> Dando clic derecho dentro del panel de capas, podrá acceder al menú contextual y encontrará múltiples opciones, entre ellas _New Layer_.
 
 <div align="center"><img src="graph/AutoCAD_Layer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Dando clic en el botón de agregar capas, cree la capa _0-Object_ de color blanco, con tipo de línea contínua, en grosor 0.25 y sin transparencia. En detatalle indique: _Objetos de dibujo_.
+2. Dando clic en el botón de agregar capas, cree la capa _0-Object_ de color blanco, con tipo de línea contínua, en grosor 0.25 y sin transparencia. En detalle indique: _Objetos de dibujo_.
+
+> Para mejorar la visibilidad del grosor de capa, puede utilizar una pluma de 0.3 mm. Recuerde activar en la parte inferior de la pantalla, la herramienta _Show/Hide Lineweight_ o ejecute el comando **LWDISPLAY**.
 
 <div align="center"><img src="graph/AutoCAD_NewLayer.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
@@ -422,9 +424,19 @@ En AutoCAD, una capa (o layer) es una herramienta de organización que permite a
 
 <div align="center"><img src="graph/AutoCAD_NewLayer1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> Para establecer una capa por defecto, en el panel de capa, dar doble clic en el nombre de la capa.
+> Para establecer una capa por defecto, en el panel de capa dar doble clic en el nombre de la capa.
 
+3. Desde el administrador de propiedades de capas de AutoCAD, podrá entre otras opciones:
 
+| Ícono                                                                                | Nombre                  | Detalle                                                                                                                                                                                                                                    |
+|--------------------------------------------------------------------------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="graph/AutoCAD_ToolLayerOn.jpg" alt="R.DAPC" height="28" border="0" />      | On                      | Activar o desactivar la capa.                                                                                                                                                                                                              |
+| <img src="graph/AutoCAD_ToolLayerFreeze.jpg" alt="R.DAPC" height="28" border="0" />  | Freeze                  | Congelar la capa haciendo que sus objetos sean invisibles, ignorando las entidades al ejecutar otros comandos. Esto mejora el rendimiento del dibujo, especialmente en archivos complejos ya que no se necesita regererar estos elementos. |
+| <img src="graph/AutoCAD_ToolLayerLock.jpg" alt="R.DAPC" height="28" border="0" />    | Lock                    | Bloquea la capa evitando que sus objetos puedan ser modificados o eliminados.                                                                                                                                                              |
+| <img src="graph/AutoCAD_ToolLayerPlot.jpg" alt="R.DAPC" height="28" border="0" />    | Plot                    | Desactiva la capa en la impresión.                                                                                                                                                                                                         |
+| <img src="graph/AutoCAD_ToolLayerDefault.jpg" alt="R.DAPC" height="28" border="0" /> | Default                 | Dando doble clic sobre la capa o seleccionando la opción _Set Current_, podrá establecerla por defecto. Los nuevos dibujos serrán creados en esta capa.                                                                                    |
+| <img src="graph/AutoCAD_ToolLayerDelete.jpg" alt="R.DAPC" height="28" border="0" />  | Delete                  | Elimina la capa seleccionada y todo su contenido.                                                                                                                                                                                          |
+|                                                                                      | Isolate selected layers | Aisla la capa seleccionada desactivando todas las demás capas. Opción disponible usando el menú contextual o clic derecho.                                                                                                                 |
 
 ## Actividades de proyecto :triangular_ruler:
 
