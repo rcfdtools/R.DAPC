@@ -3,7 +3,7 @@ Keywords: `aia` `nibs` `iso-13567` `m01a01a`
 
 Normas para definición de nombres y creación de capas o Layers.
 
-<div align="center"><img src="graph/M01A01.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A01a.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
 
 ## Objetivos
