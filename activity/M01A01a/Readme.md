@@ -1,7 +1,7 @@
-# 1.2. Elementos básicos de dibujo
-Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `parabola` `hyperbola`  `m01a01`
+# 1.2.a. Elementos básicos de dibujo / Creación de capas o layers
+Keywords: `aia` `nibs` `iso-13567` `m01a01a`
 
-Capas o Layers. Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos POLYLINE, ARC, FILLET, CHAMFER, POINT, ARRAY, MIRROR, OFFSET, DONUT, TRIM. Dibujo de la elipse, la parábola y la hipérbola.
+Normas para definición de nombres y creación de capas o Layers.
 
 <div align="center"><img src="graph/M01A01.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
@@ -12,7 +12,6 @@ Al finalizar esta semana el estudiante:
 
 * Entiende los conceptos de aplicación de normas ISO para el nombramiento de layers o capas de dibujo.
 * Crea y modifica layers.
-* Realiza ejercicios de práctica en los que dibuja, traza y edita líneas, poli-líneas, arcos, chaflanes, cortes transversales y figuras geométricas en AutoCAD.
 
 
 ## Requerimientos
