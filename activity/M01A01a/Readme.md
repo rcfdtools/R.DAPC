@@ -57,14 +57,14 @@ Para la designación de disciplinas, utilizaremos los siguientes prefijos:
 |    F    | Fire Protection            | Protección contra incendios    |
 |    G    | General                    | General                        |
 |    H    | Hazardous Materials        | Materiales peligrosos          |
-|  I      | Interiors                  | Interiores                     |
+|    I    | Interiors                  | Interiores                     |
 |    L    | Landscape                  | Paisajismo                     |
 |    M    | Mechanical                 | Mecánica                       |
 |    O    | Operations                 | Operaciones                    |
 |    P    | Plumbing                   | Fontanería                     |
 |    Q    | Equipment                  | Equipos                        |
 |    R    | Resource                   | Recursos                       |
-|    S    | Structural                 | Estructura                     |
+| **S**   | Structural                 | Estructura                     |
 |    T    | Telecommunications         | Telecomunicaciones             |
 |  **V**  | Survey / Mapping           | Topografía / Cartografía       |
 |  **W**  | Distributed Energy         | Energía distribuida            |
