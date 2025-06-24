@@ -5,9 +5,23 @@ Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7:
 Δ°Σβθαπ∑√
 <kbd>esc</kbd>
 <kbd>enter</kbd>
-<kbd>ctrl</kbd> + <kbd>i</kbd> 
+<kbd>ctrl</kbd> + <kbd>i</kbd>
+; al final de una sentencia en el Command corresponde a Enter en el teclado.
+^C al final de una sentencia en el Command corresponde a ESC en el teclado.
 
 Windows + Shift + S for print screen
+
+
+Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `parabola` `hyperbola` `m01a01a`
+
+Al finalizar esta semana el estudiante:
+
+* Entiende los conceptos de aplicación de normas ISO para el nombramiento de layers o capas de dibujo.
+* Crea y modifica layers.
+* Realiza ejercicios de práctica en los que dibuja, traza y edita líneas, poli-líneas, arcos, chaflanes, cortes transversales y figuras geométricas en AutoCAD.
+
+
+
 	
 Practical exercices
 	With arrays determinte separation between elements.
@@ -41,4 +55,5 @@ Layers curso
 	Eje
 	Objeto
 	Contorno
-	
+
+Mouse: https://www.vecteezy.com/vector-art/24103530-set-of-computer-mouse-outline-drawing-vector-computer-mouse-in-a-sketch-style-computer-mouse-training-template-outline-vector-illustration
