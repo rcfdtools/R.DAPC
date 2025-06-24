@@ -416,13 +416,13 @@ En AutoCAD, una capa (o layer) es una herramienta de organización que permite a
 
 2. Dando clic en el botón de agregar capas, cree la capa _0-Object_ de color blanco, con tipo de línea contínua, en grosor 0.25 y sin transparencia. En detatalle indique: _Objetos de dibujo_.
 
-<div align="center"><img src="graph/AutoCAD_NewLayer.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_NewLayer.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
 3. Repita el procedimiento para la creación de las demás sub-capas cero (0).
 
-<div align="center"><img src="graph/AutoCAD_NewLayer1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_NewLayer1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> Para establecer una capa por defecto, en el panel de capa, dar doble clic sobre el nombre de la capa.
+> Para establecer una capa por defecto, en el panel de capa, dar doble clic en el nombre de la capa.
 
 
 
