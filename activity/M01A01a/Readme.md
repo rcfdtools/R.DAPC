@@ -438,6 +438,10 @@ En AutoCAD, una capa (o layer) es una herramienta de organización que permite a
 | <img src="graph/AutoCAD_ToolLayerDelete.jpg" alt="R.DAPC" height="28" border="0" />  | Delete                  | Elimina la capa seleccionada y todo su contenido.                                                                                                                                                                                          |
 |                                                                                      | Isolate selected layers | Aisla la capa seleccionada desactivando todas las demás capas. Opción disponible usando el menú contextual o clic derecho.                                                                                                                 |
 
+> :bulb: Para mejorar la visualización de los colores definidos en las capas y para evitar la fatiga visual, es recomendable cambiar el color del fondo del espacio de dibujo a negro, para ello, desde el ícono de AutoCAD vaya a _Options_ y en la pestaña _Display_ de clic en botón _Colors..._, establezca en _Context / 2D model space / Interface element: Uniform background / Color: Black._
+
+<div align="center"><img src="graph/AutoCAD_DisplayBackgroundColor.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 
 ## Actividades de proyecto :triangular_ruler:
 
