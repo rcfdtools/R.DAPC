@@ -1,5 +1,5 @@
 # 1.2.a. Elementos básicos de dibujo / Creación de capas o layers
-Keywords: `aia` `nibs` `iso-13567` `m01a01a`
+Keywords: `aia` `nibs` `iso-13567` `layer` `layer-freeze` `layer-set-current` `layer-on` `layer-delete` `m01a01a`
 
 Normas para definición de nombres y creación de capas o Layers.
 
@@ -408,7 +408,7 @@ Para el desarrollo de curso, utilizaremos las siguientes capas y configuraciones
 
 En AutoCAD, una capa (o layer) es una herramienta de organización que permite agrupar objetos por función o tipo, facilitando la gestión y visualización de dibujos complejos. Piense en capas como hojas transparentes o papeles calcantes donde cada capa contiene un conjunto específico de elementos. Esto ayuda a controlar la visibilidad, el color, el tipo de línea y otras propiedades de los objetos de manera eficiente. Por defecto, todo dibujo nuevo de AutoCAD es creado incluyendo una capa denominada cero (0).
 
-1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_ y guarde como _/file/cad/M01A01a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, ángulos en _grados_, precisiones en 2 decimales y unidades de escala de contenido insertado en _milímetros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
+1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_, guarde como _/file/cad/M01A01a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, ángulos en _grados_, precisiones en 2 decimales y unidades de escala de contenido insertado en _milímetros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
 
 > Dando clic derecho dentro del panel de capas, podrá acceder al menú contextual y encontrará múltiples opciones, entre ellas _New Layer_.
 
@@ -434,9 +434,10 @@ En AutoCAD, una capa (o layer) es una herramienta de organización que permite a
 | <img src="graph/AutoCAD_ToolLayerFreeze.jpg" alt="R.DAPC" height="28" border="0" />  | Freeze                  | Congelar la capa haciendo que sus objetos sean invisibles, ignorando las entidades al ejecutar otros comandos. Esto mejora el rendimiento del dibujo, especialmente en archivos complejos ya que no se necesita regererar estos elementos. |
 | <img src="graph/AutoCAD_ToolLayerLock.jpg" alt="R.DAPC" height="28" border="0" />    | Lock                    | Bloquea la capa evitando que sus objetos puedan ser modificados o eliminados.                                                                                                                                                              |
 | <img src="graph/AutoCAD_ToolLayerPlot.jpg" alt="R.DAPC" height="28" border="0" />    | Plot                    | Desactiva la capa en la impresión.                                                                                                                                                                                                         |
-| <img src="graph/AutoCAD_ToolLayerDefault.jpg" alt="R.DAPC" height="28" border="0" /> | Default                 | Dando doble clic sobre la capa o seleccionando la opción _Set Current_, podrá establecerla por defecto. Los nuevos dibujos serrán creados en esta capa.                                                                                    |
+| <img src="graph/AutoCAD_ToolLayerDefault.jpg" alt="R.DAPC" height="28" border="0" /> | Set Current             | Dando doble clic sobre la capa o seleccionando la opción _Set Current_, podrá establecerla por defecto. Los nuevos dibujos serrán creados en esta capa.                                                                                    |
 | <img src="graph/AutoCAD_ToolLayerDelete.jpg" alt="R.DAPC" height="28" border="0" />  | Delete                  | Elimina la capa seleccionada y todo su contenido.                                                                                                                                                                                          |
 |                                                                                      | Isolate selected layers | Aisla la capa seleccionada desactivando todas las demás capas. Opción disponible usando el menú contextual o clic derecho.                                                                                                                 |
+
 
 ## Actividades de proyecto :triangular_ruler:
 
@@ -446,8 +447,9 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A00    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                                                             |
-| M01A00    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M01A01a   | En el archivo _M01A01a.dwg_, cree las capas establecidas en el catálogo [DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName.xlsx) para el curso DACP.                                                                                                                                                                                                                                                                                                                                                                                        |
+| M01A01a   | Investigue normas Colombianas para la definición de nombres de capas, incluya el detalle de los enlaces y referencias consultadas.                                                                                                                                                                                                                                                                                                                                                                                                                   | 
+| M01A01a   | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
@@ -471,7 +473,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.06.22 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  16   |
+| 2025.06.24 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   8   |
 
 
 ##
@@ -481,7 +483,7 @@ _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
-|--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
+| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A01b/Readme.md) |
+|--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: 
