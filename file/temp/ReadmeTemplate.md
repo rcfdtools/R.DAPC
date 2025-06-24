@@ -28,7 +28,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                  | Notepad++.                                                                                                                       |
 | [:toolbox:Herramienta](https://qgis.org/)                                                               | QGIS 3.42 o superior.                                                                                                            |
 | [:notebook:Lectura](R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf)                                   | Factor de atenuación de la precipitación por área simultánea.                                                                    |
-| [:open_file_folder:R.HydroTools.FactorAtenuacion PrecipitacionFa.xlsx](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca.  |
+| [:date:R.HydroTools.FactorAtenuacion PrecipitacionFa.xlsx](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca.  |
 | [:round_pushpin:R.DAPC.NodoValle.shp](../../file/shp/R.DAPC.NodoValle.zip)                              | Capa de nodos eje valle recto (creada en actividad anterior).                                                                    |
 
 </div>

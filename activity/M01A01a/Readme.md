@@ -25,7 +25,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                   | Autodesk Autocad 3D 2026 o superior.                                                                                |
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)  | Microsoft Excel 365.                                                                                                |
 | [:toolbox:Herramienta](https://notepad-plus-plus.org/)                              | Notepad++.                                                                                                          |
-| [:open_file_folder:DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName.xlsx) | Libro de Excel con nombres de capas (layers) AIA para arquitectura, civil, electricidad y topografía / cartografía. |
+| [:date:DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName.xlsx) | Libro de Excel con nombres de capas (layers) AIA para arquitectura, civil, electricidad y topografía / cartografía. |
 
 </div>
 
