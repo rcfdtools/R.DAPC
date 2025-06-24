@@ -401,14 +401,14 @@ Para el desarrollo de curso, utilizaremos las siguientes capas y configuraciones
 
 > El listado incluye las siguientes sub-capas cero (0) que no se encuentran en el catálogo AIA: 0-Object, 0-Sketch, 0-Axe, 0-Hatch, 0-Dimension, 0-Text, 0-Annotation.
 
-
+***************** Insertar tabla *****************
 
 
 ## 2. Creación y manejo de capas (layers) en AutoCAD
 
 En AutoCAD, una capa (o layer) es una herramienta de organización que permite agrupar objetos por función o tipo, facilitando la gestión y visualización de dibujos complejos. Piense en capas como hojas transparentes o papeles calcantes donde cada capa contiene un conjunto específico de elementos. Esto ayuda a controlar la visibilidad, el color, el tipo de línea y otras propiedades de los objetos de manera eficiente. Por defecto, todo dibujo nuevo de AutoCAD es creado incluyendo una capa denominada cero (0).
 
-1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_ y guarde como _/file/cad/M01A01a.dwg_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
+1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_ y guarde como _/file/cad/M01A01a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, angulos en _grados_, precisiones en 2 decimales y unidades de escala de contenido insertado en _milímetros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
 
 > Dando clic derecho dentro del panel de capas, podrá acceder al menú contextual y encontrará múltiples opciones, entre ella _New Layer_.
 
