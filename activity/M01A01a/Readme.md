@@ -73,9 +73,9 @@ Para la designación de disciplinas, utilizaremos los siguientes prefijos:
 
 </div>
 
-> Las disciplinas resaltadas en negrilla serán las que utilizaremos como referencia general en este curso, si embargo y en caso de ser necesario, utilizaremos nombres de capas de otras disciplinas.
-
 Por ejemplo: **A**, representa la disciplina de arquitectura.
+
+> Las disciplinas resaltadas en negrilla serán las que utilizaremos como referencia general en este curso, si embargo y en caso de ser necesario, utilizaremos nombres de capas de otras disciplinas.
 
 
 ### Prefijos por disciplina - Nivel 2
@@ -84,40 +84,65 @@ El nivel dos, corresponde a un caracter opcional que se coloca a la derecha del 
 
 <div align="center">
 
-| Designador | Descripción (en)              | Descripción (es)               |
-|:----------:|:------------------------------|:-------------------------------|
-|   **A**    | **Architectural**             | **Arquitectura**               |
-|     AD     | Architectural Demolition      | Demolición arquitectónica      |
-|     AE     | Architectural Elements        | Elementos arquitectónicos      |
-|     AF     | Architectural Finishes        | Acabados arquitectónicos       |
-|     AG     | Architectural Graphics        | Gráficos arquitectónicos       |
-|     AI     | Architectural Interiors       | Interiores arquitectónicos     |
-|     AJ     | User Defined                  | Definido por el usuario        |
-|     AK     | User Defined                  | Definido por el usuario        |
-|     AS     | Architectural Site            | Sitio arquitectónico           |
-|   **C**    | **Civil**                     | **Civil**                      |
-|     CD     | Civil Demolition              | Demolición Civil               |
-|     CG     | Civil Grading                 | Nivelación Civil               |
-|     CI     | Civil Improvements            | Mejoras Civiles                |
-|     CJ     | User Defined                  | Definido por el Usuario        |
-|     CK     | User Defined                  | Definido por el Usuario        |
-|     CN     | Civil Nodes                   | Nodos Civiles                  |
-|     CP     | Civil Paving                  | Pavimentación Civil            |
-|     CS     | Civil Site                    | Sitio Civil                    |
-|     CT     | Civil Transportation          | Transporte Civil               |
-|     CU     | Civil Utilities               | Servicios Civiles              |
-|   **E**    | **Electrical**                | **Electricidad**               |
-|     ED     | Electrical Demolition         | Demolición eléctrica           |
-|     EI     | Electrical Instrumentation    | Instrumentación eléctrica      |
-|     EJ     | User Defined                  | Definido por el usuario        |
-|     EK     | User Defined                  | Definido por el usuario        |
-|     EL     | Electrical Lighting           | Iluminación eléctrica          |
-|     EP     | Electrical Power              | Energía eléctrica              |
-|     ES     | Electrical Site               | Sitio eléctrico                |
-|     ET     | Electrical Telecommunications | Telecomunicaciones eléctricas  |
-|     EY     | Electrical Auxiliary Systems  | Sistemas auxiliares eléctricos |
-
-
+| Designador | Descripción (en)                      | Descripción (es)                                           |
+|:----------:|:--------------------------------------|:-----------------------------------------------------------|
+|   **A**    | **Architectural**                     | **Arquitectura**                                           |
+|     AD     | Architectural Demolition              | Demolición arquitectónica                                  |
+|     AE     | Architectural Elements                | Elementos arquitectónicos                                  |
+|     AF     | Architectural Finishes                | Acabados arquitectónicos                                   |
+|     AG     | Architectural Graphics                | Gráficos arquitectónicos                                   |
+|     AI     | Architectural Interiors               | Interiores arquitectónicos                                 |
+|     AJ     | User Defined                          | Definido por el usuario                                    |
+|     AK     | User Defined                          | Definido por el usuario                                    |
+|     AS     | Architectural Site                    | Sitio arquitectónico                                       |
+|   **C**    | **Civil**                             | **Civil**                                                  |
+|     CD     | Civil Demolition                      | Demolición Civil                                           |
+|     CG     | Civil Grading                         | Nivelación Civil                                           |
+|     CI     | Civil Improvements                    | Mejoras Civiles                                            |
+|     CJ     | User Defined                          | Definido por el Usuario                                    |
+|     CK     | User Defined                          | Definido por el Usuario                                    |
+|     CN     | Civil Nodes                           | Nodos Civiles                                              |
+|     CP     | Civil Paving                          | Pavimentación Civil                                        |
+|     CS     | Civil Site                            | Sitio Civil                                                |
+|     CT     | Civil Transportation                  | Transporte Civil                                           |
+|     CU     | Civil Utilities                       | Servicios Civiles                                          |
+|   **E**    | **Electrical**                        | **Electricidad**                                           |
+|     ED     | Electrical Demolition                 | Demolición eléctrica                                       |
+|     EI     | Electrical Instrumentation            | Instrumentación eléctrica                                  |
+|     EJ     | User Defined                          | Definido por el usuario                                    |
+|     EK     | User Defined                          | Definido por el usuario                                    |
+|     EL     | Electrical Lighting                   | Iluminación eléctrica                                      |
+|     EP     | Electrical Power                      | Energía eléctrica                                          |
+|     ES     | Electrical Site                       | Sitio eléctrico                                            |
+|     ET     | Electrical Telecommunications         | Telecomunicaciones eléctricas                              |
+|     EY     | Electrical Auxiliary Systems          | Sistemas auxiliares eléctricos                             |
+|   **S**    | **Structural**                        | **Estructural**                                            |
+|     SB     | Structural Substructure               | Subestructura estructural                                  |
+|     SD     | Structural Demolition                 | Demolición estructural                                     |
+|     SF     | Structural Framing                    | Estructura estructural                                     |
+|     SJ     | User Defined                          | Definido por el usuario                                    |
+|     SK     | User Defined                          | Definido por el usuario                                    |
+|     SS     | Structural Site                       | Sitio estructural                                          |
+|    **V**   | **Survey / Mapping**                  | **Levantamiento/Cartografía**                              |
+|     VA     | Survey / Mapping Aerial               | Levantamiento/Cartografía aérea                            |
+|     VC     | Survey / Mapping Computated Points    | Levantamiento/Cartografía de puntos calculados             |
+|     VF     | Survey / Mapping Field                | Levantamiento/Cartografía de campo                         |
+|     VI     | Survey / Mapping Digital              | Levantamiento/Cartografía digital                          |
+|     VJ     | User Defined                          | Definido por el usuario                                    |
+|     VK     | User Defined                          | Definido por el usuario                                    |
+|     VN     | Survey / Mapping Node Points          | Levantamiento/Cartografía de puntos nodales                |
+|     VS     | Survey / Mapping Staked Points        | Levantamiento/Cartografía de puntos replanteados           |
+|     VU     | Survey / Mapping Combined Utilities   | Levantamiento/Cartografía de servicios públicos combinados |
+|   **W**    | **Distributed Energy**                | **Energía distribuida**                                    |
+|     WC     | Distributed Energy Civil              | Energía distribuida civil                                  |
+|     WD     | Distributed Energy Demolition         | Demolición de energía distribuida                          |
+|     WI     | Distributed Energy Interconnection    | Interconexión de energía distribuida                       |
+|     WJ     | User Defined                          | Definido por el usuario                                    |
+|     WK     | User Defined                          | Definido por el usuario                                    |
+|     WP     | Distributed Energy Power              | Energía distribuida eléctrica                              |
+|     WS     | Distributed Energy Structural         | Energía distribuida estructural                            |
+|     WT     | Distributed Energy Telecommunications | Telecomunicaciones de energía distribuida                  |
+|     WY     | Distributed Energy Auxiliary Systems  | Sistemas auxiliares de energía distribuida                 |
 
 </div>
 
