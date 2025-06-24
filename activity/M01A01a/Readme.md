@@ -386,12 +386,12 @@ Por ejemplo: **A-WALL-FULL-TEXT-N** representa los textos de anotación de los m
 
 En el libro de Excel [DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName.xlsx), se encuentran los nombres de capas definidos por la NCS para las disciplinas relacionadas con las siguientes disciplinas:
 
-A - Architectural (arquitectura)
-C - Civil (civil)
-E - Electrical (electrical)
-S - Structural (estructural)
-V - Survey / Mapping (topografía y cartografía)
-W - Distributed Energy (energía distribuida)
+* A - Architectural (arquitectura)
+* C - Civil (civil)
+* E - Electrical (electrical)
+* S - Structural (estructural)
+* V - Survey / Mapping (topografía y cartografía)
+* W - Distributed Energy (energía distribuida)
 
 > El símbolo □, representa la designación de nivel 2.
 > 
