@@ -38,9 +38,9 @@ El [UCS](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-E658D5E7-EE5C-4A
 
 Para entender mejor estos conceptos, creemos 3 líneas independientes que representen un triángulo rectángulo, con lados de 50 metros en las caras ortogonales y origen absoluto en (0,0).
 
-Abra el archivo _/file/cad/M01A01a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A01b.dwg_ y establezca por defecto la capa _0-Object_.
+1. Abra el archivo _/file/cad/M01A01a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A01b.dwg_ y establezca por defecto la capa _0-Object_.
 
-Secuencia de comandos
+Secuencia de comandos para creación del triángulo
 
 ```
 LINE
@@ -51,13 +51,29 @@ LINE
 
 ```
 
-<div align="center"><img src="graph/AutoCAD_UCS1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
 Como observa en la figura, el nodo de origen del triángulo se encuentra alineado con los ejes del UCS.
 
+<div align="center"><img src="graph/AutoCAD_UCS1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Desde el _Command_, ejecute el comando **UCS**, seleccione el nodo superior del triángulo para mover el orígen, luego el nodo derecho para rotar el sistema de coordenadas y oprima <kbd>enter</kbd> para completar.
 
+<div align="center"><img src="graph/AutoCAD_UCS2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+Observe que el orígen y la rotación de la grilla de referencia han cambiado.
+
+<div align="center"><img src="graph/AutoCAD_UCS3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Utilizando la secuencia de comandos para la creación del triángulo, vuelva a crear esta figura, podrá observar que ahora el nuevo triángulo se ha alineado a la cara de referencia, correspondiente a la hipotetnusa del triángulo anterior.
+
+<div align="center"><img src="graph/AutoCAD_UCS4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Repita este procedimiento 6 veces más y obtendrá la siguiente figura.
+
+<div align="center"><img src="graph/AutoCAD_UCS5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. Para restablecer el orígen absoluto de coordenadas, en el _Command_, ingrese el comando **UCS** y seleccione la opción **W**orld.
+
+<div align="center"><img src="graph/AutoCAD_UCS6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
