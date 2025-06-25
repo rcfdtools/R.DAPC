@@ -489,18 +489,18 @@ En AutoCAD, una capa (o layer) es una herramienta de organización que permite a
 
 El listado presentado en el numeral anterior, no incluye las siguientes sub-capas genéricas cero (0), debido a que no se encuentran en el catálogo AIA:
 
-| Layer - name   | Disciplina  | Capa - Descripción                | CAD Color | CAD Linetype                       | CAD Lineweight |
-|----------------|-------------|-----------------------------------|:---------:|------------------------------------|:--------------:|
-| 0-Annotation   | (genérica)  | Textos de anotación               |    251    | Continuous                         |    Default     |
-| 0-Axe          | (genérica)  | Ejes                              |    43     | ACAD_ISO04W100 (ISO long-dash dot) |      0.25      |
-| 0-CrossSection | (genérica)  | Cortes y/o secciones tranversales |    113    | Continuous                         |      0.18      |
-| 0-Dimension    | (genérica)  | Dimensiones o acotados            |    92     | Continuous                         |    Default     |
-| 0-Grid         | (genérica)  | Grilla o retícula de impresión    |    254    | Continuous                         |      0.15      |
-| 0-Hatch        | (genérica)  | Achurado o sombreado              |    251    | Continuous                         |      0.00      |
-| 0-Object       | (genérica)  | Objetos de dibujo                 |   white   | Continuous                         |      0.30      |
-| 0-Profile      | (genérica)  | Perfil longitudinal               |    113    | Continuous                         |      0.18      |
-| 0-Sketch       | (genérica)  | Lineas constructivas              |    20     | ACAD_ISO02W100 (ISO dash)          |    Default     |
-| 0-Text         | (genérica)  | Textos descriptivos               |   cyan    | Continuous                         |      0.20      |
+| Layer - name    | Disciplina  | Capa - Descripción                 | CAD Color | CAD Linetype                        | CAD Lineweight |
+|:----------------|-------------|:-----------------------------------|:---------:|:------------------------------------|:--------------:|
+| 0-Annotation    | (genérica)  | Textos de anotación                |    251    | Continuous                          |    Default     |
+| 0-Axe           | (genérica)  | Ejes                               |    43     | ACAD_ISO04W100 (ISO long-dash dot)  |      0.25      |
+| 0-CrossSection  | (genérica)  | Cortes y/o secciones tranversales  |    113    | Continuous                          |      0.18      |
+| 0-Dimension     | (genérica)  | Dimensiones o acotados             |    92     | Continuous                          |    Default     |
+| 0-Grid          | (genérica)  | Grilla o retícula de impresión     |    254    | Continuous                          |      0.15      |
+| 0-Hatch         | (genérica)  | Achurado o sombreado               |    251    | Continuous                          |      0.00      |
+| 0-Object        | (genérica)  | Objetos de dibujo                  |   white   | Continuous                          |      0.30      |
+| 0-Profile       | (genérica)  | Perfil longitudinal                |    113    | Continuous                          |      0.18      |
+| 0-Sketch        | (genérica)  | Lineas constructivas               |    20     | ACAD_ISO02W100 (ISO dash)           |    Default     |
+| 0-Text          | (genérica)  | Textos descriptivos                |   cyan    | Continuous                          |      0.20      |
 
 1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_, guarde como _/file/cad/M01A01a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, ángulos en _grados_, precisiones en 2 decimales y unidades de escala de contenido insertado en _milímetros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
 
@@ -524,12 +524,12 @@ El listado presentado en el numeral anterior, no incluye las siguientes sub-capa
 
 | Ícono                                                                                | Nombre                  | Detalle                                                                                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="graph/AutoCAD_ToolLayerOn.jpg" alt="R.DAPC" height="28" border="0" />      | On                      | Activar o desactivar la capa.                                                                                                                                                                                                              |
-| <img src="graph/AutoCAD_ToolLayerFreeze.jpg" alt="R.DAPC" height="28" border="0" />  | Freeze                  | Congelar la capa haciendo que sus objetos sean invisibles, ignorando las entidades al ejecutar otros comandos. Esto mejora el rendimiento del dibujo, especialmente en archivos complejos ya que no se necesita regererar estos elementos. |
-| <img src="graph/AutoCAD_ToolLayerLock.jpg" alt="R.DAPC" height="28" border="0" />    | Lock                    | Bloquea la capa evitando que sus objetos puedan ser modificados o eliminados.                                                                                                                                                              |
-| <img src="graph/AutoCAD_ToolLayerPlot.jpg" alt="R.DAPC" height="28" border="0" />    | Plot                    | Desactiva la capa en la impresión.                                                                                                                                                                                                         |
-| <img src="graph/AutoCAD_ToolLayerDefault.jpg" alt="R.DAPC" height="28" border="0" /> | Set Current             | Dando doble clic sobre la capa o seleccionando la opción _Set Current_, podrá establecerla por defecto. Los nuevos dibujos serrán creados en esta capa.                                                                                    |
-| <img src="graph/AutoCAD_ToolLayerDelete.jpg" alt="R.DAPC" height="28" border="0" />  | Delete                  | Elimina la capa seleccionada y todo su contenido.                                                                                                                                                                                          |
+| <img src="graph/AutoCAD_ToolLayerOn.jpg" alt="R.DAPC" width="28" border="0" />       | On                      | Activar o desactivar la capa.                                                                                                                                                                                                              |
+| <img src="graph/AutoCAD_ToolLayerFreeze.jpg" alt="R.DAPC" width="28" border="0" />  | Freeze                  | Congelar la capa haciendo que sus objetos sean invisibles, ignorando las entidades al ejecutar otros comandos. Esto mejora el rendimiento del dibujo, especialmente en archivos complejos ya que no se necesita regererar estos elementos. |
+| <img src="graph/AutoCAD_ToolLayerLock.jpg" alt="R.DAPC" width="28" border="0" />    | Lock                    | Bloquea la capa evitando que sus objetos puedan ser modificados o eliminados.                                                                                                                                                              |
+| <img src="graph/AutoCAD_ToolLayerPlot.jpg" alt="R.DAPC" width="28" border="0" />    | Plot                    | Desactiva la capa en la impresión.                                                                                                                                                                                                         |
+| <img src="graph/AutoCAD_ToolLayerDefault.jpg" alt="R.DAPC" width="28" border="0" /> | Set Current             | Dando doble clic sobre la capa o seleccionando la opción _Set Current_, podrá establecerla por defecto. Los nuevos dibujos serrán creados en esta capa.                                                                                    |
+| <img src="graph/AutoCAD_ToolLayerDelete.jpg" alt="R.DAPC" width="28" border="0" />  | Delete                  | Elimina la capa seleccionada y todo su contenido.                                                                                                                                                                                          |
 |                                                                                      | Isolate selected layers | Aisla la capa seleccionada desactivando todas las demás capas. Opción disponible usando el menú contextual o clic derecho.                                                                                                                 |
 
 > :bulb: Para mejorar la visualización de los colores definidos en las capas y para evitar la fatiga visual, es recomendable cambiar el color del fondo del espacio de dibujo a negro, para ello, desde el ícono de AutoCAD vaya a _Options_ y en la pestaña _Display_ de clic en botón _Colors..._, establezca en _Context / 2D model space / Interface element: Uniform background / Color: Black._
