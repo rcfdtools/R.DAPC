@@ -76,6 +76,50 @@ Observe que el orígen y la rotación de la grilla de referencia han cambiado.
 <div align="center"><img src="graph/AutoCAD_UCS6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 2. Dibujo de polilíneas
+
+En AutoCAD, una polilínea es una entidad de dibujo compuesta por segmentos de línea o arco que se consideran un único objeto. Esto significa que puedes seleccionar, editar o manipular la polilínea como un todo, en lugar de tratar cada segmento individualmente. El comando genérico para su creación es **PLINE** o su creación puede ser iniciada desde el menú _Home_ en el grupo _Draw_.
+
+1. Utilizando las coordenadas de la figura asimétrica creada en el ejercicio [M01A00E01](../M01A00), creemos una polilínea con orígen absoluto en (200,0). Una ver completada la creación, active desde la barra inferior la visualización rápida de propiedades o ejecute el comando _QPMODE_, seleccione la polílinea y consulte sus propiedades. Podrá observar que se ha calculado automáticamente el área y el perímetro de la figura y que se indica que la polilinea está abierta.
+
+> Para visualizar campos adicionales en la ventana flotante de propiedades rápidas, de clic en el piñon de la ventana y agregue los campos deseados.
+
+```
+PLINE
+200,0
+@15,0
+@0,-11.5
+@40,0
+@0,42.5
+@20,0
+@0,-34
+@5,0
+@0,-3.5
+@17,0
+@-4,-20
+@-18,0
+@0,5
+@-75,0
+200,0
+
+```
+
+<div align="center"><img src="graph/AutoCAD_PLINE.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Las polilíneas cerradas permiten crear polígonos, mientras que las abiertas solo son una secuencia de varios segmentos de líneas unidas en una única entidad.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
