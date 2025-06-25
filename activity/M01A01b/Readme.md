@@ -205,6 +205,28 @@ Este tipo de líneas, permiten trazar curvas sin arcos circulares ajustándose o
 
 <div align="center"><img src="graph/AutoCAD_COPY1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Utilizando la herramienta _Home / Modify / Spline Fit_ o el comando **SPLINE** y la opción [**K**nots], cree una espiral que pase por los nodos de la primera figura asimétrica copiada, para completar y cerrar la espiral ingrese el comando **C**lose. Como observa, la espiral pasa sobre los nodos de la entidad.
+
+<div align="center"><img src="graph/AutoCAD_SPLINE.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Utilizando la herramienta _Home / Modify / Spline CV_ o el comando **SPLINE** y el método [**F**it CV], cree una espiral que pase por los nodos de la segunda figura asimétrica copiada, para completar y cerrar la espiral ingrese el comando **C**lose. Como observa, la espiral se ajusta a la forma general de la figura pero no a sus nodos.
+
+<div align="center"><img src="graph/AutoCAD_SPLINE1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Complementariamente, desde las opciones del _Command_, podrá definir el grado de ajuste (por defecto en 3) y generar a partir de un objeto.
+
+<div align="center"><img src="graph/AutoCAD_SPLINE2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+## 8. 
+
+
+
+
+
+
+
+
 
 
 
