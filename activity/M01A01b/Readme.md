@@ -57,13 +57,15 @@ Como observa en la figura, el nodo de origen del triángulo se encuentra alinead
 
 2. Desde el _Command_, ejecute el comando **UCS**, seleccione el nodo superior del triángulo para mover el orígen, luego el nodo derecho para rotar el sistema de coordenadas y oprima <kbd>enter</kbd> para completar.
 
+> Es necesario activar las opciones de encajado u **OSNAP**, oprima la tecla de función <kbd>F3</kbd>.
+
 <div align="center"><img src="graph/AutoCAD_UCS2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 Observe que el orígen y la rotación de la grilla de referencia han cambiado.
 
 <div align="center"><img src="graph/AutoCAD_UCS3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Utilizando la secuencia de comandos para la creación del triángulo, vuelva a crear esta figura, podrá observar que ahora el nuevo triángulo se ha alineado a la cara de referencia, correspondiente a la hipotetnusa del triángulo anterior.
+3. Utilizando la secuencia de comandos para la creación del triángulo, vuelva a crear esta figura, podrá observar que ahora el nuevo triángulo se ha alineado a la cara de referencia, correspondiente a la hipotenusa del triángulo anterior.
 
 <div align="center"><img src="graph/AutoCAD_UCS4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -139,7 +141,7 @@ Luego, con la ayuda de la herramienta _Home / Modify / Trim_ o el comando **TRIM
 
 Existen múltiples métodos de trazado y su utilización depende de la necesidad particular de localización del arco.
 
-<div align="center"><img src="graph/AutoCAD_ARC.jpg" alt="R.DAPC" width="25%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_ARC.jpg" alt="R.DAPC" width="20%" border="0" /></div>
 
 Por ejemplo, para la creación de arcos de máximo radio en los extremos de la figura simétrica o caras ortogonales de los triángulos, puede utilizar la opción _Start, End, Direction_, definiendo como dirección máxima 90 grados o utilizar _Start, Center, End_.
 
@@ -150,7 +152,24 @@ Para el trazado de arco máximo de proyección en las caras de la figura, puede 
 <div align="center"><img src="graph/AutoCAD_ARC2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 5. 
+## 5. Creación de rectángulos y figuras geométricas regulares
+
+1. Utilizando la herramienta _Home / Modify / Copy_ o el comando **COPY** ó **CP**, cree una copia de la figura asimétrica y localícela ortogonalmente (tecla <kbd>F8</kbd>) hacia arriba a una distancia de 75 metros.
+
+<div align="center"><img src="graph/AutoCAD_COPY.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+1. Utilizando la herramienta _Home / Draw / Rectangle_ o el comando **RECTANG**, cree un rectángulo que inscriba la figura asimétrica. Es indispensable activar en la barra inferior el _Selection Cycling_ o ingresar el comando **SELECTIONCYCLING** y trazar una línea horizontal de construcción de 4 metros en la esquina inferior derecha de la figura.
+
+<div align="center"><img src="graph/AutoCAD_RECTANG.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_RECTANG1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Cree ahora polígonos regulares de 3, 4, 5, 6, 7 lados, utilizando como centroide el círculo central de la figura geométrica y alíne hacia arriba. De clic en el expansor de herramientas de rectángulo en el menú _Home / Draw / Polygon_ o ejecute el comando **POLYGON**, en la barra de comandos defina el número de lados, luego seleccione el centroide del círculo, defina que la figura estará inscrita dentro de la circunferencia y seleccione el cuadrante superior de la circunferencia.
+
+<div align="center">Triángulo inscrito<br><img src="graph/AutoCAD_POLYGON3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center">Rombo inscrito<br><img src="graph/AutoCAD_POLYGON4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center">Pentágono inscrito<br><img src="graph/AutoCAD_POLYGON5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center">Hexágono inscrito<br><img src="graph/AutoCAD_POLYGON6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center">Heptágono inscrito<br><img src="graph/AutoCAD_POLYGON7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
