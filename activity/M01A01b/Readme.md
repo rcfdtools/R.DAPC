@@ -218,13 +218,35 @@ Complementariamente, desde las opciones del _Command_, podrá definir el grado d
 <div align="center"><img src="graph/AutoCAD_SPLINE2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 8. 
+## 8. Creación de donut y helicoides
 
+La Donut, es un tipo de objeto que permite crear una falsa superficie en forma de arandela, al ser explotada se convierte en dos semicircunferencias que describen su eje central.
 
+1. Con la herramienta _Home / Draw / Donut_, creemos una Donut con radio externo de 100 metros, interno de 50 metros con centroide en la coordenada absoluta (475,200).
 
+<div align="center"><img src="graph/AutoCAD_DONUT.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Cree una copia a 100 metros a la derecha y explote con el comando **EXPLODE**. Podra observa que hemos obtenido su eje.
 
+<div align="center"><img src="graph/AutoCAD_DONUT1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+En cuanto a las helicoides:
+
+1. Con la herramienta _Home / Draw / Helix_, creemos una helicoide 2D en la coordenada absoluta (750,200), establezca un radio en la base de 60 metros, un radio en la corona o en el centro de 10 metros y cero metros en altura.
+
+<div align="center"><img src="graph/AutoCAD_HELIX2D.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Con la herramienta _Home / Draw / Helix_, creemos una helicoide 3D en la coordenada absoluta (900,200), establezca un radio en la base de 60 metros, un radio en la corona o en el centro de 10 metros y 80 metros en altura. Observe que visualmente las dos espirales son iguales.
+
+<div align="center"><img src="graph/AutoCAD_HELIX3D.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Utilizando la tecla <kbd>shift</kbd> y manteniendo oprimida la rueda del Mouse, cambie la rotación de visualización del UCS. Podrá observar que la segunda helicoide creada es de 3 dimensiones.
+
+<div align="center"><img src="graph/AutoCAD_HELIX3Da.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Restablezca la visualización superior del plano XY dando clic en la caja que se encuentra arriba a la derecha del área de dibujo.
+
+<div align="center"><img src="graph/AutoCAD_TopView.jpg" alt="R.DAPC" width="20%" border="0" /></div>
 
 
 
