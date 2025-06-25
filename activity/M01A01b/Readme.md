@@ -67,7 +67,7 @@ Observe que el orígen y la rotación de la grilla de referencia han cambiado.
 
 <div align="center"><img src="graph/AutoCAD_UCS4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-4. Repita este procedimiento 6 veces más y obtendrá la siguiente figura.
+4. Repita este procedimiento 6 veces más y obtendrá la siguiente figura simétrica.
 
 <div align="center"><img src="graph/AutoCAD_UCS5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -80,7 +80,7 @@ Observe que el orígen y la rotación de la grilla de referencia han cambiado.
 
 En AutoCAD, una polilínea es una entidad de dibujo compuesta por segmentos de línea o arco que se consideran un único objeto. Esto significa que puedes seleccionar, editar o manipular la polilínea como un todo, en lugar de tratar cada segmento individualmente. El comando genérico para su creación es **PLINE** o su creación puede ser iniciada desde el menú _Home_ en el grupo _Draw_.
 
-1. Utilizando las coordenadas de la figura asimétrica creada en el ejercicio [M01A00E01](../M01A00), creemos una polilínea con orígen absoluto en (200,0). Una ver completada la creación, active desde la barra inferior la visualización rápida de propiedades o ejecute el comando _QPMODE_, seleccione la polílinea y consulte sus propiedades. Podrá observar que se ha calculado automáticamente el área y el perímetro de la figura y que se indica que la polilinea está abierta.
+1. Utilizando las coordenadas de la figura asimétrica creada en el ejercicio [M01A00E01](../M01A00), creemos una polilínea con orígen absoluto en (200,0). Una ver completada la creación, active desde la barra inferior la visualización rápida de propiedades o ejecute el comando **QPMODE**, seleccione la polílinea y consulte sus propiedades. Podrá observar que se ha calculado automáticamente el área y el perímetro de la figura y que se indica que la polilinea está abierta.
 
 > Para visualizar campos adicionales en la ventana flotante de propiedades rápidas, de clic en el piñon de la ventana y agregue los campos deseados.
 
@@ -109,6 +109,30 @@ PLINE
 > Las polilíneas cerradas permiten crear polígonos, mientras que las abiertas solo son una secuencia de varios segmentos de líneas unidas en una única entidad.
 
 
+## 3. Dibujo de circunferencias
+
+Para su creación, existen múltiples métodos, tales como:
+
+* Centro y radio
+* Centro y diámetro
+* 2 puntos
+* 3 puntos
+* Tangente, tangente y radio
+* Tangente, tangente y tangente
+
+Por ejemplo, para crear una circunferencia en la zona central de la figura simétrica construída a partir de triángulos, podremos utilizar la opción de 3 tangentes que puede ser ejecutada desde la cinta de opciones _Home / Draw / Circle_.
+
+<div align="center"><img src="graph/AutoCAD_CIRCLETTT.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Las circunferencias también pueden ser utilizadas para crear líneas constructivas para el suavizado manual de esquinas, p. ej., para suavizar algunas de las esquinas de la figura asimétrica utilizando radios de 5 metros, primero seleccione en el panel de capas _0-Sketch_, luego cree circunferencias de dos tangentes y radio como se muestra a continuación.
+
+> Para ajustar el espaciado de representación de las líneas constructivas, utilice el comando **LTSCALE** estableciendo escala en 0.1.
+
+<div align="center"><img src="graph/AutoCAD_CIRCLETTR.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Luego, con la ayuda de la herramienta _Home / Modify / Trim_ o el comando **TRIM**, podrá eliminar las partes restantes fuera de las entre tangencias.
+
+<div align="center"><img src="graph/AutoCAD_TRIM.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
