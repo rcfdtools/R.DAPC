@@ -10,6 +10,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Objetivos
 
+Al finalizar esta actividad, el estudiante:
+
 * 
 
 

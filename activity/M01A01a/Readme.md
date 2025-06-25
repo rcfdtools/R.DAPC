@@ -8,7 +8,7 @@ Normas para definición de nombres y creación de capas o Layers.
 
 ## Objetivos
 
-Al finalizar esta semana el estudiante:
+Al finalizar esta actividad, el estudiante:
 
 * Entiende los conceptos de aplicación de normas ISO para el nombramiento de layers o capas de dibujo.
 * Crea y modifica layers.

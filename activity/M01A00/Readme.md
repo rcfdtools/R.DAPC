@@ -8,7 +8,7 @@ Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos L
 
 ## Objetivos
 
-Al finalizar esta unidad el estudiante:
+Al finalizar esta actividad, el estudiante:
 
 * Realiza ejercicios de práctica en los que demuestra que puede iniciar un dibujo nuevo en AutoCAD.
 * Realizar configuraciones básicas del entorno de trabajo CAD.

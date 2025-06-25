@@ -6,19 +6,8 @@ Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7:
 <kbd>esc</kbd>
 <kbd>enter</kbd>
 <kbd>ctrl</kbd> + <kbd>i</kbd>
-
-
-
 Windows + Shift + S for print screen
 
-
-Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `parabola` `hyperbola` `m01a01a`
-
-Al finalizar esta semana el estudiante:
-
-* Realiza ejercicios de práctica en los que dibuja, traza y edita líneas, poli-líneas, arcos, chaflanes, cortes transversales y figuras geométricas en AutoCAD.
-
-	
 Practical exercices
 	With arrays determinte separation between elements.
 	With measure calculated perimeters, lengths, areas.
@@ -47,13 +36,5 @@ Commands
 	CUI: personalize user interface
 	; al final de una sentencia en CUI corresponde a Enter en el teclado.
 	^C al final de una sentencia en CUI corresponde a ESC en el teclado.
-
-Layers curso
-	0
-	Texto
-	Dimensión
-	Eje
-	Objeto
-	Contorno
 
 Mouse: https://www.vecteezy.com/vector-art/24103530-set-of-computer-mouse-outline-drawing-vector-computer-mouse-in-a-sketch-style-computer-mouse-training-template-outline-vector-illustration

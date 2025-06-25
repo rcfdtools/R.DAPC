@@ -8,6 +8,9 @@ Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de conv
 
 ## Objetivos
 
+Al finalizar esta actividad, el estudiante:
+
+* 
 * Realiza ejercicios de práctica en los que dibuja, traza y edita líneas, poli-líneas, arcos, chaflanes, cortes transversales y figuras geométricas en AutoCAD.
 
 
@@ -27,10 +30,22 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 1. 
+## 1. Sistema de coordenadas de usuario - UCS
 
+El UCS permite definir el origen y la orientación del actual sistema de coordenadas. Por defecto, el UCS se localiza en el origen absoluto (0,0) y sin rotación, norte o arriba indica el valor del eje Y, este o derecha indica la dirección del eje X.
 
+Para entender mejor estos conceptos, creemos 3 líneas independientes que representen un triángulo rectángulo, con lados de 50 metros en las caras ortogonales y origen absoluto en (0,0).
 
+Secuencia de comandos
+
+```
+LINE
+0,0
+50,0
+0,50
+0,0
+
+```
 
 
 
