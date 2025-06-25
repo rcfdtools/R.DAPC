@@ -1,7 +1,7 @@
 # 1.2.b. Elementos básicos de dibujo / UCS y Geometrías
 Keywords: Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `parabola` `hyperbola` `m01a01b`
 
-Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, ARC, FILLET, CHAMFER, POINT, ARRAY, MIRROR, OFFSET, DONUT, TRIM. Comandos de edición: . Dibujo de elipse, parábola, hipérbola y clotoide.
+Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, POLYGON, POINT, DONUT. Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR. Dibujo de elipse, parábola, hipérbola y clotoide.
 
 <div align="center"><img src="graph/M01A01b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
@@ -154,7 +154,7 @@ Para el trazado de arco máximo de proyección en las caras de la figura, puede 
 
 ## 5. Creación de rectángulos y figuras geométricas regulares
 
-1. Utilizando la herramienta _Home / Modify / Copy_ o el comando **COPY** ó **CP**, cree una copia de la figura asimétrica y localícela ortogonalmente (tecla <kbd>F8</kbd>) hacia arriba a una distancia de 75 metros.
+1. Utilizando la herramienta _Home / Modify / Copy_ o el comando **COPY** o **CP**, cree una copia de la figura asimétrica y localícela ortogonalmente (tecla <kbd>F8</kbd>) hacia arriba a una distancia de 75 metros.
 
 <div align="center"><img src="graph/AutoCAD_COPY.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -172,11 +172,38 @@ Para el trazado de arco máximo de proyección en las caras de la figura, puede 
 <div align="center">Heptágono inscrito<br><img src="graph/AutoCAD_POLYGON7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 6. 
+## 6. Inserción de puntos
+
+1. En el menú _Home / Draw_, seleccione la herramienta de dibujo _Multiple Point_ o ejecute el comando **POINT** y de clic en el centroide de la circunferencia de la figura simétrica, para finalizar la creación del punto presione <kbd>esc</kbd> o <kbd>enter</kbd>.
+
+<div align="center">Heptágono inscrito<br><img src="graph/AutoCAD_POINT.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Cómo observa, el punto es difícilmente visible en el espacio de trabajo, para mejorar su visibilidad utilice el comando **PTYPE** estableciendo el estilo de círculo con cruz y defina en tamaño 5 metros.
+
+<div align="center">Heptágono inscrito<br><img src="graph/AutoCAD_POINT1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Creemos ahora manualmente una nube de puntos separados cada 10 metros, con orígen en la coordenada absoluta (0,130), con 30 repeticiones en la horizontal o eje X y 20 repeticiones en la vertical o eje Y. Para ello, cree primero un punto en la coordenada indicada. `POINT 0,130`, luego seleccione el punto, ahora seleccione la herramienta _Home / Modify / Rectangular Array_ (se abrirá una nueva sinta de opciones denominada Array Creation) definiendo las separaciones requeridas, para finalizar de clic en _Close Array_.
+
+<div align="center">Heptágono inscrito<br><img src="graph/AutoCAD_ARRAYRECT.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Seleccione el arreglo, podrá observar que se comporta como una única entidad.
+
+<div align="center">Heptágono inscrito<br><img src="graph/AutoCAD_ARRAYRECT1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Ejecute el commando **EXPLODE** para separar los nodos del arreglo y seleccione algunos de ellos. Para mejorar la visualización, ajuste el **PTYPE** a 2 metros de tamaño.
+
+<div align="center">Heptágono inscrito<br><img src="graph/AutoCAD_ARRAYRECT2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Los puntos creados podrán ser usados como referencia para crear otras entidades.
 
 
+## 7. Trazado de espirales
 
+Este tipo de líneas, permiten trazar curvas sin arcos circulares ajustándose o inscribiéndose en los nodos de una entidad.
 
+1. Utilizando la herramienta _Home / Modify / Copy_ o el comando **COPY** o **CP**, cree dos copias de la figura asimétrica y localícela ortogonalmente (tecla <kbd>F8</kbd>) hacia la derecha a una distancia de 150 metros.
+
+<div align="center"><img src="graph/AutoCAD_COPY1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
