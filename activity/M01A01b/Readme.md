@@ -141,7 +141,7 @@ Existen múltiples métodos de trazado y su utilización depende de la necesidad
 
 <div align="center"><img src="graph/AutoCAD_ARC.jpg" alt="R.DAPC" width="25%" border="0" /></div>
 
-Por ejemplo, para la creación de arcos de máximo radio en los extremos de la figura simétrica, puede utilizar la opción _Start, End, Direction_, definiendo como dirección máxima 90 grados o utilizar _Start, Center, End_.
+Por ejemplo, para la creación de arcos de máximo radio en los extremos de la figura simétrica o caras ortogonales de los triángulos, puede utilizar la opción _Start, End, Direction_, definiendo como dirección máxima 90 grados o utilizar _Start, Center, End_.
 
 <div align="center"><img src="graph/AutoCAD_ARC1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
