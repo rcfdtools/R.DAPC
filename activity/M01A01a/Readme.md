@@ -397,9 +397,7 @@ En el libro de Excel [DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName
 > 
 > En la versión 5 del catálogo AIA, no se encuentran disponibles los nombres de capas para la disciplina W - Distributed Energy (energía distribuida).
 
-Para el desarrollo de curso, utilizaremos las siguientes capas y configuraciones:
-
-> El listado incluye las siguientes sub-capas cero (0) que no se encuentran en el catálogo AIA: 0-Object, 0-Sketch, 0-Axe, 0-Hatch, 0-Dimension, 0-Text, 0-Annotation.
+Para el desarrollo del curso, utilizaremos las siguientes capas y configuraciones:
 
 | Layer - name | Disciplina               | Capa - Descripción                                  |  CAD Color  | CAD Linetype |  CAD Lineweight   |
 |--------------|--------------------------|-----------------------------------------------------|:-----------:|--------------|:-----------------:|
@@ -488,6 +486,21 @@ Para el desarrollo de curso, utilizaremos las siguientes capas y configuraciones
 ## 2. Creación y manejo de capas (layers) en AutoCAD
 
 En AutoCAD, una capa (o layer) es una herramienta de organización que permite agrupar objetos por función o tipo, facilitando la gestión y visualización de dibujos complejos. Piense en capas como hojas transparentes o papeles calcantes donde cada capa contiene un conjunto específico de elementos. Esto ayuda a controlar la visibilidad, el color, el tipo de línea y otras propiedades de los objetos de manera eficiente. Por defecto, todo dibujo nuevo de AutoCAD es creado incluyendo una capa denominada cero (0).
+
+El listado presentado en el numeral anterior, no incluye las siguientes sub-capas genéricas cero (0), debido a que no se encuentran en el catálogo AIA:
+
+| Layer - name   | Disciplina  | Capa - Descripción                | CAD Color | CAD Linetype                       | CAD Lineweight |
+|----------------|-------------|-----------------------------------|:---------:|------------------------------------|:--------------:|
+| 0-Annotation   | (genérica)  | Textos de anotación               |    251    | Continuous                         |    Default     |
+| 0-Axe          | (genérica)  | Ejes                              |    43     | ACAD_ISO04W100 (ISO long-dash dot) |      0.25      |
+| 0-CrossSection | (genérica)  | Cortes y/o secciones tranversales |    113    | Continuous                         |      0.18      |
+| 0-Dimension    | (genérica)  | Dimensiones o acotados            |    92     | Continuous                         |    Default     |
+| 0-Grid         | (genérica)  | Grilla o retícula de impresión    |    254    | Continuous                         |      0.15      |
+| 0-Hatch        | (genérica)  | Achurado o sombreado              |    251    | Continuous                         |      0.00      |
+| 0-Object       | (genérica)  | Objetos de dibujo                 |   white   | Continuous                         |      0.30      |
+| 0-Profile      | (genérica)  | Perfil longitudinal               |    113    | Continuous                         |      0.18      |
+| 0-Sketch       | (genérica)  | Lineas constructivas              |    20     | ACAD_ISO02W100 (ISO dash)          |    Default     |
+| 0-Text         | (genérica)  | Textos descriptivos               |   cyan    | Continuous                         |      0.20      |
 
 1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_, guarde como _/file/cad/M01A01a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, ángulos en _grados_, precisiones en 2 decimales y unidades de escala de contenido insertado en _milímetros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
 
