@@ -246,7 +246,7 @@ En cuanto a las helicoides:
 
 Restablezca la visualización superior del plano XY dando clic en la caja que se encuentra arriba a la derecha del área de dibujo.
 
-<div align="center"><img src="graph/AutoCAD_TopView.jpg" alt="R.DAPC" width="20%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_TopView.jpg" alt="R.DAPC" width="15%" border="0" /></div>
 
 
 ## 9. Líneas constructivas y rayos
@@ -257,15 +257,15 @@ Este tipo de geometría, permite crear líneas constructivas infinitas, que son 
 
 > Para ejecutar correctamente esta acción, es necesario activar las herramientas de ortogonalidad <kbd>F8</kbd> y encajado u OSNAP <kbd>F3</kbd>.
 
-<div align="center"><img src="graph/AutoCAD_XLINE.jpg" alt="R.DAPC" width="20%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_XLINE.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Ahora, con la herramienta _Home / Draw / Ray_ o el comando **RAY**, trace en desde el centro de la figura, rayos proyectando los bordes externos de los triángulos existtentes en la figura.
+2. Ahora, con la herramienta _Home / Draw / Ray_ o el comando **RAY**, trace en desde el centro de la figura, rayos proyectando los bordes externos de los triángulos existentes en la figura.
 
-<div align="center"><img src="graph/AutoCAD_RAY.jpg" alt="R.DAPC" width="20%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_RAY.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 3. Aléjese del dibujo, podrá observar la proyección infinita de estas líneas.
 
-<div align="center"><img src="graph/AutoCAD_RAY1.jpg" alt="R.DAPC" width="20%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_RAY1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
