@@ -1,7 +1,7 @@
 # 1.2.b. Elementos básicos de dibujo / UCS y Geometrías
 Keywords: Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `parabola` `hyperbola` `m01a01b`
 
-Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos POLYLINE, ARC, FILLET, CHAMFER, POINT, ARRAY, MIRROR, OFFSET, DONUT, TRIM. Dibujo de elipse, parábola, hipérbola y clotoide.
+Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, ARC, FILLET, CHAMFER, POINT, ARRAY, MIRROR, OFFSET, DONUT, TRIM. Comandos de edición: . Dibujo de elipse, parábola, hipérbola y clotoide.
 
 <div align="center"><img src="graph/M01A01b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
@@ -172,6 +172,7 @@ Para el trazado de arco máximo de proyección en las caras de la figura, puede 
 <div align="center">Heptágono inscrito<br><img src="graph/AutoCAD_POLYGON7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 6. 
 
 
 
