@@ -6,8 +6,8 @@ Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7:
 <kbd>esc</kbd>
 <kbd>enter</kbd>
 <kbd>ctrl</kbd> + <kbd>i</kbd>
-; al final de una sentencia en el Command corresponde a Enter en el teclado.
-^C al final de una sentencia en el Command corresponde a ESC en el teclado.
+
+
 
 Windows + Shift + S for print screen
 
@@ -16,11 +16,7 @@ Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` 
 
 Al finalizar esta semana el estudiante:
 
-* Entiende los conceptos de aplicación de normas ISO para el nombramiento de layers o capas de dibujo.
-* Crea y modifica layers.
 * Realiza ejercicios de práctica en los que dibuja, traza y edita líneas, poli-líneas, arcos, chaflanes, cortes transversales y figuras geométricas en AutoCAD.
-
-
 
 	
 Practical exercices
@@ -38,7 +34,8 @@ https://www.youtube.com/watch?v=2LumoE9KjoY
 3:03
 
 Commands
-	UNITS: units parameters
+	UNITS: configuración de unidades y parámetros
+	LAYER: acceso a capas
 	PTYPE: define the point type representation in the draw.
 	MIRRTEXT: use zero for not mirror text.
 	LTSCALE: change the drawing scale for lines.
@@ -47,6 +44,9 @@ Commands
 	TXT2MTXT: convert separate text into multiline text.
 	LAYER: abre el panel de capas.
 	Ctril+9: reopen de Command Line. COMMANDLINE or COMMANDLINEHIDE.
+	CUI: personalize user interface
+	; al final de una sentencia en CUI corresponde a Enter en el teclado.
+	^C al final de una sentencia en CUI corresponde a ESC en el teclado.
 
 Layers curso
 	0
