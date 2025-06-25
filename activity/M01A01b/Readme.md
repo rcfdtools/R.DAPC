@@ -135,8 +135,22 @@ Luego, con la ayuda de la herramienta _Home / Modify / Trim_ o el comando **TRIM
 <div align="center"><img src="graph/AutoCAD_TRIM.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 4. Trazado de arcos circulares
+
+Existen múltiples métodos de trazado y su utilización depende de la necesidad particular de localización del arco.
+
+<div align="center"><img src="graph/AutoCAD_ARC.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Por ejemplo, para la creación de arcos de máximo radio en los extremos de la figura simétrica, puede utilizar la opción _Start, End, Direction_, definiendo como dirección máxima 90 grados o utilizar _Start, Center, End_.
+
+<div align="center"><img src="graph/AutoCAD_ARC1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Para el trazado de arco máximo de proyección en las caras de la figura, puede utilizar _Start, End, Direction_, estableciendo una dirección de 45 grados para lo cual deberá rotar el UCS o utilizar _Center, Start, End_ utilizando como centro el punto medio de la base de cada triángulo.
+
+<div align="center"><img src="graph/AutoCAD_ARC2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 5. 
 
 
 
