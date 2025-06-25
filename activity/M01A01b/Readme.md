@@ -1,7 +1,7 @@
 # 1.2.b. Elementos básicos de dibujo / UCS y Geometrías
 Keywords: Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `parabola` `hyperbola` `m01a01b`
 
-Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, POLYGON, POINT, DONUT. Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR. Dibujo de elipse, parábola, hipérbola y clotoide.
+Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX. Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR. Dibujo de elipse, parábola, hipérbola y clotoide.
 
 <div align="center"><img src="graph/M01A01b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
@@ -158,7 +158,7 @@ Para el trazado de arco máximo de proyección en las caras de la figura, puede 
 
 <div align="center"><img src="graph/AutoCAD_COPY.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-1. Utilizando la herramienta _Home / Draw / Rectangle_ o el comando **RECTANG**, cree un rectángulo que inscriba la figura asimétrica. Es indispensable activar en la barra inferior el _Selection Cycling_ o ingresar el comando **SELECTIONCYCLING** y trazar una línea horizontal de construcción de 4 metros en la esquina inferior derecha de la figura.
+1. Utilizando la herramienta _Home / Draw / Rectangle_ o el comando **RECTANGLE**, cree un rectángulo que inscriba la figura asimétrica. Es indispensable activar en la barra inferior el _Selection Cycling_ o ingresar el comando **SELECTIONCYCLING** y trazar una línea horizontal de construcción de 4 metros en la esquina inferior derecha de la figura.
 
 <div align="center"><img src="graph/AutoCAD_RECTANG.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutoCAD_RECTANG1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
@@ -249,6 +249,23 @@ Restablezca la visualización superior del plano XY dando clic en la caja que se
 <div align="center"><img src="graph/AutoCAD_TopView.jpg" alt="R.DAPC" width="20%" border="0" /></div>
 
 
+## 9. Líneas constructivas y rayos
+
+Este tipo de geometría, permite crear líneas constructivas infinitas, que son especialmente útiles cuando se necesita definir ejes de proyección o líneas radiales, p. ej., para los ejes de las columnas estructurales de una edificación o para las línes directoras de una escalera curva.
+
+1. Utilizando la herramienta _Home / Draw / Construction Line_ o el comando **XLINE**, trace en la capa _0.Axe_, líneas verticales y horizontales en los extremos de la figura simétrica.
+
+> Para ejecutar correctamente esta acción, es necesario activar las herramientas de ortogonalidad <kbd>F8</kbd> y encajado u OSNAP <kbd>F3</kbd>.
+
+<div align="center"><img src="graph/AutoCAD_XLINE.jpg" alt="R.DAPC" width="20%" border="0" /></div>
+
+2. Ahora, con la herramienta _Home / Draw / Ray_ o el comando **RAY**, trace en desde el centro de la figura, rayos proyectando los bordes externos de los triángulos existtentes en la figura.
+
+<div align="center"><img src="graph/AutoCAD_RAY.jpg" alt="R.DAPC" width="20%" border="0" /></div>
+
+3. Aléjese del dibujo, podrá observar la proyección infinita de estas líneas.
+
+<div align="center"><img src="graph/AutoCAD_RAY1.jpg" alt="R.DAPC" width="20%" border="0" /></div>
 
 
 
