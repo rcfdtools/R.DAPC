@@ -401,7 +401,88 @@ Para el desarrollo de curso, utilizaremos las siguientes capas y configuraciones
 
 > El listado incluye las siguientes sub-capas cero (0) que no se encuentran en el catálogo AIA: 0-Object, 0-Sketch, 0-Axe, 0-Hatch, 0-Dimension, 0-Text, 0-Annotation.
 
-***************** Insertar tabla *****************
+| Layer - name | Disciplina               | Capa - Descripción                                  | CAD Color | CAD Linetype | CAD Lineweight |
+|--------------|--------------------------|-----------------------------------------------------|-----------|--------------|----------------|
+| A-AREA       | Arquitectura             | Área                                                | white     | Continuous   | 0.05           |
+| A-CLNG       | Arquitectura             | Techo                                               | 226       | Continuous   | 0.25           |
+| A-COLS       | Arquitectura             | Columnas                                            | red       | Continuous   | 0.5            |
+| A-DOOR       | Arquitectura             | Puertas                                             | 251       | Continuous   | 0.18           |
+| A-EQPM       | Arquitectura             | Equipo                                              | 46        | Continuous   | 0.18           |
+| A-FLOR       | Arquitectura             | Piso                                                | 252       | Continuous   | 0.35           |
+| A-FLOR-LEVL  | Arquitectura             | Piso: cambios de nivel (rampas, fosos, depresiones) | 145       | Continuous   | 0.18           |
+| A-FURN       | Arquitectura             | Mobiliario                                          | 46        | Continuous   | 0.18           |
+| A-GLAZ       | Arquitectura             | Acristalamiento (muros transparentes y ventanas)    | yellow    | Continuous   | 0.18           |
+| A-ROOF       | Arquitectura             | Tejado                                              | 226       | Continuous   | 0.53           |
+| A-WALL       | Arquitectura             | Paredes                                             | white     | Continuous   | 0.6            |
+| C-BLDG       | Civil                    | Edificios y estructuras principales                 |           |              |                |
+| C-CTRL       | Civil                    | Puntos de control                                   |           |              |                |
+| C-DRIV       | Civil                    | Accesos vehiculares                                 | cyan      | Continuous   | 0.4            |
+| C-ESMT       | Civil                    | Servidumbres                                        |           |              |                |
+| C-FENC       | Civil                    | Cercas                                              |           |              |                |
+| C-FIRE       | Civil                    | Protección contra incendios                         |           |              |                |
+| C-NGAS       | Civil                    | Sistemas de gas natural                             |           |              |                |
+| C-POWR       | Civil                    | Energía                                             | white     | DASHED       | 0.15           |
+| C-PROP       | Civil                    | Propiedad                                           | Magenta   | Continuous   | 0.25           |
+| C-RIVR       | Civil                    | Río                                                 |           |              |                |
+| C-ROAD       | Civil                    | Carreteras                                          | 57        | Continuous   | 0.4            |
+| C-SOIL       | Civil                    | Suelos                                              |           |              |                |
+| C-SSWR       | Civil                    | Alcantarillado sanitario                            | green     | Continuous   | 0.3            |
+| C-STRM       | Civil                    | Alcantarillado pluvial                              | 151       | Continuous   | 0.3            |
+| C-SWLK       | Civil                    | Aceras                                              |           |              |                |
+| C-TINN       | Civil                    | Red irregular triangulada                           |           |              |                |
+| C-TOPO       | Civil                    | Característica topográfica                          |           |              |                |
+| C-TRAL       | Civil                    | Senderos o caminos                                  |           |              |                |
+| C-WALL       | Civil                    | Muros                                               | white     | Continuous   | 0.6            |
+| C-WATR       | Civil                    | Suministro de agua                                  |           |              |                |
+| E-AREA       | Electricidad             | Área                                                |           |              |                |
+| E-AUXL       | Electricidad             | Sistemas auxiliares                                 |           |              |                |
+| E-CABL       | Electricidad             | Sistemas de cable                                   | 201       | HIDDEN2      | 201            |
+| E-CONT       | Electricidad             | Controles e instrumentación                         |           |              |                |
+| E-DIAG       | Electricidad             | Diagramas                                           |           |              |                |
+| E-FIRE       | Electricidad             | Protección contra incendios                         |           |              |                |
+| E-GRND       | Electricidad             | Sistema de tierra                                   |           |              |                |
+| E-INST       | Electricidad             | Instrumentación Sistema                             |           |              |                |
+| E-LITE       | Electricidad             | Iluminación                                         |           |              |                |
+| E-LTNG       | Electricidad             | Sistema de protección contra rayos                  |           |              |                |
+| E-POWR       | Electricidad             | Alimentación                                        | white     | DASHED       | 0.15           |
+| S-BEAM       | Estructura               | Vigas                                               | red       | Continuous   | 0.5            |
+| S-BRCG       | Estructura               | Arriostramiento                                     |           |              |                |
+| S-COLS       | Estructura               | Columnas                                            | red       | Continuous   | 0.5            |
+| S-DECK       | Estructura               | Cubierta                                            |           |              |                |
+| S-DETL       | Estructura               | Detalle                                             |           |              |                |
+| S-FNDN       | Estructura               | Cimentación                                         |           |              |                |
+| S-GATE       | Estructura               | Puerta                                              | 251       | Continuous   | 0.18           |
+| S-GRID       | Estructura               | Rejillas                                            |           |              |                |
+| S-JOIS       | Estructura               | Viguetas                                            | 38        | Continuous   | 0.09           |
+| S-LNTL       | Estructura               | Dinteles                                            |           |              |                |
+| S-PLAT       | Estructura               | Plataforma                                          |           |              |                |
+| S-SLAB       | Estructura               | Losa                                                |           |              |                |
+| S-STIF       | Estructura               | Refuerzo                                            |           |              |                |
+| S-STRS       | Estructura               | Escaleras                                           | cyan      | Continuous   | 0.4            |
+| S-TRUS       | Estructura               | Cerchas                                             |           |              |                |
+| S-WALL       | Estructura               | Muros                                               | white     | Continuous   | 0.6            |
+| V-BLDG       | Topografía / Cartografía | Edificios y estructuras primarias                   |           |              |                |
+| V-BNDY       | Topografía / Cartografía | Límites políticos                                   |           |              |                |
+| V-BORE       | Topografía / Cartografía | Perforaciones                                       |           |              |                |
+| V-CTRL       | Topografía / Cartografía | Puntos de control                                   |           |              |                |
+| V-DRIV       | Topografía / Cartografía | Accesos vehiculares                                 | cyan      | Continuous   | 0.4            |
+| V-DTCH       | Topografía / Cartografía | Cunetas o arroyos                                   |           |              |                |
+| V-ESMT       | Topografía / Cartografía | Servidumbres                                        |           |              |                |
+| V-NODE       | Topografía / Cartografía | Nodo                                                |           |              |                |
+| V-POWR       | Topografía / Cartografía | Energía                                             | white     | DASHED       | 0.15           |
+| V-PRKG       | Topografía / Cartografía | Estacionamientos                                    |           |              |                |
+| V-PROP       | Topografía / Cartografía | Propiedad                                           |           |              |                |
+| V-RIVR       | Topografía / Cartografía | Río                                                 |           |              |                |
+| V-ROAD       | Topografía / Cartografía | Carreteras                                          |           |              |                |
+| V-RRAP       | Topografía / Cartografía | Escalones                                           |           |              |                |
+| V-SITE       | Topografía / Cartografía | Características del sitio                           |           |              |                |
+| V-SSWR       | Topografía / Cartografía | Alcantarillado sanitario                            | green     | Continuous   | 0.3            |
+| V-STRM       | Topografía / Cartografía | Alcantarillado pluvial                              | 151       | Continuous   | 0.3            |
+| V-SURV       | Topografía / Cartografía | Levantamiento                                       |           |              |                |
+| V-SWLK       | Topografía / Cartografía | Aceras                                              |           |              |                |
+| V-TOPO       | Topografía / Cartografía | Característica topográfica                          |           |              |                |
+| V-UNID       | Topografía / Cartografía | Objetos no identificados del sitio                  |           |              |                |
+| V-WATR       | Topografía / Cartografía | Suministro de agua                                  |           |              |                |
 
 
 ## 2. Creación y manejo de capas (layers) en AutoCAD
@@ -470,7 +551,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [Draw parabola in AutoCAD](https://www.youtube.com/watch?v=h8pjymm-A5I)
 * https://blog.draftsperson.net/iso-13567-cad-layer-standard/
 * [Creating Macros in AutoCAD](https://www.youtube.com/watch?v=_fSgqZnqWPw)
-* [NEW Autocad Command for Layer settings](https://www.youtube.com/watch?v=lo9cIBHD3j8)
+* [New AutocCAD Command for Layer settings](https://www.youtube.com/watch?v=lo9cIBHD3j8)
 
 
 ## Control de versiones
