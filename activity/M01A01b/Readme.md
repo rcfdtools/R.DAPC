@@ -10,8 +10,8 @@ Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de conv
 
 Al finalizar esta actividad, el estudiante:
 
-* 
-* Realiza ejercicios de práctica en los que dibuja, traza y edita líneas, poli-líneas, arcos, chaflanes, cortes transversales y figuras geométricas en AutoCAD.
+* Manipula sistemas de coordenadas de usuario.
+* Realiza ejercicios de práctica en los que dibuja, traza y edita líneas, poli-líneas, arcos, chaflanes, figuras geométricas y crea cortes transversales.
 
 
 ## Requerimientos
@@ -266,6 +266,22 @@ Este tipo de geometría, permite crear líneas constructivas infinitas, que son 
 3. Aléjese del dibujo, podrá observar la proyección infinita de estas líneas.
 
 <div align="center"><img src="graph/AutoCAD_RAY1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+## 10. Otras herramientas de modificación
+
+FILLET
+CHAMFER
+OFFSET
+MIRROR
+
+
+
+
+
+
+
+
 
 
 

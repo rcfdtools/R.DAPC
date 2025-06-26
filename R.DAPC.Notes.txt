@@ -8,7 +8,8 @@ Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7:
 <kbd>ctrl</kbd> + <kbd>i</kbd>
 Windows + Shift + S for print screen
 
-Practical exercices
+Practical exercices and pending
+	Incluye in keywords all used commands in each activitie.
 	With arrays determinte separation between elements.
 	With measure calculated perimeters, lengths, areas.
 	Crear plantilla con capas tipo.
