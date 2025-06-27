@@ -316,6 +316,7 @@ Desde la barra _Home / Modify_, podrá acceder a múltiples herramientas de modi
 
 ## Ejercicios 
 
+Realizar los siguientes ejercicios incluyendo la figura y sus líneas constructivas.
 
 ### Ejercicio #M01A01bE01
 
