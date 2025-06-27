@@ -331,23 +331,37 @@ Dibuje las siguientes formas geométricas con simetría axial mostradas en la il
 
 ### Ejercicio #M01A01bE04
 
-Dibuje el siguiente elemento isométrico correspondiente a un tabique o ladrillo con perforaciones, en la cara frontal utilice la herramienta Mirror. Guarde el dibujo como _/file/cad/M01A01bE04.dwg_.
+Dibuje el siguiente elemento isométrico correspondiente a la cabeza de un martillo. Guarde el dibujo como _/file/cad/M01A01bE04.dwg_.
 
-<div align="center"><img src="graph/M01A01bE04.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 131)</sub></div>
+<div align="center"><img src="graph/M01A01bE04.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
 ### Ejercicio #M01A01bE05
 
-Dibuje el siguiente elemento isométrico correspondiente a pueza mecánica con perforaciones. Guarde el dibujo como _/file/cad/M01A01bE05.dwg_.
+Dibuje el siguiente elemento isométrico correspondiente a un contra pasador. Guarde el dibujo como _/file/cad/M01A01bE05.dwg_.
 
-<div align="center"><img src="graph/M01A01bE05.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A01bE05.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
 ### Ejercicio #M01A01bE06
 
-Dibuje el siguiente elemento isométrico correspondiente a pueza mecánica con perforaciones. Guarde el dibujo como _/file/cad/M01A01bE06.dwg_.
+Dibuje el siguiente elemento isométrico correspondiente a un tabique o ladrillo con perforaciones, en la cara frontal utilice la herramienta Mirror. Guarde el dibujo como _/file/cad/M01A01bE06.dwg_.
 
-<div align="center"><img src="graph/M01A01bE06.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 123)</sub></div>
+<div align="center"><img src="graph/M01A01bE06.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 131)</sub></div>
+
+
+### Ejercicio #M01A01bE07
+
+Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/M01A01bE07.dwg_.
+
+<div align="center"><img src="graph/M01A01bE07.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+
+
+### Ejercicio #M01A01bE08
+
+Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/**M01A01bE06**.dwg_.
+
+<div align="center"><img src="graph/M01A01bE08.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 123)</sub></div>
 
 
 
