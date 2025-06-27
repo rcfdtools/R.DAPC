@@ -182,7 +182,7 @@ Cómo observa, el punto es difícilmente visible en el espacio de trabajo, para 
 
 <div align="center">Heptágono inscrito<br><img src="graph/AutoCAD_POINT1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Creemos ahora manualmente una nube de puntos separados cada 10 metros, con orígen en la coordenada absoluta (0,130), con 30 repeticiones en la horizontal o eje X y 20 repeticiones en la vertical o eje Y. Para ello, cree primero un punto en la coordenada indicada. `POINT 0,130`, luego seleccione el punto, ahora seleccione la herramienta _Home / Modify / Rectangular Array_ (se abrirá una nueva sinta de opciones denominada Array Creation) definiendo las separaciones requeridas, para finalizar de clic en _Close Array_.
+2. Creemos ahora manualmente una nube de puntos separados cada 10 metros, con orígen en la coordenada absoluta (0,130), con 30 repeticiones en la horizontal o eje X y 20 repeticiones en la vertical o eje Y. Para ello, cree primero un punto en la coordenada indicada. `POINT 0,130`, luego seleccione el punto, ahora seleccione la herramienta _Home / Modify / Rectangular Array_ o el comando **ARRAY** (se abrirá una nueva cinta de opciones denominada Array Creation) definiendo las separaciones requeridas, para finalizar de clic en _Close Array_.
 
 <div align="center">Heptágono inscrito<br><img src="graph/AutoCAD_ARRAYRECT.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
