@@ -339,13 +339,26 @@ Listado de herramientas complementarias:
 > Dando clic derecho sobre la herramienta requerida, podrá acceder a las ventanas de configuración.
 
 
-## 6. Técnica para realizar dibujos en proyección isométrica[^1]
+## 6. Dibujo de planos y técnica para realizar dibujos en proyección isométrica[^1]
 
-Esta técnica consiste, en primer lugar, en llevar sobre cada eje las dimensiones básicas que envuelven el objeto. A continuación, se trazan paralelas por cada punto señalado anteriormente hasta lograr un prisma base. Después se dibujan los detalles de la cara frontal y, finalmente, por los puntos principales de la cara frontal se trazan líneas auxiliares con la inclinación correspondiente, con el fin de obtener los
+Las proyecciones ortogonales (u ortográficas) son el medio adecuado para describir cualquier objeto en forma exacta y completa.
+
+<div align="center"><img src="graph/ProyeccionIsometrica0.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 138)</sub></div>
+
+Por ejemplo:
+
+<div align="center"><img src="graph/ProyeccionIsometrica0a.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 138)</sub></div>
+
+La técnica para realizar dibujos en proyección isométrica consiste, en primer lugar, en llevar sobre cada eje las dimensiones básicas que envuelven el objeto. A continuación, se trazan paralelas por cada punto señalado anteriormente hasta lograr un prisma base. Después se dibujan los detalles de la cara frontal y, finalmente, por los puntos principales de la cara frontal se trazan líneas auxiliares con la inclinación correspondiente, con el fin de obtener los
 detalles restantes del objeto.
 
 <div align="center"><img src="graph/ProyeccionIsometrica.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 <div align="center"><img src="graph/ProyeccionIsometrica1.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+
+A partir de la proyección isométrica, podemos dibujar las vistas planas de cualquier objeto, p. ej.:
+
+<div align="center"><img src="graph/ProyeccionIsometrica3.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+
 
 
 ### Ejercicio #M01A00E03
