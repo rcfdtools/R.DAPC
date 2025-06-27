@@ -270,11 +270,20 @@ Este tipo de geometría, permite crear líneas constructivas infinitas, que son 
 
 ## 10. Otras herramientas de modificación
 
-FILLET
-CHAMFER
+Desde la barra _Home / Modify_, podrá acceder a múltiples herramientas de modificación que le permitirán:
+
+
+* FILLET: crear chaflanes utilizando arcos circulares
+CHAMFER: crear chaflanes utilizando arcos circulares
 OFFSET
 MIRROR
 
+
+| Ícono                                                                                   | Herramienta | Atajo / Comando       | Descripción                                       |
+|:----------------------------------------------------------------------------------------|:------------|:----------------------|:--------------------------------------------------|
+| <img src="../../file/graph/AutoCAD_ToolMove.jpg" alt="R.DAPC" height="28" border="0" /> | Move        | <kbd>M</kbd> <br>MOVE | Mover elementos.                                  |
+| <img src="../../file/graph/AutoCAD_ToolMove.jpg" alt="R.DAPC" height="28" border="0" /> | Rotate      | <kbd>M</kbd> <br>MOVE | Rotar elementos.                                  |
+| <img src="../../file/graph/AutoCAD_ToolMove.jpg" alt="R.DAPC" height="28" border="0" /> | Trim        | <kbd>M</kbd> <br>MOVE | Recortar elementos a partir de otros elemementos. |
 
 
 
