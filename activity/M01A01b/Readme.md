@@ -314,6 +314,9 @@ Desde la barra _Home / Modify_, podrá acceder a múltiples herramientas de modi
 |   <img src="../../file/graph/AutoCAD_ToolDRAWORDER.jpg" alt="R.DAPC" width="28" border="0" />    | Bring To                 | DRAWORDER                 | Cambia el orden o posición de dibujo de un objeto con respecto a otro, p. ej., una columna que se encuentra en la capa S-COLS puede ser colocada encima o debajo de un muro dibujado en la capa A-WALL. |
 
 
+## Ejercicios 
+
+
 ### Ejercicio #M01A01bE01
 
 Para practicar las herramientas vistas en esta actividad, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, círculos y arcos. Guarde el dibujo como _/file/cad/M01A01bE01.dwg_.
