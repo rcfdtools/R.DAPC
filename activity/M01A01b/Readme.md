@@ -319,7 +319,7 @@ Para practicar las herramientas vistas en esta actividad, construiremos en clase
 
 Dibuje la llave de tuercas presentada en la ilustración. Guarde el dibujo como _/file/cad/M01A01bE02.dwg_.
 
-<div align="center"><img src="graph/M01A01bE02.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 84)</sub></div>
+<div align="center"><img src="graph/M01A01bE02.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 84)</sub></div>
 
 
 ### Ejercicio #M01A01bE03
@@ -340,14 +340,14 @@ Dibuje el siguiente elemento isométrico correspondiente a un tabique o ladrillo
 
 Dibuje el siguiente elemento isométrico correspondiente a pueza mecánica con perforaciones. Guarde el dibujo como _/file/cad/M01A01bE05.dwg_.
 
-<div align="center"><img src="graph/M01A01bE05.jpg" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A01bE05.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio #M01A01bE06
 
 Dibuje el siguiente elemento isométrico correspondiente a pueza mecánica con perforaciones. Guarde el dibujo como _/file/cad/M01A01bE06.dwg_.
 
-<div align="center"><img src="graph/M01A01bE06.jpg" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 123)</sub></div>
+<div align="center"><img src="graph/M01A01bE06.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 123)</sub></div>
 
 
 
