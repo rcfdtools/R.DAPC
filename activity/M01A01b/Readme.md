@@ -318,56 +318,56 @@ Desde la barra _Home / Modify_, podrá acceder a múltiples herramientas de modi
 
 Realizar los siguientes ejercicios incluyendo la figura y sus líneas constructivas.
 
-### Ejercicio #M01A01bE01
+### Ejercicio M01A01bE01
 
 Para practicar las herramientas vistas en esta actividad, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, círculos y arcos. Guarde el dibujo como _/file/cad/M01A01bE01.dwg_.
 
 <div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya (pág. 80)</sub></div>
 
 
-### Ejercicio #M01A01bE02
+### Ejercicio M01A01bE02
 
 Dibuje la llave de tuercas presentada en la ilustración. Guarde el dibujo como _/file/cad/M01A01bE02.dwg_.
 
 <div align="center"><img src="graph/M01A01bE02.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 84)</sub></div>
 
 
-### Ejercicio #M01A01bE03
+### Ejercicio M01A01bE03
 
 Dibuje las siguientes formas geométricas con simetría axial mostradas en la ilustración, establezca libremente las dimensiones de cada figura. Guarde el dibujo como _/file/cad/M01A01bE03.dwg_.
 
 <div align="center"><img src="graph/M01A01bE03.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
-### Ejercicio #M01A01bE04
+### Ejercicio M01A01bE04
 
 Dibuje el siguiente elemento isométrico correspondiente a la cabeza de un martillo. Guarde el dibujo como _/file/cad/M01A01bE04.dwg_.
 
 <div align="center"><img src="graph/M01A01bE04.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
-### Ejercicio #M01A01bE05
+### Ejercicio M01A01bE05
 
 Dibuje el siguiente elemento isométrico correspondiente a un contra pasador. Guarde el dibujo como _/file/cad/M01A01bE05.dwg_.
 
 <div align="center"><img src="graph/M01A01bE05.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
-### Ejercicio #M01A01bE06
+### Ejercicio M01A01bE06
 
 Dibuje el siguiente elemento isométrico correspondiente a un tabique o ladrillo con perforaciones, en la cara frontal utilice la herramienta Mirror. Guarde el dibujo como _/file/cad/M01A01bE06.dwg_.
 
 <div align="center"><img src="graph/M01A01bE06.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 131)</sub></div>
 
 
-### Ejercicio #M01A01bE07
+### Ejercicio M01A01bE07
 
 Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/M01A01bE07.dwg_.
 
 <div align="center"><img src="graph/M01A01bE07.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
-### Ejercicio #M01A01bE08
+### Ejercicio M01A01bE08
 
 Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/**M01A01bE06**.dwg_.
 

@@ -179,7 +179,7 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 <div align="center"><img src="graph/AutoCAD_Line3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio #M01A00E01
+### Ejercicio M01A00E01
 
 Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A00E01.dwg_.
 
@@ -250,7 +250,7 @@ LINE
 > :bulb: Para evitar la escritura de la letra **d** en la definición de ángulos, en las unidades de AutoCAD puede establecer grados decimales.
 
 
-### Ejercicio #M01A00E02
+### Ejercicio M01A00E02
 
 **Parte A:** aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A00E01, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A00E02.txt_ y el dibujo en _/file/cad/M01A00E02.dwg_.
 
@@ -361,35 +361,35 @@ A partir de la proyección isométrica, podemos dibujar las vistas planas de cua
 
 
 
-### Ejercicio #M01A00E03
+### Ejercicio M01A00E03
 
 Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, dibujaremos las vistas proyectadas lateral derecha, superior, frontal y posterior, calcularemos las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E03.dwg_.
 
 <div align="center"><img src="graph/M01A00E03.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio #M01A00E04
+### Ejercicio M01A00E04
 
 Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E04.dwg_.
 
 <div align="center"><img src="graph/M01A00E04.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
-### Ejercicio #M01A00E05
+### Ejercicio M01A00E05
 
 Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E05.dwg_.
 
 <div align="center"><img src="graph/M01A00E05.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
-### Ejercicio #M01A00E06
+### Ejercicio M01A00E06
 
 Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E06.dwg_.
 
 <div align="center"><img src="graph/M01A00E06.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
-### Ejercicio #M01A00E07
+### Ejercicio M01A00E07
 
 Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A00E07.dwg_.
 
