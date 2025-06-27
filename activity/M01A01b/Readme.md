@@ -1,7 +1,7 @@
 # 1.2.b. Elementos básicos de dibujo / UCS y Geometrías
 Keywords: Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `parabola` `hyperbola` `m01a01b`
 
-Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX. Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR. Dibujo de elipse, parábola, hipérbola y clotoide.
+Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX. Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR. Dibujo de elipse, óvalo, parábola, hipérbola y clotoide.
 
 <div align="center"><img src="graph/M01A01b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 

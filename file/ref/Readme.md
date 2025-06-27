@@ -66,3 +66,20 @@ Otras normas técnicas y referencias
 * https://earthdata.nasa.gov/
 * https://www.giss.nasa.gov/tools/panoply/
 * https://www.usgs.gov/
+
+
+## Otros
+
+* Dibujo técnico 1 Bachillerato - McGraw-Hill ([.pdf](DibujoTecnico1McGrawHill.pdf), [www](https://guao.org/sites/default/files/biblioteca/Dibujo%20T%C3%A9cnico.pdf)
+* Dibujo técnico 1 Bachillerato - DGEP ([.pdf](DibujoTecnico1DGEP.pdf), [www](https://dgep.uas.edu.mx/librosdigitales/5to_SEMESTRE/47_Dibujo_tecnico_I.pdf)
+* Dibujo técnico 1 - Anaya ([.pdf](DibujoTecnico1Anaya.pdf), [www](https://solucionario.es/descargar-solucionarios-resueltos-dibujo-tecnico/)
+* Dibujo técnico 1 - Edebe ([.pdf](DibujoTecnico1Edebe.pdf), [www](https://solucionario.es/descargar-solucionarios-resueltos-dibujo-tecnico/)
+* Dibujo técnico 1 - Sandoval ([.pdf](DibujoTecnico1Sandoval.pdf), [www](https://solucionario.es/descargar-solucionarios-resueltos-dibujo-tecnico/)
+* Dibujo técnico 1 - Santillana ([.pdf](DibujoTecnico1Santillana.pdf), [www](https://solucionario.es/descargar-solucionarios-resueltos-dibujo-tecnico/)
+* Dibujo técnico 2 - Marea Verde ([.pdf](DibujoTecnico2MareaVerde.pdf), [www](https://www.apuntesmareaverde.org.es/grupos/dib/2bach/dibujo_tecnico_II.pdf)
+* Dibujo técnico 2 - Joaquin Gonzalo Gonzalo ([.pdf](DibujoTecnico2Gonzalo.pdf), [www](https://solucionario.es/descargar-solucionarios-resueltos-dibujo-tecnico/)
+
+
+* Dibujo para Diseño en Ingeniería - Universidad Continental - Peru ([.pdf](DibujoParaDisenoEnIngenieríaUniversidadContinentalPeru.pdf), [www](https://repositorio.continental.edu.pe/bitstream/20.500.12394/2210/1/DO_FIN_EE_MT_UC0222_20162.pdf)
+
+
