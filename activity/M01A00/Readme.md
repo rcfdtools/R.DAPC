@@ -339,6 +339,15 @@ Listado de herramientas complementarias:
 > Dando clic derecho sobre la herramienta requerida, podrá acceder a las ventanas de configuración.
 
 
+## 6. Técnica para realizar dibujos en proyección isométrica[^1]
+
+Esta técnica consiste, en primer lugar, en llevar sobre cada eje las dimensiones básicas que envuelven el objeto. A continuación, se trazan paralelas por cada punto señalado anteriormente hasta lograr un prisma base. Después se dibujan los detalles de la cara frontal y, finalmente, por los puntos principales de la cara frontal se trazan líneas auxiliares con la inclinación correspondiente, con el fin de obtener los
+detalles restantes del objeto.
+
+<div align="center"><img src="graph/ProyeccionIsometrica.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/ProyeccionIsometrica1.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+
+
 ### Ejercicio #M01A00E03
 
 Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, dibujaremos las vistas proyectadas lateral derecha, superior, frontal y posterior, calcularemos las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E03.dwg_.
@@ -348,21 +357,21 @@ Para practicar las herramientas de dibujo asistido, construiremos en clase el si
 
 ### Ejercicio #M01A00E04
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior y frontal. Guarde el dibujo como _/file/cad/M01A00E04.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E04.dwg_.
 
 <div align="center"><img src="graph/M01A00E04.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio #M01A00E05
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior y frontal. Guarde el dibujo como _/file/cad/M01A00E05.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E05.dwg_.
 
 <div align="center"><img src="graph/M01A00E05.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio #M01A00E06
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior y frontal. Guarde el dibujo como _/file/cad/M01A00E06.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E06.dwg_.
 
 <div align="center"><img src="graph/M01A00E06.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
@@ -409,4 +418,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [:arrow_backward: Anterior](../Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A01a/Readme.md) |
 |-------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
 
-[^1]: 
+[^1]: Tomado de: Dibujo Técnico I - DGEP (pág. 125)
