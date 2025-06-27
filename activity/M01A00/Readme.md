@@ -376,6 +376,14 @@ Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%
 <div align="center"><img src="graph/M01A00E06.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
+### Ejercicio #M01A00E07
+
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A00E07.dwg_.
+
+El espesor del material de la escalera es 2.5.
+
+<div align="center"><img src="graph/M01A00E07.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+
 
 ## Actividades de proyecto :triangular_ruler:
 
@@ -399,6 +407,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
 * https://www.andresdeltoro.es/realizar-una-linea-poligonal-autocad-conociendo-los-angulos/
+* Dibujo Técnico I - DGEP
 
 
 ## Control de versiones
