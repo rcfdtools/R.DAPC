@@ -238,8 +238,8 @@ En cuanto a las helicoides:
 
 Las técnicas de dibujo de espirales incluyen la utilización de 2 o 3 centros, como se muestra en las siguientes ilustraciones.
 
-<div align="center"><img src="graph/Espiral2Centros.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 84)</sub></div>
-<div align="center"><img src="graph/Espiral3Centros.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 84)</sub></div>
+<div align="center"><img src="graph/Espiral2Centros.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 80)</sub></div>
+<div align="center"><img src="graph/Espiral3Centros.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 80)</sub></div>
 
 > Para entender mejor estos conceptos, realice el trazado manual de estas espirales utilizando cualquier dimensión y centroide.
 
