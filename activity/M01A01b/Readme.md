@@ -312,7 +312,7 @@ Desde la barra _Home / Modify_, podrá acceder a múltiples herramientas de modi
 
 Para practicar las herramientas vistas en esta actividad, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, círculos y arcos. Guarde el dibujo como _/file/cad/M01A01bE01.dwg_.
 
-<div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="100%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya</sub></div>
 
 
 
