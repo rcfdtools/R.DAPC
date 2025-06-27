@@ -382,7 +382,7 @@ Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%
 
 El espesor del material de la escalera es 2.5.
 
-<div align="center"><img src="graph/M01A00E07.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A00E07.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
