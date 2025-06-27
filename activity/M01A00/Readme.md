@@ -344,8 +344,8 @@ Listado de herramientas complementarias:
 Esta técnica consiste, en primer lugar, en llevar sobre cada eje las dimensiones básicas que envuelven el objeto. A continuación, se trazan paralelas por cada punto señalado anteriormente hasta lograr un prisma base. Después se dibujan los detalles de la cara frontal y, finalmente, por los puntos principales de la cara frontal se trazan líneas auxiliares con la inclinación correspondiente, con el fin de obtener los
 detalles restantes del objeto.
 
-<div align="center"><img src="graph/ProyeccionIsometrica.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
-<div align="center"><img src="graph/ProyeccionIsometrica1.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/ProyeccionIsometrica.jpg" alt="R.DAPC" width="70%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/ProyeccionIsometrica1.jpg" alt="R.DAPC" width="70%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio #M01A00E03
