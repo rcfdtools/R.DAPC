@@ -315,7 +315,18 @@ Para practicar las herramientas vistas en esta actividad, construiremos en clase
 <div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya (pág. 80)</sub></div>
 
 
+### Ejercicio #M01A01bE02
 
+Dibuje la llave de tuercas presentada en la ilustración. Guarde el dibujo como _/file/cad/M01A01bE02.dwg_.
+
+<div align="center"><img src="graph/M01A01bE02.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 84)</sub></div>
+
+
+### Ejercicio #M01A01bE03
+
+Dibuje las siguientes formas geométricas con simetría axial mostradas en la ilustración, establezca libremente las dimensiones de cada figura. Guarde el dibujo como _/file/cad/M01A01bE03.dwg_.
+
+<div align="center"><img src="graph/M01A01bE03.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
 
