@@ -344,8 +344,8 @@ Listado de herramientas complementarias:
 Esta técnica consiste, en primer lugar, en llevar sobre cada eje las dimensiones básicas que envuelven el objeto. A continuación, se trazan paralelas por cada punto señalado anteriormente hasta lograr un prisma base. Después se dibujan los detalles de la cara frontal y, finalmente, por los puntos principales de la cara frontal se trazan líneas auxiliares con la inclinación correspondiente, con el fin de obtener los
 detalles restantes del objeto.
 
-<div align="center"><img src="graph/ProyeccionIsometrica.jpg" alt="R.DAPC" width="70%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
-<div align="center"><img src="graph/ProyeccionIsometrica1.jpg" alt="R.DAPC" width="70%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/ProyeccionIsometrica.jpg" alt="R.DAPC" width="55%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/ProyeccionIsometrica1.jpg" alt="R.DAPC" width="55%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio #M01A00E03
@@ -359,21 +359,21 @@ Para practicar las herramientas de dibujo asistido, construiremos en clase el si
 
 Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E04.dwg_.
 
-<div align="center"><img src="graph/M01A00E04.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A00E04.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio #M01A00E05
 
 Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E05.dwg_.
 
-<div align="center"><img src="graph/M01A00E05.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A00E05.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio #M01A00E06
 
 Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E06.dwg_.
 
-<div align="center"><img src="graph/M01A00E06.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A00E06.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio #M01A00E07
@@ -382,7 +382,7 @@ Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%
 
 El espesor del material de la escalera es 2.5.
 
-<div align="center"><img src="graph/M01A00E07.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A00E07.jpg" alt="R.DAPC" width="70%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
