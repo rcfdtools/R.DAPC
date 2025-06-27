@@ -343,6 +343,13 @@ Dibuje el siguiente elemento isométrico correspondiente a pueza mecánica con p
 <div align="center"><img src="graph/M01A01bE05.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
+### Ejercicio #M01A01bE06
+
+Dibuje el siguiente elemento isométrico correspondiente a pueza mecánica con perforaciones. Guarde el dibujo como _/file/cad/M01A01bE06.dwg_.
+
+<div align="center"><img src="graph/M01A01bE06.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 123)</sub></div>
+
+
 
 
 ## Actividades de proyecto :triangular_ruler:
