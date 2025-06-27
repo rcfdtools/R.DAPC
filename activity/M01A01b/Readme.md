@@ -320,9 +320,14 @@ Realizar los siguientes ejercicios incluyendo la figura y sus líneas constructi
 
 ### Ejercicio M01A01bE01
 
-Para practicar las herramientas vistas en esta actividad, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, círculos y arcos. Guarde el dibujo como _/file/cad/M01A01bE01.dwg_.
+Para practicar las herramientas vistas en esta actividad, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, círculos y arcos, inscrita en una circunferencia de diámetro 10 metros. Guarde el dibujo como _/file/cad/M01A01bE01.dwg_.
 
-<div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya (pág. 80)</sub></div>
+Especificaciones adicionales:
+
+* Para las líneas constructivas, utilice un escalado de líneas o **LTSCALE** en 0.05.
+* En el mismo dibujo, cree copias de la figura creada a escalas 0.5:1, 2:1 y 5:1.
+
+<div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="100%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya (pág. 80)</sub></div>
 
 
 ### Ejercicio M01A01bE02
