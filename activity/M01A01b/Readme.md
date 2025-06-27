@@ -238,9 +238,9 @@ En cuanto a las helicoides:
 
 Las técnicas de dibujo de espirales incluyen la utilización de 2 o 3 centros, como se muestra en las siguientes ilustraciones.
 
-<div align="center"><img src="graph/Espiral2Centros.jpg" alt="R.DAPC" width="25%" border="0" /><img src="graph/Espiral3Centros.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 80)</sub></div>
+<div align="center"><img src="graph/Espiral2Centros.jpg" alt="R.DAPC" width="30%" border="0" /><img src="graph/Espiral3Centros.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 80)</sub></div>
 
-> Para entender mejor estos conceptos, realice el trazado manual de estas espirales utilizando cualquier dimensión y centroide.
+> Para entender mejor estos conceptos, realice el trazado manual de estas espirales utilizando cualquier radio y centroide.
 
 2. Con la herramienta _Home / Draw / Helix_, creemos una helicoide 3D en la coordenada absoluta (900,200), establezca un radio en la base de 60 metros, un radio en la corona o en el centro de 10 metros y 80 metros en altura. Observe que visualmente las dos espirales son iguales.
 
