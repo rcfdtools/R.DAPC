@@ -116,9 +116,9 @@ El término óvalo (del latín ovum, huevo) hace referencia a una forma geométr
 
 La ecuación del óvalo corresponde a:
 
-<div align="center"><img src="graph/EcuacionOvalo.svg" alt="R.DAPC" width="15%" border="0" /></div>
+<div align="center"><img src="graph/EcuacionOvalo.svg" alt="R.DAPC" width="20%" border="0" /></div>
 
-
+1. Para el trazado en AutoCAD
 
 
 
