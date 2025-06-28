@@ -143,7 +143,7 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 
 El ovoide es una curva cerrada simétrica con respecto a su eje y cóncava hacia él, conformada por cuatro arcos de circunferencia: uno de ellos es una semicircunferencia y los otros dos son iguales y simétricos. Su nombre deriva de su parecido con la sección longitudinal de un huevo.
 
-Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de curvatura. A diferencia del óvalo, solo tiene un eje de simetría.[
+Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de curvatura. A diferencia del óvalo, solo tiene un eje de simetría.
 
 > No debe confundirse con un ovoide en geometría proyectiva.
 
@@ -173,9 +173,9 @@ Utilizando los conceptos aprendidos, cree un libro formulado en Excel para el tr
 
 Ecuación Superelipse
 
-<div align="center"><img src="graph/EcuacionSuperelipse.svg" alt="R.DAPC" width="17.5%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
+<div align="center"><img src="graph/EcuacionSuperelipse.svg" alt="R.DAPC" width="15%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
 
-<div align="center"><img src="graph/Superelipse.png" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
+<div align="center"><img src="graph/Superelipse.png" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
 
 
 
