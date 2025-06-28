@@ -220,6 +220,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [Cursos de matemáticas / Elipse en Excel](https://www.youtube.com/watch?v=F3Sb0qiDGwc&t=353s)
 * [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Óvalos y Ovoides](https://www.youtube.com/@dibujotecnicobtoconautocad7149)
 * https://es.wikipedia.org/wiki/%C3%93valo
+* https://es.wikipedia.org/wiki/Ovoide
 
 
 ## Control de versiones
@@ -240,3 +241,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: https://es.wikipedia.org/wiki/%C3%93valo
+[^2]: https://es.wikipedia.org/wiki/Ovoide
