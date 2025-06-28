@@ -81,18 +81,27 @@ Y generaremos la secuencia de comandos para la generación de las polilíneas po
 
 <div align="center"><img src="graph/Excel_Elipse3.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
+2. En AutoCAD, cree una copia del archivo _/file/cad/M01A01a.dwg_ y guarde como _/file/cad/M01A01c.dwg_. Luego, copie desde la hoja AutoCAD del libro de Excel, la columna A que contiene la secuencia de comandos y pegue en el _Command_ de AutoCAD. Obtendrá la representación de la Elipse usando polilíneas a partir de las coordenadas (x.y) del libro de Excel.
 
+<div align="center"><img src="graph/AutoCAD_Elipse.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
+> Tenga en cuenta que debido a que el libro de Excel permite la generación de coordenadas de hasta 100 puntos por cuadrante, y en el ejemplo hemos definido que utilizaremos solo 48 nodos, es posible que los nodos de los extremos contengas duplicidades.
 
+3. Para verificar el número de nodos por cada polilínea, seleccione cualquiera de los cuadrantes y desde el _Command_ ejecute el comando **LIST**.
 
+<div align="center"><img src="graph/AutoCAD_Elipse1.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
+Observará que las coordenadas del último nodo del objeto se encuentran duplicadas.
 
+<div align="center"><img src="graph/AutoCAD_Elipse2.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
+4. Para verificar la forma geométrica de la Elipse generada en autocad a partir de arcos circulares, con el comando **ELLIPSE**, dibuje la elipse con los parámetros utilizados para el cálculo de sus coordenadas, utilice centroide en la coordenada absoluta (100,50), semieje mayor a=60 y semieje mejor b=20. Cree esta línea en la capa _0-Sketch_.
 
+<div align="center"><img src="graph/AutoCAD_Elipse3.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
+Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordenadas calculadas y arcos circulares, podrá observar que los 48 nodos usados por cuadrante no permiten describir en detalle sus extremos.
 
-
-
+<div align="center"><img src="graph/AutoCAD_Elipse4.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
 
 
