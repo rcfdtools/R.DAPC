@@ -43,7 +43,7 @@ Métodos de dibujo en AutoCAD:
 
 La ecuación general de una elipse horizontal con centro en (0,0) es:
 
-<div align="center"><img src="graph/EcuacionElipse0.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-fuera-del-origen/</sub></div>
+<div align="center"><img src="graph/EcuacionElipse0.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-fuera-del-origen/</sub></div>
 
 Donde
 
