@@ -167,7 +167,7 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 <div align="center"><img src="graph/AutoCAD_Ovoide3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio M01A01cE02
+### Ejercicio M01A01cE03
 
 Utilizando los conceptos aprendidos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01bE06**.dwg_.
 
