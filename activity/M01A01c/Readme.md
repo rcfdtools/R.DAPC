@@ -65,7 +65,7 @@ Donde
 
 > Los focos se ubican en el eje mayor. Si la elipse es horizontal, los focos están en (h ± c, k); si es vertical, están en (h, k ± c). 
 
-1. Para el dibujo manual de las polilíneas por cuadrante, que describen a partir de nodos la elipse, crearemos la siguiente hoja de Excel:
+1. Para el dibujo manual en AutoCAD de las polilíneas por cuadrante que describen una elipse a partir de coordenadas o nodos, crearemos la siguiente hoja de Excel:
 
 <div align="center"><img src="graph/Excel_Elipse.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
@@ -102,6 +102,10 @@ Observará que las coordenadas del último nodo del objeto se encuentran duplica
 Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordenadas calculadas y arcos circulares, podrá observar que los 48 nodos usados por cuadrante no permiten describir en detalle sus extremos.
 
 <div align="center"><img src="graph/AutoCAD_Elipse4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. Para facilitar la visualización de la localización de los nodos, con el comando **POINT**, cree todos los nodos generados, utilice para ello la columna B de la hoja AutoCAD del libro de Excel.
+
+<div align="center"><img src="graph/AutoCAD_Elipse5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
