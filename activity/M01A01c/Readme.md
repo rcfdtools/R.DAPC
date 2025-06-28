@@ -142,7 +142,9 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 
 <div align="center"><img src="graph/AutoCAD_Ovoide1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Para el dibujo de un _ovoide dado el eje mayor_, con centroide en la coordenada absoluta (335,200).
+2. Para el dibujo de un _ovoide dado el eje mayor_, con centroide en la coordenada absoluta (395,200).
+
+> Utilizando el comando **DIVIDE**, divida en 6 partes el eje mayor para obtener nodos a lo largo del eje. El trazado de arcos se realiza en el nodo de la segunda división.
 
 <div align="center"><img src="graph/AutoCAD_Ovoide2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
