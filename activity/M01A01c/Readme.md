@@ -122,7 +122,7 @@ Veamos las líneas constructivas para su dibujo a partir de arcos circulares y r
 
 1. Para el dibujo en AutoCAD de un óvalo dado el eje menor, con centroide en la coordenada absoluta (225,50) y radio de inscripción 20.
 
-<div align="center"><img src="graph/AutoCAD_Ovalo1.jpg" alt="R.DAPC" width="20%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Ovalo1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 2. Para el dibujo en AutoCAD de un óvalo dado el eje mayor, con centroide en la coordenada absoluta (325,50) y radio de inscripción 20.
 
