@@ -1,7 +1,7 @@
 # 1.2.b. Elementos básicos de dibujo / UCS y Geometrías
-Keywords: Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `parabola` `hyperbola` `m01a01b`
+Keywords: Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `m01a01b`
 
-Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX. Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR. Dibujo de elipse, óvalo, parábola, hipérbola y clotoide.
+Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX... Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR...
 
 <div align="center"><img src="graph/M01A01b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
@@ -218,7 +218,7 @@ Complementariamente, desde las opciones del _Command_, podrá definir el grado d
 <div align="center"><img src="graph/AutoCAD_SPLINE2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 8. Creación de donut y helicoides
+## 8. Creación de donut y hélices
 
 La Donut, es un tipo de objeto que permite crear una falsa superficie en forma de arandela, al ser explotada se convierte en dos semicircunferencias que describen su eje central.
 
@@ -230,9 +230,9 @@ La Donut, es un tipo de objeto que permite crear una falsa superficie en forma d
 
 <div align="center"><img src="graph/AutoCAD_DONUT1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-En cuanto a las helicoides:
+En cuanto a las hélices o espirales de arcos circulares:
 
-1. Con la herramienta _Home / Draw / Helix_, creemos una helicoide 2D en la coordenada absoluta (750,200), establezca un radio en la base de 60 metros, un radio en la corona o en el centro de 10 metros y cero metros en altura.
+1. Con la herramienta _Home / Draw / Helix_, creemos una hélice 2D en la coordenada absoluta (750,200), establezca un radio en la base de 60 metros, un radio en la corona o en el centro de 10 metros y cero metros en altura.
 
 <div align="center"><img src="graph/AutoCAD_HELIX2D.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -242,11 +242,11 @@ Las técnicas de dibujo de espirales incluyen la utilización de 2 o 3 centros, 
 
 > Para entender mejor estos conceptos, realice el trazado manual de estas espirales utilizando cualquier radio y centroide.
 
-2. Con la herramienta _Home / Draw / Helix_, creemos una helicoide 3D en la coordenada absoluta (900,200), establezca un radio en la base de 60 metros, un radio en la corona o en el centro de 10 metros y 80 metros en altura. Observe que visualmente las dos espirales son iguales.
+2. Con la herramienta _Home / Draw / Helix_, creemos una hélice 3D en la coordenada absoluta (900,200), establezca un radio en la base de 60 metros, un radio en la corona o en el centro de 10 metros y 80 metros en altura. Observe que visualmente las dos espirales son iguales.
 
 <div align="center"><img src="graph/AutoCAD_HELIX3D.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Utilizando la tecla <kbd>shift</kbd> y manteniendo oprimida la rueda del Mouse, cambie la rotación de visualización del UCS. Podrá observar que la segunda helicoide creada es de 3 dimensiones.
+3. Utilizando la tecla <kbd>shift</kbd> y manteniendo oprimida la rueda del Mouse, cambie la rotación de visualización del UCS. Podrá observar que la segunda hélice creada es de 3 dimensiones.
 
 <div align="center"><img src="graph/AutoCAD_HELIX3Da.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
