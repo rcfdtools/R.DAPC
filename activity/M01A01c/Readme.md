@@ -113,7 +113,7 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 
 ## 2.1. Óvalo
 
-El término óvalo (del latín ovum, huevo) hace referencia a una forma geométrica convexa y redondeada, que se asemeja al perfil de un huevo de ave en su sentido más amplio.
+El término óvalo hace referencia a una forma geométrica convexa y redondeada, que se asemeja al perfil de un huevo de ave en su sentido más amplio.
 
 <div align="center"><img src="graph/Ovalo.png" alt="R.DAPC" width="45%" border="0" /><br><sub>https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
 
