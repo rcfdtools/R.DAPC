@@ -108,8 +108,21 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 <div align="center"><img src="graph/AutoCAD_Elipse5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 2. Óvalo [^1]
 
-## 2. Óvalo
+El término óvalo (del latín ovum, huevo) hace referencia a una forma geométrica convexa y redondeada, que se asemeja al perfil de un huevo de ave en su sentido más amplio.
+
+<div align="center"><img src="graph/Ovalo.png" alt="R.DAPC" width="60%" border="0" /><br><sub>https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
+
+La ecuación del óvalo corresponde a:
+
+<div align="center"><img src="graph/OvaloEcuacion.svg" alt="R.DAPC" width="300%" border="0" /></div>
+
+
+
+
+
+
 
 
 ## 3. Parábola
@@ -167,4 +180,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
-[^1]: 
+[^1]: https://es.wikipedia.org/wiki/%C3%93valo
