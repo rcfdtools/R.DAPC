@@ -63,12 +63,49 @@ Donde
 * a: longitud del semieje mayor.
 * b: longitud del semieje menor.
 
-Los focos se ubican en el eje mayor. Si la elipse es horizontal, los focos están en (h ± c, k); si es vertical, están en (h, k ± c). 
+> Los focos se ubican en el eje mayor. Si la elipse es horizontal, los focos están en (h ± c, k); si es vertical, están en (h, k ± c). 
+
+1. Para el dibujo manual de las polilíneas por cuadrante, que describen a partir de nodos la elipse, crearemos la siguiente hoja de Excel:
+
+<div align="center"><img src="graph/Excel_Elipse.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+A partir de los parámetros de entrada, calcularemos las coordenadas.
+
+<div align="center"><img src="graph/Excel_Elipse1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+Obtendremos la siguiente gráfica en Excel.
+
+<div align="center"><img src="graph/Excel_Elipse2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Y generaremos la secuencia de comandos para la generación de las polilíneas por cuadrante.
+
+<div align="center"><img src="graph/Excel_Elipse3.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+## 2. Óvalo
+
+
+## 3. Parábola
+
+
+## 4. Clotoide
+
+
+## 5. Funciones trigonométricas
 
 
 
