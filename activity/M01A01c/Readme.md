@@ -108,20 +108,23 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 <div align="center"><img src="graph/AutoCAD_Elipse5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 2. Óvalos y oviodes [^1]
+## 2. Óvalo y ovoiode 
 
 
-## 2.1. Óvalo
+## 2.1. Óvalo [^1]
 
 El término óvalo hace referencia a una forma geométrica convexa y redondeada, que se asemeja al perfil de un huevo de ave en su sentido más amplio.
 
 <div align="center"><img src="graph/Ovalo.png" alt="R.DAPC" width="45%" border="0" /><br><sub>https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
 
-La ecuación del óvalo corresponde a:
+La ecuación general del óvalo corresponde a:
 
-<div align="center"><img src="graph/EcuacionOvalo.svg" alt="R.DAPC" width="20%" border="0" /></div>
+<div align="center"><img src="graph/EcuacionOvalo.svg" alt="R.DAPC" width="17.5%" border="0" /></div>
 
-Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos circulares y realicemos su trazado en clase:
+
+### Ejercicio M01A01cE01
+
+Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos circulares y realicemos su trazado en clase. Guarde el dibujo como _/file/cad/**M01A01cE01**.dwg_.
 
 1. Para el dibujo de un _óvalo dado el eje menor_, con centroide en la coordenada absoluta (225,50).
 
@@ -136,7 +139,18 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 <div align="center"><img src="graph/AutoCAD_Ovalo3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 2.1. Ovoide
+## 2.1. Ovoide [^2]
+
+El ovoide es una curva cerrada simétrica con respecto a su eje y cóncava hacia él, conformada por cuatro arcos de circunferencia: uno de ellos es una semicircunferencia y los otros dos son iguales y simétricos. Su nombre deriva de su parecido con la sección longitudinal de un huevo.
+
+Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de curvatura. A diferencia del óvalo, solo tiene un eje de simetría.[
+
+> No debe confundirse con un ovoide en geometría proyectiva.
+
+
+### Ejercicio M01A01cE02 
+
+Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos circulares y realicemos su trazado en clase. Guarde el dibujo como _/file/cad/**M01A01cE02**.dwg_.
 
 1. Para el dibujo de un _ovoide dado el eje menor_, con centroide en la coordenada absoluta (225,200).
 
@@ -153,7 +167,15 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 <div align="center"><img src="graph/AutoCAD_Ovoide3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+### Ejercicio M01A01cE02
 
+Utilizando los conceptos aprendidos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01bE06**.dwg_.
+
+Ecuación Superelipse
+
+<div align="center"><img src="graph/EcuacionSuperelipse.svg" alt="R.DAPC" width="17.5%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
+
+<div align="center"><img src="graph/Superelipse.png" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
 
 
 
@@ -195,8 +217,9 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/ACD/2026/ENU/
 * https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-en-el-origen/
 * https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-fuera-del-origen/
-* [Cursos de matemáticas: Elipse video 1 en Excel](https://www.youtube.com/watch?v=F3Sb0qiDGwc&t=353s)
-* [Dibujo Técnico Bto. con Autocad - Carlos Ansaldo / 2 ÓVALOS y OVOIDES – AUTOCAD 2D - BACHILLERATO](https://www.youtube.com/@dibujotecnicobtoconautocad7149)
+* [Cursos de matemáticas / Elipse en Excel](https://www.youtube.com/watch?v=F3Sb0qiDGwc&t=353s)
+* [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Óvalos y Ovoides](https://www.youtube.com/@dibujotecnicobtoconautocad7149)
+* https://es.wikipedia.org/wiki/%C3%93valo
 
 
 ## Control de versiones
