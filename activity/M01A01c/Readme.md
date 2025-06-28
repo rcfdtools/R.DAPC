@@ -110,6 +110,9 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 
 ## 2. Óvalos y oviodes [^1]
 
+
+## 2.1. Óvalo
+
 El término óvalo (del latín ovum, huevo) hace referencia a una forma geométrica convexa y redondeada, que se asemeja al perfil de un huevo de ave en su sentido más amplio.
 
 <div align="center"><img src="graph/Ovalo.png" alt="R.DAPC" width="45%" border="0" /><br><sub>https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
@@ -131,6 +134,22 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 3. Para el dibujo de un _óvalo dado el eje mayor y el eje menor_, con centroide en la coordenada absoluta (425,50).
 
 <div align="center"><img src="graph/AutoCAD_Ovalo3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+## 2.1. Ovoide
+
+1. Para el dibujo de un _ovoide dado el eje menor_, con centroide en la coordenada absoluta (225,200).
+
+<div align="center"><img src="graph/AutoCAD_Ovoide1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Para el dibujo de un _ovoide dado el eje mayor_, con centroide en la coordenada absoluta (335,200).
+
+<div align="center"><img src="graph/AutoCAD_Ovoide2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Para el dibujo de un _ovoide dado el eje mayor y el eje menor_, con centroide en la coordenada absoluta (425,200).
+
+<div align="center"><img src="graph/AutoCAD_Ovoide3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 
 
 
