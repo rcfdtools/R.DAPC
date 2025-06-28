@@ -118,17 +118,19 @@ La ecuación del óvalo corresponde a:
 
 <div align="center"><img src="graph/EcuacionOvalo.svg" alt="R.DAPC" width="20%" border="0" /></div>
 
-Veamos las líneas constructivas para su dibujo a partir de arcos circulares y realicemos su trazado en clase:
+Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos circulares y realicemos su trazado en clase:
 
-1. Para el dibujo en AutoCAD de un óvalo dado el eje menor, con centroide en la coordenada absoluta (225,50) y radio de inscripción 20.
-
-<div align="center"><img src="graph/AutoCAD_Ovalo1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-2. Para el dibujo en AutoCAD de un óvalo dado el eje mayor, con centroide en la coordenada absoluta (325,50) y radio de inscripción 20.
+1. Para el dibujo de un _óvalo dado el eje menor_, con centroide en la coordenada absoluta (225,50) y radio de inscripción 20.
 
 <div align="center"><img src="graph/AutoCAD_Ovalo1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Para el dibujo de un _óvalo dado el eje mayor_, con centroide en la coordenada absoluta (335,50) y radio de inscripción 20.
 
+<div align="center"><img src="graph/AutoCAD_Ovalo2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3Para el dibujo de un _óvalo dado el eje mayor y el eje menor_, con centroide en la coordenada absoluta (425,50) y radio de inscripción 20.
+
+<div align="center"><img src="graph/AutoCAD_Ovalo3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
@@ -173,6 +175,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-en-el-origen/
 * https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-fuera-del-origen/
 * [Cursos de matemáticas: Elipse video 1 en Excel](https://www.youtube.com/watch?v=F3Sb0qiDGwc&t=353s)
+* [Dibujo Técnico Bto. con Autocad - Carlos Ansaldo / 2 ÓVALOS y OVOIDES – AUTOCAD 2D - BACHILLERATO](https://www.youtube.com/@dibujotecnicobtoconautocad7149)
 
 
 ## Control de versiones
