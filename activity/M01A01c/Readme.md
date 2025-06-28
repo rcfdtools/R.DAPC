@@ -108,7 +108,7 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 <div align="center"><img src="graph/AutoCAD_Elipse5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 2. Óvalo [^1]
+## 2. Óvalos y oviodes [^1]
 
 El término óvalo (del latín ovum, huevo) hace referencia a una forma geométrica convexa y redondeada, que se asemeja al perfil de un huevo de ave en su sentido más amplio.
 
@@ -116,7 +116,7 @@ El término óvalo (del latín ovum, huevo) hace referencia a una forma geométr
 
 La ecuación del óvalo corresponde a:
 
-<div align="center"><img src="graph/EcuacionOvalo.svg" alt="R.DAPC" width="30%" border="0" /></div>
+<div align="center"><img src="graph/EcuacionOvalo.svg" alt="R.DAPC" width="15%" border="0" /></div>
 
 
 
