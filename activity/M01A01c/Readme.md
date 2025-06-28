@@ -111,7 +111,7 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 ## 2. Óvalo y ovoiode 
 
 
-## 2.1. Óvalo [^1]
+### 2.1. Óvalo [^1]
 
 El término óvalo hace referencia a una forma geométrica convexa y redondeada, que se asemeja al perfil de un huevo de ave en su sentido más amplio.
 
@@ -122,7 +122,7 @@ La ecuación general del óvalo corresponde a:
 <div align="center"><img src="graph/EcuacionOvalo.svg" alt="R.DAPC" width="17.5%" border="0" /></div>
 
 
-### Ejercicio M01A01cE01
+#### Ejercicio M01A01cE01
 
 Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos circulares y realicemos su trazado en clase. Guarde el dibujo como _/file/cad/**M01A01cE01**.dwg_.
 
@@ -139,7 +139,7 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 <div align="center"><img src="graph/AutoCAD_Ovalo3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 2.1. Ovoide [^2]
+### 2.1. Ovoide [^2]
 
 El ovoide es una curva cerrada simétrica con respecto a su eje y cóncava hacia él, conformada por cuatro arcos de circunferencia: uno de ellos es una semicircunferencia y los otros dos son iguales y simétricos. Su nombre deriva de su parecido con la sección longitudinal de un huevo.
 
@@ -148,7 +148,7 @@ Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de c
 > No debe confundirse con un ovoide en geometría proyectiva.
 
 
-### Ejercicio M01A01cE02 
+#### Ejercicio M01A01cE02 
 
 Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos circulares y realicemos su trazado en clase. Guarde el dibujo como _/file/cad/**M01A01cE02**.dwg_.
 
@@ -167,7 +167,7 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 <div align="center"><img src="graph/AutoCAD_Ovoide3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio M01A01cE03
+#### Ejercicio M01A01cE03
 
 Utilizando los conceptos aprendidos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01bE06**.dwg_.
 
