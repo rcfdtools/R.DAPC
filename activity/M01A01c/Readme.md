@@ -120,15 +120,15 @@ La ecuación del óvalo corresponde a:
 
 Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos circulares y realicemos su trazado en clase:
 
-1. Para el dibujo de un _óvalo dado el eje menor_, con centroide en la coordenada absoluta (225,50) y radio de inscripción 20.
+1. Para el dibujo de un _óvalo dado el eje menor_, con centroide en la coordenada absoluta (225,50).
 
 <div align="center"><img src="graph/AutoCAD_Ovalo1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Para el dibujo de un _óvalo dado el eje mayor_, con centroide en la coordenada absoluta (335,50) y radio de inscripción 20.
+2. Para el dibujo de un _óvalo dado el eje mayor_, con centroide en la coordenada absoluta (335,50).
 
 <div align="center"><img src="graph/AutoCAD_Ovalo2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3Para el dibujo de un _óvalo dado el eje mayor y el eje menor_, con centroide en la coordenada absoluta (425,50) y radio de inscripción 20.
+3. Para el dibujo de un _óvalo dado el eje mayor y el eje menor_, con centroide en la coordenada absoluta (425,50).
 
 <div align="center"><img src="graph/AutoCAD_Ovalo3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
