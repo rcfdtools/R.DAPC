@@ -181,10 +181,11 @@ Ecuación Superelipse
 
 En matemáticas, una parábola es la sección cónica de excentricidad igual a 1, resultante de cortar un cono recto o de revolución con un plano oblicuo cuyo ángulo de inclinación respecto al eje de revolución del cono sea igual al presentado por su generatriz. El plano resultará, por lo tanto, paralelo a dicha recta. Se define también como el lugar geométrico de los puntos de un plano que equidistan de una recta llamada directriz y un punto interior a la parábola llamado foco. En geometría proyectiva, la parábola se define como la curva envolvente de las rectas que unen pares de puntos homólogos en una proyectividad semejante.
 
+Al segmento de recta comprendido por la parábola, que pasa por el foco y es paralelo a la directriz, se le conoce como lado recto. Debido a la ecuación que representa a esta curva, surge el siguiente teorema: "_La longitud del lado recto es siempre 4 veces la distancia focal_".
 
+<div align="center"><img src="graph/Parabola.png" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)</sub></div>
 
-
-
+Siendo D, E los extremos del lado recto y T, U las respectivas proyecciones sobre la directriz, denotando por W la proyección del foco F sobre la directriz, se observa que FEUW y DFWT son cuadrados, y sus lados miden FW = 2FV. Por tanto, el segmento DE es igual a 4 veces el segmento FV (la distancia focal).
 
 
 
