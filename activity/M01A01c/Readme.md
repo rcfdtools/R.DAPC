@@ -212,12 +212,11 @@ Al verificar la distancia desde su foco hasta cualquier punto sobre la curva (p.
 <div align="center"><img src="graph/AutoCAD_Parabola.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 4. Hipérbola
+## 4. Hipérbola [^4]
 
+La hipérbola es la última forma geométrica que se estudia en la geometría analítica. En esta hablaremos sobre la ecuación de la hipérbola con centro en el origen.
 
-
-
-
+<div align="center"><img src="graph/EcuacionHiperbola.png" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
 
 
 
@@ -286,3 +285,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 [^1]: https://es.wikipedia.org/wiki/%C3%93valo
 [^2]: https://es.wikipedia.org/wiki/Ovoide
 [^3]: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)
+[^4]: https://www.fisimat.com.mx/ecuacion-de-la-hiperbola-con-centro-en-el-origen/
