@@ -189,9 +189,9 @@ Siendo D, E los extremos del lado recto y T, U las respectivas proyecciones sobr
 
 > Siempre se debe cumplir que la distancia desde cualquier punto de la parábola a su eje directriz, es igual a la distancia desde el mismo punto hasta su foco.  
 
-1. Para su dibujo en AutoCAD, podemos utilizar la expresión:
+Para su dibujo en AutoCAD, podemos utilizar la expresión:
 
-X² = 4PY
+<div align="center">X² = 4PY</div>
 
 Donde,
 
@@ -200,8 +200,11 @@ Y: longitud vertical que inscribe la parábola
 P: distancia VW entre el punto de inflexión y la línea directriz
 
 Por ejemplo, con X = 50, Y=20
+
 50² = 4*P*20
+
 P = 50² / 80
+
 P = 31.25
 
 > El trazado de la parábola se realiza con el comando **SPLINE** con control de vértíces o CV.
