@@ -196,7 +196,9 @@ Para su dibujo en AutoCAD, podemos utilizar la expresión:
 Donde,
 
 X: longitud horizontal que inscribe la parábola
+
 Y: longitud vertical que inscribe la parábola
+
 P: distancia VW entre el punto de inflexión y la línea directriz
 
 Por ejemplo, con X = 50, Y=20
