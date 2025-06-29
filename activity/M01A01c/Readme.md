@@ -106,6 +106,7 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 
 <div align="center"><img src="graph/AutoCAD_Elipse5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+> :bulb: Para convertir las polilíneas trazadas a partir de los nodos de Excel en una curva cerrada similar a la elipse, con el comando **JOIN** una las 4 líneas, luego con el comando **PLINE** cierre la polilínea y desde el mismo comando ejecute **F**it.
 
 ## 2. Óvalo y ovoiode 
 
@@ -214,13 +215,15 @@ Al verificar la distancia desde su foco hasta cualquier punto sobre la curva (p.
 
 ## 4. Hipérbola [^4]
 
-La hipérbola es la última forma geométrica que se estudia en la geometría analítica. En esta hablaremos sobre la ecuación de la hipérbola con centro en el origen.
+La hipérbola es la última forma geométrica que se estudia en la geometría analítica. En esta hablaremos sobre la ecuación de la hipérbola con centro en el origen. 
+
+> La Hipérbola es aquel lugar geométrico de los puntos del plano que se mueven de tal manera que el valor absoluto de la diferencia de sus distancias a dos puntos fijos llamados focos son siempre constantes. 
 
 <div align="center"><img src="graph/EcuacionHiperbola.png" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
 
+Para su trazado en AutoCAD, existen diferentes metodologías, para este ejemplo, construiremos la hipérbola a partir de la localización de uno de los focos y una coordenada de localización (932.474,112.431).
 
-
-
+<div align="center"><img src="graph/AutoCAD_Hiperbola.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
@@ -258,11 +261,12 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-fuera-del-origen/
 * [Cursos de matemáticas / Elipse en Excel](https://www.youtube.com/watch?v=F3Sb0qiDGwc&t=353s)
 * [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Óvalos y Ovoides](https://www.youtube.com/@dibujotecnicobtoconautocad7149)
-* https://es.wikipedia.org/wiki/%C3%93valo
+* [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Hiperbola](https://www.youtube.com/watch?v=oS0EKDzEa2A)
 * https://es.wikipedia.org/wiki/Ovoide
 * [Draw parabola in AutoCAD](https://www.youtube.com/watch?v=h8pjymm-A5I)
 * https://e1.portalacademico.cch.unam.mx/alumno/matematicas2/unidad1/ecuacionescuadraticas/tiroparabolico
 * https://www.autodesk.com/es/support/technical/article/caas/sfdcarticles/sfdcarticles/ESP/How-to-draw-parabolas-in-AutoCAD.html
+* https://www.youtube.com/watch?v=oS0EKDzEa2A
 
 
 ## Control de versiones
