@@ -3,8 +3,7 @@ Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `m01a01c`
 
 Dibujo de la elipse, óvalo, parábola, hipérbola, clotoide y funciones trigonométricas.
 
-<div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
-
+<div align="center"><img src="graph/M01A01c.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
 
 ## Objetivos
 
@@ -41,7 +40,7 @@ Métodos de dibujo en AutoCAD:
 * Nodos de extremo de eje mayor, nodo semieje menor.
 * Arco elíptico con nodos de extremo de eje mayor, nodo semieje menor, nodo inicio arco, nodo fin arco.
 
-La ecuación general de una elipse horizontal con centro en (0,0) es:
+La ecuación general de una elipse horizontal o vertical con centro en (0,0) es:
 
 <div align="center"><img src="graph/EcuacionElipse0.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-fuera-del-origen/</sub></div>
 
@@ -178,11 +177,18 @@ Ecuación Superelipse
 <div align="center"><img src="graph/Superelipse.png" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
 
 
+## 3. Parábola [^3]
+
+En matemáticas, una parábola es la sección cónica de excentricidad igual a 1, resultante de cortar un cono recto o de revolución con un plano oblicuo cuyo ángulo de inclinación respecto al eje de revolución del cono sea igual al presentado por su generatriz. El plano resultará, por lo tanto, paralelo a dicha recta. Se define también como el lugar geométrico de los puntos de un plano que equidistan de una recta llamada directriz y un punto interior a la parábola llamado foco. En geometría proyectiva, la parábola se define como la curva envolvente de las rectas que unen pares de puntos homólogos en una proyectividad semejante.
 
 
 
 
-## 3. Parábola
+
+
+
+
+
 
 
 ## 4. Hipérbola
@@ -224,6 +230,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Óvalos y Ovoides](https://www.youtube.com/@dibujotecnicobtoconautocad7149)
 * https://es.wikipedia.org/wiki/%C3%93valo
 * https://es.wikipedia.org/wiki/Ovoide
+* [Draw parabola in AutoCAD](https://www.youtube.com/watch?v=h8pjymm-A5I)
 
 
 ## Control de versiones
@@ -245,3 +252,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 [^1]: https://es.wikipedia.org/wiki/%C3%93valo
 [^2]: https://es.wikipedia.org/wiki/Ovoide
+[^3]: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)

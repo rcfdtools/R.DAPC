@@ -562,7 +562,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://nibs.org/resources/reports/national-bim-guide-owners
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
-* [Draw parabola in AutoCAD](https://www.youtube.com/watch?v=h8pjymm-A5I)
 * https://blog.draftsperson.net/iso-13567-cad-layer-standard/
 * [Creating Macros in AutoCAD](https://www.youtube.com/watch?v=_fSgqZnqWPw)
 * [New AutocCAD Command for Layer settings](https://www.youtube.com/watch?v=lo9cIBHD3j8)
