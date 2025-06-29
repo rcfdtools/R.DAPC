@@ -190,14 +190,19 @@ Siendo D, E los extremos del lado recto y T, U las respectivas proyecciones sobr
 1. Para su dibujo en AutoCAD, conocida la distancia perpendicular del foco a la línea directriz (p. ej. FW = 30), tendremos:
 
 FW = 2FV
+
 30 = 2FV
+
 FV = 30 /2
+
 FV = 15
 
 Cómo en una parábola, el segmento 
 
 DE = 4FV
+
 DE = 4 (15)
+
 DE = 60
 
 
