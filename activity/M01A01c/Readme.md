@@ -187,31 +187,41 @@ Al segmento de recta comprendido por la parábola, que pasa por el foco y es par
 
 Siendo D, E los extremos del lado recto y T, U las respectivas proyecciones sobre la directriz, denotando por W la proyección del foco F sobre la directriz, se observa que FEUW y DFWT son cuadrados, y sus lados miden FW = 2FV. Por tanto, el segmento DE es igual a 4 veces el segmento FV (la distancia focal).
 
-1. Para su dibujo en AutoCAD, conocida la distancia perpendicular del foco a la línea directriz (p. ej. FW = 30), tendremos:
+> Siempre se debe cumplir que la distancia desde cualquier punto de la parábola a su eje directriz, es igual a la distancia desde el mismo punto hasta su foco.  
 
-FW = 2FV
+1. Para su dibujo en AutoCAD, podemos utilizar la expresión:
 
-30 = 2FV
+X² = 4PY
 
-FV = 30 /2
+Donde,
 
-FV = 15
+X: longitud horizontal que inscribe la parábola
+Y: longitud vertical que inscribe la parábola
+P: distancia VW entre el punto de inflexión y la línea directriz
 
-Cómo en una parábola, el segmento 
+Por ejemplo, con X = 50, Y=20
+50² = 4*P*20
+P = 50² / 80
+P = 31.25
 
-DE = 4FV
+> El trazado de la parábola se realiza con el comando **SPLINE** con control de vértíces o CV.
 
-DE = 4 (15)
+Al verificar la distancia desde su foco hasta cualquier punto sobre la curva (p. ej. 39.06), se puede observar que es exactamente igual a la distancia entre el mismo punto en la curva y su eje directriz.
 
-DE = 60
-
-
-
-1. Para su dibujo en AutoCAD, conocida la longitud del lado recto (p. ej., DE = 100) y la distancia del foco a la línea directriz (p. ej. FW = 30), tendremos:
-
+<div align="center"><img src="graph/AutoCAD_Parabola.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## 4. Hipérbola
+
+
+
+
+
+
+
+
+
+
 
 
 ## 5. Clotoide
@@ -252,6 +262,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://es.wikipedia.org/wiki/Ovoide
 * [Draw parabola in AutoCAD](https://www.youtube.com/watch?v=h8pjymm-A5I)
 * https://e1.portalacademico.cch.unam.mx/alumno/matematicas2/unidad1/ecuacionescuadraticas/tiroparabolico
+* https://www.autodesk.com/es/support/technical/article/caas/sfdcarticles/sfdcarticles/ESP/How-to-draw-parabolas-in-AutoCAD.html
 
 
 ## Control de versiones
