@@ -183,12 +183,26 @@ En matemáticas, una parábola es la sección cónica de excentricidad igual a 1
 
 Al segmento de recta comprendido por la parábola, que pasa por el foco y es paralelo a la directriz, se le conoce como lado recto. Debido a la ecuación que representa a esta curva, surge el siguiente teorema: "_La longitud del lado recto es siempre 4 veces la distancia focal_".
 
-<div align="center"><img src="graph/Parabola.png" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)</sub></div>
+<div align="center"><img src="graph/Parabola.png" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)</sub></div>
 
 Siendo D, E los extremos del lado recto y T, U las respectivas proyecciones sobre la directriz, denotando por W la proyección del foco F sobre la directriz, se observa que FEUW y DFWT son cuadrados, y sus lados miden FW = 2FV. Por tanto, el segmento DE es igual a 4 veces el segmento FV (la distancia focal).
 
+1. Para su dibujo en AutoCAD, conocida la distancia perpendicular del foco a la línea directriz (p. ej. FW = 30), tendremos:
+
+FW = 2FV
+30 = 2FV
+FV = 30 /2
+FV = 15
+
+Cómo en una parábola, el segmento 
+
+DE = 4FV
+DE = 4 (15)
+DE = 60
 
 
+
+1. Para su dibujo en AutoCAD, conocida la longitud del lado recto (p. ej., DE = 100) y la distancia del foco a la línea directriz (p. ej. FW = 30), tendremos:
 
 
 
@@ -232,6 +246,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://es.wikipedia.org/wiki/%C3%93valo
 * https://es.wikipedia.org/wiki/Ovoide
 * [Draw parabola in AutoCAD](https://www.youtube.com/watch?v=h8pjymm-A5I)
+* https://e1.portalacademico.cch.unam.mx/alumno/matematicas2/unidad1/ecuacionescuadraticas/tiroparabolico
 
 
 ## Control de versiones
