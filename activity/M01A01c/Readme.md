@@ -185,10 +185,13 @@ Ecuación Superelipse
 ## 3. Parábola
 
 
-## 4. Clotoide
+## 4. Hipérbola
 
 
-## 5. Funciones trigonométricas
+## 5. Clotoide
+
+
+## 6. Funciones trigonométricas
 
 
 
