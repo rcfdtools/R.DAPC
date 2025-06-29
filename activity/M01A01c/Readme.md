@@ -3,7 +3,7 @@ Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `m01a01c`
 
 Dibujo de la elipse, óvalo, parábola, hipérbola, clotoide y funciones trigonométricas.
 
-<div align="center"><img src="graph/M01A01c.png" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
+<div align="center"><img src="graph/M01A01c.png" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
 
 ## Objetivos
 
