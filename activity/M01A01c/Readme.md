@@ -195,19 +195,15 @@ Para su dibujo en AutoCAD, podemos utilizar la expresión:
 
 Donde,
 
-X: longitud horizontal que inscribe la parábola
-
-Y: longitud vertical que inscribe la parábola
-
-P: distancia VW entre el punto de inflexión y la línea directriz
+* X: longitud horizontal que inscribe la parábola
+* Y: longitud vertical que inscribe la parábola
+* P: distancia VW entre el punto de inflexión y la línea directriz
 
 Por ejemplo, con X = 50, Y=20
 
-50² = 4*P*20
-
-P = 50² / 80
-
-P = 31.25
+50² = 4*P*20<br>
+P = 50² / 80<br>
+P = 31.25<br>
 
 > El trazado de la parábola se realiza con el comando **SPLINE** con control de vértíces o CV.
 
