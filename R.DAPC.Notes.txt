@@ -2,7 +2,7 @@ Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7:
 	Create an image of computer assisted drawing building sketch in electrical engineering.
 	Create an image of computer assisted drawing building 3D sketch in electrical engineering.
 
-Δ°Σβθαπ∑√±
+Δ°Σβθαπ∑√±π
 <kbd>esc</kbd>
 <kbd>enter</kbd>
 <kbd>ctrl</kbd> + <kbd>i</kbd>
@@ -10,6 +10,8 @@ Windows + Shift + S for print screen
 <div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="100%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya</sub></div>
 
 Practical exercices and pending
+	Array para crear logo UECIJG.
+	Clothoid.
 	Incluye in keywords all used commands in each activitie.
 	With arrays determinte separation between elements.
 	With measure calculated perimeters, lengths, areas.
@@ -20,6 +22,8 @@ Practical exercices and pending
 	Samples: D:\Autodesk\AutoCAD 2026\Sample\en-us
 	External references.
 	Isometric view drawing example 2. Links to practice files in description. https://www.youtube.com/watch?v=bT96hOQ5ejQ
+	https://www.qcad.org/en/
+	https://www.blender.org/
 
 https://www.youtube.com/watch?v=2LumoE9KjoY
 3:03
