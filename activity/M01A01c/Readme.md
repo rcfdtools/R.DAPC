@@ -111,7 +111,7 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 
 ### Ejercicio M01A01cE00
 
-A partir de coordenadas de localización del centroide de una elipse y la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar una polilínea en AutoCAD y luego suavizarla. Guarde el dibujo como _/file/cad/**M01A01cE01**.dwg_.
+A partir de coordenadas de localización del centroide de una elipse y la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar una polilínea en AutoCAD y luego suavizarla. Guarde el dibujo como _/file/cad/**M01A01cE00**.dwg_.
 
 Especificaciones:
 
@@ -264,9 +264,9 @@ Otro ejemplo de su construcción cuando solo conocemos el punto de inflexión y 
 <div align="center">Ejemplo adicional<br><img src="graph/AutoCAD_Hiperbola1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio M01A01cE04
+### Ejercicio M01A01cE05
 
-Utilizando los conceptos aprendidos, trace una hipérbola cuya longitud horizontal o eje real corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical o eje imaginario correspondiente 2.25 veces la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A01cE04**.dwg_.
+Utilizando los conceptos aprendidos, trace una hipérbola cuya longitud horizontal o eje real corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical o eje imaginario correspondiente 2.25 veces la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A01cE05**.dwg_.
 
 Requerimientos:
 
