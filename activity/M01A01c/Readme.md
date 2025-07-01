@@ -308,6 +308,11 @@ Luego de eliminados los trazos sobrantes, obtendrá el trazado final de las func
 > Opcionalmente, con el comando _SPLINE_ puede suavizar las funciones discontínuas dibujadas con el comando _PLINE_. 
 
 
+### Ejercicio M01A01cE06
+
+Utilizando los conceptos aprendidos, trace dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con orígen en (0,0). Guarde el dibujo como _/file/cad/**M01A01cE06**.dwg_. Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual a los últimos 3 dígitos de su código de alumno, y escale las funciones a este tamaño.
+
+
 ## Actividades de proyecto :triangular_ruler:
 
 Utilizando la [plantilla suministrada](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01c_20250531.pdf).
