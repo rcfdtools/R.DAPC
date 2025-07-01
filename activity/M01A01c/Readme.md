@@ -124,15 +124,15 @@ La ecuación general del óvalo corresponde a:
 
 Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos circulares y realicemos su trazado en clase. Guarde el dibujo como _/file/cad/**M01A01cE01**.dwg_.
 
-1. Para el dibujo de un _óvalo dado el eje menor_, con centroide en la coordenada absoluta (225,50).
+1. Para el dibujo de un _óvalo dado el eje menor_, con centroide en cualquier localización.
 
 <div align="center"><img src="graph/AutoCAD_Ovalo1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Para el dibujo de un _óvalo dado el eje mayor_, con centroide en la coordenada absoluta (335,50).
+2. Para el dibujo de un _óvalo dado el eje mayor_, con centroide en cualquier localización.
 
 <div align="center"><img src="graph/AutoCAD_Ovalo2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Para el dibujo de un _óvalo dado el eje mayor y el eje menor_, con centroide en la coordenada absoluta (425,50).
+3. Para el dibujo de un _óvalo dado el eje mayor y el eje menor_, con centroide en cualquier localización.
 
 <div align="center"><img src="graph/AutoCAD_Ovalo3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -150,17 +150,17 @@ Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de c
 
 Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos circulares y realicemos su trazado en clase. Guarde el dibujo como _/file/cad/**M01A01cE02**.dwg_.
 
-1. Para el dibujo de un _ovoide dado el eje menor_, con centroide en la coordenada absoluta (225,200).
+1. Para el dibujo de un _ovoide dado el eje menor_, con centroide en cualquier localización.
 
 <div align="center"><img src="graph/AutoCAD_Ovoide1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Para el dibujo de un _ovoide dado el eje mayor_, con centroide en la coordenada absoluta (395,200).
+2. Para el dibujo de un _ovoide dado el eje mayor_, con centroide en cualquier localización.
 
-> Utilizando el comando **DIVIDE**, divida en 6 partes el eje mayor para obtener nodos a lo largo del eje. El trazado de arcos se realiza en el nodo de la segunda división.
+> Utilizando el comando **DIVIDE**, divida en 6 partes el eje mayor para obtener nodos a lo largo del eje. El trazado del arco superior se realiza en el nodo de la segunda división. El trazado del arco inferior se realiza en el nodo de la primera división.
 
 <div align="center"><img src="graph/AutoCAD_Ovoide2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Para el dibujo de un _ovoide dado el eje mayor y el eje menor_, con centroide en la coordenada absoluta (425,200).
+3. Para el dibujo de un _ovoide dado el eje mayor y el eje menor_, con centroide en cualquier localización.
 
 <div align="center"><img src="graph/AutoCAD_Ovoide3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
