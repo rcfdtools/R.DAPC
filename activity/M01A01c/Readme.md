@@ -246,7 +246,7 @@ Para su dibujo, obtengamos primero el cálculo de los valores de las funciones e
 
 Tracemos un rectángulo de 10 metros de alto (correspondiente a un valor por debajo del límite definido en Excel para el cálculo de los valores en Y) por 6.283185307 (correspondiente a 2π) en el origen absoluto de coordenadas (0,0) y cree una copia alineada en la parte inferior. Luego, copie la secuencia de comandos AutoCAD creada en Excel y pegue en el Command para dibujar las funciones.
 
-Para y = Seno(x)
+Para: _y = Seno(x)_
 
 <div align="center"><img src="graph/AutoCAD_Trigonometrica.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -254,7 +254,7 @@ Para las demás funciones,
 
 <div align="center"><img src="graph/AutoCAD_Trigonometrica1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-
+> Tenga en cuenta que para el dibujo de funciones contínuas Seno y Coseno, utilizaremos SPLINE y para las discontínuas PLINE.
 
 
 
