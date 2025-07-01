@@ -111,7 +111,7 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 
 ### Ejercicio M01A01cE00
 
-A partir de coordenadas de localización del centroide de una elipse y la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar la polilínea en AutoCAD y luego suavizarla. Utilizando los parámetros de cálculo, trace con la herramienta _ELLIPSE_ la elipse compuesta por arcos y compare su longitud con la trazada a partir de puntos. Guarde el dibujo como _/file/cad/**M01A01cE00**.dwg_.
+A partir de coordenadas de localización del centroide de una elipse y la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar la polilínea en AutoCAD y luego suavizarla. Utilizando los parámetros de cálculo, trace con la herramienta **ELLIPSE**, la elipse compuesta por arcos y compare su longitud con la trazada a partir de puntos. Guarde el dibujo como _/file/cad/**M01A01cE00**.dwg_.
 
 Especificaciones:
 
@@ -310,7 +310,7 @@ Luego de eliminados los trazos sobrantes, obtendrá el trazado final de las func
 
 ### Ejercicio M01A01cE06
 
-Utilizando los conceptos aprendidos, trace dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con orígen en (0,0). Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual a los últimos 3 dígitos de su código de alumno, y escale las funciones a este tamaño. Guarde el dibujo como _/file/cad/**M01A01cE06**.dwg_.
+Utilizando los conceptos aprendidos, dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con orígen en (0,0). Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual a los últimos 3 dígitos de su código de alumno, y escale las funciones a este tamaño. Guarde el dibujo como _/file/cad/**M01A01cE06**.dwg_.
 
 
 ## Actividades de proyecto :triangular_ruler:
