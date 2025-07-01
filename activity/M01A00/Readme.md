@@ -252,7 +252,7 @@ LINE
 
 ### Ejercicio M01A00E02
 
-**Parte A:** aplicando los conceptos aprendidos, cree las secuencias (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A00E01, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A00E02.txt_ y el dibujo en _/file/cad/M01A00E02.dwg_.
+**Parte A:** aplicando los conceptos aprendidos, cree secuencias (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A00E01, pero con nodo de inicio en (100,100), guarde la secuencia en _/file/report/M01A00E02A.txt_ y el dibujo en _/file/cad/M01A00E02A.dwg_.
 
 <div align="center"><img src="graph/M01A00E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -277,7 +277,7 @@ LINE
 
 ```
 
-**Parte B:** utilizando secuencias de comandos, cree los siguientes elementos:
+**Parte B:** utilizando secuencias de comandos, cree los siguientes elementos, guarde la secuencia en _/file/report/M01A00E02B.txt_ y el dibujo en _/file/cad/M01A00E02B.dwg_.:
 
 * Triángulo rectángulo de 50 metros de base por 20 metros de alto con orígen en la coordenada absoluta (400,250).
 * Triángulo equilátero de 50 metros de lado con orígen en la coordenada absoluta (500,250).
@@ -358,7 +358,6 @@ detalles restantes del objeto.
 A partir de la proyección isométrica, podemos dibujar las vistas planas de cualquier objeto, p. ej.:
 
 <div align="center"><img src="graph/ProyeccionIsometrica3.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
-
 
 
 ### Ejercicio M01A00E03
