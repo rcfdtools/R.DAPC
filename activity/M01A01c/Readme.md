@@ -111,9 +111,7 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 
 ## 2. Óvalo [^1]
 
-Curva cerrada, con la convexidad vuelta siempre a la parte de afuera, de forma parecida a la de la elipse, y simétrica respecto de uno o de dos ejes.
-
-La ecuación general del óvalo corresponde a:
+Curva cerrada, con la convexidad vuelta siempre a la parte de afuera, de forma parecida a la de la elipse, y simétrica respecto de uno o de dos ejes. La ecuación general del óvalo corresponde a:
 
 <div align="center"><img src="graph/EcuacionOvalo.svg" alt="R.DAPC" width="17.5%" border="0" /></div>
 
