@@ -111,9 +111,7 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 
 ## 2. Óvalo [^1]
 
-El término óvalo hace referencia a una forma geométrica convexa y redondeada, que se asemeja al perfil de un huevo de ave en su sentido más amplio.
-
-<div align="center"><img src="graph/Ovalo.png" alt="R.DAPC" width="45%" border="0" /><br><sub>https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
+Curva cerrada, con la convexidad vuelta siempre a la parte de afuera, de forma parecida a la de la elipse, y simétrica respecto de uno o de dos ejes.
 
 La ecuación general del óvalo corresponde a:
 
@@ -139,9 +137,15 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 
 ## 2. Ovoide [^2]
 
+El término ovoide hace referencia a una forma geométrica convexa y redondeada, que se asemeja al perfil de un huevo de ave en su sentido más amplio.
+
+<div align="center"><img src="graph/Ovoide.png" alt="R.DAPC" width="45%" border="0" /><br><sub>https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
+
 El ovoide es una curva cerrada simétrica con respecto a su eje y cóncava hacia él, conformada por cuatro arcos de circunferencia: uno de ellos es una semicircunferencia y los otros dos son iguales y simétricos. Su nombre deriva de su parecido con la sección longitudinal de un huevo.
 
 Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de curvatura. A diferencia del óvalo, solo tiene un eje de simetría.
+
+
 
 > No debe confundirse con un ovoide en geometría proyectiva.
 
