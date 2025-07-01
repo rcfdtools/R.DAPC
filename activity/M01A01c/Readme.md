@@ -108,10 +108,8 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 
 > :bulb: Para convertir las polilíneas trazadas a partir de los nodos de Excel en una curva cerrada similar a la elipse, con el comando **JOIN** una las 4 líneas, luego con el comando **PLINE** cierre la polilínea y desde el mismo comando ejecute **F**it.
 
-## 2. Óvalo y ovoiode 
 
-
-### 2.1. Óvalo [^1]
+## 2. Óvalo [^1]
 
 El término óvalo hace referencia a una forma geométrica convexa y redondeada, que se asemeja al perfil de un huevo de ave en su sentido más amplio.
 
@@ -139,7 +137,7 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 <div align="center"><img src="graph/AutoCAD_Ovalo3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### 2.1. Ovoide [^2]
+## 2. Ovoide [^2]
 
 El ovoide es una curva cerrada simétrica con respecto a su eje y cóncava hacia él, conformada por cuatro arcos de circunferencia: uno de ellos es una semicircunferencia y los otros dos son iguales y simétricos. Su nombre deriva de su parecido con la sección longitudinal de un huevo.
 
@@ -178,7 +176,7 @@ Ecuación Superelipse
 <div align="center"><img src="graph/Superelipse.png" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
 
 
-## 3. Parábola [^3]
+## 4. Parábola [^3]
 
 En matemáticas, una parábola es la sección cónica de excentricidad igual a 1, resultante de cortar un cono recto o de revolución con un plano oblicuo cuyo ángulo de inclinación respecto al eje de revolución del cono sea igual al presentado por su generatriz. El plano resultará, por lo tanto, paralelo a dicha recta. Se define también como el lugar geométrico de los puntos de un plano que equidistan de una recta llamada directriz y un punto interior a la parábola llamado foco. En geometría proyectiva, la parábola se define como la curva envolvente de las rectas que unen pares de puntos homólogos en una proyectividad semejante.
 
@@ -213,7 +211,7 @@ Al verificar la distancia desde su foco hasta cualquier punto sobre la curva (p.
 <div align="center"><img src="graph/AutoCAD_Parabola.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 4. Hipérbola [^4]
+## 5. Hipérbola [^4]
 
 La hipérbola es la última forma geométrica que se estudia en la geometría analítica. En esta hablaremos sobre la ecuación de la hipérbola con centro en el origen. 
 
@@ -227,7 +225,7 @@ Para su trazado en AutoCAD, existen diferentes metodologías, para este ejemplo,
 
 Ahora, construiremos la hipérbola a partir de la localización de uno de los puntos de inflexión y la localización del punto conocido sobre la curva.
 
-Con el comando **DIVIDE** obtenga p. ej., 5 puntos sobre la línea horizontal y vertical proyectada del punto conocido al eje real y hasta el punto de inflexión. Entre más puntos se utilicen, más preciso será su trazado. Luego trace líneas desde el nodo B hasta los nodos de la proyección vertical y líneas desde el nodo A hasta los nodos de la proyección horizontal del punto conocido al nodo A. Para dibujar la curva, utilice una **SPLINE** de por ajuste o Fit.
+Con el comando **DIVIDE** obtenga p. ej., 5 puntos sobre la línea horizontal y vertical proyectada del punto conocido al eje real y hasta el punto de inflexión. Entre más puntos se utilicen, más preciso será su trazado. Luego trace líneas desde el nodo B hasta los nodos de la proyección vertical y líneas desde el nodo A hasta los nodos de la proyección horizontal del punto conocido al nodo A. Para dibujar la curva, utilice una **SPLINE** por ajuste o Fit.
 
 <div align="center">Parte B<br><img src="graph/AutoCAD_Hiperbola.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -240,12 +238,12 @@ Otro ejemplo de su construcción cuando solo conocemos el punto de inflexión y 
 
 
 
-## 5. Clotoide
+## 6. Clotoide
 
 
 
 
-## 6. Funciones trigonométricas
+## 7. Funciones trigonométricas
 
 
 
