@@ -109,6 +109,16 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 > :bulb: Para convertir las polilíneas trazadas a partir de los nodos de Excel en una curva cerrada similar a la elipse, con el comando **JOIN** una las 4 líneas, luego con el comando **PLINE** cierre la polilínea y desde el mismo comando ejecute **F**it.
 
 
+### Ejercicio M01A01cE00
+
+A partir de coordenadas de localización del centroide de una elipse y la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar una polilínea en AutoCAD y luego suavizarla. Guarde el dibujo como _/file/cad/**M01A01cE01**.dwg_.
+
+Especificaciones:
+
+* Centroide: las coordenadas (x,y) del centroide o *h,k), corresponde a los 2 últimos dígitos de su código de alumno.
+* Semiejes: la longitud del semieje mayor o a, corresponde a una longitud igual a los 3 últimos dígitos de su código de alumno; la longitud del semieje menor o b corresponde al 35% de la longitud del semieje mayor.
+
+
 ## 2. Óvalo [^1]
 
 Curva cerrada, con la convexidad vuelta siempre a la parte de afuera, de forma parecida a la de la elipse, y simétrica respecto de uno o de dos ejes. La ecuación general del óvalo corresponde a:
