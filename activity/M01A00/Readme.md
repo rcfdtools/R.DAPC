@@ -279,10 +279,12 @@ LINE
 
 **Parte B:** utilizando secuencias de comandos, cree los siguientes elementos, guarde la secuencia en _/file/report/M01A00E02B.txt_ y el dibujo en _/file/cad/M01A00E02B.dwg_.:
 
-* Triángulo rectángulo de 50 metros de base por 20 metros de alto con orígen en la coordenada absoluta (400,250).
-* Triángulo equilátero de 50 metros de lado con orígen en la coordenada absoluta (500,250).
-* Triángulo rectángulo con área de 200 m² y con orígen en la coordenada absoluta (600,250).
+* Triángulo rectángulo de 50 metros de base por 20 metros de alto con orígen en la coordenada absoluta indicada.
+* Triángulo equilátero de 50 metros de lado con orígen en la coordenada absoluta indicada.
+* Triángulo rectángulo con área de 200 m² y con orígen en la coordenada absoluta indicada.
 
+> La coordenada absoluta en X corresponde a los dos últimos dígitos de su código de alumno y la coordenada en Y a dos veces este valor.
+> 
 > Tenga en cuenta que la sumatoria interna de ángulos de un triángulo es de 180°.
 > 
 > Recuerde que si sus unidades angulares han sido establecidas en grados, deberá incluir la letra **d** luego del valor del ángulo requerido.
