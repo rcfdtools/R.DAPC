@@ -128,7 +128,7 @@ Curva cerrada, con la convexidad vuelta siempre a la parte de afuera, de forma p
 
 ### Ejercicio M01A01cE01
 
-Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos circulares y realicemos su trazado en clase. Guarde el dibujo como _/file/cad/**M01A01cE01**.dwg_.
+Trace las líneas constructivas y dibuje óvalos en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Guarde el dibujo como _/file/cad/**M01A01cE01**.dwg_.
 
 1. Para el dibujo de un _óvalo dado el eje menor_, con centroide en cualquier localización.
 
@@ -160,7 +160,7 @@ Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de c
 
 ### Ejercicio M01A01cE02 
 
-Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos circulares y realicemos su trazado en clase. Guarde el dibujo como _/file/cad/**M01A01cE02**.dwg_.
+Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Guarde el dibujo como _/file/cad/**M01A01cE02**.dwg_.
 
 1. Para el dibujo de un _ovoide dado el eje menor_, con centroide en cualquier localización.
 
@@ -181,7 +181,7 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 
 ### Ejercicio M01A01cE03
 
-**Parte A**: utilizando los conceptos aprendidos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño y localización de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01cE03A**.dwg_.
+**Parte A**: utilizando los conceptos aprendidos acerca de óvalos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño y localización de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01cE03A**.dwg_.
 
 Ecuación Superelipse
 
@@ -231,7 +231,7 @@ Al verificar la distancia desde su foco hasta cualquier punto sobre la curva (p.
 
 ### Ejercicio M01A01cE04
 
-Utilizando los conceptos aprendidos, trace una parábola cuya longitud horizontal corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical correspondiente al 40% de la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A01cE04**.dwg_.
+Utilizando los conceptos aprendidos acerca de parábolas, trace una parábola cuya longitud horizontal corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical correspondiente al 40% de la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A01cE04**.dwg_.
 
 Requerimientos:
 
@@ -266,7 +266,7 @@ Otro ejemplo de su construcción cuando solo conocemos el punto de inflexión y 
 
 ### Ejercicio M01A01cE05
 
-Utilizando los conceptos aprendidos, trace una hipérbola cuya longitud horizontal o eje real corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical o eje imaginario correspondiente 2.25 veces la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A01cE05**.dwg_.
+Utilizando los conceptos aprendidos de hipérbolas, trace una hipérbola cuya longitud horizontal o eje real corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical o eje imaginario correspondiente 2.25 veces la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A01cE05**.dwg_.
 
 Requerimientos:
 
