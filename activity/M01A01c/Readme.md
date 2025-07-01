@@ -240,11 +240,11 @@ Otro ejemplo de su construcción cuando solo conocemos el punto de inflexión y 
 
 Las funciones trigonométricas son relaciones matemáticas que conectan los ángulos de un triángulo rectángulo con las longitudes de sus lados. Se utilizan para calcular ángulos, lados y otras dimensiones geométricas en triángulos rectángulos. Las funciones trigonométricas son esenciales en diversas disciplinas, incluyendo física, ingeniería, astronomía y música, debido a su capacidad para modelar fenómenos cíclicos y repetitivos. En resumen, las funciones trigonométricas son herramientas matemáticas poderosas que permiten relacionar los ángulos y los lados de los triángulos rectángulos, facilitando el cálculo de dimensiones y la comprensión de fenómenos periódicos en diversos campos. 
 
-Para su dibujo, obtengamos primero el cálculo de los valores de las funciones en Excel.
+1. Para su dibujo, obtengamos primero el cálculo de los valores de las funciones en Excel.
 
 <div align="center"><img src="graph/Excel_Trigonometrica.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Tracemos un rectángulo de 10 metros de alto (correspondiente a un valor por debajo del límite definido en Excel para el cálculo de los valores en Y) por 6.283185307 (correspondiente a 2π) en el origen absoluto de coordenadas (0,0) y cree una copia alineada en la parte inferior. Luego, copie la secuencia de comandos AutoCAD creada en Excel y pegue en el Command para dibujar las funciones.
+2. Tracemos un rectángulo de 10 metros de alto (correspondiente a un valor por debajo del límite definido en Excel para el cálculo de los valores en Y) por 6.283185307 (correspondiente a 2π) en el origen absoluto de coordenadas (0,0) y cree una copia alineada en la parte inferior. Luego, copie la secuencia de comandos AutoCAD creada en Excel y pegue en el Command para dibujar las funciones.
 
 Para: _y = Seno(x)_
 
@@ -256,9 +256,18 @@ Para las demás funciones,
 
 > Tenga en cuenta que para el dibujo de funciones contínuas Seno y Coseno, utilizaremos SPLINE y para las discontínuas PLINE.
 
+3. Debido a que el trazado de funciones discontínuas conecta los extremos superiores con los inferiores calculados que tienden a infinito, es necesario segmentar con el comando _TRIM_, todos los elementos por fuera del rectángulo de referencia y eliminar las líneas de conexión vertical internas.
 
+> Para facilitar el recorte con TRIM, traze a mano alzada una línea que toque en al menos un punto, los elementos a recortar.
 
+<div align="center"><img src="graph/AutoCAD_Trigonometrica2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Trigonometrica3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+Luego de eliminados los trazos sobrantes, obtendrá el trazado final de las funciones.
+
+<div align="center"><img src="graph/AutoCAD_Trigonometrica4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Opcionalmente, con el comando _SPLINE_ puede suavizar las funciones discontínuas dibujadas con el comando _PLINE_. 
 
 
 ## Actividades de proyecto :triangular_ruler:
