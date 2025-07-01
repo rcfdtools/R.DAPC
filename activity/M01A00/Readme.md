@@ -364,35 +364,35 @@ A partir de la proyección isométrica, podemos dibujar las vistas planas de cua
 
 ### Ejercicio M01A00E03
 
-Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, dibujaremos las vistas proyectadas lateral derecha, superior, frontal y posterior, calcularemos las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E03.dwg_.
+Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, dibujaremos las vistas proyectadas y vistas planas lateral derecha, superior, frontal y posterior, calcularemos las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E03.dwg_.
 
 <div align="center"><img src="graph/M01A00E03.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ### Ejercicio M01A00E04
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E04.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E04.dwg_.
 
 <div align="center"><img src="graph/M01A00E04.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A00E05
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E05.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E05.dwg_.
 
 <div align="center"><img src="graph/M01A00E05.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A00E06
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E06.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E06.dwg_.
 
 <div align="center"><img src="graph/M01A00E06.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A00E07
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A00E07.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A00E07.dwg_.
 
 El espesor del material de la escalera es 2.5.
 
