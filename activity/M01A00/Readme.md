@@ -181,7 +181,7 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 
 ### Ejercicio M01A00E01
 
-Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A00E01.dwg_.
+Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A00E01.dwg_.
 
 <div align="center"><img src="graph/M01A00E01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen tomada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
