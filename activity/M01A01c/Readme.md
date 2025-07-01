@@ -294,7 +294,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-en-el-origen/
 * https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-fuera-del-origen/
 * [Cursos de matemáticas / Elipse en Excel](https://www.youtube.com/watch?v=F3Sb0qiDGwc&t=353s)
-* [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Óvalos y Ovoides](https://www.youtube.com/@dibujotecnicobtoconautocad7149)
+* [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Óvalos y Ovoides](https://www.youtube.com/watch?v=rX2V3LmIceo)
 * [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Hiperbola](https://www.youtube.com/watch?v=oS0EKDzEa2A)
 * [Ingeniería Civil y Geología / Curvas cicloidales en AutoCAD](https://www.youtube.com/watch?v=Qt2MNsmVUM0)
 * https://es.wikipedia.org/wiki/Ovoide
