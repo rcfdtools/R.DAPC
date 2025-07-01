@@ -252,7 +252,7 @@ LINE
 
 ### Ejercicio M01A00E02
 
-**Parte A:** aplicando los conceptos aprendidos, cree secuencias (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A00E01, pero con nodo de inicio en (X,Y) igual a los 2 últimos dígitos de su código de alumno, guarde la secuencia en _/file/report/M01A00E02A.txt_ y el dibujo en _/file/cad/M01A00E02A.dwg_.
+**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A00E01, pero con nodo de inicio en (X,Y) igual a los 2 últimos dígitos de su código de alumno, guarde la secuencia en _/file/report/M01A00E02A.txt_ y el dibujo en _/file/cad/M01A00E02A.dwg_.
 
 <div align="center"><img src="graph/M01A00E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
