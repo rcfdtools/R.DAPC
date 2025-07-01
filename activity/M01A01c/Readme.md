@@ -236,7 +236,26 @@ Otro ejemplo de su construcción cuando solo conocemos el punto de inflexión y 
 <div align="center">Ejemplo adicional<br><img src="graph/AutoCAD_Hiperbola1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 6. Funciones trigonométricas
+## 6. Funciones trigonométricas [^5]
+
+Las funciones trigonométricas son relaciones matemáticas que conectan los ángulos de un triángulo rectángulo con las longitudes de sus lados. Se utilizan para calcular ángulos, lados y otras dimensiones geométricas en triángulos rectángulos. Las funciones trigonométricas son esenciales en diversas disciplinas, incluyendo física, ingeniería, astronomía y música, debido a su capacidad para modelar fenómenos cíclicos y repetitivos. En resumen, las funciones trigonométricas son herramientas matemáticas poderosas que permiten relacionar los ángulos y los lados de los triángulos rectángulos, facilitando el cálculo de dimensiones y la comprensión de fenómenos periódicos en diversos campos. 
+
+Para su dibujo, obtengamos primero el cálculo de los valores de las funciones en Excel.
+
+<div align="center"><img src="graph/Excel_Trigonometrica.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Tracemos un rectángulo de 10 metros de alto (correspondiente a un valor por debajo del límite definido en Excel para el cálculo de los valores en Y) por 6.283185307 (correspondiente a 2π) en el origen absoluto de coordenadas (0,0) y cree una copia alineada en la parte inferior. Luego, copie la secuencia de comandos AutoCAD creada en Excel y pegue en el Command para dibujar las funciones.
+
+Para y = Seno(x)
+
+<div align="center"><img src="graph/AutoCAD_Trigonometrica.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Para las demás funciones,
+
+<div align="center"><img src="graph/AutoCAD_Trigonometrica1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
 
 
 
@@ -297,3 +316,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 [^2]: https://es.wikipedia.org/wiki/Ovoide
 [^3]: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)
 [^4]: https://www.fisimat.com.mx/ecuacion-de-la-hiperbola-con-centro-en-el-origen/
+[^5]: https://es.wikipedia.org/wiki/Funci%C3%B3n_trigonom%C3%A9trica
