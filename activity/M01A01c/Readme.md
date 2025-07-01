@@ -3,7 +3,7 @@ Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `m01a01c`
 
 Dibujo de la elipse, óvalo, parábola, hipérbola, clotoide y funciones trigonométricas.
 
-<div align="center"><img src="graph/M01A01c.png" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
+<div align="center"><img src="graph/M01A01c.png" alt="R.DAPC" width="20%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
 
 ## Objetivos
 
@@ -221,13 +221,28 @@ La hipérbola es la última forma geométrica que se estudia en la geometría an
 
 <div align="center"><img src="graph/EcuacionHiperbola.png" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
 
-Para su trazado en AutoCAD, existen diferentes metodologías, para este ejemplo, construiremos la hipérbola a partir de la localización de uno de los puntos de inflexión y una coordenada de localización de un punto sobre la curva.
+Para su trazado en AutoCAD, existen diferentes metodologías, para este ejemplo, construiremos la hipérbola a partir del eje real (línea entre puntos de inflexión A-B) e imaginario (línea C-D). Con estos ejes buscaremos los focos y definiendo la localización del punto 1 (cualquier punto en la proyección del eje real y alejado del foco), obtendremos la localización de un punto conocido sobre la hipérbola.
 
-<div align="center"><img src="graph/AutoCAD_Hiperbola.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center">Parte A<br><img src="graph/AutoCAD_Hiperbola0.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Ahora, construiremos la hipérbola a partir de la localización de uno de los puntos de inflexión y la localización del punto conocido sobre la curva.
+
+Con el comando **DIVIDE** obtenga p. ej., 5 puntos sobre la línea horizontal y vertical proyectada del punto conocido al eje real y hasta el punto de inflexión. Entre más puntos se utilicen, más preciso será su trazado. Luego trace líneas desde el nodo B hasta los nodos de la proyección vertical y líneas desde el nodo A hasta los nodos de la proyección horizontal del punto conocido al nodo A. Para dibujar la curva, utilice una **SPLINE** de por ajuste o Fit.
+
+<div align="center">Parte B<br><img src="graph/AutoCAD_Hiperbola.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Para comprobar su correcta construcción, la resta de las distancias de los focos a cualquier punto sobre la hipérbola (para el ejemplo 105-45=60) debe ser igual a la distancia entre los puntos de inflexión (60).
+
+Otro ejemplo de su construcción cuando solo conocemos el punto de inflexión y la localización de cualquier punto. No conocemos la longitud del eje imaginario.
+
+<div align="center">Ejemplo adicional<br><img src="graph/AutoCAD_Hiperbola1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 
 
 
 ## 5. Clotoide
+
+
 
 
 ## 6. Funciones trigonométricas
