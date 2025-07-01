@@ -171,13 +171,15 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 
 ### Ejercicio M01A01cE03
 
-Utilizando los conceptos aprendidos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño y localización de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01bE06**.dwg_.
+**Parte A**: utilizando los conceptos aprendidos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño y localización de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01bE06**.dwg_.
 
 Ecuación Superelipse
 
 <div align="center"><img src="graph/EcuacionSuperelipse.svg" alt="R.DAPC" width="15%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
 
 <div align="center"><img src="graph/Superelipse.png" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
+
+**Parte B**: investigue la forma geométrica que tienen las pistas de atletismo y realice el trazado de su eje interno en AutoCAD, luego y utilizando la herramienta **OFFSET**, trace 8 líneas paralelas externas que le permitirán obtener 8 carriles y calcule la longitud de sus ejes centrales.
 
 
 ## 4. Parábola [^3]
