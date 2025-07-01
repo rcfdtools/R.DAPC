@@ -1,7 +1,7 @@
 # 1.2.b. Elementos básicos de dibujo / Curvas especiales
 Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `m01a01c`
 
-Dibujo de la elipse, óvalo, parábola, hipérbola y funciones trigonométricas.
+Dibujo de elipse, óvalo, parábola, hipérbola y funciones trigonométricas.
 
 <div align="center"><img src="graph/M01A01c.png" alt="R.DAPC" width="20%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
 
@@ -171,7 +171,7 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 
 ### Ejercicio M01A01cE03
 
-**Parte A**: utilizando los conceptos aprendidos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño y localización de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01bE06**.dwg_.
+**Parte A**: utilizando los conceptos aprendidos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño y localización de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01cE03A**.dwg_.
 
 Ecuación Superelipse
 
@@ -179,7 +179,7 @@ Ecuación Superelipse
 
 <div align="center"><img src="graph/Superelipse.png" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
 
-**Parte B**: investigue la forma geométrica que tienen las pistas de atletismo y realice el trazado de su eje interno en AutoCAD, luego y utilizando la herramienta **OFFSET**, trace 8 líneas paralelas externas que le permitirán obtener 8 carriles y calcule la longitud de sus ejes centrales.
+**Parte B**: investigue la forma geométrica que tienen las pistas de atletismo y realice el trazado de su eje interno en AutoCAD, luego y utilizando la herramienta **OFFSET**, trace 8 líneas paralelas externas que le permitirán obtener 8 carriles y calcule la longitud de sus ejes centrales. Guarde el dibujo como _/file/cad/**M01A01cE03B**.dwg_.
 
 
 ## 4. Parábola [^3]
@@ -219,6 +219,16 @@ Al verificar la distancia desde su foco hasta cualquier punto sobre la curva (p.
 <div align="center"><img src="graph/AutoCAD_Parabola.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+### Ejercicio M01A01cE04
+
+Utilizando los conceptos aprendidos, trace una parábola cuya longitud horizontal corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical correspondiente al 40% de la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A01cE04**.dwg_.
+
+Requerimientos:
+
+* El dibujo debe incluir la localización del foco y la verificación de la equidistancia desde la curva al eje directriz en cualquier punto, igual a la distancia desde el mismo punto al foco.
+* Presente las líneas constructivas utilizadas.
+
+
 ## 5. Hipérbola [^4]
 
 La hipérbola es la última forma geométrica que se estudia en la geometría analítica. En esta hablaremos sobre la ecuación de la hipérbola con centro en el origen. 
@@ -233,7 +243,7 @@ Para su trazado en AutoCAD, existen diferentes metodologías, para este ejemplo,
 
 Ahora, construiremos la hipérbola a partir de la localización de uno de los puntos de inflexión y la localización del punto conocido sobre la curva.
 
-Con el comando **DIVIDE** obtenga p. ej., 5 puntos sobre la línea horizontal y vertical proyectada del punto conocido al eje real y hasta el punto de inflexión. Entre más puntos se utilicen, más preciso será su trazado. Luego trace líneas desde el nodo B hasta los nodos de la proyección vertical y líneas desde el nodo A hasta los nodos de la proyección horizontal del punto conocido al nodo A. Para dibujar la curva, utilice una **SPLINE** por ajuste o Fit.
+Con el comando **DIVIDE** obtenga p. ej., 5 puntos sobre la línea horizontal y vertical proyectada del punto conocido al eje real y hasta el punto de inflexión. Entre más puntos se utilicen, más preciso será su trazado. Luego trace líneas desde el nodo B hasta los nodos de la proyección vertical y líneas desde el nodo A hasta los nodos de la proyección horizontal del punto conocido al nodo A. Para dibujar la curva, utilice una **SPLINE** por ajuste o Fit y luego con el comando **MIRROR** cree copias espejo horizontales y verticales.  
 
 <div align="center">Parte B<br><img src="graph/AutoCAD_Hiperbola.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -242,6 +252,16 @@ Con el comando **DIVIDE** obtenga p. ej., 5 puntos sobre la línea horizontal y 
 Otro ejemplo de su construcción cuando solo conocemos el punto de inflexión y la localización de cualquier punto. No conocemos la longitud del eje imaginario.
 
 <div align="center">Ejemplo adicional<br><img src="graph/AutoCAD_Hiperbola1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+### Ejercicio M01A01cE04
+
+Utilizando los conceptos aprendidos, trace una hipérbola cuya longitud horizontal o eje real corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical o eje imaginario correspondiente 2.25 veces la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A01cE04**.dwg_.
+
+Requerimientos:
+
+* El dibujo debe incluir la localización de los focos y la verificación de la resta de distancias desde los focos a cualquier punto correspondiente a la longitud entre los puntos de inflexión.
+* Presente las líneas constructivas utilizadas.
 
 
 ## 6. Funciones trigonométricas [^5]
