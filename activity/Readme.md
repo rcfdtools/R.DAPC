@@ -5,7 +5,7 @@
 
 | Ejercicio  | Descripción                                                                                                               | Figura                                                                       | Proyecto |
 |:-----------|:--------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|----------|
-| M01A00E01  | Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250). | <img src="M01A00/graph/M01A00E01.jpg" alt="R.SIGE" width="100" border="0" /> |          | 
+| M01A00E01  | Aplicando los conceptos aprendidos, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250). | <img src="M01A00/graph/M01A00E01.jpg" alt="R.SIGE" width="300" border="0" /> |          | 
 |            |                                                                                                                           |                                                                              |          |
 |            |                                                                                                                           |                                                                              |          |
 |            |                                                                                                                           |                                                                              |          |
