@@ -132,6 +132,8 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 
 <div align="center"><img src="graph/AutoCAD_Ovalo3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+> Para la evaluación del trazado de esta figura, utilice las coordenadas absolutas de localización y dimensiones indicadas por el instructor.
+
 
 ## 2. Ovoide [^2]
 
@@ -142,8 +144,6 @@ El término ovoide hace referencia a una forma geométrica convexa y redondeada,
 El ovoide es una curva cerrada simétrica con respecto a su eje y cóncava hacia él, conformada por cuatro arcos de circunferencia: uno de ellos es una semicircunferencia y los otros dos son iguales y simétricos. Su nombre deriva de su parecido con la sección longitudinal de un huevo.
 
 Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de curvatura. A diferencia del óvalo, solo tiene un eje de simetría.
-
-
 
 > No debe confundirse con un ovoide en geometría proyectiva.
 
@@ -166,10 +166,12 @@ Veamos las líneas constructivas en AutoCAD para su dibujo a partir de arcos cir
 
 <div align="center"><img src="graph/AutoCAD_Ovoide3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+> Para la evaluación del trazado de esta figura, utilice las coordenadas absolutas de localización y dimensiones indicadas por el instructor.
+
 
 ### Ejercicio M01A01cE03
 
-Utilizando los conceptos aprendidos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01bE06**.dwg_.
+Utilizando los conceptos aprendidos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño y localización de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01bE06**.dwg_.
 
 Ecuación Superelipse
 
