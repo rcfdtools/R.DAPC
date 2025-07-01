@@ -1,7 +1,7 @@
 # 1.2.b. Elementos básicos de dibujo / Curvas especiales
 Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `m01a01c`
 
-Dibujo de la elipse, óvalo, parábola, hipérbola, clotoide y funciones trigonométricas.
+Dibujo de la elipse, óvalo, parábola, hipérbola y funciones trigonométricas.
 
 <div align="center"><img src="graph/M01A01c.png" alt="R.DAPC" width="20%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
 
@@ -236,14 +236,7 @@ Otro ejemplo de su construcción cuando solo conocemos el punto de inflexión y 
 <div align="center">Ejemplo adicional<br><img src="graph/AutoCAD_Hiperbola1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-
-
-## 6. Clotoide
-
-
-
-
-## 7. Funciones trigonométricas
+## 6. Funciones trigonométricas
 
 
 
@@ -275,6 +268,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [Cursos de matemáticas / Elipse en Excel](https://www.youtube.com/watch?v=F3Sb0qiDGwc&t=353s)
 * [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Óvalos y Ovoides](https://www.youtube.com/@dibujotecnicobtoconautocad7149)
 * [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Hiperbola](https://www.youtube.com/watch?v=oS0EKDzEa2A)
+* [Ingeniería Civil y Geología / Curvas cicloidales en AutoCAD](https://www.youtube.com/watch?v=Qt2MNsmVUM0)
 * https://es.wikipedia.org/wiki/Ovoide
 * [Draw parabola in AutoCAD](https://www.youtube.com/watch?v=h8pjymm-A5I)
 * https://e1.portalacademico.cch.unam.mx/alumno/matematicas2/unidad1/ecuacionescuadraticas/tiroparabolico
