@@ -60,15 +60,15 @@ Para esta actividad, dibujaremos el bloque de símbolo eléctrico definido en el
 
 > Son de obligatoria aplicación los símbolos gráficos contemplados en la Tabla 1.3.4.a del RETIE, tomados de las normas unificadas IEC 60617, ANSI Y32, CSA Z99 e IEEE 315, los cuales guardan mayor relación con la seguridad eléctrica. Cuando se requieran otros símbolos, se podrá acudir a los contemplados en las normas precitadas.
 
-<div align="center">Proporciones en las dimensiones del símbolo de riesgo eléctrico<br><img src="graph/RETIE_RiesgoElectrico.jpg" alt="R.DAPC" width="30%" border="0" /><sub><br>Tomado de: Artículo 1.3.3.2. Símbolo de riesgo eléctrico del Reglamento Técnico de Instalaciones Eléctricas - RETIE - Colombia</sub><br><br></div>
-<div align="center"><img src="graph/RETIE_RiesgoElectrico1.jpg" alt="R.DAPC" width="30%" border="0" /></div>
+<div align="center">Proporciones en las dimensiones del símbolo de riesgo eléctrico<br><img src="graph/RETIE_RiesgoElectrico.jpg" alt="R.DAPC" width="30%" border="0" /></div>
+<div align="center"><img src="graph/RETIE_RiesgoElectrico1.jpg" alt="R.DAPC" width="30%" border="0" /><sub><br>Tomado de: Artículo 1.3.3.2. Símbolo de riesgo eléctrico del Reglamento Técnico de Instalaciones Eléctricas - RETIE - Colombia</sub><br><br></div>
 <div align="center"><img src="graph/RETIE_SimbolosElectricos.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 <div align="center"><img src="graph/RETIE_SimbolosElectricos1.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 <div align="center"><img src="graph/RETIE_SimbolosElectricos2.jpg" alt="R.DAPC" width="60%" border="0" /><sub><br>Tomado de: Artículo 1.3.4. Símbolos eléctricos del Reglamento Técnico de Instalaciones Eléctricas - RETIE - Colombia</sub><br><br></div>
 
 1. En AutoCAD, cree una copia del archivo [/file/cad/M01A02a.dwg](../../file/cad/M01A02a.dwg) que contiene los nombres de capas definidos para el curso DAPC, y guarde como /file/cad/M01A03.dwg.
 
-Cree el símbolo de riesgo eléctrico, uttilizando 
+Cree el símbolo de riesgo eléctrico, utilizando las dimensiones proporcionales para h=200.
 
 
 
