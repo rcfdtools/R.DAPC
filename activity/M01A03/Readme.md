@@ -89,13 +89,17 @@ Cree el símbolo de riesgo eléctrico del RETIE, utilizando las dimensiones prop
 
 > Las diferentes instancias del bloque puede ser eliminadas y el bloque original permanecerá asociado internamente al archivo de AutoCAD.
 
-4. Con el comando **INSERT**, repita el procedimiento de inserción del bloque creado, arrastrando desde el panel el elemento al dibujo. En la ventana de inserción podrá establecer las opciones relacionadas con el bloque, tales como su punto de inserción, escala y demás.
+4. Con el comando **INSERT** o **IN**, repita el procedimiento de inserción del bloque creado, arrastrando desde el panel el elemento al dibujo. En la ventana de inserción podrá establecer las opciones relacionadas con el bloque, tales como su punto de inserción, escala y demás.
 
 <div align="center"><img src="graph/AutoCAD_INSERT.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 5. Para modificar el bloque creado, p. ej., cambiando el color del relleno por gris y el grosor de contorno por 0.3, seleccione uno de los bloques insertados y con el menú contextual (clic derecho), seleccione la opción _Block Editor_. Una vez terminada la edición, en el menú _Block Editor_, seleccione la opción _Close Block Edit_ que se encuentra a la derecha. 
 
 > Esta acción de modificación también puede ser realizada desde _Home / Block / Block Editor_.
+> 
+> Desde el _Block Editor_ podrá cambiar la posición de anclaje del bloque, y modificar las propiedades generales utilizadas en su creación. Dentro del editor y sin seleccionar ninguna entidad, ejecute el comando **PR** que le permitirá acceder a las propiedades detalladas del bloque.
+> 
+> Si requiere ajustar o renombrar el bloque creado, Utilice el comando **RENAME** 
 
 <div align="center"><img src="graph/AutoCAD_BlockEdit.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
@@ -103,9 +107,11 @@ Una vez terminada la modificación podrá observar que todas las instancias del 
 
 <div align="center"><img src="graph/AutoCAD_BlockEdit1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
-Para insertar bloques desde archivos externos se puede utilizar el comando **ADC** o Autodesk Design Center. 
+Para insertar bloques desde archivos externos o los bloques de ejemplo o Sample Blocks de AutoCAD, se puede utilizar el comando **ADC** o Autodesk Design Center. 
 
 <div align="center"><img src="graph/AutoCAD_ADC.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+> Utilice el comando PURGE para eliminar un bloque creado. Solo podrá ser eliminado si dentro del dibujo no existe ninguna instancia del bloque a ser eliminado.
 
 
 ### Ejercicio M01A03E02
@@ -133,6 +139,8 @@ Cree los símbolos eléctricos del RETIE. Iniciemos con el símbolo de _Extintor
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoExtintorEquipoElectronico2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 Repita este procedimiento para todos los demás símbolos del RETIE, en total debe crear 48 símbolos. En el archivo de AutoCAD, incluya las líneas constructivas utilizadas para la creación de cada símbolo.
+
+
 
 
 ## 2. Creación de bloques dinámicos
@@ -169,9 +177,12 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
+* https://www.bibliocad.com/search/?term=electrical
 * [Autodesk AutoCAD / Acerca de la definición de bloques](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-F81D7F1E-1F0A-45AD-AC7E-891A85A0033A)
 * [AutoCAD para todos / Bloques - Video 01: ¿Que es un bloque y cómo se crea?](https://www.youtube.com/watch?v=RcMRWfDKt4A)
-* https://www.bibliocad.com/search/?term=electrical
+* [AutoCAD para todos / Bloques - Video 02: ¿Cómo se actualiza un bloque y cuáles son las opciones de inserción??](https://www.youtube.com/watch?v=qym57qO8UFo)
+* [AutoCAD para todos / Bloques - Video 03: Design Center, Bloques Dinámicos](https://www.youtube.com/watch?v=ejZ-1E6y6CA)
+* [Martín Cipoletta / Resetear y reemplazar bloques dinámicos por otros en AutoCAD](https://www.youtube.com/watch?v=4MXMLEwI6qw)
 
 
 ## Control de versiones
