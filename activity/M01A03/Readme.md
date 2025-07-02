@@ -59,9 +59,9 @@ Para esta actividad, dibujaremos los elementos eléctricos establecidos en el _A
 
 > Son de obligatoria aplicación los símbolos gráficos contemplados en la Tabla 1.3.4.a del RETIE, tomados de las normas unificadas IEC 60617, ANSI Y32, CSA Z99 e IEEE 315, los cuales guardan mayor relación con la seguridad eléctrica. Cuando se requieran otros símbolos, se podrá acudir a los contemplados en las normas precitadas.
 
-<div align="center"><img src="graph/RETIE_SimbolosElectricos.jpg" alt="R.DAPC" width="80%" border="0" /></div>
-<div align="center"><img src="graph/RETIE_SimbolosElectricos1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
-<div align="center"><img src="graph/RETIE_SimbolosElectricos2.jpg" alt="R.DAPC" width="80%" border="0" /><sub><br>Tomado de: Artículo 1.3.4. Símbolos eléctricos_ del Reglamento Técnico de Instalaciones Eléctricas - RETIE - Colombia</sub><br><br></div>
+<div align="center"><img src="graph/RETIE_SimbolosElectricos.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/RETIE_SimbolosElectricos1.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/RETIE_SimbolosElectricos2.jpg" alt="R.DAPC" width="60%" border="0" /><sub><br>Tomado de: Artículo 1.3.4. Símbolos eléctricos del Reglamento Técnico de Instalaciones Eléctricas - RETIE - Colombia</sub><br><br></div>
 
 
 
