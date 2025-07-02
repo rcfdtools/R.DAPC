@@ -83,7 +83,13 @@ Cree el símbolo de riesgo eléctrico, utilizando las dimensiones proporcionales
 
 <div align="center"><img src="graph/AutoCAD_BlockDefinition.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Para insertar el bloque, en el menú _Home / Block / Insert_, seleccione el bloque creado y defina el punto de inserción en cualquier parte del dibujo.
 
+<div align="center"><img src="graph/AutoCAD_BlockInsert.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+> Las diferentes instancias del bloque puede ser eliminadas y el bloque original permanecerá asociado internamente al archivo de AutoCAD.
+
+4. Con el comando **INSERT**, repita el procedimiento de inserción del bloque creado, arrastrando el elemento al dibujo.
 
 
 
