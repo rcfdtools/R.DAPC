@@ -1,9 +1,9 @@
 # 1.1. Conceptos básicos de diseño asistido por computador - CAD
-Keywords: `CAD` `AutoCAD` `Model` `Layout` `m01a00`
+Keywords: `CAD` `AutoCAD` `Model` `Layout` `m01a01`
 
 Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 
-<div align="center"><img src="graph/M01A00.png" alt="R.SIGE" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/470770e00e95fe53">https://gemini.google.com</a></sub><br><br></div>
+<div align="center"><img src="graph/M01A01.png" alt="R.SIGE" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/470770e00e95fe53">https://gemini.google.com</a></sub><br><br></div>
 
 
 ## Objetivos
@@ -121,7 +121,7 @@ AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran di
 
 Para el dibujo de elementos, por defecto el mouse o apuntador realiza las siguientes acciones:
 
-<div align="center"><img src="graph/M01A00_Mouse.jpg" alt="R.DAPC" width="45%" border="0" /></div>
+<div align="center"><img src="graph/M01A01_Mouse.jpg" alt="R.DAPC" width="45%" border="0" /></div>
 
 :blue_heart: Al ampliar o reducir el zoom con la rueda del mouse, la ubicación del cursor es importante. Puede considerar el cursor como una lupa., p. ej. si coloca el cursor en el área superior derecha del área de dibujo, se amplía esa área sin cambiar su posición.
 
@@ -151,7 +151,7 @@ Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en un [
 
 <div align="center"><img src="graph/Excel_Pitagoras.jpg" alt="R.DAPC" width="50%" border="0" /></div>
 
-4. En la cinta de opciones superior, de clic en el botón guardar y almacene el archivo como _/file/cad/M01A00.dwg_. Utilizando la rueda del Mouse, acérquese (rueda hacia arriba), aléjese (rueda hacia abajo) y desplace el dibujo (rueda pulsada y desplazamiento del mouse).
+4. En la cinta de opciones superior, de clic en el botón guardar y almacene el archivo como _/file/cad/M01A01.dwg_. Utilizando la rueda del Mouse, acérquese (rueda hacia arriba), aléjese (rueda hacia abajo) y desplace el dibujo (rueda pulsada y desplazamiento del mouse).
 
 5. Como observó, AutoCAD permite trazar líneas utilizando localizaciones manuales en pantalla, sin embargo, para el trazado de dibujos con precisión, podemos utilizar coordenadas absolutas, coordenadas relativas o una secuencia de comandos indicando la localización de sus nodos.
 
@@ -179,11 +179,11 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 <div align="center"><img src="graph/AutoCAD_Line3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio M01A00E01
+### Ejercicio M01A01E01
 
-Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A00E01.dwg_.
+Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A01E01.dwg_.
 
-<div align="center"><img src="graph/M01A00E01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen tomada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
+<div align="center"><img src="graph/M01A01E01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen tomada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
 Especificaciones:
 
@@ -250,11 +250,11 @@ LINE
 > :bulb: Para evitar la escritura de la letra **d** en la definición de ángulos, en las unidades de AutoCAD puede establecer grados decimales.
 
 
-### Ejercicio M01A00E02
+### Ejercicio M01A01E02
 
-**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A00E01, pero con nodo de inicio en (X,Y) igual a los 2 últimos dígitos de su código de alumno, guarde la secuencia en _/file/report/M01A00E02A.txt_ y el dibujo en _/file/cad/M01A00E02A.dwg_.
+**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, pero con nodo de inicio en (X,Y) igual a los 2 últimos dígitos de su código de alumno, guarde la secuencia en _/file/report/M01A01E02A.txt_ y el dibujo en _/file/cad/M01A01E02A.dwg_.
 
-<div align="center"><img src="graph/M01A00E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A01E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 Ejemplo de secuencia para coordenadas relativas usando @
 ```
@@ -277,7 +277,7 @@ LINE
 
 ```
 
-**Parte B:** utilizando secuencias de comandos, cree los siguientes elementos, guarde la secuencia en _/file/report/M01A00E02B.txt_ y el dibujo en _/file/cad/M01A00E02B.dwg_.:
+**Parte B:** utilizando secuencias de comandos, cree los siguientes elementos, guarde la secuencia en _/file/report/M01A01E02B.txt_ y el dibujo en _/file/cad/M01A01E02B.dwg_.:
 
 * Triángulo rectángulo de 50 metros de base por 20 metros de alto con orígen en la coordenada absoluta indicada.
 * Triángulo equilátero de 50 metros de lado con orígen en la coordenada absoluta indicada.
@@ -362,53 +362,53 @@ A partir de la proyección isométrica, podemos dibujar las vistas planas de cua
 <div align="center"><img src="graph/ProyeccionIsometrica3.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
-### Ejercicio M01A00E03
+### Ejercicio M01A01E03
 
-Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, dibujaremos las vistas proyectadas y vistas planas lateral derecha, superior, frontal y posterior, calcularemos las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E03.dwg_.
+Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, dibujaremos las vistas proyectadas y vistas planas lateral derecha, superior, frontal y posterior, calcularemos las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E03.dwg_.
 
-<div align="center"><img src="graph/M01A00E03.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-
-### Ejercicio M01A00E04
-
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E04.dwg_.
-
-<div align="center"><img src="graph/M01A00E04.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A01E03.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio M01A00E05
+### Ejercicio M01A01E04
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E05.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E04.dwg_.
 
-<div align="center"><img src="graph/M01A00E05.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
-
-
-### Ejercicio M01A00E06
-
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A00E06.dwg_.
-
-<div align="center"><img src="graph/M01A00E06.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A01E04.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
-### Ejercicio M01A00E07
+### Ejercicio M01A01E05
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A00E07.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E05.dwg_.
+
+<div align="center"><img src="graph/M01A01E05.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+
+
+### Ejercicio M01A01E06
+
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E06.dwg_.
+
+<div align="center"><img src="graph/M01A01E06.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+
+
+### Ejercicio M01A01E07
+
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A01E07.dwg_.
 
 El espesor del material de la escalera es 2.5.
 
-<div align="center"><img src="graph/M01A00E07.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A01E07.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |:----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A00    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                 | 
-| M01A00    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura y ejercicios de la guía de clase. | 
+| M01A01    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                 | 
+| M01A01    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura y ejercicios de la guía de clase. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >

@@ -1,9 +1,9 @@
 # 1.2.b. Elementos básicos de dibujo / UCS y Geometrías
-Keywords: Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `m01a01b`
+Keywords: Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `m01a02b`
 
 Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX... Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR...
 
-<div align="center"><img src="graph/M01A01b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A02b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -38,7 +38,7 @@ El [UCS](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-E658D5E7-EE5C-4A
 
 Para entender mejor estos conceptos, creemos 3 líneas independientes que representen un triángulo rectángulo, con lados de 50 metros en las caras ortogonales y origen absoluto en (0,0).
 
-1. Abra el archivo _/file/cad/M01A01a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A01b.dwg_ y establezca por defecto la capa _0-Object_.
+1. Abra el archivo _/file/cad/M01A02a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A02b.dwg_ y establezca por defecto la capa _0-Object_.
 
 Secuencia de comandos para creación del triángulo
 
@@ -318,9 +318,9 @@ Desde la barra _Home / Modify_, podrá acceder a múltiples herramientas de modi
 
 Realizar los siguientes ejercicios incluyendo la figura y sus líneas constructivas.
 
-### Ejercicio M01A01bE01
+### Ejercicio M01A02bE01
 
-Para practicar las herramientas vistas en esta actividad, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, círculos y arcos, inscrita en una circunferencia de diámetro 10 metros. Guarde el dibujo como _/file/cad/M01A01bE01.dwg_.
+Para practicar las herramientas vistas en esta actividad, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, círculos y arcos, inscrita en una circunferencia de diámetro 10 metros. Guarde el dibujo como _/file/cad/M01A02bE01.dwg_.
 
 Especificaciones adicionales:
 
@@ -328,63 +328,63 @@ Especificaciones adicionales:
 * En el mismo dibujo, cree copias de la figura creada a escalas 0.5:1, 2:1 y 5:1.
 * Utilizando la herramienta de dibujo **ELLIPSE**, trace una de las elipses creadas, calcule y compare su área con respecto a las trazadas manualmente.
 
-<div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="100%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya (pág. 80)</sub></div>
+<div align="center"><img src="graph/M01A02bE01.jpg" alt="R.DAPC" width="100%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya (pág. 80)</sub></div>
 
 
-### Ejercicio M01A01bE02
+### Ejercicio M01A02bE02
 
-Dibuje la llave de tuercas presentada en la ilustración. Guarde el dibujo como _/file/cad/M01A01bE02.dwg_.
+Dibuje la llave de tuercas presentada en la ilustración. Guarde el dibujo como _/file/cad/M01A02bE02.dwg_.
 
-<div align="center"><img src="graph/M01A01bE02.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 84)</sub></div>
-
-
-### Ejercicio M01A01bE03
-
-Dibuje las siguientes formas geométricas con simetría axial mostradas en la ilustración, establezca libremente las dimensiones de cada figura. Guarde el dibujo como _/file/cad/M01A01bE03.dwg_.
-
-<div align="center"><img src="graph/M01A01bE03.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
+<div align="center"><img src="graph/M01A02bE02.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 84)</sub></div>
 
 
-### Ejercicio M01A01bE04
+### Ejercicio M01A02bE03
 
-Dibuje el siguiente elemento isométrico correspondiente a la cabeza de un martillo. Guarde el dibujo como _/file/cad/M01A01bE04.dwg_.
+Dibuje las siguientes formas geométricas con simetría axial mostradas en la ilustración, establezca libremente las dimensiones de cada figura. Guarde el dibujo como _/file/cad/M01A02bE03.dwg_.
 
-<div align="center"><img src="graph/M01A01bE04.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
-
-
-### Ejercicio M01A01bE05
-
-Dibuje el siguiente elemento isométrico correspondiente a un contra pasador. Guarde el dibujo como _/file/cad/M01A01bE05.dwg_.
-
-<div align="center"><img src="graph/M01A01bE05.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
+<div align="center"><img src="graph/M01A02bE03.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
-### Ejercicio M01A01bE06
+### Ejercicio M01A02bE04
 
-Dibuje el siguiente elemento isométrico correspondiente a un tabique o ladrillo con perforaciones, en la cara frontal utilice la herramienta Mirror. Guarde el dibujo como _/file/cad/M01A01bE06.dwg_.
+Dibuje el siguiente elemento isométrico correspondiente a la cabeza de un martillo. Guarde el dibujo como _/file/cad/M01A02bE04.dwg_.
 
-<div align="center"><img src="graph/M01A01bE06.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 131)</sub></div>
-
-
-### Ejercicio M01A01bE07
-
-Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/M01A01bE07.dwg_.
-
-<div align="center"><img src="graph/M01A01bE07.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A02bE04.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
-### Ejercicio M01A01bE08
+### Ejercicio M01A02bE05
 
-Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/**M01A01bE08**.dwg_.
+Dibuje el siguiente elemento isométrico correspondiente a un contra pasador. Guarde el dibujo como _/file/cad/M01A02bE05.dwg_.
 
-<div align="center"><img src="graph/M01A01bE08.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 123)</sub></div>
+<div align="center"><img src="graph/M01A02bE05.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
-### Ejercicio M01A01bE09
+### Ejercicio M01A02bE06
 
-Creando un array de 10 líneas horizontales por 10 líneas verticales y trazando líneas, cree el logo de la [UECIJG](https://www.escuelaing.edu.co/). El ancho y alto de la figura debe corresponder a los 3 últimos dígitos de su código de estudiante. Guarde el dibujo como _/file/cad/**M01A01bE09**.dwg_.
+Dibuje el siguiente elemento isométrico correspondiente a un tabique o ladrillo con perforaciones, en la cara frontal utilice la herramienta Mirror. Guarde el dibujo como _/file/cad/M01A02bE06.dwg_.
 
-<div align="center"><img src="graph/M01A01bE09.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A02bE06.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 131)</sub></div>
+
+
+### Ejercicio M01A02bE07
+
+Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/M01A02bE07.dwg_.
+
+<div align="center"><img src="graph/M01A02bE07.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+
+
+### Ejercicio M01A02bE08
+
+Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/**M01A02bE08**.dwg_.
+
+<div align="center"><img src="graph/M01A02bE08.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 123)</sub></div>
+
+
+### Ejercicio M01A02bE09
+
+Creando un array de 10 líneas horizontales por 10 líneas verticales y trazando líneas, cree el logo de la [UECIJG](https://www.escuelaing.edu.co/). El ancho y alto de la figura debe corresponder a los 3 últimos dígitos de su código de estudiante. Guarde el dibujo como _/file/cad/**M01A02bE09**.dwg_.
+
+<div align="center"><img src="graph/M01A02bE09.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -395,8 +395,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A01b   | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                                                             |
-| M01A01b    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M01A02b   | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                                                             |
+| M01A02b    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
@@ -426,7 +426,7 @@ _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A01a/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A01c/Readme.md) |
+| [:arrow_backward: Anterior](../M01A02a/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A02c/Readme.md) |
 |---------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: 

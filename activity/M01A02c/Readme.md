@@ -1,9 +1,9 @@
 # 1.2.b. Elementos básicos de dibujo / Curvas especiales
-Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `m01a01c`
+Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `m01a02c`
 
 Dibujo de elipse, óvalo, parábola, hipérbola y funciones trigonométricas.
 
-<div align="center"><img src="graph/M01A01c.png" alt="R.DAPC" width="20%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
+<div align="center"><img src="graph/M01A02c.png" alt="R.DAPC" width="20%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
 
 ## Objetivos
 
@@ -80,7 +80,7 @@ Y generaremos la secuencia de comandos para la generación de las polilíneas po
 
 <div align="center"><img src="graph/Excel_Elipse3.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
-2. En AutoCAD, cree una copia del archivo _/file/cad/M01A01a.dwg_ y guarde como _/file/cad/M01A01c.dwg_. Luego, copie desde la hoja AutoCAD del libro de Excel, la columna A que contiene la secuencia de comandos y pegue en el _Command_ de AutoCAD. Obtendrá la representación de la Elipse usando polilíneas a partir de las coordenadas (x.y) del libro de Excel.
+2. En AutoCAD, cree una copia del archivo _/file/cad/M01A02a.dwg_ y guarde como _/file/cad/M01A02c.dwg_. Luego, copie desde la hoja AutoCAD del libro de Excel, la columna A que contiene la secuencia de comandos y pegue en el _Command_ de AutoCAD. Obtendrá la representación de la Elipse usando polilíneas a partir de las coordenadas (x.y) del libro de Excel.
 
 <div align="center"><img src="graph/AutoCAD_Elipse.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -109,9 +109,9 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 > :bulb: Para convertir las polilíneas trazadas a partir de los nodos de Excel en una curva cerrada similar a la elipse, con el comando **JOIN** una las 4 líneas, luego con el comando **PLINE** cierre la polilínea y desde el mismo comando ejecute **F**it.
 
 
-### Ejercicio M01A01cE00
+### Ejercicio M01A02cE00
 
-A partir de coordenadas de localización del centroide de una elipse y la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar la polilínea en AutoCAD y luego suavizarla. Utilizando los parámetros de cálculo, trace con la herramienta **ELLIPSE**, la elipse compuesta por arcos y compare su longitud con la trazada a partir de puntos. Guarde el dibujo como _/file/cad/**M01A01cE00**.dwg_.
+A partir de coordenadas de localización del centroide de una elipse y la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar la polilínea en AutoCAD y luego suavizarla. Utilizando los parámetros de cálculo, trace con la herramienta **ELLIPSE**, la elipse compuesta por arcos y compare su longitud con la trazada a partir de puntos. Guarde el dibujo como _/file/cad/**M01A02cE00**.dwg_.
 
 Especificaciones:
 
@@ -126,9 +126,9 @@ Curva cerrada, con la convexidad vuelta siempre a la parte de afuera, de forma p
 <div align="center"><img src="graph/EcuacionOvalo.svg" alt="R.DAPC" width="17.5%" border="0" /></div>
 
 
-### Ejercicio M01A01cE01
+### Ejercicio M01A02cE01
 
-Trace las líneas constructivas y dibuje óvalos en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Guarde el dibujo como _/file/cad/**M01A01cE01**.dwg_.
+Trace las líneas constructivas y dibuje óvalos en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Guarde el dibujo como _/file/cad/**M01A02cE01**.dwg_.
 
 1. Para el dibujo de un _óvalo dado el eje menor_, con centroide en cualquier localización.
 
@@ -158,9 +158,9 @@ Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de c
 > No debe confundirse con un ovoide en geometría proyectiva.
 
 
-### Ejercicio M01A01cE02 
+### Ejercicio M01A02cE02 
 
-Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Guarde el dibujo como _/file/cad/**M01A01cE02**.dwg_.
+Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Guarde el dibujo como _/file/cad/**M01A02cE02**.dwg_.
 
 1. Para el dibujo de un _ovoide dado el eje menor_, con centroide en cualquier localización.
 
@@ -179,9 +179,9 @@ Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos ci
 > Para la evaluación del trazado de esta figura, utilice las coordenadas absolutas de localización y dimensiones indicadas por el instructor.
 
 
-### Ejercicio M01A01cE03
+### Ejercicio M01A02cE03
 
-**Parte A**: utilizando los conceptos aprendidos acerca de óvalos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño y localización de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A01cE03A**.dwg_.
+**Parte A**: utilizando los conceptos aprendidos acerca de óvalos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño y localización de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A02cE03A**.dwg_.
 
 Ecuación Superelipse
 
@@ -189,7 +189,7 @@ Ecuación Superelipse
 
 <div align="center"><img src="graph/Superelipse.png" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
 
-**Parte B**: investigue la forma geométrica que tienen las pistas de atletismo y realice el trazado de su eje interno en AutoCAD, luego y utilizando la herramienta **OFFSET**, trace 8 líneas paralelas externas que le permitirán obtener 8 carriles y calcule la longitud de sus ejes centrales. Guarde el dibujo como _/file/cad/**M01A01cE03B**.dwg_.
+**Parte B**: investigue la forma geométrica que tienen las pistas de atletismo y realice el trazado de su eje interno en AutoCAD, luego y utilizando la herramienta **OFFSET**, trace 8 líneas paralelas externas que le permitirán obtener 8 carriles y calcule la longitud de sus ejes centrales. Guarde el dibujo como _/file/cad/**M01A02cE03B**.dwg_.
 
 
 ## 4. Parábola [^3]
@@ -229,9 +229,9 @@ Al verificar la distancia desde su foco hasta cualquier punto sobre la curva (p.
 <div align="center"><img src="graph/AutoCAD_Parabola.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio M01A01cE04
+### Ejercicio M01A02cE04
 
-Utilizando los conceptos aprendidos acerca de parábolas, trace una parábola cuya longitud horizontal corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical correspondiente al 40% de la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A01cE04**.dwg_.
+Utilizando los conceptos aprendidos acerca de parábolas, trace una parábola cuya longitud horizontal corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical correspondiente al 40% de la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A02cE04**.dwg_.
 
 Requerimientos:
 
@@ -264,9 +264,9 @@ Otro ejemplo de su construcción cuando solo conocemos el punto de inflexión y 
 <div align="center">Ejemplo adicional<br><img src="graph/AutoCAD_Hiperbola1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio M01A01cE05
+### Ejercicio M01A02cE05
 
-Utilizando los conceptos aprendidos de hipérbolas, trace una hipérbola cuya longitud horizontal o eje real corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical o eje imaginario correspondiente 2.25 veces la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A01cE05**.dwg_.
+Utilizando los conceptos aprendidos de hipérbolas, trace una hipérbola cuya longitud horizontal o eje real corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical o eje imaginario correspondiente 2.25 veces la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A02cE05**.dwg_.
 
 Requerimientos:
 
@@ -308,21 +308,21 @@ Luego de eliminados los trazos sobrantes, obtendrá el trazado final de las func
 > Opcionalmente, con el comando _SPLINE_ puede suavizar las funciones discontínuas dibujadas con el comando _PLINE_. 
 
 
-### Ejercicio M01A01cE06
+### Ejercicio M01A02cE06
 
-Utilizando los conceptos aprendidos, dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con orígen en (0,0). Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual a los últimos 3 dígitos de su código de alumno, y escale las funciones a este tamaño. Guarde el dibujo como _/file/cad/**M01A01cE06**.dwg_.
+Utilizando los conceptos aprendidos, dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con orígen en (0,0). Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual a los últimos 3 dígitos de su código de alumno, y escale las funciones a este tamaño. Guarde el dibujo como _/file/cad/**M01A02cE06**.dwg_.
 
 
 ## Actividades de proyecto :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01c_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A02c_20250531.pdf).
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A01c    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                                                             |
-| M01A01c    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M01A02c    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                                                             |
+| M01A02c    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
@@ -361,7 +361,7 @@ _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A01b/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
+| [:arrow_backward: Anterior](../M01A02b/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
 |---------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: https://es.wikipedia.org/wiki/%C3%93valo

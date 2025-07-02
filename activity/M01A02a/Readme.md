@@ -1,9 +1,9 @@
 # 1.2.a. Elementos básicos de dibujo / Creación de capas o layers
-Keywords: `aia` `nibs` `iso-13567` `layer` `layer-freeze` `layer-set-current` `layer-on` `layer-delete` `m01a01a`
+Keywords: `aia` `nibs` `iso-13567` `layer` `layer-freeze` `layer-set-current` `layer-on` `layer-delete` `m01a02a`
 
 Normas para definición de nombres y creación de capas o Layers.
 
-<div align="center"><img src="graph/M01A01a.jpg" alt="R.DAPC" width="40%" border="0" /><sub><br>Tomado de: <a href="https://nibs.org/">https://nibs.org/</a></sub><br><br></div>
+<div align="center"><img src="graph/M01A02a.jpg" alt="R.DAPC" width="40%" border="0" /><sub><br>Tomado de: <a href="https://nibs.org/">https://nibs.org/</a></sub><br><br></div>
 
 
 ## Objetivos
@@ -502,7 +502,7 @@ El listado presentado en el numeral anterior, no incluye las siguientes sub-capa
 | 0-Sketch        | (genérica)  | Lineas constructivas               |    20     | ACAD_ISO02W100 (ISO dash)           |    Default     |
 | 0-Text          | (genérica)  | Textos descriptivos                |   cyan    | Continuous                          |      0.20      |
 
-1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_, guarde como _/file/cad/M01A01a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, ángulos en _grados_, precisiones en 2 decimales y unidades de escala de contenido insertado en _milímetros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
+1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_, guarde como _/file/cad/M01A02a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, ángulos en _grados_, precisiones en 2 decimales y unidades de escala de contenido insertado en _milímetros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
 
 > Dando clic derecho dentro del panel de capas, podrá acceder al menú contextual y encontrará múltiples opciones, entre ellas _New Layer_.
 
@@ -537,9 +537,9 @@ El listado presentado en el numeral anterior, no incluye las siguientes sub-capa
 <div align="center"><img src="graph/AutoCAD_DisplayBackgroundColor.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### Ejercicio M01A01aE01
+### Ejercicio M01A02aE01
 
-En el archivo _M01A01a.dwg_, cree las capas establecidas en el catálogo [DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName.xlsx) para el curso DACP. En las descripciones incluya el nombre de la disciplina un guion y la descripción, p. ej., _Arquitectura - Área_.
+En el archivo _M01A02a.dwg_, cree las capas establecidas en el catálogo [DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName.xlsx) para el curso DACP. En las descripciones incluya el nombre de la disciplina un guion y la descripción, p. ej., _Arquitectura - Área_.
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -550,9 +550,9 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A01a   | Investigue normas Colombianas para la definición de nombres de capas, incluya el detalle de los enlaces y referencias consultadas. Buscar p. ej., en [IDU](https://www.idu.gov.co/), https://www.invias.gov.co/, https://sociedadcolombianadearquitectos.org/, [COPNIA](https://www.copnia.gov.co/).                                                                                                                                                                                                                                                 | 
-| M01A01a   | Investigue que colores y grosores pueden ser aplicados en las disciplinas a utilizar en el curso y complete el catálogo [DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName.xlsx) para el curso DACP.                                                                                                                                                                                                                                                                                                                                        | 
-| M01A01a   | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M01A02a   | Investigue normas Colombianas para la definición de nombres de capas, incluya el detalle de los enlaces y referencias consultadas. Buscar p. ej., en [IDU](https://www.idu.gov.co/), https://www.invias.gov.co/, https://sociedadcolombianadearquitectos.org/, [COPNIA](https://www.copnia.gov.co/).                                                                                                                                                                                                                                                 | 
+| M01A02a   | Investigue que colores y grosores pueden ser aplicados en las disciplinas a utilizar en el curso y complete el catálogo [DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName.xlsx) para el curso DACP.                                                                                                                                                                                                                                                                                                                                        | 
+| M01A02a   | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
@@ -585,7 +585,7 @@ _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A01b/Readme.md) |
+| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A02b/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: 
