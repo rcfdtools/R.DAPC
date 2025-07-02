@@ -70,7 +70,7 @@ Para esta actividad, dibujaremos el bloque de símbolo eléctrico definido en el
 
 Cree el símbolo de riesgo eléctrico, utilizando las dimensiones proporcionales para h=200. Primero, cree líneas esquemáticas tomando como referencia un rectángulo de c+(e/2) = 102+16 = 118 horizontal por h = 200 de alto, luego trace líneas paralelas y las líneas diagonales. Al finalizar, con el comando **COPY** o **CP**, genere una copia de la figura principal y mueva a la capa cero (0), luego con el comando **HATCH**, genere un relleno sólido en la misma capa.
 
-<div align="center"><img src="graph/AutoCAD_RiesgoElectrico.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_RiesgoElectrico.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 2. 
 
@@ -120,6 +120,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/ACD/2026/ENU/
 * [Autodesk AutoCAD / Acerca de la definición de bloques](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-F81D7F1E-1F0A-45AD-AC7E-891A85A0033A)
 * [AutoCAD para todos / Bloques - Video 01: ¿Que es un bloque y cómo se crea?](https://www.youtube.com/watch?v=RcMRWfDKt4A)
+* https://www.bibliocad.com/search/?term=electrical
 
 
 ## Control de versiones
