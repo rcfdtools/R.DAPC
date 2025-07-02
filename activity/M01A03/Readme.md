@@ -79,22 +79,27 @@ Cree el símbolo de riesgo eléctrico, utilizando las dimensiones proporcionales
 
 2. Desde el _Command_, ejecute el comando **BLOCK** o desde el menú _Home / Block_, de clic en el botón de creación de bloques. Aparecerá la ventana _Block Definition_, defina como nombre _RETIE - Riesgo eléctrico_, defina como punto base el punto inferior del símbolo de riesgo eléctrico, seleccione los objetos que componen el símbolo que se encuentran en la capa cero (0) y defina las unidades de bloque en _Milimeters_.
 
-> En descripción puede agregar: Reglamento Técnico de Instalaciones Eléctricas (Resolución 40117 de 2024) - RETIE del Ministerio de Minas y Energía de Colombia.
+> En descripción puede agregar: _Reglamento Técnico de Instalaciones Eléctricas (Resolución 40117 de 2024) - RETIE del Ministerio de Minas y Energía de Colombia_.
 
 <div align="center"><img src="graph/AutoCAD_BlockDefinition.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Para insertar el bloque, en el menú _Home / Block / Insert_, seleccione el bloque creado y defina el punto de inserción en cualquier parte del dibujo.
+3. Para insertar el bloque, en el menú _Home / Block / Insert_, seleccione el bloque creado y defina el punto de inserción en cualquier parte del dibujo. Inserte varias veces el bloque en diferentes localizaciones, diferentes escalas y diferentes rotaciones.
+
+> En el _Command_ podrá observar que se puede cambiar el punto base, la escala, la rotación, explotar el bloque o repetir su inserción.
 
 <div align="center"><img src="graph/AutoCAD_BlockInsert.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 > Las diferentes instancias del bloque puede ser eliminadas y el bloque original permanecerá asociado internamente al archivo de AutoCAD.
 
-4. Con el comando **INSERT**, repita el procedimiento de inserción del bloque creado, arrastrando el elemento al dibujo.
+4. Con el comando **INSERT**, repita el procedimiento de inserción del bloque creado, arrastrando desde el panel el elemento al dibujo. En la ventana de inserción podrá establecer las opciones relacionadas con el bloque, tales como su punto de inserción, escala y demás.
 
+<div align="center"><img src="graph/AutoCAD_INSERT.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
+5. Para modificar el bloque creado, p. ej., cambiando el color del relleno por gris y el grosor de contorno por 0.3, seleccione uno de los bloques insertados y con el menú contextual (clic derecho), seleccione la opción _Block Editor_. Una vez terminada la edición, en el menú _Block Editor_ seleccione la opción _Close Block Edit_ que se encuentra a la derecha, una vez terminada la modificación podrá observar que todas las instancias del objeto han sido actualizadas.
 
+> Esta acción de modificación también puede ser realizada desde _Home / Block / Block Editor_.
 
-
+<div align="center"><img src="graph/AutoCAD_BlockEdit.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
 
