@@ -132,7 +132,7 @@ Cree los símbolos eléctricos del RETIE. Iniciemos con el símbolo de _Extintor
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoExtintorEquipoElectronico2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Repita este procedimiento para todos los demás símbolos del RETIE.
+Repita este procedimiento para todos los demás símbolos del RETIE, en total debe crear 48 símbolos. En el archivo de AutoCAD, incluya las líneas constructivas utilizadas para la creación de cada símbolo.
 
 
 ## 2. Creación de bloques dinámicos
