@@ -95,11 +95,15 @@ Cree el símbolo de riesgo eléctrico, utilizando las dimensiones proporcionales
 
 <div align="center"><img src="graph/AutoCAD_INSERT.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
-5. Para modificar el bloque creado, p. ej., cambiando el color del relleno por gris y el grosor de contorno por 0.3, seleccione uno de los bloques insertados y con el menú contextual (clic derecho), seleccione la opción _Block Editor_. Una vez terminada la edición, en el menú _Block Editor_ seleccione la opción _Close Block Edit_ que se encuentra a la derecha, una vez terminada la modificación podrá observar que todas las instancias del objeto han sido actualizadas.
+5. Para modificar el bloque creado, p. ej., cambiando el color del relleno por gris y el grosor de contorno por 0.3, seleccione uno de los bloques insertados y con el menú contextual (clic derecho), seleccione la opción _Block Editor_. Una vez terminada la edición, en el menú _Block Editor_, seleccione la opción _Close Block Edit_ que se encuentra a la derecha. 
 
 > Esta acción de modificación también puede ser realizada desde _Home / Block / Block Editor_.
 
 <div align="center"><img src="graph/AutoCAD_BlockEdit.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+Una vez terminada la modificación podrá observar que todas las instancias del objeto han sido actualizadas.
+
+<div align="center"><img src="graph/AutoCAD_BlockEdit1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
 
