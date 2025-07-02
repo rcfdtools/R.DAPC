@@ -13,6 +13,7 @@ Diseño de bloques. Achurados. Sombra. Figuras rellenas. Mosaico de vistas. Vist
 Al finalizar esta actividad, el estudiante:
 
 * Realiza ejercicios prácticos en los que crea, usa y fragmenta bloques de dibujo, usando achurados en AutoCAD.
+* Conoce los símbolos eléctricos del Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia. 
 * Crea mosaicos de vistas fijas y flotantes en el espacio modelo de CAD.
 * Aplica adecuadamente las escalas a los dibujos realizados en CAD.
 
@@ -55,15 +56,17 @@ Especificaciones
 * Crear los elementos que conforman el bloque en la capa cero (0).
 * Desde **UNITS**, definir la escala de creación, p. ej., en milímetros (luego al ser insertado el elemento se establece automáticamente el factor de conversión de escala a las unidades del dibujo principal, p. ej., si el bloque corresponde a una toma eléctrica de 14 x 8 milímetros, la escala de inserción en un dibujo arquitectónico dibujado en metros será de 1m / 1000mm = 0.001).
 
-Para esta actividad, dibujaremos los elementos eléctricos establecidos en el _Artículo 1.3.4. Símbolos eléctricos_ del Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia.
+Para esta actividad, dibujaremos el bloque de símbolo eléctrico definido en el numeral 1.3.3.2. Símbolo de riesgo eléctrico y los símbolos establecidos en el _Artículo 1.3.4. Símbolos eléctricos_ del Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia.
 
 > Son de obligatoria aplicación los símbolos gráficos contemplados en la Tabla 1.3.4.a del RETIE, tomados de las normas unificadas IEC 60617, ANSI Y32, CSA Z99 e IEEE 315, los cuales guardan mayor relación con la seguridad eléctrica. Cuando se requieran otros símbolos, se podrá acudir a los contemplados en las normas precitadas.
 
+<div align="center">Proporciones en las dimensiones del símbolo de riesgo eléctrico<br><img src="graph/RETIE_RiesgoElectrico.jpg" alt="R.DAPC" width="30%" border="0" /><sub><br>Tomado de: Artículo 1.3.3.2. Símbolo de riesgo eléctrico del Reglamento Técnico de Instalaciones Eléctricas - RETIE - Colombia</sub><br><br></div>
+<div align="center"><img src="graph/RETIE_RiesgoElectrico1.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 <div align="center"><img src="graph/RETIE_SimbolosElectricos.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 <div align="center"><img src="graph/RETIE_SimbolosElectricos1.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 <div align="center"><img src="graph/RETIE_SimbolosElectricos2.jpg" alt="R.DAPC" width="60%" border="0" /><sub><br>Tomado de: Artículo 1.3.4. Símbolos eléctricos del Reglamento Técnico de Instalaciones Eléctricas - RETIE - Colombia</sub><br><br></div>
 
-
+1. 
 
 
 
