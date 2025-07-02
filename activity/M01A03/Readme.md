@@ -48,8 +48,6 @@ Características de un bloque
 | Edición centralizada    | Si se modifica la definición de un bloque, todas las referencias a ese bloque se actualizan automáticamente.                         |
 
 > A los bloques insertados se les conoce como instancias del bloque original.
-> 
-> Para insertar bloques desde archivos externos se puede utilizar el **ADC** o Autodesk Design Center. 
 
 Especificaciones
 
@@ -105,6 +103,9 @@ Una vez terminada la modificación podrá observar que todas las instancias del 
 
 <div align="center"><img src="graph/AutoCAD_BlockEdit1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
+Para insertar bloques desde archivos externos se puede utilizar el comando **ADC** o Autodesk Design Center. 
+
+<div align="center"><img src="graph/AutoCAD_ADC.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
 ## 2. Creación de bloques dinámicos
