@@ -110,22 +110,29 @@ Para insertar bloques desde archivos externos se puede utilizar el comando **ADC
 
 ### Ejercicio M01A03E02
 
-Cree los símbolos de instalaciones eléctricas del RETIE. Iniciemos con el símbolo de _Extintor para equipo eléctrico_, como referencia, utilizaremos un extintor con capacidad de 20 libras, con un ancho de 7" x 23"de alto.
+Cree los símbolos eléctricos del RETIE. Iniciemos con el símbolo de _Extintor para equipo eléctrico_, como referencia, utilizaremos un extintor con capacidad de 20 libras, con un ancho de 7" x 23"de alto.
 
-<div align="center"><img src="graph/RETIE_SimbolosElectricosExtintorEquipoElectronico.jpg" alt="R.DAPC" width="10%" border="0" /></div>
+<div align="center"><img src="graph/RETIE_SimboloElectricoExtintorEquipoElectronico.jpg" alt="R.DAPC" width="15%" border="0" /></div>
 
-> De acuerdo a las normas de la [NFPA](https://www.nfpa.org/es/news-blogs-and-articles/blogs/2021/04/30/extinguisher-placement-guide), los extintores necesitan instalarse al menos a 4 pulgadas del suelo hasta un máximo de 5 pies. La excepción a esto es para los extintores que pesan más de 40 libras, solo pueden estar a un máximo de 3 pies y 6 pulgadas del suelo y los extintores de incendios con ruedas no necesitan estar separados del suelo, ya que las ruedas ya impiden que el cilindro toque el suelo.
+> De acuerdo a las normas de la [NFPA](https://www.nfpa.org/es/news-blogs-and-articles/blogs/2021/04/30/extinguisher-placement-guide), los extintores necesitan instalarse al menos a 4 pulgadas del suelo hasta un máximo de 5 pies. La excepción a esto es para los extintores que pesan más de 40 libras, solo pueden estar a un máximo de 3 pies y 6 pulgadas del suelo y los extintores de incendios con ruedas no necesitan estar separados del suelo, ya que las ruedas ya impiden que el cilindro toque el suelo. Tenga en cuenta estos valores para el proyecto de clase.
 
 1. En el mismo archivo [/file/cad/M01A03.dwg](../../file/cad/M01A03.dwg), cree el símbolo de extintor, tomando como referencia una circunferencia de 7" de diámetro (177.8 milímetros).
 
 > Recuerde que todos los elementos deben ser dibujados en la capa cero (0).
+> 
+> Dibuje los elementos usando proporciones o relaciones geométricas.
 
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoExtintorEquipoElectronico.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Cree el bloque con el comando **BLOCK**, seleccione solo los elementos que corresponden a la figura (sin líneas constructivas y sin textos)
 
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoExtintorEquipoElectronico1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Inserte y verifique el bloque.
 
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoExtintorEquipoElectronico2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-
+Repita este procedimiento para todos los demás símbolos del RETIE.
 
 
 ## 2. Creación de bloques dinámicos
