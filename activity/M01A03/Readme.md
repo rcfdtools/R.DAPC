@@ -67,7 +67,7 @@ Para esta actividad, dibujaremos el bloque de símbolo eléctrico definido en el
 
 ### Ejercicio M01A03E01
 
-Cree el símbolo de riesgo eléctrico, utilizando las dimensiones proporcionales para h=200.
+Cree el símbolo de riesgo eléctrico del RETIE, utilizando las dimensiones proporcionales para h=200.
 
 1. En AutoCAD, cree una copia del archivo [/file/cad/M01A02a.dwg](../../file/cad/M01A02a.dwg) que contiene los nombres de capas definidos para el curso DAPC, guarde como /file/cad/M01A03.dwg y verifique con _UNITS_ que las unidades de inserción son milímetros.
 
@@ -106,6 +106,26 @@ Una vez terminada la modificación podrá observar que todas las instancias del 
 Para insertar bloques desde archivos externos se puede utilizar el comando **ADC** o Autodesk Design Center. 
 
 <div align="center"><img src="graph/AutoCAD_ADC.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+
+### Ejercicio M01A03E02
+
+Cree los símbolos de instalaciones eléctricas del RETIE. Iniciemos con el símbolo de _Extintor para equipo eléctrico_, como referencia, utilizaremos un extintor con capacidad de 20 libras, con un ancho de 7" x 23"de alto.
+
+<div align="center"><img src="graph/RETIE_SimbolosElectricosExtintorEquipoElectronico.jpg" alt="R.DAPC" width="20%" border="0" /></div>
+
+> De acuerdo a las normas de la [NFPA](https://www.nfpa.org/es/news-blogs-and-articles/blogs/2021/04/30/extinguisher-placement-guide), los extintores necesitan instalarse al menos a 4 pulgadas del suelo hasta un máximo de 5 pies. La excepción a esto es para los extintores que pesan más de 40 libras, solo pueden estar a un máximo de 3 pies y 6 pulgadas del suelo y los extintores de incendios con ruedas no necesitan estar separados del suelo, ya que las ruedas ya impiden que el cilindro toque el suelo.
+
+1. En el mismo archivo [/file/cad/M01A03.dwg](../../file/cad/M01A03.dwg), cree el símbolo de extintor, tomando como referencia una circunferencia de 7" de diámetro (177.8 milímetros).
+
+> Recuerde que todos los elementos deben ser dibujados en la capa cero (0).
+
+
+
+
+
+
+
 
 
 ## 2. Creación de bloques dinámicos
