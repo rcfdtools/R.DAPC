@@ -32,22 +32,38 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 1. Creación de bloques
+## 1. Creación de bloques estáticos
 
 En AutoCAD, los bloques son objetos compuestos por uno o más objetos que se combinan para formar un solo objeto reutilizable. Son útiles para crear elementos repetitivos en un dibujo, como símbolos, piezas, vistas de detalle o cuadros de rotulación, permitiendo ahorrar tiempo y mantener la coherencia. 
 
 Características de un bloque
 
-* Agrupa objetos: los bloques permiten combinar múltiples objetos (líneas, círculos, texto, etc.) en un solo objeto, facilitando su manejo y edición.
-* Reutilización: una vez creado, un bloque se puede insertar varias veces en el mismo dibujo o en diferentes dibujos.
-* Ahorro de espacio: al reutilizar bloques en lugar de crear objetos individuales, se reduce el tamaño del archivo del dibujo.
-* Consistencia: los bloques garantizan que las copias de un mismo elemento sean idénticas, manteniendo la uniformidad en el diseño.
-* Edición centralizada: si se modifica la definición de un bloque, todas las referencias a ese bloque se actualizan automáticamente. 
+| Característica          | Alcance                                                                                                                              |
+|:------------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
+| Agrupa objetos          | Los bloques permiten combinar múltiples objetos (líneas, círculos, texto, etc.) en un solo objeto, facilitando su manejo y edición.  |
+| Reutilización           | Una vez creado, un bloque se puede insertar varias veces en el mismo dibujo o en diferentes dibujos.                                 |
+| Ahorro de espacio       | Al reutilizar bloques en lugar de crear objetos individuales, se reduce el tamaño del archivo del dibujo.                            |
+| Consistencia            | Los bloques garantizan que las copias de un mismo elemento sean idénticas, manteniendo la uniformidad en el diseño.                  |
+| Edición centralizada    | Si se modifica la definición de un bloque, todas las referencias a ese bloque se actualizan automáticamente.                         |
+
 
 Especificaciones
 
 * Crear los elementos que conforman el bloque en la capa cero (0).
 * Definir la escala de creación en milímetros (luego al ser insertado el elemento se establece el factor de conversión de escala a las unidades del dibujo principal, p. ej., si el bloque corresponde a una toma eléctrica de 14 x 8 milímetros, la escala de inserción en un dibujo arquitectónico dibujado en metros será de 1m / 1000mm = 0.001.)
+
+
+
+
+
+## 2. Creación de bloques dinámicos
+
+
+
+
+
+
+
 
 
 
