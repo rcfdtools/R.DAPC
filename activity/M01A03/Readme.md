@@ -46,11 +46,27 @@ Características de un bloque
 | Consistencia            | Los bloques garantizan que las copias de un mismo elemento sean idénticas, manteniendo la uniformidad en el diseño.                  |
 | Edición centralizada    | Si se modifica la definición de un bloque, todas las referencias a ese bloque se actualizan automáticamente.                         |
 
+> A los bloques insertados se les conoce como instancias del bloque original.
+> 
+> Para insertar bloques desde archivos externos se puede utilizar el **ADC** o Autodesk Design Center. 
 
 Especificaciones
 
 * Crear los elementos que conforman el bloque en la capa cero (0).
-* Definir la escala de creación en milímetros (luego al ser insertado el elemento se establece el factor de conversión de escala a las unidades del dibujo principal, p. ej., si el bloque corresponde a una toma eléctrica de 14 x 8 milímetros, la escala de inserción en un dibujo arquitectónico dibujado en metros será de 1m / 1000mm = 0.001.)
+* Desde **UNITS**, definir la escala de creación, p. ej., en milímetros (luego al ser insertado el elemento se establece automáticamente el factor de conversión de escala a las unidades del dibujo principal, p. ej., si el bloque corresponde a una toma eléctrica de 14 x 8 milímetros, la escala de inserción en un dibujo arquitectónico dibujado en metros será de 1m / 1000mm = 0.001.)
+
+Para esta actividad, dibujaremos los elementos eléctricos establecidos en el _Artículo 1.3.4. Símbolos eléctricos_ del Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia.
+
+> Son de obligatoria aplicación los símbolos gráficos contemplados en la Tabla 1.3.4.a del RETIE, tomados de las normas unificadas IEC 60617, ANSI Y32, CSA Z99 e IEEE 315, los cuales guardan mayor relación con la seguridad eléctrica. Cuando se requieran otros símbolos, se podrá acudir a los contemplados en las normas precitadas.
+
+<div align="center"><img src="graph/RETIE_SimbolosElectricos.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/RETIE_SimbolosElectricos1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/RETIE_SimbolosElectricos2.jpg" alt="R.DAPC" width="80%" border="0" /><sub><br>Tomado de: Artículo 1.3.4. Símbolos eléctricos_ del Reglamento Técnico de Instalaciones Eléctricas - RETIE - Colombia</sub><br><br></div>
+
+
+
+
+
 
 
 
@@ -91,6 +107,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
 * [Autodesk AutoCAD / Acerca de la definición de bloques](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-F81D7F1E-1F0A-45AD-AC7E-891A85A0033A)
+* [AutoCAD para todos / Bloques - Video 01: ¿Que es un bloque y cómo se crea?](https://www.youtube.com/watch?v=RcMRWfDKt4A)
 
 
 ## Control de versiones
