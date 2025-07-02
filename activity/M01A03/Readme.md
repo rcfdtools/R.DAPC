@@ -53,7 +53,7 @@ Características de un bloque
 Especificaciones
 
 * Crear los elementos que conforman el bloque en la capa cero (0).
-* Desde **UNITS**, definir la escala de creación, p. ej., en milímetros (luego al ser insertado el elemento se establece automáticamente el factor de conversión de escala a las unidades del dibujo principal, p. ej., si el bloque corresponde a una toma eléctrica de 14 x 8 milímetros, la escala de inserción en un dibujo arquitectónico dibujado en metros será de 1m / 1000mm = 0.001.)
+* Desde **UNITS**, definir la escala de creación, p. ej., en milímetros (luego al ser insertado el elemento se establece automáticamente el factor de conversión de escala a las unidades del dibujo principal, p. ej., si el bloque corresponde a una toma eléctrica de 14 x 8 milímetros, la escala de inserción en un dibujo arquitectónico dibujado en metros será de 1m / 1000mm = 0.001).
 
 Para esta actividad, dibujaremos los elementos eléctricos establecidos en el _Artículo 1.3.4. Símbolos eléctricos_ del Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia.
 
