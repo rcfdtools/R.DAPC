@@ -38,6 +38,41 @@ Las herramientas computacionales abarcan una amplia gama de aplicaciones en dive
 
 En resumen, las herramientas computacionales son elementos clave para la productividad, la innovación, el trabajo con enfoque colaborativo y la eficiencia en una amplia gama de aplicaciones profesionales. 
 
+CAD, en el contexto de diseño y tecnología, significa Diseño Asistido por Computadora (Computer-Aided Design, por sus siglas en inglés). Es una tecnología que utiliza software para crear, modificar, analizar u optimizar un diseño. Se utiliza ampliamente en ingeniería, arquitectura, diseño de productos y muchas otras disciplinas que requieren diseño técnico y visualización precisa. 
+
+Existen software CAD 2D y 3D, cada uno con sus propias características y aplicaciones, CAD es una tecnología que ha revolucionado el proceso de diseño al permitir a los profesionales crear, analizar y modificar diseños de manera más eficiente y precisa, utilizando herramientas digitales. 
+
+Hay muchas herramientas CAD disponibles, tanto gratuitas como de pago, para diferentes propósitos y niveles de experiencia. Algunas de las más populares son:
+
+| Herramienta CAD                                 | Descripción                                                                                                                                                                                                                                                                                                                                           |
+|:------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [AutoCAD](www.autodesk.com/products/autocad)    | Un estándar de la industria para diseño 2D y 3D, utilizado en arquitectura, ingeniería y construcción.                                                                                                                                                                                                                                                |
+| AutoCAD LT                                      | Una versión más ligera de AutoCAD para dibujo 2D.                                                                                                                                                                                                                                                                                                     |
+| SolidWorks                                      | Un software de modelado 3D paramétrico ampliamente utilizado en ingeniería mecánica                                                                                                                                                                                                                                                                   |
+| Fusion 360                                      | Una plataforma CAD/CAM basada en la nube con capacidades de modelado 3D, simulación y fabricación.                                                                                                                                                                                                                                                    |
+| FreeCAD                                         | Un software CAD 3D de código abierto y gratuito, adecuado para modelado paramétrico y diseño mecánico.                                                                                                                                                                                                                                                |
+| TinkerCAD                                       | Una herramienta CAD online gratuita, ideal para principiantes y proyectos sencillos.                                                                                                                                                                                                                                                                  |
+| LibreCAD                                        | Un software CAD 2D de código abierto y gratuito, similar a AutoCAD LT.                                                                                                                                                                                                                                                                                |
+| Blender                                         | Un software gratuito para modelado 3D, animación y renderizado, utilizado en diversas industrias.                                                                                                                                                                                                                                                     |
+| Creo                                            | Un software CAD/CAM de alta gama con funciones avanzadas de modelado, simulación y diseño generativo.                                                                                                                                                                                                                                                 |
+| Onshape                                         | Un software CAD 3D basado en la nube, con enfoque en la colaboración en tiempo real.                                                                                                                                                                                                                                                                  |
+| ArchiCAD                                        | Archicad es un software de Modelado de Información de Construcción (BIM, por sus siglas en inglés) desarrollado por Graphisoft para arquitectos y profesionales de la construcción. Permite crear modelos 3D detallados de edificios, generar planos y documentación automáticamente, y facilita la colaboración entre diferentes equipos de trabajo. |
+| QCAD                                            | QCAD es un software de diseño asistido por computadora (CAD) 2D de código abierto. Se utiliza para crear dibujos técnicos como planos de edificios, interiores, piezas mecánicas o diagramas. Es gratuito y funciona en sistemas operativos como Windows, macOS y Linux.                                                                              |
+
+Consideraciones al elegir una herramienta CAD:
+
+| Consideración            | Alcance                                                                           |
+|:-------------------------|:----------------------------------------------------------------------------------|
+| Necesidades del proyecto | ¿Es un proyecto 2D o 3D? ¿Qué nivel de complejidad requiere?                      |
+| Experiencia del usuario  | ¿Es principiante o usuario avanzado?                                              |
+| Presupuesto              | ¿Herramientas gratuitas o de pago?                                                |
+| Plataforma               | ¿Windows, MacOS, Linux o navegador?                                               |
+| Formato de archivo       | ¿Qué formatos de archivo necesita para importar o exportar?                       |
+| Trabajo colaborativo     | Repositorios integrados de datos fuentes, tales como bloques y objetos de dibujo. |
+| Integración BIM          | Modelado de información para construcción de proyectos que requieren diseños CAD. |
+
+> Para el desarrollo del curso DAPC, utilizaremos la herramienta AutoCAD.
+
 
 ### ¿Qué es AutoCAD?
 
