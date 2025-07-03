@@ -147,7 +147,7 @@ Repita este procedimiento para todos los demás símbolos del RETIE, en total de
 En AutoCAD, los bloques dinámicos son bloques que pueden cambiar su forma, tamaño o configuración al insertarse en un dibujo, en lugar de requerir múltiples definiciones de bloque estáticas. Permiten ajustar propiedades como la visibilidad, el estiramiento, la rotación, el desplazamiento y la escala. Los bloques dinámicos ofrecen una mayor flexibilidad que los bloques estáticos, ya que un solo bloque puede adaptarse a diferentes necesidades sin necesidad de crear múltiples versiones.
 
 
-### 2.1. Para símbolos eléctricos
+### 2.1. Para símbolos eléctricos simple
 
 
 Por ejemplo, los símbolos eléctricos del RETIE, al ser insertados dentro de un dibujo de planta arquitectónica, deben ser ajustados a la orientación de los muros.
@@ -182,13 +182,32 @@ C
 
 <div align="center"><img src="graph/AutoCAD_WallHatch.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> Tenga en cuenta que el muro de ejemplo no contiene unidades reales de dibujo y que solo es una representación esquemática para este ejemplo.
+> Tenga en cuenta que el muro no contiene unidades reales de dibujo y que solo es una representación esquemática para este ejemplo.
 
 4. Inserte el bloque _RETIE - Extintor para equipo eléctrico_ en diferentes localizaciones del muro, podrá observar que se alinea dinámicamente a sus lados e incluso en los costados angulados.
 
 <div align="center"><img src="graph/AutoCAD_INSERT1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Creemos ahorra una 
+
+### 2.2. Para símbolos eléctricos escalable
+
+Creemos ahorra un bloque dinámico para el tablero de distribución eléctrica definido en el RETIE, este símbolo debe ser dinámicamente alineado y alargado.
+
+<div align="center"><img src="graph/RETIE_SimboloElectricoTableroDistribucion.jpg" alt="R.DAPC" width="15%" border="0" /></div>
+
+> Las dimensiones de un tablero de distribución eléctrica varían significativamente dependiendo de su capacidad y aplicación, pero generalmente se miden en altura, ancho y profundidad. Los tableros más comunes para uso residencial pueden tener dimensiones desde 225mm x 256mm x 98mm (para 8 polos) hasta 340mm x 590mm x 90mm (para 36 polos). Los tableros más grandes, como los trifásicos, pueden alcanzar dimensiones de 280mm x 885mm. (Dimensiones expresadas en largo x alto x ancho). [^1]
+
+1. Creemos el elemento en estático en AutoCAD de 225x98mm.
+
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Cree el bloque
+
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. 
+
+
 
 
 ### 2.2. Para elementos arquitectónicos
@@ -248,4 +267,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
-[^1]: 
+[^1]: https://www.promelsa.com.pe/1035359-tablero-p-empotrar-de-resina-8-din-225x256x98mm-con-puerta.html
