@@ -3,9 +3,7 @@ Keywords: `realigment`  `m01a00`
 
 Diseño de bloques. Achurados. Sombra. Figuras rellenas. Mosaico de vistas. Vistas fijas - espacio modelo. Vistas flotantes - espacio papel. Comandos BLOCK, HATCH, SOLIDS, VPORTS, MVIEW, PSPACE, VPLAYER.
 
-<div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
-
-<div align="center"><img src="graph/Gravity_anomalies_on_Earth.jpg" alt="R.DAPC" width="60%" border="0" /><sub><br>Tomado de: <a href="Public Domain, https://commons.wikimedia.org/w/index.php?curid=479365">https://commons.wikimedia.org</a></sub><br><br></div>
+<div align="center"><img src="graph/M01A03.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 ## Objetivos
