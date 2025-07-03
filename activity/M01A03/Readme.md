@@ -182,6 +182,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [AutoCAD para todos / Bloques - Video 01: ¿Que es un bloque y cómo se crea?](https://www.youtube.com/watch?v=RcMRWfDKt4A)
 * [AutoCAD para todos / Bloques - Video 02: ¿Cómo se actualiza un bloque y cuáles son las opciones de inserción??](https://www.youtube.com/watch?v=qym57qO8UFo)
 * [AutoCAD para todos / Bloques - Video 03: Design Center, Bloques Dinámicos](https://www.youtube.com/watch?v=ejZ-1E6y6CA)
+* [AutoCAD para todos / Bloques - Video 04: Crea Bloques Dinámicos aplicando la acción de Estiramiento](https://www.youtube.com/watch?v=JPEQ1kEyMY4)
 * [Martín Cipoletta / Resetear y reemplazar bloques dinámicos por otros en AutoCAD](https://www.youtube.com/watch?v=4MXMLEwI6qw)
 
 
