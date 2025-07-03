@@ -51,7 +51,7 @@ Características de un bloque
 Especificaciones
 
 * Crear los elementos que conforman el bloque en la capa cero (0).
-* Desde **UNITS**, definir la escala de creación, p. ej., en milímetros (luego al ser insertado el elemento se establece automáticamente el factor de conversión de escala a las unidades del dibujo principal, p. ej., si el bloque corresponde a una toma eléctrica de 14 x 8 milímetros, la escala de inserción en un dibujo arquitectónico dibujado en metros será de 1m / 1000mm = 0.001).
+* Desde **UNITS**, definir la escala de creación, p. ej., en milímetros (luego al ser insertado el elemento se establece automáticamente el factor de conversión de escala a las unidades del dibujo principal, p. ej., si el bloque corresponde a una toma eléctrica de 14 x 8 milímetros, la escala automática de inserción en un dibujo arquitectónico dibujado en metros será de 1m / 1000mm = 0.001).
 
 Para esta actividad, dibujaremos el bloque de símbolo eléctrico definido en el numeral 1.3.3.2. Símbolo de riesgo eléctrico y los símbolos establecidos en el _Artículo 1.3.4. Símbolos eléctricos_ del Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia.
 
@@ -100,7 +100,9 @@ Cree el símbolo de riesgo eléctrico del RETIE, utilizando las dimensiones prop
 > 
 > Desde el _Block Editor_ podrá cambiar la posición de anclaje del bloque, y modificar las propiedades generales utilizadas en su creación. Dentro del editor y sin seleccionar ninguna entidad, ejecute el comando **PR** que le permitirá acceder a las propiedades detalladas del bloque.
 > 
-> Si requiere ajustar o renombrar el bloque creado, Utilice el comando **RENAME** 
+> Si requiere ajustar o renombrar el bloque creado, Utilice el comando **RENAME**.
+> 
+> Utilice el comando **EXPLODE** para descomponer un bloque en los elementos de dibujo que lo componen. Luego de su descomposición, los elementos no serán más una instancia del bloque principal, sino simplemente elementos del dibujo.
 
 <div align="center"><img src="graph/AutoCAD_BlockEdit.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
@@ -139,7 +141,11 @@ Cree los símbolos eléctricos del RETIE. Iniciemos con el símbolo de _Extintor
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoExtintorEquipoElectronico2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Repita este procedimiento para todos los demás símbolos del RETIE, en total debe crear 48 símbolos. En el archivo de AutoCAD, incluya las líneas constructivas utilizadas para la creación de cada símbolo.
+> Repita este procedimiento para todos los demás símbolos del RETIE, en total debe crear 48 símbolos. En el archivo de AutoCAD, incluya las líneas constructivas utilizadas para la creación de cada símbolo.
+
+4. Para practicar los conceptos de escala de inserción de bloques, cree un archivo nuevo de AutoCAD, defina unidades de inserción en metros y con el comando **ADC**, incorpore el bloque creado y verifique sus dimensiones en metros.
+
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoExtintorEquipoElectronico3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## 2. Creación de bloques dinámicos
