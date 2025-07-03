@@ -143,7 +143,7 @@ Cree los símbolos eléctricos del RETIE. Iniciemos con el símbolo de _Extintor
 
 > Repita este procedimiento para todos los demás símbolos del RETIE, en total debe crear 48 símbolos. En el archivo de AutoCAD, incluya las líneas constructivas utilizadas para la creación de cada símbolo.
 
-4. Para practicar los conceptos de escala de inserción de bloques, cree un archivo nuevo de AutoCAD, defina unidades de inserción en metros y con el comando **ADC**, incorpore el bloque creado y verifique sus dimensiones en metros.
+4. Para practicar los conceptos de escala de inserción de bloques, cree un archivo nuevo de AutoCAD, defina unidades de inserción en metros y con el comando **ADC**, incorpore el bloque creado y verifique sus dimensiones en metros, observará que el objeto tiene un tamaño de 0.154 metros y que ha sido escalado correctamente.
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoExtintorEquipoElectronico3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
