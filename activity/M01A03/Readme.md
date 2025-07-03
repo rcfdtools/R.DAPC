@@ -12,7 +12,8 @@ Diseño de bloques. Achurados. Sombra. Figuras rellenas. Mosaico de vistas. Vist
 
 Al finalizar esta actividad, el estudiante:
 
-* Realiza ejercicios prácticos en los que crea, usa y fragmenta bloques de dibujo, usando achurados en AutoCAD.
+* Realiza ejercicios prácticos en los que crea, usa y fragmenta bloques de dibujo.
+* Crea dibujos con achurados.
 * Conoce los símbolos eléctricos del Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia. 
 * Crea mosaicos de vistas fijas y flotantes en el espacio modelo de CAD.
 * Aplica adecuadamente las escalas a los dibujos realizados en CAD.
@@ -107,11 +108,11 @@ Una vez terminada la modificación podrá observar que todas las instancias del 
 
 <div align="center"><img src="graph/AutoCAD_BlockEdit1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
-Para insertar bloques desde archivos externos o los bloques de ejemplo o Sample Blocks de AutoCAD, se puede utilizar el comando **ADC** o Autodesk Design Center. 
+Para insertar bloques desde archivos externos o los bloques de ejemplo o _Sample Blocks_ de AutoCAD, se puede utilizar el comando **ADC** o Autodesk Design Center. 
 
 <div align="center"><img src="graph/AutoCAD_ADC.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
-> Utilice el comando PURGE para eliminar un bloque creado. Solo podrá ser eliminado si dentro del dibujo no existe ninguna instancia del bloque a ser eliminado.
+> Utilice el comando **PURGE** para eliminar un bloque creado. Solo podrá ser eliminado si dentro del dibujo no existe ninguna instancia del bloque a ser eliminado. En caso de que tenga múltiples instancias del mismo bloque, podrá desde cualquier espacio blanco del espacio de dibujo, dar clic en la opción _Quick Select_ del menú contextual y buscar todos los bloques insertados.
 
 
 ### Ejercicio M01A03E02
@@ -141,9 +142,46 @@ Cree los símbolos eléctricos del RETIE. Iniciemos con el símbolo de _Extintor
 Repita este procedimiento para todos los demás símbolos del RETIE, en total debe crear 48 símbolos. En el archivo de AutoCAD, incluya las líneas constructivas utilizadas para la creación de cada símbolo.
 
 
-
-
 ## 2. Creación de bloques dinámicos
+
+En AutoCAD, los bloques dinámicos son bloques que pueden cambiar su forma, tamaño o configuración al insertarse en un dibujo, en lugar de requerir múltiples definiciones de bloque estáticas. Permiten ajustar propiedades como la visibilidad, el estiramiento, la rotación, el desplazamiento y la escala. Los bloques dinámicos ofrecen una mayor flexibilidad que los bloques estáticos, ya que un solo bloque puede adaptarse a diferentes necesidades sin necesidad de crear múltiples versiones.
+
+Por ejemplo, los símbolos eléctricos del RETIE, al ser insertados dentro de un dibujo de planta arquitectónica, deben ser ajustados a la orientación de los muros.
+
+1. Para definir esta acción dinámica en AutoCAD, seleccione el bloque _RETIE - Extintor para equipo eléctrico_ y en el menú contextual seleccione la opción _Block Editor_. Dentro del editor, seleccione el parámetro _Alignment_.
+
+<div align="center"><img src="graph/AutoCAD_BlockEdit2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. En la barra de comandos, se solicita la definición del punto base que será utilizado para la alineación, utilice el punto central inferior del triángulo que se definió previamente como punto de inserción, luego se solicita la dirección de alineación que para este símbolo eléctrico, corresponderá a la esquina inferior izquierda del triángulo. Lo anterior debido a que la alineación del símbolo, deberá ser realizada dinámicamente hacia afuera del muro arquitectónico. Al terminar, se muestra en color azul un apuntador de alineamiento hacia abajo, que al ser seleccionado mostrará el punto de referencia de inserción y la línea base de alineación.
+
+<div align="center"><img src="graph/AutoCAD_BlockEdit3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Para finalizar la edición del bloque dinámico, de clic en la opción _Close Block Editor_, localizada arriba a la derecha en la cinta de opciones de _Block Editor_. Una vez guardado, retornará al espacio de dibujo de AutoCAD, seleccione el bloque, podrá observar que ahora aparece la propiedad de alineación.
+
+> El parámetro de alineación no requiere de la definición complementaria de acciones.
+
+3. Para verificar el funcionamiento del bloque dinámico, con la siguiente secuencia de comandos y en la capa _0-Object_, cree un muro. Con las opciones de achurado o **HATCH**, rellene la parte interna del muro usando el patron _AR-CONC_ a escala 0.3.
+
+```
+PLINE
+1462.132,512.132
+1250,300
+1250,0
+1300,0
+1300,279.289
+1482.843,462.132
+1762.132,462.132
+1762.132,512.132
+C
+
+```
+
+<div align="center"><img src="graph/AutoCAD_WallHatch.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. 
+
+
+<div align="center"><img src="graph/AutoCAD_BlockEdit3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
