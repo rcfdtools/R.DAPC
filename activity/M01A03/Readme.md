@@ -178,10 +178,11 @@ C
 
 <div align="center"><img src="graph/AutoCAD_WallHatch.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-4. 
+> Tenga en cuenta que el muro de ejemplo no contiene unidades reales de dibujo y que solo es una representación esquemática para este ejemplo.
 
+4. Inserte el bloque _RETIE - Extintor para equipo eléctrico_ en diferentes localizaciones del muro, podrá observar que se alinea dinámicamente a los lados de los muros e incluso en muros angulados.
 
-<div align="center"><img src="graph/AutoCAD_BlockEdit3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_INSERT1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
