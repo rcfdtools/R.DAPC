@@ -191,21 +191,51 @@ C
 
 ### 2.2. Para símbolo eléctrico extensible
 
-Creemos ahorra un bloque dinámico para el tablero de distribución eléctrica definido en el RETIE, este símbolo debe ser dinámicamente alineado y alargado.
+Creemos ahorra un bloque dinámico para el tablero de distribución eléctrica definido en el RETIE, este símbolo debe ser dinámicamente alineado,  alargado y ensanchado.
 
 <div align="center"><img src="graph/RETIE_SimboloElectricoTableroDistribucion.jpg" alt="R.DAPC" width="15%" border="0" /></div>
 
 > Las dimensiones de un tablero de distribución eléctrica varían significativamente dependiendo de su capacidad y aplicación, pero generalmente se miden en altura, ancho y profundidad. Los tableros más comunes para uso residencial pueden tener dimensiones desde 225mm x 256mm x 98mm (para 8 polos) hasta 340mm x 590mm x 90mm (para 36 polos). Los tableros más grandes, como los trifásicos, pueden alcanzar dimensiones de 280mm x 885mm. (Dimensiones expresadas en largo x alto x ancho). [^1]
 
-1. Creemos el elemento en estático en AutoCAD de 225x98mm.
+1. Creemos el elemento estático en AutoCAD de 225x98mm.
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Cree el bloque
+2. Cree el bloque estático definiendo como punto central el punto medio inferior y en milímetros.
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. 
+3. Ingrese al editor de bloque o _Block Edit_ y asigne el parámetro _Aligment_ tal como lo realizamos en el símbolo eléctrico anaterior.
+
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Ahora asigne el parámetro _Linear_ asignando primero la esquina inferior izquierda y luego la inferior derecha para definir su distancia (Distance1). 
+
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. Seleccione el parámetro y con el comando **PR** o **PROPERTIES**, cambie el nombre a _Largo_.
+
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. En el panel de edición de bloques, defina en _Actions_ la acción de estiramiento o _Stretch_, seleccione el parámetro _Largo_ y defina el punto asociado a la acción de estiramiento (equis de color rojo) correspondiente a la esquina inferior derecha del bloque.
+
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+7. Ahora el _Command_ solicita se cree un marco de estiramiento, que para el caso del tablero, corresponderá solo al lado derecho del bloque y luego solicitará se seleccionen los objetos a estirar dentro del marco seleccionado. Presione <kbd>enter</kbd> para finalizar la creación de esta acción.
+
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+8. En la parte inferior derecha del bloque, aparecerá ahora un ícono con la acción de estiramiento.
+
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+9. Cierre el editor de bloques y guarde los cambios. Inserte el bloque, selecciónelo y compruebe su funcionamiento estirando y alineando a una copia del muro creado.
+
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion8.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+10. 
+
+
 
 
 

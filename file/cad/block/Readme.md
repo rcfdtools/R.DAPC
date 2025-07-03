@@ -7,3 +7,4 @@
 * [BloquesElectricosMexico.dwg / Bloques de símbolos eléctricos](https://www.bibliocad.com/es/biblioteca/archivo-simbologia-electrica-basica_247216/)
 * [BloquesElectricosBolivia.dwg / Bloques de símbolos eléctricos](https://www.bibliocad.com/es/biblioteca/simbologia-de-instalaciones-electricas_131039/)
 * [MotorElectricoWeg20HP.dwg](https://www.bibliocad.com/es/biblioteca/motores-electricos-de-diseno-facil_130618/)
+* [ElectricalSymbol](https://www.bibliocad.com/es/biblioteca/electrical-symbols-legend-abbreviations_125275/)
