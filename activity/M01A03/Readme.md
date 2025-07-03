@@ -301,7 +301,7 @@ En AutoCAD, los model viewports (o ventanas gráficas en mosaico del modelo), so
 
 Para restablecer a una única ventana de modelado, en **VPORTS** seleccione _Single_.
 
-<div align="center"><img src="graph/AutoCAD_ModelViewports2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_ModelViewports2.jpg" alt="R.DAPC" width="70%" border="0" /></div>
 
 
 ### 3.2. Layout Viewports
@@ -318,9 +318,9 @@ En AutoCAD, un layout viewport (o ventana gráfica de impresión), es un área r
 
 El comando **PSPACE**, le permitirá alternar entre el espacio de modelado dentro una ventana gráfica de impresión al espacio de papel. Esta misma acción puede ser realizada dando doble clic dentro de la ventana o en el espacio de papel.
 
-3. Modifique manualmente el tamaño del rectángulo de vista del espacio de modelado en la mitad izquierda del espacio de papel.
+3. Modifique manualmente el tamaño del rectángulo de vista del espacio de modelado a la cuarta parte del espacio de papel.
 
-
+<div align="center"><img src="graph/AutoCAD_LayoutViewports2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
