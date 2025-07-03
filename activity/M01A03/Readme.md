@@ -229,24 +229,49 @@ Creemos ahorra un bloque dinámico para el tablero de distribución eléctrica d
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-9. Cierre el editor de bloques y guarde los cambios. Inserte el bloque, selecciónelo y compruebe su funcionamiento estirando y alineando a una copia del muro creado.
+9. Cierre el editor de bloques y guarde los cambios. Inserte el bloque, selecciónelo y compruebe su funcionamiento estirando y alineando sobre una copia del muro creado anteriormente.
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion8.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-10. 
+> Utilice el comando **RESETBLOCK** para restablecer una instancia del bloque insertado a su forma original.
 
+10. Repita el procedimiento de estiramiento para el sentido vertical del bloque o su ancho y verifique su funcionamiento.
 
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion9.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion10.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+11. Como observó en las pruebas de funcionamiento, el bloque puede ser estirado y alargado utilizando cualquier dimensión, sin embargo, las dimensiones específicas de largo y ancho de los tableros eléctricos disponibles en el mercado Colombiano, pueden ser definidos en las propiedades de largo y ancho establecidas, p. ej., para los largos podemos definir longitudes fijas de 225, 280 o 340 milímetros. Para ello, ingrese al editor de bloques, seleccione la propiedad _Largo_ y en las propiedades (comando PR), defina en el grupo _Value Set_ la lista de valores o largos que puede adoptar el bloque. Podrá observar que a la derecha se muestran 3 líneas indicando los diferentes anchos.
 
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion11.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Cierre el editor de bloque guardando los cambios e inserte y pruebe su funcionamiento.
+
+<div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion12.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ### 2.3. Para elementos arquitectónicos
 
-Los
+Los elementos arquitectónicos requieren el uso de múltiples ajustes, p, ej., una puerta puede tener diferentes anchos estándar, la hoja puede estar abierta, cerrada o en un ángulo específico y la orientación para su apertura puede ser izquierda o derecha.
 
+1. Para explorar el funcionamiento de estos bloques, en AutoCAD, ingrese el comando **ADC** que le permitirá acceder al centro de diseño o Autodesk Design Center y de clic en el botón _Home_ que lo redirigirá a la carpeta de ejemplos. 
 
+<div align="center"><img src="graph/AutoCAD_ADC1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. En el _Home_, ingrese a la carpeta _en-us / Dynamic Blocks / Architectural - Metric.dwg_ y seleccione _Blocks_. Arrastre al dibujo el bloque _Door - Metric_ y selecciónelo, podrá observar que contiene múltiples propiedades y acciones.
 
+> En el ADC, los bloques dinámicos son fácilmente identificables debido a que en la parte inferior derecha de su previsualización, aparece un rayo.
+
+<div align="center"><img src="graph/AutoCAD_ADCSampleDynamicDoor.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Cierre el ADC y explore las acciones disponibles, p. ej., la apertura de la puerta para diferentes ángulos.
+
+<div align="center"><img src="graph/AutoCAD_ADCSampleDynamicDoor1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Revisemos la configuración de esta propiedad y sus acciones.
+
+<div align="center"><img src="graph/AutoCAD_ADCSampleDynamicDoor2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Explore las demás acciones disponibles para este bloque, inserte otros bloques dinámicos y compruebe su funcionamiento.
 
 
 
