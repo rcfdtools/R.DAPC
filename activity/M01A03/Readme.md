@@ -1,7 +1,7 @@
 # 1.3. Bloques - Achurados- Viewports
 Keywords: `realigment`  `m01a00`
 
-Diseño de bloques. Achurados. Sombra. Figuras rellenas. Mosaico de vistas. Vistas fijas - espacio modelo. Vistas flotantes - espacio papel. Comandos BLOCK, HATCH, SOLIDS, VPORTS, MVIEW, PSPACE, VPLAYER.
+Diseño de bloques. Achurados y/o sombras. Figuras rellenas. Mosaico de vistas. Vistas fijas - espacio modelo. Vistas flotantes - espacio papel. Comandos: BLOCK, HATCH, SOLIDS, VPORTS, MVIEW, PSPACE, VPLAYER.
 
 <div align="center"><img src="graph/M01A03.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
@@ -280,6 +280,51 @@ Los elementos arquitectónicos requieren el uso de múltiples ajustes, p, ej., u
 <div align="center"><img src="graph/AutoCAD_ADCSampleDynamicDoor2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 Explore las demás acciones disponibles para este bloque, inserte otros bloques dinámicos y compruebe su funcionamiento.
+
+
+## 3. Vistas de mosaico y vistas flotantes
+
+
+### 3.1. Model Viewports
+
+En AutoCAD, los model viewports (o ventanas gráficas en mosaico del modelo), son áreas dentro del espacio modelo que permiten visualizar diferentes vistas de un mismo dibujo o modelo. Estas ventanas se pueden configurar para mostrar vistas en diferentes escalas o desde distintas perspectivas, lo que facilita la navegación y manipulación de diseños complejos.
+
+1. En el menú _View_, seleccione en el grupo _Model Viewports_ de la cinta de opciones, la opción _Viewport Configuration_ y establezca una vista de 3 ventanas con principal a la izquierda. Esta misma acción puede ser ejecutada desde el _Command_, con el comando **VPORTS**.
+
+> Como observa, existen múltiples disposiciones de la vista de mosaicos y su utilización depende de los elementos contenidos en su dibujo.
+
+<div align="center"><img src="graph/AutoCAD_ModelViewports.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Dentro de cada ventana, establezca la visualización de los elementos realizados en esta actividad.
+
+<div align="center"><img src="graph/AutoCAD_ModelViewports1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Para restablecer a una única ventana de modelado, en **VPORTS** seleccione _Single_.
+
+<div align="center"><img src="graph/AutoCAD_ModelViewports2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+### 3.2. Layout Viewports
+
+En AutoCAD, un layout viewport (o ventana gráfica de impresión), es un área rectangular en el layout (papel) que muestra una vista del model space (espacio modelo). Permite visualizar diferentes partes del dibujo a diferentes escalas y orientaciones, como si fueran ventanas a una vista ampliada del modelo. 
+
+1. Por defecto, AutoCAD incluye el Layout1 y Layout2, o vistas de impresión que contienen una ventana al espacio de modelado. Para alternar de la vista de modelado a una de las vistas de impresión, en la parte inferior izquierda, seleccione el elemento requerido. Podrá observar que en la vista de impresión, ya existe un _Layout Viewport_ que muestra el contenido de todo el dibujo.
+
+<div align="center"><img src="graph/AutoCAD_LayoutViewports.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. De doble clic dentro del espacio de modelado y acérquese al bloque de riesgo eléctrico.
+
+<div align="center"><img src="graph/AutoCAD_LayoutViewports1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+El comando **PSPACE**, le permitirá alternar entre el espacio de modelado dentro una ventana gráfica de impresión al espacio de papel. Esta misma acción puede ser realizada dando doble clic dentro de la ventana o en el espacio de papel.
+
+3. Modifique manualmente el tamaño del rectángulo de vista del espacio de modelado en la mitad izquierda del espacio de papel.
+
+
+
+
+
+
 
 
 
