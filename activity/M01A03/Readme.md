@@ -147,7 +147,7 @@ Repita este procedimiento para todos los demás símbolos del RETIE, en total de
 En AutoCAD, los bloques dinámicos son bloques que pueden cambiar su forma, tamaño o configuración al insertarse en un dibujo, en lugar de requerir múltiples definiciones de bloque estáticas. Permiten ajustar propiedades como la visibilidad, el estiramiento, la rotación, el desplazamiento y la escala. Los bloques dinámicos ofrecen una mayor flexibilidad que los bloques estáticos, ya que un solo bloque puede adaptarse a diferentes necesidades sin necesidad de crear múltiples versiones.
 
 
-### 2.1. Para símbolos eléctricos simple
+### 2.1. Para símbolo eléctrico simple
 
 
 Por ejemplo, los símbolos eléctricos del RETIE, al ser insertados dentro de un dibujo de planta arquitectónica, deben ser ajustados a la orientación de los muros.
@@ -189,7 +189,7 @@ C
 <div align="center"><img src="graph/AutoCAD_INSERT1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-### 2.2. Para símbolos eléctricos escalable
+### 2.2. Para símbolo eléctrico estirable
 
 Creemos ahorra un bloque dinámico para el tablero de distribución eléctrica definido en el RETIE, este símbolo debe ser dinámicamente alineado y alargado.
 
@@ -210,7 +210,7 @@ Creemos ahorra un bloque dinámico para el tablero de distribución eléctrica d
 
 
 
-### 2.2. Para elementos arquitectónicos
+### 2.3. Para elementos arquitectónicos
 
 Los
 
