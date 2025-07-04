@@ -334,8 +334,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
-* https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-en-el-origen/
-* https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-fuera-del-origen/
+* [Fisimat / Ecuación de la elipse con centro en el orígen](https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-en-el-origen/)
+* [Fisimat / Ecuación de la elipse con centro fuera del orígen](https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-fuera-del-origen/)
 * [Cursos de matemáticas / Elipse en Excel](https://www.youtube.com/watch?v=F3Sb0qiDGwc&t=353s)
 * [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Óvalos y Ovoides](https://www.youtube.com/watch?v=rX2V3LmIceo)
 * [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Hiperbola](https://www.youtube.com/watch?v=oS0EKDzEa2A)
