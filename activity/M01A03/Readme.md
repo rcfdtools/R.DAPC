@@ -131,8 +131,6 @@ Cree los símbolos eléctricos del RETIE. Iniciemos con el símbolo de _Extintor
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoExtintorEquipoElectronico.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> Alternativamente, puede utilizar el comando **SOLID** para crear rellenos sólidos en objetos. Este tipo de elementos utilizan menos espacio de almacenamiento en el dibujo. Para crear el relleno sólido de un rectángulo deberá realizar una secuencia diagonal encajando a partir de sus 4 esquinas. Para generar un relleno sólido de diagonales, utilice la secuencia sucesiva de nodos al rededor del rectángulo.
-
 2. Cree el bloque con el comando **BLOCK**, seleccione solo los elementos que corresponden a la figura (sin líneas constructivas y sin textos)
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoExtintorEquipoElectronico1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
@@ -207,9 +205,11 @@ Creemos ahorra un bloque dinámico para el tablero de distribución eléctrica d
 
 > Las dimensiones de un tablero de distribución eléctrica varían significativamente dependiendo de su capacidad y aplicación, pero generalmente se miden en altura, ancho y profundidad. Los tableros más comunes para uso residencial pueden tener dimensiones desde 225mm x 256mm x 98mm (para 8 polos) hasta 340mm x 590mm x 90mm (para 36 polos). Los tableros más grandes, como los trifásicos, pueden alcanzar dimensiones de 280mm x 885mm. (Dimensiones expresadas en largo x alto x ancho). [^1]
 
-1. Creemos el elemento estático en AutoCAD de 225x98mm.
+1. Creemos el elemento de dibujo en AutoCAD de 225x98mm.
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Alternativamente, puede utilizar el comando **SOLID** para crear rellenos sólidos en objetos. Este tipo de elementos utilizan menos espacio de almacenamiento en el dibujo que los achurados o rellenos usando **HATCH**. Para crear el relleno sólido de un rectángulo deberá realizar una secuencia diagonal encajando a partir de sus 4 esquinas. Para generar un relleno sólido de diagonales, utilice la secuencia sucesiva de nodos al rededor del rectángulo.
 
 2. Cree el bloque estático definiendo como punto central el punto medio inferior y en milímetros.
 
