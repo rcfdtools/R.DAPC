@@ -322,7 +322,13 @@ El comando **PSPACE**, le permitirá alternar entre el espacio de modelado dentr
 
 <div align="center"><img src="graph/AutoCAD_LayoutViewports2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. Utilizando el comando **MVIEW**, inserte un cuadro de vista en la parte inferior izquierda y acérquese a los bloques creados. Esta acción también puede ser realizada desde _Home / Layout / Layout Viewports / Insert View_.
 
+<div align="center"><img src="graph/AutoCAD_LayoutViewports3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. Para crear vistas de detalle, p. ej., con formas circulares, dibuje una circunferencia en el espacio de papel. Luego, con el comando _MVIEW_ y la opción **O**bject, seleccione este elemento. Acerque y complemente con líneas que indiquen de donde proviene el detalle. La creación de la vista a partir de un objeto, también puede ser realizada desde el _Home / Layout_.
+
+<div align="center"><img src="graph/AutoCAD_LayoutViewports4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
