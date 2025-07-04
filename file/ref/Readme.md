@@ -26,6 +26,14 @@ El Reglamento Técnico de Instalaciones Eléctricas - RETIE fue expedido en su �
 
 [Reglamento Técnico de Iluminación y Alumbrado Público - RETILAP](https://www.minenergia.gov.co/es/misional/energia-electrica-2/reglamentos-tecnicos/reglamento-t%C3%A9cnico-de-iluminaci%C3%B3n-y-alumbrado-p%C3%BAblico-retilap/)
 
+El Reglamento Técnico de Iluminación y Alumbrado Público - RETILAP fue expedido en su última versión mediante la Resolución 40150 del 03 de mayo de 2024, y se encuentra contenido en cuatro libros que forman parte integral del acto administrativo, precisando que la resolución en mención empezará a regir a partir de su publicación en el Diario Oficial No. 52.745 del 03 de mayo de 2024.
+
+* [Libro 1. Aspectos Generales](https://www.minenergia.gov.co/documents/11685/01_Libro_1_RETILAP_2024_Rev_Final_WEB.pdf)
+* [Libro 2. Productos objeto del RETILAP](https://www.minenergia.gov.co/documents/11686/02_Libro_2_RETILAP_2024_Rev_Final_WEB.pdf)
+* [Libro 3. Instalaciones de sistemas de iluminación](https://www.minenergia.gov.co/documents/11687/03_Libro_3_RETILAP_2024_Rev_Final_WEB.pdf)
+* [Libro 4. Evaluación de la conformidad](https://www.minenergia.gov.co/documents/11688/04_Libro_4_RETILAP_2024_Rev_Final_WEB.pdf)
+* [Anexos](https://www.minenergia.gov.co/documents/11907/Anexos_Alta_Resoluci%C3%B3n_RETILAP.pdf)
+
 Otras normas técnicas y referencias
 
 * [NTC2050_CodigoElectricoColombiano_19981125.pdf](https://www.electricoscarlostriana.com/gallery/NTC_2050.pdf)

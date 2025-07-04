@@ -295,7 +295,7 @@ En AutoCAD, los model viewports (o ventanas gráficas en mosaico del modelo), so
 
 <div align="center"><img src="graph/AutoCAD_ModelViewports.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Dentro de cada ventana, establezca la visualización de los elementos realizados en esta actividad.
+2. Dentro de cada ventana, establezca la visualización de los elementos trazados en esta actividad.
 
 <div align="center"><img src="graph/AutoCAD_ModelViewports1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -306,7 +306,7 @@ Para restablecer a una única ventana de modelado, en **VPORTS** seleccione _Sin
 
 ### 3.2. Layout Viewports
 
-En AutoCAD, un layout viewport (o ventana gráfica de impresión), es un área rectangular en el layout (papel) que muestra una vista del model space (espacio modelo). Permite visualizar diferentes partes del dibujo a diferentes escalas y orientaciones, como si fueran ventanas a una vista ampliada del modelo. 
+En AutoCAD, un layout viewport (o ventana de impresión), es un área rectangular en el layout (papel) que muestra una vista del model space (espacio modelo). Permite visualizar diferentes partes del dibujo a diferentes escalas y orientaciones, como si fueran ventanas a una vista ampliada del modelo. 
 
 1. Por defecto, AutoCAD incluye el Layout1 y Layout2, o vistas de impresión que contienen una ventana al espacio de modelado. Para alternar de la vista de modelado a una de las vistas de impresión, en la parte inferior izquierda, seleccione el elemento requerido. Podrá observar que en la vista de impresión, ya existe un _Layout Viewport_ que muestra el contenido de todo el dibujo.
 
@@ -331,9 +331,6 @@ El comando **PSPACE**, le permitirá alternar entre el espacio de modelado dentr
 <div align="center"><img src="graph/AutoCAD_LayoutViewports4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-
-
-
 ## Actividades de proyecto :triangular_ruler:
 
 Utilizando la [plantilla suministrada](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
@@ -342,8 +339,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A00    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                                                             |
-| M01A00    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M01A03    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                                                             |
+| M01A03    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
@@ -368,7 +365,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.07.02 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  16   |
+| 2025.07.04 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  12   |
 
 
 ##
@@ -378,7 +375,7 @@ _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
-|--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
+| [:arrow_backward: Anterior](../M01A02d/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A04/Readme.md) |
+|---------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: https://www.promelsa.com.pe/1035359-tablero-p-empotrar-de-resina-8-din-225x256x98mm-con-puerta.html
