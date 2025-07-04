@@ -1,7 +1,7 @@
 # 1.3. Bloques - Achurados- Viewports
-Keywords: `realigment`  `m01a00`
+Keywords: `realigment`  `m01a03`
 
-Diseño de bloques. Achurados y/o sombras. Figuras rellenas. Mosaico de vistas. Vistas fijas - espacio modelo. Vistas flotantes - espacio papel. Comandos: BLOCK, HATCH, SOLIDS, VPORTS, MVIEW, PSPACE, VPLAYER.
+Diseño de bloques. Achurados y/o sombras. Figuras rellenas. Mosaico de vistas. Vistas fijas - espacio modelo. Vistas flotantes - espacio papel. Comandos: BLOCK, HATCH, SOLID, VPORTS, MVIEW, PSPACE, VPLAYER.
 
 <div align="center"><img src="graph/M01A03.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
@@ -73,6 +73,8 @@ Cree el símbolo de riesgo eléctrico del RETIE, utilizando las dimensiones prop
  Primero, cree líneas esquemáticas tomando como referencia un rectángulo de c+(e/2) = 102+16 = 118 horizontal por h = 200 de alto, luego trace líneas paralelas y las líneas diagonales. Al finalizar, con el comando **COPY** o **CP**, genere una copia de la figura principal y mueva a la capa cero (0), luego una todas las líneas con el comando **JOIN** y con el comando **HATCH**, genere un relleno sólido en la misma capa (utilice para ello las opciones desplegadas en la cinta de opciones _Hatch Creation_).
 
 <div align="center"><img src="graph/AutoCAD_RiesgoElectrico.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Alternativamente, puede utilizar el comando **SOLID** para crear rellenos sólidos en objetos. Este tipo de elementos utilizan menos espacio de almacenamiento en el dibujo. Para crear el relleno sólido de un rectángulo deberá realizar una secuencia diagonal encajando a partir de sus 4 esquinas. Para generar un relleno sólido de diagonales, utilice la secuencia sucesiva de nodos al rededor del rectángulo.
 
 2. Desde el _Command_, ejecute el comando **BLOCK** o desde el menú _Home / Block_, de clic en el botón de creación de bloques. Aparecerá la ventana _Block Definition_, defina como nombre _RETIE - Riesgo eléctrico_, defina como punto base el punto inferior del símbolo de riesgo eléctrico, seleccione los objetos que componen el símbolo que se encuentran en la capa cero (0) y defina las unidades de bloque en _Milimeters_.
 
@@ -330,6 +332,10 @@ El comando **PSPACE**, le permitirá alternar entre el espacio de modelado dentr
 
 <div align="center"><img src="graph/AutoCAD_LayoutViewports4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+7. En la ventana de impresión, se muestran de forma predeterminada todas las capas activas en el espacio de modelado. Utilice el comando **VPLAYER** para apagar del espacio de papel o de impresión una o varias capas, p. ej., desactive la capa de líneas constructivas. Esta acción podrá ser aplicada a uno de los Layouts o a todos. VPLAYER / Freeze / 0-Sketch / All.
+
+<div align="center"><img src="graph/AutoCAD_LayoutViewports5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 
 ## Actividades de proyecto :triangular_ruler:
 
@@ -359,6 +365,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [AutoCAD para todos / Bloques - Video 03: Design Center, Bloques Dinámicos](https://www.youtube.com/watch?v=ejZ-1E6y6CA)
 * [AutoCAD para todos / Bloques - Video 04: Crea Bloques Dinámicos aplicando la acción de Estiramiento](https://www.youtube.com/watch?v=JPEQ1kEyMY4)
 * [Martín Cipoletta / Resetear y reemplazar bloques dinámicos por otros en AutoCAD](https://www.youtube.com/watch?v=4MXMLEwI6qw)
+* [Promine / The VPLAYER Command](https://www.youtube.com/watch?v=rv-yaIIB3bQ)
 
 
 ## Control de versiones
