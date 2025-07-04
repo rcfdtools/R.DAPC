@@ -74,8 +74,6 @@ Cree el símbolo de riesgo eléctrico del RETIE, utilizando las dimensiones prop
 
 <div align="center"><img src="graph/AutoCAD_RiesgoElectrico.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> Alternativamente, puede utilizar el comando **SOLID** para crear rellenos sólidos en objetos. Este tipo de elementos utilizan menos espacio de almacenamiento en el dibujo. Para crear el relleno sólido de un rectángulo deberá realizar una secuencia diagonal encajando a partir de sus 4 esquinas. Para generar un relleno sólido de diagonales, utilice la secuencia sucesiva de nodos al rededor del rectángulo.
-
 2. Desde el _Command_, ejecute el comando **BLOCK** o desde el menú _Home / Block_, de clic en el botón de creación de bloques. Aparecerá la ventana _Block Definition_, defina como nombre _RETIE - Riesgo eléctrico_, defina como punto base el punto inferior del símbolo de riesgo eléctrico, seleccione los objetos que componen el símbolo que se encuentran en la capa cero (0) y defina las unidades de bloque en _Milimeters_.
 
 > En descripción puede agregar: _Reglamento Técnico de Instalaciones Eléctricas (Resolución 40117 de 2024) - RETIE del Ministerio de Minas y Energía de Colombia_.
@@ -132,6 +130,8 @@ Cree los símbolos eléctricos del RETIE. Iniciemos con el símbolo de _Extintor
 > Dibuje los elementos usando proporciones o relaciones geométricas.
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoExtintorEquipoElectronico.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Alternativamente, puede utilizar el comando **SOLID** para crear rellenos sólidos en objetos. Este tipo de elementos utilizan menos espacio de almacenamiento en el dibujo. Para crear el relleno sólido de un rectángulo deberá realizar una secuencia diagonal encajando a partir de sus 4 esquinas. Para generar un relleno sólido de diagonales, utilice la secuencia sucesiva de nodos al rededor del rectángulo.
 
 2. Cree el bloque con el comando **BLOCK**, seleccione solo los elementos que corresponden a la figura (sin líneas constructivas y sin textos)
 
