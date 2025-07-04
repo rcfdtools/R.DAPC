@@ -340,11 +340,10 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Óvalos y Ovoides](https://www.youtube.com/watch?v=rX2V3LmIceo)
 * [Dibujo Técnico Bachillerato con Autocad - Carlos Ansaldo / Hiperbola](https://www.youtube.com/watch?v=oS0EKDzEa2A)
 * [Ingeniería Civil y Geología / Curvas cicloidales en AutoCAD](https://www.youtube.com/watch?v=Qt2MNsmVUM0)
-* https://es.wikipedia.org/wiki/Ovoide
+* [Wikipedia / Ovoide](https://es.wikipedia.org/wiki/Ovoide)
 * [Draw parabola in AutoCAD](https://www.youtube.com/watch?v=h8pjymm-A5I)
-* https://e1.portalacademico.cch.unam.mx/alumno/matematicas2/unidad1/ecuacionescuadraticas/tiroparabolico
-* https://www.autodesk.com/es/support/technical/article/caas/sfdcarticles/sfdcarticles/ESP/How-to-draw-parabolas-in-AutoCAD.html
-* https://www.youtube.com/watch?v=oS0EKDzEa2A
+* [Portal académico / Tiro parabólico](https://e1.portalacademico.cch.unam.mx/alumno/matematicas2/unidad1/ecuacionescuadraticas/tiroparabolico)
+* [Autodesk / How to draw parabolas](https://www.autodesk.com/es/support/technical/article/caas/sfdcarticles/sfdcarticles/ESP/How-to-draw-parabolas-in-AutoCAD.html)
 
 
 ## Control de versiones
