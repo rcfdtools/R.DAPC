@@ -379,6 +379,8 @@ Listado de herramientas complementarias:
 
 ## 6. Dibujo de planos isométricos y técnica para realizar dibujos en proyección isométrica[^1]
 
+:mortar_board: Lista de video recomendada: [AutoCAD para todos / Dibujo isométrico 2D](https://www.youtube.com/playlist?list=PLzdkaVXEoikTzX7_QvZVBlPJeY8Lwxc9C).
+
 La proyección isométrica es un método para representar objetos tridimensionales en un plano bidimensional, donde las tres dimensiones (alto, ancho y profundidad) se muestran con la misma escala, utilizando ángulos de 30 grados respecto a la horizontal. Esto significa que las líneas paralelas al objeto se mantienen paralelas en la representación, sin puntos de fuga, a diferencia de la perspectiva cónica. 
 
 Las proyecciones ortogonales (u ortográficas) son el medio adecuado para describir cualquier objeto en forma exacta y completa.
