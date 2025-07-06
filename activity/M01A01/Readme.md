@@ -21,11 +21,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                           | Descripción                                                                                                                      |
-|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                       | Autodesk Autocad 3D 2026 o superior.                                                                                             |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                  | Notepad++.                                                                                                                       |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365.                                                                                                             |
+| Requerimiento                                                                      | Descripción                                                                                                                                                                                                                                                                                                                                                                                           |
+|:-----------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior.                                                                                                                                                                                                                                                                                                                                                                  |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                             | Notepad++.                                                                                                                                                                                                                                                                                                                                                                                            |
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365.                                                                                                                                                                                                                                                                                                                                                                                  |
+| [:notebook:Lectura](Wikipedia / Proyección isométrica)                             | Una proyección isométrica es un método de representación gráfica, más específicamente una axonométrica, cilíndrica, ortogonal. Constituye en una representación visual de un objeto tridimensional que se reduce en dos dimensiones, en la que los tres ejes ortogonales principales, al proyectarse, forman ángulos de 120°, y las dimensiones paralelas a dichos ejes se miden en una misma escala. |
 
 </div>
 
@@ -460,6 +461,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
+* https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica
 * https://www.andresdeltoro.es/realizar-una-linea-poligonal-autocad-conociendo-los-angulos/
 * Dibujo Técnico I - DGEP
 
