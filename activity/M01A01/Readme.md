@@ -402,6 +402,8 @@ A partir de la proyección isométrica, podemos dibujar las vistas planas de cua
 
 <div align="center"><img src="graph/ProyeccionIsometrica3.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
+<div align="center"><img src="graph/IsometricPlanes.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Planos isométricos en AutoCAD.</sub></div>
+
 
 ### Ejercicio M01A01E03
 
