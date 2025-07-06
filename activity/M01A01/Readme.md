@@ -375,6 +375,7 @@ Listado de herramientas complementarias:
 | <img src="../../file/graph/AutoCAD_ToolIsolateObjects.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                          | Isolate Objects       | ISOLATEOBJECTS <br>HIDEOBJECTS  <br>UNISOLATEOBJECTS | Herramienta para aislar u ocultar objetos del espacio de trabajo. Luego de terminar de editar los objetos visibles, podrá volver a mostrar todos los elementos del diibujo.                                                             |
 | <img src="../../file/graph/AutoCAD_ToolGraphicsPerformance.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                     | Graphics Performance  | GRAPHICSCONFIG                                       | Permite cambiar la configuración de rendimiento de los gráficos o tarjeta gráfica del equipo.                                                                                                                                           |
 | <img src="../../file/graph/AutoCAD_ToolCleanScreen.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                             | Clean Screen          | <kbd>ctrl</kbd>+<kbd>0</kbd> <br>CLEANSCREEN         | Permite visualizar AutoCAD en pantalla completa.                                                                                                                                                                                        |
+
 > Dando clic derecho sobre la herramienta requerida, podrá acceder a las ventanas de configuración.
 
 
@@ -402,9 +403,15 @@ A partir de la proyección isométrica, podemos dibujar las vistas planas de cua
 
 <div align="center"><img src="graph/ProyeccionIsometrica3.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div><br>
 
+Para el dibujo isométrico en AutoCAD, es necesario activar los siguientes asistentes de dibujo:
+
+* <img src="../../file/graph/AutoCAD_ToolDynamicInput.jpg" alt="R.DAPC" width="28" border="0" /> Dynamic Input, **DYNMODE**.
+* <img src="../../file/graph/AutoCAD_ToolPolarTracking.jpg" alt="R.DAPC" width="28" border="0" /> Polar Tracking, <kbd>F10</kbd> para ángulos de 30 grados.
+* <img src="../../file/graph/AutoCAD_ToolIsometricDrafting.jpg" alt="R.DAPC" width="28" border="0" />  Isometric Drafting , **ISODRAFT**.
+* <img src="../../file/graph/AutoCAD_ToolObjectSnapTracking.jpg" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
+* <img src="../../file/graph/AutoCAD_Tool2DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 2D Object Snap, <kbd>F3</kbd>, **OSNAP** para Endpoint, Midpoint, Center, Quadrant, Intersection y Tangent.
+
 <div align="center"><img src="graph/IsometricPlanes.jpg" alt="R.DAPC" width="25%" border="0" /><br><sub>Planos isométricos en AutoCAD.</sub></div>
-
-
 
 
 ### Ejercicio M01A01E03

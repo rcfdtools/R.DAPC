@@ -48,4 +48,12 @@ Commands
 	; al final de una sentencia en CUI corresponde a Enter en el teclado.
 	^C al final de una sentencia en CUI corresponde a ESC en el teclado.
 
-Mouse: https://www.vecteezy.com/vector-art/24103530-set-of-computer-mouse-outline-drawing-vector-computer-mouse-in-a-sketch-style-computer-mouse-training-template-outline-vector-illustration
+Mouse: https://www.vecteezy.com/vector-art/24103530-set-of-computer-mouse-outline-drawing-vector-computer-mouse-in-a-sketch-style-computer-mouse-training-template-outline-vector-
+
+
+DELOBJ
+3: elimina el objeto inicial luego de la extrusión.
+0: se mantiene el objeto original.
+-1: AutoCAD solicita si se elimina o no el objeto original.
+
+En AutoCAD, para calcular el volumen de un sólido, se utiliza el comando MASSPROP (Propiedades de masa). Se escribe "massprop" en la línea de comando y luego se selecciona el objeto sólido del cual se desea obtener el volumen. El volumen se mostrará en la línea de comandos. 
