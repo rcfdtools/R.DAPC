@@ -40,7 +40,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 0. Configuración preliminar 
 
-Antes de iniciar a crear elementos 3D a partir de elementos 2D, es recomendable configurar la eliminación de objetos fuente de referencia, el comando **DELOBJ** permite establecer diferentes comportamientos, p. ej.:
+Antes de iniciar a crear elementos 3D a partir de elementos 2D, es recomendable configurar la eliminación de objetos fuente de referencia, el comando **[DELOBJ](https://help.autodesk.com/view/ACD/2025/ENU/?guid=GUID-CB64587F-611E-441E-AB07-14B415BF535F)** permite establecer diferentes comportamientos de esta variable de sistema, p. ej.:
 
 * 3: elimina el objeto inicial luego de la extrusión.
 * 0: se mantiene el objeto original.
