@@ -53,7 +53,7 @@ Para el dibujo 3D en AutoCAD, es necesario activar los siguientes asistentes de 
 * <img src="../../file/graph/AutoCAD_ToolPolarTracking.jpg" alt="R.DAPC" width="28" border="0" /> Polar Tracking, <kbd>F10</kbd> para ángulos de 30 grados.
 * <img src="../../file/graph/AutoCAD_ToolObjectSnapTracking.jpg" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
 * <img src="../../file/graph/AutoCAD_Tool2DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 2D Object Snap, <kbd>F3</kbd>, **OSNAP** para Endpoint, Midpoint, Center, Quadrant, Intersection y Tangent.
-* <img src="../../file/graph/AutoCAD_Tool3DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 3D Object Snap, <kbd>F3</kbd>, **OSNAP** para Vertex, Midpoint on edge, Center of face y Perpendicular.
+* <img src="../../file/graph/AutoCAD_Tool3DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 3D Object Snap, <kbd>F3</kbd>, **3DOSNAP** para Vertex, Midpoint on edge, Center of face y Perpendicular.
 
 
 
