@@ -145,7 +145,7 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 <div align="center"><img src="graph/AutoCAD_Drawing1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. Desde el botón _AutoCAD / Drawing Utilities / Units_, defina las unidades de longitud en _Decimal_, ángulos en _Grads_, precisión usando dos decimales y unidades de escala para inserción de elementos externos (tales como bloques) en milímetros.    
+5. Desde el botón _AutoCAD / Drawing Utilities / Units_, defina las unidades de longitud en _Decimal_, ángulos en _Grados decimales_, precisión usando dos decimales y unidades de escala para inserción de elementos externos (tales como bloques) en milímetros.    
 
 <div align="center"><img src="graph/AutoCAD_Units.jpg" alt="R.DAPC" width="50%" border="0" /><img src="graph/AutoCAD_Units1.jpg" alt="R.DAPC" width="45%" border="0" /></div>
 
@@ -446,7 +446,7 @@ Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%
 
 Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A01E07.dwg_.
 
-El espesor del material de la escalera es 2.5.
+El espesor del material de la escalera es 2.5 y el ángulo de dibujo es de 45 grados.
 
 <div align="center"><img src="graph/M01A01E07.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
