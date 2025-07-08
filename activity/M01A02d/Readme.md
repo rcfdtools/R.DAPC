@@ -38,9 +38,44 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## Extrusión
+## 0. Configuración preliminar 
 
-En AutoCAD, la extrusión es el proceso de convertir objetos 2D en objetos 3D al alargarlos o "extruirlos" en una dirección específica. Básicamente, se toma una forma plana y se le da profundidad, creando un sólido o una superficie 3D. La extrusión es una herramienta fundamental para transformar dibujos planos en modelos tridimensionales. Dependiendo de si el objeto 2D es cerrado o abierto, la extrusión puede crear un sólido (si el objeto es cerrado, como un círculo o un cuadrado) o una superficie (si el objeto es abierto, como una línea o un arco). La extrusión puede realizarse de manera ortogonal al plano del objeto original o en una dirección específica definida por el usuario. También puede realizarse a lo largo de una trayectoria definida. Además de la dirección, se puede especificar un ángulo de inclinación para la extrusión, lo que permite crear objetos con forma de cono o pirámide. El comando principal para realizar la extrusión en AutoCAD es "EXTRUDE". 
+Antes de iniciar a crear elementos 3D a partir de elementos 2D, es recomendable configurar la eliminación de objetos fuente de referencia, el comando **DELOBJ** permite establecer diferentes comportamientos, p. ej.:
+
+* 3: elimina el objeto inicial luego de la extrusión.
+* 0: se mantiene el objeto original.
+* -1: AutoCAD solicita si se elimina o no el objeto original.
+
+
+Para el dibujo 3D en AutoCAD, es necesario activar los siguientes asistentes de dibujo:
+
+* <img src="../../file/graph/AutoCAD_ToolDynamicInput.jpg" alt="R.DAPC" width="28" border="0" /> Dynamic Input, **DYNMODE**.
+* <img src="../../file/graph/AutoCAD_ToolPolarTracking.jpg" alt="R.DAPC" width="28" border="0" /> Polar Tracking, <kbd>F10</kbd> para ángulos de 30 grados.
+* <img src="../../file/graph/AutoCAD_ToolObjectSnapTracking.jpg" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
+* <img src="../../file/graph/AutoCAD_Tool2DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 2D Object Snap, <kbd>F3</kbd>, **OSNAP** para Endpoint, Midpoint, Center, Quadrant, Intersection y Tangent.
+* <img src="../../file/graph/AutoCAD_Tool3DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 3D Object Snap, <kbd>F3</kbd>, **OSNAP** para Vertex, Midpoint on edge, Center of face y Perpendicular.
+
+
+
+## 1. Modelado de geometrías básicas
+
+De forma nativa, AutoCAD permite la construcción de las siguientes formas geométricas básicas:
+
+* Cube: forma cúbica o poliedro.
+* Cylinder: cilindro.
+* Cone: cono.
+* Sphere: esfera.
+* Pyramid: pirámide.
+* Wedge: cuña triangular.
+* Torus: toroide o donut.
+
+
+
+## 2. Extrusión
+
+En AutoCAD, la extrusión es el proceso de convertir objetos 2D en objetos 3D al alargarlos o extruirlos en una dirección específica. Básicamente, se toma una forma plana y se le da profundidad, creando un sólido o una superficie 3D. La extrusión es una herramienta fundamental para transformar dibujos planos en modelos tridimensionales. Dependiendo de si el objeto 2D es cerrado o abierto, la extrusión puede crear un sólido (si el objeto es cerrado, como un círculo o un cuadrado) o una superficie (si el objeto es abierto, como una línea o un arco). La extrusión puede realizarse de manera ortogonal al plano del objeto original o en una dirección específica definida por el usuario. También puede realizarse a lo largo de una trayectoria definida. Además de la dirección, se puede especificar un ángulo de inclinación para la extrusión, lo que permite crear objetos con forma de cono o pirámide. El comando principal para realizar la extrusión en AutoCAD es **EXTRUDE**. 
+
+
 
 Para convertir objetos 2D en objetos 3D, podémos utilizar como insumos:
 
@@ -49,8 +84,14 @@ Para convertir objetos 2D en objetos 3D, podémos utilizar como insumos:
 * Poli-líneas abiertas: crea una superficie contínua sobre toda la línea.
 * Poli-líneas cerradas: crea un sólido
 
+Tenga en cuenta que el comando **EXTRUDE** crea una superficie o un volúmen dependiente del objeto seleccionado, sin embargo, desde el command podrá seleccionar **MO**do y definir si va a crear únicamente superficies.
 
+Otras opciones específicas de este comando, permiten:
 
+* Taper angle: ángulo de inclinación con respecto al objeto, valores positivos crean elementos hacia adentro, valores negativos hacia afuera.
+* Path: 
+* Direction: extrusión con inclinación.
+* Expression: 
 
 
 ## Actividades de proyecto :triangular_ruler:
