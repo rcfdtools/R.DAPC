@@ -53,7 +53,7 @@ Para el dibujo 3D en AutoCAD, es necesario activar los siguientes asistentes de 
 * <img src="../../file/graph/AutoCAD_ToolPolarTracking.jpg" alt="R.DAPC" width="28" border="0" /> Polar Tracking, <kbd>F10</kbd> para ángulos de 30 grados.
 * <img src="../../file/graph/AutoCAD_ToolObjectSnapTracking.jpg" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
 * <img src="../../file/graph/AutoCAD_Tool2DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 2D Object Snap, <kbd>F3</kbd>, **OSNAP** para Endpoint, Midpoint, Center, Quadrant, Intersection y Tangent.
-* <img src="../../file/graph/AutoCAD_Tool3DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 3D Object Snap, <kbd>F3</kbd>, **3DOSNAP** para Vertex, Midpoint on edge, Center of face y Perpendicular.
+* <img src="../../file/graph/AutoCAD_Tool3DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 3D Object Snap, <kbd>F4</kbd>, **3DOSNAP** para Vertex, Midpoint on edge, Center of face y Perpendicular.
 
 
 
@@ -89,9 +89,27 @@ Tenga en cuenta que el comando **EXTRUDE** crea una superficie o un volúmen dep
 Otras opciones específicas de este comando, permiten:
 
 * Taper angle: ángulo de inclinación con respecto al objeto, valores positivos crean elementos hacia adentro, valores negativos hacia afuera.
-* Path: 
+* Path: por trayectoria, para lo cual es necesario que los dos objetos no estén en el mismo plano.
 * Direction: extrusión con inclinación.
-* Expression: 
+* Expression: en función de parámetros definidos sobre un objeto.
+
+> Opcionalmente, podrá extruir las caras de un sólido, para ello se selecciona primero el sólido, luego con la tecla <kbd>ctrl</kbd> se selecciona la cara o caras a extruir.
+
+
+## THICKEN
+
+
+
+
+
+## Solid Editing / SHELL
+
+Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través del comando **SOLIDEDIT** / **B**ody / **S**hell, o desde _Home / Solid Editing / Shell_, es necesario indicar las caras a remover y el espesor de las paredes (valores positivos generan espesores hacia adentro del sólido, valores negativos hacia afuera).
+
+
+
+
+
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -115,7 +133,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
-* https://www.andresdeltoro.es/realizar-una-linea-poligonal-autocad-conociendo-los-angulos/
+* [AutoCAD para todos / Comando EXTRUDE y objetos paramétricos](https://www.youtube.com/watch?v=6h1mgMekpBw&)
 
 
 ## Control de versiones
