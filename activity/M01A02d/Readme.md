@@ -46,14 +46,16 @@ Para el dibujo 3D en AutoCAD, es necesario activar los siguientes asistentes de 
 * <img src="../../file/graph/AutoCAD_ToolObjectSnapTracking.jpg" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
 * <img src="../../file/graph/AutoCAD_Tool2DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 2D Object Snap, <kbd>F3</kbd>, **OSNAP** para Endpoint, Midpoint, Center, Quadrant, Intersection y Tangent.
 * <img src="../../file/graph/AutoCAD_Tool3DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 3D Object Snap, <kbd>F4</kbd>, **3DOSNAP** para Vertex, Midpoint on edge, Center of face y Perpendicular.
+| <img src="../../file/graph/AutoCAD_ToolWorkspaceSwitching.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                      | Workspace Switching   | WSCURRENT                                            | Permite cambiar entre los diferentes espacios de trabajo de AutoCAD: Drafting and Annotation, 3D Basics, 3D Modeling.                                                                                                                                                                                               |
 
+> Desde el _Workspace Switching_ o **WSCURRENT**, seleccionar el espacio de trabajo correspondiente a 3D Modeling.
 
 
 ## 1. Modelado de geometrías básicas
 
-De forma nativa, AutoCAD permite la construcción de las siguientes formas geométricas básicas:
+De forma nativa, desde el menú _Home / Modeling_, AutoCAD permite la construcción de las siguientes formas geométricas básicas:
 
-* Cube: forma cúbica o poliedro.
+* Box: forma cúbica o poliedro.
 * Cylinder: cilindro.
 * Cone: cono.
 * Sphere: esfera.
@@ -61,6 +63,18 @@ De forma nativa, AutoCAD permite la construcción de las siguientes formas geom�
 * Wedge: cuña triangular.
 * Torus: toroide o donut.
 
+Complementariamente, a partir de la pestaña Modeling, podrá crear superficies o sólidos a partir de elementos geométricos 2D o formas creadas a partir de objetos, utilizando las siguientes herramientas:
+
+* Extrude: extrusión lineal, angulada, inclinada.
+* Loft: sólido o superficie a partir de múltiples objetos.
+* Revolve: revolución a partir de un objeto y un eje de rotación. Objetos en el mismo plano.
+* Sweep: barrido a partir de un objeto y un alineamiento. Objetos en planos diferentes.
+* Polisolid: paredes sólidas a partir de líneas con espesor y ancho definidos.
+* Prespull: extrusión de caras a partir de objetos cerrados o extensión de objetos ya extruídos.
+
+1. Abra el archivo _/file/cad/M01A02a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A02d.dwg_ y establezca por defecto la capa _0-Object_.
+ 
+2. 
 
 
 ## 2. Extrusión
