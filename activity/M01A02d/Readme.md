@@ -68,7 +68,7 @@ Complementariamente, desde la pestaña Modeling, podrá crear superficies o sól
 * Revolve: revolución a partir de un objeto y un eje de rotación. Objetos en el mismo plano.
 * Sweep: barrido a partir de un objeto y un alineamiento. Objetos en planos diferentes.
 * Polisolid: paredes sólidas a partir de líneas con espesor y ancho definidos.
-* Prespull: extrusión de caras a partir de objetos cerrados o extensión de objetos ya extruidos.
+* Prespull: extrusión de caras a partir de objetos cerrados, extensión de objetos ya extruidos o sustracción sobre un sólido ya creado.
 
 1. Abra el archivo _/file/cad/M01A02a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A02d.dwg_ y establezca por defecto la capa _0_.
  
@@ -124,7 +124,9 @@ Complementariamente, desde la pestaña Modeling, podrá crear superficies o sól
 
 <div align="center"><img src="graph/AutoCAD_SolidEditingFilletEdge.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+12. Designemos ahora acero o Steel como material del objeto. Desde el menú _Visualize / Materials_, aplique el material requerido arrastrando el material hacia el objeto.
 
+<div align="center"><img src="graph/AutoCAD_VisualizeMaterials.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
