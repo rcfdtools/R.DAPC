@@ -70,13 +70,40 @@ Complementariamente, desde la pestaña Modeling, podrá crear superficies o sól
 * Polisolid: paredes sólidas a partir de líneas con espesor y ancho definidos.
 * Prespull: extrusión de caras a partir de objetos cerrados o extensión de objetos ya extruidos.
 
-1. Abra el archivo _/file/cad/M01A02a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A02d.dwg_ y establezca por defecto la capa _0-Object_.
+1. Abra el archivo _/file/cad/M01A02a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A02d.dwg_ y establezca por defecto la capa _0_.
  
 2. En la esquina superior izquierda del espacio de dibujo, seleccione la vista superior o _Top_ y luego la vista isométrica SE. Podrá observar que en la esquina superior derecha del espacio de dibujo, se muestra una representación de un cubo en el que la cara superior corresponde a la vista TOP, abajo a la derecha la cara RIGHT y abajo a la izquierda la cara FRONT. Cree en la coordenada absoluta (50,50), un cubo o caja de +100 unidades en todas las aristas alejándose positivamente del origen absoluto (0,0,0). En _Home / View_, establezca la vista _Conceptual_.
 
 > Tenga en cuenta que AutoCAD, ajusta o rota el sistema de coordenadas dependiendo de la cara y la vista isométrica seleccionada, para lo cual, los elementos serán dibujados en el plano xy de la cara seleccionada.
 
+<div align="center"><img src="graph/AutoCAD_ModelingBox.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Dibujemos ahora un cilindro en la cara frontal del cubo creado. Para ello, primero debemos seleccionar la vista frontal y luego la vista isométrica SE (south-east). Observará que el plano XY ahora se alinea con la cara frontal y que el eje Z se dirige hacia el sentido contrario. Con la herramienta _Cylinder_, dibuje un cilindro en el centro de la cara frontal con radio 50 y altura de 25 unidades.
+
 <div align="center"><img src="graph/AutoCAD_Modeling.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+<div align="center"><img src="graph/AutoCAD_ModelingCylinder.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Utilizando la misma vista, dibuje un cono de 50 unidades de altura con radio de 50 unidades.
+
+<div align="center"><img src="graph/AutoCAD_ModelingCone.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. En la cara superior, dibuje una espera con radio de 50 unidades. Cambie a la vista _X-Ray_, podrá observar que media esfera se encuentra embebida dentro del cubo.
+
+<div align="center"><img src="graph/AutoCAD_ModelingSphere.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. Seleccione ahora la vista izquierda o Left y luego la vista isométrica SW (south-west). Dibuje una pirámide en esta cara con altura de 75 unidades.
+
+<div align="center"><img src="graph/AutoCAD_ModelingPyramid.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. Seleccione ahora la vista posterior o Back y luego la vista isométrica NW (north-west). Dibuje un toroide con radio 25 y espesor de 25 unidades.
+
+<div align="center"><img src="graph/AutoCAD_ModelingTorus.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+7. Cambie la representación a _Realistic_ y utilizando la tecla <kbd>ctrl</kbd> + rueda del mouse presionada, rote la vista para que pueda visualizar todo el sólido. Tenga en cuenta que todos los elementos creados son independientes.
+
+<div align="center"><img src="graph/AutoCAD_ViewRealistic.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 
 
 
