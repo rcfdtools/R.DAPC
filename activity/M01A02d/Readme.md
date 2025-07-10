@@ -3,7 +3,7 @@ Keywords: `extrude`  `m01a2d`
 
 Creación de dibujos y sólidos tridimensionales.
 
-<div align="center"><img src="graph/M01A02d.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A02d.jpg" alt="R.DAPC" width="40%" border="0" /></div>
 
 
 ## Objetivos
@@ -27,7 +27,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 </div>
 
-> Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
+> Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
 ## 0. Configuración preliminar 
@@ -126,6 +126,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
 * [AutoCAD para todos / Comando EXTRUDE y objetos paramétricos](https://www.youtube.com/watch?v=6h1mgMekpBw&)
+* [AutoCAD para todos / Creación de vistas base y proyectada con AutoCAD](https://www.youtube.com/watch?v=ToCCqdeTCz8)
 
 
 ## Control de versiones
