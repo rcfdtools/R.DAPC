@@ -47,6 +47,7 @@ Commands
 	CUI: personalize user interface
 	; al final de una sentencia en CUI corresponde a Enter en el teclado.
 	^C al final de una sentencia en CUI corresponde a ESC en el teclado.
+	Shift + Mouse Wheeler click = 3D orbit
 
 Mouse: https://www.vecteezy.com/vector-art/24103530-set-of-computer-mouse-outline-drawing-vector-computer-mouse-in-a-sketch-style-computer-mouse-training-template-outline-vector-
 

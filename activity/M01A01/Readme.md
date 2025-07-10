@@ -338,7 +338,7 @@ Para facilitar la creación de dibujos, varios de los comandos de AutoCAD están
 
 ## 5. Uso de grillas de referencia, encajado de elementos y asistentes de dibujo
 
-Herramientas complementarias facilitan el dibujo de elementos geométricos con precisión, estas herramientas se encuentran localizadas en la parte inferior de la pantalla o pueden ser activados a partir de teclas de funciones, atajos de teclado o comandos.
+Herramientas complementarias facilitan el dibujo de elementos geométricos con precisión, estas herramientas se encuentran localizadas en la parte inferior de la pantalla en la barra de estado, o pueden ser activados a partir de teclas de funciones, atajos de teclado o comandos.
 
 <div align="center"><img src="graph/AutoCAD_DrawingAssistedTools.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -351,7 +351,7 @@ Listado de herramientas complementarias:
 | <img src="../../file/graph/AutoCAD_ToolGrid.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                                    | Grid                  | <kbd>F7</kbd> <br>GRID <br>GRIDMODE                  | Muestra y oculta la grilla o retícula de referencia. Utilizando los comandos podrá cambiar las propiedades de espaciamiento desde una ventana de configuración y definir si el ajuste es rectangular (por defecto), isométrico o polar.                                                                             |
 | <img src="../../file/graph/AutoCAD_ToolSnapMode.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                                | Snap Mode             | <kbd>F9</kbd> <br>SNAP <br>SNAPMODE                  | Activa el ajuste de encajado (polar o grid) a la grilla de referencia. El espaciamiento de encajado puede ser definido por el usuario y ser diferente al espaciamiento definido en la grilla de referencia.                                                                                                         |
 | <img src="../../file/graph/AutoCAD_ToolInferConstraints.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                        | Infer Constraints     | CONSTRIAINTINFER                                     | Aplica automáticamente restricciones geométricas de ajuste de elementos (perpendicular, horizontal, parallel....) cuando se está creando o editando un elemento geométrico.                                                                                                                                         |
-| <img src="../../file/graph/AutoCAD_ToolDynamicInput.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                            | Dynamic Input         | DYNMODE                                              | Despliega opciones cerca del cursor, con las que se pueden ingresar comandos adicionales o ingresar valores. Sin su activación, deberá ingresar los valores y parámetros desde la barra inferior Command.                                                                                                           |
+| <img src="../../file/graph/AutoCAD_ToolDynamicInput.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                            | Dynamic Input         | <kbd>F12</kbd> <br>DYNMODE                           | Despliega opciones cerca del cursor, con las que se pueden ingresar comandos adicionales o ingresar valores. Sin su activación, deberá ingresar los valores y parámetros desde la barra inferior Command.                                                                                                           |
 | <img src="../../file/graph/AutoCAD_ToolOrthoMode.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                               | Ortho Mode            | <kbd>F8</kbd> <br>ORTHOMODE                          | Activa el modo ortogonal, con lo que solo podrá dibujar elementos hacia izquierda y derecha o arriba y abajo.                                                                                                                                                                                                       |
 | <img src="../../file/graph/AutoCAD_ToolPolarTracking.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                           | Polar Tracking        | <kbd>F10</kbd>                                       | Activa el modo de rastreo polar, con lo que el puntero se ajustará automáticamente a los ángulos por defecto o definidos por el usuario.                                                                                                                                                                            |
 | <img src="../../file/graph/AutoCAD_ToolIsometricDrafting.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                       | Isometric Drafting    | ISODRAFT                                             | Activa el modo de dibujo isométrico 2D (a 30°), permitiendo seleccionar entre las vistas izquierda, superior o derecha. Automáticamente cambiará la representación de la grilla de referencia.                                                                                                                      |
@@ -377,6 +377,12 @@ Listado de herramientas complementarias:
 | <img src="../../file/graph/AutoCAD_ToolCleanScreen.jpg" alt="R.DAPC" width="28" border="0" />                                                                                                             | Clean Screen          | <kbd>ctrl</kbd>+<kbd>0</kbd> <br>CLEANSCREEN         | Permite visualizar AutoCAD en pantalla completa.                                                                                                                                                                                                                                                                    |
 
 > Dando clic derecho sobre la herramienta requerida, podrá acceder a las ventanas de configuración.
+> 
+> En el evento de que la barra de estado esté oculta, con el comando **STATUSBAR** y el valor 1, podrá reactivarla. Las pestañas de _Modelo_ y _Layouts_ pueden ser alineadas con la barra de estado o estar por encima de ella. Dando clic derecho sobre cualquier pestaña, podrá activar la opción de alineamiento.
+> 
+> Cuando no se muestran las pestañas inferiores correspondientes al espacio de modelo o _Model_ y las hojas de impresión o _Layouts_, activando el menú contextual en cualquier lugar de la pantalla y seleccionando _Options_, podrá en la ficha _Display_ activar en _Layout elements / Display Layout and Model tabs_. Esta misma opción puede ser ejecutada desde el _Command_ de AutoCAD con el comando _OPTIONS_
+>
+> Si la barra _Command_ no aparece en pantalla, utilizar <kbd>ctrl</kbd> + <kbd>9</kbd>, digitar _COMMANDLINE_ o _COMMANDLINEHIDE_.
 
 
 ## 6. Dibujo de planos isométricos y técnica para realizar dibujos en proyección isométrica[^1]
@@ -405,7 +411,7 @@ A partir de la proyección isométrica, podemos dibujar las vistas planas de cua
 
 Para el dibujo isométrico en AutoCAD, es necesario activar los siguientes asistentes de dibujo:
 
-* <img src="../../file/graph/AutoCAD_ToolDynamicInput.jpg" alt="R.DAPC" width="28" border="0" /> Dynamic Input, **DYNMODE**.
+* <img src="../../file/graph/AutoCAD_ToolDynamicInput.jpg" alt="R.DAPC" width="28" border="0" /> Dynamic Input, <kbd>F12</kbd>, **DYNMODE**.
 * <img src="../../file/graph/AutoCAD_ToolPolarTracking.jpg" alt="R.DAPC" width="28" border="0" /> Polar Tracking, <kbd>F10</kbd> para ángulos de 30 grados.
 * <img src="../../file/graph/AutoCAD_ToolIsometricDrafting.jpg" alt="R.DAPC" width="28" border="0" />  Isometric Drafting , **ISODRAFT**.
 * <img src="../../file/graph/AutoCAD_ToolObjectSnapTracking.jpg" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
@@ -474,6 +480,9 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/ACD/2026/ENU/
 * https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica
 * https://www.andresdeltoro.es/realizar-una-linea-poligonal-autocad-conociendo-los-angulos/
+* [AutoCAD para todos / La barra de estado en AutoCAD](https://www.youtube.com/watch?v=7a7uWnCzSB8)
+* [AutoCAD para todos / Comandos de Dibujo](https://www.youtube.com/playlist?list=PLzdkaVXEoikS3EwqyXwFHJ3pCoZE78Ecl)
+* [AutoCAD para todos / Comando LINE](https://www.youtube.com/watch?v=tn0AooiV_R0)
 * Dibujo Técnico I - DGEP
 
 

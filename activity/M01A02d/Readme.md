@@ -49,7 +49,7 @@ Antes de iniciar a crear elementos 3D a partir de elementos 2D, es recomendable 
 
 Para el dibujo 3D en AutoCAD, es necesario activar los siguientes asistentes de dibujo:
 
-* <img src="../../file/graph/AutoCAD_ToolDynamicInput.jpg" alt="R.DAPC" width="28" border="0" /> Dynamic Input, **DYNMODE**.
+* <img src="../../file/graph/AutoCAD_ToolDynamicInput.jpg" alt="R.DAPC" width="28" border="0" /> Dynamic Input, <kbd>F12</kbd>, **DYNMODE**.
 * <img src="../../file/graph/AutoCAD_ToolPolarTracking.jpg" alt="R.DAPC" width="28" border="0" /> Polar Tracking, <kbd>F10</kbd> para ángulos de 30 grados.
 * <img src="../../file/graph/AutoCAD_ToolObjectSnapTracking.jpg" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
 * <img src="../../file/graph/AutoCAD_Tool2DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 2D Object Snap, <kbd>F3</kbd>, **OSNAP** para Endpoint, Midpoint, Center, Quadrant, Intersection y Tangent.

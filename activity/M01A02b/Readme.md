@@ -122,7 +122,7 @@ Para su creación, existen múltiples métodos, tales como:
 * Tangente, tangente y radio
 * Tangente, tangente y tangente
 
-Por ejemplo, para crear una circunferencia en la zona central de la figura simétrica construída a partir de triángulos, podremos utilizar la opción de 3 tangentes que puede ser ejecutada desde la cinta de opciones _Home / Draw / Circle_.
+Por ejemplo, para crear una circunferencia en la zona central de la figura simétrica construída a partir de triángulos, podremos utilizar la opción de 3 tangentes que puede ser ejecutada desde la cinta de opciones _Home / Draw / Circle_ o desde el _Command_ con **LINE**.
 
 <div align="center"><img src="graph/AutoCAD_CIRCLETTT.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -409,6 +409,13 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
 * [AutoCAD UCS](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-E658D5E7-EE5C-4A06-BF34-F71CDB363A71)
+* [AutoCAD para todos / Comandos de Dibujo](https://www.youtube.com/playlist?list=PLzdkaVXEoikS3EwqyXwFHJ3pCoZE78Ecl)
+* [AutoCAD para todos / Comando CIRCLE](https://www.youtube.com/watch?v=zMBA_d99HC0)
+* [AutoCAD para todos / Comando ARC](https://www.youtube.com/watch?v=sATpaS7HCi8)
+* [AutoCAD para todos / Comando PLINE](https://www.youtube.com/watch?v=AWP69qexGHo)
+* [AutoCAD para todos / Comando RECTANG](https://www.youtube.com/watch?v=Bi_bm2JrEHw)
+* [AutoCAD para todos / Comando POLYGON](https://www.youtube.com/watch?v=QjthtjHcpvo)
+* [AutoCAD para todos / Comando DIVIDE](https://www.youtube.com/watch?v=FU2ts2C7_0k)
 * Dibujo Técnico I - DGEP
 
 
