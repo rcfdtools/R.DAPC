@@ -104,7 +104,25 @@ Complementariamente, desde la pestaña Modeling, podrá crear superficies o sól
 
 <div align="center"><img src="graph/AutoCAD_ViewRealistic.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+8. Seleccione ahora la vista TOP y luego la vista isométrica SE. Seleccione todos los objetos y cree una copia o **COPY** a 250 unidades en el sentido del eje Y. Utilice como punto de desplazamiento el centroide de la esfera y active el desplazamiento ortogonal con la tecla **F8**.
 
+<div align="center"><img src="graph/AutoCAD_ModifyCopy.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Para los elementos dibujados, cree un libro en Excel que permita calcular el volúmen y el área superficial que envuelve cada elemento.
+
+9. Desde el menú _Home / Solid Editing_, ejecute la herramienta _Solid Union_ seleccionando todos los objetos de la copia, así integrará todos los elementos en un único sólido. Active la visualización X-Ray, observará que al seleccionar el elemento ya no existen sólidos separados y que no está duplicado el volúmen de la semiesfera que estaba embebida en el cubo.
+
+<div align="center"><img src="graph/AutoCAD_SolidEditingSolidUnion.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+10. Calculemos ahora el volúmen total del sólido, para ello, en el _Command_, ejecute el comando **MASSPROP**. Observará que el volúmen del elemento es de 1993261.191 unidades cúbicas y que el objeto está inscrito dentro de un cubo perimetral o Bounding Box de:
+
+* X: -25.000  --  200.000 
+* Y: 275.000  --  425.000 
+* Z: 0.000  --  150.000 
+
+11. Suavicemos ahora las arístas anguladas del objeto creado. Primero cree una copia del objeto integrado y luego en el menú _Home / Solid / Solid Editing_, seleccione la herramienta _Fillet Edge_, defina un radio de suavizado en 5 unidades y suavice todas las aristas del cubo inicial.
+
+<div align="center"><img src="graph/AutoCAD_SolidEditingFilletEdge.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
