@@ -5,6 +5,7 @@ Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7:
 ✓Δ°Σβθαπ∑√±πØ
 <kbd>esc</kbd>
 <kbd>enter</kbd>
+<kbd>ctrl</kbd>
 <kbd>ctrl</kbd> + <kbd>i</kbd>
 Windows + Shift + S for print screen
 
@@ -48,6 +49,7 @@ Commands
 	; al final de una sentencia en CUI corresponde a Enter en el teclado.
 	^C al final de una sentencia en CUI corresponde a ESC en el teclado.
 	Shift + Mouse Wheeler click = 3D orbit
+	APPLOAD or AP: load an external app or lisp code.
 
 Mouse: https://www.vecteezy.com/vector-art/24103530-set-of-computer-mouse-outline-drawing-vector-computer-mouse-in-a-sketch-style-computer-mouse-training-template-outline-vector-
 

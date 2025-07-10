@@ -151,6 +151,8 @@ Para el trazado de arco máximo de proyección en las caras de la figura, puede 
 
 <div align="center"><img src="graph/AutoCAD_ARC2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+> Cuando se dibujan arcos a partir de la definición de ángulos, los valores especificados son dibujados en el sentido inverso de las manecillas del reloj, oprimiendo la tecla <kbd>ctrl</kbd> podrá dibujar el arco en el otro sentido.
+
 
 ## 5. Creación de rectángulos y figuras geométricas regulares
 

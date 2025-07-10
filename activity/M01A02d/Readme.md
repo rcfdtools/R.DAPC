@@ -1,11 +1,9 @@
 # 1.2.d. Dibujo en 3D
-Keywords: `realigment`  `m01a2d`
+Keywords: `extrude`  `m01a2d`
 
 Creación de dibujos y sólidos tridimensionales.
 
-<div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
-
-<div align="center"><img src="graph/Gravity_anomalies_on_Earth.jpg" alt="R.DAPC" width="60%" border="0" /><sub><br>Tomado de: <a href="Public Domain, https://commons.wikimedia.org/w/index.php?curid=479365">https://commons.wikimedia.org</a></sub><br><br></div>
+<div align="center"><img src="graph/M01A02d.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -21,17 +19,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                           | Descripción                                                                                                                      |
-|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                       | Autodesk Autocad 3D 2026 o superior.                                                                                             |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)                                         | Autodesk Revit 2026 o superior.                                                                                                  |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365.                                                                                                             |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                       | Microsoft Word 365.                                                                                                              |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                  | Notepad++.                                                                                                                       |
-| [:toolbox:Herramienta](https://qgis.org/)                                                               | QGIS 3.42 o superior.                                                                                                            |
-| [:notebook:Lectura](R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf)                                   | Factor de atenuación de la precipitación por área simultánea.                                                                    |
-| [:date:R.HydroTools.FactorAtenuacion PrecipitacionFa.xlsx](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca.  |
-| [:round_pushpin:R.DAPC.NodoValle.shp](../../file/shp/R.DAPC.NodoValle.zip)                              | Capa de nodos eje valle recto (creada en actividad anterior).                                                                    |
+| Requerimiento                                                                                                              | Descripción                                                                                                                      |
+|:---------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                                          | Autodesk Autocad 3D 2026 o superior.                                                                                             |
+| [:toolbox:Herramienta](https://help.autodesk.com/view/INVNTOR/2026/ENU/?guid=GUID-AE780841-1B8B-4197-86F6-5632BA541F32)    | Autodesk Inventor Interoperability 2026 o superior.                                                                                                  |
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                         | Microsoft Excel 365.                                                                                                             |
 
 </div>
 
