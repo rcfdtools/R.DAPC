@@ -70,6 +70,10 @@ Complementariamente, desde la pestaña Modeling, podrá crear superficies o sól
 * Polisolid: paredes sólidas a partir de líneas con espesor y ancho definidos.
 * Prespull: extrusión de caras a partir de objetos cerrados, extensión de objetos ya extruidos o sustracción sobre un sólido ya creado.
 
+### Ejercicio M01A02dE01
+
+Construya el sólido mostrado en la figura, calcule el volúmen de cada elemento y el volúmen final del sólido integrado.
+
 1. Abra el archivo _/file/cad/M01A02a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A02d.dwg_ y establezca por defecto la capa _0_.
  
 2. En la esquina superior izquierda del espacio de dibujo, seleccione la vista superior o _Top_ y luego la vista isométrica SE. Podrá observar que en la esquina superior derecha del espacio de dibujo, se muestra una representación de un cubo en el que la cara superior corresponde a la vista TOP, abajo a la derecha la cara RIGHT y abajo a la izquierda la cara FRONT. Cree en la coordenada absoluta (50,50), un cubo o caja de +100 unidades en todas las aristas alejándose positivamente del origen absoluto (0,0,0). En _Home / View_, establezca la vista _Conceptual_.
@@ -79,8 +83,6 @@ Complementariamente, desde la pestaña Modeling, podrá crear superficies o sól
 <div align="center"><img src="graph/AutoCAD_ModelingBox.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 3. Dibujemos ahora un cilindro en la cara frontal del cubo creado. Para ello, primero debemos seleccionar la vista frontal y luego la vista isométrica SE (south-east). Observará que el plano XY ahora se alinea con la cara frontal y que el eje Z se dirige hacia el sentido contrario. Con la herramienta _Cylinder_, dibuje un cilindro en el centro de la cara frontal con radio 50 y altura de 25 unidades.
-
-<div align="center"><img src="graph/AutoCAD_Modeling.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 <div align="center"><img src="graph/AutoCAD_ModelingCylinder.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -134,8 +136,6 @@ Complementariamente, desde la pestaña Modeling, podrá crear superficies o sól
 
 En AutoCAD, la extrusión es el proceso de convertir objetos 2D en objetos 3D al alargarlos o extruirlos en una dirección específica. Básicamente, se toma una forma plana y se le da profundidad, creando un sólido o una superficie 3D. La extrusión es una herramienta fundamental para transformar dibujos planos en modelos tridimensionales. Dependiendo de si el objeto 2D es cerrado o abierto, la extrusión puede crear un sólido (si el objeto es cerrado, como un círculo o un cuadrado) o una superficie (si el objeto es abierto, como una línea o un arco). La extrusión puede realizarse de manera ortogonal al plano del objeto original o en una dirección específica definida por el usuario. También puede realizarse a lo largo de una trayectoria definida. Además de la dirección, se puede especificar un ángulo de inclinación para la extrusión, lo que permite crear objetos con forma de cono o pirámide. El comando principal para realizar la extrusión en AutoCAD es **EXTRUDE**. 
 
-
-
 Para convertir objetos 2D en objetos 3D, podémos utilizar como insumos:
 
 * Líneas: crea una superficie independiente para cada línea fuente.
@@ -153,6 +153,17 @@ Otras opciones específicas de este comando, permiten:
 * Expression: en función de parámetros definidos sobre un objeto.
 
 > Opcionalmente, podrá extruir las caras de un sólido, para ello se selecciona primero el sólido, luego con la tecla <kbd>ctrl</kbd> se selecciona la cara o caras a extruir.
+
+
+### Ejercicio M01A02dE01
+
+A partir de coordenadas de localización del centroide de una elipse y la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar la polilínea en AutoCAD y luego suavizarla. Utilizando los parámetros de cálculo, trace con la herramienta **ELLIPSE**, la elipse compuesta por arcos y compare su longitud con la trazada a partir de puntos. Guarde el dibujo como _/file/cad/**M01A02cE00**.dwg_.
+
+Especificaciones:
+
+* Centroide: las coordenadas (x,y) del centroide o (h,k), corresponde a los 2 últimos dígitos de su código de alumno.
+* Semiejes: la longitud del semieje mayor o a, corresponde a una longitud igual a los 3 últimos dígitos de su código de alumno; la longitud del semieje menor o b, corresponde al 35% de la longitud del semieje mayor.
+
 
 
 ## THICKEN
