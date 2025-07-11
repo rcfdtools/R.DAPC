@@ -247,7 +247,7 @@ A partir de la figura dibujada en el ejercicio [M01A01E06](../M01A01), cree un s
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE07.dwg_.
-* Isométrico: dimensiones en [M01A01E06](../M01A01).
+* dimensiones: ver [M01A01E06](../M01A01).
 * Material: aluminio.
 * Plano de referencia: front.
 
@@ -263,13 +263,31 @@ A partir de la figura dibujada en el ejercicio [M01A01E05](../M01A01), cree un s
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE08.dwg_.
-* Isométrico: dimensiones en [M01A01E05](../M01A01).
+* Dimensiones: ver [M01A01E05](../M01A01).
 * Material: aluminio.
 * Plano de referencia: front.
 
 Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego fusione.
 
 <div align="center"><img src="graph/M01A02dE08.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+
+### Ejercicio M01A02dE09
+
+A partir de la figura dibujada en el ejercicio [M01A01E07](../M01A01), cree un sólido y calcule su área superficial, volumen y masa.
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE09.dwg_.
+* Dimensiones: indicadas en esquema.
+* Material: madera.
+* Plano de referencia: front.
+
+Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
+
+<div align="center"><img src="graph/M01A02dE09.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+
 
 
 ## 3. Solid Editing / SHELL (vaciar)
