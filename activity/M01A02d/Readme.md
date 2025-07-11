@@ -72,7 +72,7 @@ Complementariamente, desde la pestaña Modeling, podrá crear superficies o sól
 
 ### Ejercicio M01A02dE01
 
-Construya el sólido mostrado en la figura, calcule el volúmen de cada elemento y el volúmen final del sólido integrado.
+Construya el sólido mostrado en la figura, calcule el volúmen, área superficial, masa de cada elemento y el volúmen y masa final del sólido integrado si su material es titanio.
 
 1. Abra el archivo _/file/cad/M01A02a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A02d.dwg_ y establezca por defecto la capa _0_.
  
@@ -110,17 +110,20 @@ Construya el sólido mostrado en la figura, calcule el volúmen de cada elemento
 
 <div align="center"><img src="graph/AutoCAD_ModifyCopy.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> Para los elementos dibujados, cree un libro en Excel que permita calcular el volúmen y el área superficial que envuelve cada elemento.
-
 9. Desde el menú _Home / Solid Editing_, ejecute la herramienta _Solid Union_ seleccionando todos los objetos de la copia, así integrará todos los elementos en un único sólido. Active la visualización X-Ray, observará que al seleccionar el elemento ya no existen sólidos separados y que no está duplicado el volúmen de la semiesfera que estaba embebida en el cubo.
 
 <div align="center"><img src="graph/AutoCAD_SolidEditingSolidUnion.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-10. Calculemos ahora el volúmen total del sólido, para ello, en el _Command_, ejecute el comando **MASSPROP**. Observará que el volúmen del elemento es de 1993261.191 unidades cúbicas y que el objeto está inscrito dentro de un cubo perimetral o Bounding Box de:
+10. Calculemos ahora el volúmen total de cada elemento y del sólido inteegrado, para ello, en el _Command_, ejecute el comando **MASSPROP**. Observará que el volúmen del elemento es de 1993261.191 unidades cúbicas y que el objeto está inscrito dentro de un cubo perimetral o Bounding Box de:
 
 * X: -25.000  --  200.000 
 * Y: 275.000  --  425.000 
 * Z: 0.000  --  150.000 
+
+Para los elementos dibujados, cree un libro en Excel que permita calcular el volúmen y el área superficial que envuelve cada elemento.
+
+<div align="center"><img src="graph/Excel_VolumenAreaMasaSolido.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Excel_VolumenAreaMasaSolido1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 11. Suavicemos ahora las arístas anguladas del objeto creado. Primero cree una copia del objeto integrado y luego en el menú _Home / Solid / Solid Editing_, seleccione la herramienta _Fillet Edge_, defina un radio de suavizado en 5 unidades y suavice todas las aristas del cubo inicial.
 
