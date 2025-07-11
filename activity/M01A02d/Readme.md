@@ -165,7 +165,7 @@ Especificaciones:
 
 * Profundidad: 25 unidades.
 * Material: acero.
-* Plano de referencia: frontal ó XZ absoluto.
+* Plano de referencia: frontal ó YZ absoluto.
 
 
 
