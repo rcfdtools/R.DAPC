@@ -235,7 +235,7 @@ Especificaciones:
 * Material: aluminio.
 * Plano de referencia: front.
 
-Para la construcción de esta figura, cree primero el cubo y las líneas de objeto de las 3 caras, luego con **PRESPULL** o con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
+Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **PRESPULL** o con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
 
 <div align="center"><img src="graph/M01A02dE06.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
@@ -251,7 +251,7 @@ Especificaciones:
 * Material: aluminio.
 * Plano de referencia: front.
 
-Para la construcción de esta figura, cree primero el cubo y las líneas de objeto de las 3 caras, luego con **PRESPULL** o con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
+Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego fusione.
 
 <div align="center"><img src="graph/M01A02dE07.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
