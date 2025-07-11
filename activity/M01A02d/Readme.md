@@ -320,6 +320,25 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 <div align="center"><img src="graph/M01A02dE11.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
+### Ejercicio M01A02dE12
+
+A partir de la figura dibujada en el ejercicio [M01A02bE05](../M01A02), cree un sólido y calcule su área superficial, volumen y masa.
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE12.dwg_.
+* Dimensiones: ver [M01A02bE05](../M01A02).
+* Material: acero.
+* Plano de referencia: front.
+
+Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
+
+<div align="center"><img src="graph/M01A02dE12.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+
+
+
+
 
 
 ## 3. Solid Editing / SHELL (vaciar)
