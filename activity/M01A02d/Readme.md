@@ -285,7 +285,7 @@ Especificaciones:
 
 Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **SUBSTRACT** recorte el volumen interno a partir de los objetos. Cree una copia de la escalera y suavice los extremos de apoyo con un radio de 2.5 unidades.
 
-<div align="center"><img src="graph/M01A02dE09a.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE09a.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
 
 ### Ejercicio M01A02dE10
