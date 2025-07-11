@@ -226,7 +226,7 @@ Para la construcción de esta figura, cree primero el cubo y las líneas de obje
 
 ### Ejercicio M01A02dE06
 
-A partir de la figura dibujada en el ejercicio [M01A01E03](../M01A01), cree un sólido y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A01E04](../M01A01), cree un sólido y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -240,6 +240,20 @@ Para la construcción de esta figura, cree primero el cubo y las líneas de obje
 <div align="center"><img src="graph/M01A02dE06.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
+### Ejercicio M01A02dE07
+
+A partir de la figura dibujada en el ejercicio [M01A01E05](../M01A01), cree un sólido y calcule su área superficial, volumen y masa.
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE07.dwg_.
+* Isométrico: dimensiones en [M01A01E05](../M01A01.
+* Material: aluminio.
+* Plano de referencia: front.
+
+Para la construcción de esta figura, cree primero el cubo y las líneas de objeto de las 3 caras, luego con **PRESPULL** o con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
+
+<div align="center"><img src="graph/M01A02dE07.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
 
