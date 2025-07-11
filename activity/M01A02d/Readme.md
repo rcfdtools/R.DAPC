@@ -159,15 +159,16 @@ Otras opciones específicas de este comando, permiten definir:
 
 ### Ejercicio M01A02dE02
 
-A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un sólido y calcule su área superficial, volumen y masa. Guarde el dibujo como _/file/cad/M01A02dE02.dwg_.
+A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un sólido y calcule su área superficial, volumen y masa. 
 
 Especificaciones:
 
-* Profundidad: 25 unidades.
+* Guarde el dibujo como _/file/cad/M01A02dE02.dwg_.
+* Profundidad: +25 unidades.
 * Material: acero.
-* Plano de referencia: frontal ó YZ absoluto.
+* Plano de referencia: right.
 
-
+<div align="center"><img src="graph/M01A02dE02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
