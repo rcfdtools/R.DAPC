@@ -134,8 +134,7 @@ Para los elementos dibujados, cree un libro en Excel que permita calcular el vol
 <div align="center"><img src="graph/AutoCAD_VisualizeMaterials.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-
-## 2. Extrusión
+## 2. Solid Editing / Extrude (extrusión)
 
 En AutoCAD, la extrusión es el proceso de convertir objetos 2D en objetos 3D al alargarlos o extruirlos en una dirección específica. Básicamente, se toma una forma plana y se le da profundidad, creando un sólido o una superficie 3D. La extrusión es una herramienta fundamental para transformar dibujos planos en modelos tridimensionales. Dependiendo de si el objeto 2D es cerrado o abierto, la extrusión puede crear un sólido (si el objeto es cerrado, como un círculo o un cuadrado) o una superficie (si el objeto es abierto, como una línea o un arco). La extrusión puede realizarse de manera ortogonal al plano del objeto original o en una dirección específica definida por el usuario. También puede realizarse a lo largo de una trayectoria definida. Además de la dirección, se puede especificar un ángulo de inclinación para la extrusión, lo que permite crear objetos con forma de cono o pirámide. El comando principal para realizar la extrusión en AutoCAD es **EXTRUDE**. 
 
@@ -146,9 +145,9 @@ Para convertir objetos 2D en objetos 3D, podémos utilizar como insumos:
 * Poli-líneas abiertas: crea una superficie contínua sobre toda la línea.
 * Poli-líneas cerradas: crea un sólido
 
-Tenga en cuenta que el comando **EXTRUDE** crea una superficie o un volúmen dependiente del objeto seleccionado, sin embargo, desde el command podrá seleccionar **MO**do y definir si va a crear únicamente superficies.
+> Tenga en cuenta que el comando **EXTRUDE** crea una superficie o un volúmen dependiente del objeto seleccionado, sin embargo, desde el command podrá seleccionar **MO**do y definir si va a crear únicamente superficies.
 
-Otras opciones específicas de este comando, permiten:
+Otras opciones específicas de este comando, permiten definir:
 
 * Taper angle: ángulo de inclinación con respecto al objeto, valores positivos crean elementos hacia adentro, valores negativos hacia afuera.
 * Path: por trayectoria, para lo cual es necesario que los dos objetos no estén en el mismo plano.
@@ -160,22 +159,23 @@ Otras opciones específicas de este comando, permiten:
 
 ### Ejercicio M01A02dE01
 
-A partir de coordenadas de localización del centroide de una elipse y la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar la polilínea en AutoCAD y luego suavizarla. Utilizando los parámetros de cálculo, trace con la herramienta **ELLIPSE**, la elipse compuesta por arcos y compare su longitud con la trazada a partir de puntos. Guarde el dibujo como _/file/cad/**M01A02cE00**.dwg_.
+A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un sólido y calcule su área superficial, volumen y masa. Guarde el dibujo como _/file/cad/M01A02dE01.dwg_.
 
 Especificaciones:
 
-* Centroide: las coordenadas (x,y) del centroide o (h,k), corresponde a los 2 últimos dígitos de su código de alumno.
-* Semiejes: la longitud del semieje mayor o a, corresponde a una longitud igual a los 3 últimos dígitos de su código de alumno; la longitud del semieje menor o b, corresponde al 35% de la longitud del semieje mayor.
-
-
-
-## THICKEN
-
+* Profundidad: 25 unidades.
+* Material: acero.
+* Plano de referencia: frontal ó XZ absoluto.
 
 
 
 
-## Solid Editing / SHELL
+
+
+
+
+
+## 3. Solid Editing / SHELL (vaciar)
 
 Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través del comando **SOLIDEDIT** / **B**ody / **S**hell, o desde _Home / Solid Editing / Shell_, es necesario indicar las caras a remover y el espesor de las paredes (valores positivos generan espesores hacia adentro del sólido, valores negativos hacia afuera).
 
