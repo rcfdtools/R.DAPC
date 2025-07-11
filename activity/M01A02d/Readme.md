@@ -163,7 +163,7 @@ A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un s
 
 Especificaciones:
 
-* Guarde el dibujo como _/file/cad/M01A02dE02.dwg_.
+* Archivo: _/file/cad/M01A02dE02.dwg_.
 * Profundidad: +25 unidades.
 * Material: acero.
 * Plano de referencia: right.
