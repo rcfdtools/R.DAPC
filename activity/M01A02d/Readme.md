@@ -170,7 +170,7 @@ Especificaciones:
 * Material: acero.
 * Plano de referencia: right.
 
-<div align="center"><img src="graph/M01A02dE02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE02.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
 ### Ejercicio M01A02dE03
@@ -184,9 +184,7 @@ Especificaciones:
 * Material: concreto.
 * Plano de referencia: front.
 
-<div align="center"><img src="graph/M01A02dE03.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-
+<div align="center"><img src="graph/M01A02dE03.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
 ## 3. Solid Editing / SHELL (vaciar)

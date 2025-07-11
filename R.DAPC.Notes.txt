@@ -15,6 +15,8 @@ Windows + Shift + S for print screen
 
 
 Practical exercices and pending
+	A4 pdf: 297 x 210, frame 293 x 206	
+	jpg: 4k 3840 x 2160
 	Array para crear logo UECIJG.
 	Clothoid.
 	Incluye in keywords all used commands in each activitie.
@@ -53,6 +55,7 @@ Commands
 	APPLOAD or AP: load an external app or lisp code.
 	DELOBJ: variable de sistema para definir si al crear un elemento 3D a partir de un objeto, este se elimina o se mantiene.
 	MASSPROP: calcula el volumen de un sólido.
+	JPGOUT: command or the PLOT command with a JPG plotter configuration. The JPGOUT command directly exports selected objects or the entire drawing and viewports to a JPEG file. 
 
 Mouse: https://www.vecteezy.com/vector-art/24103530-set-of-computer-mouse-outline-drawing-vector-computer-mouse-in-a-sketch-style-computer-mouse-training-template-outline-vector-
 
