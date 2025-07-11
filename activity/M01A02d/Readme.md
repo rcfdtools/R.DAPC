@@ -168,7 +168,7 @@ Especificaciones:
 * Material: acero.
 * Plano de referencia: right.
 
-<div align="center"><img src="graph/M01A02dE02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE02.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
 
