@@ -171,7 +171,18 @@ Especificaciones:
 <div align="center"><img src="graph/M01A02dE02.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
+### Ejercicio M01A02dE03
 
+A partir de la figura ejemplo presentada en el numeral 6 de la actividad [M01A01](../M01A01), cree un sólido y calcule su área superficial, volumen y masa. 
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE03.dwg_.
+* Profundidad: +25 unidades.
+* Material: concreto.
+* Plano de referencia: front.
+
+<div align="center"><img src="graph/M01A02dE03.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
 
