@@ -288,6 +288,21 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 <div align="center"><img src="graph/M01A02dE09a.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
+### Ejercicio M01A02dE10
+
+A partir de la figura dibujada en el ejercicio [M01A02bE02](../M01A02), cree un sólido y calcule su área superficial, volumen y masa.
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE10.dwg_.
+* Dimensiones: indicadas en esquema. El espesor de la corona es 10, el espesor del mango de sujeción es 6 y el suavizado y muesca de 1. 
+* Material: acero.
+* Plano de referencia: front.
+
+Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
+
+<div align="center"><img src="graph/M01A02dE10.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
 
 
 ## 3. Solid Editing / SHELL (vaciar)
