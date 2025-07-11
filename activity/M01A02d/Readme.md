@@ -247,7 +247,7 @@ A partir de la figura dibujada en el ejercicio [M01A01E05](../M01A01), cree un s
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE07.dwg_.
-* Isométrico: dimensiones en [M01A01E05](../M01A01.
+* Isométrico: dimensiones en [M01A01E05](../M01A01).
 * Material: aluminio.
 * Plano de referencia: front.
 
