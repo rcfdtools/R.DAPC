@@ -120,10 +120,10 @@ Construya el sólido mostrado en la figura, calcule el volúmen, área superfici
 * Y: 275.000  --  425.000 
 * Z: 0.000  --  150.000 
 
-Para los elementos dibujados, cree un libro en Excel que permita calcular el volúmen y el área superficial que envuelve cada elemento.
+Para los elementos dibujados, cree un libro en Excel que permita calcular el volúmen, área superficial que envuelve cada elemento y masa utilizando como material titanio.
 
-<div align="center"><img src="graph/Excel_VolumenAreaMasaSolido.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-<div align="center"><img src="graph/Excel_VolumenAreaMasaSolido1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Excel_VolumenAreaMasaSolido.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/Excel_VolumenAreaMasaSolido1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 11. Suavicemos ahora las arístas anguladas del objeto creado. Primero cree una copia del objeto integrado y luego en el menú _Home / Solid / Solid Editing_, seleccione la herramienta _Fillet Edge_, defina un radio de suavizado en 5 unidades y suavice todas las aristas del cubo inicial.
 
