@@ -181,10 +181,36 @@ Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE03.dwg_.
 * Profundidad: +25 unidades.
+* Circunferencias: r25 a L50 de pared externa.
 * Material: concreto.
 * Plano de referencia: front.
 
 <div align="center"><img src="graph/M01A02dE03.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+
+### Ejercicio M01A02dE04
+
+A partir de la figura ejemplo presentada en el numeral 6 de la actividad [M01A01](../M01A01), cree un sólido con aristas redondeadas y calcule su área superficial, volumen y masa. 
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE04.dwg_.
+* Box: +100 unidades.
+* Circunferencias: externas con r50 e internas con r25 en centroide de 3 caras ortogonales.
+* Suavizado: 5 unidades solo en circunferencias internas.
+* Material: vidrio.
+* Plano de referencia: front.
+
+Para la construcción de esta figura, cree primero el cubo y circunferencias en 3 caras ortogonales, luego realice extrusiones de las circunferencias externas iguales al ancho del cubo y hacia adentro, luego con **PRESPULL** o con **SUBSTRACT** recorte el volumen interno a partir de las circunferencias interiores, por último, realice el suavizado de las aristas.
+
+<div align="center"><img src="graph/M01A02dE04a.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE04b.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE04c.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+
+
+
+
 
 
 ## 3. Solid Editing / SHELL (vaciar)
