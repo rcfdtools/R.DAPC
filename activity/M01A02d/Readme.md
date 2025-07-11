@@ -333,7 +333,7 @@ Especificaciones:
 
 Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
 
-<div align="center"><img src="graph/M01A02dE12.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE12.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 
