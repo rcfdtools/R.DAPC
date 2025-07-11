@@ -203,9 +203,9 @@ Especificaciones:
 
 Para la construcción de esta figura, cree primero el cubo y circunferencias en 3 caras ortogonales, luego realice extrusiones de las circunferencias externas iguales al ancho del cubo y hacia adentro, luego con **PRESPULL** o con **SUBSTRACT** recorte el volumen interno a partir de las circunferencias interiores, por último, realice el suavizado de las aristas.
 
-<div align="center"><img src="graph/M01A02dE04a.jpg" alt="R.DAPC" width="80%" border="0" /></div>
-<div align="center"><img src="graph/M01A02dE04b.jpg" alt="R.DAPC" width="80%" border="0" /></div>
-<div align="center"><img src="graph/M01A02dE04c.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE04a.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE04b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE04c.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 
