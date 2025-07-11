@@ -74,6 +74,8 @@ Complementariamente, desde la pestaña Modeling, podrá crear superficies o sól
 
 Construya el sólido mostrado en la figura, calcule el volúmen, área superficial, masa de cada elemento y el volúmen y masa final del sólido integrado si su material es titanio.
 
+<div align="center"><img src="graph/M01A02dE01.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 1. Abra el archivo _/file/cad/M01A02a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A02dE01.dwg_ y establezca por defecto la capa _0_.
  
 2. En la esquina superior izquierda del espacio de dibujo, seleccione la vista superior o _Top_ y luego la vista isométrica SE. Podrá observar que en la esquina superior derecha del espacio de dibujo, se muestra una representación de un cubo en el que la cara superior corresponde a la vista TOP, abajo a la derecha la cara RIGHT y abajo a la izquierda la cara FRONT. Cree en la coordenada absoluta (50,50), un cubo o caja de +100 unidades en todas las aristas alejándose positivamente del origen absoluto (0,0,0). En _Home / View_, establezca la vista _Conceptual_.
