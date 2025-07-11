@@ -283,7 +283,7 @@ Especificaciones:
 * Material: madera.
 * Plano de referencia: front.
 
-Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
+Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **SUBSTRACT** recorte el volumen interno a partir de los objetos. Cree una copia de la escalera y suavice los extremos de apoyo con un radio de 2.5 unidades.
 
 <div align="center"><img src="graph/M01A02dE09.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
