@@ -74,7 +74,7 @@ Complementariamente, desde la pestaña Modeling, podrá crear superficies o sól
 
 Construya el sólido mostrado en la figura, calcule el volúmen, área superficial, masa de cada elemento y el volúmen y masa final del sólido integrado si su material es titanio.
 
-<div align="center"><img src="graph/M01A02dE01.jpg" alt="R.DAPC" width="50%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE01.jpg" alt="R.DAPC" width="70%" border="0" /></div>
 
 1. Abra el archivo _/file/cad/M01A02a.dwg_ creado previamente que contiene los Layers del curso DAPC y las configuraciones de unidades y visualización, guarde como _/file/cad/M01A02dE01.dwg_ y establezca por defecto la capa _0_.
  
