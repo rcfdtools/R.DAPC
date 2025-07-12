@@ -360,7 +360,7 @@ Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE14.dwg_.
 * Dimensiones: ver [M01A02bE07](../M01A02). Suavizado de 2.
-* Material: ladrillo.
+* Material: 3D print - Nylon.
 * Plano de referencia: front.
 
 Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **PRESPULL** o con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
@@ -376,7 +376,7 @@ Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE15.dwg_.
 * Dimensiones: ver [M01A02bE08](../M01A02). Suavizado de 2.
-* Material: ladrillo.
+* Material: 3D print - Nylon.
 * Plano de referencia: front.
 
 Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **PRESPULL** o con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
@@ -419,6 +419,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/ACD/2026/ENU/
 * [AutoCAD para todos / Comando EXTRUDE y objetos paramétricos](https://www.youtube.com/watch?v=6h1mgMekpBw&)
 * [AutoCAD para todos / Creación de vistas base y proyectada con AutoCAD](https://www.youtube.com/watch?v=ToCCqdeTCz8)
+* https://bitfab.io/es/blog/densidades-materiales-3d/
 
 
 ## Control de versiones
