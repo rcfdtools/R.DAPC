@@ -10,7 +10,9 @@ Creación de dibujos y sólidos tridimensionales.
 
 Al finalizar esta actividad, el estudiante:
 
-* 
+* A partir de la representación de dibujos isométricos, dibujar sólidos 3D.
+* Crear superficies y sólidos tridimensionales.
+* Calcular el área superficial, volúmen y masa de un sólido.
 
 
 ## Requerimientos
