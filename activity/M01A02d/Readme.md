@@ -352,6 +352,21 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 <div align="center"><img src="graph/M01A02dE13.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
+### Ejercicio M01A02dE14
+
+A partir de la figura dibujada en el ejercicio [M01A02bE07](../M01A02), cree un sólido y calcule su área superficial, volumen y masa.
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE14.dwg_.
+* Dimensiones: ver [M01A02bE07](../M01A02). Suavizado de 2.
+* Material: ladrillo.
+* Plano de referencia: front.
+
+Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **PRESPULL** o con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
+
+<div align="center"><img src="graph/M01A02dE14.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+
 
 
 
