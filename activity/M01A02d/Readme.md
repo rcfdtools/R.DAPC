@@ -237,7 +237,7 @@ A partir de la figura dibujada en el ejercicio [M01A01E04](../M01A01), cree un s
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE06.dwg_.
-* Box: +100 unidades, deduzca las demás dimensiones en proporciones de 20 unidades.
+* Dimensiones: ver [M01A01E04](../M01A01).
 * Material: aluminio.
 * Plano de referencia: front.
 
@@ -253,7 +253,7 @@ A partir de la figura dibujada en el ejercicio [M01A01E06](../M01A01), cree un s
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE07.dwg_.
-* dimensiones: ver [M01A01E06](../M01A01).
+* Dimensiones: ver [M01A01E06](../M01A01).
 * Material: aluminio.
 * Plano de referencia: front.
 
