@@ -116,7 +116,7 @@ Construya el sólido mostrado en la figura, calcule el volúmen, área superfici
 
 <div align="center"><img src="graph/AutoCAD_SolidEditingSolidUnion.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-10. Calculemos ahora el volúmen total de cada elemento y del sólido inteegrado, para ello, en el _Command_, ejecute el comando **MASSPROP**. Observará que el volúmen del elemento es de 1993261.191 unidades cúbicas y que el objeto está inscrito dentro de un cubo perimetral o Bounding Box de:
+10. Calculemos ahora el volúmen total de cada elemento y del sólido integrado, para ello, en el _Command_, ejecute el comando **MASSPROP**. Observará que el volúmen del elemento es de 1993261.191 unidades cúbicas y que el objeto está inscrito dentro de un cubo perimetral o Bounding Box de:
 
 * X: -25.000  --  200.000 
 * Y: 275.000  --  425.000 
@@ -126,6 +126,8 @@ Para los elementos dibujados, cree un libro en Excel que permita calcular el vol
 
 <div align="center"><img src="graph/Excel_VolumenAreaMasaSolido.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 <div align="center"><img src="graph/Excel_VolumenAreaMasaSolido1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+> Utilice el comando **AREA** y la opción **O**bject para calcular el área supercicial de los sólidos en AutoCAD.
 
 11. Suavicemos ahora las arístas anguladas del objeto creado. Primero cree una copia del objeto integrado y luego en el menú _Home / Solid / Solid Editing_, seleccione la herramienta _Fillet Edge_, defina un radio de suavizado en 5 unidades y suavice todas las aristas del cubo inicial.
 
