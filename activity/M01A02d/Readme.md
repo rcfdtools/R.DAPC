@@ -10,7 +10,7 @@ Creación de dibujos y sólidos tridimensionales.
 
 Al finalizar esta actividad, el estudiante:
 
-* Dibuja sólidos 3D, a partir de la representación de dibujos isométricos.
+* Dibuja sólidos 3D a partir de la representación de dibujos isométricos o esquemas.
 * Crea superficies y sólidos tridimensionales.
 * Calcula el área superficial, volúmen y masa de un sólido.
 
@@ -138,6 +138,8 @@ Para los elementos dibujados, cree un libro en Excel que permita calcular el vol
 12. Designemos ahora acero o Steel como material del objeto. Desde el menú _Visualize / Materials_, aplique el material requerido arrastrando el material hacia el objeto.
 
 <div align="center"><img src="graph/AutoCAD_VisualizeMaterials.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Para completar esta figura, incorpore una cuña de 50 unidades de altura que cubra la base del cubo.
 
 
 ## 2. Solid Editing / Extrude (extrusión)
@@ -424,6 +426,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [AutoCAD para todos / Comando EXTRUDE y objetos paramétricos](https://www.youtube.com/watch?v=6h1mgMekpBw&)
 * [AutoCAD para todos / Creación de vistas base y proyectada con AutoCAD](https://www.youtube.com/watch?v=ToCCqdeTCz8)
 * https://bitfab.io/es/blog/densidades-materiales-3d/
+* https://www.vcalc.com/
 
 
 ## Control de versiones
