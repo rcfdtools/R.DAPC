@@ -44,7 +44,6 @@ Otras normas técnicas y referencias
 * [Video: Actualización NTC 2050: 2020](https://www.conte.org.co/videos/actualizacion-ntc-2050-2020/)
 
 
-
 ## CAD
 
 * https://help.autodesk.com/view/ACD/2026/ESP/
@@ -90,5 +89,5 @@ Otras normas técnicas y referencias
 * Dibujo técnico 2 - Marea Verde ([.pdf](DibujoTecnico2MareaVerde.pdf), [www](https://www.apuntesmareaverde.org.es/grupos/dib/2bach/dibujo_tecnico_II.pdf))
 * Dibujo técnico 2 - Joaquin Gonzalo Gonzalo ([.pdf](DibujoTecnico2Gonzalo.pdf), [www](https://solucionario.es/descargar-solucionarios-resueltos-dibujo-tecnico/))
 * Dibujo para Diseño en Ingeniería - Universidad Continental - Peru ([.pdf](DibujoParaDisenoEnIngenieríaUniversidadContinentalPeru.pdf), [www](https://repositorio.continental.edu.pe/bitstream/20.500.12394/2210/1/DO_FIN_EE_MT_UC0222_20162.pdf))
-
+* [Guía sobre codos para conductos eléctricos - LEDES](https://www.ledestube.com/es_mx/una-guia-completa-sobre-codos-para-conductos-electricos/)
 

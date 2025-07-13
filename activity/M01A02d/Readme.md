@@ -429,13 +429,29 @@ A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un s
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE02.dwg_.
-* Dimensiones: ver [M01A01E01](../M01A01). Eje de barrido usando una circunferencia de radio 
+* Dimensiones: ver [M01A01E01](../M01A01). Eje de barrido usando una circunferencia de radio 100.
 * Material: acero.
 * Plano de referencia: right.
 
 Para la construcción de esta figura, cree primero los objetos en una polilínea cerrada, trace la línea de barrido y luego ejecute el comando **SWEEP**.
 
 <div align="center"><img src="graph/M01A02dE17.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+
+### Ejercicio M01A02dE18
+
+A partir del esquema, cree un sólido y calcule su área superficial, volumen y masa. 
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE18.dwg_.
+* Dimensiones: varilla lisa de 1 pulgada o 25.4 milímetros. 
+* Material: acero.
+* Plano de referencia: top para la circunferencia y left para la trayectoria.
+
+Para la construcción de esta figura, cree primero los objetos en una polilínea cerrada, trace la línea de barrido y luego ejecute el comando **SWEEP**.
+
+<div align="center"><img src="graph/M01A02dE18.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
 
