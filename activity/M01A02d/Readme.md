@@ -128,6 +128,7 @@ Para los elementos dibujados, cree un libro en Excel que permita calcular el vol
 
 <div align="center"><img src="graph/Excel_VolumenAreaMasaSolido.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 <div align="center"><img src="graph/Excel_VolumenAreaMasaSolido1.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/Excel_VolumenAreaMasaSolido2.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 > Utilice el comando **AREA** y la opción **O**bject para calcular el área supercicial de los sólidos en AutoCAD.
 
@@ -514,7 +515,7 @@ Para las curvas especiales vistas en la actividad [1.2.b. Elementos básicos de 
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE21.dwg_.
-* Objetos: ver [M01A02c](../M01A02c)
+* Objetos: ver [M01A02c](../M01A02c).
 * Material: libre elección.
 * Plano de referencia: libre elección.
 
