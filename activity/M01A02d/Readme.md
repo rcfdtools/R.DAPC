@@ -484,16 +484,19 @@ Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través d
 
 A partir de la tabla suministrada, cree sólidos de codos eléctricos, luego xxxx y calcule su área superficial, volumen y masa. 
 
+<div align="center"><img src="graph/M01A02dE20.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE20a.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE20.dwg_.
-* Objetos: suministrados. 
-* Material: clay soil.
+* Objetos: a partir de tabla. 
+* Material: PVC.
 * Plano de referencia: left.
 
-Para la construcción de esta figura, ejecute el comando **LOFT** y seleccione los elementos de arriba hacia abajo en el sentido inverso del eje Z.
+Para la construcción de esta figura, cree el eje central, luego las circunferencias y ejecute el comando **LOFT**, **EXTRUDE**, **SWEEP** y **SOLIDEDIT** / **B**ody / **S**hell para crear el codo.
 
-<div align="center"><img src="graph/M01A02dE20.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE20b.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
