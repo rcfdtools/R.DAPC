@@ -1,5 +1,5 @@
 # 1.2.d. Dibujo en 3D
-Keywords: `box` `cylinder` `cone` `sphere` `pyramid` `wedge` `torus` `extrude` `loft` `revolve` `sweep` `shell` `fillet-edge` `3d-rotate` `m01a2d`
+Keywords: `box` `cylinder` `cone` `sphere` `pyramid` `wedge` `torus` `extrude` `loft` `revolve` `sweep` `shell` `fillet-edge` `3d-rotate` `massprop` `area-object` `m01a2d`
 
 Creación de dibujos y sólidos tridimensionales.
 
