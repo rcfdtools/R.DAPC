@@ -482,7 +482,7 @@ Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través d
 
 ### Ejercicio M01A02dE20
 
-A partir de la tabla suministrada, cree sólidos de las paredes con espesor para codos eléctricos, luego y calcule su área superficial, volumen y masa. 
+A partir de la tabla suministrada[^1], cree sólidos de las paredes con espesor para codos eléctricos, luego y calcule su área superficial, volumen y masa. 
 
 <div align="center"><img src="graph/M01A02dE20.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/M01A02dE20a.jpg" alt="R.DAPC" width="100%" border="0" /></div>
@@ -555,4 +555,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [:arrow_backward: Anterior](../M01A02c/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A03/Readme.md) |
 |---------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
-[^1]: 
+[^1]: https://www.ledestube.com/es_mx/una-guia-completa-sobre-codos-para-conductos-electricos/
