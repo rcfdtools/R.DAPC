@@ -142,7 +142,7 @@ Para los elementos dibujados, cree un libro en Excel que permita calcular el vol
 > Para completar esta figura, incorpore una cuña de 50 unidades de altura que cubra la base del cubo.
 
 
-## 2. Solid Editing / Extrude (extrusión)<img src="../../file/graph/AutoCAD_ModelingExtrude.png" alt="R.DAPC" height=25 border="0" />
+## 2. Solid Editing / Extrude (extrusión) <img src="../../file/graph/AutoCAD_ModelingExtrude.png" alt="R.DAPC" height=25 border="0" />
 
 En AutoCAD, la extrusión es el proceso de convertir objetos 2D en objetos 3D al alargarlos o extruirlos en una dirección específica. Básicamente, se toma una forma plana y se le da profundidad, creando un sólido o una superficie 3D. La extrusión es una herramienta fundamental para transformar dibujos planos en modelos tridimensionales. Dependiendo de si el objeto 2D es cerrado o abierto, la extrusión puede crear un sólido (si el objeto es cerrado, como un círculo o un cuadrado) o una superficie (si el objeto es abierto, como una línea o un arco). La extrusión puede realizarse de manera ortogonal al plano del objeto original o en una dirección específica definida por el usuario. También puede realizarse a lo largo de una trayectoria definida. Además de la dirección, se puede especificar un ángulo de inclinación para la extrusión, lo que permite crear objetos con forma de cono o pirámide. El comando principal para realizar la extrusión en AutoCAD es **[EXTRUDE](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-85FD1106-8F10-4EE8-B0FB-99F1E3AEE405)**. 
 
@@ -366,7 +366,7 @@ Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE14.dwg_.
 * Dimensiones: ver [M01A02bE07](../M01A02). Suavizado de 2.
-* Material: 3D print - Nylon.
+* Material: 3D Print - Nylon.
 * Plano de referencia: front.
 
 Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **PRESPULL** o con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
@@ -382,7 +382,7 @@ Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE15.dwg_.
 * Dimensiones: ver [M01A02bE08](../M01A02). Suavizado de 2.
-* Material: 3D print - Nylon.
+* Material: 3D Print - Nylon.
 * Plano de referencia: front.
 
 Para la construcción de esta figura, cree primero los volúmenes de sus objetos principales, luego con **PRESPULL** o con **SUBSTRACT** recorte el volumen interno a partir de los objetos.
@@ -390,9 +390,33 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 <div align="center"><img src="graph/M01A02dE15.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
-## 3. Solid Editing / Revolve (revolución)<img src="../../file/graph/AutoCAD_ModelingRevolve.png" alt="R.DAPC" height=25 border="0" />
+## 3. Solid Editing / Revolve (revolución) <img src="../../file/graph/AutoCAD_ModelingRevolve.png" alt="R.DAPC" height=25 border="0" />
 
 En AutoCAD, **[REVOLVE](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-6FF936FD-99BA-432A-A43B-4573FD924AF3)** es un comando que crea un objeto 3D sólido o de superficie rotando un objeto 2D alrededor de un eje definido. Básicamente, se toma un perfil (una línea, spline, etc.) y se gira hasta un ángulo definido para crear una forma tridimensional con simetría rotacional. 
+
+> Tenga en cuenta que el eje de rotación debe estar en el mismo plano de referencia del objeto dibujado y que debe ser definido en el extremo o fuera de la figura.
+
+
+### Ejercicio M01A02dE16
+
+A partir de las figuras dibujadas en el ejercicio [M01A02bE03](../M01A02), cree sólidos y calcule su área superficial, volumen y masa.
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE16.dwg_.
+* Dimensiones: indicadas en esquema.
+* Rotación: 270 grados.
+* Material: 3D Print - PVA.
+* Plano de referencia: front.
+
+Para la construcción de esta figura cómo sólido, cree primero los objetos en una polilínea cerrada y luego ejecute el comando **REVOLVE**.
+
+<div align="center"><img src="graph/M01A02dE16a.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE16b.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE16c.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE16d.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+
 
 
 
