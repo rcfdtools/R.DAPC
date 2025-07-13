@@ -482,7 +482,7 @@ Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través d
 
 ### Ejercicio M01A02dE20
 
-A partir de la tabla suministrada, cree sólidos de codos eléctricos, luego xxxx y calcule su área superficial, volumen y masa. 
+A partir de la tabla suministrada, cree sólidos de las paredes con espesor para codos eléctricos, luego y calcule su área superficial, volumen y masa. 
 
 <div align="center"><img src="graph/M01A02dE20.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/M01A02dE20a.jpg" alt="R.DAPC" width="100%" border="0" /></div>
