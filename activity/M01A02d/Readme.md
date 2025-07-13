@@ -390,9 +390,15 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 <div align="center"><img src="graph/M01A02dE15.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
+## 3. Solid Editing / Revolve (revolución) <img src="../../file/graph/AutoCAD_ModelingRevolve.png" alt="R.DAPC" width=20 border="0" />
+
+En AutoCAD, **[REVOLVE](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-6FF936FD-99BA-432A-A43B-4573FD924AF3)** es un comando que crea un objeto 3D sólido o de superficie rotando un objeto 2D alrededor de un eje definido. Básicamente, se toma un perfil (una línea, spline, etc.) y se gira hasta un ángulo definido para crear una forma tridimensional con simetría rotacional. 
 
 
-## 3. Solid Editing / SHELL (vaciar)
+
+
+
+## 4. Solid Editing / SHELL (vaciar)
 
 Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través del comando **SOLIDEDIT** / **B**ody / **S**hell, o desde _Home / Solid Editing / Shell_, es necesario indicar las caras a remover y el espesor de las paredes (valores positivos generan espesores hacia adentro del sólido, valores negativos hacia afuera).
 
@@ -427,6 +433,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [AutoCAD para todos / Creación de vistas base y proyectada con AutoCAD](https://www.youtube.com/watch?v=ToCCqdeTCz8)
 * https://bitfab.io/es/blog/densidades-materiales-3d/
 * https://www.vcalc.com/
+* [Autodesk AutoCAD / About Modeling 3D Objects](https://help.autodesk.com/view/ACD/2024/ENU/?guid=GUID-9DACE807-BC9D-4357-B47E-C6199F6AF1A2)
+* [Autodesk AutoCAD / About Creating 3D Surfaces](https://help.autodesk.com/view/ACD/2024/ENU/?guid=GUID-8218FF9A-6F05-47E7-A39C-47D342B942EB)
 
 
 ## Control de versiones
