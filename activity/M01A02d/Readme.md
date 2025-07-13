@@ -1,5 +1,5 @@
 # 1.2.d. Dibujo en 3D
-Keywords: `extrude`  `m01a2d`
+Keywords: `box` `cylinder` `cone` `sphere` `pyramid` `wedge` `torus` `extrude` `loft` `revolve` `sweep` `shell` `fillet-edge` `3d-rotate` `m01a2d`
 
 Creación de dibujos y sólidos tridimensionales.
 
@@ -484,7 +484,9 @@ Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través d
 
 ### Ejercicio M01A02dE20
 
-A partir de la tabla suministrada[^1], cree sólidos de las paredes con espesor para codos eléctricos, luego y calcule su área superficial, volumen y masa. 
+En las instalaciones eléctricas, el sistema de conductos desempeña un papel fundamental como componente crucial. Este sistema, que consta de conductos y accesorios, tiene como finalidad proteger y organizar el cableado eléctrico. De este modo, evita posibles peligros y garantiza un flujo de energía sin interrupciones. Entre los numerosos accesorios disponibles, un tipo en particular, conocido como codos para conductos, tiene una importancia significativa en cualquier proyecto de instalación eléctrica. [^1]
+
+A partir de la tabla suministrada, cree sólidos de las paredes con espesor para codos eléctricos, luego y calcule su área superficial, volumen y masa. 
 
 <div align="center"><img src="graph/M01A02dE20.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/M01A02dE20a.jpg" alt="R.DAPC" width="100%" border="0" /></div>
@@ -502,27 +504,19 @@ Para la construcción de esta figura, cree el eje central, luego las circunferen
 
 <div align="center"><img src="graph/M01A02dE20b.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-
-
-
-
-
-
-
-
-
+> Cree los mismos codos para ángulos de 45 grados.
 
 
 ## Actividades de proyecto :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A02d_20250531.pdf).
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
-| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A00    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                                                             |
-| M01A00    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| Actividad  | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|:-----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M01A02d    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                                                             |
+| M01A02d    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
@@ -546,7 +540,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.06.22 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  16   |
+| 2025.07.13 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  20   |
 
 
 ##
