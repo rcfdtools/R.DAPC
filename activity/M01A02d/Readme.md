@@ -503,7 +503,7 @@ Para la construcción de esta figura, cree el eje central, luego las circunferen
 
 > Tenga en cuenta que al dibujar las circunferencias a partir de sus diámetros internos, deberá realizar el vaciado o SHELL, definiendo negativo el valor del espesor para que se cree la pared hacia afuera del objeto.
 
-<div align="center"><img src="graph/M01A02dE20b.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE20b.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 > Cree los mismos codos para ángulos de 45 grados.
 
