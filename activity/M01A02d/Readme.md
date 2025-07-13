@@ -390,7 +390,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 <div align="center"><img src="graph/M01A02dE15.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
-## 3. Solid Editing / Revolve (revolución) <img src="../../file/graph/AutoCAD_ModelingRevolve.png" alt="R.DAPC" width=20 border="0" />
+## 3. Solid Editing / Revolve (revolución) <img src="../../file/graph/AutoCAD_ModelingRevolve.png" alt="R.DAPC" width=30 border="0" />
 
 En AutoCAD, **[REVOLVE](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-6FF936FD-99BA-432A-A43B-4573FD924AF3)** es un comando que crea un objeto 3D sólido o de superficie rotando un objeto 2D alrededor de un eje definido. Básicamente, se toma un perfil (una línea, spline, etc.) y se gira hasta un ángulo definido para crear una forma tridimensional con simetría rotacional. 
 
