@@ -470,7 +470,7 @@ Especificaciones:
 * Material: clay soil.
 * Plano de referencia: top.
 
-Para la construcción de esta figura, ejecute el comando **SWEEP** y seleccione los elementos de arriba hacia abajo en el sentido inverso del eje Z.
+Para la construcción de esta figura, ejecute el comando **LOFT** y seleccione los elementos de arriba hacia abajo en el sentido inverso del eje Z.
 
 <div align="center"><img src="graph/M01A02dE19.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
