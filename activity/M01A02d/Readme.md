@@ -411,10 +411,10 @@ Especificaciones:
 
 Para la construcción de esta figura cómo sólido, cree primero los objetos en una polilínea cerrada y luego ejecute el comando **REVOLVE**.
 
-<div align="center"><img src="graph/M01A02dE16a.jpg" alt="R.DAPC" width="80%" border="0" /></div>
-<div align="center"><img src="graph/M01A02dE16b.jpg" alt="R.DAPC" width="80%" border="0" /></div>
-<div align="center"><img src="graph/M01A02dE16c.jpg" alt="R.DAPC" width="80%" border="0" /></div>
-<div align="center"><img src="graph/M01A02dE16d.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE16a.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE16b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE16c.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A02dE16d.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 
