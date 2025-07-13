@@ -475,12 +475,30 @@ Para la construcción de esta figura, ejecute el comando **LOFT** y seleccione l
 <div align="center"><img src="graph/M01A02dE19.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
-
-
-
-## 4. Solid Editing / SHELL (vaciar)
+## 6. Solid Editing / Shell (vaciar) <img src="../../file/graph/AutoCAD_SolidEditShell.png" alt="R.DAPC" height=25 border="0" />
 
 Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través del comando **SOLIDEDIT** / **B**ody / **S**hell, o desde _Home / Solid Editing / Shell_, es necesario indicar las caras a remover y el espesor de las paredes (valores positivos generan espesores hacia adentro del sólido, valores negativos hacia afuera).
+
+
+### Ejercicio M01A02dE20
+
+A partir de la tabla suministrada, cree sólidos de codos eléctricos, luego xxxx y calcule su área superficial, volumen y masa. 
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE20.dwg_.
+* Objetos: suministrados. 
+* Material: clay soil.
+* Plano de referencia: left.
+
+Para la construcción de esta figura, ejecute el comando **LOFT** y seleccione los elementos de arriba hacia abajo en el sentido inverso del eje Z.
+
+<div align="center"><img src="graph/M01A02dE20.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
+
+
 
 
 
