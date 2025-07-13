@@ -454,6 +454,28 @@ Para la construcción de esta figura, cree primero los objetos en una polilínea
 <div align="center"><img src="graph/M01A02dE18.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
+## 5. Solid Editing / Loft (solevación) <img src="../../file/graph/AutoCAD_ModelingLoft.png" alt="R.DAPC" height=25 border="0" />
+
+Crea un sólido o superficie 3D en el espacio entre varias secciones transversales. Crea una superficie o un sólido 3D mediante la especificación de una serie de secciones transversales. Las secciones transversales definen la forma del sólido o superficie resultante. Debe especificar al menos dos secciones transversales.
+
+
+### Ejercicio M01A02dE19
+
+A partir de las curvas de nivel suministradas, cree un sólido y calcule su área superficial, volumen y masa. 
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE19.dwg_.
+* Objetos: suministrados. 
+* Material: clay soil.
+* Plano de referencia: top.
+
+Para la construcción de esta figura, ejecute el comando **SWEEP** y seleccione los elementos de arriba hacia abajo en el sentido inverso del eje Z.
+
+<div align="center"><img src="graph/M01A02dE19.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+
+
+
 
 
 ## 4. Solid Editing / SHELL (vaciar)
