@@ -479,6 +479,8 @@ Para la construcción de esta figura, ejecute el comando **LOFT** y seleccione l
 
 Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través del comando **SOLIDEDIT** / **B**ody / **S**hell, o desde _Home / Solid Editing / Shell_, es necesario indicar las caras a remover y el espesor de las paredes (valores positivos generan espesores hacia adentro del sólido, valores negativos hacia afuera).
 
+> Para el vaciado de elementos, primero seleccione el objeto, luego las caras a eliminar que definen la superficie y luego el espesor (valores positivos para espesores hacia adentro de la superficie, valores negativos para espesores hacia afuera)
+
 
 ### Ejercicio M01A02dE20
 
@@ -490,11 +492,13 @@ A partir de la tabla suministrada[^1], cree sólidos de las paredes con espesor 
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE20.dwg_.
-* Objetos: a partir de tabla. 
+* Objetos: a partir de tabla. Suavizado de empalme entre conducto y acople igual a B'.
 * Material: PVC.
 * Plano de referencia: left.
 
 Para la construcción de esta figura, cree el eje central, luego las circunferencias y ejecute el comando **LOFT**, **EXTRUDE**, **SWEEP** y **SOLIDEDIT** / **B**ody / **S**hell para crear el codo.
+
+> Tenga en cuenta que al dibujar las circunferencias a partir de sus diámetros internos, deberá realizar el vaciado o SHELL, definiendo negativo el valor del espesor para que se cree la pared hacia afuera del objeto.
 
 <div align="center"><img src="graph/M01A02dE20b.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
