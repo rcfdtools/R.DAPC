@@ -417,7 +417,25 @@ Para la construcción de esta figura cómo sólido, cree primero los objetos en 
 <div align="center"><img src="graph/M01A02dE16d.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
+## 4. Solid Editing / Sweep (barrido) <img src="../../file/graph/AutoCAD_ModelingSweep.png" alt="R.DAPC" height=25 border="0" />
 
+Crea un sólido o una superficie 3D mediante el barrido de un objeto o un subobjeto 2D a lo largo de una trayectoria abierta o cerrada. Los objetos de extremos abiertos crean superficies 3D, mientras que los objetos incluidos en un área se pueden definir para crear sólidos o superficies 3D.
+
+
+### Ejercicio M01A02dE17
+
+A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un sólido y calcule su área superficial, volumen y masa. 
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE02.dwg_.
+* Dimensiones: ver [M01A01E01](../M01A01). Eje de barrido usando una circunferencia de radio 
+* Material: acero.
+* Plano de referencia: right.
+
+Para la construcción de esta figura, cree primero los objetos en una polilínea cerrada, trace la línea de barrido y luego ejecute el comando **SWEEP**.
+
+<div align="center"><img src="graph/M01A02dE17.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 
 
