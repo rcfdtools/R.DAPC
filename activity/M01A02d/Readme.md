@@ -317,7 +317,7 @@ A partir de la figura dibujada en el ejercicio [M01A02bE04](../M01A02), cree un 
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE11.dwg_.
-* Dimensiones: ver [M01A02bE04](../M01A02). Suavizado de 1.
+* Dimensiones: ver [M01A02bE04](../M01A02b). Suavizado de 1.
 * Material: acero.
 * Plano de referencia: front.
 
@@ -333,7 +333,7 @@ A partir de la figura dibujada en el ejercicio [M01A02bE05](../M01A02), cree un 
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE12.dwg_.
-* Dimensiones: ver [M01A02bE05](../M01A02).
+* Dimensiones: ver [M01A02bE05](../M01A02b).
 * Material: acero.
 * Plano de referencia: front.
 
@@ -349,7 +349,7 @@ A partir de la figura dibujada en el ejercicio [M01A02bE06](../M01A02), cree un 
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE13.dwg_.
-* Dimensiones: ver [M01A02bE06](../M01A02). Espesor de 20 unidades.
+* Dimensiones: ver [M01A02bE06](../M01A02b). Espesor de 20 unidades.
 * Material: ladrillo.
 * Plano de referencia: front.
 
@@ -365,7 +365,7 @@ A partir de la figura dibujada en el ejercicio [M01A02bE07](../M01A02), cree un 
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE14.dwg_.
-* Dimensiones: ver [M01A02bE07](../M01A02). Suavizado de 2.
+* Dimensiones: ver [M01A02bE07](../M01A02b). Suavizado de 2.
 * Material: 3D Print - Nylon.
 * Plano de referencia: front.
 
@@ -381,7 +381,7 @@ A partir de la figura dibujada en el ejercicio [M01A02bE08](../M01A02), cree un 
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE15.dwg_.
-* Dimensiones: ver [M01A02bE08](../M01A02). Suavizado de 2.
+* Dimensiones: ver [M01A02bE08](../M01A02b). Suavizado de 2.
 * Material: 3D Print - Nylon.
 * Plano de referencia: front.
 
@@ -505,6 +505,18 @@ Para la construcción de esta figura, cree el eje central, luego las circunferen
 <div align="center"><img src="graph/M01A02dE20b.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 > Cree los mismos codos para ángulos de 45 grados.
+
+
+### Ejercicio M01A02dE21
+
+Para las curvas especiales vistas en la actividad [1.2.b. Elementos básicos de dibujo / Curvas especiales](../M01A02c), cree volúmenes o superficies 3D.
+
+Especificaciones:
+
+* Archivo: _/file/cad/M01A02dE21.dwg_.
+* Objetos: ver [M01A02c](../M01A02c)
+* Material: libre elección.
+* Plano de referencia: libre elección.
 
 
 ## Actividades de proyecto :triangular_ruler:
