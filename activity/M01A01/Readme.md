@@ -40,6 +40,7 @@ Las herramientas computacionales abarcan una amplia gama de aplicaciones en dive
 
 En resumen, las herramientas computacionales son elementos clave para la productividad, la innovación, el trabajo con enfoque colaborativo y la eficiencia en una amplia gama de aplicaciones profesionales. 
 
+
 ### ¿Qué es dibujo o diseño asistido por computador o CAD?
 
 CAD, en el contexto de diseño y tecnología, significa Diseño Asistido por Computadora (Computer-Aided Design, por sus siglas en inglés). Es una tecnología que utiliza software para crear, modificar, analizar u optimizar un diseño. Se utiliza ampliamente en ingeniería, arquitectura, diseño de productos y muchas otras disciplinas que requieren diseño técnico y visualización precisa. 
@@ -148,7 +149,11 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 <div align="center"><img src="graph/AutoCAD_Drawing1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. Desde el botón _AutoCAD / Drawing Utilities / Units_, defina las unidades de longitud en _Decimal_, ángulos en _Grados decimales_, precisión usando dos decimales y unidades de escala para inserción de elementos externos (tales como bloques) en milímetros.    
+5. Desde el botón _AutoCAD / Drawing Utilities / Units_, defina las unidades de longitud en _Decimal_, ángulos en _Grados decimales_, precisión usando dos decimales y unidades de dibujo o de escala para inserción de elementos externos (tales como bloques) en el espacio de dibujo en milímetros. Esta misma acción puede ser realizada desde el comando **DWGUNITS**, adicionalmente permite convertir un dibujo dibujado p. ej., en metros a milímetros.   
+
+> Tenga en cuenta que en el espacio de impresión o _Layout_ siempre dibujaremos en milímetros.
+> 
+> Para dibujos arquitectónicos, es recomendable definir la unidades de dibujo en metros. Dibujo de bloques, piezas eléctricas o mecánicas, pueden ser dibujados en milímetros.
 
 <div align="center"><img src="graph/AutoCAD_Units.jpg" alt="R.DAPC" width="50%" border="0" /><img src="graph/AutoCAD_Units1.jpg" alt="R.DAPC" width="45%" border="0" /></div>
 
