@@ -149,7 +149,7 @@ Verifiquemos ahora el tamaño del texto en la hoja de impresión.
 
 <div align="center"><img src="graph/AutoCAD_Text12.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-15. Cambiando la escala a 1:2, cuyo factor corresponde a multiplicar todas las unidades de dibujo por 0.5, podrá observar que ahora el texto del título de la figura en la hoja de impresión, es de la mitad del tamaño original definido en el modelo. 
+15. Cambiando la escala a 1:2, cuyo factor corresponde a multiplicar todas las unidades de dibujo por 0.5, podrá observar que ahora el texto del título de la figura izquierda en la hoja de impresión, es de la mitad del tamaño original definido en el modelo y que es difícilmente legible. El texto de la figura derecha ahora tiene un tamaño de 2.5 mm y es legible. 
 
 <div align="center"><img src="graph/AutoCAD_Text13.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -169,9 +169,17 @@ En AutoCAD, los textos de anotación son textos que se crean y gestionan de mane
 | Comandos y herramientas            | AutoCAD proporciona comandos específicos como MTEXT (texto de líneas múltiples) y herramientas para crear y gestionar objetos anotativos, incluyendo el ajuste de escalas de anotación y la gestión de la visibilidad.        |
 | Estilos de anotación               | Se pueden crear estilos de anotación que definen la apariencia y el comportamiento de los objetos anotativos, lo que permite una gestión centralizada de las propiedades de los objetos de anotación.                         |
 
+1. Cree una copia del texto multilínea de la figura principal y desde sus propiedades, cambie al estilo _Annotative_, defina la escala anotativa en 1:1, establezca el _Paper Text Height_ en 2.5 mm con justificación _Top left_ para que el texto crezca hacia la derecha y hacia abajo. En la barra de estado selecciones 1:1 en la escala de anotación.
 
+<div align="center"><img src="graph/AutoCAD_TextAnnotative1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Vaya al _Layout1_ y dentro del espacio _Model_ del _Viewport_ establezca en la barra de estado escala 1:1, observará que el tamaño del texto es dibujado igual al texto original de 2.5 mm. Luego cambie la escala a 1:2, observará que el texto anotativo se oculta y que el texto regular reduce su tamaño. Para poder visualizar el texto en otras escalas es necesario desde sus propiedades, definir las escalas que serán utilizadas para la impresión de ese texto en particular, agregue por ejemplo 1:2, 1:5 y 2:1.
 
+<div align="center"><img src="graph/AutoCAD_TextAnnotative2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Cambie ahora a escala 1:5 o a escala 2:1, observará que el texto ahora mantiene el tamaño de 2.5 mm de altura en el _Layout_ y que los demás textos cambian su tamaño en la impresión dependiendo de la escala seleccionada. 
+
+<div align="center"><img src="graph/AutoCAD_TextAnnotative3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
