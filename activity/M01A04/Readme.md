@@ -59,6 +59,32 @@ Importancia y consideraciones del texto en AutoCAD:
 | Anotaciones       | El texto puede ser anotativo, lo que significa que se escala automáticamente con la escala del dibujo, asegurando que sea legible en diferentes vistas y escalas.  |
 | Edición           | Tanto el texto de una línea como el multilínea pueden editarse fácilmente, permitiendo actualizaciones y correcciones según sea necesario.                         |
 
+1. En AutoCAD, cree una copia del archivo _/file/cad/M01A02a.dwg_ y guarde como _/file/cad/M01A04.dwg_. Con el comando **UNITS**, verifique que las unidades de dibujo han sido establecidas en milímetros y utilizando la siguiente secuencia de comandos, dibuje en la capa 0-Objeto, la figura mostrada en la ilustración. Utilizando el comando **DIST**, mida el tamaño horizontal y vertical que envuelve el elemento, obtendrá un tamaño de H=57.5 mm por L=97 mm. Con <kbd>ctrl</kbd> + <kbd>1</kbd>, active la ventana de propiedades, podrá observar que el elemento tiene un perímetro de 328.396 mm y un área de 2190 mm². 
+
+```
+PLINE
+250,250
+@15,0
+@0,-11.5
+@40,0
+@0,42.5
+@20,0
+@0,-34
+@5,0
+@0,-3.5
+@17,0
+@-4,-20
+@-18,0
+@0,5
+@-75,0
+250,250
+
+```
+
+<div align="center"><img src="graph/AutoCAD_PLine.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
 
 ### 1.2. Texto anotativo
 
