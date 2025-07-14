@@ -344,7 +344,7 @@ Para facilitar la creación de dibujos, varios de los comandos de AutoCAD están
 > Consulte aquí la lista completa de [comandos de AutoCAD](https://www.autodesk.com/shortcuts/autocad).
 
 
-## 5. Uso de grillas de referencia, encajado de elementos y asistentes de dibujo
+## 5. Uso de grillas de referencia, encajado de elementos, asistentes de dibujo y escalas
 
 Herramientas complementarias facilitan el dibujo de elementos geométricos con precisión, estas herramientas se encuentran localizadas en la parte inferior de la pantalla en la barra de estado, o pueden ser activados a partir de teclas de funciones, atajos de teclado o comandos.
 
@@ -391,6 +391,8 @@ Listado de herramientas complementarias:
 > Cuando no se muestran las pestañas inferiores correspondientes al espacio de modelo o _Model_ y las hojas de impresión o _Layouts_, activando el menú contextual en cualquier lugar de la pantalla y seleccionando _Options_, podrá en la ficha _Display_ activar en _Layout elements / Display Layout and Model tabs_. Esta misma opción puede ser ejecutada desde el _Command_ de AutoCAD con el comando _OPTIONS_
 >
 > Si la barra _Command_ no aparece en pantalla, utilizar <kbd>ctrl</kbd> + <kbd>9</kbd>, digitar _COMMANDLINE_ o _COMMANDLINEHIDE_.
+> 
+> Para la configuración de las escalas de dibujo, en el botón de la barra de estado _Annotation scale of the current view_, defina las escalas a utilizar, p. ej., para definir escala 1:5 deberá establecer que 1000 unidades en el papel o 1000 milímetros, corresponden a 5 unidades de dibujo.
 
 
 ## 6. Dibujo de planos isométricos y técnica para realizar dibujos en proyección isométrica[^1]
