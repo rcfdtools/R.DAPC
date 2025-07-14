@@ -85,11 +85,11 @@ PLINE
 
 2. Sin tener objetos seleccionados, seleccione la capa 0-Text y con el comando **STYLE**, acceda a los estilos de texto; podrá observar que por defecto se encuentra definido el estilo _Annotative_ y _Standard_. Utilizando el botón _New_, cree un nuevo estilo, utilice la fuente tipográfica **Arial** y establezca una altura de 2.5mm, guarde como _DAPC - Arial 2.5mm_ y establezca por defecto. 
 
-> Tenga en cuenta que el tamaño del texto podrá variar en la impresión en función a la escala utilizada. Si el tamaño del papel es suficientemente para imprimir el dibujo a escala 1:1, el tamaño de texto en la impresión será igual al tamaño en el dibujo, si la escala es 1:2, el tamaño del texto en la impresión será de 1/2 el tamaño del dibujo.
+> Tenga en cuenta que el tamaño del texto podrá variar en la impresión en función a la escala utilizada. Si el tamaño del papel en milímetros es suficientemente grande para imprimir el dibujo a escala 1:1, el tamaño de texto en la impresión será igual al tamaño en el dibujo, si la escala es 1:2, el tamaño del texto en la impresión será de 1/2 el tamaño del dibujo.
 
-<div align="center"><img src="graph/AutoCAD_Text1.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Text1.jpg" alt="R.DAPC" width="70%" border="0" /></div>
 
-3. Utilizando el comando **DTEXT**, **TEXT** o **DT**, escriba abajo de la figura el texto _Figura asimétrica_, observará que solo se ha solicitado el punto de inserción y el ángulo de rotación. El ingreso de texto también puede ser realizado desde el menú _Home / Annotation / Text / Single Line_ o desde el menú _Annotate / Text / Single Line_.
+3. Utilizando el comando **DTEXT**, **TEXT** o **DT**, escriba abajo de la figura el texto _Figura Asimétrica_, observará que solo se ha solicitado el punto de inserción y el ángulo de rotación. El ingreso de texto también puede ser realizado desde el menú _Home / Annotation / Text / Single Line_ o desde el menú _Annotate / Text / Single Line_.
 
 > Si en la creación del estilo de texto se ha definido una altura específica, esta no será solicitada al momento de ejecutar el comando **TEXT**.
 
@@ -97,7 +97,17 @@ PLINE
 
 4. Utilizando el estilo de texto _Standard_ y un tamaño de 2 mm, ingrese en dos posiciones apiladas los textos P = 328.396 mm y A = 2190 mm². Para la apilación, utilice la tecla <kbd>enter</kbd> entre las líneas.
 
+> Debido a que el texto con estilo _Standard_ tiene definido un tamaño de cero, la altura del texto será solicitada en el momento de ejecutar el comando **TEXT**.
+
 <div align="center"><img src="graph/AutoCAD_Text3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. Cree una del objeto y el texto y escale a 2 veces el tamaño inicial. Observará que el texto correspondiente al área y al perímetro sigue siendo igual, esto se debe a que ha sido ingresado como texto de usuario. Tenga en cuenta que ahora el título del texto tendrá un alto de 5 mm y el texto de las propiedades geométricas 4 mm y que el área y perímetro ahora tienen el doble del tamaño original.
+
+<div align="center"><img src="graph/AutoCAD_Text4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. Para calcular las propiedades geométricas en función del objeto, dando doble clic edite el texto, p. ej., del área, y desde el menú contextual seleccione la opción _Insert Field_ o presione <kbd>ctrl</kbd> + <kbd>F</kbd>.
+
+<div align="center"><img src="graph/AutoCAD_Text5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
