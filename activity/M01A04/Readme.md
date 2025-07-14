@@ -59,7 +59,7 @@ Importancia y consideraciones del texto en AutoCAD:
 | Anotaciones       | El texto puede ser anotativo, lo que significa que se escala automáticamente con la escala del dibujo, asegurando que sea legible en diferentes vistas y escalas.  |
 | Edición           | Tanto el texto de una línea como el multilínea pueden editarse fácilmente, permitiendo actualizaciones y correcciones según sea necesario.                         |
 
-1. En AutoCAD, cree una copia del archivo _/file/cad/M01A02a.dwg_ y guarde como _/file/cad/M01A04.dwg_. Con el comando **UNITS**, verifique que las unidades de dibujo han sido establecidas en milímetros y utilizando la siguiente secuencia de comandos, dibuje en la capa 0-Objeto, la figura mostrada en la ilustración. Utilizando el comando **DIST**, mida el tamaño horizontal y vertical que envuelve el elemento, obtendrá un tamaño de H=57.5 mm por L=97 mm. Con <kbd>ctrl</kbd> + <kbd>1</kbd>, active la ventana de propiedades, podrá observar que el elemento tiene un perímetro de 328.396 mm y un área de 2190 mm². 
+1. En AutoCAD, cree una copia del archivo _/file/cad/M01A02a.dwg_ y guarde como _/file/cad/M01A04.dwg_. Con el comando **UNITS**, verifique que las unidades de dibujo han sido establecidas en milímetros y utilizando la siguiente secuencia de comandos, dibuje en la capa _0-Objeto_, la figura mostrada en la ilustración. Utilizando el comando **DIST**, mida el tamaño horizontal y vertical que envuelve el elemento, obtendrá un tamaño de H=57.5 mm por L=97 mm. Con <kbd>ctrl</kbd> + <kbd>1</kbd>, active la ventana de propiedades, podrá observar que el elemento tiene un perímetro de 328.396 mm y un área de 2190 mm². 
 
 ```
 PLINE
@@ -82,6 +82,20 @@ PLINE
 ```
 
 <div align="center"><img src="graph/AutoCAD_PLine.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Sin tener objetos seleccionados, seleccione la capa 0-Text y con el comando **STYLE**, acceda a los estilos de texto; podrá observar que por defecto se encuentra definido el estilo _Annotative_ y _Standard_. Utilizando el botón _New_, cree un nuevo estilo, utilice la fuente tipográfica **Arial** y establezca una altura de 2.5mm, guarde como _DAPC - Arial 2.5mm_ y establezca por defecto. 
+
+<div align="center"><img src="graph/AutoCAD_Text1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Utilizando el comando **DTEXT**, **TEXT** o **DT**, escriba abajo de la figura el texto _Figura asimétrica_, observará que solo se ha solicitado el punto de inserción y el ángulo de rotación. El ingreso de texto también puede ser realizado desde el menú _Home / Annotation / Text / Single Line_ o desde el menú _Annotate / Text / Single Line_.
+
+> Si en la creación del estilo de texto se ha definido una altura específica, esta no será solicitada al momento de ejecutar el comando **TEXT**.
+
+<div align="center"><img src="graph/AutoCAD_Text2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
+
 
 
 
