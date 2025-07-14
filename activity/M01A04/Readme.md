@@ -29,16 +29,23 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
-## 1. Textos
+## 1. Textos y anotaciones
+
+
+### 1.1. Texto simples y multilínea
 
 En AutoCAD, el texto se utiliza para añadir anotaciones y detalles a los dibujos. Hay dos tipos principales de texto: texto de una sola línea y texto multilínea. El texto de una línea es adecuado para anotaciones cortas, mientras que el texto multilínea ofrece más opciones de formato y es ideal para párrafos y descripciones más largas.
 
-Tipos de texto en AutoCAD:
+Tipos de texto y comandos relacionados en AutoCAD:
 
-| Tipo                    | Comando  | Descripción                                                                                                                                                                                                                                                    |
-|:------------------------|:---------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Texto de una sola línea | DTEXT    | Cada línea de texto se considera un objeto independiente. Es fácil de crear y editar, y es ideal para anotaciones breves como etiquetas o referencias. Es necesario ingresar la altura del texto en unidades de dibujo y el ángulo de inclinación              |
-| Texto multilínea        | MTEXT    | Permite texto con múltiples líneas, ofreciendo más opciones de formato, como fuentes, tamaños, estilos, alineación y columnas. Es más adecuado para descripciones detalladas, notas o documentos extensos. Es necesario definir el tamaño de la caja de texto. |
+| Tipo                              | Comando      | Descripción                                                                                                                                                                                                                                                    |
+|:----------------------------------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Texto de una sola línea           | DTEXT, TEXT  | Cada línea de texto se considera un objeto independiente. Es fácil de crear y editar, y es ideal para anotaciones breves como etiquetas o referencias. Es necesario ingresar la altura del texto en unidades de dibujo y el ángulo de inclinación              |
+| Texto multilínea                  | MTEXT, MT    | Permite texto con múltiples líneas, ofreciendo más opciones de formato, como fuentes, tamaños, estilos, alineación y columnas. Es más adecuado para descripciones detalladas, notas o documentos extensos. Es necesario definir el tamaño de la caja de texto. |
+| Textos simples a multilínea       | TXT2MTXT     | Convierte varios de textos simples en un texto multilínea.                                                                                                                                                                                                     |
+| Texto multilínea a textos simples | EXPLODE, X   | El comando EXPLODE permite separar textos multilinea. Fracciones y textos de tolerancia son separados en textos simples.                                                                                                                                       |
+| Mtext toolbar                     | MTEXTTOOLBAR | Esta variable de sistema permite mostrar u ocultar la barra de edición de textos multilínea, defina 1 para mostrar la barra o 2 para ocultarla.                                                                                                                |
+
 
 Importancia y consideraciones del texto en AutoCAD:
 
@@ -50,6 +57,34 @@ Importancia y consideraciones del texto en AutoCAD:
 | Estilos de texto  | Se recomienda crear estilos de texto personalizados con fuentes, tamaños y formatos predefinidos para mantener la coherencia en el dibujo.                         |
 | Anotaciones       | El texto puede ser anotativo, lo que significa que se escala automáticamente con la escala del dibujo, asegurando que sea legible en diferentes vistas y escalas.  |
 | Edición           | Tanto el texto de una línea como el multilínea pueden editarse fácilmente, permitiendo actualizaciones y correcciones según sea necesario.                         |
+
+
+### 1.2. Texto anotativo
+
+En AutoCAD, los textos de anotación son textos que se crean y gestionan de manera que se adaptan automáticamente a diferentes escalas de visualización, manteniendo su tamaño y apariencia consistentes en el dibujo, independientemente de la escala del modelo o de las ventanas gráficas de presentación. Esto significa que no es necesario crear múltiples versiones del mismo texto para diferentes escalas; el texto anotativo se ajusta automáticamente.
+
+Características
+
+| Características                    | Descripción                                                                                                                                                                                                                   |
+|:-----------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Adaptabilidad a diferentes escalas | Los objetos anotativos, incluyendo el texto, están diseñados para cambiar de tamaño y escala automáticamente cuando se cambia la escala de visualización en el dibujo o en las ventanas gráficas.                             |
+| Consistencia en la presentación    | El objetivo principal es mantener la legibilidad y la claridad del dibujo, asegurando que el texto anotativo se vea del mismo tamaño y con la misma apariencia, ya sea que se visualice a escala 1:1 o a una escala reducida. |
+| Eficiencia en el diseño            | Al utilizar texto anotativo, se evita la necesidad de crear múltiples versiones del mismo texto para diferentes escalas, lo que simplifica el proceso de diseño y reduce la posibilidad de errores.                           |
+| Control sobre la visibilidad       | Además de la escala, se puede controlar la visibilidad de los objetos anotativos en diferentes ventanas gráficas, lo que permite mostrar solo la información relevante en cada ventana.                                       |
+| Comandos y herramientas            | AutoCAD proporciona comandos específicos como MTEXT (texto de líneas múltiples) y herramientas para crear y gestionar objetos anotativos, incluyendo el ajuste de escalas de anotación y la gestión de la visibilidad.        |
+| Estilos de anotación               | Se pueden crear estilos de anotación que definen la apariencia y el comportamiento de los objetos anotativos, lo que permite una gestión centralizada de las propiedades de los objetos de anotación.                         |
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -75,6 +110,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
+* [Autodesk AutoCAD / Conceptos básicos y avanzados de textos](https://help.autodesk.com/view/ACDLT/2024/ESP/?guid=GUID-1B3E8624-ED88-4409-AEA2-32836332AB27)
 
 
 ## Control de versiones
