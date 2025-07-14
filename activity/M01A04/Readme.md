@@ -101,7 +101,7 @@ PLINE
 
 <div align="center"><img src="graph/AutoCAD_Text3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. Cree una del objeto y el texto y escale a 2 veces el tamaño inicial. Observará que el texto correspondiente al área y al perímetro sigue siendo igual, esto se debe a que ha sido ingresado como texto de usuario. Tenga en cuenta que ahora el título del texto tendrá un alto de 5 mm y el texto de las propiedades geométricas 4 mm y que el área y perímetro ahora tienen el doble del tamaño original.
+5. Con el comando **COPY**, cree una copia del objeto y el texto, con el comando **SCALE** escale a 2 veces el tamaño inicial. Observará que el texto correspondiente al área y al perímetro sigue siendo igual, esto se debe a que ha sido ingresado como texto de usuario. Tenga en cuenta que ahora el título del texto tendrá un alto de 5 mm y el texto de las propiedades geométricas 4 mm y que el área y perímetro ahora tienen cuatro veces el tamaño original (2 veces más en X por 2 veces más en Y).
 
 <div align="center"><img src="graph/AutoCAD_Text4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -114,7 +114,7 @@ PLINE
 <div align="center"><img src="graph/AutoCAD_Text6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-
+8. 
 
 
 
