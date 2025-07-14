@@ -141,10 +141,19 @@ Verifiquemos ahora el tamaño del texto en la hoja de impresión.
 
 <div align="center"><img src="graph/AutoCAD_Text10.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+13. Desde las propiedades del Viewport, establezca la escala visualización estándar interna del espacio del modelo dentro de la ventana de impresión en 1:1 (1 mm en el dibujo corresponde a 1 mm en la impresión). 
 
+<div align="center"><img src="graph/AutoCAD_Text11.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+14. Acérquese al espacio de papel y con la herramienta **DIST** mida el tamaño del texto definido en el título _Figura Asimétrica_. Podrá observar que tiene 2.5 mm de altura y que el texto escalado en la figura derecha 5 mm.
 
+<div align="center"><img src="graph/AutoCAD_Text12.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+15. Cambiando la escala a 1:2, cuyo factor corresponde a multiplicar todas las unidades de dibujo por 0.5, podrá observar que ahora el texto del título de la figura en la hoja de impresión, es de la mitad del tamaño original definido en el modelo. 
+
+<div align="center"><img src="graph/AutoCAD_Text13.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Cómo observa, los textos estáticos cambian su tamaño en el espacio de impresión en función de la escala, sin embargo, el comportamiento deseado es que los textos mantengan su tamaño al momento de ser impresos. Es por ello que son necesarios los textos anotativos que veremos a continuación.
 
 
 ### 1.2. Texto anotativo
