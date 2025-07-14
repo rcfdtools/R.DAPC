@@ -133,12 +133,13 @@ Dentro del texto podrá incluir proporciones de tamaño, p. ej., el rectángulo 
 
 Verifiquemos ahora el tamaño del texto en la hoja de impresión.
 
-11. En la barra de estado, seleccione la pestaña _Layout1_, desde el menú contextual y _Page Setup Manager_, defina la impresora _DWG To PDF.pc3_, papel _ISO full bleed A0 (1189.00 x 841.00 MM)_, impresión _monocrome.ctb_, escala de impresión 1:1 estableciendo que una unidad de dibujo corresponde a 1 mm. 
+11. En la barra de estado, seleccione la pestaña _Layout1_, desde el menú contextual y _Page Setup Manager_, defina la impresora _DWG To PDF.pc3_, papel _ISO full bleed A4 (297.00 x 210.00 MM)_, impresión _monocrome.ctb_, escala de impresión 1:1 estableciendo que una unidad de dibujo corresponde a 1 mm. 
 
 <div align="center"><img src="graph/AutoCAD_Text9.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+12. Elimine el Viewport existente, agregue en la capa cero (0) un rectángulo de 206 de altura por 293 de ancho. Desde el menú _Layout / Layout Viewports / Object_, defina el rectángulo como una ventana al espacio del modelo.
 
-
+<div align="center"><img src="graph/AutoCAD_Text10.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
