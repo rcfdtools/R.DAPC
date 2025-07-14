@@ -113,19 +113,13 @@ PLINE
 
 <div align="center"><img src="graph/AutoCAD_Text6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+> Para comprobar el funcionamiento de estos campos, re-escale la copia del objeto a su valor inicial dividiendo por el inverso de la escala de ampliación (1/2 = 0.5), edite el texto dando doble clic sobre los campos y actualice el valor en función del nuevo tamaño, podrá observar que los valores obtenidos son iguales a los de la figura original.
 
-8. 
+9. Con la herramienta _Home / Utilities / Measure / Angle_, mida el ángulo interno del único lado inclinado de la figura. Cree un rótulo inclinado de 1 mm de alto cerca a esta cara, indicando el ángulo de inclinación con respecto a la horizontal (180° - 101.31° = 78.69°).
 
+<div align="center"><img src="graph/AutoCAD_Text7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-
-
-
-
-
-
-
-
-
+Creemos ahora textos de múltiples líneas
 
 
 
