@@ -93,8 +93,9 @@ PLINE
 
 <div align="center"><img src="graph/AutoCAD_Text2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. Utilizando el estilo de texto _Standard_ y un tamaño de 2 mm, ingrese en dos posiciones apiladas los textos P = 328.396 mm y A = 2190 mm². Para la apilación, utilice la tecla <kbd>enter</kbd> entre las líneas.
 
-
+<div align="center"><img src="graph/AutoCAD_Text3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
