@@ -40,6 +40,8 @@ Las herramientas computacionales abarcan una amplia gama de aplicaciones en dive
 
 En resumen, las herramientas computacionales son elementos clave para la productividad, la innovación, el trabajo con enfoque colaborativo y la eficiencia en una amplia gama de aplicaciones profesionales. 
 
+### ¿Qué es dibujo o diseño asistido por computador o CAD?
+
 CAD, en el contexto de diseño y tecnología, significa Diseño Asistido por Computadora (Computer-Aided Design, por sus siglas en inglés). Es una tecnología que utiliza software para crear, modificar, analizar u optimizar un diseño. Se utiliza ampliamente en ingeniería, arquitectura, diseño de productos y muchas otras disciplinas que requieren diseño técnico y visualización precisa. 
 
 Existen software CAD 2D y 3D, cada uno con sus propias características y aplicaciones, CAD es una tecnología que ha revolucionado el proceso de diseño al permitir a los profesionales crear, analizar y modificar diseños de manera más eficiente y precisa, utilizando herramientas digitales. 

@@ -48,6 +48,7 @@ Commands
 	TXT2MTXT: convert separate text into multiline text.
 	LAYER: abre el panel de capas.
 	Ctrl+9: reopen de Command Line. COMMANDLINE or COMMANDLINEHIDE.
+	Ctrl+1: show properties for the selected object.
 	CUI: personalize user interface
 	; al final de una sentencia en CUI corresponde a Enter en el teclado.
 	^C al final de una sentencia en CUI corresponde a ESC en el teclado.
@@ -56,7 +57,8 @@ Commands
 	DELOBJ: variable de sistema para definir si al crear un elemento 3D a partir de un objeto, este se elimina o se mantiene.
 	MASSPROP: calcula el volumen de un sólido.
 	JPGOUT: command or the PLOT command with a JPG plotter configuration. The JPGOUT command directly exports selected objects or the entire drawing and viewports to a JPEG file. 
-	THICKEN or SURFSCULPT: convert surfaces to solids using  
+	THICKEN or SURFSCULPT: convert surfaces to solids using .
+	MV: crear una ventana en el espacio de papel.
 
 Mouse: https://www.vecteezy.com/vector-art/24103530-set-of-computer-mouse-outline-drawing-vector-computer-mouse-in-a-sketch-style-computer-mouse-training-template-outline-vector-
 

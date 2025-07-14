@@ -38,13 +38,14 @@ En AutoCAD, el texto se utiliza para añadir anotaciones y detalles a los dibujo
 
 Tipos de texto y comandos relacionados en AutoCAD:
 
-| Tipo                              | Comando      | Descripción                                                                                                                                                                                                                                                    |
-|:----------------------------------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Texto de una sola línea           | DTEXT, TEXT  | Cada línea de texto se considera un objeto independiente. Es fácil de crear y editar, y es ideal para anotaciones breves como etiquetas o referencias. Es necesario ingresar la altura del texto en unidades de dibujo y el ángulo de inclinación              |
-| Texto multilínea                  | MTEXT, MT    | Permite texto con múltiples líneas, ofreciendo más opciones de formato, como fuentes, tamaños, estilos, alineación y columnas. Es más adecuado para descripciones detalladas, notas o documentos extensos. Es necesario definir el tamaño de la caja de texto. |
-| Textos simples a multilínea       | TXT2MTXT     | Convierte varios de textos simples en un texto multilínea.                                                                                                                                                                                                     |
-| Texto multilínea a textos simples | EXPLODE, X   | El comando EXPLODE permite separar textos multilinea. Fracciones y textos de tolerancia son separados en textos simples.                                                                                                                                       |
-| Mtext toolbar                     | MTEXTTOOLBAR | Esta variable de sistema permite mostrar u ocultar la barra de edición de textos multilínea, defina 1 para mostrar la barra o 2 para ocultarla.                                                                                                                |
+| Tipo                              | Comando         | Descripción                                                                                                                                                                                                                                                    |
+|:----------------------------------|:----------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Texto de una sola línea           | DTEXT, TEXT, DT | Cada línea de texto se considera un objeto independiente. Es fácil de crear y editar, y es ideal para anotaciones breves como etiquetas o referencias. Es necesario ingresar la altura del texto en unidades de dibujo y el ángulo de inclinación              |
+| Texto multilínea                  | MTEXT, MT, T    | Permite texto con múltiples líneas, ofreciendo más opciones de formato, como fuentes, tamaños, estilos, alineación y columnas. Es más adecuado para descripciones detalladas, notas o documentos extensos. Es necesario definir el tamaño de la caja de texto. |
+| Textos simples a multilínea       | TXT2MTXT        | Convierte varios de textos simples en un texto multilínea.                                                                                                                                                                                                     |
+| Texto multilínea a textos simples | EXPLODE, X      | El comando EXPLODE permite separar textos multilinea. Fracciones y textos de tolerancia son separados en textos simples.                                                                                                                                       |
+| MText toolbar                     | MTEXTTOOLBAR    | Esta variable de sistema permite mostrar u ocultar la barra de edición de textos multilínea, defina 1 para mostrar la barra o 2 para ocultarla.                                                                                                                |
+| Estilos de texto                  | STYLE           | Configuración de estilos de texto.                                                                                                                                                                                                                             |
 
 
 Importancia y consideraciones del texto en AutoCAD:
@@ -61,9 +62,7 @@ Importancia y consideraciones del texto en AutoCAD:
 
 ### 1.2. Texto anotativo
 
-En AutoCAD, los textos de anotación son textos que se crean y gestionan de manera que se adaptan automáticamente a diferentes escalas de visualización, manteniendo su tamaño y apariencia consistentes en el dibujo, independientemente de la escala del modelo o de las ventanas gráficas de presentación. Esto significa que no es necesario crear múltiples versiones del mismo texto para diferentes escalas; el texto anotativo se ajusta automáticamente.
-
-Características
+En AutoCAD, los textos de anotación son textos que se crean y gestionan de manera que se adaptan automáticamente a diferentes escalas de visualización, manteniendo su tamaño y apariencia consistentes en el dibujo, independientemente de la escala del modelo o de las ventanas gráficas de presentación. Esto significa que no es necesario crear múltiples versiones del mismo texto para diferentes escalas; el texto anotativo se ajusta automáticamente, además contiene las siguientes características:
 
 | Características                    | Descripción                                                                                                                                                                                                                   |
 |:-----------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
