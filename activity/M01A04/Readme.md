@@ -119,8 +119,15 @@ PLINE
 
 <div align="center"><img src="graph/AutoCAD_Text7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Creemos ahora textos de múltiples líneas
+> Desde la ventana de propiedades podrá modificar las propiedades del texto como si se tratara de un objeto.
 
+Creemos ahora textos de múltiples líneas.
+
+10. Utilizando el comando **MTEXT** o desde el menú _HOME / Annotation / Text / Multiline Text_ y con el estilo creado, cree manualmente para el objeto original, una caja de texto multilínea que contenga los textos que generemos anteriormente, incluídos los generados a partir de campos. Recuerde que será necesario actualizar las propiedades de los campos seleccionando el nuevo objeto.
+
+Dentro del texto podrá incluir proporciones de tamaño, p. ej., el rectángulo imaginario que envuelve la figura es de H=57.5 mm por L=97 mm, o sea que la altura es 57.5 / 97 = 0.593 veces el largo. Para incluir la fracción, utilice como entrada `575/970 = 0.593` o `575#970 = 0.593`. Para incluir notas correspondientes a tolerancias, p .ej., de 0.05 mm, utilice `1 +0.05^-0.05`.
+
+<div align="center"><img src="graph/AutoCAD_Text8.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
