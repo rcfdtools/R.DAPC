@@ -153,6 +153,8 @@ Verifiquemos ahora el tamaño del texto en la hoja de impresión.
 
 <div align="center"><img src="graph/AutoCAD_Text13.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+> Para imprimir textos con el mismo tamaño, puede crear estilos con diferentes alturas, sin embargo, esta práctica no es recomendada debido a que en proyectos detallados, se utilizan múltiples escalas de impresión.
+> 
 > Cómo observa, los textos estáticos cambian su tamaño en el espacio de impresión en función de la escala, sin embargo, el comportamiento deseado es que los textos mantengan su tamaño al momento de ser impresos. Es por ello que son necesarios los textos anotativos que veremos a continuación.
 
 
@@ -169,7 +171,7 @@ En AutoCAD, los textos de anotación son textos que se crean y gestionan de mane
 | Comandos y herramientas            | AutoCAD proporciona comandos específicos como MTEXT (texto de líneas múltiples) y herramientas para crear y gestionar objetos anotativos, incluyendo el ajuste de escalas de anotación y la gestión de la visibilidad.        |
 | Estilos de anotación               | Se pueden crear estilos de anotación que definen la apariencia y el comportamiento de los objetos anotativos, lo que permite una gestión centralizada de las propiedades de los objetos de anotación.                         |
 
-1. Cree una copia del texto multilínea de la figura principal y desde sus propiedades, cambie al estilo _Annotative_, defina la escala anotativa en 1:1, establezca el _Paper Text Height_ en 2.5 mm con justificación _Top left_ para que el texto crezca hacia la derecha y hacia abajo. En la barra de estado selecciones 1:1 en la escala de anotación.
+1. Cree una copia del texto multilínea de la figura principal y desde sus propiedades, cambie al estilo _Annotative_, defina la escala anotativa en 1:1, establezca el _Paper Text Height_ en 2.5 mm con justificación _Top left_ para que el texto crezca hacia la derecha y hacia abajo. En la barra de estado seleccione 1:1 en la escala de anotación.
 
 <div align="center"><img src="graph/AutoCAD_TextAnnotative1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -181,7 +183,9 @@ En AutoCAD, los textos de anotación son textos que se crean y gestionan de mane
 
 <div align="center"><img src="graph/AutoCAD_TextAnnotative3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-
+> Tenga en cuenta que el texto solo será mostrado si ha definido escalas anotativas acorde a la escala de impresión. Por otra parte, los textos que se localicen en el área del papel no requieren de propiedades anotativas debido a que el formato de impresión se diseña en milímetros.
+> 
+> Dependiendo del tipo de proyecto, no es necesario utilizar este tipo de textos, sin embargo, cuando se crean múltiples vistas de impresión, conviene estandarizar el tamaño de los textos para mantener la homogeneidad.
 
 
 
