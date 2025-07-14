@@ -109,6 +109,25 @@ PLINE
 
 <div align="center"><img src="graph/AutoCAD_Text5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+7. En la ventana de campos o _Fields_, filtre por la categoría _Objects_, seleccione la opción _Object_, seleccione manualmente el polígono escalado, luego la propiedad requerida y de clic en _OK_. Automáticamente, el valor de la nueva área será incluida en el texto.
+
+<div align="center"><img src="graph/AutoCAD_Text6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
