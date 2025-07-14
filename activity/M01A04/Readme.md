@@ -42,14 +42,14 @@ Tipos de texto en AutoCAD:
 
 Importancia y consideraciones del texto en AutoCAD:
 
-| Importancia      | Descripción                                                                                                                                                       |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Comunicación     | El texto transmite información esencial sobre el diseño, como dimensiones, materiales, especificaciones y notas.                                                  |
-| Claridad         | Un texto bien formateado y ubicado facilita la comprensión del dibujo y la comunicación del diseño.                                                               |
-| Documentación    | El texto ayuda a documentar el diseño, proporcionando información relevante para la fabricación, construcción o implementación.                                   |
-| Estilos de texto | Se recomienda crear estilos de texto personalizados con fuentes, tamaños y formatos predefinidos para mantener la coherencia en el dibujo.                        |
-| Anotaciones      | El texto puede ser anotativo, lo que significa que se escala automáticamente con la escala del dibujo, asegurando que sea legible en diferentes vistas y escalas. |
-| Edición          | Tanto el texto de una línea como el multilínea pueden editarse fácilmente, permitiendo actualizaciones y correcciones según sea necesario.                        |
+| Importancia       | Descripción                                                                                                                                                        |
+|:------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comunicación      | El texto transmite información esencial sobre el diseño, como dimensiones, materiales, especificaciones y notas.                                                   |
+| Claridad          | Un texto bien formateado y ubicado facilita la comprensión del dibujo y la comunicación del diseño.                                                                |
+| Documentación     | El texto ayuda a documentar el diseño, proporcionando información relevante para la fabricación, construcción o implementación.                                    |
+| Estilos de texto  | Se recomienda crear estilos de texto personalizados con fuentes, tamaños y formatos predefinidos para mantener la coherencia en el dibujo.                         |
+| Anotaciones       | El texto puede ser anotativo, lo que significa que se escala automáticamente con la escala del dibujo, asegurando que sea legible en diferentes vistas y escalas.  |
+| Edición           | Tanto el texto de una línea como el multilínea pueden editarse fácilmente, permitiendo actualizaciones y correcciones según sea necesario.                         |
 
 
 
