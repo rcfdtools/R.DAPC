@@ -1,5 +1,5 @@
 # 1.4. Textos, anotaciones y dimensionamiento
-Keywords: `realigment`  `m01a04`
+Keywords: style dtext text mtext txt2mtxt dimstyle `realigment`  `m01a04`
 
 Texto simple, multilínea y de anotación. Estilo de la dimensión. Acotado de líneas rectas, círculos, arcos y ángulos. Editar dimensiones. Superficies normales, inclinadas y oblicuas. Visibilidad de aristas. Líneas centrales y líneas directrices. 
 
@@ -230,6 +230,8 @@ En AutoCAD, el dimensionamiento (o acotación) es el proceso de agregar informac
 <div align="center"><img src="graph/AutoCAD_Dimension4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 Complementariamente, cree estilos personales a partir del estilo de dimensión _ISO-25_, acote la figura y compare con el estilo _Standard_.
+
+> Tenga en cuenta que al igual que los textos simples y multilínea, los acotados también cambian su tamaño en función de la escala de impresión, por lo que se recomienda crear estilos anotativos para que se conserve el tamaño definido de los textos.
 
 
 ## Actividades de proyecto :triangular_ruler:
