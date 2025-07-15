@@ -20,11 +20,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                      | Descripción                                                                                                 |
-|:-----------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior.                                                                        |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365.                                                                                        |
-| [:date:DAPC_TamanoPapelNTC1687.xlsx](DAPC_TamanoPapelNTC1687.xlsx)                 | Libro de cálculo con tamaños de papel estándar definidos en norma NTC-1678 y generador de rótulos básicos.  |
+| Requerimiento                                                                      | Descripción                                                                                                    |
+|:-----------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior.                                                                           |
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365.                                                                                           |
+| [:date:DAPC_TamanoPapelNTC1687.xlsx](DAPC_TamanoPapelNTC1687.xlsx)                 | Libro de cálculo con tamaños de papel estándar definidos en norma NTC-1678 y dimensionador de rótulos básicos. |
 
 </div>
 
@@ -41,7 +41,7 @@ Para identificación de los tamaños debemos tener en cuenta que cada formato de
 
 De acuerdo a la Norma Técnica Colombiana NTC-1687 del 2003 de Dibujo técnico para Formato y plegado de planos técnicos, los tamaños estándar de hoja, tamaño de rótulo y márgenes en milímetros son:
 
-<div align="center"><img src="graph/NTC1687_Formato.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/NTC1687_Formato.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 La disposición de la caja de rotulado, será la parte inferior de la hoja de impresión en el caso del formato ISO A4, y en la parte inferior derecha para el resto de formatos.
 
@@ -49,7 +49,7 @@ La disposición de la caja de rotulado, será la parte inferior de la hoja de im
 
 Para el desarrollo del curso DAPC, utilizaremos como referencia el siguiente formato:
 
-<div align="center"><img src="graph/NTC1687_Rotulo.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/NTC1687_Rotulo.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 1. 
 
