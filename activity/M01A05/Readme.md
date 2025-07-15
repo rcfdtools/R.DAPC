@@ -1,10 +1,9 @@
 # 1.5. Layout e Impresión
-Keywords: `layout`  `m01a05`
+Keywords: `mview` `print` `zoom` `scale` `mvsetup` `block` `field` `m01a05`
 
 Creación de plantillas. Espacio papel y espacio modelo. Asignación de escala. Configuración de impresora y trazadores (plotter). Configuración del trazado. Impresión. Comandos MVSETUP, PRINT, ZOOM, SCALE.                                           
 
 <div align="center"><img src="graph/M01A05.jpg" alt="R.DAPC" width="60%" border="0" /></div>
-
 
 
 ## Objetivos
@@ -12,6 +11,8 @@ Creación de plantillas. Espacio papel y espacio modelo. Asignación de escala. 
 Al finalizar esta actividad, el estudiante:
 
 * Diferencia y configura apropiadamente los parámetros para la impresión de planos realizados en CAD.
+* Crear plantillas de impresión con campos dinámicos.
+* Imprimir planos digitales en formado Adobe Acrobat .pdf.
 
 
 ## Requerimientos
@@ -138,10 +139,6 @@ Cómo actividad complementaria, a partir del rótulo vertical, cree el rótulo h
 > Opciones complementarias de dibujo para impresión pueden ser establecidas con el comando **MVSETUP**.
 
 
-
-
-
-
 ## Actividades de proyecto :triangular_ruler:
 
 Utilizando la [plantilla suministrada](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
@@ -150,8 +147,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A00    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                                                             |
-| M01A00    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M01A05    | Siguiendo las especificaciones definidas en esta actividad, cree rótulos para impresión horizontal y vertical en formatos ISO-A0 e ISO-A4.                                                                                                                                                                                                                                                                                                                                                                                                           |
+| M01A05    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
@@ -172,7 +169,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.06.22 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  16   |
+| 2025.07.15 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  16   |
 
 
 ##
@@ -182,7 +179,7 @@ _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
+| [:arrow_backward: Anterior](../M01A04/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/99999) | [Siguiente :arrow_forward:](../M01A06/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: https://ibiguridt.wordpress.com/temas/materiales/formatos/
