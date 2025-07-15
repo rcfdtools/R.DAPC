@@ -3,7 +3,7 @@ Keywords: `realigment`  `m01a04`
 
 Texto simple, multilínea y de anotación. Estilo de la dimensión. Acotado de líneas rectas, círculos, arcos y ángulos. Editar dimensiones. Superficies normales, inclinadas y oblicuas. Visibilidad de aristas. Líneas centrales y líneas directrices. 
 
-<div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A04.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 ## Objetivos
