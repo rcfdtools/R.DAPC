@@ -85,7 +85,7 @@ PLINE
 
 <div align="center"><img src="graph/AutoCAD_PLine.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Sin tener objetos seleccionados, seleccione la capa 0-Text y con el comando **STYLE**, acceda a los estilos de texto; podrá observar que por defecto se encuentra definido el estilo _Annotative_ y _Standard_. Utilizando el botón _New_, cree un nuevo estilo, utilice la fuente tipográfica **Arial** y establezca una altura de 2.5mm, guarde como _DAPC - Arial 2.5mm_ y establezca por defecto. 
+2. Sin tener objetos seleccionados, seleccione la capa 0-Text y con el comando **STYLE**, acceda a los estilos de texto; podrá observar que por defecto se encuentra definido el estilo _Annotative_ y _Standard_. Utilizando el botón _New_, cree un nuevo estilo, utilice la fuente tipográfica _Arial_ y establezca una altura de 2.5 mm, guarde como _DAPC - Arial 2.5 mm_ y establezca por defecto. 
 
 > Tenga en cuenta que el tamaño del texto podrá variar en la impresión en función a la escala utilizada. Si el tamaño del papel en milímetros es suficientemente grande para imprimir el dibujo a escala 1:1, el tamaño de texto en la impresión será igual al tamaño en el dibujo, si la escala es 1:2, el tamaño del texto en la impresión será de 1/2 el tamaño del dibujo.
 
@@ -210,7 +210,12 @@ En AutoCAD, el dimensionamiento (o acotación) es el proceso de agregar informac
 | Fabricación y construcción | Facilita la fabricación de piezas y la construcción de estructuras según las especificaciones del diseño. |
 | Control de calidad         | Permite verificar que las piezas y estructuras cumplen con las dimensiones y tolerancias requeridas.      |
 | Documentación              | Forma parte esencial de la documentación técnica de un proyecto.                                          |
- 
+
+
+### Ejercicio M01A04E01
+
+Modifique la figura presentada en el ejercicio [M01A01E02](../M01A01) y realice el acotado, dibujo de ejes y líneas directrices.
+
 1. Cree una copia de la figura dibujada previamente manteniendo su escala original, luego realice las siguientes modificaciones:
 
 * Con el uso de la herramienta **FILLET**, suavice las aristas anguladas del lado izquierdo de la figura usando un radio de 5 mm.
