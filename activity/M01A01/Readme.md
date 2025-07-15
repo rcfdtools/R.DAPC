@@ -1,5 +1,5 @@
 # 1.1. Conceptos básicos de diseño asistido por computador - CAD
-Keywords: `CAD` `AutoCAD` `Model` `Layout` `m01a01`
+Keywords: `CAD` `AutoCAD` `Model` `Layout` `dwgunits` `line` `drawing-commands` `commandline` `status-bar` `m01a01`
 
 Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 

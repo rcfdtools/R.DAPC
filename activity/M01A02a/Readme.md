@@ -1,5 +1,5 @@
 # 1.2.a. Elementos básicos de dibujo / Creación de capas o layers
-Keywords: `aia` `nibs` `iso-13567` `layer` `layer-freeze` `layer-set-current` `layer-on` `layer-delete` `m01a02a`
+Keywords: `aia` `nibs` `iso-13567` `layer` `layer-freeze` `layer-set-current` `layer-on` `layer-delete` `lwdisplay` `m01a02a`
 
 Normas para definición de nombres y creación de capas o Layers.
 

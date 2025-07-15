@@ -1,5 +1,5 @@
 # 1.3. Bloques - Achurados- Viewports
-Keywords: `realigment`  `m01a03`
+Keywords: `block` `dynamic-block` `resetblock` `hatch` `solid` `vports` `mview` `pspace` `vplayer` `join` `copy` `rename` `adc` `m01a03`
 
 Diseño de bloques. Achurados y/o sombras. Figuras rellenas. Mosaico de vistas. Vistas fijas - espacio modelo. Vistas flotantes - espacio papel. Comandos: BLOCK, HATCH, SOLID, VPORTS, MVIEW, PSPACE, VPLAYER.
 

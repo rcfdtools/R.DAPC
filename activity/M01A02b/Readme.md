@@ -1,5 +1,5 @@
 # 1.2.b. Elementos básicos de dibujo / UCS y Geometrías
-Keywords: Keywords: `polyline` `arc` `fillet` `chamfer` `point` `array` `mirror` `offset` `donut` `trim` `ellipse` `m01a02b`
+Keywords: `polyline` `circle` `arc` `ellipse` `rectangle` `polygon` `point` `spline` `donut` `helix` `xline` `fillet` `chamfer` `array` `mirror` `offset` `trim` `array` `qpmode` `ltscale` `selectioncycling` `m01a02b`
 
 Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX... Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR...
 
@@ -220,7 +220,7 @@ Complementariamente, desde las opciones del _Command_, podrá definir el grado d
 <div align="center"><img src="graph/AutoCAD_SPLINE2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 8. Creación de donut y hélices
+## 8. Creación de donut y hélice
 
 La Donut, es un tipo de objeto que permite crear una falsa superficie en forma de arandela, al ser explotada se convierte en dos semicircunferencias que describen su eje central.
 

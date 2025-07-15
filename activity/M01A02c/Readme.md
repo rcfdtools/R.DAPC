@@ -1,5 +1,5 @@
 # 1.2.b. Elementos básicos de dibujo / Curvas especiales
-Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `m01a02c`
+Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `trigonometric-function` `mirror` `m01a02c`
 
 Dibujo de elipse, óvalo, parábola, hipérbola y funciones trigonométricas.
 

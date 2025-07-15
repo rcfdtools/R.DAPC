@@ -264,7 +264,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/ACD/2026/ENU/
 * [Autodesk AutoCAD / Conceptos básicos y avanzados de textos](https://help.autodesk.com/view/ACDLT/2024/ESP/?guid=GUID-1B3E8624-ED88-4409-AEA2-32836332AB27)
 * [Autodesk AutoCAD / Dimensionamiento](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-45C1A271-9650-4927-858F-B3BDB19B3E6C)
-* [Autodesk AutoCAD / Acerca de la creación de directrices](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-8E2FF7CD-1DF9-49F8-AA10-A614C7E63F68)
+* [Autodesk AutoCAD / Acerca de la creación de líneas directrices](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-8E2FF7CD-1DF9-49F8-AA10-A614C7E63F68)
 
 
 ## Control de versiones
