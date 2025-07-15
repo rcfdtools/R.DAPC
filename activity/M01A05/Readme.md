@@ -44,8 +44,15 @@ De acuerdo a la Norma Técnica Colombiana NTC-1687 del 2003 de Dibujo técnico p
 
 <div align="center"><img src="graph/NTC1687_Formato.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
+La disposición de la caja de rotulado, será la parte inferior de la hoja de impresión en el caso del formato ISO A4, y en la parte inferior derecha para el resto de formatos.
 
+> La altura depende del tipo de formato, puede variar, p. ej., entre los 35 mm y los 51 mm.
 
+Para el desarrollo del curso DAPC, utilizaremos como referencia el siguiente formato:
+
+<div align="center"><img src="graph/NTC1687_Rotulo.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+
+1. 
 
 
 
@@ -76,6 +83,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/ACD/2026/ENU/
 * [Humberto Amaya Alvear / Selección del formato según normas NTC 1687](https://www.youtube.com/watch?v=D6NTFHMQWDk)
 * https://ibiguridt.wordpress.com/temas/materiales/formatos/
+* https://tienda.icontec.org/gp-ntc-dibujo-tecnico-formato-y-plegado-de-planos-tecnicos-ntc1687-2023.html
 
 
 ## Control de versiones
