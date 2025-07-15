@@ -1,5 +1,5 @@
 # 1.4. Textos, anotaciones y dimensionamiento
-Keywords: style dtext text mtext txt2mtxt dimstyle `realigment`  `m01a04`
+Keywords: `style` `dtext` `text` `mtext` `txt2mtxt` `dimstyle` `dim` `realigment`  `m01a04`
 
 Texto simple, multilínea y de anotación. Estilo de la dimensión. Acotado de líneas rectas, círculos, arcos y ángulos. Editar dimensiones. Superficies normales, inclinadas y oblicuas. Visibilidad de aristas. Líneas centrales y líneas directrices. 
 
@@ -223,7 +223,7 @@ En AutoCAD, el dimensionamiento (o acotación) es el proceso de agregar informac
 
 <div align="center"><img src="graph/AutoCAD_Dimension2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Utilizando las herramientas _Annotate / Dimensions_, acote la figura en la capa 0-Dimension y con el estilo creado.
+3. Utilizando las herramientas _Annotate / Dimensions_ o el comando **DIM**, acote la figura en la capa _0-Dimension_ y con el estilo creado.
 
 <div align="center"><img src="graph/AutoCAD_Dimension3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
