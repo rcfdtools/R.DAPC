@@ -39,17 +39,17 @@ Los tamaños, formatos de papel, están regulados por la norma de estandarizaci�
 
 Para identificación de los tamaños debemos tener en cuenta que cada formato de mayor orden, es la mitad del anterior, es decir, ISO A5 (DIN A5) es la mitad de la ISO A4 (DIN A4). De la misma forma, la ISO A3 (DIN A3) es el doble de la ISO A4 (DIN A4). Al conjunto de estos tamaños se le llama serie A. 
 
-De acuerdo a la Norma Técnica Colombiana NTC-1687 del 2003 de Dibujo técnico para Formato y plegado de planos técnicos, los tamaños estándar de hoja, tamaño de rótulo y márgenes en milímetros son:
+De acuerdo a la Norma Técnica Colombiana NTC-1687 del 2003 de Dibujo técnico para formato y plegado de planos técnicos, los tamaños estándar de hoja, tamaño de rótulo y márgenes en milímetros son:
 
-<div align="center"><img src="graph/NTC1687_Formato.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/NTC1687_Formato.jpg" alt="R.DAPC" width="70%" border="0" /></div>
 
 La disposición de la caja de rotulado, será la parte inferior de la hoja de impresión en el caso del formato ISO A4, y en la parte inferior derecha para el resto de formatos.
 
-> La altura depende del tipo de formato, puede variar, p. ej., entre los 35 mm y los 51 mm.
+> La altura del rótulo depende del tipo de formato, puede variar, p. ej., entre los 35 mm y los 51 mm.
 
 Para el desarrollo del curso DAPC, utilizaremos como referencia el siguiente formato:
 
-<div align="center"><img src="graph/NTC1687_Rotulo.jpg" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/NTC1687_Rotulo.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
 1. 
 
