@@ -76,7 +76,20 @@ Para el desarrollo del curso DAPC, utilizaremos como referencia los siguientes f
 
 <div align="center"><img src="graph/AutoCAD_Layout4.jpg" alt="R.DAPC" width="70%" border="0" /></div>
 
-5. 
+5. Utilizando el comando **TRIM**, recorte las líneas internas que delimitan las zonas del rótulo. Luego incluya los textos requeridos para cada elemento, utilice tamaño de 1.5 mm.
+
+> Para garantizar que todos los rótulos se ubiquen a la misma distancia de los bordes, cree un texto con orígen en la coordenada absoluta (22.25,7.25).
+
+<div align="center"><img src="graph/AutoCAD_Layout5.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+
+6. Copie y pegue el array de texto utilizando como referencia los anchos de las columnas establecidas.
+
+<div align="center"><img src="graph/AutoCAD_Layout6.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+
+
+
+
+
 
 
 
