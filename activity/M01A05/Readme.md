@@ -92,13 +92,28 @@ Para el desarrollo del curso DAPC, utilizaremos como referencia los siguientes f
 
 8. Para la creación de los campos de atributos que el dibujante diligenciará durante el proceso de elaboración del plano, desde el menú _Insert / Block Definition / Define Attributes_, cree uno a uno los atributos requeridos y localícelos por encajado en los puntos de inserción de los textos usados como referencia a partir del array. Utilice texto multilínea para `ID-EMPRESA` e `ID-TITULO`.
 
+> Para que al insertar el rótulo este solicite los atributos del rótulo, al menos uno de los atributos definidos no sebe ser definido con un valor o texto por defecto.
+
 <div align="center"><img src="graph/AutoCAD_Layout8.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutoCAD_Layout9.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+9. Una vez comprobada la localización de los elementos del rótulo y los atributos requeridos, guarde los cambios realizados en el dibujo y luego desde el botón de AutoCAD, guarde el archivo en la carpeta de bloque como _/file/cad/block/BloquesFormatoA4Vertical.dwg_. Copie todos los objetos del espacio de impresión o el layout _A4-Vertical_, al espacio de modelado, luego elimine el layout. Utilizando el menú _Insert / Block Definition / Set Base Point_, establezca la esquina inferior izquierda del rótulo como punto de inserción y guarde el archivo.
 
+<div align="center"><img src="graph/AutoCAD_Layout10.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-9. 
+Cierre el archivo del bloque.
 
+10. Abra nuevamente el archivo _/file/cad/M01A05.dwg_ y elimine todos los objetos contenidos en la ventana del layout A4-Vertical. Desde el menú _Insert / Block / Recent Blocks_, inserte el archivo _/file/cad/block/BloquesFormatoA4Vertical.dwg_, como punto de inserción establezca la coordenada (20,5) correspondientes a la esquina inferior del rótulo de acuerdo a las márgenes establecidas previamente.
+
+<div align="center"><img src="graph/AutoCAD_Layout11.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout12.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+12. Una vez definido el punto de inserción, AutoCAD solicitará el diligenciamiento de los atributos del rótulo a partir de los campos definidos.
+
+<div align="center"><img src="graph/AutoCAD_Layout13.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout14.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Desde ahora, cada vez que requiera insertar el rótulo en cualquier dibujo, podrá hacerlo utilizando este archivo de bloque.
 
 
 
