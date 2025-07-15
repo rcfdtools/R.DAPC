@@ -1,18 +1,17 @@
-# Plantilla para actividades
-Keywords: `realigment`  `m01a00`
+# 1.5. Layout e Impresión
+Keywords: `layout`  `m01a05`
 
-xxxxxxxxxxxxxxxxxxxxxxxxxx
+Creación de plantillas. Espacio papel y espacio modelo. Asignación de escala. Configuración de impresora y trazadores (plotter). Configuración del trazado. Impresión. Comandos MVSETUP, PRINT, ZOOM, SCALE.                                           
 
 <div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
-<div align="center"><img src="graph/Gravity_anomalies_on_Earth.jpg" alt="R.DAPC" width="60%" border="0" /><sub><br>Tomado de: <a href="Public Domain, https://commons.wikimedia.org/w/index.php?curid=479365">https://commons.wikimedia.org</a></sub><br><br></div>
 
 
 ## Objetivos
 
 Al finalizar esta actividad, el estudiante:
 
-* 
+* Diferencia y configura apropiadamente los parámetros para la impresión de planos realizados en CAD.
 
 
 ## Requerimientos
