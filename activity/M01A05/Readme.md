@@ -3,7 +3,7 @@ Keywords: `layout`  `m01a05`
 
 Creación de plantillas. Espacio papel y espacio modelo. Asignación de escala. Configuración de impresora y trazadores (plotter). Configuración del trazado. Impresión. Comandos MVSETUP, PRINT, ZOOM, SCALE.                                           
 
-<div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A05.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 
