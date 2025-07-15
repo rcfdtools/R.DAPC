@@ -120,16 +120,22 @@ Cómo actividad complementaria, a partir del rótulo vertical, cree el rótulo h
 
 ## 2. Layout Viewports 
 
-1. Utilizando el comando **MVIEW** o desde el menú _Layout / Layout Viewports_, inserte en la capa cero (0), una ventana de impresión del espacio de modelado. Establezca por encajado las esquinas superior izquierda e inferior derecha del área útil del rótulo. Observará que automáticamente se ha escalado el dibujo del espacio del modelo al espacio de impresión.
+1. Utilizando el comando **MVIEW** o desde el menú _Layout / Layout Viewports_, inserte en la capa cero (0), una ventana de impresión del espacio de modelado. Establezca por encajado las esquinas superior izquierda e inferior derecha del área útil del rótulo. Observará que automáticamente se ha escalado el dibujo del espacio del modelo al espacio de impresión. Opcionalmente y con el comando **ZOOM**, podrá acercarse a diferentes zonas del dibujo para verificar el grosor correcto de las plumas de impresión.
 
 <div align="center"><img src="graph/AutoCAD_Layout15.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 2. Desde las propiedades de la ventana de layout, establezca una escala de 1:1, observará que la figura ocupa una fracción del espacio disponible en la ventana y que al medir con el comando **DIST**, las medidas son idénticas a las del espacio de modelado. También observará que el grosor de la pluma de impresión de las cotas es muy grueso, ajuste a 0.09.
 
 <div align="center"><img src="graph/AutoCAD_Layout16.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout17.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Establezca en la ventana, una escala de 1:1.5 y con el comando <kbd>ctrl</kbd> + <kbd>P</kbd> o **PRINT**, imprima en formato .pdf, guarde como _/file/report/M01A05-A4-Vertical.pdf_ y visualice el archivo.
 
+<div align="center"><img src="graph/AutoCAD_Layout18.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout19.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout20.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+> Opciones complementarias de dibujo para impresión pueden ser establecidas con el comando **MVSETUP**.
 
 
 
