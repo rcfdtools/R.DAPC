@@ -136,7 +136,13 @@ Cómo actividad complementaria, a partir del rótulo vertical, cree el rótulo h
 <div align="center"><img src="graph/AutoCAD_Layout19.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutoCAD_Layout20.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. Dando doble clic en cualquiera de los campos del formato, ajuste las propiedades específicas para el dibujo realizado y vuelva a imprimir.
+
+<div align="center"><img src="graph/AutoCAD_Layout21.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 > Opciones complementarias de dibujo para impresión pueden ser establecidas con el comando **MVSETUP**.
+
+
 
 
 ## Actividades de proyecto :triangular_ruler:
