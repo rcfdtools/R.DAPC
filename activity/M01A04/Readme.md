@@ -1,7 +1,7 @@
 # 1.4. Textos, anotaciones y dimensionamiento
 Keywords: `realigment`  `m01a04`
 
-Texto simple y multilínea. Estilo de la dimensión. Acotado de líneas rectas, círculos, arcos y ángulos. Editar dimensiones. Superficies normales, inclinadas y oblicuas. Visibilidad de aristas. 
+Texto simple, multilínea y de anotación. Estilo de la dimensión. Acotado de líneas rectas, círculos, arcos y ángulos. Editar dimensiones. Superficies normales, inclinadas y oblicuas. Visibilidad de aristas. 
 
 <div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
@@ -188,12 +188,29 @@ En AutoCAD, los textos de anotación son textos que se crean y gestionan de mane
 > Dependiendo del tipo de proyecto, no es necesario utilizar este tipo de textos, sin embargo, cuando se crean múltiples vistas de impresión, conviene estandarizar el tamaño de los textos para mantener la homogeneidad.
 
 
+## 2. Dimensionamiento
 
+En AutoCAD, el dimensionamiento (o acotación) es el proceso de agregar información numérica y simbólica a un dibujo técnico para indicar las dimensiones y otras características de un objeto, como longitudes, ángulos, radios, diámetros, etc. Se utiliza para comunicar claramente las medidas y relaciones espaciales de los elementos en el diseño. El dimensionamiento en AutoCAD implica:
 
+| Implicación          | Descripción                                                                                                               |
+|:---------------------|:--------------------------------------------------------------------------------------------------------------------------|
+| Líneas de referencia | Se utilizan para conectar las líneas de cota a los objetos que se están midiendo.                                         |
+| Líneas de cota       | Son líneas que indican la distancia o magnitud que se está midiendo.                                                      |
+| Flechas o símbolos   | Se colocan en los extremos de las líneas de cota para indicar los puntos de referencia.                                   |
+| Valores numéricos    | Se muestran junto a las líneas de cota para indicar la medida específica.                                                 |
+| Notas                | Se pueden agregar textos o símbolos adicionales para proporcionar información adicional, como tolerancias, acabados, etc. |
+|                      |                                                                                                                           |
+ 
+ Su uso es importante debido a que:
 
-
-
-
+| Importancia                | Descripción                                                                                               |
+|:---------------------------|:----------------------------------------------------------------------------------------------------------|
+| Comunicación clara         | Permite que otros usuarios del dibujo comprendan las dimensiones y relaciones espaciales de los objetos.  |
+| Fabricación y construcción | Facilita la fabricación de piezas y la construcción de estructuras según las especificaciones del diseño. |
+| Control de calidad         | Permite verificar que las piezas y estructuras cumplen con las dimensiones y tolerancias requeridas.      |
+| Documentación              | Forma parte esencial de la documentación técnica de un proyecto.                                          |
+ 
+1. Cree una copia de la figura dibujada previamente manteniendo su escala original, luego con el uso de la herramienta de chaflanes circulares, suavice las aristas anguladas del lado izquierdo de la fugura.
 
 
 ## Actividades de proyecto :triangular_ruler:
