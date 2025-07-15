@@ -188,7 +188,7 @@ En AutoCAD, los textos de anotación son textos que se crean y gestionan de mane
 > Dependiendo del tipo de proyecto, no es necesario utilizar este tipo de textos, sin embargo, cuando se crean múltiples vistas de impresión, conviene estandarizar el tamaño de los textos para mantener la homogeneidad.
 
 
-## 2. Dimensionamiento
+## 2. Dimensionamiento, líneas centrales y líneas directrices
 
 En AutoCAD, el dimensionamiento (o acotación) es el proceso de agregar información numérica y simbólica a un dibujo técnico para indicar las dimensiones y otras características de un objeto, como longitudes, ángulos, radios, diámetros, etc. Se utiliza para comunicar claramente las medidas y relaciones espaciales de los elementos en el diseño. El dimensionamiento en AutoCAD implica:
 
@@ -221,11 +221,15 @@ En AutoCAD, el dimensionamiento (o acotación) es el proceso de agregar informac
 
 <div align="center"><img src="graph/AutoCAD_Dimension2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Utilizando las herramientas _Annotate / Dimensions_, acote la figura en la capa 0-Dimension y con el estilo .
+3. Utilizando las herramientas _Annotate / Dimensions_, acote la figura en la capa 0-Dimension y con el estilo creado.
 
+<div align="center"><img src="graph/AutoCAD_Dimension3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. Utilizando las herramientas del menú _Annotate / Centerlines_ y _Annotate / Leaders_, incluya las líneas centrales que definen los ejes de elementos curvos y líneas de proyección central, y agregue líneas con notas descriptivas. El uso de estos elementos ofrece mayor legibilidad e interpretación de las dimensiones y elementos del dibujo.
 
+<div align="center"><img src="graph/AutoCAD_Dimension4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+Complementariamente, cree estilos personales a partir del estilo de dimensión _ISO-25_, acote la figura y compare con el estilo _Standard_.
 
 
 
