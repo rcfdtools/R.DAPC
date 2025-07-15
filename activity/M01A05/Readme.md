@@ -47,9 +47,12 @@ La disposición de la caja de rotulado, será la parte inferior de la hoja de im
 
 > La altura del rótulo depende del tipo de formato, puede variar, p. ej., entre los 35 mm y los 51 mm.
 
-Para el desarrollo del curso DAPC, utilizaremos como referencia el siguiente formato:
+Para el desarrollo del curso DAPC, utilizaremos como referencia los siguientes formatos:
 
-<div align="center"><img src="graph/NTC1687_Rotulo.jpg" alt="R.DAPC" width="90%" border="0" /></div>
+<div align="center">Rótulo papel A4 - Formato vertical<br><img src="graph/NTC1687_RotuloVertical.jpg" alt="R.DAPC" width="90%" border="0" /></div>
+<div align="center">Rótulo papel A4 - Formato horizontal<br><img src="graph/NTC1687_RotuloHorizontal.jpg" alt="R.DAPC" width="90%" border="0" /></div>
+
+
 
 1. 
 
