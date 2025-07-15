@@ -199,8 +199,7 @@ En AutoCAD, el dimensionamiento (o acotación) es el proceso de agregar informac
 | Flechas o símbolos   | Se colocan en los extremos de las líneas de cota para indicar los puntos de referencia.                                   |
 | Valores numéricos    | Se muestran junto a las líneas de cota para indicar la medida específica.                                                 |
 | Notas                | Se pueden agregar textos o símbolos adicionales para proporcionar información adicional, como tolerancias, acabados, etc. |
-|                      |                                                                                                                           |
- 
+
  Su uso es importante debido a que:
 
 | Importancia                | Descripción                                                                                               |
@@ -210,7 +209,30 @@ En AutoCAD, el dimensionamiento (o acotación) es el proceso de agregar informac
 | Control de calidad         | Permite verificar que las piezas y estructuras cumplen con las dimensiones y tolerancias requeridas.      |
 | Documentación              | Forma parte esencial de la documentación técnica de un proyecto.                                          |
  
-1. Cree una copia de la figura dibujada previamente manteniendo su escala original, luego con el uso de la herramienta de chaflanes circulares, suavice las aristas anguladas del lado izquierdo de la fugura.
+1. Cree una copia de la figura dibujada previamente manteniendo su escala original, luego realice las siguientes modificaciones:
+
+* Con el uso de la herramienta **FILLET**, suavice las aristas anguladas del lado izquierdo de la figura usando un radio de 5 mm.
+* En la parte superior y con el comando **CHAMFER**, cree chaflanes de 5 metros.
+* Cree una circunferencia tangente a las 3 caras ubicadas a la derecha de la figura.
+
+<div align="center"><img src="graph/AutoCAD_Dimension1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Utilizando el comando **DIMSTYLE** y a partir del estilo Standard, cree un estilo con el nombre _DAPC - Standard_, modifique el tamaño del texto a 1.25 mm, flechas a 1.5 mm y precisión con 2 decimales.
+
+<div align="center"><img src="graph/AutoCAD_Dimension2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Utilizando las herramientas _Annotate / Dimensions_, acote la figura en la capa 0-Dimension y con el estilo .
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Actividades de proyecto :triangular_ruler:
