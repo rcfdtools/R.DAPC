@@ -1,7 +1,7 @@
 # 1.4. Textos, anotaciones y dimensionamiento
 Keywords: `realigment`  `m01a04`
 
-Texto simple, multilínea y de anotación. Estilo de la dimensión. Acotado de líneas rectas, círculos, arcos y ángulos. Editar dimensiones. Superficies normales, inclinadas y oblicuas. Visibilidad de aristas. 
+Texto simple, multilínea y de anotación. Estilo de la dimensión. Acotado de líneas rectas, círculos, arcos y ángulos. Editar dimensiones. Superficies normales, inclinadas y oblicuas. Visibilidad de aristas. Líneas centrales y líneas directrices. 
 
 <div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
@@ -225,18 +225,11 @@ En AutoCAD, el dimensionamiento (o acotación) es el proceso de agregar informac
 
 <div align="center"><img src="graph/AutoCAD_Dimension3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-4. Utilizando las herramientas del menú _Annotate / Centerlines_ y _Annotate / Leaders_, incluya las líneas centrales que definen los ejes de elementos curvos y líneas de proyección central, y agregue líneas con notas descriptivas. El uso de estos elementos ofrece mayor legibilidad e interpretación de las dimensiones y elementos del dibujo.
+4. Utilizando las herramientas del menú _Annotate / Centerlines_ y _Annotate / Leaders_, incluya las líneas centrales que definen los ejes de elementos curvos y líneas de proyección central, y agregue líneas directrices con notas descriptivas. El uso de estos elementos ofrece mayor legibilidad e interpretación de las dimensiones y elementos del dibujo.
 
 <div align="center"><img src="graph/AutoCAD_Dimension4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 Complementariamente, cree estilos personales a partir del estilo de dimensión _ISO-25_, acote la figura y compare con el estilo _Standard_.
-
-
-
-
-
-
-
 
 
 ## Actividades de proyecto :triangular_ruler:
