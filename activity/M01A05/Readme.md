@@ -54,7 +54,7 @@ Para el desarrollo del curso DAPC, utilizaremos como referencia los siguientes f
 
 1. En AutoCAD, cree una copia del archivo _/file/cad/M01A04.dwg_ que contiene la configuración de Layers y dimensiones establecida en actividades anteriores, y guarde como _/file/cad/M01A05.dwg_. Con el comando **UNITS**, verifique que las unidades de dibujo han sido establecidas en milímetros. Conserve como ejemplo la figura acotada y el rótulo que contiene los campos de área y perímetro.
 
-<div align="center"><img src="graph/AutoCAD_Layout1.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout1.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
 2. Desde la barra de estado, elimine los Layout existentes en el dibujo y cree uno nuevo con el nombre _A4-Vertical_. Elimine la ventana a la vista del modelo y desde las propiedades del _Layout_ creado y la opción _Page Setup Manager_, establezca las siguientes especificaciones:
 
@@ -64,31 +64,31 @@ Para el desarrollo del curso DAPC, utilizaremos como referencia los siguientes f
 * Plot style table: monochrome.pctb.
 * Drawing orientation: Portrait.
 
-<div align="center"><img src="graph/AutoCAD_Layout2.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout2.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
 3. Utilizando las herramientas de dibujo y sobre la capa cero (0), cree un polígono de 185 x 287 milímetros de ancho y alto con orígen en la coordenada absoluta (20,5). Estos valores ya contienen las márgenes de reborde definidas en la norma NTC-1687. Observará que el recuadro ha sido creado centrado horizontalmente y a la margen izquierda requerida de 20 milímetros.
 
 > El orígen de coordenadas absoluto del espacio de papel corresponde a la esquina inferior izquierda y el punto de orígen del recuadro del marco de impresión, debe ser localizado a partir de las márgenes.
 
-<div align="center"><img src="graph/AutoCAD_Layout3.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout3.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
 4. Con el comando **OFFSET** o con el comando **COPY** / **A**rray, dibuje líneas paralelas a la línea inferior, utilizando como referencia las dimensiones establecidas para el rótulo vertical.
 
-<div align="center"><img src="graph/AutoCAD_Layout4.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout4.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
 5. Utilizando el comando **TRIM**, recorte las líneas internas que delimitan las zonas del rótulo. Luego incluya los textos de una línea requeridos para cada elemento, utilice tamaño de 1.5 mm para textos secundarios y 2 mm para los principales.
 
 > Para garantizar que todos los rótulos se ubiquen a la misma distancia de los bordes, cree un texto con orígen en la coordenada absoluta (22.25,7.25).
 
-<div align="center"><img src="graph/AutoCAD_Layout5.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout5.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
 6. Copie y pegue el array de texto utilizando como referencia los anchos de las columnas establecidas.
 
-<div align="center"><img src="graph/AutoCAD_Layout6.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout6.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
 7. Con el comando **EXPLODE**, separe los arrays, elimine y modifique los textos requeridos. Ajuste el grosor de la capa cero a 0.05 mm.
 
-<div align="center"><img src="graph/AutoCAD_Layout7.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout7.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
 
 
