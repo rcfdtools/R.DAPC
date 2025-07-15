@@ -115,6 +115,24 @@ Cierre el archivo del bloque.
 
 > Desde ahora, cada vez que requiera insertar el rótulo en cualquier dibujo, podrá hacerlo utilizando este archivo de bloque.
 
+Cómo actividad complementaria, a partir del rótulo vertical, cree el rótulo horizontal A4 y los rótulos para impresión en formato ISO-A0.
+
+
+## 2. Layout Viewports 
+
+1. Utilizando el comando **MVIEW** o desde el menú _Layout / Layout Viewports_, inserte en la capa cero (0), una ventana de impresión del espacio de modelado. Establezca por encajado las esquinas superior izquierda e inferior derecha del área útil del rótulo. Observará que automáticamente se ha escalado el dibujo del espacio del modelo al espacio de impresión.
+
+<div align="center"><img src="graph/AutoCAD_Layout15.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Desde las propiedades de la ventana de layout, establezca una escala de 1:1, observará que la figura ocupa una fracción del espacio disponible en la ventana y que al medir con el comando **DIST**, las medidas son idénticas a las del espacio de modelado. También observará que el grosor de la pluma de impresión de las cotas es muy grueso, ajuste a 0.09.
+
+<div align="center"><img src="graph/AutoCAD_Layout16.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
+
+
+
 
 
 
