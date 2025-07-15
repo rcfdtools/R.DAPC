@@ -3,7 +3,7 @@ Keywords: `mview` `print` `zoom` `scale` `mvsetup` `block` `field` `m01a05`
 
 Creación de plantillas. Espacio papel y espacio modelo. Asignación de escala. Configuración de impresora y trazadores (plotter). Configuración del trazado. Impresión. Comandos MVSETUP, PRINT, ZOOM, SCALE.                                           
 
-<div align="center"><img src="graph/M01A05.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/M01A05.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
 
 ## Objetivos
