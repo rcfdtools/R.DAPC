@@ -76,7 +76,7 @@ Para el desarrollo del curso DAPC, utilizaremos como referencia los siguientes f
 
 <div align="center"><img src="graph/AutoCAD_Layout4.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
-5. Utilizando el comando **TRIM**, recorte las líneas internas que delimitan las zonas del rótulo. Luego incluya los textos de una línea requeridos para cada elemento, utilice tamaño de 1.5 mm para textos secundarios y 2 mm para los principales.
+5. Utilizando el comando **TRIM**, recorte las líneas internas que delimitan las zonas del rótulo. Luego incluya los textos de una línea requeridos para cada elemento, utilice tamaño de 1.5 mm para textos secundarios y 2 mm para los principales. Desde la ventana de propiedades, ajuste los grosores de las líneas internas a 0.18 mm y externa del marco principal a 0.4 mm.
 
 > Para garantizar que todos los rótulos se ubiquen a la misma distancia de los bordes, cree un texto con orígen en la coordenada absoluta (22.25,7.25).
 
@@ -86,11 +86,18 @@ Para el desarrollo del curso DAPC, utilizaremos como referencia los siguientes f
 
 <div align="center"><img src="graph/AutoCAD_Layout6.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
-7. Con el comando **EXPLODE**, separe los arrays, elimine y modifique los textos requeridos. Ajuste el grosor de la capa cero a 0.05 mm.
+7. Con el comando **EXPLODE**, separe los arrays, elimine y modifique los textos requeridos.
 
 <div align="center"><img src="graph/AutoCAD_Layout7.jpg" alt="R.DAPC" width="90%" border="0" /></div>
 
+8. Para la creación de los campos de atributos que el dibujante diligenciará durante el proceso de elaboración del plano, desde el menú _Insert / Block Definition / Define Attributes_, cree uno a uno los atributos requeridos y localícelos por encajado en los puntos de inserción de los textos usados como referencia a partir del array.
 
+<div align="center"><img src="graph/AutoCAD_Layout8.jpg" alt="R.DAPC" width="90%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout9.jpg" alt="R.DAPC" width="90%" border="0" /></div>
+
+
+
+9. 
 
 
 
