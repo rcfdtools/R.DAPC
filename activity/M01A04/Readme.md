@@ -12,6 +12,8 @@ Al finalizar esta actividad, el estudiante:
 
 * Incorpora textos simples, de múltiples líneas y de anotación en dibujos.
 * Crea, edita e interpreta apropiadamente elementos dimensionales aplicando comandos en CAD.
+* Comprende y aplica los conceptos de textos anotativos.
+* Comprende el uso de escalas para impresión de textos.
 
 
 ## Requerimientos
