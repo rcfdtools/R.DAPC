@@ -299,7 +299,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE10
 
-A partir de la figura dibujada en el ejercicio [M01A02bE02](../M01A02), cree un sólido y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE02](../M01A02), cree un sólido en acero y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -315,7 +315,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE11
 
-A partir de la figura dibujada en el ejercicio [M01A02bE04](../M01A02), cree un sólido y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE04](../M01A02), cree un sólido en acero y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -331,7 +331,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE12
 
-A partir de la figura dibujada en el ejercicio [M01A02bE05](../M01A02), cree un sólido y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE05](../M01A02), cree un sólido en acero y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -347,7 +347,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE13
 
-A partir de la figura dibujada en el ejercicio [M01A02bE06](../M01A02), cree un sólido y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE06](../M01A02), cree un sólido en ladrillo de arcilla y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -363,7 +363,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE14
 
-A partir de la figura dibujada en el ejercicio [M01A02bE07](../M01A02), cree un sólido y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE07](../M01A02), cree un sólido en nylon y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
