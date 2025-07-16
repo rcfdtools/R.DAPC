@@ -199,7 +199,7 @@ Especificaciones:
 
 ### Ejercicio M01A02dE04
 
-A partir de la figura ejemplo presentada en el numeral 6 de la actividad [M01A01](../M01A01), cree un sólido con aristas redondeadas y calcule su área superficial, volumen y masa. 
+A partir de la figura ejemplo presentada en el numeral 6 de la actividad [M01A01](../M01A01), cree un sólido en vidrio con aristas redondeadas y calcule su área superficial, volumen y masa. 
 
 Especificaciones:
 
@@ -219,7 +219,7 @@ Para la construcción de esta figura, cree primero el cubo y circunferencias en 
 
 ### Ejercicio M01A02dE05
 
-A partir de la figura dibujada en el ejercicio [M01A01E03](../M01A01), cree un sólido y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A01E03](../M01A01), cree un sólido en aluminio y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -235,7 +235,7 @@ Para la construcción de esta figura, cree primero el cubo y las líneas de obje
 
 ### Ejercicio M01A02dE06
 
-A partir de la figura dibujada en el ejercicio [M01A01E04](../M01A01), cree un sólido y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A01E04](../M01A01), cree un sólido en aluminio y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
