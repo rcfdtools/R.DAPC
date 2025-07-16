@@ -493,6 +493,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [AutoCAD para todos / La barra de estado en AutoCAD](https://www.youtube.com/watch?v=7a7uWnCzSB8)
 * [AutoCAD para todos / Comandos de Dibujo](https://www.youtube.com/playlist?list=PLzdkaVXEoikS3EwqyXwFHJ3pCoZE78Ecl)
 * [AutoCAD para todos / Comando LINE](https://www.youtube.com/watch?v=tn0AooiV_R0)
+* [AutoCAD para todos / Dibujo isométrico 2D](https://www.youtube.com/playlist?list=PLzdkaVXEoikTzX7_QvZVBlPJeY8Lwxc9C).
 * Dibujo Técnico I - DGEP
 
 

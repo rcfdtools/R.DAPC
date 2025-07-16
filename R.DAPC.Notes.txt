@@ -11,9 +11,6 @@ Windows + Shift + S for print screen
 
 <div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="100%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya</sub></div>
 
-:mortar_board: Lista de video recomendada: [AutoCAD para todos / Dibujo isométrico 2D](https://www.youtube.com/playlist?list=PLzdkaVXEoikTzX7_QvZVBlPJeY8Lwxc9C).
-
-
 Pending
 	Clothoid curves.
 	Parametric drawing.
@@ -24,7 +21,9 @@ Pending
 
 
 Quiz exercices
-	
+	Geometric calculatios from diferent objects.
+	Isometric draw.
+	3D draw.
 
 
 Commands
@@ -44,27 +43,11 @@ Commands
 	^C al final de una sentencia en CUI corresponde a ESC en el teclado.
 	Shift + Mouse Wheeler click = 3D orbit
 	APPLOAD or AP: load an external app or lisp code.
-	DELOBJ: variable de sistema para definir si al crear un elemento 3D a partir de un objeto, este se elimina o se mantiene.
+	DELOBJ: variable de sistema para definir si al crear un elemento 3D a partir de un objeto, este se elimina o se mantiene. 3: elimina el objeto inicial luego de la extrusión. 0: se mantiene el objeto original. -1: AutoCAD solicita si se elimina o no el objeto original.
 	MASSPROP: calcula el volumen de un sólido.
 	JPGOUT: command or the PLOT command with a JPG plotter configuration. The JPGOUT command directly exports selected objects or the entire drawing and viewports to a JPEG file. 
 	THICKEN or SURFSCULPT: convert surfaces to solids using .
 	MV: crear una ventana en el espacio de papel.
 
-Mouse: https://www.vecteezy.com/vector-art/24103530-set-of-computer-mouse-outline-drawing-vector-computer-mouse-in-a-sketch-style-computer-mouse-training-template-outline-vector-
 
 
-DELOBJ
-3: elimina el objeto inicial luego de la extrusión.
-0: se mantiene el objeto original.
--1: AutoCAD solicita si se elimina o no el objeto original.
-
-En AutoCAD, para calcular el volumen de un sólido, se utiliza el comando MASSPROP (Propiedades de masa). Se escribe "massprop" en la línea de comando y luego se selecciona el objeto sólido del cual se desea obtener el volumen. El volumen se mostrará en la línea de comandos. 
-
-
-
-Christian Tutoriales CAD / Tutorial Autocad 3D Español - pieza 11 - Engranaje Helicoidal
-https://www.youtube.com/watch?v=qHwKiJhKwtI
-
-https://www.youtube.com/@UNIVERSIDADENCASA2000/videos
-
-https://byjus.com/physics/physics-symbols/
