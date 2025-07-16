@@ -379,7 +379,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE15
 
-A partir de la figura dibujada en el ejercicio [M01A02bE08](../M01A02), cree un sólido y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE08](../M01A02), cree un sólido en nylon y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -402,7 +402,7 @@ En AutoCAD, **[REVOLVE](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-6
 
 ### Ejercicio M01A02dE16
 
-A partir de las figuras dibujadas en el ejercicio [M01A02bE03](../M01A02), cree sólidos y calcule su área superficial, volumen y masa.
+A partir de las figuras dibujadas en el ejercicio [M01A02bE03](../M01A02), cree sólidos en PVA y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -427,7 +427,7 @@ Crea un sólido o una superficie 3D mediante el barrido de un objeto o un subobj
 
 ### Ejercicio M01A02dE17
 
-A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un sólido y calcule su área superficial, volumen y masa. 
+A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un sólido en acero y calcule su área superficial, volumen y masa. 
 
 Especificaciones:
 
@@ -443,7 +443,7 @@ Para la construcción de esta figura, cree primero los objetos en una polilínea
 
 ### Ejercicio M01A02dE18
 
-A partir del esquema, cree un sólido y calcule su área superficial, volumen y masa. 
+A partir del esquema, cree un sólido en acero y calcule su área superficial, volumen y masa. 
 
 Especificaciones:
 
@@ -464,7 +464,7 @@ Crea un sólido o superficie 3D en el espacio entre varias secciones transversal
 
 ### Ejercicio M01A02dE19
 
-A partir de las curvas de nivel suministradas, cree un sólido y calcule su área superficial, volumen y masa. 
+A partir de las curvas de nivel suministradas, cree un sólido en suelo arcilloso y calcule su área superficial, volumen y masa. 
 
 Especificaciones:
 
@@ -489,7 +489,7 @@ Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través d
 
 En las instalaciones eléctricas, el sistema de conductos desempeña un papel fundamental como componente crucial. Este sistema, que consta de conductos y accesorios, tiene como finalidad proteger y organizar el cableado eléctrico. De este modo, evita posibles peligros y garantiza un flujo de energía sin interrupciones. Entre los numerosos accesorios disponibles, un tipo en particular, conocido como codos para conductos, tiene una importancia significativa en cualquier proyecto de instalación eléctrica. [^1]
 
-A partir de la tabla suministrada, cree sólidos de las paredes con espesor para codos eléctricos, luego y calcule su área superficial, volumen y masa. 
+A partir de la tabla suministrada, cree sólidos en PVC de las paredes con espesor para codos eléctricos, luego y calcule su área superficial, volumen y masa. 
 
 <div align="center"><img src="graph/M01A02dE20.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/M01A02dE20a.jpg" alt="R.DAPC" width="100%" border="0" /></div>
