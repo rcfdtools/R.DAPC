@@ -170,7 +170,7 @@ Otras opciones específicas de este comando, permiten definir:
 
 ### Ejercicio M01A02dE02
 
-A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un sólido y calcule su área superficial, volumen y masa. 
+A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un sólido en acero y calcule su área superficial, volumen y masa. 
 
 Especificaciones:
 
@@ -184,7 +184,7 @@ Especificaciones:
 
 ### Ejercicio M01A02dE03
 
-A partir de la figura ejemplo presentada en el numeral 6 de la actividad [M01A01](../M01A01), cree un sólido y calcule su área superficial, volumen y masa. 
+A partir de la figura ejemplo presentada en el numeral 6 de la actividad [M01A01](../M01A01), cree un sólido en concreto y calcule su área superficial, volumen y masa. 
 
 Especificaciones:
 
