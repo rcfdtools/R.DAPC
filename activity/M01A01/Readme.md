@@ -392,7 +392,7 @@ Listado de herramientas complementarias:
 >
 > Si la barra _Command_ no aparece en pantalla, utilizar <kbd>ctrl</kbd> + <kbd>9</kbd>, digitar _COMMANDLINE_ o _COMMANDLINEHIDE_.
 > 
-> Para la configuración de las escalas de dibujo, en el botón de la barra de estado _Annotation scale of the current view_, defina las escalas a utilizar, p. ej., para definir escala 1:5 deberá establecer que 1000 unidades en el papel o 1000 milímetros, corresponden a 5 unidades de dibujo.
+> Para la configuración de las escalas de dibujo, en el botón de la barra de estado _Annotation scale of the current view_, defina las escalas de reducción a utilizar, p. ej., 1:1, 1:2, 1:5, 1:10, 1:20, 1:25, 1:50, 1:75, 1:100, 1:125 y las de ampliación 2:1, 5:1, 10:1. Utilice como guía las escalas definidas en un [escalímetro](https://es.wikipedia.org/wiki/Escal%C3%ADmetro).
 
 
 ## 6. Dibujo de planos isométricos y técnica para realizar dibujos en proyección isométrica[^1]
