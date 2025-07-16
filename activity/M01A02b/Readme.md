@@ -330,7 +330,7 @@ Especificaciones adicionales:
 * En el mismo dibujo, cree copias de la figura creada a escalas 0.5:1, 2:1 y 5:1.
 * Utilizando la herramienta de dibujo **ELLIPSE**, trace una de las elipses creadas, calcule y compare su área con respecto a las trazadas manualmente.
 
-<div align="center"><img src="graph/M01A02bE01.jpg" alt="R.DAPC" width="0%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - Anaya (pág. 80)</sub></div>
+<div align="center"><img src="graph/M01A02bE01.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - Anaya (pág. 80)</sub></div>
 
 
 ### Ejercicio M01A02bE02
