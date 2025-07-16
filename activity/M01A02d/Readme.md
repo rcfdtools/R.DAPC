@@ -76,7 +76,7 @@ Complementariamente, desde la pestaña Modeling, podrá crear superficies o sól
 
 ### Ejercicio M01A02dE01
 
-Construya el sólido mostrado en la figura, calcule el volúmen, área superficial, masa de cada elemento y el volúmen y masa final del sólido integrado para material en titanio.
+Construya el sólido mostrado en la figura, calcule el volúmen, área superficial, masa de cada elemento, volúmen y masa final del sólido integrado para material en titanio.
 
 <div align="center"><img src="graph/M01A02dE01.jpg" alt="R.DAPC" width="70%" border="0" /></div>
 
