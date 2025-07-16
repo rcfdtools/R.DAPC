@@ -366,7 +366,7 @@ Dibuje el siguiente elemento isométrico correspondiente a un contra pasador. Gu
 
 Dibuje el siguiente elemento isométrico correspondiente a un tabique o ladrillo con perforaciones, en la cara frontal utilice la herramienta Mirror. Guarde el dibujo como _/file/cad/M01A02bE06.dwg_.
 
-<div align="center"><img src="graph/M01A02bE06.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 131)</sub></div>
+<div align="center"><img src="graph/M01A02bE06.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 131)</sub></div>
 
 
 ### Ejercicio M01A02bE07
