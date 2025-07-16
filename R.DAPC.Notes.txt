@@ -14,28 +14,18 @@ Windows + Shift + S for print screen
 :mortar_board: Lista de video recomendada: [AutoCAD para todos / Dibujo isométrico 2D](https://www.youtube.com/playlist?list=PLzdkaVXEoikTzX7_QvZVBlPJeY8Lwxc9C).
 
 
-Practical exercices and pending
-	A4 pdf: 297 x 210, frame 293 x 206	
-	jpg: 4k 3840 x 2160
-	Array para crear logo UECIJG.
-	Clothoid.
-	Incluye in keywords all used commands in each activitie.
-	With arrays determinte separation between elements.
-	With measure calculated perimeters, lengths, areas.
-	Crear plantilla con capas tipo.
-	Creación de bloques (fijos y dinámicos). Usar especificaciones reglamento RETIE.
+Pending
+	Clothoid curves.
+	Parametric drawing.
 	Crear toma levinton con caja.
-	Esquema NTC2050 pag 349
-	Samples: D:\Autodesk\AutoCAD 2026\Sample\en-us
+	Bombilla 3D con materiales.
 	External references.
-	Isometric view drawing example 2. Links to practice files in description. https://www.youtube.com/watch?v=bT96hOQ5ejQ
-	https://www.qcad.org/en/
-	https://www.blender.org/
-	Dibujo isométrico con acotado y manejo de impresión: https://www.youtube.com/watch?v=Yu6_rZKDoDU&list=PLzdkaVXEoikTzX7_QvZVBlPJeY8Lwxc9C&index=4
-	Inventor Interoperability 2026: required for solid planes in layout views.
+	GIS external maps.
 
-https://www.youtube.com/watch?v=2LumoE9KjoY
-3:03
+
+Quiz exercices
+	
+
 
 Commands
 	UNITS: configuración de unidades y parámetros

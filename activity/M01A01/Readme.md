@@ -1,5 +1,5 @@
 # 1.1. Conceptos básicos de diseño asistido por computador - CAD
-Keywords: `CAD` `AutoCAD` `Model` `Layout` `dwgunits` `line` `drawing-commands` `commandline` `status-bar` `m01a01`
+Keywords: `CAD` `AutoCAD` `Model` `Layout` `dwgunits` `line` `drawing-commands` `commandline` `status-bar` `measuregeom` `m01a01`
 
 Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 
@@ -238,7 +238,7 @@ Especificaciones:
 * El nodo de inicio asignado deberá corresponder con la esquina superior más a la izquierda (nodo azul) donde se encuentra el tramo de 15 metros.
 * Para verificar el correcto trazado, la figura tiene un Área de 2190 m² y Perímetro de 328.396 metros.
 
-> La medición del área y perímetro de la figura puede ser realizada desde el menú _Home / Utilities / Measure_.
+> La medición del área y perímetro de la figura puede ser realizada desde el menú _Home / Utilities / Measure_ o con el comando **MEASUREGEOM**.
 
 
 ## 4. Uso básico de comandos

@@ -267,7 +267,7 @@ Los elementos arquitectónicos requieren el uso de múltiples ajustes, p, ej., u
 
 <div align="center"><img src="graph/AutoCAD_ADC1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. En el _Home_, ingrese a la carpeta _en-us / Dynamic Blocks / Architectural - Metric.dwg_ y seleccione _Blocks_. Arrastre al dibujo el bloque _Door - Metric_ y selecciónelo, podrá observar que contiene múltiples propiedades y acciones.
+2. En el _Home_, ingrese a la carpeta _D:\Autodesk\AutoCAD 2026\Sample\en-us\Dynamic Blocks\Architectural - Metric.dwg_ y seleccione _Blocks_. Arrastre al dibujo el bloque _Door - Metric_ y selecciónelo, podrá observar que contiene múltiples propiedades y acciones.
 
 > En el ADC, los bloques dinámicos son fácilmente identificables debido a que en la parte inferior derecha de su previsualización, aparece un rayo.
 

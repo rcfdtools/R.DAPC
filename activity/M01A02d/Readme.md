@@ -21,13 +21,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                           | Descripción                                                                                                |
-|:------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                                       | Autodesk Autocad 3D 2026 o superior.                                                                       |
-| [:toolbox:Herramienta](https://help.autodesk.com/view/INVNTOR/2026/ENU/?guid=GUID-AE780841-1B8B-4197-86F6-5632BA541F32) | Autodesk Inventor Interoperability 2026 o superior.                                                        |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                      | Microsoft Excel 365.                                                                                       |
-| [:date:DAPC_VolumenAreaMasaSolido.xlsx](../../file/table/DAPC_VolumenAreaMasaSolido.xlsx)                               | Libro de cálculo para la estimación de área superficial, volúmen y masa de objetos nativos 3D.             |
-| [:date:DAPC_ElectricElbowBellEnd.xlsx](../../file/table/DAPC_ElectricElbowBellEnd.xlsx)                                 | Libro de cálculo con especificaciones técnicas geométricas de codos para conductos eléctricos marca LEDES. |
+| Requerimiento                                                                                                           | Descripción                                                                                                                                  |
+|:------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                                       | Autodesk Autocad 3D 2026 o superior.                                                                                                         |
+| [:toolbox:Herramienta](https://help.autodesk.com/view/INVNTOR/2026/ENU/?guid=GUID-AE780841-1B8B-4197-86F6-5632BA541F32) | Autodesk Inventor Interoperability 2026 o superior. Requerido para generar los planos de elementos 3D en vistas de impresión o layout views. |
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                      | Microsoft Excel 365.                                                                                                                         |
+| [:date:DAPC_VolumenAreaMasaSolido.xlsx](../../file/table/DAPC_VolumenAreaMasaSolido.xlsx)                               | Libro de cálculo para la estimación de área superficial, volúmen y masa de objetos nativos 3D.                                               |
+| [:date:DAPC_ElectricElbowBellEnd.xlsx](../../file/table/DAPC_ElectricElbowBellEnd.xlsx)                                 | Libro de cálculo con especificaciones técnicas geométricas de codos para conductos eléctricos marca LEDES.                                   |
  
 </div>
 

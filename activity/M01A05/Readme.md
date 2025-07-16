@@ -169,6 +169,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [Humberto Amaya Alvear / Selección del formato según normas NTC 1687](https://www.youtube.com/watch?v=D6NTFHMQWDk)
 * https://ibiguridt.wordpress.com/temas/materiales/formatos/
 * https://tienda.icontec.org/gp-ntc-dibujo-tecnico-formato-y-plegado-de-planos-tecnicos-ntc1687-2023.html
+* [AutoCAD para todos / Creación de vistas base y proyectada con AutoCAD](https://www.youtube.com/watch?v=ToCCqdeTCz8)
+* [AutoCAD para todos / Dibujo isométrico con acotado y manejo de impresión](https://www.youtube.com/watch?v=Yu6_rZKDoDU)
 
 
 ## Control de versiones
