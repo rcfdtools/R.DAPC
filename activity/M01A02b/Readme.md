@@ -387,7 +387,7 @@ Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con p
 
 Creando un array de 10 líneas horizontales por 10 líneas verticales y trazando líneas, cree el logo de la [UECIJG](https://www.escuelaing.edu.co/). El ancho y alto de la figura debe corresponder a los 3 últimos dígitos de su código de estudiante. Guarde el dibujo como _/file/cad/**M01A02bE09**.dwg_.
 
-<div align="center"><img src="graph/M01A02bE09.jpg" alt="R.DAPC" width="45%" border="0" /></div>
+<div align="center"><img src="graph/M01A02bE09.jpg" alt="R.DAPC" width="35%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
