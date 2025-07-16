@@ -549,6 +549,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.vcalc.com/
 * [Autodesk AutoCAD / About Modeling 3D Objects](https://help.autodesk.com/view/ACD/2024/ENU/?guid=GUID-9DACE807-BC9D-4357-B47E-C6199F6AF1A2)
 * [Autodesk AutoCAD / About Creating 3D Surfaces](https://help.autodesk.com/view/ACD/2024/ENU/?guid=GUID-8218FF9A-6F05-47E7-A39C-47D342B942EB)
+* [Christian Tutoriales CAD / Tutorial Autocad 3D Español - pieza 11 - Engranaje Helicoidal](https://www.youtube.com/watch?v=qHwKiJhKwtI)
 
 
 ## Control de versiones

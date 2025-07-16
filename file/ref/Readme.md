@@ -76,6 +76,7 @@ Otras normas técnicas y referencias
 * https://earthdata.nasa.gov/
 * https://www.giss.nasa.gov/tools/panoply/
 * https://www.usgs.gov/
+* [physics-symbols](https://byjus.com/physics/physics-symbols/)
 
 
 ## Otros
