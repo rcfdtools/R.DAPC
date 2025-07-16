@@ -166,8 +166,6 @@ AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran di
 
 Para el dibujo de elementos, por defecto el mouse o apuntador realiza las siguientes acciones:
 
-<div align="center"><img src="graph/M01A01_Mouse.jpg" alt="R.DAPC" width="40%" border="0" /></div>
-
 <div align="center"><img src="graph/M01A01_Mouse.jpg" alt="R.DAPC" width="40%" border="0" /><sub><br>Tomado de: <a href="https://www.vecteezy.com/vector-art/24103530-set-of-computer-mouse-outline-drawing-vector-computer-mouse-in-a-sketch-style-computer-mouse-training-template-outline-vector-">Mouse from: www.vecteezy.com</a></sub><br><br></div>
 
 :blue_heart: Al ampliar o reducir el zoom con la rueda del mouse, la ubicación del cursor es importante. Puede considerar el cursor como una lupa., p. ej. si coloca el cursor en el área superior derecha del área de dibujo, se amplía esa área sin cambiar su posición.
