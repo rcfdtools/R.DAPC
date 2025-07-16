@@ -434,7 +434,7 @@ Para el dibujo isométrico en AutoCAD, es necesario activar los siguientes asist
 
 Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, dibujaremos las vistas proyectadas y vistas planas lateral derecha, superior, frontal y posterior, calcularemos las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E03.dwg_.
 
-<div align="center"><img src="graph/M01A01E03.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A01E03a.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
 
 ### Ejercicio M01A01E04
