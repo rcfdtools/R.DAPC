@@ -79,7 +79,7 @@ Otras normas técnicas y referencias
 * [physics-symbols](https://byjus.com/physics/physics-symbols/)
 
 
-## Otros
+## Dibujo técnico y guías
 
 * Dibujo técnico 1 Bachillerato - McGraw-Hill ([.pdf](DibujoTecnico1McGrawHill.pdf), [www](https://guao.org/sites/default/files/biblioteca/Dibujo%20T%C3%A9cnico.pdf))
 * Dibujo técnico 1 Bachillerato - DGEP ([.pdf](DibujoTecnico1DGEP.pdf), [www](https://dgep.uas.edu.mx/librosdigitales/5to_SEMESTRE/47_Dibujo_tecnico_I.pdf))
