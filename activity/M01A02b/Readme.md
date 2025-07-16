@@ -337,7 +337,7 @@ Especificaciones adicionales:
 
 Dibuje la llave de tuercas presentada en la ilustración. Guarde el dibujo como _/file/cad/M01A02bE02.dwg_.
 
-<div align="center"><img src="graph/M01A02bE02.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 84)</sub></div>
+<div align="center"><img src="graph/M01A02bE02.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 84)</sub></div>
 
 
 ### Ejercicio M01A02bE03
@@ -352,14 +352,14 @@ Dibuje las siguientes formas geométricas con simetría axial mostradas en la il
 
 Dibuje el siguiente elemento isométrico correspondiente a la cabeza de un martillo. Guarde el dibujo como _/file/cad/M01A02bE04.dwg_.
 
-<div align="center"><img src="graph/M01A02bE04.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
+<div align="center"><img src="graph/M01A02bE04.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
 ### Ejercicio M01A02bE05
 
 Dibuje el siguiente elemento isométrico correspondiente a un contra pasador. Guarde el dibujo como _/file/cad/M01A02bE05.dwg_.
 
-<div align="center"><img src="graph/M01A02bE05.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
+<div align="center"><img src="graph/M01A02bE05.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
 ### Ejercicio M01A02bE06
@@ -373,21 +373,21 @@ Dibuje el siguiente elemento isométrico correspondiente a un tabique o ladrillo
 
 Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/M01A02bE07.dwg_.
 
-<div align="center"><img src="graph/M01A02bE07.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A02bE07.jpg" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A02bE08
 
 Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/**M01A02bE08**.dwg_.
 
-<div align="center"><img src="graph/M01A02bE08.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 123)</sub></div>
+<div align="center"><img src="graph/M01A02bE08.jpg" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 123)</sub></div>
 
 
 ### Ejercicio M01A02bE09
 
 Creando un array de 10 líneas horizontales por 10 líneas verticales y trazando líneas, cree el logo de la [UECIJG](https://www.escuelaing.edu.co/). El ancho y alto de la figura debe corresponder a los 3 últimos dígitos de su código de estudiante. Guarde el dibujo como _/file/cad/**M01A02bE09**.dwg_.
 
-<div align="center"><img src="graph/M01A02bE09.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A02bE09.jpg" alt="R.DAPC" width="45%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
