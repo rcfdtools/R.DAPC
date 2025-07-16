@@ -359,7 +359,7 @@ Dibuje el siguiente elemento isométrico correspondiente a la cabeza de un marti
 
 Dibuje el siguiente elemento isométrico correspondiente a un contra pasador. Guarde el dibujo como _/file/cad/M01A02bE05.dwg_.
 
-<div align="center"><img src="graph/M01A02bE05.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
+<div align="center"><img src="graph/M01A02bE05.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
 ### Ejercicio M01A02bE06
