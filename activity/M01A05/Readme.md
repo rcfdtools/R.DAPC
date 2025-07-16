@@ -32,7 +32,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
-## 1. Formatos de impresión [^1]
+## 1. Formatos para impresión [^1]
 
 Dependiendo del tipo y tamaño del dibujo se debe utilizar un formato de impresión y unos grosores en las líneas de dibujo que facilite la comprensión y que nos aporte los datos necesarios sobre la pieza que está representada en el dibujo. Además, para favorecer la estandarización, los formatos y las líneas estarán normalizados.
 
@@ -119,7 +119,7 @@ Cierre el archivo del bloque.
 Cómo actividad complementaria, a partir del rótulo vertical, cree el rótulo horizontal A4 y los rótulos para impresión en formato ISO-A0.
 
 
-## 2. Layout Viewports 
+## 2. Layout Viewports e impresión
 
 1. Utilizando el comando **MVIEW** o desde el menú _Layout / Layout Viewports_, inserte en la capa cero (0), una ventana de impresión del espacio de modelado. Establezca por encajado las esquinas superior izquierda e inferior derecha del área útil del rótulo. Observará que automáticamente se ha escalado el dibujo del espacio del modelo al espacio de impresión. Opcionalmente y con el comando **ZOOM**, podrá acercarse a diferentes zonas del dibujo para verificar el grosor correcto de las plumas de impresión.
 
