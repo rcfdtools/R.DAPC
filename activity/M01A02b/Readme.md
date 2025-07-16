@@ -352,7 +352,7 @@ Dibuje las siguientes formas geométricas con simetría axial mostradas en la il
 
 Dibuje el siguiente elemento isométrico correspondiente a la cabeza de un martillo. Guarde el dibujo como _/file/cad/M01A02bE04.dwg_.
 
-<div align="center"><img src="graph/M01A02bE04.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
+<div align="center"><img src="graph/M01A02bE04.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
 ### Ejercicio M01A02bE05
