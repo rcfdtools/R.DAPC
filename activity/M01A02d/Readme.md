@@ -283,7 +283,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE09
 
-A partir de la figura dibujada en el ejercicio [M01A01E07](../M01A01), cree un sólido y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A01E07](../M01A01), cree un sólido en madera y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
