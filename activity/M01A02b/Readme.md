@@ -344,7 +344,8 @@ Dibuje la llave de tuercas presentada en la ilustración. Guarde el dibujo como 
 
 Dibuje las siguientes formas geométricas con simetría axial mostradas en la ilustración, establezca libremente las dimensiones de cada figura. Guarde el dibujo como _/file/cad/M01A02bE03.dwg_.
 
-<div align="center"><img src="graph/M01A02bE03.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
+<div align="center"><img src="graph/M01A02bE03.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
+<div align="center"><img src="graph/M01A02bE03a.jpg" alt="R.DAPC" width="40%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 86)</sub></div>
 
 
 ### Ejercicio M01A02bE04
