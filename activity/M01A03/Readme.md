@@ -66,7 +66,7 @@ Para esta actividad, dibujaremos el bloque de símbolo eléctrico definido en el
 
 ### Ejercicio M01A03E01
 
-Cree el símbolo de riesgo eléctrico del RETIE, utilizando las dimensiones proporcionales para h=200.
+Cree el símbolo de riesgo eléctrico del _Reglamento Técnico de Instalaciones Eléctricas (Resolución 40117 de 2024) - RETIE del Ministerio de Minas y Energía de Colombia_, utilizando las dimensiones proporcionales para h=200.
 
 1. En AutoCAD, cree una copia del archivo [/file/cad/M01A02a.dwg](../../file/cad/M01A02a.dwg) que contiene los nombres de capas definidos para el curso DAPC, guarde como /file/cad/M01A03.dwg y verifique con _UNITS_ que las unidades de inserción son milímetros.
 
@@ -117,7 +117,7 @@ Para insertar bloques desde archivos externos o los bloques de ejemplo o _Sample
 
 ### Ejercicio M01A03E02
 
-Cree los símbolos eléctricos del RETIE. Iniciemos con el símbolo de _Extintor para equipo eléctrico_, como referencia, utilizaremos un extintor con capacidad de 20 libras, con un ancho de 7" x 23"de alto.
+Cree los símbolos eléctricos del _Reglamento Técnico de Instalaciones Eléctricas (Resolución 40117 de 2024) - RETIE del Ministerio de Minas y Energía de Colombia_. Iniciemos con el símbolo de _Extintor para equipo eléctrico_, como referencia, utilizaremos un extintor con capacidad de 20 libras, con un ancho de 7" x 23"de alto.
 
 <div align="center"><img src="graph/RETIE_SimboloElectricoExtintorEquipoElectronico.jpg" alt="R.DAPC" width="15%" border="0" /></div>
 
