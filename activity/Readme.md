@@ -5,7 +5,7 @@ Durante el desarrollo del curso, los estudiantes presentarán los siguientes eje
 > En el cuadro, la columna _P_ corresponde a actividades de proyecto que son presentadas en grupo.
 
 
-## Módulo 1: Dibujo asistido por computadora con AutoCAD
+## :globe_with_meridians:Módulo 1: Dibujo asistido por computadora con AutoCAD
 
 
 ### 1.1. Conceptos básicos de diseño asistido por computador - CAD
