@@ -299,7 +299,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE10
 
-A partir de la figura dibujada en el ejercicio [M01A02bE02](../M01A02), cree el sólido en acero de una llave de tuercas y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE02](../M01A02b), cree el sólido en acero de una llave de tuercas y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -315,7 +315,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE11
 
-A partir de la figura dibujada en el ejercicio [M01A02bE04](../M01A02), cree el sólido en acero de una cabeza de martillo y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE04](../M01A02b), cree el sólido en acero de una cabeza de martillo y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -331,7 +331,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE12
 
-A partir de la figura dibujada en el ejercicio [M01A02bE05](../M01A02), cree el sólido de un contra pasador en acero y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE05](../M01A02b), cree el sólido de un contra pasador en acero y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -347,7 +347,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE13
 
-A partir de la figura dibujada en el ejercicio [M01A02bE06](../M01A02), cree el sólido de un ladrillo de arcilla y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE06](../M01A02b), cree el sólido de un ladrillo de arcilla y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -363,7 +363,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE14
 
-A partir de la figura dibujada en el ejercicio [M01A02bE07](../M01A02), cree un sólido en nylon y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE07](../M01A02b), cree un sólido en nylon y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -379,7 +379,7 @@ Para la construcción de esta figura, cree primero los volúmenes de sus objetos
 
 ### Ejercicio M01A02dE15
 
-A partir de la figura dibujada en el ejercicio [M01A02bE08](../M01A02), cree un sólido en nylon y calcule su área superficial, volumen y masa.
+A partir de la figura dibujada en el ejercicio [M01A02bE08](../M01A02b), cree un sólido en nylon y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
@@ -402,7 +402,7 @@ En AutoCAD, **[REVOLVE](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-6
 
 ### Ejercicio M01A02dE16
 
-A partir de las figuras dibujadas en el ejercicio [M01A02bE03](../M01A02), cree sólidos en PVA y calcule su área superficial, volumen y masa.
+A partir de las figuras dibujadas en el ejercicio [M01A02bE03](../M01A02b), cree sólidos en PVA y calcule su área superficial, volumen y masa.
 
 Especificaciones:
 
