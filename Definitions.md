@@ -1,10 +1,19 @@
 # Comando, iconografía, abreviaturas, definiciones y tipos de archivo
 
 
-## Herramientas y comandos de AutoCAD
+## 1. Herramientas y comandos de AutoCAD
 
 
-### Modificación 
+### 1.1. Dibujo
+
+
+|                                        Ícono                                         | Herramienta              | Comando / Atajo                                                                                                   | Descripción                                                                                                                                                                                             |
+|:------------------------------------------------------------------------------------:|:-------------------------|:------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   <img src="file/graph/AutoCAD_Surfsculp.png" alt="R.DAPC" width="28" border="0" />   | Surface sculpture        | [SURFSCULPT](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-0436666E-08CB-40CA-81B3-F79BD3447006)                                                                                                                                                      | Corta y combina un conjunto de superficies o mallados que encierran un espacio determinado, en un sólido 3D.                                                                                                                                                         |
+|    <img src="file/graph/AutoCAD_Thicken.png" alt="R.DAPC" width="28" border="0" />    | Thicken                  | [THICKEN](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-50CAFB97-22BA-4224-9B48-60D6E7ABFCF1)                                                                                                                                                         | Convierte una superficie en un sólido 3D con un espesor definido.                                                                                                                                                                                                    |
+
+
+### 1.2. Modificación 
 
 |                                        Ícono                                         | Herramienta              | Comando / Atajo                                                                                                   | Descripción                                                                                                                                                                                             |
 |:------------------------------------------------------------------------------------:|:-------------------------|:------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -42,7 +51,7 @@
 |  <img src="file/graph/AutoCAD_Draworder.png" alt="R.DAPC" width="28" border="0" />   | Bring To - Draw order    | [DRAWORDER](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-3DC76D6E-8F81-4803-8D0A-AA7541D6357E)          | Cambia el orden o posición de dibujo de un objeto con respecto a otro, p. ej., una columna que se encuentra en la capa S-COLS puede ser colocada encima o debajo de un muro dibujado en la capa A-WALL. |
 
 
-### Generales
+### 1.3. Generales
 
 |                                         Ícono                                         | Herramienta              | Comando                                                                                                                                                                                                                                                        | Utilidad                                                                                                                                                                                                                                                             |
 |:-------------------------------------------------------------------------------------:|:-------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -62,8 +71,6 @@
 |                                                                                       | Point type               | [PTYPE](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-2ECD656C-989D-40EE-8D1A-AF010A5CD2A2)                                                                                                                                                           | Establece el tipo y tamaño de representación visual a usar en puntos.                                                                                                                                                                                                |
 |                                                                                       | Redraw                   | [REDRAW](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-6AD77E11-D549-47E7-AE4C-EFE372A0F0C4)                                                                                                                                                          | Refresca la pantalla en el viewport actual eliminando elementos que ya han sido eliminados.                                                                                                                                                                          |
 |                                                                                       | Regen                    | [REGEN](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-CC98095F-B4C4-4B25-9097-A7B6EF4260B2)                                                                                                                                                           | Regenera todo el dibujo contenido en el espacio de modelado de un viewport, permitiendo visualizar arcos con mayor precisión.                                                                                                                                        |
-|   <img src="file/graph/AutoCAD_Surfsculp.png" alt="R.DAPC" width="28" border="0" />   | Surface sculpture        | [SURFSCULPT](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-0436666E-08CB-40CA-81B3-F79BD3447006)                                                                                                                                                      | Corta y combina un conjunto de superficies o mallados que encierran un espacio determinado, en un sólido 3D.                                                                                                                                                         |
-|    <img src="file/graph/AutoCAD_Thicken.png" alt="R.DAPC" width="28" border="0" />    | Thicken                  | [THICKEN](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-50CAFB97-22BA-4224-9B48-60D6E7ABFCF1)                                                                                                                                                         | Convierte una superficie en un sólido 3D con un espesor definido.                                                                                                                                                                                                    |
 |                                                                                       | Text to Mtext            | [TXT2MTXT](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-1E68C8B2-520F-4084-BD20-51DC4A32A7E5)                                                                                                                                                        | Convierte objetos de textos de líneas sencillas en un objeto de texto multilínea.                                                                                                                                                                                    |
 |                                                                                       | Units                    | [UNITS](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-1DAE2080-84E4-413E-BB4E-F5D2A96CB14A)<br> `UN`                                                                                                                                                    | Configuración de unidades de dibujo.                                                                                                                                                                                                                                 |
 |                                                                                       | DWG units                | DWGUNITS                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                      |
@@ -71,7 +78,7 @@
 
 
 
-## Iconografía [^1]
+## 2. Iconografía [^1]
 
 |           Ícono            | shortcode                    | Utilidad                                                                                             |
 |:--------------------------:|:-----------------------------|:-----------------------------------------------------------------------------------------------------|
@@ -109,7 +116,7 @@
 Markdown emojis: https://gist.github.com/rxaviers/7360908
 
 
-## Abreviaturas
+## 3. Abreviaturas
 
 | Abreviatura                                                                                   | Significado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |:----------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -153,7 +160,7 @@ Markdown emojis: https://gist.github.com/rxaviers/7360908
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 
-## Definiciones
+## 4. Definiciones
 
 | Definición                                                                                                                             | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |:---------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -168,7 +175,7 @@ Markdown emojis: https://gist.github.com/rxaviers/7360908
 |                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 
-## Extensiones y tipos de archivos
+## 5. Extensiones y tipos de archivos
 
 | Extensión                                  | Descripción                                                                      |
 |:-------------------------------------------|----------------------------------------------------------------------------------|
@@ -197,7 +204,7 @@ Markdown emojis: https://gist.github.com/rxaviers/7360908
 | [.csv](https://fileinfo.com/extension/csv) | Comma separated values file                                                      |
 
 
-_R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](LICENSE.md)._
+_R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](LICENSE.md)._
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
