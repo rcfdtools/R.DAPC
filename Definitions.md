@@ -1,6 +1,26 @@
 # Iconografía, abreviaturas, definiciones y tipos de archivo
 
 
+## Comandos de AutoCAD
+
+|                                        Ícono                                         | Comando                                                                                                    | Utilidad                                                                               |
+|:------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
+|                                                                                      | [UNITS](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-1DAE2080-84E4-413E-BB4E-F5D2A96CB14A), UN   | Configuración de unidades de dibujo.                                                   |
+|                                                                                      | [LAYER](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-9123091A-2DCB-4DE8-983C-F7CA38FA67BE), LA   | Acceso a definición y configuración de capas.                                          |
+|                                                                                      | [PTYPE](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-2ECD656C-989D-40EE-8D1A-AF010A5CD2A2)       | Establece el tipo y tamaño de representación visual a usar en puntos.                  |
+|                                                                                      | [MIRRTEXT](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-D55D2D18-B26E-4525-B5E4-03A2A07FB5F6)    | Variable de sistema para establecer si el texto es reflejado usando el comando MIRROR. |
+| <img src="file/graph/AutoCAD_ModifyMirror.jpg" alt="R.DAPC" width="28" border="0" /> | [MIRROR](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-595277C8-9B87-4CFB-A3AF-769537A22F3D)      | Crea una copia espejo de un objeto.                                                    |
+|                                                                                      |                                                                                                            |                                                                                        |
+|                                                                                      |                                                                                                            |                                                                                        |
+|                                                                                      |                                                                                                            |                                                                                        |
+|                                                                                      |                                                                                                            |                                                                                        |
+|                                                                                      |                                                                                                            |                                                                                        |
+|                                                                                      |                                                                                                            |                                                                                        |
+|                                                                                      |                                                                                                            |                                                                                        |
+
+
+
+
 ## Iconografía [^1]
 
 |           Ícono            | shortcode                    | Utilidad                                                                                             |
