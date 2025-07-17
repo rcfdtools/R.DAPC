@@ -45,12 +45,12 @@ Antes de iniciar a crear elementos 3D a partir de elementos 2D, es recomendable 
 
 Para el dibujo 3D en AutoCAD, es necesario activar los siguientes asistentes de dibujo:
 
-* <img src="../../file/graph/AutoCAD_ToolDynamicInput.jpg" alt="R.DAPC" width="28" border="0" /> Dynamic Input, <kbd>F12</kbd>, **DYNMODE**.
-* <img src="../../file/graph/AutoCAD_ToolPolarTracking.jpg" alt="R.DAPC" width="28" border="0" /> Polar Tracking, <kbd>F10</kbd> p. ej., para ángulos de 30 grados.
-* <img src="../../file/graph/AutoCAD_ToolObjectSnapTracking.jpg" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
-* <img src="../../file/graph/AutoCAD_Tool2DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 2D Object Snap, <kbd>F3</kbd>, **OSNAP** para Endpoint, Midpoint, Center, Quadrant, Intersection y Tangent.
-* <img src="../../file/graph/AutoCAD_Tool3DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 3D Object Snap, <kbd>F4</kbd>, **3DOSNAP** para Vertex, Midpoint on edge, Center of face y Perpendicular.
-* <img src="../../file/graph/AutoCAD_ToolWorkspaceSwitching.jpg" alt="R.DAPC" width="28" border="0" /> Workspace Switching, **WSCURRENT**, seleccionar el espacio de trabajo correspondiente a 3D Modeling.
+* <img src="../../file/graph/AutoCAD_ToolDynamicInput.png" alt="R.DAPC" width="28" border="0" /> Dynamic Input, <kbd>F12</kbd>, **DYNMODE**.
+* <img src="../../file/graph/AutoCAD_ToolPolarTracking.png" alt="R.DAPC" width="28" border="0" /> Polar Tracking, <kbd>F10</kbd> p. ej., para ángulos de 30 grados.
+* <img src="../../file/graph/AutoCAD_ToolObjectSnapTracking.png" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
+* <img src="../../file/graph/AutoCAD_Tool2DObjectSnap.png" alt="R.DAPC" width="28" border="0" /> 2D Object Snap, <kbd>F3</kbd>, **OSNAP** para Endpoint, Midpoint, Center, Quadrant, Intersection y Tangent.
+* <img src="../../file/graph/AutoCAD_Tool3DObjectSnap.png" alt="R.DAPC" width="28" border="0" /> 3D Object Snap, <kbd>F4</kbd>, **3DOSNAP** para Vertex, Midpoint on edge, Center of face y Perpendicular.
+* <img src="../../file/graph/AutoCAD_ToolWorkspaceSwitching.png" alt="R.DAPC" width="28" border="0" /> Workspace Switching, **WSCURRENT**, seleccionar el espacio de trabajo correspondiente a 3D Modeling.
 
 
 ## 1. Modelado de geometrías básicas
