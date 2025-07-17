@@ -428,11 +428,11 @@ En el sistema europep (E) conocido como el primer diedro y partir de la proyecci
 
 Para el dibujo isométrico en AutoCAD, es necesario activar los siguientes asistentes de dibujo:
 
-* <img src="../../file/graph/AutoCAD_DynamicInput.jpg" alt="R.DAPC" width="28" border="0" /> Dynamic Input, <kbd>F12</kbd>, **DYNMODE**.
-* <img src="../../file/graph/AutoCAD_PolarTracking.jpg" alt="R.DAPC" width="28" border="0" /> Polar Tracking, <kbd>F10</kbd> para ángulos de 30 grados.
-* <img src="../../file/graph/AutoCAD_IsometricDrafting.jpg" alt="R.DAPC" width="28" border="0" />  Isometric Drafting , **ISODRAFT**.
-* <img src="../../file/graph/AutoCAD_ObjectSnapTracking.jpg" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
-* <img src="../../file/graph/AutoCAD_2DObjectSnap.jpg" alt="R.DAPC" width="28" border="0" /> 2D Object Snap, <kbd>F3</kbd>, **OSNAP** para Endpoint, Midpoint, Center, Quadrant, Intersection y Tangent.
+* <img src="../../file/graph/AutoCAD_DynamicInput.png" alt="R.DAPC" width="28" border="0" /> Dynamic Input, <kbd>F12</kbd>, **DYNMODE**.
+* <img src="../../file/graph/AutoCAD_PolarTracking.png" alt="R.DAPC" width="28" border="0" /> Polar Tracking, <kbd>F10</kbd> para ángulos de 30 grados.
+* <img src="../../file/graph/AutoCAD_IsometricDrafting.png" alt="R.DAPC" width="28" border="0" />  Isometric Drafting , **ISODRAFT**.
+* <img src="../../file/graph/AutoCAD_ObjectSnapTracking.png" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
+* <img src="../../file/graph/AutoCAD_2DObjectSnap.png" alt="R.DAPC" width="28" border="0" /> 2D Object Snap, <kbd>F3</kbd>, **OSNAP** para Endpoint, Midpoint, Center, Quadrant, Intersection y Tangent.
 
 <div align="center"><img src="graph/IsometricPlanes.jpg" alt="R.DAPC" width="25%" border="0" /><br><sub>Planos isométricos en AutoCAD.</sub></div>
 

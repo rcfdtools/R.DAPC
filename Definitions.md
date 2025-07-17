@@ -53,7 +53,7 @@ En AutoCAD, las herramientas de dibujo son comandos y funciones que permiten cre
 
 ### 1.2. Modificación 
 
-En AutoCAD, las herramientas de modificación son comandos que permiten alterar objetos existentes en un dibujo. Estas herramientas son esenciales para editar y manipular elementos de diseño, como mover, copiar, rotar, escalar, recortar, alargar, entre otras acciones. En resumen, facilitan la modificación precisa y eficiente de los diseños en AutoCAD. 
+En AutoCAD, las herramientas de modificación son comandos y funciones que permiten alterar objetos existentes en un dibujo. Estas herramientas son esenciales para editar y manipular elementos de diseño, como mover, copiar, rotar, escalar, recortar, alargar, entre otras acciones. En resumen, facilitan la modificación precisa y eficiente de los diseños en AutoCAD. 
 
 |                                        Ícono                                         | Herramienta              | Comando / Atajo                                                                                                   | Descripción                                                                                                                                                                                             |
 |:------------------------------------------------------------------------------------:|:-------------------------|:------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
