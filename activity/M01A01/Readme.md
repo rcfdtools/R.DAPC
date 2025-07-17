@@ -350,7 +350,7 @@ Herramientas complementarias facilitan el dibujo de elementos geométricos con p
 
 <div align="center"><img src="graph/AutoCAD_DrawingAssistedTools.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Listado de herramientas complementarias:
+Listado de herramientas complementarias en barra de estado:
 
 | Ícono                                                                                              | Herramienta           | Comando / Atajo                                     | Descripción                                                                                                                                                                                                                                                                                                         |
 |:---------------------------------------------------------------------------------------------------|:----------------------|:----------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
