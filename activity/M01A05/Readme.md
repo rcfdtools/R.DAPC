@@ -40,7 +40,7 @@ Los tamaños, formatos de papel, están regulados por la norma de estandarizaci�
 
 Para identificación de los tamaños debemos tener en cuenta que cada formato de mayor orden, es la mitad del anterior, es decir, ISO A5 (DIN A5) es la mitad de la ISO A4 (DIN A4). De la misma forma, la ISO A3 (DIN A3) es el doble de la ISO A4 (DIN A4). Al conjunto de estos tamaños se le llama serie A. 
 
-<div align="center"><img src="graph/ISO_APaperSize.png" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: /www.lehighprint.us</sub></div>
+<div align="center"><img src="graph/ISO_APaperSize.png" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: /www.lehighprint.us</sub></div><br>
 
 > Tenga en cuenta que en el mundo existen diferentes estándares de papel para impresión y que el más utilizado es el ISO estándar y sus diferentes variaciones, p. ej., ISO A, ISO B, ANSI y ANSI Architectural.[^2]
 
