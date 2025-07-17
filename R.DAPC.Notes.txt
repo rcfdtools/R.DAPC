@@ -13,9 +13,6 @@ Windows + Shift + S for print screen
 
 Pending
 	Actividades de proyecto.
-	What is ISO.
-	ISO vs. ANSI.
-	ISO-A vs. ISO-E.
 	Clothoid curves.
 	Parametric drawing.
 	Crear toma levinton con caja.
