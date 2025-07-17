@@ -12,6 +12,9 @@ Windows + Shift + S for print screen
 <div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="100%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya</sub></div>
 
 Pending
+	Actividades de proyecto.
+	What is ISO.
+	ISO vs. ANSI.
 	ISO-A vs. ISO-E.
 	Clothoid curves.
 	Parametric drawing.
@@ -19,6 +22,7 @@ Pending
 	Bombilla 3D con materiales.
 	External references.
 	GIS external maps.
+	Links and icon to each command used.
 	
 
 Quiz exercices

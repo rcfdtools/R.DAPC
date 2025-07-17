@@ -7,8 +7,12 @@ Durante el desarrollo del curso, los estudiantes presentarán los siguientes eje
 
 ## :globe_with_meridians:Módulo 1: Dibujo asistido por computadora con AutoCAD
 
+En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD, Entorno gráfico e interfaz de AutoCAD, Comandos básicos, Dibujo de elementos básicos, Presentación de elementos básicos, Achurado y sombreado, Dimensionamiento de elementos, Herramientas de acotado, Rotulado, Herramientas de edición y dibujo en 3D, Creación y estructurado de un plano, Manejo de ventanas de impresión, Capas, Viewports: manejo de escalas, plantas, perfiles y secciones transversales.
+
 
 ### 1.1. Conceptos básicos de diseño asistido por computador - CAD
+
+Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 
 | Ejercicio              | Descripción                                                                                                                                                                                                                                                                                                                                                                                     | Figura                                                                        | P  |
 |:-----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|:--:|
@@ -24,12 +28,16 @@ Durante el desarrollo del curso, los estudiantes presentarán los siguientes eje
 
 ### 1.2.a. Elementos básicos de dibujo / Creación de capas o layers
 
+Normas para definición de nombres y creación de capas o Layers.
+
 | Ejercicio              | Descripción                                                                                                                                                                                                                                                                 | Figura | P  |
 |:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|:--:|
 | [M01A02aE01](M01A02a)  | En el archivo _M01A01a.dwg_, cree las capas establecidas en el catálogo [DAPC_AIALayerName.xlsx](../file/table/DAPC_AIALayerName.xlsx) para el curso DACP. En las descripciones incluya el nombre de la disciplina un guion y la descripción, p. ej., _Arquitectura - Área_ |        | ✓  | 
 
 
 ### 1.2.b. Elementos básicos de dibujo / UCS y Geometrías
+
+Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX... Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR...
 
 | Ejercicio              | Descripción                                                                                                                                                                                                          | Figura                                                                           | P  |
 |:-----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|:--:|
@@ -46,6 +54,8 @@ Durante el desarrollo del curso, los estudiantes presentarán los siguientes eje
 
 ### 1.2.c. Elementos básicos de dibujo / Curvas especiales
 
+Dibujo de elipse, óvalo, parábola, hipérbola y funciones trigonométricas.
+
 | Ejercicio              | Descripción                                                                                                                                                                                                                                                                                                                                                                                     | Figura                                                                                   | P  |
 |:-----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|:--:|
 | [M01A02cE00](M01A02c)  | A partir de coordenadas de localización del centroide de una elipse y la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar la polilínea en AutoCAD y luego suavizarla. Utilizando los parámetros de cálculo, trace con la herramienta **ELLIPSE**, la elipse compuesta por arcos y compare su longitud con la trazada a partir de puntos. | <img src="M01A02c/graph/Excel_Elipsea.jpg" alt="R.SIGE" width="400" border="0" />        |    | 
@@ -59,6 +69,8 @@ Durante el desarrollo del curso, los estudiantes presentarán los siguientes eje
 
 
 ### 1.2.d. Dibujo en 3D 
+
+Creación de superficies y sólidos tridimensionales.
 
 | Ejercicio              | Descripción                                                                                                                                                                                | Figura                                                                           | P  |
 |:-----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|:--:|
@@ -87,6 +99,8 @@ Durante el desarrollo del curso, los estudiantes presentarán los siguientes eje
 
 ### 1.3. Bloques - Achurados- Viewports
 
+Diseño de bloques. Achurados y/o sombras. Figuras rellenas. Mosaico de vistas. Vistas fijas - espacio modelo. Vistas flotantes - espacio papel. Comandos: BLOCK, HATCH, SOLID, VPORTS, MVIEW, PSPACE, VPLAYER.
+
 | Ejercicio           | Descripción                                                                                                                                                                                                                                 | Figura                                                                                                             | P  |
 |:--------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|:--:|
 | [M01A03E01](M01A03) | Cree el bloque del símbolo de riesgo eléctrico del _Reglamento Técnico de Instalaciones Eléctricas (Resolución 40117 de 2024) - RETIE del Ministerio de Minas y Energía de Colombia_, utilizando las dimensiones proporcionales para h=200. | <img src="M01A03/graph/RETIE_RiesgoElectrico1a.jpg" alt="R.SIGE" width="400" border="0" />                         | ✓  |
@@ -95,6 +109,8 @@ Durante el desarrollo del curso, los estudiantes presentarán los siguientes eje
 
 ### 1.4. Textos, anotaciones y dimensionamiento
 
+Texto simple, multilínea y de anotación. Estilo de la dimensión. Acotado de líneas rectas, círculos, arcos y ángulos. Editar dimensiones. Superficies normales, inclinadas y oblicuas. Visibilidad de aristas.
+
 | Ejercicio           | Descripción                                                                                                                             | Figura                                                                     | P  |
 |:--------------------|:----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|:--:|
 | [M01A04E01](M01A04) | Modifique la figura presentada en el ejercicio [M01A01E02](M01A01) y realice el acotado detallado, dibujo de ejes y líneas directrices. | <img src="M01A04/graph/M01A04a.jpg" alt="R.SIGE" width="400" border="0" /> |    |
@@ -102,12 +118,27 @@ Durante el desarrollo del curso, los estudiantes presentarán los siguientes eje
 
 ### 1.5. Layout e Impresión
 
+Creación de plantillas. Espacio papel y espacio modelo. Asignación de escala. Configuración de impresora y trazadores (plotter). Configuración del trazado. Impresión. Comandos MVSETUP, PRINT, ZOOM, SCALE.
+
 | Ejercicio           | Descripción                                                                                                              | Figura | P  |
 |:--------------------|:-------------------------------------------------------------------------------------------------------------------------|--------|:--:|
-| [M01A05E01](M01A05) | siguiendo las especificaciones definidas, cree rótulos para impresión horizontal y vertical en formatos ISO-A0 e ISO-A4. |        | ✓  |
+| [M01A05E01](M01A05) | Siguiendo las especificaciones definidas, cree rótulos para impresión horizontal y vertical en formatos ISO-A0 e ISO-A4. |        | ✓  |
+
+
+### 1.6. Proyecto de dibujo asistido por computadora con AutoCAD
+
+Layers, papel. Texto menor, texto mayor. Planos de referencia para posiciones espaciales. Limits. Coordenadas cartesianas X, Y, Z. Coordenadas relativas posicionales. Coordenadas geográficas.
+
+| Ejercicio | Descripción    | Figura | P  |
+|:----------|:---------------|--------|:--:|
+| Otros     | En desarrollo. |        | ✓  |
 
 
 ## :globe_with_meridians:Módulo 2: Sistemas de información geográfica
 
+En este módulo abordaremos: Fundamentos de los sistemas de información geográfica, Definición y edición de elementos de un SIG, Digitalización y entrada de entidades, Creación y edición de tablas relacionales, Mapas y cartografía, Elaboración de planos, Imágenes en SIG, Manejo y manipulación.
+
 
 ## :globe_with_meridians:Módulo 3: Metodología de modelado de información para la construcción (BIM) con REVIT
+
+En este módulo abordaremos: Introducción a los conceptos BIM, Uso de plantillas, Manejo básico del software REVIT, Configuración, Creación de vista de plantas, niveles de fondo, filtros y manipulación de elementos, Control de visualización, Láminas de ploteo, Metrados, Creación de WorkSets, Creación de un archivo local y Relinquish all mine, Introducción a Revit familias, Creación de perfiles y Concepto de familias Revit, Creación de planos de trabajo, Convertir líneas en símbolos y Controles de visibilidad.
