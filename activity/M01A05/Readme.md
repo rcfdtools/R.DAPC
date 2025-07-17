@@ -42,7 +42,7 @@ Para identificación de los tamaños debemos tener en cuenta que cada formato de
 
 <div align="center"><img src="graph/ISO_APaperSize.png" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: /www.lehighprint.us</sub></div><br>
 
-> Tenga en cuenta que en el mundo existen diferentes estándares de papel para impresión y que el más utilizado es el [ISO](https://www.iso.org/) estándar y sus diferentes variaciones, también existen los [ANSI](https://www.ansi.org/), p. ej., ISO A, ISO B, N. American ANSI y N. American ARCH or Architectural.[^2]
+> Tenga en cuenta que en el mundo existen diferentes tamaños estándar de papel para impresión y que el más utilizado es el [ISO](https://www.iso.org/) estándar y sus diferentes variaciones, también existen los [ANSI](https://www.ansi.org/) y los ARCH, p. ej., ISO A, ISO B, N. American ANSI y N. American ARCH or Architectural.[^2]
 
 De acuerdo a la Norma Técnica Colombiana NTC-1687 del 2003 de Dibujo técnico para formato y plegado de planos técnicos, los tamaños estándar de hoja, tamaño de rótulo y márgenes en milímetros son:
 
