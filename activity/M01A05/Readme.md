@@ -40,6 +40,10 @@ Los tamaños, formatos de papel, están regulados por la norma de estandarizaci�
 
 Para identificación de los tamaños debemos tener en cuenta que cada formato de mayor orden, es la mitad del anterior, es decir, ISO A5 (DIN A5) es la mitad de la ISO A4 (DIN A4). De la misma forma, la ISO A3 (DIN A3) es el doble de la ISO A4 (DIN A4). Al conjunto de estos tamaños se le llama serie A. 
 
+<div align="center"><img src="graph/ISO_APaperSize.png" alt="R.DAPC" width="50%" border="0" /><br><sub>Tomado de: /www.lehighprint.us</sub></div>
+
+> Tenga en cuenta que en el mundo existen diferentes estándares de papel para impresión y que el más utilizado es el ISO estándar y sus diferentes variaciones, p. ej., ISO A, ISO B, ANSI y ANSI Architectural.[^2]
+
 De acuerdo a la Norma Técnica Colombiana NTC-1687 del 2003 de Dibujo técnico para formato y plegado de planos técnicos, los tamaños estándar de hoja, tamaño de rótulo y márgenes en milímetros son:
 
 <div align="center"><img src="graph/NTC1687_Formato.jpg" alt="R.DAPC" width="70%" border="0" /></div>
@@ -171,6 +175,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://tienda.icontec.org/gp-ntc-dibujo-tecnico-formato-y-plegado-de-planos-tecnicos-ntc1687-2023.html
 * [AutoCAD para todos / Creación de vistas base y proyectada con AutoCAD](https://www.youtube.com/watch?v=ToCCqdeTCz8)
 * [AutoCAD para todos / Dibujo isométrico con acotado y manejo de impresión](https://www.youtube.com/watch?v=Yu6_rZKDoDU)
+* https://www.lehighprint.us/page/paper-size-chart-faq
 
 
 ## Control de versiones
@@ -191,3 +196,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: https://ibiguridt.wordpress.com/temas/materiales/formatos/
+[^2]: https://www.lehighprint.us/page/paper-size-chart-faq
