@@ -389,6 +389,8 @@ Creando un array de 10 líneas horizontales por 10 líneas verticales y trazando
 
 <div align="center"><img src="graph/M01A02bE09.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
+> Este logo deberá ser utilizado en el formato de impresión del proyecto.
+
 
 ## Actividades de proyecto :triangular_ruler:
 
