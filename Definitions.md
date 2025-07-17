@@ -114,11 +114,11 @@ En AutoCAD, las herramientas de modificación son comandos que permiten alterar 
 |       | Text to Mtext            | [TXT2MTXT](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-1E68C8B2-520F-4084-BD20-51DC4A32A7E5)                                         | Convierte objetos de textos de líneas sencillas en un objeto de texto multilínea.                                                                                                                                                                                    |
 |       | Units                    | [UNITS](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-1DAE2080-84E4-413E-BB4E-F5D2A96CB14A)<br> `UN`                                   | Configuración de unidades de dibujo.                                                                                                                                                                                                                                 |
 |       | DWG units                | DWGUNITS                                                                                                                                        | Configuración de unidades de dibujo desde consola. Permite reescalar objetos de las unidades de dibujo actual a otras unidades.                                                                                                                                      |
-|       |                          |                                                                                                                                                 |                                                                                                                                                                                                                                                                      |
-
 
 
 ## 2. Iconografía [^1]
+
+Iconografía utilizada en este respositorio.
 
 |           Ícono            | shortcode                    | Utilidad                                                                                             |
 |:--------------------------:|:-----------------------------|:-----------------------------------------------------------------------------------------------------|
@@ -157,6 +157,8 @@ Markdown emojis: https://gist.github.com/rxaviers/7360908
 
 
 ## 3. Abreviaturas
+
+Abreviaturas relacionadas dentro de la documentación oficial de este repositorio.
 
 | Abreviatura                                                                                   | Significado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |:----------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -202,6 +204,8 @@ Markdown emojis: https://gist.github.com/rxaviers/7360908
 
 ## 4. Definiciones
 
+Definiciones generales utilizadas en este repositorio.
+
 | Definición                                                                                                                             | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |:---------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Standalone](https://en.wikipedia.org/wiki/Standalone_software)                                                                        | Instalación independiente                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -216,6 +220,8 @@ Markdown emojis: https://gist.github.com/rxaviers/7360908
 
 
 ## 5. Extensiones y tipos de archivos
+
+Extensiones usadas en los archivos utilizados en este repositorio.
 
 | Extensión                                  | Descripción                                                                      |
 |:-------------------------------------------|----------------------------------------------------------------------------------|
