@@ -1,4 +1,4 @@
-# Iconografía, abreviaturas, definiciones y tipos de archivo
+# Comando, iconografía, abreviaturas, definiciones y tipos de archivo
 
 
 ## Comandos de AutoCAD
@@ -27,7 +27,6 @@
 |                                                                                              | [MVIEW](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-731B2752-B9E2-443E-816A-9B4851296455), MV                  | Crea una ventana de visualización al espacio de modelado en el espacio de papel.                                                                                                                                                                                     |
 |                                                                                              | [LIMITS](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-6CF82FC7-E1BC-4A8C-A23D-4396E3D99632)                     | Establece un área rectangular invisible como límite de dibujo. Con el comando GRIDDISPLAY establecido en cero (0), podrá visualizar sú límite a partir de la grilla de usuario (3 corresponde a grilla en todo el espacio de modelado).                              |
 |                                                                                              |                                                                                                                           |                                                                                                                                                                                                                                                                      |
-
 
 
 
