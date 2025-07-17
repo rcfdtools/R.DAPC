@@ -240,7 +240,7 @@ En cuanto a las hélices o espirales de arcos circulares:
 
 Las técnicas de dibujo de espirales incluyen la utilización de 2 o 3 centros, como se muestra en las siguientes ilustraciones.
 
-<div align="center"><img src="graph/Espiral2Centros.jpg" alt="R.DAPC" width="25%" border="0" /><img src="graph/Espiral3Centros.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 80)</sub></div>
+<div align="center"><img src="graph/Espiral2Centros.jpg" alt="R.DAPC" width="25%" border="0" /><img src="graph/Espiral3Centros.jpg" alt="R.DAPC" width="35%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 80)</sub></div><br>
 
 > Para entender mejor estos conceptos, realice el trazado manual de estas espirales utilizando cualquier radio y centroide.
 
@@ -373,14 +373,14 @@ Dibuje el siguiente elemento isométrico correspondiente a un tabique o ladrillo
 
 Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/M01A02bE07.dwg_.
 
-<div align="center"><img src="graph/M01A02bE07.jpg" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A02bE07.jpg" alt="R.DAPC" width="45%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A02bE08
 
 Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con perforaciones. Guarde el dibujo como _/file/cad/**M01A02bE08**.dwg_.
 
-<div align="center"><img src="graph/M01A02bE08.jpg" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 123)</sub></div>
+<div align="center"><img src="graph/M01A02bE08.jpg" alt="R.DAPC" width="45%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 123)</sub></div>
 
 
 ### Ejercicio M01A02bE09
