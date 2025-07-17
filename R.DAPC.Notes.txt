@@ -6,8 +6,8 @@ Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7:
 <kbd>esc</kbd>
 <kbd>enter</kbd>
 <kbd>ctrl</kbd>
-<kbd>ctrl</kbd> + <kbd>i</kbd>
-Windows + Shift + S for print screen
+<kbd>ctrl</kbd>+<kbd>i</kbd>
+Windows + shift + S for print screen
 
 <div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="100%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya</sub></div>
 
@@ -21,7 +21,7 @@ Pending
 	External references.
 	GIS external maps.
 	Links and icon to each command used.
-	LIMITS, GRIDDISPLAY: 3 for all 0 for show only inside limits
+	LIMITS, GRIDDISPLAY: 3 for all 0 for show only inside limits.
 	
 
 Quiz exercices
