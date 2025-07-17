@@ -36,13 +36,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 Dependiendo del tipo y tamaño del dibujo se debe utilizar un formato de impresión y unos grosores en las líneas de dibujo que facilite la comprensión y que nos aporte los datos necesarios sobre la pieza que está representada en el dibujo. Además, para favorecer la estandarización, los formatos y las líneas estarán normalizados.
 
-Los tamaños, formatos de papel, están regulados por la norma de estandarización ISO y que proviene de la alemana DIN. De esta forma, los formatos de papel se reconocen por su norma, esto es la ISO A4 (DIN A4) es una hoja de papel que mide 210×297 mm. Este formato es el más utilizado para dibujos pequeños.
+Los tamaños, formatos de papel, están regulados por la norma de estandarización [ISO](https://www.iso.org/) y que proviene de la alemana [DIN](https://www.din.de/en). De esta forma, los formatos de papel se reconocen por su norma, esto es la ISO A4 (DIN A4) es una hoja de papel que mide 210×297 mm. Este formato es el más utilizado para dibujos pequeños.
 
 Para identificación de los tamaños debemos tener en cuenta que cada formato de mayor orden, es la mitad del anterior, es decir, ISO A5 (DIN A5) es la mitad de la ISO A4 (DIN A4). De la misma forma, la ISO A3 (DIN A3) es el doble de la ISO A4 (DIN A4). Al conjunto de estos tamaños se le llama serie A. 
 
 <div align="center"><img src="graph/ISO_APaperSize.png" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: /www.lehighprint.us</sub></div><br>
 
-> Tenga en cuenta que en el mundo existen diferentes estándares de papel para impresión y que el más utilizado es el ISO estándar y sus diferentes variaciones, p. ej., ISO A, ISO B, ANSI y ANSI Architectural.[^2]
+> Tenga en cuenta que en el mundo existen diferentes estándares de papel para impresión y que el más utilizado es el [ISO](https://www.iso.org/) estándar y sus diferentes variaciones, también existen los [ANSI](https://www.ansi.org/), p. ej., ISO A, ISO B, N. American ANSI y N. American ARCH or Architectural.[^2]
 
 De acuerdo a la Norma Técnica Colombiana NTC-1687 del 2003 de Dibujo técnico para formato y plegado de planos técnicos, los tamaños estándar de hoja, tamaño de rótulo y márgenes en milímetros son:
 
