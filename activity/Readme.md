@@ -138,7 +138,16 @@ Layers, papel. Texto menor, texto mayor. Planos de referencia para posiciones es
 
 En este módulo abordaremos: Fundamentos de los sistemas de información geográfica, Definición y edición de elementos de un SIG, Digitalización y entrada de entidades, Creación y edición de tablas relacionales, Mapas y cartografía, Elaboración de planos, Imágenes en SIG, Manejo y manipulación.
 
+| Ejercicio | Descripción    | Figura | P  |
+|:----------|:---------------|--------|:--:|
+| Otros     | En desarrollo. |        | ✓  |
+
 
 ## :globe_with_meridians:Módulo 3: Metodología de modelado de información para la construcción (BIM) con REVIT
 
 En este módulo abordaremos: Introducción a los conceptos BIM, Uso de plantillas, Manejo básico del software REVIT, Configuración, Creación de vista de plantas, niveles de fondo, filtros y manipulación de elementos, Control de visualización, Láminas de ploteo, Metrados, Creación de WorkSets, Creación de un archivo local y Relinquish all mine, Introducción a Revit familias, Creación de perfiles y Concepto de familias Revit, Creación de planos de trabajo, Convertir líneas en símbolos y Controles de visibilidad.
+
+| Ejercicio | Descripción    | Figura | P  |
+|:----------|:---------------|--------|:--:|
+| Otros     | En desarrollo. |        | ✓  |
+
