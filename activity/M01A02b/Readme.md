@@ -3,7 +3,7 @@ Keywords: `polyline` `circle` `arc` `ellipse` `rectangle` `polygon` `point` `spl
 
 Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX... Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR...
 
-<div align="center"><img src="graph/M01A02b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A02b.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
 
 ## Objetivos
