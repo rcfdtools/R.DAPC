@@ -131,6 +131,9 @@ Markdown emojis: https://gist.github.com/rxaviers/7360908
 
 | Extensión                                  | Descripción                                                                      |
 |:-------------------------------------------|----------------------------------------------------------------------------------|
+| [.dwg](https://fileinfo.com/extension/dwg) | AutoCAD Drawing                                                                  |
+| [.dxf](https://fileinfo.com/extension/dxf) | Drawing Exchange Format File                                                     |
+| [.lsp](https://fileinfo.com/extension/lsp) | Lisp Program Source Code File                                                    |
 | [.md](https://fileinfo.com/extension/md)   | Markdown file                                                                    |
 | [.shp](https://fileinfo.com/extension/shp) | Esri Shapefile vector                                                            |
 | [.shx](https://fileinfo.com/extension/shx) | Esri Shapefile vector index                                                      |
