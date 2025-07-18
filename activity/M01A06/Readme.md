@@ -105,8 +105,6 @@ Separación entre estantes: Considerar el ancho y alto de maniobra del montacarg
 
 Prompt: dimensiones de transformadores eléctricos industriales
 
-<div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
-
 
 ## 5. Planos y cantidades
 
