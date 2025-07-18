@@ -107,14 +107,14 @@ Prompt: dimensiones de transformadores eléctricos industriales
 
 En el contexto de un proyecto, los planos de diseño son representaciones gráficas que detallan la forma, dimensiones y características de la obra a construir o implementar. Son documentos esenciales que guían a los constructores y otros profesionales durante la ejecución del proyecto, asegurando que se materialice según lo planificado. 
 
-| Especificación                | Actividad | Descripción y alcance                                                                                                                       |
-|:------------------------------|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| Plano de planta general       |           | Planta con visibilidad interna de la distribución de los espacios internos. Detalles de zonas de oficinas y baños. Incluir cuadro de áreas. |
-| Plano de cubiertas y fachadas |           | Cubiertas y fachadas. Incluir cuadro de áreas.                                                                                              |
-| Plano de corte longitudinal   |           | Plano en el sentido del largo de la bodega.                                                                                                 |
-| Plano de corte transversal    |           | Plano en el sentido del ancho de la bodega.                                                                                                 |
-| Planos eléctricos             |           | Plano en planta de conexiones eléctricas. En los planos arquitectónicos incluir el detalle de la acometída eléctrica.                       |
-| Tabla de cantidades           |           | Cree una tabla cuantificando todos los elementos y materiales requeridos para el proyecto. No es necesario realizar costos unitarios.       |
+| Especificación                | Actividad | Descripción y alcance                                                                                                                                             |
+|:------------------------------|:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Plano de planta general       |           | Planta con visibilidad interna de la distribución de los espacios internos. Detalles de zonas de oficinas y baños. Incluir cuadro de áreas.                       |
+| Plano de cubiertas y fachadas |           | Cubiertas y fachadas. En la cubierta incluir la distribución de los paneles solares, líneas de vída y ventiladores extractores de calor. Incluir cuadro de áreas. |
+| Plano de corte longitudinal   |           | Plano en el sentido del largo de la bodega incluyendo detalle de oficinas, baños y escalera..                                                                     |
+| Plano de corte transversal    |           | Plano en el sentido del ancho de la bodega incluyendo detalle de oficinas, baños y escalera.                                                                      |
+| Planos eléctricos             |           | Plano en planta de conexiones eléctricas. En los planos arquitectónicos incluir el detalle de la acometída eléctrica.                                             |
+| Tabla de cantidades           |           | Cree una tabla cuantificando todos los elementos y materiales requeridos para el proyecto. No es necesario realizar costos unitarios.                             |
 
 
 ## Actividades de proyecto :triangular_ruler:
