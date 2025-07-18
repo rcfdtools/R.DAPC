@@ -54,7 +54,7 @@ Para el desarrollo del proyecto es necesario seguir las siguientes especificacio
 > Los bloques insertados deberán convertirse a metros para adapatarse a las unidades generales del dibujo.
 
 
-## 1. Especificaciones arquitectónicas
+## 1. Especificaciones arquitectónicas y eléctricas
 
 | Especificación                | Actividad | Descripción y alcance                                                                                                                                                              |
 |:------------------------------|:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -62,6 +62,7 @@ Para el desarrollo del proyecto es necesario seguir las siguientes especificacio
 | Plano de cubiertas y fachadas |           | Cubiertas y fachadas. Incluir cuadro de áreas.                                                                                                                                     |
 | Plano de corte longitudinal   |           | Plano en el sentido del largo de la bodega.                                                                                                                                        |
 | Plano de corte transversal    |           | Plano en el sentido del ancho de la bodega.                                                                                                                                        |
+| Planos eléctricos             |           | Plano en planta de conexiones eléctricas.                                                                                                                                          |
 | Ancho de bodega               |           | 20 metros + Σ del último dígito de los códigos de estudiante. En los laterales de la bodega no deben existir ventanas.                                                             |
 | Largo de bodega               |           | 40 metros + Σ del último dígito de los códigos de estudiante.                                                                                                                      |
 | Alto de bodega                |           | 1 nivel con altura de 12 metros.                                                                                                                                                   |
@@ -78,6 +79,7 @@ Para el desarrollo del proyecto es necesario seguir las siguientes especificacio
 | Cubierta                      |           | Láminas metálicas sobre estructura metálica. Incluir ventiladores para extracción de aire caliente.                                                                                |
 |                               |           |                                                                                                                                                                                    |
 
+> No es necesario crear los planos de instalaciones hidráulicas, sanitarias y contra incendios.
 
 
 <div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
