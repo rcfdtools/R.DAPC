@@ -88,8 +88,9 @@ Las dimensiones de los transformadores eléctricos industriales varían ampliame
 
 Para el cálculo de la distribución interna del almacenamiento de los transformadores eléctricos, utilizar las dimensiones específicas de las diferentes referencias a almacenar, incluyendo el ancho de los soportes o cajas de embalaje.
 
-Seperación de estantes: Considerar el ancho y alto de maniobra del montacargas.
+Separación entre estantes: Considerar el ancho y alto de maniobra del montacargas.
 
+Prompt: dimensiones de transformadores eléctricos industriales
 
 <div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
