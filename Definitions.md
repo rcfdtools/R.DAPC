@@ -1,4 +1,4 @@
-# Comando, iconografía, abreviaturas, definiciones y tipos de archivo
+# Comandos, iconografía, abreviaturas, definiciones y tipos de archivo
 
 
 ## 1. Herramientas y comandos de AutoCAD
