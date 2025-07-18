@@ -53,7 +53,7 @@ Para el dibujo 3D en AutoCAD, es necesario activar los siguientes asistentes de 
 * <img src="../../file/graph/AutoCAD_WorkspaceSwitching.png" alt="R.DAPC" width="28" border="0" /> Workspace Switching, **WSCURRENT**, seleccionar el espacio de trabajo correspondiente a 3D Modeling.
 
 
-## 1. Modelado de geometrías básicas
+## 1. Modelado de geometrías 3D
 
 En AutoCAD, las herramientas de dibujo son comandos y funciones que permiten crear y manipular objetos gráficos en un dibujo. Estas herramientas son esenciales para la creación de diseños precisos y detallados, tanto en 2D como en 3D, y abarcan desde líneas y círculos hasta polilíneas, arcos, y más complejas formas.
 
