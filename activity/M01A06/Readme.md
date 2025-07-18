@@ -5,7 +5,7 @@ Aplicando los conceptos vistos durante el módulo 1 del curso, desarrollar un pr
 
 Aplique los conceptos vistos en las diferentes actividades del módulo relacionadas con: Layers, papel. Texto menor, texto mayor. Planos de referencia para posiciones espaciales. Limits. Coordenadas cartesianas X, Y, Z. Coordenadas relativas posicionales. Coordenadas geográficas.   
 
-<div align="center"><img src="graph/M01A06.png" alt="R.DAPC" width="40%" border="0" /><sub><br>Tomado de: <a href="https://pngtree.com/">https://pngtree.com/</a></sub><br><br></div>
+<div align="center"><img src="graph/M01A06.png" alt="R.DAPC" width="30%" border="0" /><sub><br>Tomado de: <a href="https://pngtree.com/">https://pngtree.com/</a></sub><br><br></div>
 
 
 ## Objetivos
