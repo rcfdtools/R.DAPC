@@ -33,7 +33,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
-## 0. Especificaciones generales
+## 1. Especificaciones generales
 
 Para el desarrollo del proyecto, es necesario seguir las siguientes especificaciones técnicas, creando una plantilla de AutoCAD que contenga los elementos indicados a continuación:
 
@@ -54,7 +54,7 @@ Para el desarrollo del proyecto, es necesario seguir las siguientes especificaci
 > Los bloques insertados deberán convertirse a metros para adapatarse a las unidades generales del dibujo.
 
 
-## 1. Especificaciones arquitectónicas y eléctricas
+## 2. Especificaciones arquitectónicas y eléctricas
 
 | Especificación                | Actividad | Descripción y alcance                                                                                                                                                              |
 |:------------------------------|:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,6 +80,13 @@ Para el desarrollo del proyecto, es necesario seguir las siguientes especificaci
 |                               |           |                                                                                                                                                                                    |
 
 > No es necesario crear los planos de instalaciones hidráulicas, sanitarias y contra incendios.
+
+
+## 3. Bodegaje
+
+Para el cálculo de la distribución interna del almacenamiento de los transformadores eléctricos, utilizar las dimensiones específicas de las diferentes referencias a almacenar, incluyendo el ancho de los soportes o cajas de embalaje.
+
+Seperación de estantes: Considerar el ancho y alto de maniobra del montacargas.
 
 
 <div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
