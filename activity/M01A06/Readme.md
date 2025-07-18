@@ -52,7 +52,7 @@ Para el desarrollo del proyecto, es necesario seguir las siguientes especificaci
 | Bloques - eléctricos       |           | Para el dibujo de los planos eléctricos, utilizar los bloques creados a partir de las especificaciones establecidas en el Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia.                                                                                                                                                                                                                   |
 | Bloques - otros            |           | Utilizar una librería de bloque externos citando la fuente de descarga.                                                                                                                                                                                                                                                                                                                                                                           |
 
-> Los bloques insertados deberán convertirse a metros para adapatarse a las unidades generales del dibujo.
+> Los bloques insertados deberán convertirse a metros para adaptarse a las unidades generales del dibujo.
 
 
 ## 2. Especificaciones arquitectónicas
