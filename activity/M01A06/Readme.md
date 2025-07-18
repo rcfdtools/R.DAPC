@@ -84,6 +84,8 @@ Para el desarrollo del proyecto, es necesario seguir las siguientes especificaci
 
 ## 3. Bodegaje
 
+Las dimensiones de los transformadores eléctricos industriales varían ampliamente según su capacidad (kVA), voltaje y tipo (monofásico o trifásico), así como si son de aceite o tipo seco. Generalmente, los transformadores de potencia media tienen alturas que van de 1.2 a 1.8 metros. Para transformadores de 100 kVA, por ejemplo, uno monofásico puede tener dimensiones de 770 mm de ancho, 965 mm de profundidad y 1135 mm de altura, según [Daelim Transformer](https://www.daelimtransformer.com/100-kva-transformer.html). Un transformador trifásico de 75 kVA puede tener dimensiones de 1155 mm de ancho, 845 mm de largo y 572 mm de alto, según [Ineldec](https://ineldec.com/producto/transformador-trifasico-convencional-75-kva/). 
+
 Para el cálculo de la distribución interna del almacenamiento de los transformadores eléctricos, utilizar las dimensiones específicas de las diferentes referencias a almacenar, incluyendo el ancho de los soportes o cajas de embalaje.
 
 Seperación de estantes: Considerar el ancho y alto de maniobra del montacargas.
@@ -120,7 +122,9 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://help.autodesk.com/view/ACD/2026/ESP
 * https://help.autodesk.com/view/ACD/2026/ENU/
-* https://www.andresdeltoro.es/realizar-una-linea-poligonal-autocad-conociendo-los-angulos/
+* https://ineldec.com/producto/transformador-trifasico-convencional-75-kva/
+* https://www.larsonelectronics.com/category/601/industrial-transformers
+* 
 
 
 ## Control de versiones
