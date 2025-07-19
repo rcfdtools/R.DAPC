@@ -11,6 +11,9 @@ Windows + shift + S for print screen
 
 <div align="center"><img src="graph/M01A01bE01.jpg" alt="R.DAPC" width="100%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - Anaya</sub></div>
 
+<div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+
+<br><br>:fire:<sub>Atención: tenga en cuenta que este tipo de elementos requieren de un diseño avanzado; los valores aquí definidos son esquemáticos y requieren ser revisados por un ingeniero experto.</sub>
 
 Pending
 	Actividades de proyecto.
