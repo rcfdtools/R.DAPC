@@ -19,7 +19,7 @@ Pending
 	Actividades de proyecto.
 	Clothoid curves.
 	Parametric drawing.
-	Crear toma levinton con caja.
+	Crear toma levington con caja.
 	Bombilla 3D con materiales.
 	External references.
 	GIS external maps.
@@ -32,4 +32,7 @@ Quiz exercices
 	Isometric draw.
 	3D draw.
 
-QPMODE
+Commands
+    QPMODE
+
+

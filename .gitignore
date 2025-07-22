@@ -19,10 +19,10 @@ Lib/
 *__pycache__*
 # Compiled Python Files
 *.pyc
-# TIFF
-*.tif
-*.tfw
 # Grid temporal metadata
+*.tif
+*.tif.*
+*.tfw
 *.aux.xml
 *.tif.xml
 *.tif.aux.xml
@@ -30,7 +30,7 @@ Lib/
 *.tif.vat.dbf
 *.tif.ovr
 *Copia_de_seguridad_de*
-# Shapefiles uncompressed
+# Shapefiles and GIS uncompressed
 *.shp
 *.shx
 *.dbf
@@ -40,6 +40,10 @@ Lib/
 *.sbx
 *.shp.*
 *.xml
+*.qix
+*.qmd
+*.2dm
+*.gdr
 # Geodatabases
 *.gdb
 *.mdb*
@@ -48,29 +52,27 @@ Lib/
 *.mp4
 *.mp3
 *.mkv
+# HEC
 *.dss
 *.results
-*.dwg
+*.bak
+# CAD ralated
+#*.dwg
+#*.dxf
 *.dwl
 *.dwl2
-*.dxf
-*.qmd
-*.2dm
-*.bak
-*.qix
-*.gdr
+*.cdc
 
 
 # Video exclusions
 #Section02/FdrDEM/FdrDEM.mp4
+
 
 # Large files exclusions
 #.dem/ASTER/ASTGTMV003Mosaic.tif
 #.dem/ASTER/ASTGTMV003Mosaic.tif.*
 #HECHMS/terrain/
 #HECHMS/gis/
-*.tif
-*.tif.*
 file/dem/ALOSPalsarFBS/*.zip
 file/dem/*.tif
 file/dem/*.tif.*
