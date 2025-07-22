@@ -151,4 +151,3 @@ En este módulo abordaremos: Introducción a los conceptos BIM, Uso de plantilla
 |:----------|:---------------|--------|:--:|
 | Otros     | En desarrollo. |        | ✓  |
 
-0202

@@ -50,10 +50,10 @@ Lib/
 *.mkv
 *.dss
 *.results
-*.dwg
+#*.dwg
 *.dwl
 *.dwl2
-*.dxf
+#*.dxf
 *.qmd
 *.2dm
 *.bak
