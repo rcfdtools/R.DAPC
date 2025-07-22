@@ -34,9 +34,9 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 |:------------------------------------------------------------------|:-------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.office.com/)                   | Microsoft Office 365.                                                    |
 | [:toolbox:Herramienta](https://notepad-plus-plus.org/)            | Notepad++ (editor de texto).                                             |
-| [:toolbox:Herramienta](https://qgis.org/)                         | QGIS 3.42 o superior.                                                    |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad) | Autodesk Autocad 3D 2026 o superior.                                     |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)   | Autodesk Revit 2026 o superior.                                          |
+| [:toolbox:Herramienta](https://qgis.org/)                         | QGIS 3.44 o superior.                                                    |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad) | Autodesk Autocad 2026 o superior (english version).                      |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)   | Autodesk Revit 2026 o superior (english version).                        |
 | [:open_file_folder:Repositorio de proyecto]()                     | Repositorio creado y compartido para publicación de avances de proyecto. |
 | [:open_file_folder:Estructura de directorios](file/Readme.md)     | Estructura requerida para el desarrollo del proyecto.                    |
 

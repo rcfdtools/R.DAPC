@@ -19,7 +19,7 @@ Pending
 	Actividades de proyecto.
 	Clothoid curves.
 	Parametric drawing.
-	Crear toma levinton con caja.
+	Crear toma levington con caja.
 	Bombilla 3D con materiales.
 	External references.
 	GIS external maps.
@@ -32,4 +32,14 @@ Quiz exercices
 	Isometric draw.
 	3D draw.
 
-QPMODE
+Commands
+    QPMODE
+
+
+Software requerido curso DAPC en aulas D-109l, C1-105l, C1-103l
+    Para el desarrollo del curso de Dibujo asistido por computador - DAPC, es requerida la instalación de las siguientes herramientas:
+    Microsoft Office 365 - https://www.office.com/
+    Notepad++ (editor de texto) - https://notepad-plus-plus.org/
+    QGIS 3.44 o superior - https://qgis.org/
+    Autodesk Autocad 2026 o superior.
+
