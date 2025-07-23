@@ -1,5 +1,5 @@
-# 1.6. Proyecto de dibujo asistido por computadora con AutoCAD
-Keywords: `final-project` `industrial-transformer`  `m01a00`
+# 1.6. Proyecto de dibujo asistido por computadora con Autodesk AutoCAD
+Keywords: `final-project` `industrial-transformer`  `m01a06`
 
 Aplicando los conceptos vistos durante el módulo 1 del curso, desarrollar un proyecto aplicado para el diseño de una bodega para el almacenamiento y distribución de transformadores eléctricos industriales.
 
