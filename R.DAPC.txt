@@ -16,6 +16,7 @@ Windows + shift + S for print screen
 <br><br>:fire:<sub>Atención: tenga en cuenta que este tipo de elementos requieren de un diseño avanzado; los valores aquí definidos son esquemáticos y requieren ser revisados por un ingeniero experto.</sub>
 
 Pending
+	Grading table: exercices, quiz, project.
 	Actividades de proyecto en cada entrega.
 	Update general project table parameters.
 	Clothoid curves.
@@ -42,7 +43,7 @@ Module 2
 	Street electrical ilumination.
 	Electrical lines isolation.
 	Weather: wind analysis for wind turbines farm.
-	
+
 
 Commands
     QPMODE
