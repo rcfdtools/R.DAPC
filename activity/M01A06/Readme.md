@@ -14,6 +14,8 @@ Al finalizar esta actividad, el estudiante:
 
 * Realiza un proyecto con elementos eléctricos configurando apropiadamente el plano de proyecto en CAD.
 * Imprime la planta, el perfil o la sección transversal del proyecto con una configuración adecuada. 
+* Identifica elementos característicos técnicos, arquitectónicos y estructurales para la implantación de redes y elementos eléctricos.
+* Obtiene habilidades para la cuantificación y distribución de espacios físicos 2D/3D.
 * Obtiene habilidades para trabajo en grupo en el desarrollo de proyectos.
 
 
@@ -84,6 +86,7 @@ En arquitectura, las especificaciones de un proyecto son documentos técnicos de
 | Placa de cimentación       | 40 centímetros de espesor en concreto reforzado. Investigar especificaciones de refuerzo y dibujar detalle estructural. _Ver Nota 1a._                                                                                                                                |            | 
 | Estructura                 | Libre elección: metálica o en concreto utilizando pórticos con máximo 6 metros de luz o espaciado entre apoyos. Para dibujo en planta y cortes utilizar columnas  y vigas tipo. Investigar especificaciones de refuerzo y dibujar detalle estructural. _Ver Nota 1a._ |            |
 | Cuadro de areas            | Cree una tabla indicando: área del lote, área bajo cubierta, área oficinas incluída escalera, área mezanine, área total construída, índice de ocupación, índice de construcción.                                                                                      |            |
+| Cuadro de cantidades       | Cree una tabla indicando las cantidades de elementos principales del volúmen arquitectónico. No es necesario realizar costos unitarios.                                                                                                                               |            |
 
 > :fire: **Nota 1a**: tenga en cuenta que este tipo de elementos requieren de un diseño avanzado, los valores aquí definidos son esquemáticos y requieren ser revisados por un ingeniero experto.
 
@@ -112,7 +115,7 @@ La distribución de una bodega en un proyecto implica planificar la disposición
 Prompt: dimensiones de transformadores eléctricos industriales
 
 
-## 5. Planos y cantidades
+## 5. Planos
 
 En el contexto de un proyecto, los planos de diseño son representaciones gráficas que detallan la forma, dimensiones y características de la obra a construir o implementar. Son documentos esenciales que guían a los constructores y otros profesionales durante la ejecución del proyecto, asegurando que se materialice según lo planificado. 
 
@@ -123,7 +126,6 @@ En el contexto de un proyecto, los planos de diseño son representaciones gráfi
 | Plano de corte longitudinal   | Plano en el sentido del largo de la bodega incluyendo detalle de oficinas, baños y escalera..                                                                     |           |
 | Plano de corte transversal    | Plano en el sentido del ancho de la bodega incluyendo detalle de oficinas, baños y escalera.                                                                      |           |
 | Planos eléctricos             | Plano en planta de conexiones eléctricas. En los planos arquitectónicos incluir el detalle de la acometída eléctrica.                                             |           |
-| Tabla de cantidades           | Cree una tabla cuantificando todos los elementos y materiales requeridos para el proyecto. No es necesario realizar costos unitarios.                             |           |
 
 
 ## Actividades de proyecto :triangular_ruler:
