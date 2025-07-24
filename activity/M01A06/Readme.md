@@ -56,7 +56,7 @@ Para el desarrollo del proyecto, es necesario seguir las siguientes especificaci
 > Los bloques insertados deberán convertirse a metros para adaptarse a las unidades generales del dibujo.
 
 
-## 2. Especificaciones arquitectónicas
+## 2. Especificaciones arquitectónicas y estructurales
 
 En arquitectura, las especificaciones de un proyecto son documentos técnicos detallados que describen las características, materiales, estándares y métodos de construcción necesarios para ejecutar un proyecto. Estas especificaciones complementan los planos y proporcionan información precisa sobre cómo se deben realizar los trabajos, garantizando la calidad y cumplimiento de los requisitos.
 
