@@ -23,11 +23,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                      | Descripción                                                              |
-|:-----------------------------------------------------------------------------------|:-------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior.                                     |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365.                                                     |
-| [:date:DAPC_Proyecto.xlsx](DAPC_Proyecto.xlsx)                                     | Libro de cálculo para registro de información y cantidades del proyecto. |
+| Requerimiento                                                                      | Descripción                                                                                                        |
+|:-----------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior.                                                                               |
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365.                                                                                               |
+| [:date:DAPC_Proyecto.xlsx](DAPC_Proyecto.xlsx)                                     | Libro de cálculo con especificaciones detallada de diseño, registro de información y cantidades del proyecto. |
 
 </div>
 
