@@ -27,7 +27,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 |:-----------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior.                                                                               |
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365.                                                                                               |
-| [:date:DAPC_Proyecto.xlsx](DAPC_Proyecto.xlsx)                                     | Libro de cálculo con especificaciones detallada de diseño, registro de información y cantidades del proyecto. |
+| [:date:DAPC_ProyectoCAD.xlsx](DAPC_ProyectoCAD.xlsx)                               | Libro de cálculo con especificaciones detallada de diseño, registro de información y cantidades del proyecto. |
 
 </div>
 
@@ -37,6 +37,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 ## 1. Especificaciones técnicas generales
 
 En un proyecto, las especificaciones técnicas son documentos que detallan las normas, requisitos, procedimientos y condiciones técnicas que deben cumplirse en la ejecución de un proyecto. Estos documentos guían la implementación del proyecto, asegurando que se cumplan los estándares de calidad y se alcancen los resultados deseados. 
+
+> El proyecto se desarrolla en grupo, el número de estudiantes se indica al inicio del curso. Cada grupo tendrá un código numérico consecutivo asignado por el instructor. Los estudiantes deberán definir el nombre de su grupo de proyecto y crear un logotipo en AutoCAD. El código, logotipo y nombre del grupo deberán incluirse en todos los planos generados.
 
 Para el desarrollo del proyecto, es necesario seguir las siguientes especificaciones técnicas, creando una plantilla de AutoCAD que contenga los elementos indicados a continuación:
 
@@ -60,7 +62,7 @@ Para el desarrollo del proyecto, es necesario seguir las siguientes especificaci
 
 En arquitectura, las especificaciones de un proyecto son documentos técnicos detallados que describen las características, materiales, estándares y métodos de construcción necesarios para ejecutar un proyecto. Estas especificaciones complementan los planos y proporcionan información precisa sobre cómo se deben realizar los trabajos, garantizando la calidad y cumplimiento de los requisitos.
 
-> Especificaciones detalladas en [DAPC_Proyecto.xlsx](DAPC_Proyecto.xlsx) 
+> Especificaciones detalladas en [DAPC_ProyectoCAD.xlsx](DAPC_ProyectoCAD.xlsx) 
 >
 > En este curso, no es necesario crear los planos de instalaciones hidráulicas, sanitarias y contra incendios.
 
@@ -93,14 +95,14 @@ En un proyecto, las especificaciones eléctricas son un conjunto de directrices 
 | Especificación             | Descripción y alcance                                                                                                                                                                                                                             | Actividad |
 |:---------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------|
 | Acometida                  | Utilizando las especificaciones del Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia, dibuje la acometida eléctrica.                                                                          |           |
-| Redes                      | Redes eléctricas para 110V y 220V, red de datos usando cableado, red de iluminación, red fotovoltáica, red de vigilancia. Indicar la localización de tomacorrientes, interruptores, luminarias, luces de emergencia.      |           |
+| Redes                      | Redes eléctricas para 110V y 220V, red de datos usando cableado, red de iluminación, red fotovoltáica, red de vigilancia. Indicar la localización de tomacorrientes, interruptores, luminarias, luces de emergencia.                              |           |
 | Energía solar              | La cubierta deberá contener páneles solares. Investigue, analice y distribuya los paneles. Tenga en cuenta que deberá reservar espacios para las pasarelas de instalación y mantenimiento, líneas de vída y ventiladores eléctricos industriales. |           |
 | Para rayos y polo a tierra | Localizar y dibujar un para rayos y polo a tierra.                                                                                                                                                                                                |           |
 
 
 ## 4. Bodegaje
 
-La distribución de una bodega en un proyecto implica planificar la disposición de las áreas y elementos para optimizar el flujo de materiales, maximizar el espacio y garantizar la eficiencia operativa. Se deben considerar factores como el tipo de productos, la rotación, el tamaño del almacén y los equipos de manipulación. 
+La distribución de una bodega en un proyecto implica planificar la disposición de las áreas y elementos para optimizar el flujo de materiales, maximizar el espacio y garantizar la eficiencia operativa. Se deben considerar factores como el tipo de productos, la rotación, el tamaño del almacén y los equipos de manipulación. El objetivo es calcular el inventario máximo que se puede almacenar en la bodega.
 
 * Las dimensiones de los transformadores eléctricos industriales varían ampliamente según su capacidad (kVA), voltaje y tipo (monofásico o trifásico), así como si son de aceite o tipo seco. Generalmente, los transformadores de potencia media tienen alturas que van de 1.2 a 1.8 metros. Para transformadores de 100 kVA, por ejemplo, uno monofásico puede tener dimensiones de 770 mm de ancho, 965 mm de profundidad y 1135 mm de altura, según [Daelim Transformer](https://www.daelimtransformer.com/100-kva-transformer.html). Un transformador trifásico de 75 kVA puede tener dimensiones de 1155 mm de ancho, 845 mm de largo y 572 mm de alto, según [Ineldec](https://ineldec.com/producto/transformador-trifasico-convencional-75-kva/). 
 * Para el cálculo de la distribución interna del almacenamiento de los transformadores eléctricos, utilizar las dimensiones específicas de las diferentes referencias a almacenar, incluyendo el ancho de los soportes o cajas de embalaje.
