@@ -29,15 +29,19 @@ Pending
 	
 
 Quiz exercices
-	Geometric calculatios from diferent objects.
+	Geometric calculatios from diferent objects: angle, perimeter, length, área, regular geometric shape, inscrited and subincrited circle, arc.
 	Isometric draw.
 	3D draw.
 
 
 Module 2
+	Download national public geographic data: land limits, networks, streets, rivers. Identify a land for a industrial park project.
+	Digital elevation models.
+	Create an industrial park using the module 1 store design.
+	Solar power inside the industrial park.
 	Street electrical ilumination.
-	Solar power.
 	Electrical lines isolation.
+	Weather: wind analysis for wind turbines farm.
 	
 
 Commands
