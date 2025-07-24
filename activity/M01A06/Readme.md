@@ -60,6 +60,8 @@ Para el desarrollo del proyecto, es necesario seguir las siguientes especificaci
 
 En arquitectura, las especificaciones de un proyecto son documentos técnicos detallados que describen las características, materiales, estándares y métodos de construcción necesarios para ejecutar un proyecto. Estas especificaciones complementan los planos y proporcionan información precisa sobre cómo se deben realizar los trabajos, garantizando la calidad y cumplimiento de los requisitos.
 
+> Especificaciones detalladas en [DAPC_Proyecto.xlsx](DAPC_Proyecto.xlsx) 
+>
 > En este curso, no es necesario crear los planos de instalaciones hidráulicas, sanitarias y contra incendios.
 
 | Especificación             | Descripción y alcance                                                                                                                                                                                                                                                                                    | Actividad  |
@@ -80,8 +82,6 @@ En arquitectura, las especificaciones de un proyecto son documentos técnicos de
 | Placa de contra piso       | 40 centímetros de espesor en concreto reforzado. Investigar especificaciones de refuerzo y dibujar detalle estructural. _Ver Nota 1a._                                                                                                                                                                   |            | 
 | Estructura                 | Libre elección: metálica o en concreto utilizando pórticos con máximo 6 metros de luz o espaciado entre apoyos. Para dibujo en planta y cortes utilizar columnas de 30 x 50 centímetros y vigas de 50 centímetros. Investigar especificaciones de refuerzo y dibujar detalle estructural. _Ver Nota 1a._ |            |
 | Cuadro de areas            | Cree una tabla indicando: área del lote, área bajo cubierta, área oficinas incluída escalera, área baños, área mezanine, área total construída, índice de ocupación, índice de construcción.                                                                                                             |            |
-
-> Especificaciones detalladas en [DAPC_Proyecto.xlsx](DAPC_Proyecto.xlsx) 
 
 > :fire: **Nota 1a**: tenga en cuenta que este tipo de elementos requieren de un diseño avanzado; los valores aquí definidos son esquemáticos y requieren ser revisados por un ingeniero experto.
 
