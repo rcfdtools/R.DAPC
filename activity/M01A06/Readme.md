@@ -83,7 +83,7 @@ En arquitectura, las especificaciones de un proyecto son documentos técnicos de
 
 > Especificaciones detalladas en [DAPC_Proyecto.xlsx](DAPC_Proyecto.xlsx) 
 
-> :fire: Nota 1a: tenga en cuenta que este tipo de elementos requieren de un diseño avanzado; los valores aquí definidos son esquemáticos y requieren ser revisados por un ingeniero experto.
+> :fire: **Nota 1a**: tenga en cuenta que este tipo de elementos requieren de un diseño avanzado; los valores aquí definidos son esquemáticos y requieren ser revisados por un ingeniero experto.
 
 
 ## 3. Especificaciones eléctricas
