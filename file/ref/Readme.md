@@ -77,6 +77,7 @@ Otras normas técnicas y referencias
 * https://www.giss.nasa.gov/tools/panoply/
 * https://www.usgs.gov/
 * [physics-symbols](https://byjus.com/physics/physics-symbols/)
+* [Ficha técnica / Ventilador axial industrial de techo / FT_D37-AXP-AXD-AXM-104.pdf](https://www.chicagoblower.com.ar/ar/ventiladores/ventiladores-axiales-de-techo-d37-dcp-axm/)
 
 
 ## Dibujo técnico y guías

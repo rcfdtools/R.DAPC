@@ -16,7 +16,8 @@ Windows + shift + S for print screen
 <br><br>:fire:<sub>Atención: tenga en cuenta que este tipo de elementos requieren de un diseño avanzado; los valores aquí definidos son esquemáticos y requieren ser revisados por un ingeniero experto.</sub>
 
 Pending
-	Actividades de proyecto.
+	Actividades de proyecto en cada entrega.
+	Update general project table parameters.
 	Clothoid curves.
 	Parametric drawing.
 	Crear toma levington con caja.
@@ -31,6 +32,13 @@ Quiz exercices
 	Geometric calculatios from diferent objects.
 	Isometric draw.
 	3D draw.
+
+
+Module 2
+	Street electrical ilumination.
+	Solar power.
+	Electrical lines isolation.
+	
 
 Commands
     QPMODE
