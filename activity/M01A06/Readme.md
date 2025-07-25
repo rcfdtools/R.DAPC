@@ -136,14 +136,15 @@ En el contexto de un proyecto, los planos de diseño son representaciones gráfi
 
 Incluya notas descriptivas de localización del conducto, tubería o canaleta, utilice los siguientes códigos:
 
-| Nota  | Descripción                          |
-|:------|:-------------------------------------|
-| tpp   | Por placa o piso                     |
-| tpc   | Por cielorraso, anclada o descolgada |
-| tpm   | Por muro                             |
-| td    | Descolgada sin cielorraso            |
+| Nota de localización  | Descripción de tubería                |
+|:----------------------|:--------------------------------------|
+| Tpp                   | Embebida por placa o piso.            |
+| Tpc                   | Por cielorraso, anclada o descolgada. |
+| Tpm                   | Embebida en muro.                     |
+| Tam                   | Anclada a muro.                       |
+| Tdt                   | Descolgada sin cielorraso.            |
 
-Seguido de la nota descriptiva de localización, indique el material, utilice los siguientes códigos:
+Seguido de la nota descriptiva de localización y separada por un guion, indique el material, utilice los siguientes códigos:
 
 | Material              | Descripción                                            |
 |:----------------------|:-------------------------------------------------------|
@@ -155,6 +156,8 @@ Seguido de la nota descriptiva de localización, indique el material, utilice lo
 | Acero IMC             | Metálica en acero intermedio con resistencia mecánica. |
 | Acero EMT             | Metálica en acero con baja resistencia mecánica.       |
 | Aluminio              | Metálica en aluminio                                   |
+
+> Por ejemplo, para un conducto embebido en placa o piso y en material de PVC, utilice _Tpp-PVC_.
 
 
 ## Actividades de proyecto :triangular_ruler:
