@@ -148,16 +148,16 @@ Seguido de la nota descriptiva de localización y separada por un guion, indique
 
 <div align="center">
 
-| Material              | Descripción                                            |
-|:----------------------|:-------------------------------------------------------|
-| PVC                   | Plástica en policloruro de vinilo.                     |
-| Polietileno           | Polímero termoplástico.                                |
-| Fibra de vidrio       | Hebras de vidrio entrelazadas.                         |
-| Polipropileno o nylon | Resistente a alta temperatura                          |
-| Acero Galv.           | Metálica en acero galvanizado.                         |
-| Acero IMC             | Metálica en acero intermedio con resistencia mecánica. |
-| Acero EMT             | Metálica en acero con baja resistencia mecánica.       |
-| Aluminio              | Metálica en aluminio                                   |
+| Material              | Descripción                                              |
+|:----------------------|:---------------------------------------------------------|
+| PVC                   | Plástica en policloruro de vinilo.                       |
+| Polietileno           | Polímero termoplástico.                                  |
+| RTRC                  | Fibra de vidrio. Reinforced Thermosetting Resin Conduit. |
+| Polipropileno o nylon | Resistente a alta temperatura.                           |
+| Acero Galv.           | Metálica en acero galvanizado.                           |
+| Acero IMC             | Metálica en acero intermedio con resistencia mecánica.   |
+| Acero EMT             | Metálica en acero con baja resistencia mecánica.         |
+| Aluminio              | Metálica en aluminio.                                    |
 
 </div>
 
