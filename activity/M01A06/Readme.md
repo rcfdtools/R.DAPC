@@ -33,10 +33,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:open_file_folder:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)  | Para la revisión de los avances del proyecto y calificación de los ejercicios prácticos, crear y compartir un repositorio de archivos (p. ej., en OneDrive de Campus) con los integrantes de su grupo y con el instructor. |
 | [:open_file_folder:Estructura de directorios](file/Readme.md)                       | Estructura requerida para el desarrollo del proyecto.                                                                                                                                                                      
 
-> :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
-
 </div>
 
+> :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
+>
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
@@ -139,7 +139,7 @@ En el contexto de un proyecto, los planos de diseño son representaciones gráfi
 
 Utilizando la [plantilla suministrada](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
 
-Las especificaciones técnicas detalladas del proyecto en este módulo del curso, se encuentran en el archivo: [:date:DAPC_ProyectoCAD.xlsx](DAPC_ProyectoCAD.xlsx)
+Las especificaciones técnicas detalladas del proyecto en este módulo del curso, se encuentran en el archivo: [DAPC_ProyectoCAD.xlsx](DAPC_ProyectoCAD.xlsx)
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
