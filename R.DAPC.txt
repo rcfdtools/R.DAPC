@@ -49,3 +49,13 @@ Commands
     QPMODE
 
 
+Ancho columnas libros Excel proyecto
+	30 Especificación
+	50 Descripción y alcance
+	10 Valor
+	10 Unidad
+	9  Actividad
+	3  Actividad ver
+	30 Revisión
+	12 Calificación
+

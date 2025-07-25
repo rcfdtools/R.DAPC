@@ -145,8 +145,8 @@ Cómo actividad complementaria, a partir del rótulo vertical, cree el rótulo h
 <div align="center"><img src="graph/AutoCAD_Layout21.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 > Opciones complementarias de dibujo para impresión pueden ser establecidas con el comando **MVSETUP**.
-
-
+>
+> El archivo creado puede ser guardado con la extensión _.dwt_ para crear así una plantilla de dibujo e impresión. Guardar como /file/cad/DAPC.dwt.
 
 
 ## Actividades de proyecto :triangular_ruler:
