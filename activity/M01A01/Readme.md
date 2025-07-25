@@ -448,21 +448,21 @@ Para practicar las herramientas de dibujo asistido, construiremos en clase el si
 
 Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E04.dwg_.
 
-<div align="center"><img src="graph/M01A01E04.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A01E04.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E05
 
 Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E05.dwg_.
 
-<div align="center"><img src="graph/M01A01E05.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A01E05.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E06
 
 Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E06.dwg_.
 
-<div align="center"><img src="graph/M01A01E06.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A01E06.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E07
@@ -471,7 +471,7 @@ Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%
 
 El espesor del material de la escalera es 2.5 y el ángulo de dibujo es de 45 grados.
 
-<div align="center"><img src="graph/M01A01E07.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
+<div align="center"><img src="graph/M01A01E07.jpg" alt="R.DAPC" width="50%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -484,7 +484,10 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |:----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A01    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de la entrega de los ejercicios definidos en la actividad.                                                                                                                                                                                                                                                                                                                 | 
+| M01A01    | Cree un grupo de trabajo y un repositorio de archivos en OneDrive. El número de estudiantes se indica al inicio del curso. El grupo y repositorio se debe mantener durante todo el semestre académico. Para el repositorio utilizar la estructura definida para el curso DAPC. Reportar en https://forms.office.com/r/gVg8DjvVFh                                                                                                                                                                         | 
+| M01A01    | Defina el nombre de su grupo de proyecto (utilice un nombre corporativo corto) y cree un logotipo en AutoCAD.  Guardar como _/file/cad/logotipo.dwg_                                                                                                                                                                                                                                                                                                                                                     | 
+| M01A01    | Cree un archivo de AutoCAD con el nombre _/file/cad/DAPC.dwg_ y establezca las unidades de dibujo: lineales en metros, angulares en grados, precisión a dos decimales.                                                                                                                                                                                                                                                                                                                                   | 
+| M01A01    | Dibuje los elementos del grupo 2. Especificaciones arquitectónicas y estructurales /  2a. Especificaciones generales e índices arquitectónicos: líneas de borde de lote, bodega,                                                                                                                                                                                                                                                                                                                         | 
 | M01A01    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura y ejercicios de la guía de clase. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
