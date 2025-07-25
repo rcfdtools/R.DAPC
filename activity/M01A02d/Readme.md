@@ -511,7 +511,7 @@ Para la construcción de esta figura, cree el eje central, luego las circunferen
 
 <div align="center"><img src="graph/M01A02dE20b.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
-> Cree los mismos codos para ángulos de 45 grados.
+> Cree los mismos codos 3D para ángulos de 45 grados.
 
 
 ### Ejercicio M01A02dE21
@@ -536,7 +536,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad  | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:-----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A02d    | El proyecto requiere del dibujo 3D de codos a 45 y 90 grados de acuerdo a las especificaciones definidas en el ejercicio M01A02dE20. Además, los contenidos son evaluados también con la entrega de los demás ejercicios vistos en la actividad.                                                                                                                                                                                                                                                                                                     |
+| M01A02d    | Dibuje los elementos de proyecto del grupo _3. Especificaciones eléctricas / 3a. Especificaciones generales y redes_, correspondientes a: pararrayos en 3D.                                                                                                                                                                                                                                                                                                                                            |
 | M01A02d    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
