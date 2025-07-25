@@ -23,7 +23,7 @@ El contenido del curso está dirigido a estudiantes de pregrado que se encuentre
 
 La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias desarrolladas. Las calificaciones de los estudiantes como expresión cuantitativa de la evaluación del aprendizaje, considera tres calificaciones, una por cada tercio con los siguientes porcentajes: primer tercio 30%, segundo tercio 30% y tercer tercio 40 %. En el último tercio se realiza un examen final obligatorio que comprende todos los temas tratados durante el semestre.
 
-* Ejercicios por actividad: se evalúa en grupo.
+* Ejercicios por actividad: se evalúan en grupo.
 * Quices: se presentan individualmente.
 * Proyecto: se evalúa en grupo.
 
@@ -34,15 +34,15 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 <div align="center">
 
-| Requerimiento                                                     | Descripción                                                              |
-|:------------------------------------------------------------------|:-------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.office.com/)                   | Microsoft Office 365.                                                    |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)            | Notepad++ (editor de texto).                                             |
-| [:toolbox:Herramienta](https://qgis.org/)                         | QGIS 3.44 o superior.                                                    |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad) | Autodesk Autocad 2026 o superior (english version).                      |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)   | Autodesk Revit 2026 o superior (english version).                        |
-| [:open_file_folder:Repositorio de proyecto]()                     | Repositorio creado y compartido para publicación de avances de proyecto. |
-| [:open_file_folder:Estructura de directorios](file/Readme.md)     | Estructura requerida para el desarrollo del proyecto.                    |
+| Requerimiento                                                     | Descripción                                                                                                                                                                                                                |
+|:------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.office.com/)                   | Microsoft Office 365.                                                                                                                                                                                                      |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)            | Notepad++ (editor de texto).                                                                                                                                                                                               |
+| [:toolbox:Herramienta](https://qgis.org/)                         | QGIS 3.44 o superior.                                                                                                                                                                                                      |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad) | Autodesk Autocad 2026 o superior (english version).                                                                                                                                                                        |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)   | Autodesk Revit 2026 o superior (english version).                                                                                                                                                                          |
+| [:open_file_folder:Repositorio de proyecto]()                     | Para la revisión de los avances del proyecto y calificación de los ejercicios prácticos, crear y compartir un repositorio de archivos (p. ej., en OneDrive de Campus) con los integrantes de su grupo y con el instructor. |
+| [:open_file_folder:Estructura de directorios](file/Readme.md)     | Estructura requerida para el desarrollo del proyecto.                                                                                                                                                                      |
 
 </div>
 
