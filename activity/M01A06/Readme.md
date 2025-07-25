@@ -30,8 +30,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior.                                                                                                                                                                                       |
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365.                                                                                                                                                                                                       |
 | [:date:DAPC_ProyectoCAD.xlsx](DAPC_ProyectoCAD.xlsx)                               | Libro de cálculo con especificaciones detallada de diseño, registro de información y cantidades del proyecto.                                                                                                              |
-| [:open_file_folder:Repositorio de proyecto]()                                      | Para la revisión de los avances del proyecto y calificación de los ejercicios prácticos, crear y compartir un repositorio de archivos (p. ej., en OneDrive de Campus) con los integrantes de su grupo y con el instructor. |
+| [:open_file_folder:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)                                      | Para la revisión de los avances del proyecto y calificación de los ejercicios prácticos, crear y compartir un repositorio de archivos (p. ej., en OneDrive de Campus) con los integrantes de su grupo y con el instructor. |
 | [:open_file_folder:Estructura de directorios](file/Readme.md)                      | Estructura requerida para el desarrollo del proyecto.                                                                                                                                                                      
+
+> :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
 
 </div>
 
