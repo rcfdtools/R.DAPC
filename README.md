@@ -23,7 +23,7 @@ El contenido del curso está dirigido a estudiantes de pregrado que se encuentre
 
 La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias desarrolladas. Las calificaciones de los estudiantes como expresión cuantitativa de la evaluación del aprendizaje, considera tres calificaciones, una por cada tercio con los siguientes porcentajes: primer tercio 30%, segundo tercio 30% y tercer tercio 40 %. En el último tercio se realiza un examen final obligatorio que comprende todos los temas tratados durante el semestre.
 
-* [Ejercicios por actividad](activity): se evalúan en grupo.
+* [Ejercicios por actividad](activity/Readme.md ): se evalúan en grupo.
 * Quices: se presentan individualmente.
 * [Proyecto](activity/M01A06/Readme.md): se evalúa en grupo.
 
