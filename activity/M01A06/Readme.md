@@ -68,8 +68,6 @@ Para el desarrollo del proyecto, es necesario seguir las siguientes especificaci
 
 En arquitectura, las especificaciones de un proyecto son documentos técnicos detallados que describen las características, materiales, estándares y métodos de construcción necesarios para ejecutar un proyecto. Estas especificaciones complementan los planos y proporcionan información precisa sobre cómo se deben realizar los trabajos, garantizando la calidad y cumplimiento de los requisitos.
 
-> Especificaciones detalladas en [DAPC_ProyectoCAD.xlsx](DAPC_ProyectoCAD.xlsx) 
->
 > En este curso, no es necesario crear los planos de instalaciones hidráulicas, sanitarias y contra incendios.
 
 | Especificación               | Descripción y alcance                                                                                                                                                                                                                                                 |
