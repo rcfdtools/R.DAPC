@@ -15,10 +15,10 @@ Windows + shift + S for print screen
 
 <br><br>:fire:<sub>Atención: tenga en cuenta que este tipo de elementos requieren de un diseño avanzado; los valores aquí definidos son esquemáticos y requieren ser revisados por un ingeniero experto.</sub>
 
+Las especificaciones técnicas detalladas del proyecto en este módulo del curso, se encuentran en el archivo: [DAPC_ProyectoCAD.xlsx](DAPC_ProyectoCAD.xlsx)
+
 Pending
 	Grading table: exercices, quiz, project.
-	Actividades de proyecto en cada entrega.
-	Update general project table parameters.
 	Clothoid curves.
 	Parametric drawing.
 	Crear toma levington con caja.
@@ -45,6 +45,10 @@ Module 2
 	Weather: wind analysis for wind turbines farm.
 
 
+Module 3
+	Pavco Revit objects catalog.
+
+
 Commands
     QPMODE
 
@@ -54,7 +58,7 @@ Ancho columnas libros Excel proyecto
 	50 Descripción y alcance
 	10 Valor
 	10 Unidad
-	9  Actividad
+	7  Actividad
 	3  Actividad ver
 	30 Revisión
 	12 Calificación

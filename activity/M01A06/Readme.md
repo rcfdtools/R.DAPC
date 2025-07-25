@@ -134,6 +134,28 @@ En el contexto de un proyecto, los planos de diseño son representaciones gráfi
 | Plano de corte transversal    | Plano en el sentido del ancho de la bodega incluyendo detalle de oficinas, baños y escalera.                                                                                                                                                                                                                           |           |
 | Planos de redes               | Planos: Red eléctrica interna 110v. Red eléctrica interna 220v, Red de datos usando cableado, Red foto-voltáica, Red vigilancia. En los planos arquitectónicos y eléctricos incluir el detalle de la acometída eléctrica, pararrayos, polo a tierra, tomacorrientes, interruptores, luminarias, cámaras de vigilancia. |           |
 
+Incluya notas descriptivas de localización del conducto, tubería o canaleta, utilice los siguientes códigos:
+
+| Nota  | Descripción                          |
+|:------|:-------------------------------------|
+| tpp   | Por placa o piso                     |
+| tpc   | Por cielorraso, anclada o descolgada |
+| tpm   | Por muro                             |
+| td    | Descolgada sin cielorraso            |
+
+Seguido de la nota descriptiva de localización, indique el material, utilice los siguientes códigos:
+
+| Material              | Descripción                                            |
+|:----------------------|:-------------------------------------------------------|
+| PVC                   | Plástica en policloruro de vinilo.                     |
+| Polietileno           | Polímero termoplástico.                                |
+| Fibra de vidrio       | Hebras de vidrio entrelazadas.                         |
+| Polipropileno o nylon | Resistente a alta temperatura                          |
+| Acero Galv.           | Metálica en acero galvanizado.                         |
+| Acero IMC             | Metálica en acero intermedio con resistencia mecánica. |
+| Acero EMT             | Metálica en acero con baja resistencia mecánica.       |
+| Aluminio              | Metálica en aluminio                                   |
+
 
 ## Actividades de proyecto :triangular_ruler:
 
