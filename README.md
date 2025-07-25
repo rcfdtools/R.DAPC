@@ -15,13 +15,17 @@ El contenido del curso está dirigido a estudiantes de pregrado que se encuentre
 **Metodología académica**
 
 * Mediante el desarrollo de talleres prácticos, presentar a los participantes, diferentes conceptos y aplicaciones del dibujo asistido por computador en la ingeniería.
-* Al inicio de cada clase, el tutor realizará una presentación y demostración general de los conceptos y las herramientas computacionales a utilizar y luego los estudiantes desarrollarán los contenidos del taller propuesto.
+* Al inicio de cada clase, el tutor realizará una presentación y demostración general de los conceptos y las herramientas computacionales a utilizar y luego los estudiantes desarrollarán los contenidos de cada taller, actividad o ejercicio.
 * Proyecto de clase: se desarrolla en grupos y se evalúan los conocimientos adquiridos en los talleres prácticos.
 * Antes de cada clase, es recomendable que los participantes den lectura a las guías de clase para así comprender mejor las explicaciones recibidas en aula.
 
 **Evaluación**
 
 La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias desarrolladas. Las calificaciones de los estudiantes como expresión cuantitativa de la evaluación del aprendizaje, considera tres calificaciones, una por cada tercio con los siguientes porcentajes: primer tercio 30%, segundo tercio 30% y tercer tercio 40 %. En el último tercio se realiza un examen final obligatorio que comprende todos los temas tratados durante el semestre.
+
+* Ejercicios por actividad: se evalúa en grupo.
+* Quices: se presentan individualmente.
+* Proyecto: se evalúa en grupo.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
