@@ -16,7 +16,7 @@ Al finalizar esta actividad, el estudiante:
 * Imprime la planta, el perfil o la sección transversal del proyecto con una configuración adecuada. 
 * Identifica elementos característicos técnicos, arquitectónicos y estructurales para la implantación de redes y elementos eléctricos.
 * Obtiene habilidades para la cuantificación y distribución de espacios físicos 2D/3D.
-* Obtiene habilidades para trabajo en grupo en el desarrollo de proyectos.
+* Obtiene habilidades de trabajo en grupo en el desarrollo de proyectos.
 
 
 ## Requerimientos
