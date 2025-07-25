@@ -105,7 +105,7 @@ En un proyecto, las especificaciones eléctricas son un conjunto de directrices 
 | Acometida                  | Utilizando las especificaciones del Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia, dibuje la acometida eléctrica.                                                                          |           |
 | Redes                      | Redes eléctricas para 110V y 220V, red de datos usando cableado, red de iluminación, red fotovoltáica, red de vigilancia. Indicar la localización de tomacorrientes, interruptores, luminarias, luces de emergencia.                              |           |
 | Energía solar              | La cubierta deberá contener páneles solares. Investigue, analice y distribuya los paneles. Tenga en cuenta que deberá reservar espacios para las pasarelas de instalación y mantenimiento, líneas de vída y ventiladores eléctricos industriales. |           |
-| Para rayos y polo a tierra | Localizar y dibujar un para rayos y polo a tierra.                                                                                                                                                                                                |           |
+| Pararrayos y polo a tierra | Localizar y dibujar un pararrayo y polo a tierra.                                                                                                                                                                                                 |           |
 
 
 ## 4. Bodegaje
@@ -132,7 +132,7 @@ En el contexto de un proyecto, los planos de diseño son representaciones gráfi
 | Plano de cubiertas y fachadas | Cubiertas y fachadas. En la cubierta incluir la distribución de los paneles solares, líneas de vída y ventiladores extractores de calor. Incluir cuadro de áreas.                                                                                                                                                      |           |
 | Plano de corte longitudinal   | Plano en el sentido del largo de la bodega incluyendo detalle de oficinas, baños y escalera..                                                                                                                                                                                                                          |           |
 | Plano de corte transversal    | Plano en el sentido del ancho de la bodega incluyendo detalle de oficinas, baños y escalera.                                                                                                                                                                                                                           |           |
-| Planos de redes               | Planos: Red eléctrica interna 110v. Red eléctrica interna 220v, Red de datos usando cableado, Red foto-voltáica, Red vigilancia. En los planos arquitectónicos y eléctricos incluir el detalle de la acometída eléctrica, para rayos, polo a tierra, tomacorrientes, interruptores, luminarias, cámaras de vigilancia. |           |
+| Planos de redes               | Planos: Red eléctrica interna 110v. Red eléctrica interna 220v, Red de datos usando cableado, Red foto-voltáica, Red vigilancia. En los planos arquitectónicos y eléctricos incluir el detalle de la acometída eléctrica, pararrayos, polo a tierra, tomacorrientes, interruptores, luminarias, cámaras de vigilancia. |           |
 
 
 ## Actividades de proyecto :triangular_ruler:
