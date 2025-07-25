@@ -44,7 +44,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 En un proyecto, las especificaciones técnicas son documentos que detallan las normas, requisitos, procedimientos y condiciones técnicas que deben cumplirse en la ejecución de un proyecto. Estos documentos guían la implementación del proyecto, asegurando que se cumplan los estándares de calidad y se alcancen los resultados deseados. 
 
-> El proyecto se desarrolla en grupo, el número de estudiantes se indica al inicio del curso. Cada grupo tendrá un código numérico consecutivo asignado por el instructor. Los estudiantes deberán definir el nombre de su grupo de proyecto y crear un logotipo en AutoCAD. El código, logotipo y nombre del grupo deberán incluirse en todos los planos generados.
+> El proyecto se desarrolla en grupo, el número de integrantes sé índica al inicio del curso. Cada grupo tendrá un código numérico consecutivo asignado por el instructor. Los estudiantes deberán definir el nombre de su grupo de proyecto y crear un logotipo en AutoCAD. El código, logotipo y nombre del grupo deberán incluirse en todos los planos generados.
 
 Para el desarrollo del proyecto, es necesario seguir las siguientes especificaciones técnicas, creando una plantilla de AutoCAD que contenga los elementos indicados a continuación:
 
