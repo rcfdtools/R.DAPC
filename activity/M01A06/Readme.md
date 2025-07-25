@@ -25,13 +25,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                      | Descripción                                                                                                                                                                                                                |
-|:-----------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior.                                                                                                                                                                                       |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365.                                                                                                                                                                                                       |
-| [:date:DAPC_ProyectoCAD.xlsx](DAPC_ProyectoCAD.xlsx)                               | Libro de cálculo con especificaciones detallada de diseño, registro de información y cantidades del proyecto.                                                                                                              |
-| [:open_file_folder:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)                                      | Para la revisión de los avances del proyecto y calificación de los ejercicios prácticos, crear y compartir un repositorio de archivos (p. ej., en OneDrive de Campus) con los integrantes de su grupo y con el instructor. |
-| [:open_file_folder:Estructura de directorios](file/Readme.md)                      | Estructura requerida para el desarrollo del proyecto.                                                                                                                                                                      
+| Requerimiento                                                                       | Descripción                                                                                                                                                                                                                |
+|:------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                   | Autodesk Autocad 3D 2026 o superior.                                                                                                                                                                                       |
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)  | Microsoft Excel 365.                                                                                                                                                                                                       |
+| [:date:DAPC_ProyectoCAD.xlsx](DAPC_ProyectoCAD.xlsx)                                | Libro de cálculo con especificaciones detallada de diseño, registro de información y cantidades del proyecto.                                                                                                              |
+| [:open_file_folder:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)  | Para la revisión de los avances del proyecto y calificación de los ejercicios prácticos, crear y compartir un repositorio de archivos (p. ej., en OneDrive de Campus) con los integrantes de su grupo y con el instructor. |
+| [:open_file_folder:Estructura de directorios](file/Readme.md)                       | Estructura requerida para el desarrollo del proyecto.                                                                                                                                                                      
 
 > :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
 
@@ -138,6 +138,8 @@ En el contexto de un proyecto, los planos de diseño son representaciones gráfi
 ## Actividades de proyecto :triangular_ruler:
 
 Utilizando la [plantilla suministrada](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
+
+Las especificaciones técnicas detalladas del proyecto en este módulo del curso, se encuentran en el archivo: [:date:DAPC_ProyectoCAD.xlsx](DAPC_ProyectoCAD.xlsx)
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
