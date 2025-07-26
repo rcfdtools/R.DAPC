@@ -160,11 +160,11 @@ Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de c
 
 Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Las coordenadas (x,y) del centroide corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.  Guarde el dibujo como _/file/cad/**M01A02cE02**.dwg_.
 
-1. Para el dibujo de un _ovoide dado el eje menor_, utilice una longitud igual a la sumatoria del último dígito de los códigos de alumno de su grupo. 
+1. Para el dibujo de un _ovoide dado el eje menor_, utilice una longitud igual a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 <div align="center"><img src="graph/AutoCAD_Ovoide1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Para el dibujo de un _ovoide dado el eje mayor_, utilice una longitud igual a dos veces la sumatoria del último dígito de los códigos de alumno de su grupo. 
+2. Para el dibujo de un _ovoide dado el eje mayor_, utilice una longitud igual a dos veces la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 > Utilizando el comando **DIVIDE**, divida en 6 partes el eje mayor para obtener nodos a lo largo del eje. El trazado del arco superior se realiza en el nodo de la segunda división. El trazado del arco inferior se realiza en el nodo de la primera división.
 
