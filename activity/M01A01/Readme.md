@@ -233,7 +233,7 @@ Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje 
 Especificaciones:
 
 * Nodos de inicio: dibuje la figura empezando por la esquina a la izquierda donde inicia el lado recto con longitud 15.
-* Coordenadas nodo de inicio: origen (250,250).
+* Coordenadas del nodo de inicio: (X,Y) absoluto usando sumatoria del último dígito de los códigos de alumno de su grupo.
 * Distancias en metros.
 * La medida de 20 metros corresponde a la vertical del lado inclinado.
 * El tramo de 34 metros está alineado verticalmente con el tramo inferior de 5 metros.
