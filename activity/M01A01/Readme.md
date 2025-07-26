@@ -232,12 +232,11 @@ Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje 
 
 Especificaciones:
 
-* Nodos de inicio: dibuje la figura empezando por la esquina a la izquierda donde inicia el lado recto con longitud 15.
-* Coordenadas del nodo de inicio: (X,Y) absoluto usando sumatoria del último dígito de los códigos de alumno de su grupo.
+* El nodo de inicio asignado deberá corresponder con la esquina superior más a la izquierda (nodo azul) donde se encuentra el tramo de 15 metros.
+* Coordenadas absolutas del nodo de inicio (X,Y) usando la sumatoria del último dígito de los códigos de alumno de su grupo.
 * Distancias en metros.
 * La medida de 20 metros corresponde a la vertical del lado inclinado.
 * El tramo de 34 metros está alineado verticalmente con el tramo inferior de 5 metros.
-* El nodo de inicio asignado deberá corresponder con la esquina superior más a la izquierda (nodo azul) donde se encuentra el tramo de 15 metros.
 * Para verificar el correcto trazado, la figura tiene un Área de 2190 m² y Perímetro de 328.396 metros.
 
 > La medición del área y perímetro de la figura puede ser realizada desde el menú _Home / Utilities / Measure_ o con el comando **MEASUREGEOM**.
