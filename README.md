@@ -26,6 +26,9 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 * [Ejercicios por actividad](activity/Readme.md ): se evalúan en grupo.
 * Quices: se presentan individualmente.
 * [Proyecto](activity/M01A06/Readme.md): se evalúa en grupo.
+* Asistencia: se evalúa individualmente.
+
+> :blue_heart: Tenga en cuenta: las horas definidas en la columna _Duración_ de las diferentes actividades por módulo, corresponden a horas en aula. Por cada hora de clase, cada estudiante dedicará 1 hora de trabajo en casa. Con respecto a los ejercicios y actividades de proyecto que son presentados y evaluados en grupo, la dedicación corresponde al número de horas indicadas multiplicado por el número de integrantes.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
@@ -53,9 +56,9 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD, Entorno gráfico e interfaz de AutoCAD, Comandos básicos, Dibujo de elementos básicos, Presentación de elementos básicos, Achurado y sombreado, Dimensionamiento de elementos, Herramientas de acotado, Rotulado, Herramientas de edición y dibujo en 3D, Creación y estructurado de un plano, Manejo de ventanas de impresión, Capas, Viewports: manejo de escalas, plantas, perfiles y secciones transversales.
 
-| Actividad                                                                                          | Descripción                                                                                                                                                                                                                                              | Proyecto |
+| Actividad                                                                                          | Descripción                                                                                                                                                                                                                                              | Duración |
 |----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
-| [1.1. Conceptos básicos de diseño asistido por computador - CAD](activity/M01A01/Readme.md)        | Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.                                                                                                                                                         |          |
+| [1.1. Conceptos básicos de diseño asistido por computador - CAD](activity/M01A01/Readme.md)        | Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.                                                                                                                                                         |   4.5    |
 | [1.2.a. Elementos básicos de dibujo / Creación de capas o layers](activity/M01A02a/Readme.md)      | Normas para definición de nombres y creación de capas o Layers.                                                                                                                                                                                          |    ✓     |
 | [1.2.b. Elementos básicos de dibujo / UCS y Geometrías](activity/M01A02b/Readme.md)                | Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX... Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR... |          |
 | [1.2.c. Elementos básicos de dibujo / Curvas especiales](activity/M01A02c/Readme.md)               | Dibujo de elipse, óvalo, parábola, hipérbola y funciones trigonométricas.                                                                                                                                                                                |          |
