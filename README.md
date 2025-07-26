@@ -28,7 +28,7 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 * [Proyecto](activity/M01A06/Readme.md): se evalúa en grupo.
 * Asistencia: se evalúa individualmente.
 
-> :blue_heart: Tenga en cuenta: las horas definidas en la columna _Duración_ de las diferentes actividades por módulo, corresponden a horas en aula. Por cada hora de clase, cada estudiante dedicará 1 hora de trabajo en casa. Con respecto a los ejercicios y actividades de proyecto que son presentados y evaluados en grupo, la dedicación corresponde al número de horas indicadas multiplicado por el número de integrantes.
+> :blue_heart: Las horas definidas en la columna _Duración_ de las diferentes actividades por módulo, corresponden a horas en aula. Por cada hora de clase, el estudiante dedicará al menos 1 hora de trabajo en casa. Con respecto a los ejercicios y actividades de proyecto que son presentados y evaluados en grupo, la dedicación corresponde al número de horas indicadas multiplicado por el número de integrantes.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
