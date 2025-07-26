@@ -259,7 +259,7 @@ LINE
 
 2. Para el trazado de una figura compuesta por 4 líneas, p. ej. un cuadrado de 500 metros con origen en la coordenada absoluta (750,150), podremos usar la siguiente secuencia de posiciones absolutas o relativas.
 
-> Tenga en cuenta que la secuencia uttilizada para el comando _**LINE**_, crea 4 líneas independientes y no una poli-línea.
+> Tenga en cuenta que la secuencia utilizada para el comando _**LINE**_, crea 4 líneas independientes y no una poli-línea.
 
 Secuencia con coordenadas absolutas:
 ```
@@ -298,7 +298,7 @@ LINE
 
 ### Ejercicio M01A01E02
 
-**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, pero con nodo de inicio en (X,Y) igual a los 2 últimos dígitos de su código de alumno, guarde la secuencia en _/file/report/M01A01E02A.txt_ y el dibujo en _/file/cad/M01A01E02A.dwg_.
+**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, guarde la secuencia en _/file/report/M01A01E02A.txt_ y el dibujo en _/file/cad/M01A01E02A.dwg_.
 
 <div align="center"><img src="graph/M01A01E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -326,14 +326,14 @@ LINE
 **Parte B:** utilizando secuencias de comandos, cree los siguientes elementos, guarde la secuencia en _/file/report/M01A01E02B.txt_ y el dibujo en _/file/cad/M01A01E02B.dwg_.:
 
 * Triángulo rectángulo de 50 metros de base por 20 metros de alto con orígen en la coordenada absoluta indicada.
-* Triángulo equilátero de 50 metros de lado con orígen en la coordenada absoluta indicada.
-* Triángulo rectángulo con área de 200 m² y con orígen en la coordenada absoluta indicada.
+* Triángulo equilátero de 50 metros de lado con origen en la coordenada absoluta indicada.
+* Triángulo rectángulo con área de 200 m² y con origen en la coordenada absoluta indicada.
 
-> La coordenada absoluta en X corresponde a los dos últimos dígitos de su código de alumno y la coordenada en Y a dos veces este valor.
+> La coordenada absoluta en X corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo, y la coordenada en Y a dos veces este valor.
 > 
 > Tenga en cuenta que la sumatoria interna de ángulos de un triángulo es de 180°.
 > 
-> Recuerde que si sus unidades angulares han sido establecidas en grados, deberá incluir la letra **d** luego del valor del ángulo requerido.
+> Recuerde que si sus unidades angulares han sido establecidas en grados, deberá incluir la letra **d** (degrees) luego del valor del ángulo requerido. Coordenadas en grados decimales no requieren de la letra **d**
 
 
 ### Comandos asociados directamente al teclado
@@ -440,35 +440,35 @@ Para el dibujo isométrico en AutoCAD, es necesario activar los siguientes asist
 
 ### Ejercicio M01A01E03
 
-Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, dibujaremos las vistas proyectadas y vistas planas lateral derecha, superior, frontal y posterior, calcularemos las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E03.dwg_.
+Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, dibujaremos las vistas proyectadas y vistas planas lateral derecha, superior, frontal y posterior, calcularemos las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E03.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
 
 <div align="center"><img src="graph/M01A01E03a.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
 
 ### Ejercicio M01A01E04
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E04.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E04.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
 
 <div align="center"><img src="graph/M01A01E04.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E05
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E05.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E05.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
 
 <div align="center"><img src="graph/M01A01E05.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E06
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E06.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E06.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
 
 <div align="center"><img src="graph/M01A01E06.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E07
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A01E07.dwg_.
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A01E07.dwg_. El origen de la figura está localizado en la esquina inferior izquierda del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
 
 El espesor del material de la escalera es 2.5 y el ángulo de dibujo es de 45 grados.
 
