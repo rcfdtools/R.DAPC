@@ -310,7 +310,7 @@ Luego de eliminados los trazos sobrantes, obtendrá el trazado final de las func
 
 ### Ejercicio M01A02cE06
 
-Utilizando los conceptos aprendidos, dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con orígen en (0,0). Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual a los últimos 3 dígitos de su código de alumno, y escale las funciones a este tamaño. Guarde el dibujo como _/file/cad/**M01A02cE06**.dwg_.
+Utilizando los conceptos aprendidos, dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con orígen en (0,0). Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual a sumatoria del último dígito de los códigos de alumno de su grupo, y escale las funciones a este tamaño. Guarde el dibujo como _/file/cad/**M01A02cE06**.dwg_.
 
 
 ## Actividades de proyecto :triangular_ruler:

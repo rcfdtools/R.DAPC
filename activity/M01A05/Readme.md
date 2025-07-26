@@ -149,6 +149,11 @@ Cómo actividad complementaria, a partir del rótulo vertical, cree el rótulo h
 > El archivo creado puede ser guardado con la extensión _.dwt_ para crear así una plantilla de dibujo e impresión. Guardar como /file/cad/DAPC.dwt.
 
 
+### Ejercicio M01A05E01
+
+Siguiendo las especificaciones definidas, cree rótulos para impresión horizontal y vertical en formatos ISO-A0 e ISO-A4.
+
+
 ## Actividades de proyecto :triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaSoporteDesarrollo.docx) suministrada, cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
