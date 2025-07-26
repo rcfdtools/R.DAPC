@@ -226,14 +226,12 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 
 ### Ejercicio M01A01E01
 
-Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura asimétrica y guarde como _/file/cad/M01A01E01.dwg_.
+Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura asimétrica y guarde como _/file/cad/M01A01E01.dwg_. El nodo de inicio asignado deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros, cuyas coordenadas absolutas (X,Y) corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 <div align="center"><img src="graph/M01A01E01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen adaptada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
 Especificaciones:
 
-* El nodo de inicio asignado deberá corresponder con la esquina superior más a la izquierda (nodo azul) donde se encuentra el tramo de 15 metros.
-* Coordenadas absolutas del nodo de inicio (X,Y) usando la sumatoria del último dígito de los códigos de alumno de su grupo.
 * Distancias en metros.
 * La medida de 20 metros corresponde a la vertical del lado inclinado.
 * El tramo de 34 metros está alineado verticalmente con el tramo inferior de 5 metros.
