@@ -219,19 +219,21 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 
 <div align="center"><img src="graph/AutoCAD_Line2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-6. Tracemos ahora una línea de 2500 metros tomando como orígen la coordenada absoluta (50,50) e ingresando para el nodo final la coordenada relativa (@2500,0). Revise las propiedades de la línea, observará que la localización del nodo final estará a 2550 metros en la horizontal del orígen absoluto de coordenadas y 50 metros en la vertical.
+6. Tracemos ahora una línea de 2500 metros tomando como origen la coordenada absoluta (50,50) e ingresando para el nodo final la coordenada relativa (@2500,0). Revise las propiedades de la línea, observará que la localización del nodo final estará a 2550 metros en la horizontal del origen absoluto de coordenadas y 50 metros en la vertical.
 
 <div align="center"><img src="graph/AutoCAD_Line3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ### Ejercicio M01A01E01
 
-Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura con coordenadas absolutas de origen (250,250) y guarde como _/file/cad/M01A01E01.dwg_.
+Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura asimétrica y guarde como _/file/cad/M01A01E01.dwg_.
 
 <div align="center"><img src="graph/M01A01E01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen adaptada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
 Especificaciones:
 
+* Nodos de inicio: dibuje la figura empezando por la esquina a la izquierda donde inicia el lado recto con longitud 15.
+* Coordenadas nodo de inicio: origen (250,250).
 * Distancias en metros.
 * La medida de 20 metros corresponde a la vertical del lado inclinado.
 * El tramo de 34 metros está alineado verticalmente con el tramo inferior de 5 metros.
