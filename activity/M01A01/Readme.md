@@ -226,7 +226,7 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 
 ### Ejercicio M01A01E01
 
-Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura asimétrica y guarde como _/file/cad/M01A01E01.dwg_. El nodo de inicio asignado deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros, cuyas coordenadas absolutas (X,Y) corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.
+Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura asimétrica y guarde como _/file/cad/M01A01E01.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros, cuyas coordenadas absolutas (X,Y) corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 <div align="center"><img src="graph/M01A01E01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen adaptada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
@@ -296,7 +296,7 @@ LINE
 
 ### Ejercicio M01A01E02
 
-**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, guarde la secuencia en _/file/report/M01A01E02A.txt_ y el dibujo en _/file/cad/M01A01E02A.dwg_.
+**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, guarde la secuencia en _/file/report/M01A01E02A.txt_ y el dibujo en _/file/cad/M01A01E02A.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros, cuyas coordenadas absolutas (X,Y) corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 <div align="center"><img src="graph/M01A01E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
