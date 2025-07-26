@@ -127,9 +127,9 @@ Creación de plantillas. Espacio papel y espacio modelo. Asignación de escala. 
 
 Layers, papel. Texto menor, texto mayor. Planos de referencia para posiciones espaciales. Limits. Coordenadas cartesianas X, Y, Z. Coordenadas relativas posicionales. Coordenadas geográficas.
 
-| Ejercicio | Descripción    | Figura |
-|:----------|:---------------|--------|
-| Otros     | En desarrollo. |        |
+| Ejercicio | Descripción                                                                                                                                                                                                                                                           | Figura |
+|:----------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| Varios    | A partir de los contenidos vistos en el Módulo 1, desarrolle progresivamente los numerales indicados en la actividad de proyecto [M01A06](M01A06), siguiendo las especificaciones técnicas definidas en [DAPC_ProyectoCAD.xlsx](../file/table/DAPC_ProyectoCAD.xlsx). |        |
 
 
 ## :globe_with_meridians:Módulo 2: Sistemas de información geográfica
