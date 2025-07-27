@@ -14,6 +14,8 @@ En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD,
 
 Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 
+> Para la calificación de los ejercicios, el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
+
 | Ejercicio             | Descripción                                                                                                                                                                                                                                                                                                                                                                                                            | Figura                                                                        | 
 |:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [M01A01E01](M01A01)   | Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura asimétrica. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros.                                                                                                                                                                 | <img src="M01A01/graph/M01A01E01.jpg" alt="R.SIGE" width="200" border="0" />  | 
@@ -72,7 +74,7 @@ Dibujo de elipse, óvalo, parábola, hipérbola y funciones trigonométricas.
 
 Creación de superficies y sólidos tridimensionales.
 
-> El origen de las figuras 3D, deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y su coordenada absoluta (X) deberá desplazarse en una longitud correspondiente a la sumatoria del último dígito de los códigos de alumno de su grupo. Utilizar cero (0) en las coordenadas (Y,Z). 
+> Para la calificación de los ejercicios, el origen de las figuras 3D, deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y su coordenada absoluta (X) deberá desplazarse en una longitud correspondiente a la sumatoria del último dígito de los códigos de alumno de su grupo. Utilizar cero (0) en las coordenadas (Y,Z). 
 
 | Ejercicio              | Descripción                                                                                                                                                                                | Figura                                                                           |
 |:-----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
