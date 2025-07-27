@@ -187,7 +187,7 @@ Ecuación Superelipse
 
 <div align="center"><img src="graph/Superelipse.png" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
 
-**Parte B**: investigue la forma geométrica que tienen las pistas de atletismo y realice el trazado de su eje interno en AutoCAD, luego y utilizando la herramienta **OFFSET**, trace 8 líneas paralelas externas que le permitirán obtener 8 carriles y calcule la longitud de sus ejes centrales. Guarde el dibujo como _/file/cad/**M01A02cE03B**.dwg_.
+**Parte B**: investigue la forma geométrica que tienen las pistas de atletismo y realice el trazado de su contorno interno en AutoCAD, luego y utilizando la herramienta **OFFSET**, trace 8 líneas paralelas externas que le permitirán obtener 8 carriles y calcule la longitud de sus ejes centrales. Guarde el dibujo como _/file/cad/**M01A02cE03B**.dwg_.
 
 
 ## 4. Parábola [^3]
