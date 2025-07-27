@@ -32,8 +32,6 @@ Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos L
 
 Normas para definición de nombres y creación de capas o Layers.
 
-> Para la calificación de los ejercicios, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
-
 | Ejercicio              | Descripción                                                                                                                                                                                                                                                                 | Figura |
 |:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | [M01A02aE01](M01A02a)  | En el archivo _M01A01a.dwg_, cree las capas establecidas en el catálogo [DAPC_AIALayerName.xlsx](../file/table/DAPC_AIALayerName.xlsx) para el curso DACP. En las descripciones incluya el nombre de la disciplina un guion y la descripción, p. ej., _Arquitectura - Área_ |        | 
@@ -42,6 +40,8 @@ Normas para definición de nombres y creación de capas o Layers.
 ### 1.2.b. Elementos básicos de dibujo / UCS y Geometrías
 
 Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX... Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR...
+
+> Para la calificación de los ejercicios, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 | Ejercicio              | Descripción                                                                                                                                                                                                                                                                                                                     | Figura                                                                           |
 |:-----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
