@@ -28,6 +28,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
+>
+> La elección de las coordenadas del centroide (X,Y) de cada figura es libre.
 
 
 ## 1. Elipse
