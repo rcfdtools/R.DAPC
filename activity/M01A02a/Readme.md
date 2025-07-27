@@ -1,5 +1,5 @@
 # 1.2.a. Elementos básicos de dibujo / Creación de capas o layers
-Keywords: `aia` `nibs` `iso-13567` `layer` `layer-freeze` `layer-set-current` `layer-on` `layer-delete` `lwdisplay` `m01a02a`
+Keywords: `aia` `nibs` `iso-13567` `layer` `layer-freeze` `layer-set-current` `layer-on` `layer-delete` `lwdisplay` `laydel` `m01a02a`
 
 Normas para definición de nombres y creación de capas o Layers.
 
@@ -535,6 +535,8 @@ El listado presentado en el numeral anterior, no incluye las siguientes sub-capa
 > :bulb: Para mejorar la visualización de los colores definidos en las capas y para evitar la fatiga visual, es recomendable cambiar el color del fondo del espacio de dibujo a negro, para ello, desde el ícono de AutoCAD vaya a _Options_ y en la pestaña _Display_ de clic en botón _Colors..._, establezca en _Context / 2D model space / Interface element: Uniform background / Color: Black._
 
 <div align="center"><img src="graph/AutoCAD_DisplayBackgroundColor.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Utilice el comando _LAYDEL_ para eliminar una capa y todos los elementos que contiene.
 
 
 ### Ejercicio M01A02aE01
