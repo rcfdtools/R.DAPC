@@ -129,7 +129,7 @@ Curva cerrada, con la convexidad vuelta siempre a la parte de afuera, de forma p
 
 ### Ejercicio M01A02cE01
 
-Trace las líneas constructivas y dibuje óvalos en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Las coordenadas (x,y) del centroide corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. Guarde el dibujo como _/file/cad/**M01A02cE01**.dwg_.
+Trace las líneas constructivas y dibuje óvalos en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Guarde el dibujo como _/file/cad/**M01A02cE01**.dwg_.
 
 1. Para el dibujo de un _óvalo dado el eje menor_, utilice una longitud igual a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
@@ -159,7 +159,7 @@ Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de c
 
 ### Ejercicio M01A02cE02 
 
-Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Las coordenadas (x,y) del centroide corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.  Guarde el dibujo como _/file/cad/**M01A02cE02**.dwg_.
+Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Guarde el dibujo como _/file/cad/**M01A02cE02**.dwg_.
 
 1. Para el dibujo de un _ovoide dado el eje menor_, utilice una longitud igual a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
