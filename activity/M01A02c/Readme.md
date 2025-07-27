@@ -229,7 +229,7 @@ Al verificar la distancia desde su foco hasta cualquier punto sobre la curva (p.
 
 ### Ejercicio M01A02cE04
 
-Utilizando los conceptos aprendidos acerca de parábolas, trace una parábola cuya longitud horizontal corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical correspondiente al 40% de la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A02cE04**.dwg_.
+Utilizando los conceptos aprendidos acerca de parábolas, trace una parábola cuya longitud horizontal corresponda a la sumatoria del último dígito de los códigos de alumno de su grupo y con longitud vertical correspondiente al 40% de la longitud horizontal. La elección del punto de origen es libre. Guarde el dibujo como _/file/cad/**M01A02cE04**.dwg_.
 
 Requerimientos:
 
@@ -264,7 +264,7 @@ Otro ejemplo de su construcción cuando solo conocemos el punto de inflexión y 
 
 ### Ejercicio M01A02cE05
 
-Utilizando los conceptos aprendidos de hipérbolas, trace una hipérbola cuya longitud horizontal o eje real corresponda a los 3 últimos dígitos de su código de alumno y con longitud vertical o eje imaginario correspondiente 2.25 veces la longitud horizontal. La elección del punto de orígen es libre. Guarde el dibujo como _/file/cad/**M01A02cE05**.dwg_.
+Utilizando los conceptos aprendidos de hipérbolas, trace una hipérbola cuya longitud horizontal o eje real corresponda a la sumatoria del último dígito de los códigos de alumno de su grupo y con longitud vertical o eje imaginario correspondiente 2.25 veces la longitud horizontal. La elección del punto de origen es libre. Guarde el dibujo como _/file/cad/**M01A02cE05**.dwg_.
 
 Requerimientos:
 
@@ -308,7 +308,7 @@ Luego de eliminados los trazos sobrantes, obtendrá el trazado final de las func
 
 ### Ejercicio M01A02cE06
 
-Utilizando los conceptos aprendidos, dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con orígen en (0,0). Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual a sumatoria del último dígito de los códigos de alumno de su grupo, y escale las funciones a este tamaño. Guarde el dibujo como _/file/cad/**M01A02cE06**.dwg_.
+Utilizando los conceptos aprendidos, dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con origen en (0,0). Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual a sumatoria del último dígito de los códigos de alumno de su grupo, y escale las funciones a este tamaño. Guarde el dibujo como _/file/cad/**M01A02cE06**.dwg_.
 
 
 ## Actividades de proyecto :triangular_ruler:
