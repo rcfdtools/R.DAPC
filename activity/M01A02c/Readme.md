@@ -230,7 +230,7 @@ Al verificar la distancia desde su foco hasta cualquier punto sobre la curva (p.
 
 ### Ejercicio M01A02cE04
 
-Utilizando los conceptos aprendidos acerca de parábolas, trace una parábola cuya longitud horizontal corresponda a la sumatoria del último dígito de los códigos de alumno de su grupo y con longitud vertical correspondiente al 40% de la longitud horizontal. La elección del punto de origen es libre. Guarde el dibujo como _/file/cad/**M01A02cE04**.dwg_.
+Utilizando los conceptos aprendidos acerca de parábolas, trace una parábola cuya longitud horizontal corresponda a la sumatoria del último dígito de los códigos de alumno de su grupo y con longitud vertical correspondiente al 40% de la longitud horizontal. Guarde el dibujo como _/file/cad/**M01A02cE04**.dwg_.
 
 Requerimientos:
 
