@@ -17,7 +17,15 @@ Windows + shift + S for print screen
 
 Las especificaciones técnicas detalladas del proyecto en este módulo del curso, se encuentran en el archivo: [DAPC_ProyectoCAD.xlsx](DAPC_ProyectoCAD.xlsx)
 
-usando la sumatoria del último dígito de los códigos de alumno de su grupo
+El origen de la figura está localizado en la esquina inferior del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
+
+El origen de la figura está localizado en la esquina inferior izquierda del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.
+
+El origen de la figura está localizado en la esquina inferior izquierda y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.
+
+El origen de la figura está localizado en el centroide del círculo principal o en el cruce de los ejes principales y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
+
+
 
 Pending
 	Grading table: exercices, quiz, project.
