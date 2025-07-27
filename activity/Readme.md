@@ -72,6 +72,8 @@ Dibujo de elipse, óvalo, parábola, hipérbola y funciones trigonométricas.
 
 Creación de superficies y sólidos tridimensionales.
 
+> El origen de las figuras 3D deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y sus coordenadas absolutas (x,y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. Utilizar cero (0) en la coordenada Z. 
+
 | Ejercicio              | Descripción                                                                                                                                                                                | Figura                                                                           |
 |:-----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | [M01A02dE01](M01A02d)  | Construya el sólido mostrado en la figura, calcule el volúmen, área superficial, masa de cada elemento, volúmen y masa final del sólido integrado para material en titanio.                | <img src="M01A02d/graph/M01A02dE01a.jpg" alt="R.SIGE" width="200" border="0" />  |
