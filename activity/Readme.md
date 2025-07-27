@@ -72,7 +72,7 @@ Dibujo de elipse, óvalo, parábola, hipérbola y funciones trigonométricas.
 
 Creación de superficies y sólidos tridimensionales.
 
-> El origen de las figuras 3D deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y sus coordenadas absolutas (x,y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. Utilizar cero (0) en la coordenada Z. 
+> El origen de las figuras 3D, deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y su coordenada absoluta (X) deberá desplazarse en una longitud correspondiente a la sumatoria del último dígito de los códigos de alumno de su grupo. Utilizar cero (0) en las coordenadas (Y,Z). 
 
 | Ejercicio              | Descripción                                                                                                                                                                                | Figura                                                                           |
 |:-----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|

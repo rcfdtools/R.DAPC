@@ -33,7 +33,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 >
-> El origen de las figuras 3D deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y sus coordenadas absolutas (x,y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. Utilizar cero (0) en la coordenada Z. 
+> El origen de las figuras 3D, deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y su coordenada absoluta (X) deberá desplazarse en una longitud correspondiente a la sumatoria del último dígito de los códigos de alumno de su grupo. Utilizar cero (0) en las coordenadas (Y,Z). 
 
 
 ## 0. Configuración preliminar 
