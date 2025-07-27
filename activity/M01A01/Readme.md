@@ -32,6 +32,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
+>
+> Para la calificación de los ejercicios, el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 
 ## 1. Usos y aplicaciones de herramientas computacionales
@@ -226,7 +228,7 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 
 ### Ejercicio M01A01E01
 
-Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura asimétrica y guarde como _/file/cad/M01A01E01.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros, cuyas coordenadas absolutas (X,Y) corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.
+Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura asimétrica y guarde como _/file/cad/M01A01E01.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros.
 
 <div align="center"><img src="graph/M01A01E01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen adaptada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
@@ -296,7 +298,7 @@ LINE
 
 ### Ejercicio M01A01E02
 
-**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, guarde la secuencia en _/file/report/M01A01E02A.txt_ y el dibujo en _/file/cad/M01A01E02A.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros, cuyas coordenadas absolutas (X,Y) corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.
+**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, guarde la secuencia en _/file/report/M01A01E02A.txt_ y el dibujo en _/file/cad/M01A01E02A.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros.
 
 <div align="center"><img src="graph/M01A01E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -327,8 +329,6 @@ LINE
 * Triángulo equilátero de 50 metros de lado con origen en la coordenada absoluta indicada.
 * Triángulo rectángulo con área de 200 m² y con origen en la coordenada absoluta indicada.
 
-> La coordenada absoluta en X corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo, y la coordenada en Y a dos veces este valor.
-> 
 > Tenga en cuenta que la sumatoria interna de ángulos de un triángulo es de 180°.
 > 
 > Recuerde que si sus unidades angulares han sido establecidas en grados, deberá incluir la letra **d** (degrees) luego del valor del ángulo requerido. Coordenadas en grados decimales no requieren de la letra **d**
@@ -438,35 +438,35 @@ Para el dibujo isométrico en AutoCAD, es necesario activar los siguientes asist
 
 ### Ejercicio M01A01E03
 
-Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, dibujaremos las vistas proyectadas y vistas planas lateral derecha, superior, frontal y posterior, calcularemos las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E03.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
+Para practicar las herramientas de dibujo asistido, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, dibujaremos las vistas proyectadas y vistas planas lateral derecha, superior, frontal y posterior, calcularemos las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E03.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico.
 
 <div align="center"><img src="graph/M01A01E03a.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
 
 ### Ejercicio M01A01E04
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E04.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E04.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico. 
 
 <div align="center"><img src="graph/M01A01E04.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E05
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E05.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E05.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico. 
 
 <div align="center"><img src="graph/M01A01E05.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E06
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E06.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E06.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico. 
 
 <div align="center"><img src="graph/M01A01E06.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E07
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A01E07.dwg_. El origen de la figura está localizado en la esquina inferior izquierda del dibujo isométrico y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
+Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A01E07.dwg_. El origen de la figura está localizado en la esquina inferior izquierda del dibujo isométrico.
 
 El espesor del material de la escalera es 2.5 y el ángulo de dibujo es de 45 grados.
 
