@@ -113,7 +113,7 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 
 ### Ejercicio M01A02cE00
 
-A partir de coordenadas de localización del centroide de una elipse y la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar la polilínea en AutoCAD y luego suavizarla. Utilizando los parámetros de cálculo, trace con la herramienta **ELLIPSE**, la elipse compuesta por arcos y compare su longitud con la trazada a partir de puntos. Guarde el dibujo como _/file/cad/**M01A02cE00**.dwg_.
+A partir de la longitud de los semiejes, generar las coordenadas de localización en 100 puntos sobre la elipse, trazar la polilínea en AutoCAD y luego suavizarla. Utilizando los parámetros de cálculo, trace con la herramienta **ELLIPSE**, la elipse compuesta por arcos y compare su longitud con la trazada a partir de puntos. Guarde el dibujo como _/file/cad/**M01A02cE00**.dwg_.
 
 Especificaciones:
 
