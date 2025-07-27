@@ -14,7 +14,7 @@ En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD,
 
 Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 
-> Para la calificación de los ejercicios, el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
+> Para la calificación de los ejercicios, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 | Ejercicio             | Descripción                                                                                                                                                                                                                                                                                                                                                                                                            | Figura                                                                        | 
 |:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
