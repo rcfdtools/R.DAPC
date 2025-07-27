@@ -115,7 +115,6 @@ A partir de coordenadas de localización del centroide de una elipse y la longit
 
 Especificaciones:
 
-* Centroide: las coordenadas (x,y) del centroide o (h,k), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.
 * Semiejes: la longitud del semieje mayor o _a_, corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo; la longitud del semieje menor o b, corresponde al 35% de la longitud del semieje mayor.
 
 
