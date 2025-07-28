@@ -68,7 +68,7 @@ En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD,
 | [1.5. Layout e Impresión](activity/M01A05/Readme.md)                                               | Creación de plantillas. Espacio papel y espacio modelo. Asignación de escala. Configuración de impresora y trazadores (plotter). Configuración del trazado. Impresión. Comandos MVSETUP, PRINT, ZOOM, SCALE.                                             |        3.0        |
 | [1.6. Proyecto de dibujo asistido por computadora con Autodesk AutoCAD](activity/M01A06/Readme.md) | Aplicando los conceptos vistos durante el módulo 1 del curso, desarrollar un proyecto aplicado para el diseño de una bodega para el almacenamiento y distribución de transformadores eléctricos industriales.                                            |        3.0        |
 
-Quices individuales: [Quiz 1](https://forms.office.com/r/t1CnxzjqZZ), [Quiz 2](https://forms.office.com/r/NPq6b8z9xC).
+Quices individuales: [Quiz M01A01-1](https://forms.office.com/r/t1CnxzjqZZ), [Quiz M01A01-2](https://forms.office.com/r/NPq6b8z9xC).
 
 
 ## :globe_with_meridians:Módulo 2: Sistemas de información geográfica GIS
