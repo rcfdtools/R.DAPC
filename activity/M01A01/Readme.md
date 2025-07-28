@@ -417,11 +417,11 @@ detalles restantes del objeto.
 <div align="center"><img src="graph/ProyeccionIsometrica.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div><br>
 <div align="center"><img src="graph/ProyeccionIsometrica1.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div><br>
 
-En el sistema americano (A) conocido como el tercer diedro y partir de la proyección isométrica, podemos dibujar las vistas planas de cualquier objeto, p. ej.:
+En el Sistema Americano (A) conocido como el tercer diedro y partir de la proyección isométrica, podemos dibujar las vistas planas de cualquier objeto, p. ej.:
 
 <div align="center"><img src="graph/ProyeccionIsometrica3.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div><br>
 
-En el sistema europep (E) conocido como el primer diedro y partir de la proyección isométrica, podemos dibujar las vistas planas de cualquier objeto, p. ej.:
+En el Sistema Europeo (E) conocido como el primer diedro y partir de la proyección isométrica, podemos dibujar las vistas planas de cualquier objeto, p. ej.:
 
 <div align="center"><img src="graph/ProyeccionIsometrica4.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div><br>
 
