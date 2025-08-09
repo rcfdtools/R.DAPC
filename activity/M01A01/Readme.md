@@ -32,6 +32,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
+>
+> Para la calificación de los ejercicios de esta actividad, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 
 ## 1. Usos y aplicaciones de herramientas computacionales
@@ -40,15 +42,15 @@ Las herramientas computacionales abarcan una amplia gama de aplicaciones en dive
 
 En ingeniería, la expresión gráfica se refiere al uso de dibujos técnicos y representaciones visuales para comunicar ideas, conceptos y soluciones de diseño de manera precisa y eficiente. Es una herramienta fundamental para ingenieros, permitiéndoles representar objetos tridimensionales, diseñar productos, conectar con clientes y resolver problemas técnicos. La expresión gráfica, abarca:
 
-| Alcance                             | Descripción                                                                                                                                                                                                   |
-|:------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Representación de objetos 2D/3D     | Los ingenieros utilizan sistemas de representación, como el multivista, para describir y dimensionar objetos complejos en el espacio bidimensional y tridimensional.                                          |
-| Diseño asistido por ordenador (CAD) | El uso de software CAD permite a los ingenieros crear representaciones gráficas precisas y detalladas de diseños en 2D y 3D, facilitando la colaboración y la iteración en el proceso de diseño.              |
-| Normalización                       | La aplicación de normas de dibujo técnico asegura que los diseños sean interpretados correctamente durante la fabricación y construcción, garantizando la coherencia y precisión.                             |
-| Geometría métrica                   | La comprensión de los principios de la geometría métrica es esencial para representar y analizar formas y volúmenes geométricos.                                                                              |
-| Bocetos                             | Los bocetos son una herramienta valiosa para refinar ideas, probar conceptos y explorar diferentes soluciones de diseño.                                                                                      |
-| Sistemas de representación          | El conjunto de técnicas que permiten representar el espacio tridimensional sobre un plano, facilitando la visualización y resolución de problemas espaciales.                                                 |
-| Comunicación visual                 | La expresión gráfica también se centra en cómo los ingenieros transmiten sus ideas a través de imágenes, incluyendo el uso de perspectiva, iluminación, sombras y colores para transmitir ideas con claridad. |
+| Alcance                             | Descripción                                                                                                                                                                                      |
+|:------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Representación de objetos 2D/3D     | Los ingenieros utilizan sistemas de representación, como el multivista, para describir y dimensionar objetos complejos en el espacio bidimensional y tridimensional.                             |
+| Diseño asistido por ordenador (CAD) | El uso de software CAD permite a los ingenieros crear representaciones gráficas precisas y detalladas de diseños en 2D y 3D, facilitando la colaboración y la iteración en el proceso de diseño. |
+| Normalización                       | La aplicación de normas de dibujo técnico asegura que los diseños sean interpretados correctamente durante la fabricación y construcción, garantizando la coherencia y precisión.                |
+| Geometría métrica                   | La comprensión de los principios de la geometría métrica es esencial para representar y analizar formas y volúmenes geométricos.                                                                 |
+| Bocetos                             | Los bocetos son una herramienta valiosa para refinar ideas, probar conceptos y explorar diferentes soluciones de diseño.                                                                         |
+| Sistemas de representación          | El conjunto de técnicas que permiten representar el espacio tridimensional sobre un plano, facilitando la visualización y resolución de problemas espaciales.                                    |
+| Comunicación visual                 | La expresión gráfica también se centra en cómo los ingenieros transmiten sus ideas a través de imágenes, incluyendo el uso de perspectiva, iluminación, sombras y colores.                       |
 
 
 ### ¿Qué es dibujo o diseño asistido por computador o CAD?
@@ -87,7 +89,7 @@ Consideraciones al elegir una herramienta CAD:
 | Trabajo colaborativo     | Repositorios integrados de datos fuentes, tales como bloques y objetos de dibujo. |
 | Integración BIM          | Modelado de información para construcción de proyectos que requieren diseños CAD. |
 
-> Para el desarrollo del curso DAPC, utilizaremos la herramienta AutoCAD.
+> Para el desarrollo del curso DAPC, utilizaremos para diseño asistido por computador, la herramienta AutoCAD.
 
 
 ### ¿Qué es AutoCAD?
@@ -99,14 +101,14 @@ AutoCAD es una herramienta versátil que facilita el proceso de diseño y dibujo
 
 ### ¿Para qué sirve AutoCAD?
 
-| Alcance                        | Detalle                                                                                                                            |
-|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Diseño y dibujo                | Permite crear dibujos y modelos 2D y 3D con mayor precisión y eficiencia que a mano.                                               |
-| Automatización de tareas       | Automatiza tareas repetitivas de dibujo, lo que aumenta la productividad.                                                          |
-| Colaboración                   | Facilita la colaboración entre equipos y dispositivos, permitiendo el acceso y la edición de diseños desde diferentes ubicaciones. |
-| Visualización                  | Ofrece potentes herramientas de navegación y visualización 3D, como orbitar, recorrer, pivotar y volar sobre modelos 3D.           |
-| Compatibilidad                 | Garantiza la compatibilidad con otros programas de diseño y permite la importación y exportación de archivos.                      |
-| Planificación y presentaciones | Permite crear planos, diagramas y presentaciones de diseños.                                                                       |
+| Alcance                         | Detalle                                                                                                                             |
+|:--------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
+| Diseño y dibujo                 | Permite crear dibujos y modelos 2D y 3D con mayor precisión y eficiencia que a mano.                                                |
+| Automatización de tareas        | Automatiza tareas repetitivas de dibujo, lo que aumenta la productividad.                                                           |
+| Colaboración                    | Facilita la colaboración entre equipos y dispositivos, permitiendo el acceso y la edición de diseños desde diferentes ubicaciones.  |
+| Visualización                   | Ofrece potentes herramientas de navegación y visualización 3D, como orbitar, recorrer, pivotar y volar sobre modelos 3D.            |
+| Compatibilidad                  | Garantiza la compatibilidad con otros programas de diseño y permite la importación y exportación de archivos.                       |
+| Planificación y presentaciones  | Permite crear planos, diagramas y presentaciones de diseños.                                                                        |
 
 
 ### Industrias que utilizan AutoCAD
@@ -147,32 +149,32 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 > Para dibujos en sistema imperial (en Colombia frecuentemente mencionando como sistema inglés) en los que se presupone que las unidades son pulgadas, utilice _**acad.dwt**_ o _**acadlt.dwt**_.
 >
-> :blue_heart: Para dibujos en unidades métricas en las que se presupone que las unidades son metros, utilice _**acadiso.dwt**_ o _**acadltiso.dwt**_.
+> :blue_heart: Para dibujos en unidades métricas en las que se presupone que las unidades son metros, milímetros o centímetros, utilice _**acadiso.dwt**_ o _**acadltiso.dwt**_.
 
 4. Explore el espacio de trabajo, podrá observar lo siguiente:
 
 * En la parte superior se encuentra la cinta de opciones que dinámicamente es asociada a cada uno de los menús visibles en AutoCAD. Debajo de esta barra podrá encontrar los dibujos abiertos, en este caso _Drawing1*_.
 * En la parte central se encuentra el espacio de dibujo o _Model_ que inicialmente presenta visible la grilla de referencia de dibujo. Observará además en la parte superior derecha, el visualizador del sistema global de coordenadas correspondiente a la vista superior (Top) del dibujo y en la parte inferior izquierda, el actual sistema de coordenadas correspondiente al plano XY. En la parte inferior del espacio de dibujo encontrará la barra de comandos o _Command_, que le permitirá ejecutar acciones sin tener que usar la cinta superior.
-* En la parte inferior y debajo del espacio de dibujo encontrará una barra con las pestañas del espacio de modelado, hojas de impresión y herramientas adicionales para facilitar el trazado de dibujos con precisión.
+* En la parte inferior y debajo del espacio de dibujo encontrará una la barra de estado con las pestañas del espacio de modelado, hojas de impresión y herramientas adicionales para facilitar el trazado de dibujos con precisión.
 
 > El * en el nombre del dibujo indica que este es nuevo o que no han sido guardados los cambios.
 
 <div align="center"><img src="graph/AutoCAD_Drawing1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. Desde el botón _AutoCAD / Drawing Utilities / Units_, defina las unidades de longitud en _Decimal_, ángulos en _Grados decimales_, precisión usando dos decimales y unidades de dibujo o de escala para inserción de elementos externos (tales como bloques) en el espacio de dibujo en milímetros. Esta misma acción puede ser realizada desde el comando **DWGUNITS**, adicionalmente permite convertir un dibujo dibujado p. ej., en metros a milímetros.   
+5. Desde el botón _AutoCAD / Drawing Utilities / Units_, defina las unidades de longitud en _Decimal_, ángulos en _Grados decimales_, precisión usando dos decimales y unidades de dibujo o de escala para inserción de elementos externos (tales como bloques) en el espacio de dibujo en milímetros. Esta misma acción puede ser realizada con el comando **UNITS** o con **DWGUNITS**, adicionalmente permite convertir un dibujo trazado p. ej., en metros, a milímetros.   
 
 > Tenga en cuenta que en el espacio de impresión o _Layout_ siempre dibujaremos en milímetros.
 > 
-> Para dibujos arquitectónicos, es recomendable definir la unidades de dibujo en metros. Dibujo de bloques, piezas eléctricas o mecánicas, pueden ser dibujados en milímetros.
+> Para dibujos arquitectónicos, es recomendable definir las unidades de dibujo en metros. Dibujo de bloques, piezas eléctricas o mecánicas, pueden ser dibujadas en milímetros.
 
 <div align="center"><img src="graph/AutoCAD_Units.jpg" alt="R.DAPC" width="50%" border="0" /><img src="graph/AutoCAD_Units1.jpg" alt="R.DAPC" width="45%" border="0" /></div>
 
 
 ## 3. Dibujo de elementos geométricos básicos
 
-El punto, la línea y el polígono son los elementos geométricos básicos con los que podemos dibujar todas las figuras geométricas. Los límites de un polígono son sus líneas perimetrales y de las líneas los puntos en sus extremos. Los polígonos tienen dos dimensiones, las líneas una única dimensión y los puntos ninguna dimensión, que únicamente determinan un lugar.
+El punto, la línea, el arco y el polígono son los elementos geométricos básicos con los que podemos dibujar todas las figuras geométricas. Los límites de un polígono son sus líneas perimetrales y de las líneas los puntos en sus extremos. Los polígonos tienen dos dimensionalidades, las líneas una única dimensión y los puntos ninguna dimensión, que únicamente determinan un lugar.
 
-AutoCAD dispone de múltiples herramientas de dibujo las cuales se encuentran disponibles en el menú _Home_ dentro del grupo _Draw_. En esta actividad nos concentraremos en el uso de la línea o _Line_.
+AutoCAD dispone de múltiples herramientas de dibujo, las cuales se encuentran disponibles en el menú _Home_ dentro del grupo _Draw_. En esta actividad nos concentraremos en el uso de la línea o _Line_.
 
 Para el dibujo de elementos, por defecto el mouse o apuntador realiza las siguientes acciones:
 
@@ -192,15 +194,15 @@ Para el dibujo de elementos, por defecto el mouse o apuntador realiza las siguie
 
 <div align="center"><img src="graph/AutoCAD_Select.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Para conocer las propiedades de la línea, de clic derecho sobre el elemento y seleccione la opción Properties. Podrá observar sus coordenadas absolutas y que para este ejemplo, la línea trazada tiene una longitud de 2686.77 metros con una inclinación es de 0.04 grados con respecto a la horizontal.
+3. Para conocer las propiedades de la línea, de clic derecho sobre el elemento y seleccione la opción _Properties_. Podrá observar sus coordenadas absolutas y que para este ejemplo, la línea trazada tiene una longitud de 2686.77 metros con una inclinación es de 0.04 grados con respecto a la horizontal.
 
 > Tenga en cuenta que si traza una línea manualmente dando clic en la pantalla, su longitud e inclinación puede variar con respecto al ejemplo presentado.
 >
-> En AutoCAD, la localización al este o a la derecha del dibujo corresponde al ángulo cero, norte corresponde a 90 grados, oeste a 180 grados y sur a 270 grados.
+> En AutoCAD, la localización absoluta al este o a la derecha del dibujo corresponde al ángulo cero, norte corresponde a 90 grados, oeste a 180 grados y sur a 270 grados.
 
 <div align="center"><img src="graph/AutoCAD_Properties.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en un [Libro de Excel](../../file/table/DAPC_TeoremaPitagoras.xlsx) manualmente la longitud de la línea a partir de las coordenadas de sus nodos inicio - fin y compare con el valor obtenido en AutoCAD.
+Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule manualmente en un [Libro de Excel](../../file/table/DAPC_TeoremaPitagoras.xlsx), la longitud y ángulo de inclinación de la línea, a partir de las coordenadas de sus nodos inicio - fin, compare con el valor obtenido en AutoCAD.
 
 <div align="center">L = √((CXStart - CXEnd)² + (CYStart - CYEnd)²)</div><br>
 
@@ -208,7 +210,7 @@ Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule en un [
 
 4. En la cinta de opciones superior, de clic en el botón guardar y almacene el archivo como _/file/cad/M01A01.dwg_. Utilizando la rueda del Mouse, acérquese (rueda hacia arriba), aléjese (rueda hacia abajo) y desplace el dibujo (rueda pulsada y desplazamiento del mouse).
 
-5. Como observó, AutoCAD permite trazar líneas utilizando localizaciones manuales en pantalla, sin embargo, para el trazado de dibujos con precisión, podemos utilizar coordenadas absolutas, coordenadas relativas o una secuencia de comandos indicando la localización de sus nodos.
+5. Como observó, AutoCAD permite trazar líneas utilizando localizaciones manuales en pantalla, sin embargo, para el trazado de dibujos con precisión, podemos utilizar coordenadas absolutas, coordenadas relativas o una secuencia de comandos indicando la localización de sus nodos y teniendo en cuenta las siguientes especificaciones: 
 
 <div align="center">
 
