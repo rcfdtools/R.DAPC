@@ -28,8 +28,6 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 * [Proyecto](activity/M01A06/Readme.md): se evalúa en grupo.
 * Asistencia: se evalúa individualmente.
 
-> :blue_heart: Las horas definidas en la columna _Duración_ de las diferentes actividades por módulo, corresponden a horas en aula. Por cada hora de clase, el estudiante dedicará al menos 1 hora de trabajo en casa. Con respecto a los ejercicios y actividades de proyecto que son presentados y evaluados en grupo, la dedicación corresponde al número de horas indicadas multiplicado por el número de integrantes.
-
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
 
@@ -55,6 +53,8 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 ## :globe_with_meridians:Módulo 1: Dibujo asistido por computadora con AutoCAD
 
 En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD, Entorno gráfico e interfaz de AutoCAD, Comandos básicos, Dibujo de elementos básicos, Presentación de elementos básicos, Achurado y sombreado, Dimensionamiento de elementos, Herramientas de acotado, Rotulado, Herramientas de edición y dibujo en 3D, Creación y estructurado de un plano, Manejo de ventanas de impresión, Capas, Viewports: manejo de escalas, plantas, perfiles y secciones transversales.
+
+> :blue_heart: Las horas definidas en la columna _Duración_ de las diferentes actividades por módulo, corresponden a horas en aula. Por cada hora de clase, el estudiante dedicará al menos 1 hora de trabajo en casa. Con respecto a los ejercicios y actividades de proyecto que son presentados y evaluados en grupo, la dedicación corresponde al número de horas indicadas multiplicado por el número de integrantes.
 
 | Actividad                                                                                          | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Duración<br/>(hr) |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------:|
