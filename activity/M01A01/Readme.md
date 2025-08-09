@@ -32,15 +32,23 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
->
-> Para la calificación de los ejercicios, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 
 ## 1. Usos y aplicaciones de herramientas computacionales
 
-Las herramientas computacionales abarcan una amplia gama de aplicaciones en diversos campos, desde la gestión de datos (planos, datos relacionales, organización y manejo) en proyectos de ingeniería, hasta la creación de modelos y la automatización de procesos. Estas herramientas, ya sean de hardware (equipos) o software (programas), simplifican tareas, mejoran la eficiencia y facilitan la innovación en diferentes áreas. El uso de software de automatización de tareas repetitivas o complejas, como scripts y macros, liberan tiempo para actividades estratégicas de un proyecto.
+Las herramientas computacionales abarcan una amplia gama de aplicaciones en diversos campos, desde la gestión de datos (planos, datos relacionales, organización y manejo) en proyectos de ingeniería, hasta la creación de modelos y la automatización de procesos. Estas herramientas, ya sean de hardware (equipos) o software (programas), simplifican tareas, mejoran la eficiencia y facilitan la innovación en diferentes áreas. El uso de software de automatización de tareas repetitivas o complejas, como scripts y macros, liberan tiempo para actividades estratégicas de un proyecto. En resumen, las herramientas computacionales son elementos clave para la productividad, la innovación, el trabajo con enfoque colaborativo y la eficiencia en una amplia gama de aplicaciones profesionales. 
 
-En resumen, las herramientas computacionales son elementos clave para la productividad, la innovación, el trabajo con enfoque colaborativo y la eficiencia en una amplia gama de aplicaciones profesionales. 
+En ingeniería, la expresión gráfica se refiere al uso de dibujos técnicos y representaciones visuales para comunicar ideas, conceptos y soluciones de diseño de manera precisa y eficiente. Es una herramienta fundamental para ingenieros, permitiéndoles representar objetos tridimensionales, diseñar productos, conectar con clientes y resolver problemas técnicos. La expresión gráfica, abarca:
+
+| Alcance                             | Descripción                                                                                                                                                                                                   |
+|:------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Representación de objetos 2D/3D     | Los ingenieros utilizan sistemas de representación, como el multivista, para describir y dimensionar objetos complejos en el espacio bidimensional y tridimensional.                                          |
+| Diseño asistido por ordenador (CAD) | El uso de software CAD permite a los ingenieros crear representaciones gráficas precisas y detalladas de diseños en 2D y 3D, facilitando la colaboración y la iteración en el proceso de diseño.              |
+| Normalización                       | La aplicación de normas de dibujo técnico asegura que los diseños sean interpretados correctamente durante la fabricación y construcción, garantizando la coherencia y precisión.                             |
+| Geometría métrica                   | La comprensión de los principios de la geometría métrica es esencial para representar y analizar formas y volúmenes geométricos.                                                                              |
+| Bocetos                             | Los bocetos son una herramienta valiosa para refinar ideas, probar conceptos y explorar diferentes soluciones de diseño.                                                                                      |
+| Sistemas de representación          | El conjunto de técnicas que permiten representar el espacio tridimensional sobre un plano, facilitando la visualización y resolución de problemas espaciales.                                                 |
+| Comunicación visual                 | La expresión gráfica también se centra en cómo los ingenieros transmiten sus ideas a través de imágenes, incluyendo el uso de perspectiva, iluminación, sombras y colores para transmitir ideas con claridad. |
 
 
 ### ¿Qué es dibujo o diseño asistido por computador o CAD?

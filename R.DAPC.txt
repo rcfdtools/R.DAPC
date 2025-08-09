@@ -2,7 +2,7 @@ Gemini prompt https://gemini.google.com/app/aeeb9a71c799bdf7:
 	Create an image of computer assisted drawing building sketch in electrical engineering.
 	Create an image of computer assisted drawing building 3D sketch in electrical engineering.
 
-✓Δ°Σβθαπ∑√±πØμ
+✓Δ°Σβσθαπ∑√±πØμx
 <kbd>esc</kbd>
 <kbd>enter</kbd>
 <kbd>ctrl</kbd>
@@ -24,6 +24,8 @@ El origen de la figura está localizado en la esquina inferior izquierda del dib
 El origen de la figura está localizado en la esquina inferior izquierda y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 El origen de la figura está localizado en el centroide del círculo principal o en el cruce de los ejes principales y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
+
+> Para la calificación de los ejercicios, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
 
 
 Pending
