@@ -25,8 +25,6 @@ El origen de la figura está localizado en la esquina inferior izquierda y sus c
 
 El origen de la figura está localizado en el centroide del círculo principal o en el cruce de los ejes principales y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
 
-> Para la calificación de los ejercicios, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
-
 
 Pending
     La sumatoria de los ángulos interiores de un polígono es (7 - 2) * 180° = 900°.

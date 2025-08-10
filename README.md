@@ -16,7 +16,7 @@ El contenido del curso está dirigido a estudiantes de pregrado que se encuentre
 
 * Mediante el desarrollo de talleres prácticos, presentar a los participantes, diferentes conceptos y aplicaciones del dibujo asistido por computador en la ingeniería.
 * Al inicio de cada clase, el tutor realizará una presentación y demostración general de los conceptos y las herramientas computacionales a utilizar y luego los estudiantes desarrollarán los contenidos de cada taller, actividad o ejercicio.
-* Proyecto de clase: se desarrolla en grupos y se evalúan los conocimientos adquiridos en los talleres prácticos.
+* Proyecto de clase: se desarrolla en grupos y se evalúan los conocimientos adquiridos en los talleres prácticos; consta de 3 componentes: CAD, GIS y BIM.
 * Antes de cada clase, es recomendable que los participantes den lectura a las guías de clase para así comprender mejor las explicaciones recibidas en aula.
 
 **Evaluación**
@@ -25,7 +25,9 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 
 * [Ejercicios por actividad](activity/Readme.md ): se evalúan en grupo.
 * Quices: se presentan individualmente.
-* [Proyecto](activity/M01A06/Readme.md): se evalúa en grupo.
+* [Proyecto CAD](activity/M01A06/Readme.md): se evalúa en grupo.
+* [Proyecto GIS](file/table/DAPC_ProyectoGIS.xlsx): se evalúa en grupo.
+* [Proyecto BIM](file/table/DAPC_ProyectoBIM.xlsx): se evalúa en grupo.
 * Asistencia: se evalúa individualmente.
 
 
