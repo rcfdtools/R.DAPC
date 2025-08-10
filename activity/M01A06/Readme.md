@@ -17,6 +17,7 @@ Al finalizar esta actividad, el estudiante:
 * Identifica elementos característicos técnicos, arquitectónicos y estructurales para la implantación de redes y elementos eléctricos.
 * Obtiene habilidades para la cuantificación y distribución de espacios físicos 2D/3D.
 * Obtiene habilidades de trabajo en grupo en el desarrollo de proyectos.
+* Entiende y aplica conceptos de dibujo paramétrico.
 
 
 ## Requerimientos
@@ -190,6 +191,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://ineldec.com/producto/transformador-trifasico-convencional-75-kva/
 * https://www.larsonelectronics.com/category/601/industrial-transformers
 * https://amperesoluciones.com/wp/especificaciones-electricas/
+* https://mailchimp.com/es/resources/how-to-choose-a-business-name/
 
 
 ## Control de versiones
