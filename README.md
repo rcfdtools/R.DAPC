@@ -30,6 +30,8 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 * [Proyecto GIS](file/table/DAPC_ProyectoGIS.xlsx): se evalúa en grupo.
 * [Proyecto BIM](file/table/DAPC_ProyectoBIM.xlsx): se evalúa en grupo.
 
+> Estudiantes con calificación inferior a 3.0 en el tercio académico, presentan examen y será computado con las demás calificaciones obtenidas en cada cohorte.  
+
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
 
