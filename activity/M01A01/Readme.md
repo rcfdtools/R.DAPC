@@ -157,7 +157,7 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 * En la parte central se encuentra el espacio de dibujo o _Model_ que inicialmente presenta visible la grilla de referencia de dibujo. Observará además en la parte superior derecha, el visualizador del sistema global de coordenadas correspondiente a la vista superior (Top) del dibujo y en la parte inferior izquierda, el actual sistema de coordenadas correspondiente al plano XY. En la parte inferior del espacio de dibujo encontrará la barra de comandos o _Command_, que le permitirá ejecutar acciones sin tener que usar la cinta superior.
 * En la parte inferior y debajo del espacio de dibujo encontrará una la barra de estado con las pestañas del espacio de modelado, hojas de impresión y herramientas adicionales para facilitar el trazado de dibujos con precisión.
 
-> El * en el nombre del dibujo indica que este es nuevo o que no han sido guardados los cambios.
+> El * en el nombre del dibujo, índica que este es nuevo o que no han sido guardados los cambios.
 
 <div align="center"><img src="graph/AutoCAD_Drawing1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -310,7 +310,7 @@ LINE
 
 ### Ejercicio M01A01E02
 
-**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, guarde la secuencia en _/file/report/M01A01E02A.txt_ y el dibujo en _/file/cad/M01A01E02A.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros.
+**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, guarde las secuencias en _/file/report/M01A01E02A.txt_ y el dibujo en _/file/cad/M01A01E02A.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros.
 
 <div align="center"><img src="graph/M01A01E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
