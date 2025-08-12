@@ -23,5 +23,5 @@ Al consultar, descargar, descomprimir, instalar, usar o explorar las herramienta
 
 ### Citación
 
-Se permite la reproducción digital parcial o total de estas actividades, scripts, guías de desarrollo, modelos de datos y documentación, siempre que se haga referencia como: _"CURSO - Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos", r.cfdtools@gmail.com, https://github.com/rcfdtools/R.DAPC, Bogotá - Colombia - Suramérica."_.
+Se permite la reproducción digital parcial o total de estas actividades, scripts, guías de desarrollo, modelos de datos y documentación, siempre que se haga referencia como: _"CURSO - Dibujo asistido por computador - DAPC", r.cfdtools@gmail.com, https://github.com/rcfdtools/R.DAPC, Bogotá - Colombia - Suramérica."_.
 
