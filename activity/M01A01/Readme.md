@@ -163,6 +163,8 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 5. Desde el botón _AutoCAD / Drawing Utilities / Units_, defina las unidades de longitud en _Decimal_, ángulos en _Grados decimales_, precisión usando dos decimales y unidades de dibujo o de escala para inserción de elementos externos (tales como bloques) en el espacio de dibujo en milímetros. Esta misma acción puede ser realizada con el comando **UNITS** o con **DWGUNITS**, adicionalmente permite convertir un dibujo trazado p. ej., en metros, a milímetros.   
 
+> Diferencia entre Grados Decimales y Grados en AutoCAD: son dos diferentes unidades para representación de ángulos, los _Grados Decimales_ son la forma más común de representar ángulos usando fracciones decimales (p. ej., 27.32°), mientras que los _Grados_ dividen la circunferencia en 400 partes iguales. 
+> 
 > Tenga en cuenta que en el espacio de impresión o _Layout_ siempre dibujaremos en milímetros.
 > 
 > Para dibujos arquitectónicos, es recomendable definir las unidades de dibujo en metros. Dibujo de bloques, piezas eléctricas o mecánicas, pueden ser dibujadas en milímetros.
