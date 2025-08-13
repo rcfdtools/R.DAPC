@@ -71,7 +71,7 @@ En arquitectura, las especificaciones de un proyecto son documentos técnicos de
 
 > En este curso, no es necesario crear los planos de instalaciones hidráulicas, sanitarias y contra incendios.
 
-<div align="center"><img src="graph/ArchEstruct1.png" alt="R.DAPC" width="50%" border="0" /><sub><br>Tomado de: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
+<div align="center"><img src="graph/ArchEstruct1.png" alt="R.DAPC" width="50%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
 
 | Especificación               | Descripción y alcance                                                                                                                                                                                                                                                 |
 |:-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -132,7 +132,10 @@ Prompt: dimensiones de transformadores eléctricos industriales
 
 En el contexto de un proyecto, los planos de diseño son representaciones gráficas que detallan la forma, dimensiones y características de la obra a construir o implementar. Son documentos esenciales que guían a los constructores y otros profesionales durante la ejecución del proyecto, asegurando que se materialice según lo planificado. 
 
+Ejemplo de [planos requeridos](../../ref).
+
 > Para los planos requeridos, utilice uno o varios layouts.
+
 
 | Especificación                | Descripción y alcance                                                                                                                                                                                                                                                                                                  |
 |:------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
