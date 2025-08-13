@@ -140,7 +140,7 @@ Prompt: dimensiones de transformadores eléctricos industriales
 
 En el contexto de un proyecto, los planos de diseño son representaciones gráficas que detallan la forma, dimensiones y características de la obra a construir o implementar. Son documentos esenciales que guían a los constructores y otros profesionales durante la ejecución del proyecto, asegurando que se materialice según lo planificado. 
 
-Ejemplo de [planos requeridos](../../ref).
+Ejemplo de [planos requeridos](../../file/cad/sample).
 
 > Para los planos requeridos, utilice uno o varios layouts.
 
