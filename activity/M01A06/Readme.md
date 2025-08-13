@@ -105,6 +105,8 @@ Ejemplo de bodega con cubierta curva.
 
 En un proyecto, las especificaciones eléctricas son un conjunto de directrices técnicas que describen detalladamente las características y requisitos de los componentes y equipos eléctricos que se utilizarán. Estas especificaciones aseguran que la instalación eléctrica sea segura, confiable y cumpla con los estándares y normativas aplicables.
 
+<div align="center"><img src="graph/Electric1.png" alt="R.DAPC" width="40%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
+
 | Especificación             | Descripción y alcance                                                                                                                                                                                                                             |
 |:---------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Acometida                  | Utilizando las especificaciones del Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia, dibuje la acometida eléctrica.                                                                          |
