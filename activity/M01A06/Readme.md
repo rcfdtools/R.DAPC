@@ -113,7 +113,7 @@ En un proyecto, las especificaciones eléctricas son un conjunto de directrices 
 | Acometida                  | Utilizando las especificaciones del Reglamento Técnico de Instalaciones Eléctricas - RETIE del Ministerio de Minas y Energía de Colombia, dibuje la acometida eléctrica.                                                                          |
 | Redes                      | Redes eléctricas para 110V y 220V, red de datos usando cableado, red de iluminación, red fotovoltáica, red de vigilancia. Indicar la localización de tomacorrientes, interruptores, luminarias, luces de emergencia.                              |
 | Energía solar              | La cubierta deberá contener páneles solares. Investigue, analice y distribuya los paneles. Tenga en cuenta que deberá reservar espacios para las pasarelas de instalación y mantenimiento, líneas de vída y ventiladores eléctricos industriales. |
-| Pararrayos y polo a tierra | Localizar y dibujar un pararrayo y polo a tierra.                                                                                                                                                                                                 |
+| Pararrayos y polo a tierra | Localizar y dibujar un pararrayos y polo a tierra.                                                                                                                                                                                                 |
 
 <div align="center">Ejemplo de acometida eléctrica.<br><img src="graph/Electric2.png" alt="R.DAPC" width="30%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
 
