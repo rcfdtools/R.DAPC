@@ -97,8 +97,8 @@ En arquitectura, las especificaciones de un proyecto son documentos técnicos de
 
 <div align="center"><img src="graph/ArchEstruct2.png" alt="R.DAPC" width="60%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
 
-Ejemplo de bodega con cubierta curva.
-<div align="center"><img src="graph/ArchEstruct3.png" alt="R.DAPC" width="40%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
+
+<div align="center">Ejemplo de bodega con cubierta curva.<br><img src="graph/ArchEstruct3.png" alt="R.DAPC" width="40%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
 
 
 ## 3. Especificaciones eléctricas
