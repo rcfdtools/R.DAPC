@@ -71,7 +71,7 @@ En arquitectura, las especificaciones de un proyecto son documentos técnicos de
 
 > En este curso, no es necesario crear los planos de instalaciones hidráulicas, sanitarias y contra incendios.
 
-<div align="center"><img src="graph/ArchEstruct1.png" alt="R.DAPC" width="80%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
+<div align="center"><img src="graph/ArchEstruct1.png" alt="R.DAPC" width="60%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
 
 | Especificación               | Descripción y alcance                                                                                                                                                                                                                                                 |
 |:-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ En arquitectura, las especificaciones de un proyecto son documentos técnicos de
 
 > :fire: **Nota 1a**: tenga en cuenta que este tipo de elementos requieren de un diseño avanzado, los valores aquí definidos son esquemáticos y requieren ser revisados por un ingeniero experto.
 
-<div align="center"><img src="graph/ArchEstruct2.png" alt="R.DAPC" width="80%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
+<div align="center"><img src="graph/ArchEstruct2.png" alt="R.DAPC" width="60%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
 
 
 ## 3. Especificaciones eléctricas
