@@ -106,7 +106,7 @@ En arquitectura, las especificaciones de un proyecto son documentos técnicos de
 
 En un proyecto, las especificaciones eléctricas son un conjunto de directrices técnicas que describen detalladamente las características y requisitos de los componentes y equipos eléctricos que se utilizarán. Estas especificaciones aseguran que la instalación eléctrica sea segura, confiable y cumpla con los estándares y normativas aplicables.
 
-<div align="center">Ejemplo de cubierta con páneles solares.<br><img src="graph/Electric1.png" alt="R.DAPC" width="40%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
+<div align="center">Ejemplo de cubierta con páneles solares.<br><img src="graph/Electric1.png" alt="R.DAPC" width="60%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
 
 | Especificación             | Descripción y alcance                                                                                                                                                                                                                             |
 |:---------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
