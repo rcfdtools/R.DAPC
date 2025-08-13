@@ -5,7 +5,7 @@ Aplicando los conceptos vistos durante el módulo 1 del curso, desarrollar un pr
 
 Aplique los conceptos vistos en las diferentes actividades del módulo relacionadas con: Layers, papel. Texto menor, texto mayor. Planos de referencia para posiciones espaciales. Limits. Coordenadas cartesianas X, Y, Z. Coordenadas relativas posicionales. Coordenadas geográficas.   
 
-<div align="center"><img src="graph/M01A06.png" alt="R.DAPC" width="30%" border="0" /><sub><br>Tomado de: <a href="https://pngtree.com/">https://pngtree.com/</a></sub><br><br></div>
+<div align="center"><img src="graph/M01A06.png" alt="R.DAPC" width="40%" border="0" /><sub><br>Tomado de: <a href="https://pngtree.com/">https://pngtree.com/</a></sub><br><br></div>
 
 
 ## Objetivos
@@ -109,9 +109,11 @@ En un proyecto, las especificaciones eléctricas son un conjunto de directrices 
 
 ## 4. Bodegaje
 
+<div align="center"><img src="graph/Bodegaje1.jpg" alt="R.DAPC" width="30%" border="0" /><sub><br>Tomado de: <a href="http://www.freepik.com">Designed by macrovector / Freepik</a></sub><br><br></div>
+
 La distribución de una bodega en un proyecto implica planificar la disposición de las áreas y elementos para optimizar el flujo de materiales, maximizar el espacio y garantizar la eficiencia operativa. Se deben considerar factores como el tipo de productos, la rotación, el tamaño del almacén y los equipos de manipulación. El objetivo es calcular el inventario máximo que se puede almacenar en la bodega.
 
-<div align="center"><img src="graph/Bodegaje1.jpg" alt="R.DAPC" width="30%" border="0" /><sub><br>Tomado de: <a href="http://www.freepik.com">Designed by macrovector / Freepik</a></sub><br><br></div>
+<div align="center"><img src="graph/Bodegaje2.png.png" alt="R.DAPC" width="30%" border="0" /><sub><br>Tomado de: <a href="https://pngtree.com/">https://pngtree.com/</a></sub><br><br></div>
 
 
 * Las dimensiones de los transformadores eléctricos industriales varían ampliamente según su capacidad (kVA), voltaje y tipo (monofásico o trifásico), así como si son de aceite o tipo seco. Generalmente, los transformadores de potencia media tienen alturas que van de 1.2 a 1.8 metros. Para transformadores de 100 kVA, por ejemplo, uno monofásico puede tener dimensiones de 770 mm de ancho, 965 mm de profundidad y 1135 mm de altura, según [Daelim Transformer](https://www.daelimtransformer.com/100-kva-transformer.html). Un transformador trifásico de 75 kVA puede tener dimensiones de 1155 mm de ancho, 845 mm de largo y 572 mm de alto, según [Ineldec](https://ineldec.com/producto/transformador-trifasico-convencional-75-kva/). 
