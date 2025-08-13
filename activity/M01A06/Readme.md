@@ -117,6 +117,8 @@ En un proyecto, las especificaciones eléctricas son un conjunto de directrices 
 
 <div align="center">Ejemplo de acometida eléctrica.<br><img src="graph/Electric2.png" alt="R.DAPC" width="30%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
 
+<div align="center">Ejemplo pararrayos.<br><img src="graph/Electric3.png" alt="R.DAPC" width="30%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
+
 
 ## 4. Bodegaje
 
