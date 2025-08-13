@@ -124,15 +124,14 @@ La distribución de una bodega en un proyecto implica planificar la disposición
 
 <div align="center"><img src="graph/Bodegaje2.png" alt="R.DAPC" width="20%" border="0" /><sub><br>Tomado de: <a href="https://pngtree.com/">https://pngtree.com/</a></sub><br><br></div>
 
-Las dimensiones de los transformadores eléctricos industriales varían ampliamente según su capacidad (kVA), voltaje y tipo (monofásico o trifásico), así como si son de aceite o tipo seco. Generalmente, los transformadores de potencia media tienen alturas que van de 1.2 a 1.8 metros. Para transformadores de 100 kVA, por ejemplo, uno monofásico puede tener dimensiones de 770 mm de ancho, 965 mm de profundidad y 1135 mm de altura, según [Daelim Transformer](https://www.daelimtransformer.com/100-kva-transformer.html). Un transformador trifásico de 75 kVA puede tener dimensiones de 1155 mm de ancho, 845 mm de largo y 572 mm de alto, según [Ineldec](https://ineldec.com/producto/transformador-trifasico-convencional-75-kva/).
+* Las dimensiones de los transformadores eléctricos industriales varían ampliamente según su capacidad (kVA), voltaje y tipo (monofásico o trifásico), así como si son de aceite o tipo seco. Generalmente, los transformadores de potencia media tienen alturas que van de 1.2 a 1.8 metros. Para transformadores de 100 kVA, por ejemplo, uno monofásico puede tener dimensiones de 770 mm de ancho, 965 mm de profundidad y 1135 mm de altura, según [Daelim Transformer](https://www.daelimtransformer.com/100-kva-transformer.html). Un transformador trifásico de 75 kVA puede tener dimensiones de 1155 mm de ancho, 845 mm de largo y 572 mm de alto, según [Ineldec](https://ineldec.com/producto/transformador-trifasico-convencional-75-kva/).
 
-Para el cálculo de la distribución interna del almacenamiento de los transformadores eléctricos, utilizar las dimensiones específicas de las diferentes referencias a almacenar, incluyendo el ancho de los soportes o cajas de embalaje.
+* Para el cálculo de la distribución interna del almacenamiento de los transformadores eléctricos, utilizar las dimensiones específicas de las diferentes referencias a almacenar, incluyendo el ancho de los soportes o cajas de embalaje.
 
 <div align="center"><img src="graph/Bodegaje1.jpg" alt="R.DAPC" width="60%" border="0" /><sub><br>Tomado de: <a href="http://www.freepik.com">Designed by macrovector / Freepik</a></sub><br><br></div>
 
-Separación entre estantes y altura: considerar el ancho y alto de maniobra del montacargas.
-
-A partir del tipo de transformadores, la distribución interna y el tipo de estantes industriales utilizados, calcular el total de unidades que pueden ser almacenadas en la bodega para las diferentes referencias seleccionadas.
+* Separación entre estantes y altura: considerar el ancho y alto de maniobra del montacargas.
+* A partir del tipo de transformadores, la distribución interna y el tipo de estantes industriales utilizados, calcular el total de unidades que pueden ser almacenadas en la bodega para las diferentes referencias seleccionadas.
 
 Prompt: dimensiones de transformadores eléctricos industriales
 
@@ -141,7 +140,7 @@ Prompt: dimensiones de transformadores eléctricos industriales
 
 En el contexto de un proyecto, los planos de diseño son representaciones gráficas que detallan la forma, dimensiones y características de la obra a construir o implementar. Son documentos esenciales que guían a los constructores y otros profesionales durante la ejecución del proyecto, asegurando que se materialice según lo planificado. 
 
-Ejemplo de [planos requeridos](../../file/cad/sample).
+Ejemplo de [planos a presentar en el proyecto](../../file/cad/sample).
 
 > Para los planos requeridos, utilice uno o varios layouts.
 
