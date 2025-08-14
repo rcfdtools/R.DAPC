@@ -7,7 +7,7 @@ Keywords: `topography` `photogrammetric` `earth-shape` `gnss`
 
 Sistemas de información geográfica. Fundamentos. Proyecciones y origen de coordenadas. 
 
-<div align="center"><img src="graph/Gravity_anomalies_on_Earth.png" alt="R.DAPC" width="60%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/35647f2361c5f39f">https://gemini.google.com</a></sub><br><br></div>
+<div align="center"><img src="graph/Gravity_anomalies_on_Earth.png" alt="R.DAPC" width="50%" border="0" /><sub><br>Tomado de: <a href="Public Domain, https://commons.wikimedia.org/w/index.php?curid=479365">https://commons.wikimedia.org</a></sub><br><br></div>
 
 
 ## Objetivos
