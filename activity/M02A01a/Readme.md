@@ -21,9 +21,9 @@ Al finalizar esta actividad, el estudiante:
 * Estudia las diferentes aplicaciones de los SIG en entornos corporativos y gubernamentales.
 * Entiende sus ventajas y desafíos.
 * Aprende acerca de los tipos de datos y formatos comúnmente utilizados por los SIG.
-* Entiende conceptos generales de georreferenciación
-* Estudia los sistemas de proyección utilizados en Colombia
-* Entiende como funciona el sistema geográfico mundial WGS84
+* Entiende conceptos generales de georreferenciación.
+* Estudia los sistemas de proyección utilizados en Colombia.
+* Entiende como funciona el sistema geográfico mundial WGS84.
 
 
 ## Requerimientos
