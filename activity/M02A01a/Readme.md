@@ -196,7 +196,7 @@ Los Sistemas de Información Geográficos (SIG o GIS), son un conjunto de equipo
 > La gran diferencia que existe entre un aplicativo SIG y otros paquetes de software gráfico radica en que el aplicativo SIG es esencialmente una base de datos espacial, lo que otorga una cualidad incomparable en el desarrollo de análisis enfocados a resolver problemas reales que afectan el espacio geográfico estudiado.   
 
 
-### 1. Historia de los SIG como ciencia[^1]
+### 1. Historia de los SIG como ciencia[^4]
 
 En las últimas décadas, los **_SIG han pasado de ser un concepto a convertirse en una ciencia_**. La espectacular evolución de los SIG de una herramienta rudimentaria a una plataforma moderna y potente para comprender y planear nuestro mundo está marcada por varios hitos clave.
 
@@ -214,7 +214,7 @@ Línea de tiempo
 |  Hoy  | Utilizados en la vida diaria y como herramienta tecnológica se utilizan en múltiples campos de la ingeniería y arquitectura.                                        |
 
 
-### 2. Ciencias y tecnologías relacionadas[^2]
+### 2. Ciencias y tecnologías relacionadas[^5]
 
 
 #### 2.1. Estudio de la tierra sólida
@@ -275,7 +275,7 @@ Un SIG (GIS, en su acrónimo inglés Geographic Information System) es un sistem
 > :bulb: Imagine por un instante que la semana anterior realizó un estudio hidráulico a partir del levantamiento topo-batimétrico de un tramo de río que contiene un meandro con la representación de esta información en un SIG. Una semana después, una lluvia extrema ocasionó una avenida torrencial y una avalancha que desplazo y corto el meandro en la zona levantada. Como observa, la geografía ha cambiado y el SIG creado ya no representa la condición actual del tramo de río en estudio. Para actualizar el sistema de información deberá realizar nuevamente el levantamiento y crear una nueva versión del estudio. 
 
 
-### 4. Ventajas y desafíos de los SIG [^3]
+### 4. Ventajas y desafíos de los SIG [^6]
 
 La operación de los sistemas de información geográfica afrontan desafíos importantes que deben ser considerados antes de su implementación.
 
@@ -316,7 +316,7 @@ Los SIG son ampliamente utilizados en el desarrollo de:
 <div align="center"><img src="graph/BasinB.png" alt="R.SIGE" width="80%" border="0"/><br><sub>Elaborado por rcfdtools</sub><br><br></div>
 
 
-### 6. Calidad de los datos[^4]
+### 6. Calidad de los datos[^7]
 
 ¿Qué conocemos como calidad?
 
@@ -479,13 +479,17 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://globalgpssystems.com/gnss/gnss-constellations-how-they-work-and-how-they-improve-gps
 * https://pro.arcgis.com/es/pro-app/latest/help/mapping/device-location/gnss-and-location-devices.htm
 * https://bdigital.uniquindio.edu.co/bitstream/handle/001/5932/Capitulo%206%20poligonales.pdf
+* https://es.wikipedia.org/wiki/Zipaquir%C3%A1
+* https://www.colombiaenmapas.gov.co/inicio/
+* https://www.esri.com/es-es/what-is-gis/overview
+* https://volaya.github.io/libro-sig/chapters/Calidad_datos.html
 
 
 ## Control de versiones
 
-| Versión     | Descripción        | Autor                                      | Horas |
-|-------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.08.14 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  12   |
+| Versión      | Descripción        | Autor                                      | Horas |
+|--------------|:-------------------|--------------------------------------------|:-----:|
+| 2025.08.14   | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  12   |
 
 
 ##
@@ -501,3 +505,8 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 [^1]: https://support.esri.com/es-es/gis-dictionary/surveying
 [^2]: https://www.ecomexico.net/
 [^3]: https://pro.arcgis.com/es/pro-app/latest/help/mapping/device-location/gnss-and-location-devices.htm
+[^4]: https://www.esri.com/es-es/what-is-gis/history-of-gis 
+[^5]: https://es.wikipedia.org/wiki/Ciencias_de_la_Tierra
+[^6]: https://blogs.upm.es/espacio-geotig/2023/06/22/ventajas-desafios/
+[^7]: https://www.ideca.gov.co/sites/default/files/presentaciones/idecacursotallerestandarycalidad.pdf
+[^8]: Ilustraciones y descripciones tomadas de https://pro.arcgis.com/
