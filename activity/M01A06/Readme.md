@@ -41,6 +41,15 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
+## 0. ¿Qué es el dibujo paramétrico CAD?
+
+El dibujo paramétrico en CAD es una técnica que permite crear modelos digitales utilizando parámetros, relaciones y restricciones. A diferencia del dibujo tradicional, donde se dibujan los elementos uno por uno, el dibujo paramétrico define objetos y sus relaciones mediante fórmulas y reglas, permitiendo cambios rápidos y consistentes en el diseño. 
+
+El modelado paramétrico se basa en la definición de parámetros, como dimensiones, ángulos, o relaciones entre objetos, que luego se utilizan para generar la geometría del modelo. Estos parámetros pueden ser modificados, y las relaciones entre ellos se mantienen, lo que permite que el diseño se actualice automáticamente cuando se cambian los valores de los parámetros. 
+
+Para el desarrollo del proyecto, las dimensiones de la bodega industrial a diseñar, están determinados por un valor denominado **∑Udig**, correspondiente a la sumatoria del último dígito de los códigos de alumno de cada grupo de proyecto.
+
+
 ## 1. Especificaciones técnicas generales
 
 En un proyecto, las especificaciones técnicas son documentos que detallan las normas, requisitos, procedimientos y condiciones técnicas que deben cumplirse en la ejecución de un proyecto. Estos documentos guían la implementación del proyecto, asegurando que se cumplan los estándares de calidad y se alcancen los resultados deseados. 

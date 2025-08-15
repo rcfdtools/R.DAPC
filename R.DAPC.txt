@@ -28,6 +28,7 @@ El origen de la figura está localizado en la esquina inferior izquierda y sus c
 
 El origen de la figura está localizado en el centroide del círculo principal o en el cruce de los ejes principales y sus coordenadas absolutas (X,Y), corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo. 
 
+Para la descarga e instalación de AutoCAD, ingresar al enlace https://www.autodesk.com/in/education/edu-software/overview, una vez descargue e instale en su equipo, será necesario crear una cuenta de usuario en Autodesk con su correo @mail.escuelaing.edu.co, usando enlace de creación de cuenta que envié a su correo de estudiante en días anteriores.
 
 Pending
     La sumatoria de los ángulos interiores de un polígono es (7 - 2) * 180° = 900°.
