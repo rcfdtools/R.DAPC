@@ -1,4 +1,4 @@
-# Ejercicios entregables a desarrollar
+# Ejercicios entregables a desarrollar en grupo
 
 Durante el desarrollo del curso, los grupos de proyecto presentarán los siguientes ejercicios siguiendo las especificaciones y parámetros definidos en cada actividad.
 
