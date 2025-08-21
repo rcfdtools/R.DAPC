@@ -520,6 +520,28 @@ El listado presentado en el numeral anterior, no incluye las siguientes sub-capa
 
 > Para establecer una capa por defecto, en el panel de capa dar doble clic en el nombre de la capa.
 
+Desde el Command, podrá crear las capas a partir de secuencias de comando, p. ej., para la creación de una capa con el nombre _CapaEjemplo_ de color rojo, con línea segmentada, de grosor 0.5, transparencia del 10% y con la descripción _Capa ejemplo DAPC_, utilice la siguiente secuencia:
+
+```
+-LAYER N CapaEjemplo
+
+-LAYER C red CapaEjemplo
+
+-LAYER L DASHED
+CapaEjemplo 
+
+-LAYER LW 0.5
+CapaEjemplo 
+
+-LAYER TR 10
+CapaEjemplo 
+
+-LAYER D Capa ejemplo DAPC
+CapaEjemplo
+
+```
+
+
 3. Desde el administrador de propiedades de capas de AutoCAD, podrá entre otras opciones:
 
 | Ícono                                                                                | Nombre                  | Detalle                                                                                                                                                                                                                                        |
