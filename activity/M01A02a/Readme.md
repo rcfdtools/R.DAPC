@@ -75,7 +75,7 @@ Para la designación de disciplinas, utilizaremos los siguientes prefijos:
 
 Por ejemplo: **A**, representa la disciplina de arquitectura.
 
-> Las disciplinas ACESVW resaltadas en negrilla, serán las que utilizaremos como referencia general en este curso, si embargo y en caso de ser necesario, utilizaremos nombres de capas de otras disciplinas.
+> Las disciplinas **ACESVW** resaltadas en negrilla, serán las que utilizaremos como referencia general en este curso, si embargo y en caso de ser necesario, utilizaremos nombres de capas de otras disciplinas.
 
 
 ### Prefijos por disciplina - Nivel 2
