@@ -83,7 +83,7 @@ Ancho columnas libros Excel proyecto
 	12 Calificación
 
 
-consumo lámpara led 100w
+Consumo lámpara led 100w
 	Una lámpara LED de 100W consume 100 vatios por hora de funcionamiento. En otras palabras, si la lámpara funciona durante una hora, consumirá 0.1 kilovatios-hora (kWh). Para calcular el consumo en un período de tiempo más largo, se puede usar la fórmula: Consumo (kWh) = Potencia (kW) x Horas de uso. 
 	Cálculo del consumo:
 	Consumo por hora: 100 vatios / 1000 = 0.1 kilovatios (kW). 
