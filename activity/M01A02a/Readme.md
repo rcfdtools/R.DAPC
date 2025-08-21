@@ -49,11 +49,11 @@ Para la designación de disciplinas, utilizaremos los siguientes prefijos:
 
 | Prefix | Discipline                 | Disciplina                     |
 |:------:|:---------------------------|:-------------------------------|
-| **A**  | Architectural              | Arquitectura                   |
+| ***A** | Architectural              | Arquitectura                   |
 |   B    | Geotechnical               | Geotecnia                      |
-| **C**  | Civil                      | Civil                          |
+| ***C** | Civil                      | Civil                          |
 |   D    | Process                    | Procesos                       |
-| **E**  | Electrical                 | Electricidad                   |
+| ***E** | Electrical                 | Electricidad                   |
 |   F    | Fire Protection            | Protección contra incendios    |
 |   G    | General                    | General                        |
 |   H    | Hazardous Materials        | Materiales peligrosos          |
@@ -64,10 +64,10 @@ Para la designación de disciplinas, utilizaremos los siguientes prefijos:
 |   P    | Plumbing                   | Fontanería                     |
 |   Q    | Equipment                  | Equipos                        |
 |   R    | Resource                   | Recursos                       |
-| **S**  | Structural                 | Estructura                     |
+| ***S** | Structural                 | Estructura                     |
 |   T    | Telecommunications         | Telecomunicaciones             |
-| **V**  | Survey / Mapping           | Topografía / Cartografía       |
-| **W**  | Distributed Energy         | Energía distribuida            |
+| ***V** | Survey / Mapping           | Topografía / Cartografía       |
+| ***W** | Distributed Energy         | Energía distribuida            |
 |   X    | Other Disciplines          | Otras disciplinas              |
 |   Z    | Contractor / Shop Drawings | Contratista / Planos de taller |
 
@@ -75,7 +75,7 @@ Para la designación de disciplinas, utilizaremos los siguientes prefijos:
 
 Por ejemplo: **A**, representa la disciplina de arquitectura.
 
-> Las disciplinas resaltadas en negrilla serán las que utilizaremos como referencia general en este curso, si embargo y en caso de ser necesario, utilizaremos nombres de capas de otras disciplinas.
+> Las disciplinas resaltadas en negrilla y con asterisco, serán las que utilizaremos como referencia general en este curso, si embargo y en caso de ser necesario, utilizaremos nombres de capas de otras disciplinas.
 
 
 ### Prefijos por disciplina - Nivel 2
