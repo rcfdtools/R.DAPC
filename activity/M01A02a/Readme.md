@@ -47,29 +47,29 @@ Para la designación de disciplinas, utilizaremos los siguientes prefijos:
 
 <div align="center">
 
-| Prefix | Discipline                 | Disciplina                     |
-|:------:|:---------------------------|:-------------------------------|
-| **A** | Architectural              | Arquitectura                   |
-|   B    | Geotechnical               | Geotecnia                      |
-| **C** | Civil                      | Civil                          |
-|   D    | Process                    | Procesos                       |
-| **E** | Electrical                 | Electricidad                   |
-|   F    | Fire Protection            | Protección contra incendios    |
-|   G    | General                    | General                        |
-|   H    | Hazardous Materials        | Materiales peligrosos          |
-|   I    | Interiors                  | Interiores                     |
-|   L    | Landscape                  | Paisajismo                     |
-|   M    | Mechanical                 | Mecánica                       |
-|   O    | Operations                 | Operaciones                    |
-|   P    | Plumbing                   | Fontanería                     |
-|   Q    | Equipment                  | Equipos                        |
-|   R    | Resource                   | Recursos                       |
-| **S** | Structural                 | Estructura                     |
-|   T    | Telecommunications         | Telecomunicaciones             |
-| **V** | Survey / Mapping           | Topografía / Cartografía       |
-| **W** | Distributed Energy         | Energía distribuida            |
-|   X    | Other Disciplines          | Otras disciplinas              |
-|   Z    | Contractor / Shop Drawings | Contratista / Planos de taller |
+| Prefix  | Discipline                 | Disciplina                     |
+|:-------:|:---------------------------|:-------------------------------|
+|  **A**  | Architectural              | Arquitectura                   |
+|    B    | Geotechnical               | Geotecnia                      |
+|  **C**  | Civil                      | Civil                          |
+|    D    | Process                    | Procesos                       |
+|  **E**  | Electrical                 | Electricidad                   |
+|    F    | Fire Protection            | Protección contra incendios    |
+|    G    | General                    | General                        |
+|    H    | Hazardous Materials        | Materiales peligrosos          |
+|    I    | Interiors                  | Interiores                     |
+|    L    | Landscape                  | Paisajismo                     |
+|    M    | Mechanical                 | Mecánica                       |
+|    O    | Operations                 | Operaciones                    |
+|    P    | Plumbing                   | Fontanería                     |
+|    Q    | Equipment                  | Equipos                        |
+|    R    | Resource                   | Recursos                       |
+|  **S**  | Structural                 | Estructura                     |
+|    T    | Telecommunications         | Telecomunicaciones             |
+| **V**   | Survey / Mapping           | Topografía / Cartografía       |
+|  **W**  | Distributed Energy         | Energía distribuida            |
+|    X    | Other Disciplines          | Otras disciplinas              |
+|    Z    | Contractor / Shop Drawings | Contratista / Planos de taller |
 
 </div>
 
@@ -388,7 +388,7 @@ En el libro de Excel [DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName
 
 * A - Architectural (arquitectura)
 * C - Civil (civil)
-* E - Electrical (electrical)
+* E - Electrical (eléctrico)
 * S - Structural (estructural)
 * V - Survey / Mapping (topografía y cartografía)
 * W - Distributed Energy (energía distribuida)
@@ -502,7 +502,7 @@ El listado presentado en el numeral anterior, no incluye las siguientes sub-capa
 | 0-Sketch        | (genérica)  | Lineas constructivas               |    20     | ACAD_ISO02W100 (ISO dash)           |    Default     |
 | 0-Text          | (genérica)  | Textos descriptivos                |   cyan    | Continuous                          |      0.20      |
 
-1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_, guarde como _/file/cad/M01A02a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, ángulos en _grados_, precisiones en 2 decimales y unidades de escala de contenido insertado en _milímetros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
+1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_, guarde como _/file/cad/M01A02a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, ángulos en _grados decimales_, precisiones en 2 decimales y unidades de escala de contenido insertado en _metros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
 
 > Dando clic derecho dentro del panel de capas, podrá acceder al menú contextual y encontrará múltiples opciones, entre ellas _New Layer_.
 
@@ -556,7 +556,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | M01A02a   | Cree los elementos de proyecto del grupo _1. Especificaciones técnicas generales_, correspondientes a: capas o layers. Se deben utilizar los nombres de capas establecidos en la norma internacional estándar ISO-13567, aplicando las especificaciones del United States National CAD Stardard - v5 del National Institute of Building Sciences para los grupos A-Architectural, C-Civil, E-Electrical, S-Structural, V-Survey / Mapping y W-Distributed Energy.                                                                                    | 
 | M01A02a   | Investigue normas Colombianas para la definición de nombres de capas, incluya el detalle de los enlaces y referencias consultadas. Buscar p. ej., en [IDU](https://www.idu.gov.co/), [INVIAS](https://www.invias.gov.co/), [SCA](https://sociedadcolombianadearquitectos.org/), [COPNIA](https://www.copnia.gov.co/).                                                                                                                                                                                                                                | 
-| M01A02a   | Investigue que colores y grosores pueden ser aplicados en las disciplinas a utilizar en el curso y complete el catálogo [DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName.xlsx) para el curso DACP.                                                                                                                                                                                                                                                                                                                                        | 
+| M01A02a   | Investigue que colores y grosores pueden ser aplicados en las disciplinas a utilizar en el curso y complete el catálogo [DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName.xlsx) para el curso DACP. En la carpeta de [ejemplos del curso DAPC](../../file/cad/sample/) encontrará algunos proyectos arquitectónicos y de ingeniería que contienen diferentes Layers.                                                                                                                                                                       | 
 | M01A02a   | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
