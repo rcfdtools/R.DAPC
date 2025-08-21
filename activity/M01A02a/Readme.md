@@ -520,7 +520,7 @@ El listado presentado en el numeral anterior, no incluye las siguientes sub-capa
 
 > Para establecer una capa por defecto, en el panel de capa dar doble clic en el nombre de la capa.
 
-Desde el Command, podrá crear las capas a partir de secuencias de comando, p. ej., para la creación de una capa con el nombre _CapaEjemplo_ de color rojo, con línea segmentada, de grosor 0.5, transparencia del 10% y con la descripción _Capa ejemplo DAPC_, utilice la siguiente secuencia:
+Desde el **Command**, podrá crear las capas a partir de secuencias de comando, p. ej., para la creación de una capa con el nombre _CapaEjemplo_ en color rojo, con línea segmentada, de grosor 0.5, transparencia del 10% y con la descripción _Capa ejemplo DAPC_, utilice la siguiente secuencia:
 
 ```
 -LAYER N CapaEjemplo
