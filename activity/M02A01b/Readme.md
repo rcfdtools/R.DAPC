@@ -129,6 +129,19 @@ Gráfico de promedio de densidades por clase
 <div align="center"><img src="graph/QGIS_Graph2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 4. Filtrado de elementos
+
+Para conocer la localización de las UPZ's que tienen p. ej., 2500 o más lámparas LED, 600 o menos lámparas de Halogenuro Metálico (MH) y entre 300 y 1600 lámparas de  Sodio (Na), podrémos utilizar la herramienta Query Builder.
+
+1. Agregue nuevamente la capa al mapa y renombre cómo _Luminarias_UPZ (Filtro múltiple)_. Desde las propiedades de la capa y la pestaña Source, cree con _Query Builder_ el filtro solicitado utilizando la expresión: `"LED"  >= 2500 OR "Mh" <= 600 OR ("Na" >= 300 AND "Na" <= 1600) `. Encontrará que 96 polígonos cumplen con esta condición debido a que hemos incluido el operador OR, lo que significa que sí la UPZ cumple con una de las 3 condiciones, esta seguirá visible. Explore la tabla de atributos.
+
+> Para comprender mejor la localización geográfica de las UPZ's que cumplen con la condición, agregue el mapa base XYZ de Google Maps desde https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}, establezca transparencia del 65% en la capa y rotule con  `'LED: '  || "LED"  ||  '\n MH: '  ||  "Mh" ||  '\n Na: '  ||  "Na" `.
+
+<div align="center"><img src="graph/QGIS_QueryBuilder1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Cambie el operador OR por el operador AND, para filtrar solo las UPZ's que cumplen simultáneamente con las 3 condiciones, encontrará que solo 15 polígonos cumplen con estos criterios. Explore la tabla de atributos.
+
+<div align="center"><img src="graph/QGIS_QueryBuilder2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
