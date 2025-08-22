@@ -66,7 +66,7 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 
 <div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Agregue nuevamente la capa al mapa y simbolice por agrupamiento de forma gradual en 3 clases por quantiles a partir del campo `TOTAL` utilizando la paleta _Cividis_ invertida. Incluya un rótulo del total de lámparas por cada UPZ. Renombre la capa cómo _Luminarias_UPZ (Graduated Quantile TOTAL)_. Podrá observar las zonas de Bogotá agrupadas en 3 clases y los valores de corte.
+3. Agregue nuevamente la capa _Luminarias_UPZ.shp_ al mapa y simbolice por agrupamiento de forma gradual en 3 clases por quantiles a partir del campo `TOTAL` utilizando la paleta _Cividis_ invertida. Incluya un rótulo del total de lámparas por cada UPZ. Renombre la capa cómo _Luminarias_UPZ (Graduated Quantile TOTAL)_. Podrá observar las zonas de Bogotá agrupadas en 3 clases y los valores de corte.
 
 > Realice este mismo ejercicio para los demás modos de representación disponibles en QGIS: Equal Interval, Fixed Interval, Logarithmic Scale, Natural Breaks, Pretty Breaks y Standard Deviation.
 
@@ -77,7 +77,7 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 
 En la representación anterior, evaluámos el total de luminarias por UPZ teniendo en cuenta únicamente la localización de la UPZ y no su tamaño geográfico. El estudio de la densidad permite relacionar un valor representativo (cómo el total de las lámparas) con el tamaño del área geográfica, para así evaluar que UPZ's son las más densamente iluminadas.
 
-1. Agregue nuevamente la capa al mapa y renombre cómo _Luminarias_UPZ (Densidad Lum/km²)_. Abra la tabla de atributos y con el _Field Calculator_ cree un campo de atributos numérico real con 10 decimales de precisión con el nombre `Akm2` y calcule con la expresión `area(@geometry)/1000000`, el área en km² de cada UPZ.
+1. Agregue la capa _Luminarias_UPZ.shp_ al mapa y renombre cómo _Luminarias_UPZ (Densidad Lum/km²)_. Abra la tabla de atributos y con el _Field Calculator_ cree un campo de atributos numérico real con 10 decimales de precisión con el nombre `Akm2` y calcule con la expresión `area(@geometry)/1000000`, el área en km² de cada UPZ.
 
 > En la expresión, es necesario dividir en área geométrica calculada en m² para cada polígono entre 1000x1000, para realizar la conversión a km².
 > 
@@ -90,6 +90,8 @@ En la representación anterior, evaluámos el total de luminarias por UPZ tenien
 <div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 3. Utilizando la herramienta de estadísticas, calcule el área total en km² de los polígonos correspondientes a las UPZ y la densidad promedio de las luminarias en Bogotá. Encontrará que las UPZ tienen un área total de 418.98 km² con una densidad de 900.687 Lum/km².
+
+> Tenga en cuenta que si realiza una estadística con el campo `SHAPE_Area` que se encuentra en m², la herramienta de estadística, reportará el total del área en formato científico, mostrando el resultado como 4.1898e+08.   
 
 <div align="center"><img src="graph/QGIS_Statistics1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -133,15 +135,51 @@ Gráfico de promedio de densidades por clase
 
 Para conocer la localización de las UPZ's que tienen p. ej., 2500 o más lámparas LED, 600 o menos lámparas de Halogenuro Metálico (MH) y entre 300 y 1600 lámparas de  Sodio (Na), podrémos utilizar la herramienta Query Builder.
 
-1. Agregue nuevamente la capa al mapa y renombre cómo _Luminarias_UPZ (Filtro múltiple)_. Desde las propiedades de la capa y la pestaña Source, cree con _Query Builder_ el filtro solicitado utilizando la expresión: `"LED"  >= 2500 OR "Mh" <= 600 OR ("Na" >= 300 AND "Na" <= 1600) `. Encontrará que 96 polígonos cumplen con esta condición debido a que hemos incluido el operador OR, lo que significa que sí la UPZ cumple con una de las 3 condiciones, esta seguirá visible. Explore la tabla de atributos.
+1. Agregue la capa _Luminarias_UPZ.shp_ al mapa y renombre cómo _Luminarias_UPZ (Filtro múltiple)_. Desde las propiedades de la capa y la pestaña Source, cree con _Query Builder_ el filtro solicitado utilizando la expresión: `"LED"  >= 2500 OR "Mh" <= 600 OR ("Na" >= 300 AND "Na" <= 1600) `. Encontrará que 96 polígonos cumplen con esta condición debido a que hemos incluido el operador OR, lo que significa que sí la UPZ cumple con una de las 3 condiciones, esta seguirá visible. Explore la tabla de atributos.
 
 > Para comprender mejor la localización geográfica de las UPZ's que cumplen con la condición, agregue el mapa base XYZ de Google Maps desde https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}, establezca transparencia del 65% en la capa y rotule con  `'LED: '  || "LED"  ||  '\n MH: '  ||  "Mh" ||  '\n Na: '  ||  "Na" `.
+> 
+> Mapas base complementarios en: https://github.com/opengeos/qgis-basemaps/blob/main/qgis_basemaps.py
 
 <div align="center"><img src="graph/QGIS_QueryBuilder1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 2. Cambie el operador OR por el operador AND, para filtrar solo las UPZ's que cumplen simultáneamente con las 3 condiciones, encontrará que solo 15 polígonos cumplen con estos criterios. Explore la tabla de atributos.
 
 <div align="center"><img src="graph/QGIS_QueryBuilder2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+## 5. Distribución porcentual
+
+Calcule el % del área de cada polígono con respecto al total del área de la capa.
+
+1. Agregue la capa _Luminarias_UPZ.shp_ al mapa y renombre cómo _Luminarias_UPZ (Distribución porcentual de área)_. Desde el menú _Vector_, ejecute la herramienta _Analysis Tools / Basic Statistics for Fields_ para el campo _Akm2_. 
+
+<div align="center"><img src="graph/QGIS_BasicStatisticsForFields.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Obtendrá los siguientes resultados:
+
+* COUNT: 112
+* UNIQUE: 112
+* EMPTY: 0
+* FILLED: 112
+* MIN: 0.863804969
+* MAX: 9.324857568
+* CV: 0.4578688763424043
+* SUM: 418.97965550400016
+* MEAN: 3.740889781285716
+* STD_DEV: 1.7128370006780733
+* RANGE: 8.461052599
+* MEDIAN: 3.5046956145
+* MINORITY: 0.863804969
+* MAJORITY: 0.863804969
+* FIRSTQUARTILE: 2.3316556185
+* THIRDQUARTILE: 4.656376681499999
+* IQR: 2.3247210629999993
+
+2. 
+
+
+
 
 
 
