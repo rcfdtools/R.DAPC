@@ -1,5 +1,5 @@
 # 2.1.b. Conceptos aplicados
-Keywords: `shapefile` `m02a01b`
+Keywords: `electrical-ilumination` `upz` `bogota` `energy` `hydraulic-energy` `eolic-energy` `solar-energy` `shapefile` `m02a01b`
 
 Simbología y estadísticas generales. Tablas relacionales.
 
@@ -235,7 +235,7 @@ Rotule con la expresión `'$' || round("CostoTotal",1)` y simbolice por colores 
 
 > Para mejorar la visualización del mapa, en la barra de estado puede definir una rotación de -90°, localizando el norte a la izquierda.
 > 
-> Tenga en cuenta que los costos calculados son aproximados y que su cálculo detallado requiere de la distribución de luminarias por estrato y por empresa prestadora debido a que las tarifas son variables.
+> Tenga en cuenta que los costos calculados son aproximados y que su cálculo detallado requiere de la distribución de luminarias por estrato, por potencia y por empresa prestadora debido a que las tarifas son variables.
 
 <div align="center"><img src="graph/QGIS_Symbology5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -264,7 +264,7 @@ Hay tres tipos principales de turbina, dependiendo del caudal de agua y de la di
 | Pelton          | La turbina Pelton fue introducida en 1879 por el carpintero e inventor americano Lester Allan Pelton. Su principio de funcionamiento refleja el de la clásica noria con paletas de los antiguos molinos de agua, reelaborada para aumentar su eficiencia: el agua se transporta a la tubería forzada, que cuenta con una boquilla en el extremo, una obturación que aumenta la velocidad del agua. El chorro de agua que sale de la boquilla golpea las palas del rotor, que tienen forma de cuchara. La turbina Pelton se utiliza para grandes saltos (entre 300 y 1400 metros) y caudales de menos de 50 metros cúbicos por segundo, con el fin de obtener mayores velocidades. |
 | Kaplan          | La turbina Kaplan, que vio la luz en 1913 gracias al profesor austriaco Viktor Kaplan, sigue el principio de las hélices de un barco. La turbina Kaplan es una turbina de tipo axial en la que el caudal de agua hace que los álabes de la hélice giren hacia adentro y hacia afuera en dirección axial con respecto al eje de rotación de la hélice. Gracias a la posibilidad de ajustar el ángulo de incidencia de las palas, tiene la ventaja de proporcionar un excelente rendimiento con pequeños saltos, pero también con grandes variaciones en el caudal (desde 200 metros cúbicos por segundo para subir).                                                               |
 
-Para la estimación del número de turbinas, supongamos que utilizaremos turbinas de 700 MWh, cómo las utilizadas en la Presa de las Tres Gargantas en China. Entonces, de acuerdo a la estimación del consumo de alumbrado de la ciudad de Bogotá, correspondiente a 16979.5 MWh, son requeridas (16979.5 / 700) aproximadamente 25 turbinas.
+Para la estimación del número de turbinas, supongamos que utilizaremos turbinas de 700 MWh, cómo las utilizadas en la [Presa de las Tres Gargantas en China](https://es.wikipedia.org/wiki/Presa_de_las_Tres_Gargantas). Entonces, de acuerdo a la estimación del consumo de alumbrado de la ciudad de Bogotá, correspondiente a 16979.5 MWh, son requeridas (16979.5 / 700) aproximadamente 25 turbinas.
 
 > Investigue y plantee un proyecto de suministro energético utilizando energía eólica y/o solar para alimentar las luminarias de la ciudad de Bogotá e indique el número de generadores y páneles requeridos.
 
