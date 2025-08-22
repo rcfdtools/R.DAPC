@@ -237,17 +237,35 @@ Rotule con la expresión `'$' || round("CostoTotal",1)` y simbolice por colores 
 
 <div align="center"><img src="graph/QGIS_Symbology5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Usando la herramienta _Statistics_, estime el consumo total mensual de la ciudad en millones de kilovatios por hora. Obtendrá que el alumbrado de la ciudad consume 16.9795 millones de kWh.
+3. Usando la herramienta _Statistics_, estime el consumo total mensual de la ciudad en millones de kilovatios por hora o GWh. Obtendrá que el alumbrado de la ciudad consume mensualmente 16.9795 GWh.
+
+> Un GWh (Gigavatio hora) es una unidad de energía que representa mil millones (1 000 000 000) de vatios hora y es utilizada para medir la enorme capacidad energética de redes eléctricas nacionales, grandes industrias y proyectos de almacenamiento de energía. Se define a partir de la potencia (Gigavatios) multiplicada por el tiempo (hora). 
 
 <div align="center"><img src="graph/QGIS_Symbology6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 7. Generación hidroeléctrica requerida
+## 7. Generación eléctrica requerida
+
+Supongamos que la ciudad de Bogotá ha planteado un proyecto de generación eléctrica para alimentar la iluminación pública, p. ej., utilizando turbinas en una hidroeléctrica. 
+
+Según [Enel Colombia](https://www.enelgreenpower.com/es/learning-hub/energias-renovables/energia-hidroelectrica/turbina-hidroelectrica), la turbina hidroeléctrica es un dispositivo capaz de transformar la energía cinética del agua en energía mecánica. Es un elemento esencial de las centrales hidroeléctricas y muestra un rendimiento altísimo: se estima que las turbinas son capaces de convertir más del 90 % de la energía cinética del agua que captan en energía mecánica.
+
+Una turbina hidroeléctrica está formada por una parte fija, llamada estator, y por la rueda o rotor. El primero sirve para dirigir y regular el caudal de agua y el segundo transfiere la energía cinética del agua al eje en el que está montado.
+ 
+**Tipos de turbina hidroeléctrica: Francis, Pelton y Kaplan**
+
+Hay tres tipos principales de turbina, dependiendo del caudal de agua y de la diferencia de altura son la turbina Francis, la turbina Pelton y la turbina Kaplan.
+
+La turbina Francis fue desarrollada en 1848 por el ingeniero angloamericano James B. Francis y es el tipo de turbina hidráulica más utilizado. Es una turbina de flujo centrípeto en la que el agua llega al rotor a través de un conducto en espiral; después, un rodillo en la parte fija dirige el caudal para invertir las palas del rotor. Se utiliza para saltos de altura media (de 10 a 300/400 metros) y caudales de agua de 2 a 100 metros cúbicos por segundo.
+
+La turbina Pelton fue introducida en 1879 por el carpintero e inventor americano Lester Allan Pelton. Su principio de funcionamiento refleja el de la clásica noria con paletas de los antiguos molinos de agua, reelaborada para aumentar su eficiencia: el agua se transporta a la tubería forzada, que cuenta con una boquilla en el extremo, una obturación que aumenta la velocidad del agua. El chorro de agua que sale de la boquilla golpea las palas del rotor, que tienen forma de cuchara. La turbina Pelton se utiliza para grandes saltos (entre 300 y 1400 metros) y caudales de menos de 50 metros cúbicos por segundo, con el fin de obtener mayores velocidades.
+
+La turbina Kaplan, que vio la luz en 1913 gracias al profesor austriaco Viktor Kaplan, sigue el principio de las hélices de un barco. La turbina Kaplan es una turbina de tipo axial en la que el caudal de agua hace que los álabes de la hélice giren hacia adentro y hacia afuera en dirección axial con respecto al eje de rotación de la hélice. Gracias a la posibilidad de ajustar el ángulo de incidencia de las palas, tiene la ventaja de proporcionar un excelente rendimiento con pequeños saltos, pero también con grandes variaciones en el caudal (desde 200 metros cúbicos por segundo para subir).
 
 
 
 
-
+> Investigue y plantee un proyecto utilizando energía hidroeléctrica, eólica o solar para alimentar las luminarias de la ciudad de Bogotá.
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -273,6 +291,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://www.ideca.gov.co/recursos/mapas/alumbrado-publico-bogota-dc
 * https://www.enel.com.co/es/personas/tarifas-energia-enel-distribucion.html
+* https://www.enelgreenpower.com/es/learning-hub/energias-renovables/energia-hidroelectrica/turbina-hidroelectrica
+* https://elperiodicodelaenergia.com/las-10-centrales-hidroelectricas-mas-grandes-del-mundo/
 
 
 ## Control de versiones
