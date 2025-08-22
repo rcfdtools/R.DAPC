@@ -215,7 +215,7 @@ Tabla de potencia por tipo de lámpara
 
 Para el cálculo total mensual por UPZ, se multiplica el total de luminarias de cada tipo por su potencia, por el número de horas promedio de encendido y se divide entre 1000 para obtener el valor en kilovatios.
 
-<div align="center"> Consumo (kWh) = Potencia (kW) x Horas de uso<br></div>
+<div align="center"> Consumo (kWh) = Potencia (kW) x Horas de uso<br><br></div>
 
 1. Agregue la capa _Luminarias_UPZ.shp_ al mapa y renombre cómo _Luminarias_UPZ (Consumo mensual kWh y costo)_. Cree y calcule los siguientes campos de atributos numéricos reales:
 
