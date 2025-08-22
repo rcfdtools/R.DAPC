@@ -176,7 +176,9 @@ Obtendrá los siguientes resultados:
 * THIRDQUARTILE: 4.656376681499999
 * IQR: 2.3247210629999993
 
-2. Para el cálculo porcentual de cada área, se divide cada valor entre la sumatoria obtenida de todos los polígonos y se multiplica por 100. Utilice el Field Calculador creando un campo numérico real con el nombre `Akm2DP`.
+2. Para el cálculo porcentual de cada área, se divide cada valor entre la sumatoria obtenida de todos los polígonos y se multiplica por 100. Utilice el Field Calculador creando un campo numérico real con el nombre `Akm2DP`. Utilice la expresión `("Akm2" / 418.97965550400016) * 100`.
+
+<div align="center"><img src="graph/QGIS_FieldCalculator4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
