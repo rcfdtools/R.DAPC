@@ -73,19 +73,58 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 <div align="center"><img src="graph/QGIS_Symbology2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 2. Cálculo de densidades (lámparas/km²)
+## 2. Cálculo de densidades (lámparas / km²)
 
-En la representación anterior, evaluámos el total de elementos por UPZ teniendo en cuenta únicamente la localización de la UPZ y no su tamaño geográfico. El estudio de la densidad permite relacionar un valor representativo (cómo el total de las lámparas) y el tamaño del área geográfica para así evaluar que UPZ's son las más iluminadas.
+En la representación anterior, evaluámos el total de luminarias por UPZ teniendo en cuenta únicamente la localización de la UPZ y no su tamaño geográfico. El estudio de la densidad permite relacionar un valor representativo (cómo el total de las lámparas) con el tamaño del área geográfica, para así evaluar que UPZ's son las más densamente iluminadas.
 
 1. Agregue nuevamente la capa al mapa y renombre cómo _Luminarias_UPZ (Densidad Lum/km²)_. Abra la tabla de atributos y con el _Field Calculator_ cree un campo de atributos numérico real con 10 decimales de precisión con el nombre `Akm2` y calcule con la expresión `area(@geometry)/1000000`, el área en km² de cada UPZ.
 
 > En la expresión, es necesario dividir en área geométrica calculada en m² para cada polígono entre 1000x1000, para realizar la conversión a km².
+> 
+> Al realizar modificaciones en la estructura original de la capa, QGIS ingresa antomáticamente al modo de Edición.
 
 <div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Utilizando el calculador de campo, cree un campo numérico real con el nombre `DLumKm2` y con la expresión `"TOTAL" / "Akm2"`, calcule la densidad de luminarias por cada km². Ordene ascendente y descendentemente la columna del atributo creado, podrá observar que la UPZ con la menor densidad es _60 - PARQUE ENTRENUBES_ con 18.15 Lum/km² y con mayor densidad es _29 - MINUTO DE DIOS_ con 1735.75 Lum/km². Simbolice por quantiles en 3 grupos y rotule con la expresión `round("DLumKm2", 1)`, podrá observar que las zonas más densamente iluminadas se encuentran mayoritariamente al sur de la ciudad y en la localidad de Suba.
+2. Utilizando el calculador de campo, cree un campo numérico real con el nombre `DLumKm2` y con la expresión `"TOTAL" / "Akm2"`, calcule la densidad de luminarias por cada km². Ordene ascendente y descendentemente la columna del atributo creado, podrá observar que la UPZ con la menor densidad es _60 - PARQUE ENTRENUBES_ con 18.15 Lum/km² y con mayor densidad es _29 - MINUTO DE DIOS_ con 1735.75 Lum/km². Simbolice por quantiles en 3 grupos y rotule con la expresión `round("DLumKm2", 1)`, podrá observar que las zonas más densamente iluminadas se encuentran mayoritariamente al sur de la ciudad y en la localidad de Suba. Guarde y detenga el editor.
 
 <div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Utilizando la herramienta de estadísticas, calcule el área total en km² de los polígonos correspondientes a las UPZ y la densidad promedio de las luminarias en Bogotá. Encontrará que las UPZ tienen un área total de 418.98 km² con una densidad de 900.687 Lum/km².
+
+<div align="center"><img src="graph/QGIS_Statistics1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+## 3. Conteo de elementos por clase
+
+En el ejemplo anterior, analizamos las densidades y representamos por quantiles en 3 clases, obteniendo valores de corte en 758, 1119 y 1736 Lum/km². Sin embargo, aún no conocemos cuantas UPZ se encuentran en cada una de las 3 clases utilizadas. Utilizando Python, podremos a través de un Script, identificar la clase a la cual pertenece cada UPZ.
+
+Expresión de análisis en Python:
+```
+def cortes(dlumkm2):
+  corteval = [758, 1119, 1736]
+  j = 1
+  for i in corteval:
+    if dlumkm2 <= i:
+      return j
+    j += 1
+```
+
+1. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
