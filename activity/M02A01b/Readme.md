@@ -183,16 +183,34 @@ Obtendrá los siguientes resultados:
 3. Simbolice por cantidades usando Jenks, rotule con la expresión `round("Akm2DP",1) || '%'` y utilizando la herramienta _Statistics_, verifique que el total de los porcentajes distribuídos sea 100%.
 
 <div align="center"><img src="graph/QGIS_Symbology3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Symbology4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 > Realice el ejercicio anterior distribuyendo porcentualmente los diferentes tipos de iluminación por UPZ.
 
 
+## 6. Estimación de consumo eléctrico mensual
 
+Luego de analizar como están distribuidas los diferentes tipos de iluminación en la ciudad, es necesario estimar el consumo eléctrico total utilizando p. ej., los siguientes valores de referencia:
 
+* Horas de consumo: desde las 6:15pm hasta las 5:45am, 11.5 horas por día.
+* Dias promedio: 30 días por més.
+* Potencia: depende del tipo de iluminación, para este ejemplo utilizaremos como referencia los valores presentados en la siguiente tabla. 
 
+<div align="center">
 
+Tabla de potencia por tipo de lámpara
 
+| Tipo                             | Potencia (Watt o vatio) |
+|:---------------------------------|:-----------------------:|
+| LED                              |           100           |
+| Lámpara Halogenuro Metálico (MH) |           70            |
+| Sodio (Na)                       |           200           |
 
+</div>
+
+> La potencia en watts o vatios en iluminación, representa la cantidad de energía eléctrica por hora que consume una lámpara. 
+
+1. 
 
 
 
