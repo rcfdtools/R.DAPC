@@ -237,7 +237,7 @@ Rotule con la expresión `'$' || round("CostoTotal",1)` y simbolice por colores 
 
 <div align="center"><img src="graph/QGIS_Symbology5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Usando la herramienta _Statistics_, estime el consumo total mensual de la ciudad en millones de kilovatios por hora o GWh. Obtendrá que el alumbrado de la ciudad consume mensualmente 16.9795 GWh.
+3. Usando la herramienta _Statistics_, estime el consumo total mensual de la ciudad en millones de kilovatios por hora o GWh. Obtendrá que el alumbrado de la ciudad consume mensualmente 16.9795 GWh o 16979.5 MWh.
 
 > Un GWh (Gigavatio hora) es una unidad de energía que representa mil millones (1 000 000 000) de vatios hora y es utilizada para medir la enorme capacidad energética de redes eléctricas nacionales, grandes industrias y proyectos de almacenamiento de energía. Se define a partir de la potencia (Gigavatios) multiplicada por el tiempo (hora). 
 
@@ -262,18 +262,9 @@ Hay tres tipos principales de turbina, dependiendo del caudal de agua y de la di
 | Pelton          | La turbina Pelton fue introducida en 1879 por el carpintero e inventor americano Lester Allan Pelton. Su principio de funcionamiento refleja el de la clásica noria con paletas de los antiguos molinos de agua, reelaborada para aumentar su eficiencia: el agua se transporta a la tubería forzada, que cuenta con una boquilla en el extremo, una obturación que aumenta la velocidad del agua. El chorro de agua que sale de la boquilla golpea las palas del rotor, que tienen forma de cuchara. La turbina Pelton se utiliza para grandes saltos (entre 300 y 1400 metros) y caudales de menos de 50 metros cúbicos por segundo, con el fin de obtener mayores velocidades. |
 | Kaplan          | La turbina Kaplan, que vio la luz en 1913 gracias al profesor austriaco Viktor Kaplan, sigue el principio de las hélices de un barco. La turbina Kaplan es una turbina de tipo axial en la que el caudal de agua hace que los álabes de la hélice giren hacia adentro y hacia afuera en dirección axial con respecto al eje de rotación de la hélice. Gracias a la posibilidad de ajustar el ángulo de incidencia de las palas, tiene la ventaja de proporcionar un excelente rendimiento con pequeños saltos, pero también con grandes variaciones en el caudal (desde 200 metros cúbicos por segundo para subir).                                                               |
 
+Para la estimación del número de turbinas, supongamos que utilizaremos turbinas de 700 MWh, cómo las utilizadas en la Presa de las Tres Gargantas en China. Entonces, de acuerdo a la estimación del consumo de alumbrado de la ciudad de Bogotá, correspondiente a 16979.5 MWh, son requeridas (16979.5 / 700) aproximadamente 25 turbinas.
 
-
-
-
-
-
-
-
-
-
-
-> Investigue y plantee un proyecto utilizando energía hidroeléctrica, eólica o solar para alimentar las luminarias de la ciudad de Bogotá.
+> Investigue y plantee un proyecto de suministro energético utilizando energía eólica y/o solar para alimentar las luminarias de la ciudad de Bogotá e indique el número de generadores y páneles requeridos.
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -286,7 +277,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad  | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:-----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M02A01a    | Esta actividad no requiere del desarrollo de elementos en el avance del proyecto final, los contenidos son evaluados a partir de un quiz de conocimiento y habilidad.                                                                                                                                                                                                                                                                                                                                                                                |
+| M02A01a    | Desarrolle los contenidos presentados en esta actividad, incluído el análisis de distribución porcentual por tipo de luminarias y la investigación de un proyecto de suministro energético para alimentar todas las luminarias de la ciudad de Bogotá.                                                                                                                                                                                                                                                                                               |
 | M02A01a    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
