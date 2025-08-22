@@ -112,18 +112,21 @@ def classeval(var):
 Llamado de función: `classeval("DLumKm2")`
 
 
-1. En la tabla de atributos de la capa _Luminarias_UPZ (Densidad Lum/km²)_, cree un campo de atributos entero corto (Integer 32 bit) con el nombre _DLumKm2Cl_ y con la expresión de Python, asigne el número de clase al cual pertenece.
+1. En la tabla de atributos de la capa _Luminarias_UPZ (Densidad Lum/km²)_, cree un campo de atributos entero corto (Integer 32 bit) con el nombre `DLumKm2Cl` y con la expresión de Python, asigne el número de clase al cual pertenece.
 
 <div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. 
+2. Utilizando la herramienta _Processing Toolbox / Vector analysis / Statistics by categories_, obtenga el conteo de elementos y los estadísticos de densidad por clase.
 
+<div align="center"><img src="graph/QGIS_StatisticsByCategories1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Con el complemento _Plotly_, cree gráficas de análisis. Por tratarse de un análisis de quantiles, el número de elementos obtenidos en cada clase será similar. En cuanto a las densidades, podrá observar los promedios de las densidades en cada clase. 
 
+Gráfico de conteo de UPZ por clase
+<div align="center"><img src="graph/QGIS_Graph1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-
-
-
+Gráfico de promedio de densidades por clase
+<div align="center"><img src="graph/QGIS_Graph2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
