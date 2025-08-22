@@ -194,8 +194,8 @@ Luego de analizar como están distribuidas los diferentes tipos de iluminación 
 
 * Horas de uso: desde las 6:15pm hasta las 5:45am, 11.5 horas por día en promedio.
 * Dias promedio: 30 días por més.
-* Potencia: depende del tipo de iluminación, para este ejemplo utilizaremos como referencia los valores presentados en la siguiente tabla. 
 * Tarifa eléctrica: $650 por kilovatio-hora (kWh).
+* Potencia: depende del tipo de iluminación, para este ejemplo utilizaremos como referencia los valores presentados en la siguiente tabla. 
 
 <div align="center">
 
@@ -209,7 +209,9 @@ Tabla de potencia por tipo de lámpara
 
 </div>
 
-> La potencia en watts o vatios en iluminación, representa la cantidad de energía eléctrica por hora que consume una lámpara. 
+> La potencia en watts o vatios en iluminación, representa la cantidad de energía eléctrica por hora que consume una lámpara.
+> 
+> Tenga en cuenta que los valores estimados son hipotéticos y solo deben ser utilizados con fines académicos.
 
 Para el cálculo total mensual por UPZ, se multiplica el total de luminarias de cada tipo por su potencia, por el número de horas promedio de encendido y se divide entre 1000 para obtener el valor en kilovatios.
 
