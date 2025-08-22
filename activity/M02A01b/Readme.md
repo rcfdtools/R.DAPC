@@ -52,7 +52,7 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 | Tipo                             | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |:---------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | LED                              | Las lámparas LED son dispositivos de iluminación que utilizan diodos emisores de luz (LED) para producir luz. Los LED son semiconductores que emiten luz cuando una corriente eléctrica los atraviesa. Son conocidos por su eficiencia energética, larga vida útil y versatilidad en diversas aplicaciones de iluminación.                                                                                                                                                                                                                             |
-| Lámpara Halogenuro Metálico (MH) | Las lámparas de halogenuros metálicos son lámparas de descarga de alta intensidad (HID) que producen luz mediante un arco eléctrico a través de una mezcla gaseosa de mercurio y haluros metálicos. Se caracterizan por emitir una luz blanca de alta calidad y buena reproducción de color, lo que las hace ideales para aplicaciones que requieren precisión cromática y alta potencia lumínica. Se utilizan comúnmente en estadios, campos deportivos, iluminación urbana, espacios comerciales grandes y para el cultivo de plantas en interiores. |
+| Halogenuro Metálico (MH) | Las lámparas de halogenuros metálicos son lámparas de descarga de alta intensidad (HID) que producen luz mediante un arco eléctrico a través de una mezcla gaseosa de mercurio y haluros metálicos. Se caracterizan por emitir una luz blanca de alta calidad y buena reproducción de color, lo que las hace ideales para aplicaciones que requieren precisión cromática y alta potencia lumínica. Se utilizan comúnmente en estadios, campos deportivos, iluminación urbana, espacios comerciales grandes y para el cultivo de plantas en interiores. |
 | Sodio (Na)                       | Las lámparas de sodio son un tipo de lámpara de descarga de gas que producen luz mediante un arco eléctrico que pasa a través de vapor de sodio a baja o alta presión. Son conocidas por su gran eficiencia energética, que permite generar una gran cantidad de luz con un bajo consumo, y su larga vida útil. La luz que emiten es generalmente de un color amarillo brillante y penetra bien la niebla, lo que las hace muy utilizadas en alumbrado público y autopistas.                                                                           |
 
 
@@ -185,32 +185,53 @@ Obtendrá los siguientes resultados:
 <div align="center"><img src="graph/QGIS_Symbology3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_Symbology4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> Realice el ejercicio anterior distribuyendo porcentualmente los diferentes tipos de iluminación por UPZ.
+> Realice el ejercicio anterior distribuyendo porcentualmente los diferentes tipos de iluminación por UPZ y el valor total.
 
 
-## 6. Estimación de consumo eléctrico mensual
+## 6. Estimación de consumo y costo eléctrico mensual
 
-Luego de analizar como están distribuidas los diferentes tipos de iluminación en la ciudad, es necesario estimar el consumo eléctrico total utilizando p. ej., los siguientes valores de referencia:
+Luego de analizar como están distribuidas los diferentes tipos de iluminación en la ciudad, es necesario estimar el consumo eléctrico total mensual utilizando p. ej., los siguientes valores de referencia:
 
-* Horas de consumo: desde las 6:15pm hasta las 5:45am, 11.5 horas por día.
+* Horas de uso: desde las 6:15pm hasta las 5:45am, 11.5 horas por día en promedio.
 * Dias promedio: 30 días por més.
 * Potencia: depende del tipo de iluminación, para este ejemplo utilizaremos como referencia los valores presentados en la siguiente tabla. 
+* Tarifa eléctrica: $650 por kilovatio-hora (kWh).
 
 <div align="center">
 
 Tabla de potencia por tipo de lámpara
 
-| Tipo                             | Potencia (Watt o vatio) |
-|:---------------------------------|:-----------------------:|
-| LED                              |           100           |
-| Lámpara Halogenuro Metálico (MH) |           70            |
-| Sodio (Na)                       |           200           |
+| Tipo                      | Potencia (Watt o vatio) |
+|:--------------------------|:-----------------------:|
+| LED                       |           100           |
+| Halogenuro Metálico (MH)  |           150           |
+| Sodio (Na)                |           200           |
 
 </div>
 
 > La potencia en watts o vatios en iluminación, representa la cantidad de energía eléctrica por hora que consume una lámpara. 
 
-1. 
+Para el cálculo total mensual por UPZ, se multiplica el total de luminarias de cada tipo por su potencia, por el número de horas promedio de encendido y se divide entre 1000 para obtener el valor en kilovatios.
+
+<div align="center"> Consumo (kWh) = Potencia (kW) x Horas de uso</div>
+
+1. Agregue la capa _Luminarias_UPZ.shp_ al mapa y renombre cómo _Luminarias_UPZ (Consumo mensual kWh y costo)_. Cree y calcule los siguientes campos de atributos numéricos reales:
+
+| Campo      | Descripción                                                                  | Expresión                                                     |
+|:-----------|:-----------------------------------------------------------------------------|:--------------------------------------------------------------|
+| LEDConskWh | Consumo lámparas LED en kilovatio-hora (kWh) y por mes.                      | `"LED" * (100/1000) * 11.5 * 30`                              |
+| MhConskWh  | Consumo lámparas Halogenuro Metálico (MH) en kilovatio-hora (kWh) y por mes. | `"Mh" * (150/1000) * 11.5 * 30`                               |
+| NaConskWh  | Consumo lámparas Sodio (Na) en kilovatio-hora (kWh) y por mes.               | `"Na" * (200/1000) * 11.5 * 30`                               |
+| CostoTotal | Costo total mensual de alumbrado público en millones de pesos                | `(("LEDConskWh" +  "MhConskWh" + "NaConskWh") * 650)/1000000` |
+
+Rotule con la expresión `'$' || round("CostoTotal",1)` y simbolice por colores graduados usando el campo `CostoTotal`.
+
+<div align="center"><img src="graph/QGIS_FieldCalculator5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
+
 
 
 
@@ -237,6 +258,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 ## Referencias
 
 * https://www.ideca.gov.co/recursos/mapas/alumbrado-publico-bogota-dc
+* https://www.enel.com.co/es/personas/tarifas-energia-enel-distribucion.html
 
 
 ## Control de versiones
