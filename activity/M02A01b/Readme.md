@@ -56,13 +56,13 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 | Sodio (Na)                       | Las lámparas de sodio son un tipo de lámpara de descarga de gas que producen luz mediante un arco eléctrico que pasa a través de vapor de sodio a baja o alta presión. Son conocidas por su gran eficiencia energética, que permite generar una gran cantidad de luz con un bajo consumo, y su larga vida útil. La luz que emiten es generalmente de un color amarillo brillante y penetra bien la niebla, lo que las hace muy utilizadas en alumbrado público y autopistas.                                                                           |
 
 
-## 1. Visualización, consulta de atributos y representación
+## 1. Visualización, consulta de atributos y representación geográfica
 
-1. En QGIS, cree un mapa nuevo y cargue la capa [/shp/Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip) y abra su tabla de atributos. Podrá observar que en la tabla se encuentran los campos de atributos correspondientes a: código de UPZ, nombre de UPZ, conteo de lámparas por tipo, total de lámparas, área y perímetro. Consulte los metadatos de la capa, encontrará que la capa contiene 112 polígonos y que para su trazado se ha utilizado el sistema de proyección de coordenadas EPSG: 3857, correspondiente a _WGS 84 / Pseudo-Mercator_ utilizado a nivel mundial con sistema geográfico en grados geodésicos y proyectado en metros usando Mercator o cilíndricas. 
+1. En QGIS, cree un mapa nuevo, cargue la capa [/shp/Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip) y consulte su tabla de atributos. Podrá observar que se encuentran los campos de atributos correspondientes a: código de UPZ, nombre de UPZ, conteo de lámparas por tipo, total de lámparas, área y perímetro. Consulte los metadatos de la capa, encontrará que la capa contiene 112 polígonos y que para su trazado se ha utilizado el sistema de proyección de coordenadas EPSG: 3857, correspondiente a _WGS 84 / Pseudo-Mercator_ utilizado a nivel mundial con sistema geográfico en grados geodésicos y proyectado en metros usando Mercator o cilíndrica. 
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Guarde el mapa QGIS cómo _/map/M02A01b.qgz_. Agregue nuevamente la capa al mapa y simbolice de forma categorizada la capa utilizando una rampa de color gradual (p. ej. _Viridis_ con rampa invertida), el total de lámparas (Campo: TOTAL) por UPZ. En la representación, los colores claros indican UPZ's con pocas lámparas y colores oscuros, UPZ's con muchas lámparas. En el panel lateral _Layers_, cambie el nombre de la capa por _Luminarias_UPZ (Categorized `TOTAL`)_.
+2. Guarde el mapa QGIS cómo _/map/M02A01b.qgz_. Agregue nuevamente la capa al mapa y simbolice de forma categorizada la capa utilizando una rampa de color gradual (p. ej. _Viridis_ con rampa invertida), el total de lámparas (Campo: TOTAL) por UPZ. En la representación, los colores claros indican UPZ's con pocas lámparas y colores oscuros, UPZ's con muchas lámparas. En el panel lateral _Layers_, cambie el nombre de la capa por _Luminarias_UPZ (Categorized TOTAL)_.
 
 <div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -72,8 +72,20 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 
 <div align="center"><img src="graph/QGIS_Symbology2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-4. 
 
+## 2. Cálculo de densidades (lámparas/km²)
+
+En la representación anterior, evaluámos el total de elementos por UPZ teniendo en cuenta únicamente la localización de la UPZ y no su tamaño geográfico. El estudio de la densidad permite relacionar un valor representativo (cómo el total de las lámparas) y el tamaño del área geográfica para así evaluar que UPZ's son las más iluminadas.
+
+1. Agregue nuevamente la capa al mapa y renombre cómo _Luminarias_UPZ (Densidad Lum/km²)_. Abra la tabla de atributos y con el _Field Calculator_ cree un campo de atributos numérico real con 10 decimales de precisión con el nombre `Akm2` y calcule con la expresión `area(@geometry)/1000000`, el área en km² de cada UPZ.
+
+> En la expresión, es necesario dividir en área geométrica calculada en m² para cada polígono entre 1000x1000, para realizar la conversión a km².
+
+<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Utilizando el calculador de campo, cree un campo numérico real con el nombre `DLumKm2` y con la expresión `"TOTAL" / "Akm2"`, calcule la densidad de luminarias por cada km². Ordene ascendente y descendentemente la columna del atributo creado, podrá observar que la UPZ con la menor densidad es _60 - PARQUE ENTRENUBES_ con 18.15 Lum/km² y con mayor densidad es _29 - MINUTO DE DIOS_ con 1735.75 Lum/km². Simbolice por quantiles en 3 grupos y rotule con la expresión `round("DLumKm2", 1)`, podrá observar que las zonas más densamente iluminadas se encuentran mayoritariamente al sur de la ciudad y en la localidad de Suba.
+
+<div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
