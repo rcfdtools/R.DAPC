@@ -14,6 +14,7 @@ Sistemas de información geográfica. Fundamentos. Proyecciones y origen de coor
 
 Al finalizar esta actividad, el estudiante:
 
+* Comprende los conceptos y fundamentos básicos de los sistemas de información geográfica.
 * Entiende conceptos básicos de topografía y sus ramas derivadas.
 * Entiende su aplicación y utilidad.
 * Entiende las diferencias entre planimetría y altimetría.
