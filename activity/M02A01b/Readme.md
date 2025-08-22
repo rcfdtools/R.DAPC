@@ -96,24 +96,27 @@ En la representación anterior, evaluámos el total de luminarias por UPZ tenien
 
 ## 3. Conteo de elementos por clase
 
-En el ejemplo anterior, analizamos las densidades y representamos por quantiles en 3 clases, obteniendo valores de corte en 758, 1119 y 1736 Lum/km². Sin embargo, aún no conocemos cuantas UPZ se encuentran en cada una de las 3 clases utilizadas. Utilizando Python, podremos a través de un Script, identificar la clase a la cual pertenece cada UPZ.
+En el ejemplo anterior, analizamos las densidades y representamos por quantiles en 3 clases, obteniendo valores de corte en 758.01, 1119.23 y 1735.75 Lum/km². Sin embargo, aún no conocemos cuantas UPZ se encuentran en cada una de las 3 clases utilizadas. Utilizando Python, podremos a través de un Script, identificar la clase a la cual pertenece cada UPZ.
 
 Expresión de análisis en Python:
 ```
-def cortes(dlumkm2):
-  corteval = [758, 1119, 1736]
+def classeval(var):
+  cuteval = [758.0105954477, 1119.2344377237, 1736]
   j = 1
-  for i in corteval:
-    if dlumkm2 <= i:
+  for i in cuteval:
+    if var <= i:
       return j
     j += 1
 ```
 
-1. 
+Llamado de función: `classeval("DLumKm2")`
 
 
+1. En la tabla de atributos de la capa _Luminarias_UPZ (Densidad Lum/km²)_, cree un campo de atributos entero corto (Integer 32 bit) con el nombre _DLumKm2Cl_ y con la expresión de Python, asigne el número de clase al cual pertenece.
 
+<div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. 
 
 
 
