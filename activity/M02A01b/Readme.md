@@ -193,7 +193,7 @@ Obtendrá los siguientes resultados:
 Luego de analizar como están distribuidas los diferentes tipos de iluminación en la ciudad, es necesario estimar el consumo eléctrico total mensual utilizando p. ej., los siguientes valores de referencia:
 
 * Horas de uso: desde las 6:15pm hasta las 5:45am, 11.5 horas por día en promedio.
-* Dias promedio: 30 días por més.
+* Días promedio: 30 días por mes.
 * Tarifa eléctrica: $650 por kilovatio-hora (kWh).
 * Potencia: depende del tipo de iluminación, para este ejemplo utilizaremos como referencia los valores presentados en la siguiente tabla. 
 
@@ -215,7 +215,7 @@ Tabla de potencia por tipo de lámpara
 
 Para el cálculo total mensual por UPZ, se multiplica el total de luminarias de cada tipo por su potencia, por el número de horas promedio de encendido y se divide entre 1000 para obtener el valor en kilovatios.
 
-<div align="center"> Consumo (kWh) = Potencia (kW) x Horas de uso</div>
+<div align="center"> Consumo (kWh) = Potencia (kW) x Horas de uso<br></div>
 
 1. Agregue la capa _Luminarias_UPZ.shp_ al mapa y renombre cómo _Luminarias_UPZ (Consumo mensual kWh y costo)_. Cree y calcule los siguientes campos de atributos numéricos reales:
 
