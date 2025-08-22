@@ -5,7 +5,7 @@ Simbología y estadísticas generales. Tablas relacionales.
 
 En esta actividad, analizaremos la capa geográfica de Luminarias por Unidad de Planeamiento Zonal - UPZ de la ciudad de Bogotá - Colombia - Suramérica.
 
-<div align="center"><img src="graph/m02a01b.jpg" alt="R.DAPC" width="50%" border="0" /><sub><br>Tomado de: <a href="Public Domain, https://commons.wikimedia.org/w/index.php?curid=479365">https://commons.wikimedia.org</a></sub><br><br></div>
+<div align="center"><img src="graph/m02a01b.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## Objetivos
