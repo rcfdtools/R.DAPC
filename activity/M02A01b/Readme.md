@@ -250,6 +250,8 @@ Rotule con la expresión `'$' || round("CostoTotal",1)` y simbolice por colores 
 
 Supongamos que la ciudad de Bogotá ha planteado un proyecto de generación eléctrica para alimentar la iluminación pública, p. ej., utilizando turbinas en una hidroeléctrica. 
 
+<div align="center"><img src="graph/CapacidadHidroelectrica2020.jpg" alt="R.DAPC" width="60%" border="0" /><sub><br>Tomado de: <a href="https://elperiodicodelaenergia.com/las-10-centrales-hidroelectricas-mas-grandes-del-mundo/">https://elperiodicodelaenergia.com</a></sub><br><br></div>
+
 Según [Enel Colombia](https://www.enelgreenpower.com/es/learning-hub/energias-renovables/energia-hidroelectrica/turbina-hidroelectrica), la turbina hidroeléctrica es un dispositivo capaz de transformar la energía cinética del agua en energía mecánica. Es un elemento esencial de las centrales hidroeléctricas y muestra un rendimiento altísimo: se estima que las turbinas son capaces de convertir más del 90 % de la energía cinética del agua que captan en energía mecánica.
 
 Una turbina hidroeléctrica está formada por una parte fija, llamada estator, y por la rueda o rotor. El primero sirve para dirigir y regular el caudal de agua y el segundo transfiere la energía cinética del agua al eje en el que está montado.
