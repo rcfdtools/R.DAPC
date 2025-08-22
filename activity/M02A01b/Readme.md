@@ -180,7 +180,11 @@ Obtendrá los siguientes resultados:
 
 <div align="center"><img src="graph/QGIS_FieldCalculator4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Simbolice por cantidades usando Jenks, rotule con la expresión `round("Akm2DP",1) || '%'` y utilizando la herramienta _Statistics_, verifique que el total de los porcentajes distribuídos sea 100%.
 
+<div align="center"><img src="graph/QGIS_Symbology3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Realice el ejercicio anterior distribuyendo porcentualmente los diferentes tipos de iluminación por UPZ.
 
 
 
