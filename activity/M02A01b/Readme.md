@@ -229,6 +229,20 @@ Rotule con la expresión `'$' || round("CostoTotal",1)` y simbolice por colores 
 <div align="center"><img src="graph/QGIS_FieldCalculator5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_FieldCalculator6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Usando la herramienta _Statistics_, estime el costo total mensual de la ciudad en millones de pesos. Obtendrá que el alumbrado de la ciudad cuesta 11036.7 millones de pesos. Visualmente en el mapa de cantidades, podrá observar que UPZ's son las de mayores y menores costos.
+
+> Para mejorar la visualización del mapa, en la barra de estado puede definir una rotación de -90°, localizando el norte a la izquierda.
+> 
+> Tenga en cuenta que los costos calculados son aproximados y que su cálculo detallado requiere de la distribución de luminarias por estrato y por empresa prestadora debido a que las tarifas son variables.
+
+<div align="center"><img src="graph/QGIS_Symbology5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Usando la herramienta _Statistics_, estime el consumo total mensual de la ciudad en millones de kilovatios por hora. Obtendrá que el alumbrado de la ciudad consume 16.9795 millones de kWh.
+
+<div align="center"><img src="graph/QGIS_Symbology6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+## 7. Generación hidroeléctrica requerida
 
 
 
