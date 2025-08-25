@@ -54,14 +54,14 @@ Module 2
 	Digital elevation models.
 	Create an industrial park using the module 1 store design.
 	Solar power inside the industrial park.
-	Street electrical ilumination.
+	Street electrical ilumination using poles.
 	Electrical lines isolation.
 	Weather: wind analysis for wind turbines farm.
 	https://www.colombiaenmapas.gov.co/
 		Infraestructura básica / Saniamiento_y_suministro: resúmen estadístico por tipo, obtener la cota del punto de localización, investigar la producción eléctrica nacional.
 		Base de datos vectorial básica. Colombia. Escala 1:500.000. Año 2014: 
-	https://www.ideca.gov.co/recursos/mapas/alumbrado-publico-bogota-dc
-		Luminarias_UPZ.shp Alumbrado Público, Bogotá D.C.: LED, Lámpara Halogenuro Metálico MH, Na Sodio. Cálculo de áreas, distribución porcentual. Consumo eléctrico suponiendo potencias de Led 100W,  Na 70W, MH 200W.
+	
+
 
 
 Module 3
@@ -83,11 +83,3 @@ Ancho columnas libros Excel proyecto
 	12 Calificación
 
 
-Consumo lámpara led 100w
-	Una lámpara LED de 100W consume 100 vatios por hora de funcionamiento. En otras palabras, si la lámpara funciona durante una hora, consumirá 0.1 kilovatios-hora (kWh). Para calcular el consumo en un período de tiempo más largo, se puede usar la fórmula: Consumo (kWh) = Potencia (kW) x Horas de uso. 
-	Cálculo del consumo:
-	Consumo por hora: 100 vatios / 1000 = 0.1 kilovatios (kW). 
-	Consumo en 10 horas: 0.1 kW * 10 horas = 1 kWh. 
-	Consumo en un mes (30 días): Si la lámpara se usa 10 horas al día, el consumo mensual sería: 0.1 kW * 10 horas/día * 30 días = 30 kWh. 
-	Ejemplo:
-	Si la tarifa eléctrica es de $0.500 COP por kWh, el costo de usar la lámpara LED de 100W durante un mes (30 días, 10 horas al día) sería: 30 kWh * $0.500/kWh = $15.000 COP. 
