@@ -354,7 +354,7 @@ Realizar los siguientes ejercicios incluyendo la figura y sus líneas constructi
 
 ### Ejercicio M01A02bE01
 
-Para practicar las herramientas vistas en esta actividad, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, círculos y arcos, inscrita en una circunferencia de diámetro 10 metros. El origen de la figura está localizado en el centroide del círculo principal o en el cruce de los ejes principales. Guarde el dibujo como _/file/cad/M01A02bE01.dwg_.
+Para practicar las herramientas vistas en esta actividad, construiremos en clase el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas, círculos y arcos, inscrita en una circunferencia de radio 10 metros. El origen de la figura está localizado en el centroide del círculo principal o en el cruce de los ejes principales. Guarde el dibujo como _/file/cad/M01A02bE01.dwg_.
 
 Especificaciones adicionales:
 
