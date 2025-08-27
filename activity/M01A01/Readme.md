@@ -522,6 +522,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [AutoCAD para todos / Comando LINE](https://www.youtube.com/watch?v=tn0AooiV_R0)
 * [AutoCAD para todos / Dibujo isométrico 2D](https://www.youtube.com/playlist?list=PLzdkaVXEoikTzX7_QvZVBlPJeY8Lwxc9C).
 * Dibujo Técnico I - DGEP
+* ICONTEC. (2007). Normas Técnicas Colombianas NTC 4595 y 4596: Representación de planos arquitectónicos y estructurales. Bogotá: ICONTEC.
+* Consejo Profesional Nacional de Arquitectura y sus Profesiones Auxiliares – CPNAA. (2017). Guía y estándares gráficos del proyecto arquitectónico. Bogotá: CPNAA. ISBN: 978-958-98830-9-9.
 
 
 ## Control de versiones
