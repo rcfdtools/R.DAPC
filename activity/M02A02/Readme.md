@@ -31,8 +31,22 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
-## A. Digitalización
+## A. Digitalización de campus
 
+
+Instrucciones generales:
+
+* Crear diferentes capas geográficas en formato shapefile utilizando el CRS 9377, digitalizar: predio, construcciones bajo cubierta, vías, arbolado y luminarias del campus.
+* Crear los campos de atributos indicados y poblar la tabla a partir de las observaciones realizadas del Campus a través de Google Street View, fotografías en Google Maps, en Google Earth o usando vídeos de apoyo. En las capturas de pantalla se deben observar las tablas de atributos pobladas para los atributos indicados.
+* Para cada capa, crear un resumen estadístico y una gráfica de análisis. Por ejemplo, número de construcciones por tipo de estructura. Incluir para cada capa capturas de pantalla donde se observen las tablas y gráficas de análisis.
+* Se recomienda utilizar como referencia para digitalización, los mapas de Open Street Maps y las imágenes satelitales de Google Maps, Bing o ESRI. Por ejemplo, https://www.google.com/maps/@4.7832006,-74.0451788,17.71z
+* Algunos edificios requieren de la digitalización de zonas semicirculares o arcos.
+* Varias de las esquinas de las edificaciones están construidas a un ángulo de 90 grados, tenga en cuenta que debe conservar este ángulo en la digitalización.
+* Para los índices solicitados, es necesario mostrar captura de pantalla de la herramienta GIS, con la ventana del Calculador de Campo, donde se observe la operación realizada.
+* Comprimir los archivos de formas shapefile y guardar en la carpeta /shp de su repositorio de proyecto.
+* Siga en clase las indicaciones de su instructor y complete la digitalización.
+
+[Quiz M02A02-1 Digitalización de campus.](https://forms.office.com/Pages/ResponsePage.aspx?id=hAVkUEAqFkKoS5s-4PP2z1KMUyWWsfxJkCUt2GpU8YpUNkI1NlpQRzEyNzk4M0wyQ0dPWERWQUI4WS4u)
 
 
 
@@ -46,11 +60,11 @@ Las especificaciones técnicas detalladas del proyecto para este módulo del cur
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada grupo de proyecto.
 
-| Actividad  | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|:-----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M02A01a    | Desarrolle los contenidos presentados en esta actividad, incluído el análisis de distribución porcentual por tipo de luminarias y la investigación de un proyecto de suministro energético para alimentar todas las luminarias de la ciudad de Bogotá utilizando energía eólica y/o solar.                                                                                                                                                                                                                                                           |
-| M02A01a    | Identifique en qué UPZ se encuentra el campus de la [UECIJG](https://www.escuelaing.edu.co) y presente un análisis de luminarias, identificando desde Google Maps y/o desde Google StreetView, cuantos postes de la red pública con luminaria se encuentran al rededor del predio del campus.                                                                                                                                                                                                                                                        |
-| M02A01a    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M02A02    | Desarrolle los quices indicados en esta actividad.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| M02A02    | Para las luminarias identificadas en el campus y ubicadas en postes, calcule el consumo eléctrico total en kWh.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| M02A02    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos.  | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
