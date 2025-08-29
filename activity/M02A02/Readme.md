@@ -33,6 +33,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## A. Digitalización de campus
 
+Siga en clase las indicaciones del instructor y complete la digitalización del campus.
 
 Instrucciones generales:
 
@@ -44,7 +45,6 @@ Instrucciones generales:
 * Varias de las esquinas de las edificaciones están construidas a un ángulo de 90 grados, tenga en cuenta que debe conservar este ángulo en la digitalización.
 * Para los índices solicitados, es necesario mostrar captura de pantalla de la herramienta GIS, con la ventana del Calculador de Campo, donde se observe la operación realizada.
 * Comprimir los archivos de formas shapefile y guardar en la carpeta /shp de su repositorio de proyecto.
-* Siga en clase las indicaciones de su instructor y complete la digitalización.
 
 [Quiz M02A02-1 Digitalización de campus.](https://forms.office.com/Pages/ResponsePage.aspx?id=hAVkUEAqFkKoS5s-4PP2z1KMUyWWsfxJkCUt2GpU8YpUNkI1NlpQRzEyNzk4M0wyQ0dPWERWQUI4WS4u)
 
