@@ -38,7 +38,7 @@ Siga en clase las indicaciones del instructor y complete la digitalización del 
 Instrucciones generales:
 
 * Crear diferentes capas geográficas en formato shapefile utilizando el CRS 9377, digitalizar: predio, construcciones bajo cubierta, vías, arbolado y luminarias del campus.
-* Crear los campos de atributos indicados y poblar la tabla a partir de las observaciones realizadas del Campus a través de Google Street View, fotografías en Google Maps, en Google Earth o usando vídeos de apoyo. En las capturas de pantalla se deben observar las tablas de atributos pobladas para los atributos indicados.
+* Crear los campos de atributos indicados en la guía y poblar la tabla a partir de las observaciones realizadas del Campus a través de Google Street View, fotografías en Google Maps, en Google Earth o usando vídeos de apoyo. En las capturas de pantalla se deben observar las tablas de atributos pobladas para los atributos indicados.
 * Para cada capa, crear un resumen estadístico y una gráfica de análisis. Por ejemplo, número de construcciones por tipo de estructura. Incluir para cada capa capturas de pantalla donde se observen las tablas y gráficas de análisis.
 * Se recomienda utilizar como referencia para digitalización, los mapas de Open Street Maps y las imágenes satelitales de Google Maps, Bing o ESRI. Por ejemplo, https://www.google.com/maps/@4.7832006,-74.0451788,17.71z
 * Algunos edificios requieren de la digitalización de zonas semicirculares o arcos.
