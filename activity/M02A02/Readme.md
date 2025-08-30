@@ -3,6 +3,8 @@ Keywords:  `m02a02`
 
 Bases de datos y su manejo en SIG. Definición de elementos de un SIG (shapes, raster, vectores, etc.). Edición de elementos. Digitalización y entrada de entidades. Creación y edición de tablas relacionales.
 
+En esta actividad realizaremos la digitalización del campus.
+
 <div align="center"><img src="graph/m02a02.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
@@ -76,17 +78,15 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* https://www.ideca.gov.co/recursos/mapas/alumbrado-publico-bogota-dc
-* https://www.enel.com.co/es/personas/tarifas-energia-enel-distribucion.html
-* https://www.enelgreenpower.com/es/learning-hub/energias-renovables/energia-hidroelectrica/turbina-hidroelectrica
-* https://elperiodicodelaenergia.com/las-10-centrales-hidroelectricas-mas-grandes-del-mundo/
+* https://docs.qgis.org/3.40/es/docs/user_manual/working_with_vector/editing_geometry_attributes.html
+* https://www.sdp.gov.co/sites/default/files/20190606_anexos_graficos.pdf
 
 
 ## Control de versiones
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.08.22 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  12   |
+| 2025.08.29 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  12   |
 
 
 ##
@@ -96,7 +96,7 @@ _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M02A01a/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente :arrow_forward:](../M02A01c/Readme.md) |
-|----------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------|
+| [:arrow_backward: Anterior](../M02A02b/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente :arrow_forward:](../M02A03/Readme.md) |
+|----------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 
