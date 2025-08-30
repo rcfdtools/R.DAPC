@@ -33,20 +33,22 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## A. Digitalización de campus
 
-Siga en clase las indicaciones del instructor y complete la digitalización del campus.
+Siga en clase las indicaciones del instructor y complete la digitalización.
+
+[Quiz M02A02-1 Digitalización de campus.](https://forms.office.com/Pages/ResponsePage.aspx?id=hAVkUEAqFkKoS5s-4PP2z1KMUyWWsfxJkCUt2GpU8YpUNkI1NlpQRzEyNzk4M0wyQ0dPWERWQUI4WS4u)
 
 Instrucciones generales:
 
-* Crear diferentes capas geográficas en formato shapefile utilizando el CRS 9377, digitalizar: predio, construcciones bajo cubierta, vías, arbolado y luminarias del campus.
-* Crear los campos de atributos indicados en la guía y poblar la tabla a partir de las observaciones realizadas del Campus a través de Google Street View, fotografías en Google Maps, en Google Earth o usando vídeos de apoyo. En las capturas de pantalla se deben observar las tablas de atributos pobladas para los atributos indicados.
-* Para cada capa, crear un resumen estadístico y una gráfica de análisis. Por ejemplo, número de construcciones por tipo de estructura. Incluir para cada capa capturas de pantalla donde se observen las tablas y gráficas de análisis.
+* Crear diferentes capas geográficas en formato shapefile utilizando el CRS 9377, digitalizar: predio, construcciones bajo cubierta, vías, arbolado y luminarias.
+* Crear los campos de atributos indicados en la guía y poblar la tabla a partir de las observaciones realizadas a través de Google Street View, fotografías en Google Maps, en Google Earth o usando vídeos de apoyo. En las capturas de pantalla se deben observar las tablas de atributos pobladas para los atributos indicados.
+* Para cada capa, crear un resumen estadístico y una gráfica de análisis, p. ej., número de construcciones por tipo de estructura. Incluir para cada capa capturas de pantalla donde se observen las tablas y gráficas de análisis.
 * Se recomienda utilizar como referencia para digitalización, los mapas de Open Street Maps y las imágenes satelitales de Google Maps, Bing o ESRI. Por ejemplo, https://www.google.com/maps/@4.7832006,-74.0451788,17.71z
 * Algunos edificios requieren de la digitalización de zonas semicirculares o arcos.
 * Varias de las esquinas de las edificaciones están construidas a un ángulo de 90 grados, tenga en cuenta que debe conservar este ángulo en la digitalización.
-* Para los índices solicitados, es necesario mostrar captura de pantalla de la herramienta GIS, con la ventana del Calculador de Campo, donde se observe la operación realizada.
-* Comprimir los archivos de formas shapefile y guardar en la carpeta /shp de su repositorio de proyecto.
+* Para los índices solicitados, es necesario mostrar captura de pantalla de la herramienta GIS con la ventana del Calculador de Campo, donde se observe la operación realizada.
+* Comprimir independientemente cada archivo de formas shapefile (Predio.shp, Construccion.shp, Vial.shp, VialBuffer.shp, Arbolado.shp, ArboladoBuffer.shp, Luminaria.shp, LuminariaBuffer.shp) y guardar en la carpeta /shp de su repositorio de proyecto.
 
-[Quiz M02A02-1 Digitalización de campus.](https://forms.office.com/Pages/ResponsePage.aspx?id=hAVkUEAqFkKoS5s-4PP2z1KMUyWWsfxJkCUt2GpU8YpUNkI1NlpQRzEyNzk4M0wyQ0dPWERWQUI4WS4u)
+
 
 
 
