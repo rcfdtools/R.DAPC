@@ -60,7 +60,9 @@ Module 2
 	https://www.colombiaenmapas.gov.co/
 		Infraestructura básica / Saniamiento_y_suministro: resúmen estadístico por tipo, obtener la cota del punto de localización, investigar la producción eléctrica nacional.
 		Base de datos vectorial básica. Colombia. Escala 1:500.000. Año 2014: 
-	
+	https://www1.upme.gov.co/DemandayEficiencia
+	https://lowcarbonpower.org/es/region/Colombia
+	Rotación campus: -8.5°
 
 
 
