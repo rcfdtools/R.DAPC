@@ -46,9 +46,9 @@ Instrucciones generales:
 * Algunos edificios requieren de la digitalización de zonas semicirculares o arcos.
 * Varias de las esquinas de las edificaciones están construidas a un ángulo de 90 grados, tenga en cuenta que debe conservar este ángulo en la digitalización.
 * Para los índices solicitados, es necesario mostrar captura de pantalla de la herramienta GIS con la ventana del Calculador de Campo, donde se observe la operación realizada.
-* Comprimir independientemente cada archivo de formas shapefile (Predio.shp, Construccion.shp, Vial.shp, VialBuffer.shp, Arbolado.shp, ArboladoBuffer.shp, Luminaria.shp, LuminariaBuffer.shp) y guardar en la carpeta /shp de su repositorio de proyecto.
+* Comprimir independientemente cada archivo de formas shapefile (_Predio.shp, Construccion.shp, Vial.shp, VialBuffer.shp, Arbolado.shp, ArboladoBuffer.shp, Luminaria.shp, LuminariaBuffer.shp_) y guardar en la carpeta /shp de su repositorio de proyecto.
 
-
+> Recuerde que un archivo de forma shapefile está compuesto por 4 archivos: .shp, .shx, .prj, .dbf.
 
 
 
