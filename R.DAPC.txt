@@ -85,3 +85,11 @@ Ancho columnas libros Excel proyecto
 	12 Calificación
 
 
+=IF('1.Tecnica'!I19>0,'1.Tecnica'!I19,"")
+=IF('2.ArquitectonicaEstructural'!I95>0,'2.ArquitectonicaEstructural'!I95,"")
+=IF('3.Electrica'!I28>0,'3.Electrica'!I28,"")
+=IF('4.Bodegaje'!I23>0,'4.Bodegaje'!I23,"")
+=IF('5.Planos'!I17>0,'5.Planos'!I17,"")
+=IF('6.Archivos'!H18>0,'6.Archivos'!H18,"")
+
+
