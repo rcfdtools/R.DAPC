@@ -96,18 +96,18 @@ Atributos requeridos:
 
 <div>
 
-| Campo      | Tipo         | Descripción                                                                                                                                                                  |
-|:-----------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EdifID     | String (200) | Identificación de edificio o bloque. Texto de 100 caracteres. Ejemplo: Bloque A, Bloque B, Coliseo, Kiosco K1, Portería, etc.                                                |
-| AreaPm2    | Real (10)    | Área planar en m².                                                                                                                                                           |
-| PerimPm    | Real (10)    | Perímetro planar en m.                                                                                                                                                       |
-| Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional.                                                                                              |
-| MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>●Concreto reforzado en pórticos<br>●Concreto reforzado en paneles<br>●Mampostería estructural<br>●Metálica<br>●Mixta. |
-| TipoCubier | String (100) | Tipo de cubierta. Normalizar como:<br>Teja inclinada<br>Placa<br>Carpa<br>Domo<br>Curvada continua<br>Paneles solares<br>Mixta.                                              |
-| CX         | Real (10)    | Coordenada X del centroide en m.                                                                                                                                             |
-| CY         | Real (10)    | Coordenada y del centroide en m.                                                                                                                                             |
-| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.                                                                                                                                |
-| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °.                                                                                                                               |
+| Campo      | Tipo         | Descripción                                                                                                                                                                            |
+|:-----------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EdifID     | String (200) | Identificación de edificio o bloque. Texto de 100 caracteres. Ejemplo: Bloque A, Bloque B, Coliseo, Kiosco K1, Portería, etc.                                                          |
+| AreaPm2    | Real (10)    | Área planar en m².                                                                                                                                                                     |
+| PerimPm    | Real (10)    | Perímetro planar en m.                                                                                                                                                                 |
+| Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional.                                                                                                        |
+| MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>• Concreto reforzado en pórticos<br>• Concreto reforzado en paneles<br>• Mampostería estructural<br>• Metálica<br>• Mixta. |
+| TipoCubier | String (100) | Tipo de cubierta dominante. Normalizar como:<br>• Teja inclinada<br>• Placa<br>• Carpa<br>• Domo<br>• Curvada continua<br>• Paneles solares<br>• Mixta.                                |
+| CX         | Real (10)    | Coordenada X del centroide en m.                                                                                                                                                       |
+| CY         | Real (10)    | Coordenada y del centroide en m.                                                                                                                                                       |
+| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.                                                                                                                                          |
+| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °.                                                                                                                                         |
 
 </div>
 
