@@ -209,13 +209,16 @@ Para el cálculo de los índices, cree los siguientes campos de atributos en la 
 > `AreaPm2` corresponde al área del lote o predio.
 
 
+## 3. Representación 3D
 
+Cree una visualización 3D con alzados que integre:
 
-
-
-
-
-
+* Modelo de elevación digital - DEM mundial 
+* Límite del predio
+* Edificios
+* Ejes y polígonos de las áreas aferentes de las vías
+* Puntos de localización del arbolado y coberturas de vegetación en alzado con 3 tipos (árbol, arbusto, matorral)
+* Luminarias y cobertura de iluminación
 
 
 
