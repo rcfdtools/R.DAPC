@@ -1,11 +1,11 @@
-# 2.2. Definición y edición de elementos
-Keywords:  `m02a02`
+# 2.2.a. Definición y edición de elementos / Digitalización
+Keywords:  `m02a02a`
 
-Bases de datos y su manejo en SIG. Definición de elementos de un SIG (shapes, raster, vectores, etc.). Edición de elementos. Digitalización y entrada de entidades. Creación y edición de tablas relacionales.
+Bases de datos y su manejo en SIG. Definición de elementos de un SIG (shapes, raster, vectores, etc.). Edición de elementos. Digitalización y entrada de entidades.
 
-En esta actividad realizaremos la digitalización del campus.
+En esta actividad realizaremos la digitalización del campus de la UECIJG.
 
-<div align="center"><img src="graph/m02a02.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/m02a02a.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -33,13 +33,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
-## A. Digitalización de campus
+## 0. Instrucciones generales
 
-Siga en clase las indicaciones del instructor y complete la digitalización.
-
-[Quiz M02A02-1 Digitalización de campus.](https://forms.office.com/Pages/ResponsePage.aspx?id=hAVkUEAqFkKoS5s-4PP2z1KMUyWWsfxJkCUt2GpU8YpUNkI1NlpQRzEyNzk4M0wyQ0dPWERWQUI4WS4u)
-
-Instrucciones generales:
+Siga en clase las indicaciones del instructor y complete la digitalización teniendo en cuenta las siguientes directrices:
 
 * Crear diferentes capas geográficas en formato shapefile utilizando el CRS 9377, digitalizar: predio, construcciones bajo cubierta, vías, arbolado y luminarias.
 * Crear los campos de atributos indicados en la guía y poblar la tabla a partir de las observaciones realizadas a través de Google Street View, fotografías en Google Maps, en Google Earth o usando vídeos de apoyo. En las capturas de pantalla se deben observar las tablas de atributos pobladas para los atributos indicados.
@@ -50,7 +46,56 @@ Instrucciones generales:
 * Para los índices solicitados, es necesario mostrar captura de pantalla de la herramienta GIS con la ventana del Calculador de Campo, donde se observe la operación realizada.
 * Comprimir independientemente cada archivo de formas shapefile (_Predio.shp, Construccion.shp, Vial.shp, VialBuffer.shp, Arbolado.shp, ArboladoBuffer.shp, Luminaria.shp, LuminariaBuffer.shp_) y guardar en la carpeta /shp de su repositorio de proyecto.
 
-> Recuerde que un archivo de forma shapefile está compuesto por 4 archivos: .shp, .shx, .prj, .dbf.
+> Para facilitar la edición y visualización, agregue el mapa base de Google Satellite desde el conector https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}. Mapas base adicionales pueden ser agregados usando los enlaces contenidos en el repositorio https://github.com/opengeos/qgis-basemaps
+
+
+## 1. Capas geográficas requeridas
+
+Para cada capa requerida, cree archivos de formas geográficas shapefile (.shp). Recuerde que un archivo de forma shapefile está compuesto por 4 archivos: .shp, .shx, .prj, .dbf.
+
+
+### 1.1. Predio o lote
+
+Atributos requeridos:
+
+<div>
+
+| Campo    | Tipo         | Descripción                                                                                                                                                       |
+|:---------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PredioID | String (200) | Consultar el catastro distrital o nacional y obtener el código CHIP o llave predial de este predio. Es necesario investigar y documentar el proceso de obtención. |
+| AreaPm2  | Real (10)    | Área planar en m².                                                                                                                                                |
+| PerimPm  | Real (10)    | Perímetro planar en m.                                                                                                                                            |
+| CX       | Real (10)    | Coordenada X del centroide en m.                                                                                                                                  |
+| CY       | Real (10)    | Coordenada y del centroide en m.                                                                                                                                  |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.                                                                                                                     |
+| CY       | Real (10)    | Longitud del centroide en grados geodésicos °.                                                                                                                    |
+
+</div>
+
+Fuentes de datos para obtención de predios y/o lotes:
+
+* https://mapas.bogota.gov.co
+* https://www.ideca.gov.co/recursos/mapas/predios-bogota-dc
+* https://datosabiertos.bogota.gov.co/dataset/lote
+* Predios nacionales: https://geoportal.igac.gov.co/contenido/consulta-catastral
+
+> En el informe técnico, incluir capturas de pantalla con el procedimiento de digitalización y la capa final con la tabla de atributos completamente poblada.
+
+
+### 1.2.  
+
+
+| Campo | Tipo | Descripción  |
+|:------|:-----|:-------------|
+|       |      |              |
+|       |      |              |
+|       |      |              |
+|       |      |              |
+
+
+
+
+
 
 
 
