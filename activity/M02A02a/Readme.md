@@ -57,7 +57,7 @@ Para cada capa requerida, cree archivos de formas geográficas shapefile (.shp).
 
 ### 1.1. Predio o lote
 
-Crear una capa tipo polígono en 2D para digitalizar el predio de la institución educativa, nombrar como _Predio.shp_.
+Crear una capa tipo polígono en 2D para digitalizar el predio de la institución educativa, nombrar como `Predio.shp`.
 
 Atributos requeridos:
 
@@ -85,8 +85,7 @@ Fuentes de datos para obtención de predios y/o lotes:
 
 ### 1.2. Construcción 
 
-Crear una capa tipo polígono en 2D para las Construcciones y/o Edificios bajo cubierta, nombrar como _Construccion.shp_.
-
+Crear una capa tipo polígono en 2D para las Construcciones y/o Edificios bajo cubierta, nombrar como `Construccion.shp`.
 Incluir:
 
 * En las construcciones incluir elementos como: invernaderos, casetas, carpas porterías.
