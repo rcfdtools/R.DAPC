@@ -142,6 +142,8 @@ Atributos requeridos:
 
 Crear una capa tipo punto 2D para el arbolado del Campus, nombrar como `Arbolado.shp`.
 
+En el informe técnico analice e indique: total de árboles digitalizados, total de árboles por tipo. Presentar tabla, mapa y gráfico.
+
 Atributos requeridos:
 
 <div>
@@ -160,6 +162,29 @@ Atributos requeridos:
 </div>
 
 
+### 1.5. Luminarias
+
+Crear una capa tipo punto 2D para las luminarias del campus, nombrar como `Luminaria.shp`.
+
+Atributos requeridos:
+
+<div>
+
+| Campo       | Tipo         | Descripción                                                                                                                                    |
+|:------------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
+| LumID       | Long Integer | Identificación de cada luminaria. Incluir un valor consecutivo que no debe repetirse.                                                          |
+| Altura      | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario.          |
+| LumTipo     | String (100) | Tipo de luminaria. Normalizar como:<br>• LED<br>• Halogenuro Metálico (MH)<br>• Sodio (Na)                                                     |
+| Potencia    | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W |
+| RadioC      | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo.                                                          |
+| CX          | Real (10)    | Coordenada X del centroide en m.                                                                                                               |
+| CY          | Real (10)    | Coordenada y del centroide en m.                                                                                                               |
+| LatDD       | Real (10)    | Latitud del centroide en grados geodésicos °. `x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                             |
+| LonDD       | Real (10)    | Longitud del centroide en grados geodésicos °. `y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                            |
+
+</div>
+
+> La potencia en watts o vatios en iluminación, representa la cantidad de energía eléctrica por hora que consume una lámpara.
 
 
 
@@ -200,8 +225,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* https://docs.qgis.org/3.40/es/docs/user_manual/working_with_vector/editing_geometry_attributes.html
-* https://www.sdp.gov.co/sites/default/files/20190606_anexos_graficos.pdf
+* https://es.zgsm-china.com/blog/coefficient-of-utilization-for-street-lighting-why-it-matters.html
 
 
 ## Control de versiones
