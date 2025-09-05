@@ -226,6 +226,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 ## Referencias
 
 * https://es.zgsm-china.com/blog/coefficient-of-utilization-for-street-lighting-why-it-matters.html
+* https://es.zgsm-china.com/blog/lighting-calculation-lumen-calculation-method-and-its-benefits.html
+* https://www.zgsm-china.com/lighting-design/lighting-design-road-lighting-simulation-by-dialux-evo.html
 
 
 ## Control de versiones
