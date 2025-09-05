@@ -103,7 +103,7 @@ Atributos requeridos:
 | PerimPm    | Real (10)    | Perímetro planar en m.                                                                                                                                                                 |
 | Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional.                                                                                                        |
 | MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>• Concreto reforzado en pórticos<br>• Concreto reforzado en paneles<br>• Mampostería estructural<br>• Metálica<br>• Mixta. |
-| TipoCubier | String (100) | Tipo de cubierta dominante. Normalizar como:<br>• Teja inclinada<br>• Placa<br>• Carpa<br>• Domo<br>• Curvada continua<br>• Paneles solares<br>• Mixta.                                |
+| TipoCubier | String (100) | Tipo de cubierta predominante. Normalizar como:<br>• Teja inclinada<br>• Placa<br>• Carpa<br>• Domo<br>• Curvada continua<br>• Paneles solares<br>• Mixta.                             |
 | CX         | Real (10)    | Coordenada X del centroide en m.                                                                                                                                                       |
 | CY         | Real (10)    | Coordenada y del centroide en m.                                                                                                                                                       |
 | LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.                                                                                                                                          |
