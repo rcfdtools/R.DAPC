@@ -70,8 +70,8 @@ Atributos requeridos:
 | PerimPm  | Real (10)    | Perímetro planar en m.                                                                                                                                            |
 | CX       | Real (10)    | Coordenada X del centroide en m.                                                                                                                                  |
 | CY       | Real (10)    | Coordenada y del centroide en m.                                                                                                                                  |
-| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.                                                                                                                     |
-| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.                                                                                                                    |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °. `x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                   |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °. `y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                   |
 
 </div>
 
@@ -90,7 +90,7 @@ Crear una capa tipo polígono en 2D para las construcciones y/o edificios bajo c
 Incluir:
 
 * En las construcciones incluir elementos como: invernaderos, casetas, carpas porterías.
-* En el informe técnico analice e indique: número de construcciones identificadas, material predominante en estructuras, tipo de cubierta predominante obtenida a partir de un resumen estadístico obteniendo la sumatoria de las áreas calculadas y gráficos.
+* En el informe técnico analice e indique: número de construcciones identificadas, material predominante en estructuras, tipo de cubierta predominante obtenida a partir de un resumen estadístico obteniendo la sumatoria de las áreas calculadas, mapas y gráficos.
 
 Atributos requeridos:
 
@@ -106,8 +106,8 @@ Atributos requeridos:
 | TipoCubier | String (100) | Tipo de cubierta predominante. Normalizar como:<br>• Teja inclinada<br>• Placa<br>• Carpa<br>• Domo<br>• Curvada continua<br>• Paneles solares<br>• Mixta.                             |
 | CX         | Real (10)    | Coordenada X del centroide en m.                                                                                                                                                       |
 | CY         | Real (10)    | Coordenada y del centroide en m.                                                                                                                                                       |
-| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.                                                                                                                                          |
-| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °.                                                                                                                                         |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °. `x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                   |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °. `y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                   |
 
 </div>
 
@@ -121,7 +121,7 @@ Construcciones Bogotá:
 
 Crear una capa tipo línea 2D para las vías del campus, nombrar como `Vial.shp`.
 
-En el documento de soporte analice e indique a partir de un resumen estadístico, la longitud total de vías por tipo y presente una gráfica de análisis.
+En el informe técnico indique a partir de un resumen estadístico, la longitud total de vías por tipo y presente un mapa y una gráfica de análisis.
 
 Atributos requeridos:
 
@@ -138,13 +138,39 @@ Atributos requeridos:
 </div>
 
 
+### 1.4. Arbolado
+
+Crear una capa tipo punto 2D para el arbolado del Campus, nombrar como `Arbolado.shp`.
+
+Atributos requeridos:
+
+<div>
+
+| Campo       | Tipo         | Descripción                                                                                                                           |
+|:------------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------|
+| ArbolID     | Long Integer | Identificación de cada árbol. Incluir un valor consecutivo que no debe repetirse.                                                     |
+| Altura      | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario. |
+| RadioC      | Real (10)    | Ancho del canopy. Medir utilizando imagen satelital como mapa base.                                                                   |
+| TipoArbol   | String (100) | Tipo de árbol. Normalizar como:<br>• Árbol<br>• Arbusto<br>• Planta<br>• Matorral                                                     |
+| CX          | Real (10)    | Coordenada X del centroide en m.                                                                                                      |
+| CY          | Real (10)    | Coordenada y del centroide en m.                                                                                                      |
+| LatDD       | Real (10)    | Latitud del centroide en grados geodésicos °. `x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                    |
+| LonDD       | Real (10)    | Longitud del centroide en grados geodésicos °. `y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                   |
+
+</div>
 
 
 
 
 
-: 
-: 
+
+
+
+
+
+
+
+
 
 
 
