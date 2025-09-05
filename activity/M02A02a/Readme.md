@@ -196,20 +196,20 @@ Para las capas `Vial.shp`, `Arbolado.shp` y `Luminaria.shp`, cree aferencias par
 | ArboladoBuffer.shp  | Aferencia a partir del radio de cobertura de canopy `RadioC`.  |
 | LuminariaBuffer.shp | Aferencia a partir del radio de iluminación `RadioC`.          |
 
-Para el cálculo de los índices, cree los siguientes campos de atributos en la capa `Predio.shp` y aplique los siguientes lineamientos:
+Para el cálculo de los índices, cree y calcule los siguientes campos de atributos en la capa `Predio.shp`:
 
-| Campo     | Tipo         | Descripción                                                                                        |
-|:----------|:-------------|:---------------------------------------------------------------------------------------------------|
-| ConsAreaH | Real (10)    | Área total horizontal ocupada por construcciones m². ∑ `AreaPm2` de construcciones.                |
-| ConstIO   | Real (10)    | Índice de ocupación por construcción `ConstIO = ConsAreaH / AreaPm2`. `AreaPm2` del lote o predio. |
-| ConsAreaV | Real (10)    | Área total construída m². ∑ `AreaCons`.                                                            |
-| ConstIC   | Real (10)    | Índice de construcción `ConstIC = ConsAreaV / AreaPm2`. `AreaPm2` del lote o predio.               |
-| VialArea  | Real (10)    | Área total de vías en m².                                                                          |
-| VialIO    | Real (10)    | Índice de ocupación vial `VialIO = VialArea / AreaPm2`. `AreaPm2` del lote o predio.               |
-| ArbolArea | Real (10)    | Área total cubierta por canopy de vegetación en m².                                                |
-| ArbolIO   | Real (10)    | Índice de ocupación por canopy `ArbolIO = ArbolArea / AreaPm2`. `AreaPm2` del lote o predio.       |
-| LuminArea | Real (10)    | Área total iluminada en m².                                                                        |
-| LuminIC   | Real (10)    | Índice de cobertura por iluminación `LuminIC = LuminArea / AreaPm2`. `AreaPm2` del lote o predio.  |
+| Campo     | Tipo         | Descripción                                                                         |
+|:----------|:-------------|:------------------------------------------------------------------------------------|
+| ConsAreaH | Real (10)    | Área total horizontal ocupada por construcciones m². ∑ `AreaPm2` de construcciones. |
+| ConstIO   | Real (10)    | Índice de ocupación por construcción `ConstIO = ConsAreaH / AreaPm2`.               |
+| ConsAreaV | Real (10)    | Área total construída m². ∑ `AreaCons`.                                             |
+| ConstIC   | Real (10)    | Índice de construcción `ConstIC = ConsAreaV / AreaPm2`.                             |
+| VialArea  | Real (10)    | Área total de vías en m².                                                           |
+| VialIO    | Real (10)    | Índice de ocupación vial `VialIO = VialArea / AreaPm2`.                             |
+| ArbolArea | Real (10)    | Área total cubierta por canopy de vegetación en m².                                 |
+| ArbolIO   | Real (10)    | Índice de ocupación por canopy `ArbolIO = ArbolArea / AreaPm2`.                     |
+| LuminArea | Real (10)    | Área total iluminada en m².                                                         |
+| LuminIC   | Real (10)    | Índice de cobertura por iluminación `LuminIC = LuminArea / AreaPm2`.                |
 
 > `AreaPm2` corresponde al área del lote o predio.
 
