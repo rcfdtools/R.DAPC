@@ -57,6 +57,8 @@ Para cada capa requerida, cree archivos de formas geográficas shapefile (.shp).
 
 ### 1.1. Predio o lote
 
+Crear una capa tipo polígono en 2D para digitalizar el predio de la institución educativa, nombrar como _Predio.shp_.
+
 Atributos requeridos:
 
 <div>
@@ -69,31 +71,55 @@ Atributos requeridos:
 | CX       | Real (10)    | Coordenada X del centroide en m.                                                                                                                                  |
 | CY       | Real (10)    | Coordenada y del centroide en m.                                                                                                                                  |
 | LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.                                                                                                                     |
-| CY       | Real (10)    | Longitud del centroide en grados geodésicos °.                                                                                                                    |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.                                                                                                                    |
 
 </div>
 
 Fuentes de datos para obtención de predios y/o lotes:
 
-* https://mapas.bogota.gov.co
-* https://www.ideca.gov.co/recursos/mapas/predios-bogota-dc
-* https://datosabiertos.bogota.gov.co/dataset/lote
+* Predios Bogotá D.C.: https://mapas.bogota.gov.co
+* Predios Bogotá D.C.: https://www.ideca.gov.co/recursos/mapas/predios-bogota-dc
+* Predios Bogotá D.C.: https://datosabiertos.bogota.gov.co/dataset/lote
 * Predios nacionales: https://geoportal.igac.gov.co/contenido/consulta-catastral
 
 
-### 1.2.  
+### 1.2. Construcción 
+
+Crear una capa tipo polígono en 2D para las Construcciones y/o Edificios bajo cubierta, nombrar como _Construccion.shp_.
+
+Incluir:
+
+* En las construcciones incluir elementos como: invernaderos, casetas, carpas porterías.
+* En el informe técnico analice e indique: número de construcciones identificadas, material predominante en estructuras, tipo de cubierta predominante obtenida a partir de un resumen estadístico obteniendo la sumatoria de las áreas calculadas.
+
+Atributos requeridos:
+
+<div>
+
+| Campo      | Tipo         | Descripción                                                                                                                                                                         |
+|:-----------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EdifID     | String (200) | Identificación de edificio o bloque. Texto de 100 caracteres. Ejemplo: Bloque A, Bloque B, Coliseo, Kiosco K1, Portería, etc.                                                       |
+| AreaPm2    | Real (10)    | Área planar en m².                                                                                                                                                                  |
+| PerimPm    | Real (10)    | Perímetro planar en m.                                                                                                                                                              |
+| Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional.                                                                                                     |
+| MaterialEs | String (100) | Material predominante en la estructura.<br><br>Normalizar como:<br>Concreto reforzado en pórticos<br>Concreto reforzado en paneles<br>Mampostería estructural<br>Metálica<br>Mixta. |
+| TipoCubier | String (100) | Tipo de cubierta.<br><br>Normalizar como:<br>Teja inclinada<br>Placa<br>Carpa<br>Domo<br>Curvada continua<br>Paneles solares<br>Mixta.                                              |
+| CX         | Real (10)    | Coordenada X del centroide en m.                                                                                                                                                    |
+| CY         | Real (10)    | Coordenada y del centroide en m.                                                                                                                                                    |
+| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.                                                                                                                                       |
+| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °.                                                                                                                                      |
+
+</div>
+
+: 
+: 
+: 
 
 
-| Campo | Tipo | Descripción  |
-|:------|:-----|:-------------|
-|       |      |              |
-|       |      |              |
-|       |      |              |
-|       |      |              |
+Construcciones Bogotá: 
 
-
-
-
+* https://ideca.gov.co/recursos/mapas/construccion-bogota-dc
+* https://ideca.gov.co/recursos/mapas/construccion
 
 
 
