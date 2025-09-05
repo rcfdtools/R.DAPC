@@ -155,6 +155,10 @@ Atributos requeridos:
 
 </div>
 
+Arbolado
+
+* https://www.ideca.gov.co/recursos/mapas/arbolado-urbano-bogota-dc
+
 
 ### 1.5. Luminarias
 
