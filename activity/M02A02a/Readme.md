@@ -111,15 +111,41 @@ Atributos requeridos:
 
 </div>
 
-: 
-: 
-: 
-
-
 Construcciones Bogotá: 
 
 * https://ideca.gov.co/recursos/mapas/construccion-bogota-dc
 * https://ideca.gov.co/recursos/mapas/construccion
+
+
+### 1.3. Vías
+
+Crear una capa tipo línea 2D para las vías del campus, nombrar como `Vial.shp`.
+
+En el documento de soporte analice e indique a partir de un resumen estadístico, la longitud total de vías por tipo y presente una gráfica de análisis.
+
+Atributos requeridos:
+
+<div>
+
+| Campo      | Tipo         | Descripción                                                                                                                                                                                                            |
+|:-----------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ViaID      | String (200) | Identificación de vía. Ejemplo: Calle 207, Sendero peatonal entre Bloques A y G...                                                                                                                                     |
+| AnchoProm  | Real (10)    | Ancho promedio en m. Medir usando imagen satelital como mapa base.                                                                                                                                                     |
+| ViaTipo    | String (100) | Tipo de Vía. Normalizar como:<br>• Vehicular<br>• Peatonal<br>• Sendero<br>• Privada<br>• Camino<br>• Andén                                                                                                            |
+| MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>• Concreto reforzado en pórticos<br>• Concreto reforzado en paneles<br>• Mampostería estructural<br>• Metálica<br>• Mixta.                                 |
+| Rodadura   | String (100) | Tipo de rodadura o recubrimiento. Normalizar como:<br>• Asfalto<br>• Concreto<br>• Adoquín<br>• Placa Huella<br>• Tierra<br>• Césped<br>• Arena<br>• Gravilla                                                          |
+
+</div>
+
+
+
+
+
+
+
+: 
+: 
+
 
 
 
