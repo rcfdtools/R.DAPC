@@ -53,6 +53,8 @@ Siga en clase las indicaciones del instructor y complete la digitalización teni
 
 Para cada capa requerida, cree archivos de formas geográficas shapefile (.shp). Recuerde que un archivo de forma shapefile está compuesto por 4 archivos: .shp, .shx, .prj, .dbf.
 
+> En el informe técnico, incluir capturas de pantalla con el procedimiento de creación de cada tabla, el proceso de digitalización y la capa final con la tabla de atributos completamente poblada.
+
 
 ### 1.1. Predio o lote
 
@@ -78,8 +80,6 @@ Fuentes de datos para obtención de predios y/o lotes:
 * https://www.ideca.gov.co/recursos/mapas/predios-bogota-dc
 * https://datosabiertos.bogota.gov.co/dataset/lote
 * Predios nacionales: https://geoportal.igac.gov.co/contenido/consulta-catastral
-
-> En el informe técnico, incluir capturas de pantalla con el procedimiento de digitalización y la capa final con la tabla de atributos completamente poblada.
 
 
 ### 1.2.  
