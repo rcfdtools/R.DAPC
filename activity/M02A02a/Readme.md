@@ -85,28 +85,29 @@ Fuentes de datos para obtención de predios y/o lotes:
 
 ### 1.2. Construcción 
 
-Crear una capa tipo polígono en 2D para las Construcciones y/o Edificios bajo cubierta, nombrar como `Construccion.shp`.
+Crear una capa tipo polígono en 2D para las construcciones y/o edificios bajo cubierta, nombrar como `Construccion.shp`.
+
 Incluir:
 
 * En las construcciones incluir elementos como: invernaderos, casetas, carpas porterías.
-* En el informe técnico analice e indique: número de construcciones identificadas, material predominante en estructuras, tipo de cubierta predominante obtenida a partir de un resumen estadístico obteniendo la sumatoria de las áreas calculadas.
+* En el informe técnico analice e indique: número de construcciones identificadas, material predominante en estructuras, tipo de cubierta predominante obtenida a partir de un resumen estadístico obteniendo la sumatoria de las áreas calculadas y gráficos.
 
 Atributos requeridos:
 
 <div>
 
-| Campo      | Tipo         | Descripción                                                                                                                                                                         |
-|:-----------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EdifID     | String (200) | Identificación de edificio o bloque. Texto de 100 caracteres. Ejemplo: Bloque A, Bloque B, Coliseo, Kiosco K1, Portería, etc.                                                       |
-| AreaPm2    | Real (10)    | Área planar en m².                                                                                                                                                                  |
-| PerimPm    | Real (10)    | Perímetro planar en m.                                                                                                                                                              |
-| Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional.                                                                                                     |
-| MaterialEs | String (100) | Material predominante en la estructura.<br><br>Normalizar como:<br>Concreto reforzado en pórticos<br>Concreto reforzado en paneles<br>Mampostería estructural<br>Metálica<br>Mixta. |
-| TipoCubier | String (100) | Tipo de cubierta.<br><br>Normalizar como:<br>Teja inclinada<br>Placa<br>Carpa<br>Domo<br>Curvada continua<br>Paneles solares<br>Mixta.                                              |
-| CX         | Real (10)    | Coordenada X del centroide en m.                                                                                                                                                    |
-| CY         | Real (10)    | Coordenada y del centroide en m.                                                                                                                                                    |
-| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.                                                                                                                                       |
-| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °.                                                                                                                                      |
+| Campo      | Tipo         | Descripción                                                                                                                                                                  |
+|:-----------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EdifID     | String (200) | Identificación de edificio o bloque. Texto de 100 caracteres. Ejemplo: Bloque A, Bloque B, Coliseo, Kiosco K1, Portería, etc.                                                |
+| AreaPm2    | Real (10)    | Área planar en m².                                                                                                                                                           |
+| PerimPm    | Real (10)    | Perímetro planar en m.                                                                                                                                                       |
+| Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional.                                                                                              |
+| MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>●Concreto reforzado en pórticos<br>●Concreto reforzado en paneles<br>●Mampostería estructural<br>●Metálica<br>●Mixta. |
+| TipoCubier | String (100) | Tipo de cubierta. Normalizar como:<br>Teja inclinada<br>Placa<br>Carpa<br>Domo<br>Curvada continua<br>Paneles solares<br>Mixta.                                              |
+| CX         | Real (10)    | Coordenada X del centroide en m.                                                                                                                                             |
+| CY         | Real (10)    | Coordenada y del centroide en m.                                                                                                                                             |
+| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.                                                                                                                                |
+| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °.                                                                                                                               |
 
 </div>
 
