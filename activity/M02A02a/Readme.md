@@ -164,17 +164,18 @@ Atributos requeridos:
 
 <div>
 
-| Campo       | Tipo         | Descripción                                                                                                                                    |
-|:------------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
-| LumID       | Long Integer | Identificación de cada luminaria. Incluir un valor consecutivo que no debe repetirse.                                                          |
-| Altura      | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario.          |
-| LumTipo     | String (100) | Tipo de luminaria. Normalizar como:<br>• LED<br>• Halogenuro Metálico (MH)<br>• Sodio (Na)                                                     |
-| Potencia    | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W |
-| RadioC      | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.                                    |
-| CX          | Real (10)    | Coordenada X del centroide en m.                                                                                                               |
-| CY          | Real (10)    | Coordenada y del centroide en m.                                                                                                               |
-| LatDD       | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                          |
-| LonDD       | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                         |
+| Campo    | Tipo         | Descripción                                                                                                                                    |
+|:---------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
+| LumID    | Long Integer | Identificación de cada luminaria. Incluir un valor consecutivo que no debe repetirse.                                                          |
+| Altura   | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario.          |
+| LumTipo  | String (100) | Tipo de luminaria. Normalizar como:<br>• LED<br>• Halogenuro Metálico (MH)<br>• Sodio (Na)                                                     |
+| Potencia | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W |
+| RadioC   | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.                                    |
+| Consumo  | Real (10)    | Consumo eléctrico.                                                                                                                             |
+| CX       | Real (10)    | Coordenada X del centroide en m.                                                                                                               |
+| CY       | Real (10)    | Coordenada y del centroide en m.                                                                                                               |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                          |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                         |
 
 </div>
 
@@ -231,9 +232,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M02A02    | Desarrolle los quices grupales indicados en esta actividad.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| M02A02    | Para las luminarias identificadas en el campus y ubicadas en postes, calcule el consumo eléctrico total en kWh.                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| M02A02    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M02A02a   | Desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| M02A02a   | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
