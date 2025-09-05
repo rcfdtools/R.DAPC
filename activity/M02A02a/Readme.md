@@ -61,7 +61,7 @@ Crear una capa tipo polígono en 2D para digitalizar el predio de la institució
 
 Atributos requeridos:
 
-<div>
+<div align="center">
 
 | Campo    | Tipo         | Descripción                                                                                                                                                       |
 |:---------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ Crear una capa tipo polígono en 2D para las construcciones y/o edificios bajo c
 
 Atributos requeridos:
 
-<div>
+<div align="center">
 
 | Campo      | Tipo         | Descripción                                                                                                                                                                            |
 |:-----------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ Crear una capa tipo línea 2D para las vías del campus, nombrar como `Vial.shp`
 
 Atributos requeridos:
 
-<div>
+<div align="center">
 
 | Campo      | Tipo         | Descripción                                                                                                                                                                                                            |
 |:-----------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Crear una capa tipo punto 2D para el arbolado del Campus, nombrar como `Arbolado
 
 Atributos requeridos:
 
-<div>
+<div align="center">
 
 | Campo       | Tipo         | Descripción                                                                                                                           |
 |:------------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------|
@@ -166,7 +166,7 @@ Crear una capa tipo punto 2D para las luminarias del campus, nombrar como `Lumin
 
 Atributos requeridos:
 
-<div>
+<div align="center">
 
 | Campo    | Tipo         | Descripción                                                                                                                                    |
 |:---------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -190,6 +190,8 @@ Atributos requeridos:
 
 Para las capas `Vial.shp`, `Arbolado.shp` y `Luminaria.shp`, cree aferencias para crear los corredores viales, el canopy o cobertura de la vegetación y las áreas iluminadas. En QGIS, utilice la herramienta _Processing Toolbox / Vector Geometry / Buffer_.
 
+<div align="center">
+
 | Capa de aferencia   | Descripción                                                    |
 |---------------------|----------------------------------------------------------------|
 | VialBuffer.shp      | Aferencia a partir de ejes viales a partir de `AnchoProm / 2`. |
@@ -210,6 +212,8 @@ Para el cálculo de los índices, cree y calcule los siguientes campos de atribu
 | ArbolIO   | Real (10)    | Índice de ocupación por canopy `ArbolIO = ArbolArea / AreaPm2`.                     |
 | LuminArea | Real (10)    | Área total iluminada en m².                                                         |
 | LuminIC   | Real (10)    | Índice de cobertura por iluminación `LuminIC = LuminArea / AreaPm2`.                |
+
+</div>
 
 > `AreaPm2` corresponde al área del lote o predio.
 
