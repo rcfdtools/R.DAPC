@@ -75,6 +75,8 @@ Atributos requeridos:
 
 </div>
 
+> Tenga en cuenta que en un archivo de formas Shapefile (.shp), los nombres de los campos de atributos no pueden contener más de 10 caracteres. 
+
 Fuentes de datos para obtención de predios y/o lotes:
 
 * Predios Bogotá D.C.: https://mapas.bogota.gov.co
@@ -85,12 +87,7 @@ Fuentes de datos para obtención de predios y/o lotes:
 
 ### 1.2. Construcción 
 
-Crear una capa tipo polígono en 2D para las construcciones y/o edificios bajo cubierta, nombrar como `Construccion.shp`.
-
-Incluir:
-
-* En las construcciones incluir elementos como: invernaderos, casetas, carpas porterías.
-* En el informe técnico analice e indique: número de construcciones identificadas, material predominante en estructuras, tipo de cubierta predominante obtenida a partir de un resumen estadístico obteniendo la sumatoria de las áreas calculadas, mapas y gráficos.
+Crear una capa tipo polígono en 2D para las construcciones y/o edificios bajo cubierta, nombrar como `Construccion.shp`. En las construcciones incluir elementos como: invernaderos, casetas, carpas porterías.
 
 Atributos requeridos:
 
@@ -102,6 +99,7 @@ Atributos requeridos:
 | AreaPm2    | Real (10)    | Área planar en m².                                                                                                                                                                     |
 | PerimPm    | Real (10)    | Perímetro planar en m.                                                                                                                                                                 |
 | Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional.                                                                                                        |
+| AreaCons   | Real (10)    | Total de área construída `AreaCons = AreaPm2 * Pisos`.                                                                                                                                 |
 | MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>• Concreto reforzado en pórticos<br>• Concreto reforzado en paneles<br>• Mampostería estructural<br>• Metálica<br>• Mixta. |
 | TipoCubier | String (100) | Tipo de cubierta predominante. Normalizar como:<br>• Teja inclinada<br>• Placa<br>• Carpa<br>• Domo<br>• Curvada continua<br>• Paneles solares<br>• Mixta.                             |
 | CX         | Real (10)    | Coordenada X del centroide en m.                                                                                                                                                       |
@@ -120,8 +118,6 @@ Construcciones Bogotá:
 ### 1.3. Vías
 
 Crear una capa tipo línea 2D para las vías del campus, nombrar como `Vial.shp`.
-
-En el informe técnico indique a partir de un resumen estadístico, la longitud total de vías por tipo y presente un mapa y una gráfica de análisis.
 
 Atributos requeridos:
 
@@ -142,8 +138,6 @@ Atributos requeridos:
 
 Crear una capa tipo punto 2D para el arbolado del Campus, nombrar como `Arbolado.shp`.
 
-En el informe técnico analice e indique: total de árboles digitalizados, total de árboles por tipo. Presentar tabla, mapa y gráfico.
-
 Atributos requeridos:
 
 <div>
@@ -152,7 +146,7 @@ Atributos requeridos:
 |:------------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------|
 | ArbolID     | Long Integer | Identificación de cada árbol. Incluir un valor consecutivo que no debe repetirse.                                                     |
 | Altura      | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario. |
-| RadioC      | Real (10)    | Ancho del canopy. Medir utilizando imagen satelital como mapa base.                                                                   |
+| RadioC      | Real (10)    | Radio de cobertura del canopy. Medir utilizando imagen satelital como mapa base.                                                      |
 | TipoArbol   | String (100) | Tipo de árbol. Normalizar como:<br>• Árbol<br>• Arbusto<br>• Planta<br>• Matorral                                                     |
 | CX          | Real (10)    | Coordenada X del centroide en m.                                                                                                      |
 | CY          | Real (10)    | Coordenada y del centroide en m.                                                                                                      |
@@ -176,7 +170,7 @@ Atributos requeridos:
 | Altura      | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario.          |
 | LumTipo     | String (100) | Tipo de luminaria. Normalizar como:<br>• LED<br>• Halogenuro Metálico (MH)<br>• Sodio (Na)                                                     |
 | Potencia    | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W |
-| RadioC      | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo.                                                          |
+| RadioC      | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.                                    |
 | CX          | Real (10)    | Coordenada X del centroide en m.                                                                                                               |
 | CY          | Real (10)    | Coordenada y del centroide en m.                                                                                                               |
 | LatDD       | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                          |
@@ -187,10 +181,32 @@ Atributos requeridos:
 > La potencia en watts o vatios en iluminación, representa la cantidad de energía eléctrica por hora que consume una lámpara.
 
 
+## 2. Aferencias e índices
 
+Para las capas `Vial.shp`, `Arbolado.shp` y `Luminaria.shp`, cree aferencias para crear los corredores viales, el canopy o cobertura de la vegetación y las áreas iluminadas. En QGIS, utilice la herramienta _Processing Toolbox / Vector Geometry / Buffer_.
 
+| Capa de aferencia   | Descripción                                                    |
+|---------------------|----------------------------------------------------------------|
+| VialBuffer.shp      | Aferencia a partir de ejes viales a partir de `AnchoProm / 2`. |
+| ArboladoBuffer.shp  | Aferencia a partir del radio de cobertura de canopy `RadioC`.  |
+| LuminariaBuffer.shp | Aferencia a partir del radio de iluminación `RadioC`.          |
 
+Para el cálculo de los índices, cree los siguientes campos de atributos en la capa `Predio.shp` y aplique los siguientes lineamientos:
 
+| Campo     | Tipo         | Descripción                                                                                        |
+|:----------|:-------------|:---------------------------------------------------------------------------------------------------|
+| ConsAreaH | Real (10)    | Área total horizontal ocupada por construcciones m². ∑ `AreaPm2` de construcciones.                |
+| ConstIO   | Real (10)    | Índice de ocupación por construcción `ConstIO = ConsAreaH / AreaPm2`. `AreaPm2` del lote o predio. |
+| ConsAreaV | Real (10)    | Área total construída m². ∑ `AreaCons`.                                                            |
+| ConstIC   | Real (10)    | Índice de construcción `ConstIC = ConsAreaV / AreaPm2`. `AreaPm2` del lote o predio.               |
+| VialArea  | Real (10)    | Área total de vías en m².                                                                          |
+| VialIO    | Real (10)    | Índice de ocupación vial `VialIO = VialArea / AreaPm2`. `AreaPm2` del lote o predio.               |
+| ArbolArea | Real (10)    | Área total cubierta por canopy de vegetación en m².                                                |
+| ArbolIO   | Real (10)    | Índice de ocupación por canopy `ArbolIO = ArbolArea / AreaPm2`. `AreaPm2` del lote o predio.       |
+| LuminArea | Real (10)    | Área total iluminada en m².                                                                        |
+| LuminIC   | Real (10)    | Índice de cobertura por iluminación `LuminIC = LuminArea / AreaPm2`. `AreaPm2` del lote o predio.  |
+
+> `AreaPm2` corresponde al área del lote o predio.
 
 
 
