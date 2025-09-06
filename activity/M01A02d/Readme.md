@@ -26,14 +26,14 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                                       | Autodesk Autocad 3D 2026 o superior.                                                                                                         |
 | [:toolbox:Herramienta](https://help.autodesk.com/view/INVNTOR/2026/ENU/?guid=GUID-AE780841-1B8B-4197-86F6-5632BA541F32) | Autodesk Inventor Interoperability 2026 o superior. Requerido para generar los planos de elementos 3D en vistas de impresión o layout views. |
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                      | Microsoft Excel 365.                                                                                                                         |
-| [:date:DAPC_VolumenAreaMasaSolido.xlsx](../../file/table/DAPC_VolumenAreaMasaSolido.xlsx)                               | Libro de cálculo para la estimación de área superficial, volúmen y masa de objetos nativos 3D.                                               |
+| [:date:DAPC_VolumenAreaMasaSolido.xlsx](../../file/table/DAPC_VolumenAreaMasaSolido.xlsx)                               | Libro de cálculo para la estimación de área superficial, volúmen y masa de objetos nativos CAD 3D.                                           |
 | [:date:DAPC_ElectricElbowBellEnd.xlsx](../../file/table/DAPC_ElectricElbowBellEnd.xlsx)                                 | Libro de cálculo con especificaciones técnicas geométricas de codos para conductos eléctricos marca LEDES.                                   |
  
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 >
-> El origen de las figuras 3D, deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y su coordenada absoluta (X) deberá desplazarse en una longitud correspondiente a la sumatoria del último dígito de los códigos de alumno de su grupo. Utilizar cero (0) en las coordenadas (Y,Z). 
+> El origen de las figuras 3D, deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y su coordenada absoluta en X deberá desplazarse en una longitud correspondiente a la sumatoria del último dígito de los códigos de alumno de su grupo. Utilizar cero (0) en las coordenadas (Y,Z). 
 
 
 ## 0. Configuración preliminar 
@@ -79,6 +79,8 @@ De forma nativa, desde el menú _Home / Modeling_, AutoCAD permite la construcci
 | <img src="../../file/graph/AutoCAD_Surfsculp.png" alt="R.DAPC" width="28" border="0" /> | Surface sculpture          | [SURFSCULPT](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-0436666E-08CB-40CA-81B3-F79BD3447006)        | Corta y combina un conjunto de superficies o mallados que encierran un espacio determinado, en un sólido 3D.                           |
 |  <img src="../../file/graph/AutoCAD_Thicken.png" alt="R.DAPC" width="28" border="0" />  | Thicken                    | [THICKEN](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-50CAFB97-22BA-4224-9B48-60D6E7ABFCF1)           | Convierte una superficie en un sólido 3D con un espesor definido.                                                                      |
 
+> A partir de objetos 2D cerrados, puede con el comando **REGION**, crear regiones 2D que luego pueden ser unidas - **UNION**, substraídas - **SUBTRACT** o intersecadas - **INTERSECT**. Para el correcto funcionamiento del comando **INTERSECT**, es necesario realizar intersecciones de 2 en 2 elementos.  
+
 
 ### Ejercicio M01A02dE01
 
@@ -98,7 +100,7 @@ Construya el sólido mostrado en la figura, calcule el volúmen, área superfici
 
 <div align="center"><img src="graph/AutoCAD_ModelingCylinder.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-4. Utilizando la misma vista, dibuje un cono de 50 unidades de altura con radio de 50 unidades.
+4. Utilizando la misma vista, dibuje un cono de 50 unidades de altura con radio de 50 unidades en la cara derecha.
 
 <div align="center"><img src="graph/AutoCAD_ModelingCone.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -139,6 +141,12 @@ Para los elementos dibujados, cree un libro en Excel que permita calcular el vol
 <div align="center"><img src="graph/Excel_VolumenAreaMasaSolido2.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 > Utilice el comando **AREA** y la opción **O**bject para calcular el área supercicial de los sólidos en AutoCAD.
+> 
+> Los momentos de inercia de la masa, que se utilizan para calcular la fuerza necesaria para girar un objeto respecto a un eje determinado, como una rueda girando alrededor de un eje. La fórmula para determinar los momentos de inercia de masa cuando el eje está fuera del objeto es `I = mr²`, donde `I` es el momento de inercia, `m` es la masa del objeto y `r` es la distancia de la masa al eje de referencia del objeto. 
+
+
+Cuando el eje de rotación atraviesa el objeto, el momento de inercia de masa depende de la forma del objeto.
+
 
 11. Suavicemos ahora las arístas anguladas del objeto creado. Primero cree una copia del objeto integrado y luego en el menú _Home / Solid / Solid Editing_, seleccione la herramienta _Fillet Edge_, defina un radio de suavizado en 5 unidades y suavice todas las aristas del cubo inicial.
 
@@ -558,6 +566,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [Autodesk AutoCAD / About Modeling 3D Objects](https://help.autodesk.com/view/ACD/2024/ENU/?guid=GUID-9DACE807-BC9D-4357-B47E-C6199F6AF1A2)
 * [Autodesk AutoCAD / About Creating 3D Surfaces](https://help.autodesk.com/view/ACD/2024/ENU/?guid=GUID-8218FF9A-6F05-47E7-A39C-47D342B942EB)
 * [Christian Tutoriales CAD / Tutorial Autocad 3D Español - pieza 11 - Engranaje Helicoidal](https://www.youtube.com/watch?v=qHwKiJhKwtI)
+* https://wiki.ead.pucv.cl/Momento_de_Inercia
 
 
 ## Control de versiones
