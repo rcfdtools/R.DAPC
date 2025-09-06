@@ -144,11 +144,7 @@ Para los elementos dibujados, cree un libro en Excel que permita calcular el vol
 > 
 > Los [momentos de inercia](https://help.autodesk.com/view/ACD/2023/ESP/?guid=GUID-CAA51229-293E-4A0C-BFF3-93226252CF13) de la masa, que se utilizan para calcular la fuerza necesaria para girar un objeto respecto a un eje determinado, como una rueda girando alrededor de un eje. La fórmula para determinar los momentos de inercia de masa cuando el eje está fuera del objeto es `I = mr²`, donde `I` es el momento de inercia, `m` es la masa del objeto y `r` es la distancia de la masa al eje de referencia del objeto. 
 
-
-Cuando el eje de rotación atraviesa el objeto, el momento de inercia de masa depende de la forma del objeto.
-
-
-11. Suavicemos ahora las arístas anguladas del objeto creado. Primero cree una copia del objeto integrado y luego en el menú _Home / Solid / Solid Editing_, seleccione la herramienta _Fillet Edge_, defina un radio de suavizado en 5 unidades y suavice todas las aristas del cubo inicial.
+11. Suavicemos ahora las arístas anguladas del objeto creado. Primero cree una copia del objeto integrado y luego en el menú _Solid / Solid Editing_, seleccione la herramienta _Fillet Edge_, defina un radio de suavizado en 5 unidades y suavice todas las aristas del cubo inicial.
 
 <div align="center"><img src="graph/AutoCAD_SolidEditingFilletEdge.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -203,10 +199,12 @@ A partir de la figura ejemplo presentada en el numeral 6 de la actividad [M01A01
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE03.dwg_.
-* Profundidad: +25 unidades.
+* Longitudes: multiplicar x 10 los valores de la figura ejemplo.
+* Profundidad: +150 unidades.
 * Circunferencias: r25 a L50 de pared externa.
 * Material: concreto.
 * Plano de referencia: front.
+* Comandos: **EXTRUDE**, **SUBTRACT**, **PRESSPULL**.
 
 <div align="center"><img src="graph/M01A02dE03.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
