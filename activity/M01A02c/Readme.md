@@ -139,7 +139,7 @@ Trace las líneas constructivas y dibuje óvalos en AutoCAD a partir de arcos ci
 
 <div align="center"><img src="graph/AutoCAD_Ovalo2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Para el dibujo de un _óvalo dado el eje mayor y el eje menor_, utilice como mayor valor una longitud igual la sumatoria del último dígito de los códigos de alumno de su grupo y como valor menor una longitud de 5/8 con respecto al valor anterior.
+3. Para el dibujo de un _óvalo dado el eje mayor y el eje menor_, utilice como mayor valor una longitud igual la sumatoria del último dígito de los códigos de alumno de su grupo y como valor menor una longitud de 4/5 con respecto al valor anterior.
 
 <div align="center"><img src="graph/AutoCAD_Ovalo3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
