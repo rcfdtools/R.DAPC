@@ -199,7 +199,7 @@ A partir de la figura ejemplo presentada en el numeral 6 de la actividad [M01A01
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE03.dwg_.
-* Longitudes: multiplicar x 10 los valores de la figura ejemplo.
+* Longitudes: utilizar los valores de la figura ejemplo mostrada en esta guía.
 * Profundidad: +150 unidades.
 * Circunferencias: r25 a L50 de pared externa.
 * Material: concreto.
@@ -544,7 +544,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad  | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:-----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A02d    | Dibuje los elementos de proyecto del grupo _3. Especificaciones eléctricas / 3a. Especificaciones generales y redes_, correspondientes a: pararrayos en 3D. Presente los elementos directrices para la generación del elemento 3D.                                                                                                                                                                                                                                                                                                                   |
+| M01A02d    | Dibuje los elementos de proyecto del grupo _3. Especificaciones eléctricas / 3a. Especificaciones generales y redes_, correspondientes a: pararrayos en 3D. Investigue qué es y para que sirve un pararrayos, dibujo y presente los elementos directrices para la generación del elemento 3D.                                                                                                                                                                                                                                                        |
 | M01A02d    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
