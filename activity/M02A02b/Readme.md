@@ -35,26 +35,40 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
-## 0. Creación de nodos
+## 0. Creación de nodos de cubierta
 
-A partir del archivo [DAPC_CubiertaNodoUECIJG.csv](../../table/DAPC_CubiertaNodoUECIJG.csv) y utilizando el CRS 9377, cree la capa geográfica de puntos. 
+A partir del archivo [DAPC_CubiertaNodoUECIJG.csv](../../file/table/DAPC_CubiertaNodoUECIJG.csv) y utilizando el CRS 9377, cree la capa geográfica de puntos. 
 
-En QGIS y desde el menú _Layer / Add Layer / Add Delimited Text Layer..._
+1. En QGIS, cree un proyecto nuevo en blanco con el nombre _/map/M02A02b.qgz_, asigne el CRS 9377 y desde el menú _Layer / Add Layer / Add Delimited Text Layer..._, cree la capa temporal de localización geográfica de puntos de cubierta.
 
-<div align="center"><img src="graph/M01A00.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Agregue el mapa base XYZ de Google Satellite desde la dirección: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
 
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Export layer as: /shp/DAPC_CubiertaNodoUECIJG.shp
-QGIS label: "CubiertaID" ||  '- '   ||  "PuntoNum"
-Simbology: Categorized
-Mapa base Google Satellite: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
+3. Desde la tabla de contenido, exporte la capa temporal a un archivo shapefile como _/shp/DAPC_CubiertaNodoUECIJG.shp_. Luego remueva la capa temporal.
 
+<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. Simbolice por categorías a partir del código de la cubierta `CubiertaID` y rotule con la expresión `"CubiertaID" ||  '- '   ||  "PuntoNum"`. Abra la tabla de atributos de la capa, observará que existen 24 grupos o zonas de cubierta.
 
+<div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+5. Para los puntos de cubierta, calcule la localización expresada en latitud y longitud en grados decimales a partir del sistema de proyección de coordenadas 4326.
 
+* Los campos LatDD y LonDD se crean con tipo Real y se deben calcular para todos los nodos.
+* Calcular usando 10 dígitos decimales y rotular con 6 decimales, usar la expresión 
+* LonDD: `x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+* LatDD: `y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
 
+<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. Cree un campo de texto de 255 caracteres que le permita localizar cada punto de cubierta en Google Maps. Con la tecla <kbd>CTRL</kbd>, de clic en cualquier link de la tabla y verifique su funcionamiento.
+
+* GoogleMaps: `'http://maps.google.com/maps?q=' || "LatDD" || ',' || "LonDD"`
+
+<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
@@ -110,6 +124,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 ## Referencias
 
 * https://www.energy.gov/eere/solar/homeowners-guide-going-solar
+* https://en.wikipedia.org/wiki/Photovoltaics
 
 
 ## Control de versiones
