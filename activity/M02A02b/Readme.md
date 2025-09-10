@@ -75,7 +75,7 @@ A partir del archivo [DAPC_CubiertaNodoUECIJG.csv](../../file/table/DAPC_Cubiert
 
 A partir de los nodos de cubierta, cree las líneas perimetrales de cada cubierta.
 
-1. Utilizando la herramienta _Processing Toolbox / Vector Creation / Point to path_, cree la capa de líneas y guarde como _/shp/DAPC_CubiertaLineaUECIJG.shp_.
+1. Utilizando la herramienta _Processing Toolbox / Vector creation / Point to path_, cree la capa de líneas y guarde como _/shp/DAPC_CubiertaLineaUECIJG.shp_.
 
 <div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -83,13 +83,49 @@ A partir de los nodos de cubierta, cree las líneas perimetrales de cada cubiert
 
 <div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. En un campo de atributos numérico real de precisión 10, calcule la longitud planar de las líneas perimetrales, nombre el campo como `LPm`.
+3. En un campo de atributos numérico real de precisión 10, calcule la longitud planar de las líneas perimetrales, nombre el campo como `LPm`. Expresión: `length(@geometry)`.
 
 <div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 En el rótulo incluya en un nuevo renglón, la longitud redondeada a dos decimales con la expresión `'Cubierta: ' || "CubiertaID" || '\nP(m): ' || round( "LPm" , 2)`. 
 
 <div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+## 3. Polígonos de cubiertas
+
+A partir de las líneas perimetrales, cree los polígonos de las cubiertas.
+
+1. Utilizando la herramienta _Processing Toolbox / Vector creation / Polygonize_, cree la capa de polígonos y guarde como _/shp/DAPC_CubiertaPoligonoUECIJG.shp_.
+
+<div align="center"><img src="graph/QGIS_Polygonize.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Ubique la cubierta del _Bloque C_ y elimine el polígono que delimita el patio interno. Abra la tabla de atributos, podrá observar que el proceso de conversión de líneas a polígonos no incluye los atributos correspondientes al código de cada cubierta.
+
+<div align="center"><img src="graph/QGIS_Edit.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Utilizando la herramienta _Processing Toolbox / Vector general / Join attributes by nearest_, una los atributos de las líneas a la capa de cubiertas, nombre como _/shp/DAPC_CubiertaPoligono1UECIJG.shp_. Remueva del mapa la capa previa de polígonos.
+
+<div align="center"><img src="graph/QGIS_JoinAttributesByNearest.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Desde el calculador de campo y con la expresión `area(@geometry)`, calcule en área planar `APm` de cada polígono, calcule también el perímetro planar `PPm` y las coordenadas planas en metros del centroide `CX` y `CY`, rotule con la expresión `'Cubierta: ' || "CubiertaID" || '\nP(m): ' || round( "LPm" , 2) || '\nA(m²): ' || round( "APm" , 2) || '\nCX(m): ' || round( "CX" , 2) || '\nCY(m): ' || round( "CY" , 2)`.
+
+Expresiones:
+
+* LPm = `length(@geometry)`
+* APm = `area(@geometry)`
+* CX = `x(@geometry)`
+* CY = `y(@geometry)`
+
+
+## 4. Área usable, número de paneles y potencial fotovoltáico
+
+
+
+
+
+
+
 
 
 
