@@ -81,6 +81,7 @@ A partir de los nodos de cubierta, cree las líneas perimetrales de cada cubiert
 
 2. Simbolice por categorías a partir del código de la cubierta `CubiertaID` y rotule con la expresión `'Cubierta:' || "CubiertaID"`. Abra la tabla de atributos de la capa, observará que existen 24 líneas perimetrales.
 
+<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
