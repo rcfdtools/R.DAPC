@@ -120,19 +120,19 @@ Expresiones:
 <div align="center"><img src="graph/QGIS_Polygonize1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 4. Área usable, número de paneles y potencial fotovoltáico
+## 4. Área usable, número de paneles, potencial fotovoltáico y costos
 
-En la tabla de atributos de la capa _DAPC_CubiertaPoligono1UECIJG.shp_, crear los siguientes campos de atributos:
+En la tabla de atributos de la capa _DAPC_CubiertaPoligono1UECIJG.shp_, crear y calcular los siguientes campos de atributos:
 
 <div align="center">
 
 | Campo | Tipo         | Descripción                                                                                                                                                                                                                                           |
 |:------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A     | Real (10)    | Área usable: utilizar el 90% del área disponible en cada polígono de cubierta `C = APm * 0.8`.                                                                                                                                                        |
+| A     | Real (10)    | Área usable: utilizar el 90% del área disponible en cada polígono de cubierta `C = APm * 0.9`.                                                                                                                                                        |
 | B     | Long Integer | Número de páneles: `B = Entero(AreaUsable/((AnchoPanelenmilimetros* AltoPanelenmilimetros)/(1000*1000)))`. Tamaño de cada panel: 1950 x 992 milímetros. QGIS: `floor("A"/((1950*992)/(1000*1000)))`. Investigar y justificar el tamaño de cada panel. |
 | C     | Real (10)    | Potencial de Kilovatios producidos por hora (Kwh): `C = B * Potencia Panel / 1000`. Potencia por panel: 330 watts-hora. Investigar y justificar la potencia por panel.                                                                                |
 | D     | Real (10)    | Real de Kilovatios producidos por hora (Kwh): `D = C / Factor Pérdida`.  Factor de Perdida: 1.43. Investigar y justificar el factor de pérdida.                                                                                                       |
-| E     | Real (10)    | Costo instalación completa en millones de pesos:  `E = D x CostoInstKwatt / 1000000`. Costo por kilowatt instalado: $20,000,000 pesos.                                                                                                                |
+| E     | Real (10)    | Costo instalación completa en millones de pesos:  `E = D x CostoInstKwatt / 1000000`. Costo por kilowatt instalado: $27,500,000 (no incluye instalación de pasarelas o líneas de vida, pararrayos y obras civiles).                                   |
 | F     | Real (10)    | Potencial de Kilovatios producidos por dia para las horas de sol efectivas (Kwh - dia): `F = C * HorasEfectivasSolDia`.  Horas efectivas de sol al día: 5 hr/día.                                                                                     |
 | G     | Real (10)    | Real Kilovatios producidos por dia (Kwh - dia): `G = F / Factor Pérdida`.                                                                                                                                                                             |
 
