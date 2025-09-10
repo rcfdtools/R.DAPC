@@ -79,12 +79,14 @@ A partir de los nodos de cubierta, cree las líneas perimetrales de cada cubiert
 
 <div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Simbolice por categorías a partir del código de la cubierta `CubiertaID` y rotule con la expresión `'Cubierta:' || "CubiertaID"`. Abra la tabla de atributos de la capa, observará que existen 24 líneas perimetrales.
+2. Simbolice por categorías a partir del código de la cubierta `CubiertaID` y rotule con la expresión `'Cubierta: ' || "CubiertaID"`. Abra la tabla de atributos de la capa, observará que existen 24 líneas perimetrales.
 
-<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. En un campo de atributos numérico real de precisión 10, calcule la longitud planar de las líneas perimetrales, nombre el campo como `LPm`. En el rótulo incluya en un nuevo renglón, la longitud redondeada a dos decimales con la expresión `'Cubierta: ' || "CubiertaID" || '\nP(m): ' || round( "LPm" , 2)`. 
 
-
+<div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
