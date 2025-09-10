@@ -1,9 +1,9 @@
 # 2.2.a. Definición y edición de elementos / Digitalización
-Keywords:  `m02a02a`
+Keywords:  `shapefile` `new_layer` `land_index` `buffer` `point` `line` `polygon` `m02a02a`
 
 Bases de datos y su manejo en SIG. Definición de elementos de un SIG (shapes, raster, vectores, etc.). Edición de elementos. Digitalización y entrada de entidades.
 
-En esta actividad realizaremos la digitalización del campus de la UECIJG.
+**Caso de estudio**: digitalización y cálculo de índices de la Universidad Escuela Colombiana de Ingeniería Julio Garavito.
 
 <div align="center"><img src="graph/m02a02a.jpg" alt="R.DAPC" width="60%" border="0" /><sub><br><a href="https://www.google.com/maps/place/Colombian+School+of+Engineering+Julio+Garavito/@4.7829367,-74.0443354,566m">https://www.google.com/maps</a></sub><br><br></div>
 
@@ -22,9 +22,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                             | Descripción                                                                                        |
-|:--------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                 | QGIS 3.44 o superior.                                                                              |  
+| Requerimiento                             | Descripción           |
+|:------------------------------------------|:----------------------|
+| [:toolbox:Herramienta](https://qgis.org/) | QGIS 3.44 o superior. |  
 
 </div>
 
