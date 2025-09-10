@@ -122,33 +122,19 @@ Expresiones:
 
 ## 4. Área usable, número de paneles y potencial fotovoltáico
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Atributos requeridos:
+En la tabla de atributos de la capa _DAPC_CubiertaPoligono1UECIJG.shp_, crear los siguientes campos de atributos:
 
 <div align="center">
 
-| Campo    | Tipo         | Descripción                                                                                                                                                       |
-|:---------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PredioID | String (200) | Consultar el catastro distrital o nacional y obtener el código CHIP o llave predial de este predio. Es necesario investigar y documentar el proceso de obtención. |
-| AreaPm2  | Real (10)    | Área planar en m².                                                                                                                                                |
-| PerimPm  | Real (10)    | Perímetro planar en m.                                                                                                                                            |
-| CX       | Real (10)    | Coordenada X del centroide en m.                                                                                                                                  |
-| CY       | Real (10)    | Coordenada y del centroide en m.                                                                                                                                  |
-| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                             |
-| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                            |
+| Campo | Tipo         | Descripción                                                                                                                                                                                                                                           |
+|:------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| A     | Real (10)    | Área usable: utilizar el 90% del área disponible en cada polígono de cubierta `C = APm * 0.8`.                                                                                                                                                        |
+| B     | Long Integer | Número de páneles: `B = Entero(AreaUsable/((AnchoPanelenmilimetros* AltoPanelenmilimetros)/(1000*1000)))`. Tamaño de cada panel: 1950 x 992 milímetros. QGIS: `floor("A"/((1950*992)/(1000*1000)))`. Investigar y justificar el tamaño de cada panel. |
+| C     | Real (10)    | Potencial de Kilovatios producidos por hora (Kwh): `C = B * Potencia Panel / 1000`. Potencia por panel: 330 watts-hora. Investigar y justificar la potencia por panel.                                                                                |
+| D     | Real (10)    | Real de Kilovatios producidos por hora (Kwh): `D = C / Factor Pérdida`.  Factor de Perdida: 1.43. Investigar y justificar el factor de pérdida.                                                                                                       |
+| E     | Real (10)    | Costo instalación completa en millones de pesos:  `E = D x CostoInstKwatt / 1000000`. Costo por kilowatt instalado: $20,000,000 pesos.                                                                                                                |
+| F     | Real (10)    | Potencial de Kilovatios producidos por dia para las horas de sol efectivas (Kwh - dia): `F = C * HorasEfectivasSolDia`.  Horas efectivas de sol al día: 5 hr/día.                                                                                     |
+| G     | Real (10)    | Real Kilovatios producidos por dia (Kwh - dia): `G = F / Factor Pérdida`.                                                                                                                                                                             |
 
 </div>
 
@@ -164,7 +150,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | M02A02b   | Desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| M02A02b  | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M02A02b   | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
@@ -182,7 +168,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.08.29 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  12   |
+| 2025.09.10 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   8   |
 
 
 ##
