@@ -117,6 +117,8 @@ Expresiones:
 * CX = `x(@geometry)`
 * CY = `y(@geometry)`
 
+<div align="center"><img src="graph/QGIS_Polygonize1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 
 ## 4. Área usable, número de paneles y potencial fotovoltáico
 
