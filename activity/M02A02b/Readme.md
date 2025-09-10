@@ -23,10 +23,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                | Descripción                                                                        |
-|:-----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                    | QGIS 3.44 o superior.                                                              |  
-| [:date:DAPC_CubiertaNodoUECIJG.csv](../../table/DAPC_CubiertaNodoUECIJG.csv) | Tabla con geo-localizadores de nodos para generación de áreas útiles por cubierta. |
+| Requerimiento                                                                     | Descripción                                                                        |
+|:----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                         | QGIS 3.44 o superior.                                                              |  
+| [:date:DAPC_CubiertaNodoUECIJG.csv](../../file/table/DAPC_CubiertaNodoUECIJG.csv) | Tabla con geo-localizadores de nodos para generación de áreas útiles por cubierta. |
 
 </div>
 
