@@ -35,7 +35,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
-## 0. Creación de nodos de cubierta
+## 1. Creación de nodos de cubiertas
 
 A partir del archivo [DAPC_CubiertaNodoUECIJG.csv](../../file/table/DAPC_CubiertaNodoUECIJG.csv) y utilizando el CRS 9377, cree la capa geográfica de puntos. 
 
@@ -51,7 +51,7 @@ A partir del archivo [DAPC_CubiertaNodoUECIJG.csv](../../file/table/DAPC_Cubiert
 
 <div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-4. Simbolice por categorías a partir del código de la cubierta `CubiertaID` y rotule con la expresión `"CubiertaID" ||  '- '   ||  "PuntoNum"`. Abra la tabla de atributos de la capa, observará que existen 24 grupos o zonas de cubierta.
+4. Simbolice por categorías a partir del código de la cubierta `CubiertaID` y rotule con la expresión `"CubiertaID" ||  '- '   ||  "PuntoNum"`. Abra la tabla de atributos de la capa, observará que existen 24 grupos o zonas de cubierta y 259 nodos.
 
 <div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -64,15 +64,22 @@ A partir del archivo [DAPC_CubiertaNodoUECIJG.csv](../../file/table/DAPC_Cubiert
 
 <div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-6. Cree un campo de texto de 255 caracteres que le permita localizar cada punto de cubierta en Google Maps. Con la tecla <kbd>CTRL</kbd>, de clic en cualquier link de la tabla y verifique su funcionamiento.
+6. Cree un campo de texto de 255 caracteres que le permita localizar cada punto de cubierta en Google Maps. Detenga la edición de la tabla y con la tecla <kbd>CTRL</kbd>, de clic en cualquier link de la tabla para verificar su funcionamiento.
 
 * GoogleMaps: `'http://maps.google.com/maps?q=' || "LatDD" || ',' || "LonDD"`
 
 <div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 2. Creación de líneas perimetrales de cubiertas
 
+A partir de los nodos de cubierta, cree las líneas perimetrales de cada cubierta.
 
+1. Utilizando la herramienta _Processing Toolbox / Vector Creation / Point to path_, cree la capa de líneas y guarde como _/shp/DAPC_CubiertaLineaUECIJG.shp_.
+
+<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Simbolice por categorías a partir del código de la cubierta `CubiertaID` y rotule con la expresión `'Cubierta:' || "CubiertaID"`. Abra la tabla de atributos de la capa, observará que existen 24 líneas perimetrales.
 
 
 
