@@ -12,7 +12,9 @@ Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipul
 Al finalizar esta actividad, el estudiante:
 
 * Elabora mapas y planos.
-* Manipula imágenes. 
+* Manipula imágenes de modelos digitales de elevación.
+* Crea líneas 3D.
+* Calcula aferencia e identifica predios afectados.
 
 
 ## Requerimientos
