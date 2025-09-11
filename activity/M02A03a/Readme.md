@@ -1,7 +1,7 @@
-# 2.2.b. Definición y edición de elementos / Potencial fotovoltáico
-Keywords:  `photovoltaic` `solar-panel` `m02a02b`
+# 2.3.a. Mapas e imágenes / Modelos digitales de elevación DEM - Aislamientos RETIE
+Keywords:  `dem` `copernicus` `powerline-offset` `m02a03a`
 
-Bases de datos y su manejo en SIG. Creación y edición de tablas relacionales. Generación de entidades geográficas.                                                                                    
+Bases de datos y su manejo en SIG. Creación y edición de tablas relacionales.                                                                                       
 
 **Caso de estudio**: cálculo de energía fotovoltáica que puede ser producida instalando paneles solares en las cubiertas de los diferentes edificios de la Universidad Escuela Colombiana de Ingeniería Julio Garavito.
 
