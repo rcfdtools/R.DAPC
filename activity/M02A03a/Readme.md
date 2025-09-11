@@ -4,7 +4,7 @@ Keywords:  `dem` `copernicus` `powerline-offset` `m02a03a`
 Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de modelos digitales de elevación.                                                                                                   
 **Caso de estudio**: análisis de aislamientos y longitud 3D de líneas de energía en proyectos de interconexión energética.
 
-<div align="center"><img src="graph/m02a03a.png" alt="R.DAPC" width="50%" border="0" /><sub><br>Tomado de: <a href="https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx">https://onl.dnp.gov.co/</a></sub><br><br></div>
+<div align="center"><img src="graph/m02a03a.jpg" alt="R.DAPC" width="50%" border="0" /><sub><br>Tomado de: <a href="https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx">https://onl.dnp.gov.co/</a></sub><br><br></div>
 
 
 ## Objetivos
