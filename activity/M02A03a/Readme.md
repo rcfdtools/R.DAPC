@@ -1,11 +1,10 @@
 # 2.3.a. Mapas e imágenes / Modelos digitales de elevación DEM - Aislamientos RETIE
 Keywords:  `dem` `copernicus` `powerline-offset` `m02a03a`
 
-Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de modelos digitales de elevación.                                                                                                    
-
+Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de modelos digitales de elevación.                                                                                                   
 **Caso de estudio**: análisis de aislamientos y longitud 3D de líneas de energía en proyectos de interconexión energética.
 
-<div align="center"><img src="graph/m02a03a.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/m02a03a.png" alt="R.DAPC" width="50%" border="0" /><sub><br>Tomado de: <a href="https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx">https://onl.dnp.gov.co/</a></sub><br><br></div>
 
 
 ## Objetivos
@@ -70,6 +69,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://www.minenergia.gov.co/es/sala-de-prensa/noticias-index/colombia-y-panam%C3%A1-avanzan-en-la-integraci%C3%B3n-energ%C3%A9tica-a-trav%C3%A9s-de-la-interconexi%C3%B3n-el%C3%A9ctrica/
 * https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx
+* https://www.enel.com.co/content/dam/enel-co/espa%C3%B1ol/7-prensa/2020/diciembre/Respeto-por-las-distancias-minimas-con-la-red-de-energia-en-proyectos-de-construccion-salva-vidas.pdf
 
 
 ## Control de versiones
