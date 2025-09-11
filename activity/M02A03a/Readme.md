@@ -1,20 +1,19 @@
 # 2.3.a. Mapas e imágenes / Modelos digitales de elevación DEM - Aislamientos RETIE
 Keywords:  `dem` `copernicus` `powerline-offset` `m02a03a`
 
-Bases de datos y su manejo en SIG. Creación y edición de tablas relacionales.                                                                                       
+Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de modelos digitales de elevación.                                                                                                    
 
-**Caso de estudio**: cálculo de energía fotovoltáica que puede ser producida instalando paneles solares en las cubiertas de los diferentes edificios de la Universidad Escuela Colombiana de Ingeniería Julio Garavito.
+**Caso de estudio**: análisis de aislamientos y longitud 3D de líneas de energía en proyectos de interconexión energética.
 
-<div align="center"><img src="graph/m02a02b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/m02a03a.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 ## Objetivos
 
 Al finalizar esta actividad, el estudiante:
 
-* Comprende el uso de las bases de datos en SIG.
-* Realiza ejercicios prácticos en los que define y edita elementos de un SIG.
-* Crea y edita tablas relacionales.
+* Elabora mapas y planos.
+* Manipula imágenes. 
 
 
 ## Requerimientos
@@ -35,108 +34,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
-## 1. Creación de nodos de cubiertas
-
-A partir del archivo [DAPC_CubiertaNodoUECIJG.csv](../../file/table/DAPC_CubiertaNodoUECIJG.csv) y utilizando el CRS 9377, cree la capa geográfica de puntos. 
-
-1. En QGIS, cree un proyecto nuevo en blanco con el nombre _/map/M02A02b.qgz_, asigne el CRS 9377 y desde el menú _Layer / Add Layer / Add Delimited Text Layer..._, cree la capa temporal de localización geográfica de puntos de cubierta.
-
-<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-2. Agregue el mapa base XYZ de Google Satellite desde la dirección: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
-
-<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-3. Desde la tabla de contenido, exporte la capa temporal a un archivo shapefile como _/shp/DAPC_CubiertaNodoUECIJG.shp_. Luego remueva la capa temporal.
-
-<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-4. Simbolice por categorías a partir del código de la cubierta `CubiertaID` y rotule con la expresión `"CubiertaID" ||  '- '   ||  "PuntoNum"`. Abra la tabla de atributos de la capa, observará que existen 24 grupos o zonas de cubierta y 259 nodos.
-
-<div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-5. Para los puntos de cubierta, calcule la localización expresada en latitud y longitud en grados decimales a partir del sistema de proyección de coordenadas 4326.
-
-* Los campos LatDD y LonDD se crean con tipo Real y se deben calcular para todos los nodos.
-* Calcular usando 10 dígitos decimales y rotular con 6 decimales, usar la expresión 
-* LonDD: `x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
-* LatDD: `y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
-
-<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-6. Cree un campo de texto de 255 caracteres que le permita localizar cada punto de cubierta en Google Maps. Detenga la edición de la tabla y con la tecla <kbd>CTRL</kbd>, de clic en cualquier link de la tabla para verificar su funcionamiento.
-
-* GoogleMaps: `'http://maps.google.com/maps?q=' || "LatDD" || ',' || "LonDD"`
-
-<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-
-## 2. Creación de líneas perimetrales de cubiertas
-
-A partir de los nodos de cubierta, cree las líneas perimetrales de cada cubierta.
-
-1. Utilizando la herramienta _Processing Toolbox / Vector creation / Point to path_, cree la capa de líneas y guarde como _/shp/DAPC_CubiertaLineaUECIJG.shp_.
-
-<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-2. Simbolice por categorías a partir del código de la cubierta `CubiertaID` y rotule con la expresión `'Cubierta: ' || "CubiertaID"`. Abra la tabla de atributos de la capa, observará que existen 24 líneas perimetrales.
-
-<div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-3. En un campo de atributos numérico real de precisión 10, calcule la longitud planar de las líneas perimetrales, nombre el campo como `LPm`. Expresión: `length(@geometry)`.
-
-<div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-En el rótulo incluya en un nuevo renglón, la longitud redondeada a dos decimales con la expresión `'Cubierta: ' || "CubiertaID" || '\nP(m): ' || round( "LPm" , 2)`. 
-
-<div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-
-## 3. Polígonos de cubiertas
-
-A partir de las líneas perimetrales, cree los polígonos de las cubiertas.
-
-1. Utilizando la herramienta _Processing Toolbox / Vector creation / Polygonize_, cree la capa de polígonos y guarde como _/shp/DAPC_CubiertaPoligonoUECIJG.shp_.
-
-<div align="center"><img src="graph/QGIS_Polygonize.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-2. Ubique la cubierta del _Bloque C_ y elimine el polígono que delimita el patio interno. Abra la tabla de atributos, podrá observar que el proceso de conversión de líneas a polígonos no incluye los atributos correspondientes al código de cada cubierta.
-
-<div align="center"><img src="graph/QGIS_Edit.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-3. Utilizando la herramienta _Processing Toolbox / Vector general / Join attributes by nearest_, una los atributos de las líneas a la capa de cubiertas, nombre como _/shp/DAPC_CubiertaPoligono1UECIJG.shp_. Remueva del mapa la capa previa de polígonos.
-
-<div align="center"><img src="graph/QGIS_JoinAttributesByNearest.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-4. Desde el calculador de campo y con la expresión `area(@geometry)`, calcule en área planar `APm` de cada polígono, calcule también el perímetro planar `PPm` y las coordenadas planas en metros del centroide `CX` y `CY`, rotule con la expresión `'Cubierta: ' || "CubiertaID" || '\nP(m): ' || round( "LPm" , 2) || '\nA(m²): ' || round( "APm" , 2) || '\nCX(m): ' || round( "CX" , 2) || '\nCY(m): ' || round( "CY" , 2)`.
-
-Expresiones:
-
-* LPm = `length(@geometry)`
-* APm = `area(@geometry)`
-* CX = `x(@geometry)`
-* CY = `y(@geometry)`
-
-<div align="center"><img src="graph/QGIS_Polygonize1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-
-## 4. Área usable, número de paneles, potencial fotovoltáico y costos
-
-En la tabla de atributos de la capa _DAPC_CubiertaPoligono1UECIJG.shp_, crear y calcular los siguientes campos de atributos:
-
-<div align="center">
-
-| Campo | Tipo         | Descripción                                                                                                                                                                                                                                                  |
-|:------|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A     | Real (10)    | Área usable: utilizar el 90% del área disponible en cada polígono de cubierta `C = APm * 0.9`.                                                                                                                                                               |
-| B     | Long Integer | Número de páneles: `B = Entero(AreaUsable / ((AnchoPanelenmilimetros * AltoPanelenmilimetros) / (1000 * 1000)))`. Tamaño de cada panel: 1950 x 992 milímetros. QGIS: `floor("A"/((1950*992)/(1000*1000)))`. Investigar y justificar el tamaño de cada panel. |
-| C     | Real (10)    | Potencial de Kilovatios producidos por hora (Kwh): `C = B * Potencia Panel / 1000`. Potencia por panel: 330 watts-hora. Investigar y justificar la potencia por panel.                                                                                       |
-| D     | Real (10)    | Real de Kilovatios producidos por hora (Kwh): `D = C / Factor Pérdida`.  Factor de Perdida: 1.43. Investigar y justificar el factor de pérdida.                                                                                                              |
-| E     | Real (10)    | Costo instalación completa en millones de pesos:  `E = D * CostoInstKwatt / 1000000`. Costo por kilowatt instalado: $27,500,000 (no incluye instalación de pasarelas o líneas de vida, pararrayos y obras civiles).                                          |
-| F     | Real (10)    | Potencial de Kilovatios producidos por dia para las horas de sol efectivas (Kwh - dia): `F = C * HorasEfectivasSolDia`.  Horas efectivas de sol al día: 5 hr/día. Investigar y justificar el número de horas efectivas de sol en Bogotá D.C.                 |
-| G     | Real (10)    | Real Kilovatios producidos por dia (Kwh - dia): `G = F / Factor Pérdida`.                                                                                                                                                                                    |
-
-</div>
+## 1. xxxx
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -149,9 +47,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M02A02b   | Desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado. Presentar informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas. Incluir en la carpeta /shp, las capas creadas. Investigar especificaciones técnicas y costos de instalación por KW solar instalado.                                                                                                                                                                                                                 |
-| M02A02b   | En AutoCAD y con ayuda del commando **ARRAY**, distribuya en cada cubierta los paneles solares estimados en esta actividad. Guardar como _/cad/DAPC_CubiertaSolarUECIJG.dwg_. Cree una capa geográfica que incorpore la distribución de los páneles solares y asocie cada elemento a la cubierta correspondiente a través del campo `CubiertaID`, guardar como _/shp/DAPC_CubiertaSolarUECIJG.shp_.                                                                                                                                                  |
-| M02A02b   | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M02A03a   | Desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado. Presentar informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas. Incluir en la carpeta /shp, las capas creadas.                                                                                                                                                                                                                                                                                                      |
+| M02A03a   | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
@@ -161,15 +58,14 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* https://www.energy.gov/eere/solar/homeowners-guide-going-solar
-* https://en.wikipedia.org/wiki/Photovoltaics
+* https://www.minenergia.gov.co/es/sala-de-prensa/noticias-index/colombia-y-panam%C3%A1-avanzan-en-la-integraci%C3%B3n-energ%C3%A9tica-a-trav%C3%A9s-de-la-interconexi%C3%B3n-el%C3%A9ctrica/
 
 
 ## Control de versiones
 
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.09.10 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   8   |
+| Versión     | Descripción        | Autor                                      | Horas |
+|-------------|:-------------------|--------------------------------------------|:-----:|
+| 2025.09.11 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   8   |
 
 
 ##
@@ -179,7 +75,7 @@ _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M02A02a/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente :arrow_forward:](../M02A02c/Readme.md) |
-|----------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------|
+| [:arrow_backward: Anterior](../M02A02b/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente :arrow_forward:](../M02A03b/Readme.md) |
+|----------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|-----------------------------------------------------|
 
 [^1]: 
