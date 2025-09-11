@@ -3,7 +3,7 @@ Keywords: `electrical-ilumination` `upz` `bogota` `energy` `hydraulic-energy` `e
 
 Simbología y estadísticas generales. Tablas relacionales.
 
-**Caso de estudio**: analizaremos la capa geográfica de Luminarias por Unidad de Planeamiento Zonal - UPZ de la ciudad de Bogotá - Colombia - Suramérica.
+**Caso de estudio**: analizaremos la capa geográfica de luminarias por Unidad de Planeamiento Zonal - UPZ de la ciudad de Bogotá - Colombia - Suramérica.
 
 <div align="center"><img src="graph/m02a01b.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 

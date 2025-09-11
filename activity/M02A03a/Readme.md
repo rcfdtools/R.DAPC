@@ -34,7 +34,17 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
-## 1. xxxx
+## 0. Procedimiento general
+
+* Identificación de zonas de estudio por municipio para cada grupo de proyecto.
+* Integración y recorte de líneas de interconexión. Extracción de nodos de localización de subestaciones.
+* Creación de polígono envolvente.
+* Obtención de modelo digital de elevación Copernicus.
+* Segmentación de líneas a partir de la separación por tipo de tensión eléctrica, p. ej. alta tensión entre 350 y 1700m, media tensión entre 275 y 455 y baja tensión 100 metros.
+* Obtención de cota 3D por torre.
+* Cálculo de distancias 3D entre torres.
+* Cálculo de longitudes 3D en líneas de interconexión. Cálculo de catenaria y longitud real de cableado.
+* Análisis de aislamientos e identificación de predios usando directrices del RETIE.
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -59,13 +69,14 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 ## Referencias
 
 * https://www.minenergia.gov.co/es/sala-de-prensa/noticias-index/colombia-y-panam%C3%A1-avanzan-en-la-integraci%C3%B3n-energ%C3%A9tica-a-trav%C3%A9s-de-la-interconexi%C3%B3n-el%C3%A9ctrica/
+* https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx
 
 
 ## Control de versiones
 
-| Versión     | Descripción        | Autor                                      | Horas |
-|-------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.09.11 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   8   |
+| Versión      | Descripción        | Autor                                      | Horas |
+|--------------|:-------------------|--------------------------------------------|:-----:|
+| 2025.09.11   | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   8   |
 
 
 ##
