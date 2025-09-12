@@ -58,10 +58,17 @@ Descargue la capa de Municipios de Colombia y exporte el polígono geográfico d
 
 1. Ingrese al portal https://www.colombiaenmapas.gov.co/, busque el servicio _Municipios, Distritos y Áreas no municipalizadas de Colombia_ y descargue en formato shapefile. Guardar el comprimido como en [/data/IGAC/IGAC_Municipio.zip](../../file/data/IGAC/IGAC_Municipio_20250912.zip).
 
+<div align="center"><img src="graph/wwwColombiaEnMapas_Municipio.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 2. Desde el mismo portal, descargue la capa shapefile de _Centros poblados y cabeceras municipales de Colombia_. Guardar el comprimido como en [/data/DANE/DANE_CentroUrbano.rar](../../file/data/DANE/DANE_CentroUrbano_20250912.rar).
+
+> Cabeceras y centros poblados de Colombia delimitados por el DANE dentro del Marco Geo-estadístico Nacional año 2020. Las cabeceras municipales son áreas geográficas delimitadas por el perímetro censal. A su interior se localiza la sede administrativa del municipio, es decir la alcaldía. Los centros poblados son concentraciones mínimo de veinte (20) viviendas contiguas, vecinas o adosadas entre sí, ubicados en el área resto municipal o en un área no municipalizada.
+
+<div align="center"><img src="graph/wwwColombiaEnMapas_CabeceraUrbana.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 3. Desde el portal https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx, descargue las capas geográficas de líneas de transmisión eléctrica y subestaciones del sistema nacional y regional. Guardar los comprimidos en /data/DNP como [LineasTransmisionSTN.zip](../../file/data/DNP/LineasTransmisionSTN.zip), [LineasTransmisionSTR.zip](../../file/data/DNP/LineasTransmisionSTR.zip), [SubestacionesSTN.zip](../../file/data/DNP/SubestacionesSTN.zip), [SubestacionesSTR.zip](../../file/data/DNP/SubestacionesSTR.zip).
 
+<div align="center"><img src="graph/wwwDNP_EnergiaElectrica.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
