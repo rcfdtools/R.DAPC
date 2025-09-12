@@ -102,7 +102,7 @@ Para la simbología y rotulación, utilice la siguiente tabla de homologación:
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-6. En las tablas de atributos de las capas de líneas de transmisión y subestaciones, cree un campo de texto de 50 de longitud con el nombre `STTipo` correspondiente al tipo de sistema de transmisión. Con el calculador de campo o _Field Calculator_ de las tablas, para los elementos del sistema nacional asigne _STN - Nacional_ y para los regionales _STR - Regional_.
+6. En las tablas de atributos de las capas de líneas de transmisión y subestaciones, cree un campo de texto de 20 de longitud con el nombre `STTipo` correspondiente al tipo de sistema de transmisión. Con el calculador de campo o _Field Calculator_ de las tablas, para los elementos del sistema nacional asigne _STN - Nacional_ y para los regionales _STR - Regional_.
 
 <div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
