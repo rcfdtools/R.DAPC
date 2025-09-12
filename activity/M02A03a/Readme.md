@@ -70,6 +70,19 @@ Descargue la capa de Municipios de Colombia y exporte el polígono geográfico d
 
 <div align="center"><img src="graph/wwwDNP_EnergiaElectrica.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. En la carpeta _/shp_, descomprima las capas geográficas obtenidas en formato shapefile.
+
+5. Cree un proyecto nuevo en QGIS, cargue las capas y renombre.
+
+Renombrar como
+* MGN_URB_AREA_CENSAL.shp -> DANE_CentroUrbano.shp
+* 
+
+
+
+
+
+
 
 
 
