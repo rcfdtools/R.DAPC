@@ -1,7 +1,8 @@
 # 2.3.a. Mapas e imágenes / Modelos digitales de elevación DEM - Red de interconexión energética 3D y aislamientos RETIE
 Keywords:  `dem` `copernicus` `powerline-offset` `m02a03a`
 
-Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de modelos digitales de elevación.                                                                                                   
+Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de modelos digitales de elevación. 
+
 **Caso de estudio**: análisis de aislamientos y longitud 3D de líneas de energía en proyectos de interconexión energética.
 
 <div align="center"><img src="graph/m02a03a.jpg" alt="R.DAPC" width="50%" border="0" /><sub><br>Tomado de: <a href="https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx">https://onl.dnp.gov.co/</a></sub><br><br></div>
@@ -37,6 +38,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 0. Procedimiento general
 
+* Descarga de municipios de Colombia.
 * Identificación de zonas de estudio por municipio para cada grupo de proyecto.
 * Integración y recorte de líneas de interconexión. Extracción de nodos de localización de subestaciones.
 * Creación de polígono envolvente.
@@ -46,6 +48,26 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 * Cálculo de distancias 3D entre torres.
 * Cálculo de longitudes 3D en líneas de interconexión. Cálculo de catenaria y longitud real de cableado.
 * Análisis de aislamientos e identificación de predios usando directrices del RETIE.
+
+
+## 1. Identificación de zona de estudio
+
+Descargue la capa de Municipios de Colombia y exporte el polígono geográfico del municipio asignado a su grupo de proyecto. Para el ejemplo de clase utilizaremos el límite geopolítico de la ciudad de Bogotá D.C.
+
+> Los municipios se representan sobre cartografía del IGAC, acorde a lo establecido en la Ley 1447 de 2011 y su Decreto Reglamentario 1170 de 2015. Para el caso de los Distritos, la definición y modificación de sus límites está estipulado en la Ley 1617 de 2013. Las áreas No Municipalizadas, hacen parte de la división territorial, pero no son entidades territoriales (artículo 285 y 286 de la Constitución Política de Colombia, 1991); la categorización de cada municipio se establece de conformidad con la Ley 617 de 2000. La información sobre los límites municipales, está sujeta a las actualizaciones de los resultados de las operaciones administrativas de deslinde y las decisiones tomadas por los competentes (Asambleas departamentales y Congreso de la Republica).
+
+1. Ingrese al portal https://www.colombiaenmapas.gov.co/, busque el servicio _Municipios, Distritos y Áreas no municipalizadas de Colombia_ y descargue en formato shapefile. Guardar el comprimido como en [/data/IGAC/IGAC_Municipio.zip](../../file/data/IGAC/IGAC_Municipio_20250912.zip).
+
+2. Desde el mismo portal, descargue la capa shapefile de _Centros poblados y cabeceras municipales de Colombia_. Guardar el comprimido como en [/data/DANE/DANE_CentroUrbano.rar](../../file/data/DANE/DANE_CentroUrbano_20250912.rar).
+
+3. Desde el portal https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx, descargue las capas geográficas de líneas de transmisión eléctrica y subestaciones del sistema nacional y regional. Guardar los comprimidos en /data/DNP como [LineasTransmisionSTN.zip](../../file/data/DNP/LineasTransmisionSTN.zip), [LineasTransmisionSTR.zip](../../file/data/DNP/LineasTransmisionSTR.zip), [SubestacionesSTN.zip](../../file/data/DNP/SubestacionesSTN.zip), [SubestacionesSTR.zip](../../file/data/DNP/SubestacionesSTR.zip).
+
+
+
+
+
+
+
 
 
 ## Actividades de proyecto :triangular_ruler:
