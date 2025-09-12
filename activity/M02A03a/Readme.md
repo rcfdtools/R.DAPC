@@ -50,7 +50,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 * Análisis de aislamientos e identificación de predios usando directrices del RETIE.
 
 
-## 1. Identificación de zona de estudio
+## 1. Identificación de zona de estudio, redes y estaciones
 
 Descargue la capa de Municipios de Colombia y exporte el polígono geográfico del municipio asignado a su grupo de proyecto. Para el ejemplo de clase utilizaremos el límite geopolítico de la ciudad de Bogotá D.C.
 
@@ -72,14 +72,39 @@ Descargue la capa de Municipios de Colombia y exporte el polígono geográfico d
 
 4. En la carpeta _/shp_, descomprima las capas geográficas obtenidas en formato shapefile.
 
-5. Cree un proyecto nuevo en QGIS, cargue las capas y renombre.
+5. Cree un proyecto nuevo en QGIS, asigne el CRS 9377, cargue las capas y desde el panel _Browser_ renombre como:
 
-Renombrar como
 * MGN_URB_AREA_CENSAL.shp -> DANE_CentroUrbano.shp
-* 
+* LineasTransmisionSTN.shp -> UPME_LineaTransmisionSTN.shp
+* LineasTransmisionSTR.shp -> UPME_LineaTransmisionSTR.shp
+* SubestacionesSTN.shp -> UPME_SubestacionSTN.shp
+* SubestacionesSTR.shp -> UPME_SubestacionSTR.shp
+* Municipio, Distrito y Area no municipalizada.shp -> IGAC_Municipio.shp
 
+Simbolice y rotule las líneas de transmisión a partir del campo `id_tension`. Tenga en cuenta que la tabla de atributos dispone de códigos de dominio del 17 al 26 y no de rótulos asociados a la tensión eléctrica.
 
+Para la simbología y rotulación, utilice la siguiente tabla de homologación:
 
+<div align="center">
+
+| id_tension |  Tensión(kW)  | Color Hex |
+|:----------:|:-------------:|-----------|
+|     0      |     <110      | #7a7a7a   |
+|     17     |     <110      | #7a7a7a   |
+|     18     |     <110      | #7a7a7a   |
+|     19     |      110      | #007f2e   |
+|     21     |      115      | #5bdd31   |
+|     24     |      220      | #fad522   |
+|     25     |      230      | #f08b01   |
+|     26     |      500      | #e70b1e   |
+
+</div>
+
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. En las tablas de atributos de las capas de líneas de transmisión y subestaciones, cree un campo de texto de 50 de longitud con el nombre `STTipo` correspondiente al tipo de sistema de transmisión. Con el calculador de campo o _Field Calculator_ de las tablas, para los elementos del sistema nacional asigne _STN - Nacional_ y para los regionales _STR - Regional_.
+
+<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
