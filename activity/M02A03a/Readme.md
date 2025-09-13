@@ -106,7 +106,7 @@ Para la simbología y rotulación, utilice la siguiente tabla de homologación:
 
 <div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-7. Con la herramienta Processing _Toolbox / Vector general / Merge vector layers_, combine las capas de líneas de transmisión cómo _/file/shp/UPME_LineaTransmision.shp_, luego repita este procedimiento para combinar las capas de nodos de localización de las subestaciones eléctricas, guarde cómo _/file/shp/UPME_Subestacion.shp_. Utilice en la combinación el CRS 9377.
+7. Con la herramienta _Processing Toolbox / Vector general / Merge vector layers_, combine las capas de líneas de transmisión cómo _/file/shp/UPME_LineaTransmision.shp_, luego repita este procedimiento para combinar las capas de nodos de localización de las subestaciones eléctricas, guarde cómo _/file/shp/UPME_Subestacion.shp_. Utilice en la combinación el CRS 9377.
 
 <div align="center"><img src="graph/QGIS_MergeVectorLayers.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_MergeVectorLayers1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
@@ -128,7 +128,7 @@ Para el análisis de las redes eléctricas y subestaciones, utilizaremos como l�
 
 <div align="center"><img src="graph/QGIS_QueryBuilder.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Con la herramienta Processing _Toolbox / Vector overlay / Clip_, recorte a partir del límite de la ciudad la capa _UPME_LineaTransmision.shp_, guarde como _/shp/UPME_LineaTransmisionBogota.shp_. Simbolice por categorías a partir del valor del campo `UPME_Tensi`. Observará que en la ciudad solo existen líneas de transmisión <110, de 115 y 230 kW.
+2. Con la herramienta _Processing Toolbox / Vector overlay / Clip_, recorte a partir del límite de la ciudad la capa _UPME_LineaTransmision.shp_, guarde como _/shp/UPME_LineaTransmisionBogota.shp_. Simbolice por categorías a partir del valor del campo `UPME_Tensi`. Observará que en la ciudad solo existen líneas de transmisión <110, de 115 y 230 kW.
 
 <div align="center"><img src="graph/QGIS_Clip.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -136,7 +136,22 @@ Para el análisis de las redes eléctricas y subestaciones, utilizaremos como l�
 
 <div align="center"><img src="graph/QGIS_Clip1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. En la tabla de atributos de la capa _UPME_LineaTransmisionBogota.shp_, cree un campo de atributos Real de 10 de precisión con el nombre `LPkm2D` y desde el calculador de campo calcule la longitud planar en kilómetros de las diferentes entidades.
 
+<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. Utilizando la herramienta _Processing Toolbox / Vector Analysis / Statistics by categories_, cree una tabla de resumen estadístico por nivel de tensión y sumando las longitudes en kilómetros, nombre como _/table/UPME_LineaTransmisionBogotaStat.csv_.
+
+<div align="center"><img src="graph/QGIS_StatisticsByCategories.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. Utilizando el complemento _Data Plotly_, cree una gráfica de pastel que represente el total de las longitudes de la red para cada categoría. Podrá observar que  
+
+<div align="center"><img src="graph/QGIS_DataPlotly.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_DataPlotly1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
+## 3.  
 
 
 
