@@ -92,4 +92,11 @@ Ancho columnas libros Excel proyecto
 =IF('5.Planos'!I17>0,'5.Planos'!I17,"")
 =IF('6.Archivos'!H18>0,'6.Archivos'!H18,"")
 
-
+DEM
+* Creación de polígono envolvente.
+* Obtención de modelo digital de elevación Copernicus.
+* Segmentación de líneas a partir de la separación por tipo de tensión eléctrica, p. ej. alta tensión entre 350 y 1700m, media tensión entre 275 y 455 y baja tensión 100 metros.
+* Obtención de cota 3D por torre.
+* Cálculo de distancias 3D entre torres.
+* Cálculo de longitudes 3D en líneas de interconexión. Cálculo de catenaria y longitud real de cableado.
+* Análisis de aislamientos e identificación de predios usando directrices del RETIE.

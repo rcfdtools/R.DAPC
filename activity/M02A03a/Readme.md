@@ -3,7 +3,7 @@ Keywords:  `dem` `copernicus` `powerline-offset` `m02a03a`
 
 Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de modelos digitales de elevación. 
 
-**Caso de estudio**: análisis de aislamientos y longitud 3D de líneas de energía en proyectos de interconexión energética.
+**Caso de estudio**: análisis de aislamientos y longitud 2D de líneas de energía en red de interconexión energética nacional de Colombia.
 
 <div align="center"><img src="graph/m02a03a.jpg" alt="R.DAPC" width="50%" border="0" /><sub><br>Tomado de: <a href="https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx">https://onl.dnp.gov.co/</a></sub><br><br></div>
 
@@ -34,20 +34,6 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
 >
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
-
-
-## 0. Procedimiento general
-
-* Descarga de municipios de Colombia.
-* Identificación de zonas de estudio por municipio para cada grupo de proyecto.
-* Integración y recorte de líneas de interconexión. Extracción de nodos de localización de subestaciones.
-* Creación de polígono envolvente.
-* Obtención de modelo digital de elevación Copernicus.
-* Segmentación de líneas a partir de la separación por tipo de tensión eléctrica, p. ej. alta tensión entre 350 y 1700m, media tensión entre 275 y 455 y baja tensión 100 metros.
-* Obtención de cota 3D por torre.
-* Cálculo de distancias 3D entre torres.
-* Cálculo de longitudes 3D en líneas de interconexión. Cálculo de catenaria y longitud real de cableado.
-* Análisis de aislamientos e identificación de predios usando directrices del RETIE.
 
 
 ## 1. Exploración e integración de líneas de transmisión y subestaciones
@@ -132,7 +118,7 @@ Para el análisis de las redes eléctricas y subestaciones, utilizaremos como l�
 
 <div align="center"><img src="graph/QGIS_Clip.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Repita el procedimiento anterior para obtener las subestaciones eléctricas que se encuentran dentro de la ciudad, guarde como _/shp/UPME_SubestacionBogota.shp_. Observará que en Bogotá D.C. no existen estaciones STN - Nacional.
+3. Repita el procedimiento anterior para obtener las subestaciones eléctricas que se encuentran dentro de la ciudad, guarde como _/shp/UPME_SubestacionBogota.shp_. Observará que en Bogotá D.C. no existen estaciones STN - Nacional y que dentro del sistema regional existen 37.
 
 <div align="center"><img src="graph/QGIS_Clip1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
