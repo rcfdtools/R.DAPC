@@ -170,6 +170,8 @@ metros frente a las redes eléctricas.
 <div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. En la tabla de atributos, cree un campo de atributos real con el nombre `Dp` y calcule la distribución porcentual de las 3 clases obtenidas en función de las áreas por nivel de tensión.
+
 
 ## Actividades de proyecto :triangular_ruler:
 
@@ -187,7 +189,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
 > Nota 2: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
->
 
 
 ## Referencias
