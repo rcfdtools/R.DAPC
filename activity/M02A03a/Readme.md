@@ -128,9 +128,13 @@ Para el análisis de las redes eléctricas y subestaciones, utilizaremos como l�
 
 <div align="center"><img src="graph/QGIS_QueryBuilder.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Con la herramienta Processing _Toolbox / Vector overlay / Clip_, recorte a partir del límite de la ciudad la capa _UPME_LineaTransmision.shp_, guarde como _/shp/UPME_LineaTransmisionBogota.shp_. Simbolice por categorías a partir del valor del campo `UPME_Tensi`. Observará que en la ciudad solo existen líneas de transmisión <110, de 115 y 230 kW.
 
+<div align="center"><img src="graph/QGIS_Clip.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Repita el procedimiento anterior para obtener las subestaciones eléctricas que se encuentran dentro de la ciudad, guarde como _/shp/UPME_SubestacionBogota.shp_. Observará que en Bogotá D.C. no existen estaciones STN - Nacional.
 
+<div align="center"><img src="graph/QGIS_Clip1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
