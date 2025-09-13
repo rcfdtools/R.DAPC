@@ -111,8 +111,13 @@ Para la simbología y rotulación, utilice la siguiente tabla de homologación:
 <div align="center"><img src="graph/QGIS_MergeVectorLayers.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_MergeVectorLayers1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-8. Como observa en las ilustraciones anteriores, luego del proceso de combinación será necesario volver a ajustar la simbología, para ello primero crearemos una tabla de asociación en formato _[/table/UPME_TensionkW.csv](../../file/table/UPME_TensionkW.csv)_ utilizando el identificador asociado y homologaremos los valores de tensión a representar.  
+8. Como observa en las ilustraciones anteriores, luego del proceso de combinación será necesario volver a ajustar la simbología, para ello primero crearemos una tabla de asociación en formato _[/table/UPME_TensionkW.csv](../../file/table/UPME_TensionkW.csv)_ utilizando el identificador asociado y homologaremos los valores de tensión a representar. En QGIS, cargue y visualice la tabla .csv, luego, desde las propiedades de la capa _UPME_LineaTransmision.shp_, realice un _Join_ de atributos usando como llave el campo `id_tension`.
 
+<div align="center"><img src="graph/QGIS_Join.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Podrá observar que luego del _Join_, la tabla de atributos de la capa geográfica contiene los valores asociados de tensión. Simbolice por categorías a partir de este valor utilizando p.ej., la paleta _Turbo_.
+
+<div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
