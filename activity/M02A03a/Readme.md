@@ -150,8 +150,28 @@ Para el análisis de las redes eléctricas y subestaciones, utilizaremos como l�
 <div align="center"><img src="graph/QGIS_DataPlotly1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 3.  
+## 3. Análisis de corredores de servidumbre
 
+Dependiendo de la tensión transportada por las líneas de transmisión, existen corredores de servidumbre o de seguridad dentro de los cuales no deben existir desarrollos urbanísticos.
+
+> Las servidumbres de líneas transmisoras son franjas de terreno delimitadas a lo largo de las líneas de alta tensión para garantizar la seguridad de personas y animales, y el acceso de la empresa para mantenimiento y operación. Esta zona de servidumbre es un requisito del Reglamento Técnico de Instalaciones Eléctricas (RETIE), que establece el ancho según el nivel de tensión. En Colombia, estas servidumbres pueden establecerse voluntariamente mediante acuerdo con el propietario, quien recibe una compensación única, o por imposición judicial si no hay acuerdo. Durante esta franja no se pueden construir edificaciones ni realizar actividades que pongan en riesgo la seguridad. 
+
+La siguiente tabla contiene los valores de referencia que utilizaremos para el trazado de estos corredores dentro de la ciudad.
+
+<div align="center">
+
+|  Tensión(kW)  | Servidumbre (m) |
+|:-------------:|-----------------|
+|     <110      | 20              |
+|      115      | 20              |
+|      230      | 32              |
+
+</div>
+
+> Para el caso de las redes menores y según comunicados de Enel Codensa y el RETIE, las fachadas de las edificaciones deben respetar una distancia mínima de 2.30
+metros frente a las redes eléctricas.
+
+1. 
 
 
 
@@ -181,6 +201,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.minenergia.gov.co/es/sala-de-prensa/noticias-index/colombia-y-panam%C3%A1-avanzan-en-la-integraci%C3%B3n-energ%C3%A9tica-a-trav%C3%A9s-de-la-interconexi%C3%B3n-el%C3%A9ctrica/
 * https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx
 * https://www.enel.com.co/content/dam/enel-co/espa%C3%B1ol/7-prensa/2020/diciembre/Respeto-por-las-distancias-minimas-con-la-red-de-energia-en-proyectos-de-construccion-salva-vidas.pdf
+* https://www.enel.com.co/es/proyectos-en-alta-tension/servidumbres-electricas.html
 
 
 ## Control de versiones
