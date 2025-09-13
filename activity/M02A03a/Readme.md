@@ -120,7 +120,7 @@ Podrá observar que luego del _Join_, la tabla de atributos de la capa geográfi
 <div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 2. Identificación de zona de estudio
+## 2. Identificación y caracterización de zona de estudio
 
 Para el análisis de las redes eléctricas y subestaciones, utilizaremos como límite geográfico, el polígono de la ciudad de Bogotá D.C. contenido en la capa IGAC.
 
@@ -136,19 +136,18 @@ Para el análisis de las redes eléctricas y subestaciones, utilizaremos como l�
 
 <div align="center"><img src="graph/QGIS_Clip1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-4. En la tabla de atributos de la capa _UPME_LineaTransmisionBogota.shp_, cree un campo de atributos Real de 10 de precisión con el nombre `LPkm2D` y desde el calculador de campo calcule la longitud planar en kilómetros de las diferentes entidades.
+4. En la tabla de atributos de la capa _UPME_LineaTransmisionBogota.shp_, cree un campo de atributos Real de 10 de precisión con el nombre `LPkm2D` y desde el calculador de campo calcule la longitud planar en kilómetros de las diferentes entidades, utilice la expresión `length(@geometry)/1000`.
 
 <div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. Utilizando la herramienta _Processing Toolbox / Vector Analysis / Statistics by categories_, cree una tabla de resumen estadístico por nivel de tensión y sumando las longitudes en kilómetros, nombre como _/table/UPME_LineaTransmisionBogotaStat.csv_.
+5. Utilizando la herramienta _Processing Toolbox / Vector Analysis / Statistics by categories_, cree una tabla de resumen estadístico por nivel de tensión y sumando las longitudes en kilómetros, nombre como _/table/UPME_LineaTransmisionBogotaStat.csv_. En la tabla resultante, podrá observar 37.09km de redes <110kW, 369.21km de redes 115kW y 141.61km de redes 230kW.
 
 <div align="center"><img src="graph/QGIS_StatisticsByCategories.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-6. Utilizando el complemento _Data Plotly_, cree una gráfica de pastel que represente el total de las longitudes de la red para cada categoría. Podrá observar que  
+6. Utilizando el complemento _Data Plotly_, cree una gráfica de pastel que represente el total de las longitudes de la red para cada categoría. Podrá observar que el 67.4% corresponde a redes de 115kW. 
 
 <div align="center"><img src="graph/QGIS_DataPlotly.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_DataPlotly1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
 
 
 ## 3.  
