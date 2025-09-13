@@ -182,6 +182,7 @@ metros frente a las redes eléctricas.
 3. En la tabla de atributos de la capa _UPME_LineaTransmisionBogotaServidumbreDissolve.shp_, cree un campo de atributos real de 10 decimales de precisión con el nombre `APha` y calcule el área planar en hectáreas de cada servidumbre. Calcular con la expresión `area(@geometry)/10000`. Simbolice y grafique por tensión y área. Podrá observar que las mayores servidumbres corresponden a las líneas de transmisión con tensión de 115kW, correspondientes a 492.56 hectáreas o 54.4%.
 
 <div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -194,7 +195,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M02A03a   | Desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado. Presentar informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas. Incluir en la carpeta /shp, las capas creadas.                                                                                                                                                                                                                                                                                                      |
+| M02A03a   | Desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas. Incluir en la carpeta /shp, las capas creadas.                                                                                                                                                                                                                                                                                                      |
 | M02A03a   | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
@@ -213,9 +214,9 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Control de versiones
 
-| Versión      | Descripción        | Autor                                      | Horas |
-|--------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.09.11   | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   8   |
+| Versión    | Descripción        | Autor                                      | Horas |
+|------------|:-------------------|--------------------------------------------|:-----:|
+| 2025.09.13 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   8   |
 
 
 ##
@@ -226,6 +227,6 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 
 | [:arrow_backward: Anterior](../M02A02b/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente :arrow_forward:](../M02A03b/Readme.md) |
-|----------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|-----------------------------------------------------|
+|---------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: 
