@@ -81,7 +81,7 @@ Descargue la capa de Municipios de Colombia y exporte el polígono geográfico d
 * SubestacionesSTR.shp -> UPME_SubestacionSTR.shp
 * Municipio, Distrito y Area no municipalizada.shp -> IGAC_Municipio.shp
 
-Simbolice y rotule las líneas de transmisión a partir del campo `id_tension`. Tenga en cuenta que la tabla de atributos dispone de códigos de dominio del 17 al 26 y no de rótulos asociados a la tensión eléctrica.
+Simbolice las líneas de transmisión a partir del campo `id_tension`. Tenga en cuenta que la tabla de atributos dispone de códigos de dominio 0, del 17 al 26 y no de rótulos asociados a la tensión eléctrica.
 
 Para la simbología y rotulación, utilice la siguiente tabla de homologación:
 
@@ -102,9 +102,18 @@ Para la simbología y rotulación, utilice la siguiente tabla de homologación:
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-6. En las tablas de atributos de las capas de líneas de transmisión y subestaciones, cree un campo de texto de 20 de longitud con el nombre `STTipo` correspondiente al tipo de sistema de transmisión. Con el calculador de campo o _Field Calculator_ de las tablas, para los elementos del sistema nacional asigne _STN - Nacional_ y para los regionales _STR - Regional_.
+6. En las tablas de atributos de las capas de líneas de transmisión y subestaciones, cree un campo de texto de 20 de longitud con el nombre `STTipo` correspondiente al tipo de sistema de transmisión. Con el calculador de campo o _Field Calculator_ de las tablas, para los elementos del sistema nacional, asigne _STN - Nacional_ y para los regionales _STR - Regional_.
 
 <div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+7. Con la herramienta Processing _Toolbox / Vector general / Merge vector layers_, combine las capas de líneas de transmisión cómo _/file/shp/UPME_LineaTransmision.shp_, luego repita este procedimiento para combinar las capas de nodos de localización de las subestaciones eléctricas, guarde cómo _/file/shp/UPME_Subestacion.shp_. Utilice en la combinación el CRS 9377.
+
+<div align="center"><img src="graph/QGIS_MergeVectorLayers.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_MergeVectorLayers1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+8. Como observa en las ilustraciones anteriores, luego del proceso de combinación será necesario volver a ajustar la simbología, para ello primero crearemos una tabla de asociación en formato _[/table/UPME_TensionkW.csv](../../file/table/UPME_TensionkW.csv)_ utilizando el identificador asociado y homologaremos los valores de tensión a representar.  
+
+
 
 
 
