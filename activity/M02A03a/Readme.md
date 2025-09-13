@@ -50,7 +50,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 * Análisis de aislamientos e identificación de predios usando directrices del RETIE.
 
 
-## 1. Exploración e integración de líneas de transmisión y estaciones
+## 1. Exploración e integración de líneas de transmisión y subestaciones
 
 Descargue la capa de Municipios de Colombia y exporte el polígono geográfico del municipio asignado a su grupo de proyecto. Para el ejemplo de clase utilizaremos el límite geopolítico de la ciudad de Bogotá D.C.
 
@@ -122,7 +122,11 @@ Podrá observar que luego del _Join_, la tabla de atributos de la capa geográfi
 
 ## 2. Identificación de zona de estudio
 
+Para el análisis de las redes eléctricas y subestaciones, utilizaremos como límite geográfico, el polígono de la ciudad de Bogotá D.C. contenido en la capa IGAC.
 
+1. Utilizando la herramienta _Query Builder_ de la capa _IGAC_Municipio.shp_, filtre el polígono requerido a partir de la expresión `"MpNombre" = 'Bogotá, D.C.'`. En la tabla de atributos podrá observar que el código DANE es 11001.
+
+<div align="center"><img src="graph/QGIS_QueryBuilder.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
