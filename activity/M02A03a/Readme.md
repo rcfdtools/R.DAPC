@@ -50,7 +50,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 * Análisis de aislamientos e identificación de predios usando directrices del RETIE.
 
 
-## 1. Identificación de zona de estudio, redes y estaciones
+## 1. Exploración e integración de líneas de transmisión y estaciones
 
 Descargue la capa de Municipios de Colombia y exporte el polígono geográfico del municipio asignado a su grupo de proyecto. Para el ejemplo de clase utilizaremos el límite geopolítico de la ciudad de Bogotá D.C.
 
@@ -118,6 +118,12 @@ Para la simbología y rotulación, utilice la siguiente tabla de homologación:
 Podrá observar que luego del _Join_, la tabla de atributos de la capa geográfica contiene los valores asociados de tensión. Simbolice por categorías a partir de este valor utilizando p.ej., la paleta _Turbo_.
 
 <div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+## 2. Identificación de zona de estudio
+
+
+
 
 
 
