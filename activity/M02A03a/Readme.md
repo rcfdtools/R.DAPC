@@ -160,21 +160,28 @@ La siguiente tabla contiene los valores de referencia que utilizaremos para el t
 
 <div align="center">
 
-|  Tensión(kW)  | Servidumbre (m) |
-|:-------------:|-----------------|
-|     <110      | 20              |
-|      115      | 20              |
-|      230      | 32              |
+|  Tensión(kW)  |  Servidumbre (m)  |
+|:-------------:|:-----------------:|
+|     <110      |        20         |
+|      115      |        20         |
+|      230      |        32         |
 
 </div>
 
+> Los valores presentados en la tabla corresponden al ancho completo del corredor, por lo cual el buffer corresponderá a la mitad de la servidumbre.
+> 
 > Para el caso de las redes menores y según comunicados de Enel Codensa y el RETIE, las fachadas de las edificaciones deben respetar una distancia mínima de 2.30
 metros frente a las redes eléctricas.
 
-1. 
+1. Utilice la herramienta _Processing Toolbox / Vector geometry / Buffer_, para crear las áreas de aferencia y su disolución a partir del nivel de tensión. Guardar como _/shp/UPME_LineaTransmisionBogotaServidumbre.shp_.
 
+<div align="center"><img src="graph/QGIS_Buffer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Utilice la herramienta _Processing Toolbox / Vector geometry / Dissolve_, para combinar los polígonos disueltos por tipo de tensión. De esta forma obtendrá solo una aferencia para líneas que se encuentran muy cercanas y que tienen la misma tensión. Guardar como _/shp/UPME_LineaTransmisionBogotaServidumbreDissolve.shp_.
 
+3. En la tabla de atributos de la capa _UPME_LineaTransmisionBogotaServidumbreDissolve.shp_, cree un campo de atributos real de 10 decimales de precisión con el nombre `APha` y calcule el área planar en hectáreas de cada servidumbre. Calcular con la expresión `area(@geometry)/10000`. Simbolice y grafique por tensión y área. Podrá observar que las mayores servidumbres corresponden a las líneas de transmisión con tensión de 115kW, correspondientes a 492.56 hectáreas o 54.4%.
+
+<div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
