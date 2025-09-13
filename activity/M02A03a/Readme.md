@@ -1,9 +1,9 @@
-# 2.3.a. Mapas e imágenes / Modelos digitales de elevación DEM - Red de interconexión energética 3D y aislamientos RETIE
+# 2.3.a. Mapas e imágenes / Red de interconexión energética nacional 2D y aislamientos RETIE
 Keywords:  `dem` `copernicus` `powerline-offset` `m02a03a`
 
 Mapas y cartografía. Elaboración de planos. Procesamiento e integración de vectores con análisis de aferencias. 
 
-**Caso de estudio**: análisis de aislamientos y longitud 2D de líneas de energía en red de interconexión energética nacional de Colombia.
+**Caso de estudio**: análisis de servidumbres RETIE y longitud 2D de líneas de energía en red de interconexión energética nacional de Colombia.
 
 <div align="center"><img src="graph/m02a03a.jpg" alt="R.DAPC" width="50%" border="0" /><sub><br>Tomado de: <a href="https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx">https://onl.dnp.gov.co/</a></sub><br><br></div>
 

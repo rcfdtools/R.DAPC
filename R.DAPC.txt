@@ -100,3 +100,13 @@ DEM
 * Cálculo de distancias 3D entre torres.
 * Cálculo de longitudes 3D en líneas de interconexión. Cálculo de catenaria y longitud real de cableado.
 * Análisis de aislamientos e identificación de predios usando directrices del RETIE.
+
+
+## Objetivos
+
+Al finalizar esta actividad, el estudiante:
+
+* Elabora mapas y planos.
+* Manipula imágenes de modelos digitales de elevación.
+* Crea líneas 3D.
+* Calcula aferencia e identifica predios afectados.
