@@ -1,7 +1,7 @@
 # 2.3.a. Mapas e imágenes / Modelos digitales de elevación DEM - Red de interconexión energética 3D y aislamientos RETIE
 Keywords:  `dem` `copernicus` `powerline-offset` `m02a03a`
 
-Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de modelos digitales de elevación. 
+Mapas y cartografía. Elaboración de planos. Procesamiento e integración de vectores con análisis de aferencias. 
 
 **Caso de estudio**: análisis de aislamientos y longitud 2D de líneas de energía en red de interconexión energética nacional de Colombia.
 
@@ -13,9 +13,9 @@ Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipul
 Al finalizar esta actividad, el estudiante:
 
 * Elabora mapas y planos.
-* Manipula imágenes de modelos digitales de elevación.
-* Crea líneas 3D.
-* Calcula aferencia e identifica predios afectados.
+* Une capas geográficas para análisis con cobertura integrada.
+* Crea y calcula aferencias e identifica áreas afectadas.
+* Analiza agrupaciones categóricas por distribución porcentual.
 
 
 ## Requerimientos
