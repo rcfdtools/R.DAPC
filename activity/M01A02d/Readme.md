@@ -492,7 +492,7 @@ Para la construcción de esta figura, ejecute el comando **LOFT** y seleccione l
 
 ## 6. Solid Editing / Shell (vaciar) <img src="../../file/graph/AutoCAD_Shell.png" alt="R.DAPC" height=25 border="0" />
 
-Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través del comando **SOLIDEDIT** / **B**ody / **S**hell, o desde _Home / Solid Editing / Shell_, es necesario indicar las caras a remover y el espesor de las paredes (valores positivos generan espesores hacia adentro del sólido, valores negativos hacia afuera).
+Permite convertir un sólido en un objeto hueco. Puede ser ejecutado a través del comando **SOLIDEDIT** / **B**ody / **S**hell, o desde _Home / Solid Editing / Shell_, es necesario indicar las caras a remover y el espesor de las paredes.
 
 > Para el vaciado de elementos, primero seleccione el objeto, luego las caras a eliminar que definen la superficie y luego el espesor (valores positivos para espesores hacia adentro de la superficie, valores negativos para espesores hacia afuera)
 
