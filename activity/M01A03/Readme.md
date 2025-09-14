@@ -68,6 +68,8 @@ Para esta actividad, dibujaremos el bloque de símbolo eléctrico definido en el
 
 Cree el bloque del símbolo de riesgo eléctrico del _Reglamento Técnico de Instalaciones Eléctricas (Resolución 40117 de 2024) - RETIE del Ministerio de Minas y Energía de Colombia_, utilizando las dimensiones proporcionales para h=200.
 
+> Cada grupo de proyecto creará el símbolo eléctrico tomando como referencia el valor `a`, p. ej., si su grupo es el número 1, el valor `h` es 25.
+
 1. En AutoCAD, cree una copia del archivo [/file/cad/M01A02a.dwg](../../file/cad/M01A02a.dwg) que contiene los nombres de capas definidos para el curso DAPC, guarde como /file/cad/M01A03.dwg y verifique con _UNITS_ que las unidades de inserción son milímetros.
 
  Primero, cree líneas esquemáticas tomando como referencia un rectángulo de c+(e/2) = 102+16 = 118 horizontal por h = 200 de alto, luego trace líneas paralelas y las líneas diagonales. Al finalizar, con el comando **COPY** o **CP**, genere una copia de la figura principal y mueva a la capa cero (0), luego una todas las líneas con el comando **JOIN** y con el comando **HATCH**, genere un relleno sólido en la misma capa (utilice para ello las opciones desplegadas en la cinta de opciones _Hatch Creation_).
@@ -199,7 +201,7 @@ Cree copias adicionales del muro creado y explore los diferentes estilos de achu
 
 ### 2.2. Para símbolo eléctrico extensible
 
-Creemos ahorra un bloque dinámico para el tablero de distribución eléctrica definido en el RETIE, este símbolo debe ser dinámicamente alineado,  alargado y ensanchado.
+Creemos ahora un bloque dinámico para el tablero de distribución eléctrica definido en el RETIE, este símbolo debe ser dinámicamente alineado,  alargado y ensanchado.
 
 <div align="center"><img src="graph/RETIE_SimboloElectricoTableroDistribucion.jpg" alt="R.DAPC" width="15%" border="0" /></div>
 
@@ -215,7 +217,7 @@ Creemos ahorra un bloque dinámico para el tablero de distribución eléctrica d
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Ingrese al editor de bloque o _Block Edit_ y asigne el parámetro _Aligment_ tal como lo realizamos en el símbolo eléctrico anaterior.
+3. Ingrese al editor de bloque o _Block Edit_ y asigne el parámetro _Aligment_ tal como lo realizamos en el símbolo eléctrico anterior.
 
 <div align="center"><img src="graph/AutoCAD_SimboloElectricoTableroDistribucion2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
