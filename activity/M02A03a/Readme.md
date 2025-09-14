@@ -73,16 +73,16 @@ Para la simbología y rotulación, utilice la siguiente tabla de homologación:
 
 <div align="center">
 
-| id_tension |  Tensión(kW)  | Color Hex |
-|:----------:|:-------------:|-----------|
-|     0      |     <110      | #7a7a7a   |
-|     17     |     <110      | #7a7a7a   |
-|     18     |     <110      | #7a7a7a   |
-|     19     |      110      | #007f2e   |
-|     21     |      115      | #5bdd31   |
-|     24     |      220      | #fad522   |
-|     25     |      230      | #f08b01   |
-|     26     |      500      | #e70b1e   |
+| id_tension | Tensión (kW) | Color Hex |
+|:----------:|:------------:|-----------|
+|     0      |     <110     | #7a7a7a   |
+|     17     |     <110     | #7a7a7a   |
+|     18     |     <110     | #7a7a7a   |
+|     19     |     110      | #007f2e   |
+|     21     |     115      | #5bdd31   |
+|     24     |     220      | #fad522   |
+|     25     |     230      | #f08b01   |
+|     26     |     500      | #e70b1e   |
 
 </div>
 
