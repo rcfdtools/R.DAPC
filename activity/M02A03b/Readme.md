@@ -44,6 +44,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 2. Localización de torres eléctricas
 
+Las dimensiones de las torres eléctricas varían significativamente; las de distribución son más bajas (15-55 metros), mientras que las de transmisión de alta tensión pueden superar los 300 metros, con diámetros variables según el diseño y la estructura de la celosía. Su altura depende de la tensión y la distancia de transporte, requiriendo tramos más altos para cruzar ríos u otros obstáculos. 
+
+El ancho de la base de una torre eléctrica varía según su tipo, pero puede ir desde los 8 metros para torres de celosía de 32 metros de altura, hasta anchos mayores para torres más altas o con otras configuraciones, dado que las torres tienen una forma de tronco piramidal que las hace más anchas en la base para garantizar la estabilidad. 
+
 * Segmentación de líneas a partir de la separación por tipo de tensión eléctrica, p. ej. alta tensión entre 350 y 1700m, media tensión entre 275 y 455 y baja tensión 100 metros.
 * Obtención de cota 3D por torre.
 
