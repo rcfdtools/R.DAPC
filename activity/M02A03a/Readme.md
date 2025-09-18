@@ -1,5 +1,5 @@
 # 2.3.a. Mapas e imágenes / Red de interconexión energética nacional 2D y aislamientos RETIE
-Keywords:  `dem` `copernicus` `powerline-offset` `m02a03a`
+Keywords: `study-zone` `powerline-offset` `m02a03a`
 
 Mapas y cartografía. Elaboración de planos. Procesamiento e integración de vectores con análisis de aferencias. 
 
