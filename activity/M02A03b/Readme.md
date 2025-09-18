@@ -5,7 +5,7 @@ Mapas y cartografía. Elaboración de planos. Procesamiento e integración de ve
 
 **Caso de estudio**: análisis de longitudes 3D de la red de interconexión energética nacional de Colombia..
 
-<div align="center"><img src="graph/m02a03b.jpg" alt="R.DAPC" width="50%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/ae9373792145f9e2">https://gemini.google.com/</a></sub><br><br></div>
+<div align="center"><img src="graph/m02a03b.png" alt="R.DAPC" width="50%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/ae9373792145f9e2">https://gemini.google.com/</a></sub><br><br></div>
 
 
 ## Objetivos
