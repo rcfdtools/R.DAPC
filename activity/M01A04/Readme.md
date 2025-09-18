@@ -219,7 +219,7 @@ Modifique la figura presentada en el ejercicio [M01A01E02](../M01A01) y realice 
 1. Cree una copia de la figura dibujada previamente manteniendo su escala original, luego realice las siguientes modificaciones:
 
 * Con el uso de la herramienta **FILLET**, suavice las aristas anguladas del lado izquierdo de la figura usando un radio de 5 mm.
-* En la parte superior y con el comando **CHAMFER**, cree chaflanes de 5 metros.
+* En la parte superior y con el comando **CHAMFER**, cree chaflanes de 5 mm.
 * Cree una circunferencia tangente a las 3 caras ubicadas a la derecha de la figura.
 
 <div align="center"><img src="graph/AutoCAD_Dimension1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
