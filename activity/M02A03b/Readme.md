@@ -3,7 +3,7 @@ Keywords:  `dem` `copernicus` `powerline-offset` `m02a03b`
 
 Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de modelos digitales de elevación. 
 
-**Caso de estudio**: análisis de longitudes 3D de la red de interconexión energética nacional de Colombia..
+**Caso de estudio**: análisis de longitudes 3D de la red de interconexión energética nacional de Colombia.
 
 <div align="center"><img src="graph/m02a03b.png" alt="R.DAPC" width="50%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/ae9373792145f9e2">https://gemini.google.com/</a></sub><br><br></div>
 
@@ -48,12 +48,11 @@ Las dimensiones de las torres eléctricas varían significativamente; las de dis
 
 El ancho de la base de una torre eléctrica varía según su tipo, pero puede ir desde los 8 metros para torres de celosía de 32 metros de altura, hasta anchos mayores para torres más altas o con otras configuraciones, dado que las torres tienen una forma de tronco piramidal que las hace más anchas en la base para garantizar la estabilidad. 
 
-* Segmentación de líneas a partir de la separación por tipo de tensión eléctrica, p. ej. alta tensión entre 350 y 1700m, media tensión entre 275 y 455 y baja tensión 100 metros.
+* Segmentación de líneas a partir de la separación de torres eléctricas por tipo de tensión eléctrica, p. ej. alta tensión entre 350m y 1700m, media tensión entre 275 y 455m y baja tensión 100 metros.
 * Obtención de cota 3D por torre.
 
 
 ## 3. Distancia 3D entre torres
-
 
 * Cálculo de distancias 3D entre torres.
 * Cálculo de longitudes 3D en líneas de interconexión. Cálculo de catenaria y longitud real de cableado.
