@@ -38,6 +38,22 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 1. Modelo digital de elevación DEM
 
+* Creación de polígono envolvente.
+* Obtención de modelo digital de elevación Copernicus.
+
+
+## 2. Localización de torres eléctricas
+
+* Segmentación de líneas a partir de la separación por tipo de tensión eléctrica, p. ej. alta tensión entre 350 y 1700m, media tensión entre 275 y 455 y baja tensión 100 metros.
+* Obtención de cota 3D por torre.
+
+
+## 3. Distancia 3D entre torres
+
+
+* Cálculo de distancias 3D entre torres.
+* Cálculo de longitudes 3D en líneas de interconexión. Cálculo de catenaria y longitud real de cableado.
+
 
 
 
