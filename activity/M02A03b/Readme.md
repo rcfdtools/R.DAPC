@@ -1,7 +1,7 @@
 # 2.3.b. Mapas e imágenes / Modelos digitales de elevación DEM - Red de interconexión energética 3D
 Keywords:  `dem` `copernicus` `powerline-offset` `m02a03b`
 
-Mapas y cartografía. Elaboración de planos. Procesamiento e integración de vectores con análisis de aferencias. 
+Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de modelos digitales de elevación. 
 
 **Caso de estudio**: análisis de longitudes 3D de la red de interconexión energética nacional de Colombia..
 
