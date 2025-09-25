@@ -1,4 +1,4 @@
-# 2.2.b. Definición y edición de elementos / Potencial fotovoltáico
+# 2.2.b. Definición y edición de elementos / Potencial fotovoltáico campus
 Keywords:  `photovoltaic` `solar-panel` `m02a02b`
 
 Bases de datos y su manejo en SIG. Creación y edición de tablas relacionales. Generación de entidades geográficas.                                                                                    
