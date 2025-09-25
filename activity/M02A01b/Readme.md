@@ -120,7 +120,7 @@ Llamado de función: `classeval("DLumKm2")`
 
 <div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Utilizando la herramienta _Processing Toolbox / Vector analysis / Statistics by categories_, obtenga el conteo de elementos y los estadísticos de densidad por clase.
+2. Utilizando la herramienta _Processing Toolbox / Vector analysis / Statistics by categories_, obtenga el conteo de elementos y los estadísticos de densidad de luminarias por clase.
 
 <div align="center"><img src="graph/QGIS_StatisticsByCategories1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -261,6 +261,8 @@ Según [Enel Colombia](https://www.enelgreenpower.com/es/learning-hub/energias-r
 Una turbina hidroeléctrica está formada por una parte fija, llamada estator, y por la rueda o rotor. El primero sirve para dirigir y regular el caudal de agua y el segundo transfiere la energía cinética del agua al eje en el que está montado.
  
 Hay tres tipos principales de turbina, dependiendo del caudal de agua y de la diferencia de altura son la turbina Francis, la turbina Pelton y la turbina Kaplan.
+
+<div align="center"><img src="graph/ENEL_TurbinaTipo.png" alt="R.DAPC" width="90%" border="0" /><sub><br>Tomado de: <a href="https://www.enelgreenpower.com/es/learning-hub/energias-renovables/energia-hidroelectrica/turbina-hidroelectrica">https://www.enelgreenpower.com/</a></sub><br><br></div>
 
 | Tipo de turbina | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |:----------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
