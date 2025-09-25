@@ -83,7 +83,7 @@ En la representación anterior, evaluámos el total de luminarias por UPZ tenien
 
 > En la expresión, es necesario dividir en área geométrica calculada en m² para cada polígono entre 1000x1000, para realizar la conversión a km².
 > 
-> Al realizar modificaciones en la estructura original de la capa, QGIS ingresa antomáticamente al modo de Edición.
+> Al realizar modificaciones en la estructura original de la capa, QGIS ingresa automáticamente al modo de Edición.
 
 <div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
