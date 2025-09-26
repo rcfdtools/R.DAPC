@@ -300,6 +300,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.enel.com.co/es/personas/tarifas-energia-enel-distribucion.html
 * https://www.enelgreenpower.com/es/learning-hub/energias-renovables/energia-hidroelectrica/turbina-hidroelectrica
 * https://elperiodicodelaenergia.com/las-10-centrales-hidroelectricas-mas-grandes-del-mundo/
+* https://es.wikipedia.org/wiki/Central_termoel%C3%A9ctrica
+* https://paratec.xm.com.co/reportes/capacidad-efectiva-neta-tipo-generacion
 
 
 ## Control de versiones
