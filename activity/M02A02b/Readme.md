@@ -108,12 +108,12 @@ A partir de las líneas perimetrales, cree los polígonos de las cubiertas.
 
 <div align="center"><img src="graph/QGIS_JoinAttributesByNearest.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-4. Desde el calculador de campo y con la expresión `area(@geometry)`, calcule en área planar `APm` de cada polígono, calcule también el perímetro planar `PPm` y las coordenadas planas en metros del centroide `CX` y `CY`, rotule con la expresión `'Cubierta: ' || "CubiertaID" || '\nP(m): ' || round( "LPm" , 2) || '\nA(m²): ' || round( "APm" , 2) || '\nCX(m): ' || round( "CX" , 2) || '\nCY(m): ' || round( "CY" , 2)`.
+4. Desde el calculador de campo y con la expresión `area(@geometry)`, calcule en área planar `APm2` de cada polígono, calcule también el perímetro planar `PPm` y las coordenadas planas en metros del centroide `CX` y `CY`, rotule con la expresión `'Cubierta: ' || "CubiertaID" || '\nP(m): ' || round( "LPm" , 2) || '\nA(m²): ' || round( "APm2" , 2) || '\nCX(m): ' || round( "CX" , 2) || '\nCY(m): ' || round( "CY" , 2)`.
 
 Expresiones:
 
 * LPm = `length(@geometry)`
-* APm = `area(@geometry)`
+* APm2 = `area(@geometry)`
 * CX = `x(@geometry)`
 * CY = `y(@geometry)`
 
@@ -128,7 +128,7 @@ En la tabla de atributos de la capa _DAPC_CubiertaPoligono1UECIJG.shp_, crear y 
 
 | Campo | Tipo         | Descripción                                                                                                                                                                                                                                                  |
 |:------|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A     | Real (10)    | Área usable: utilizar el 90% del área disponible en cada polígono de cubierta `C = APm * 0.9`.                                                                                                                                                               |
+| A     | Real (10)    | Área usable: utilizar el 90% del área disponible en cada polígono de cubierta `C = APm2 * 0.9`.                                                                                                                                                               |
 | B     | Long Integer | Número de páneles: `B = Entero(AreaUsable / ((AnchoPanelenmilimetros * AltoPanelenmilimetros) / (1000 * 1000)))`. Tamaño de cada panel: 1950 x 992 milímetros. QGIS: `floor("A"/((1950*992)/(1000*1000)))`. Investigar y justificar el tamaño de cada panel. |
 | C     | Real (10)    | Potencial de Kilovatios producidos por hora (Kwh): `C = B * Potencia Panel / 1000`. Potencia por panel: 330 watts-hora. Investigar y justificar la potencia por panel.                                                                                       |
 | D     | Real (10)    | Real de Kilovatios producidos por hora (Kwh): `D = C / Factor Pérdida`.  Factor de Perdida: 1.43. Investigar y justificar el factor de pérdida.                                                                                                              |
