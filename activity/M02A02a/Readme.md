@@ -168,18 +168,18 @@ Atributos requeridos:
 
 <div align="center">
 
-| Campo    | Tipo         | Descripción                                                                                                                                    |
-|:---------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
-| LumID    | Long Integer | Identificación de cada luminaria. Incluir un valor consecutivo que no debe repetirse.                                                          |
-| Altura   | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario.          |
-| LumTipo  | String (100) | Tipo de luminaria. Normalizar como:<br>• LED<br>• Halogenuro Metálico (MH)<br>• Sodio (Na)                                                     |
-| Potencia | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W |
-| RadioC   | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.                                    |
-| Consumo  | Real (10)    | Consumo eléctrico.                                                                                                                             |
-| CX       | Real (10)    | Coordenada X del centroide en m.                                                                                                               |
-| CY       | Real (10)    | Coordenada y del centroide en m.                                                                                                               |
-| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                          |
-| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                         |
+| Campo    | Tipo         | Descripción                                                                                                                                                                                                                                |
+|:---------|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| LumID    | Long Integer | Identificación de cada luminaria. Incluir un valor consecutivo que no debe repetirse.                                                                                                                                                      |
+| Altura   | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario.                                                                                                      |
+| LumTipo  | String (100) | Tipo de luminaria. Normalizar como:<br>• LED<br>• Halogenuro Metálico (MH)<br>• Sodio (Na)                                                                                                                                                 |
+| Potencia | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W                                                                                             |
+| RadioC   | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.<br><br>Por ejemplo:<br>Lámparas de menos de 6 metros de altura: 10 metros.<Lámparas de más de 6 metros: entre 10 y 25 metros.> |
+| Consumo  | Real (10)    | Consumo eléctrico.                                                                                                                                                                                                                         |
+| CX       | Real (10)    | Coordenada X del centroide en m.                                                                                                                                                                                                           |
+| CY       | Real (10)    | Coordenada y del centroide en m.                                                                                                                                                                                                           |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                      |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                     |
 
 </div>
 
@@ -253,6 +253,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://es.zgsm-china.com/blog/coefficient-of-utilization-for-street-lighting-why-it-matters.html
 * https://es.zgsm-china.com/blog/lighting-calculation-lumen-calculation-method-and-its-benefits.html
 * https://www.zgsm-china.com/lighting-design/lighting-design-road-lighting-simulation-by-dialux-evo.html
+* https://luxmanlight.com/es/como-calcular-la-altura-y-la-distancia-del-poste-de-luz-solar-de-la-calle/
+* https://www.ensa.com.pa/sites/default/files/13_capitulo_16_-_alumbrado_publico_ver.3.0.pdf
 
 
 ## Control de versiones
