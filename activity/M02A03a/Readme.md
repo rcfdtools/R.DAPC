@@ -121,7 +121,7 @@ Para el análisis de las redes eléctricas y subestaciones, utilizaremos como l�
 
 <div align="center"><img src="graph/QGIS_Clip.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Repita el procedimiento anterior para obtener las subestaciones eléctricas que se encuentran dentro de la ciudad, guarde como _/shp/UPME_SubestacionBogota.shp_. Observará que en Bogotá D.C. no existen estaciones STN - Nacional y que dentro del sistema regional existen 37.
+3. Repita el procedimiento anterior para obtener las subestaciones eléctricas que se encuentran dentro de la ciudad, guarde como _/shp/UPME_SubestacionBogota.shp_. Observará que en Bogotá D.C. existen 3 estaciones del STN - Nacional y 34 del STR- Regional.
 
 <div align="center"><img src="graph/QGIS_Clip1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
