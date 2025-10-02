@@ -27,7 +27,6 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                              | Descripción                                                                                                    |
 |:-------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://qgis.org/)                                                  | QGIS 3.44 o superior.                                                                                          |  
-| [:date:DAPC_CubiertaNodoUECIJG.csv](../../file/table/DAPC_CubiertaNodoUECIJG.csv)          | Tabla con geo-localizadores de nodos para generación de áreas útiles por cubierta.                             |
 | [:round_pushpin:IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)      | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/. |
 | [:round_pushpin:UPME_LineaTransmision.shp](../../file/data/DNP/UPME_LineaTransmision.zip)  | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co.   |
 
@@ -40,7 +39,19 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 1. Modelo digital de elevación DEM
 
-* Creación de polígono envolvente.
+Para la descarga del modelo de terreno satelital, es necesaria la creación de un polígono envolvente.
+
+1. En QGIS, cree un proyecto nuevo en blanco, asigne el CRS 4326, agregue la capa [IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip) y filtre el polígono correspondiente a Bogotá, expresión: `"MpCodigo" = '11001'`. Simbolice el polígono solo por su contorno y rotule con la expresión  `"MpCodigo"  ||  ' / '  || "MpNombre"`.
+
+> Para entender la localización topográfica del polígono de Bogotá, agregue el mapa base de Google Terrain desde la URL https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z} 
+>
+> Mapas base complementarios en: https://github.com/opengeos/qgis-basemaps/blob/main/qgis_basemaps.py
+
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. 
+
+
 * Obtención de modelo digital de elevación Copernicus.
 
 
