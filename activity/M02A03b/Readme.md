@@ -27,7 +27,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                             | Descripción                                                                                                    |
 |:------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://qgis.org/)                                                 | QGIS 3.44 o superior.                                                                                          |  
-| [:man_technologist:Cuenta de usuario en OpenTopography](https://opentopography.org/)                         | Cuenta de usuario requerida para descarga de modelos digitales de elevación DEM.                               |  
+| [:man_technologist:Cuenta de usuario en _Open Topography_](https://opentopography.org/)     | Cuenta de usuario requerida para descarga de modelos digitales de elevación DEM.                               |  
 | [:round_pushpin:IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)     | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/. |
 | [:round_pushpin:UPME_LineaTransmision.shp](../../file/data/DNP/UPME_LineaTransmision.zip) | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co.   |
 
@@ -74,9 +74,33 @@ Para la descarga del modelo de terreno satelital, es necesaria la creación de u
 
 <div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. 
+5. Para la obtención de modelo digital de elevación - DEM Copernicus, ingrese al portal https://opentopography.org/ con su cuenta de usuario. En la pestaña DATA, seleccione la opción FIND DATA MAP. En el panel _Data Sources_ localizado a la derecha del mapa, active la casilla _Global & Regional DEM's / COP 30m & 90m_. Desde el panel de opciones localizado a la izquierda, ingrese las coordenadas que delimitan la zona de descarga, para el ejemplo corresponden a: 
 
-* Obtención de modelo digital de elevación Copernicus.
+* Lower-left Lon: -74.4574268192
+* Lower-left Lat: 3.7260832977
+* Upper-right Lon: -73.9804954370
+* Upper-right Lat: 4.8416393831
+
+<div align="center"><img src="graph/wwwOpenTopography1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. Una vez ingresadas las coordenadas, de clic en el botón _Update Map_, observará que en la parte inferior son mostrados los enlaces para descarga de los diferentes modelos digitales de elevación.
+
+<div align="center"><img src="graph/wwwOpenTopography2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+7. Descargue en formato GeoTiff el modelo correspondiente a Copernicus 30m Data, podrá observar en la ventana que el área a descargar corresponde a 6560 km². Guarde el archivo descargado [rasters_COP30.tar.gz](../../file/dem/rasters_COP30.tar.gz) y descomprima en la carpeta _/dem_, renombre como _Copernicus30m.tif_.
+
+<div align="center"><img src="graph/wwwOpenTopography3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/wwwOpenTopography4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/wwwOpenTopography5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+8. Agregue el DEM al mapa de QGIS y consulte sus propiedades, podrá observar que el CRS asociado es el 4326 ó WGS84.
+
+<div align="center"><img src="graph/QGIS_AddLayer1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+9. Exporte y reproyecte el DEM al CRS 9377, guarde como _/dem/Copernicus30m9377.tif_, simbolice por _Hillshade_.
+
+<div align="center"><img src="graph/QGIS_SaveRasterLayerAs.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_SymbologyHillshade.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## 2. Localización de torres eléctricas
