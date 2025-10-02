@@ -14,7 +14,7 @@ Al finalizar esta actividad, el estudiante:
 
 * Elabora mapas y planos.
 * Une capas geográficas para análisis con cobertura integrada.
-* Descarga y procesa imagenes satelitales de modelos digitales de elevación.
+* Descarga y procesa imágenes satelitales de modelos digitales de elevación.
 * Crea nodos 3 líneas 3D.
 
 
@@ -24,10 +24,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                     | Descripción                                                                        |
-|:----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                         | QGIS 3.44 o superior.                                                              |  
-| [:date:DAPC_CubiertaNodoUECIJG.csv](../../file/table/DAPC_CubiertaNodoUECIJG.csv) | Tabla con geo-localizadores de nodos para generación de áreas útiles por cubierta. |
+| Requerimiento                                                                              | Descripción                                                                                                    |
+|:-------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                  | QGIS 3.44 o superior.                                                                                          |  
+| [:date:DAPC_CubiertaNodoUECIJG.csv](../../file/table/DAPC_CubiertaNodoUECIJG.csv)          | Tabla con geo-localizadores de nodos para generación de áreas útiles por cubierta.                             |
+| [:round_pushpin:IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)      | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/. |
+| [:round_pushpin:UPME_LineaTransmision.shp](../../file/data/DNP/UPME_LineaTransmision.zip)  | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co.   |
 
 </div>
 
