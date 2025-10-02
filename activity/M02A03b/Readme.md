@@ -41,15 +41,30 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 Para la descarga del modelo de terreno satelital, es necesaria la creación de un polígono envolvente.
 
-1. En QGIS, cree un proyecto nuevo en blanco, asigne el CRS 4326, agregue la capa [IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip) y filtre el polígono correspondiente a Bogotá, expresión: `"MpCodigo" = '11001'`. Simbolice el polígono solo por su contorno y rotule con la expresión  `"MpCodigo"  ||  ' / '  || "MpNombre"`.
+1. En QGIS, cree un proyecto nuevo en blanco, asigne el CRS 9377, agregue la capa [IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip) y filtre el polígono correspondiente a Bogotá, expresión: `"MpCodigo" = '11001'`. Simbolice el polígono solo por su contorno y rotule con la expresión  `"MpCodigo"  ||  ' / '  || "MpNombre"`.
 
-> Para entender la localización topográfica del polígono de Bogotá, agregue el mapa base de Google Terrain desde la URL https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z} 
+> Para entender la localización topográfica del polígono de Bogotá, agregue el mapa base de _Google Terrain_ desde la URL https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z} 
 >
 > Mapas base complementarios en: https://github.com/opengeos/qgis-basemaps/blob/main/qgis_basemaps.py
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. 
+2. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Bounding boxes_, obtenga el polígono regular envolvente que rodea el polígono de la ciudad. Guarde como _/shp/IGAC_Municipio11001.shp_ y simbolice solo por contorno.
+
+<div align="center"><img src="graph/QGIS_BoundingBoxes.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Buffer_, cree un polígono con aferencia de 500 metros alrededor del polígono envolvente. Guarde como _/shp/IGAC_Municipio11001Buffer500.shp_ y simbolice solo por contorno. En los parámetros establezca:
+
+* Segments: 1
+* End cap style: Square
+* Join style: Miter
+* Miter limit: 10
+
+> La aferencia es requerida para descargar una región más amplia del modelo digital de elevación que permita evaluar todo su contorno.
+
+<div align="center"><img src="graph/QGIS_Buffer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. 
 
 
 * Obtención de modelo digital de elevación Copernicus.
