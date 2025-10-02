@@ -109,7 +109,25 @@ Las dimensiones de las torres eléctricas varían significativamente; las de dis
 
 El ancho de la base de una torre eléctrica varía según su tipo, pero puede ir desde los 8 metros para torres de celosía de 32 metros de altura, hasta anchos mayores para torres más altas o con otras configuraciones, dado que las torres tienen una forma de tronco piramidal que las hace más anchas en la base para garantizar la estabilidad. 
 
-* Segmentación de líneas a partir de la separación de torres eléctricas por tipo de tensión eléctrica, p. ej. alta tensión entre 350m y 1700m, media tensión entre 275 y 455m y baja tensión 100 metros.
+Para la segmentación de líneas de transmisión eléctrica a partir de la separación de torres eléctricas por tipo de tensión eléctrica, utilizaremos los siguientes valores de referencia:
+
+| Tensión                | Rango de separación (m)  |  Valor (m)  |
+|:-----------------------|:-------------------------|:-----------:|
+| Alta (AT) <= 115 kW    | Entre 350m y 1700m       |    1000     |
+| Media (MT) <= 230 kW   | Entre 275 y 455m         |     400     |
+| Baja (BT)  <= 500 kW   | 100 metros               |     100     |
+
+1. Agregue al proyecto la capa de líneas de transmisión eléctrica localizadas dentro de Bogotá D.C. desde la capa _/shp/UPME_LineaTransmisionBogota.shp_ y simbolice por categorías a partir del campo `UPME_Tesi`,
+
+<div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Con la herramienta _View / Elevation Profile_, visualice el perfil 3D del tramo denominado _CIRCO - NUEVA ESPERANZA 1 230 kV_. Podrá observar que su elevación varía pasando por los cerros orientales y occidentales de la ciudad.
+
+<div align="center"><img src="graph/QGIS_ElevationProfile.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
+
 * Obtención de cota 3D por torre.
 
 
@@ -119,7 +137,7 @@ El ancho de la base de una torre eléctrica varía según su tipo, pero puede ir
 * Cálculo de longitudes 3D en líneas de interconexión. Cálculo de catenaria y longitud real de cableado.
 
 
-
+* Generación de curvas de nivel
 
 
 
@@ -142,10 +160,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* https://www.minenergia.gov.co/es/sala-de-prensa/noticias-index/colombia-y-panam%C3%A1-avanzan-en-la-integraci%C3%B3n-energ%C3%A9tica-a-trav%C3%A9s-de-la-interconexi%C3%B3n-el%C3%A9ctrica/
 * https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx
-* https://www.enel.com.co/content/dam/enel-co/espa%C3%B1ol/7-prensa/2020/diciembre/Respeto-por-las-distancias-minimas-con-la-red-de-energia-en-proyectos-de-construccion-salva-vidas.pdf
-* https://www.enel.com.co/es/proyectos-en-alta-tension/servidumbres-electricas.html
+* https://retielectrica.com/clasificacion-de-los-niveles-de-tension-capitulo-2-articulo-12/
 
 
 ## Control de versiones
