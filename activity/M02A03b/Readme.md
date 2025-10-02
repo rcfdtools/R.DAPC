@@ -113,9 +113,9 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 | Tensión                | Rango de separación (m)  |  Valor (m)  |
 |:-----------------------|:-------------------------|:-----------:|
-| Alta (AT) <= 115 kW    | Entre 350m y 1700m       |    1000     |
+| Alta (AT) <= 500 kW    | Entre 350m y 1700m       |    1000     |
 | Media (MT) <= 230 kW   | Entre 275 y 455m         |     400     |
-| Baja (BT)  <= 500 kW   | 100 metros               |     100     |
+| Baja (BT) <= 115 kW    | 100 metros               |     100     |
 
 1. Agregue al proyecto la capa de líneas de transmisión eléctrica localizadas dentro de Bogotá D.C. desde la capa _/shp/UPME_LineaTransmisionBogota.shp_ y simbolice por categorías a partir del campo `UPME_Tesi`,
 
@@ -125,7 +125,26 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 <div align="center"><img src="graph/QGIS_ElevationProfile.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Asigne un código único de identificación a cada tramo de las líneas de transmisión. En la tabla de atributos de la capa, cree un campo numérico entero largo con el nombre `IDLine` y asigne con el _Field Calculator_ la propiedad `@id`.
 
+<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Cree ahora un campo real de precisión 10 con el nombre `TorreDist`, luego utilizando la herramienta de selección por atributos y el calculador de campo, asigne los valores de separación definidos dependiendo de la tensión.
+
+| Tensión              | Query                            |  Valor (m)  |
+|:---------------------|:---------------------------------|:-----------:|
+| Alta (AT) <= 500 kW  | "UPME_Tensi" =  '500'            |    1000     |
+| Media (MT) <= 230 kW | "UPME_Tensi" =  '230'            |     400     |
+| Baja (BT) <= 115 kW  | "UPME_Tensi" in ('<110' , '115') |     100     |
+
+<div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Split lines by maximum length_, divida cada tramo a partir del campo de atributos `TorreDist`, nombre la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplit.shp_. Abra y verifique la tabla de atributos, podrá observar que cada tramo contiene ahora múltiples segmentos. 
+
+<div align="center"><img src="graph/QGIS_SplitLinesByMaximumLength.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. 
 
 
 * Obtención de cota 3D por torre.
