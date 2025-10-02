@@ -140,12 +140,15 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 <div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Split lines by maximum length_, divida cada tramo a partir del campo de atributos `TorreDist`, nombre la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplit.shp_. Abra y verifique la tabla de atributos, podrá observar que cada tramo contiene ahora múltiples segmentos. 
+5. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Split lines by maximum length_, divida cada tramo a partir del campo de atributos `TorreDist`, nombre la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplit.shp_. Abra y verifique la tabla de atributos, podrá observar que cada tramo contiene ahora múltiples segmentos. Simbolice usando flechas por segmento. 
 
 <div align="center"><img src="graph/QGIS_SplitLinesByMaximumLength.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_SplitLinesByMaximumLength1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-6. 
+6.  Utilizando la herramienta _Processing Toolbox / Vector Geometry / Extract vertices_, obtenga todos los nodos 
 
+
+Elimine los vértices duplicados con Remove duplicate vertices
 
 * Obtención de cota 3D por torre.
 
