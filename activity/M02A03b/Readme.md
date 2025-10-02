@@ -24,11 +24,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                              | Descripción                                                                                                    |
-|:-------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                  | QGIS 3.44 o superior.                                                                                          |  
-| [:round_pushpin:IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)      | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/. |
-| [:round_pushpin:UPME_LineaTransmision.shp](../../file/data/DNP/UPME_LineaTransmision.zip)  | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co.   |
+| Requerimiento                                                                             | Descripción                                                                                                    |
+|:------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                 | QGIS 3.44 o superior.                                                                                          |  
+| [:man_technologist:Cuenta de usuario en OpenTopography](https://opentopography.org/)                         | Cuenta de usuario requerida para descarga de modelos digitales de elevación DEM.                               |  
+| [:round_pushpin:IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)     | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/. |
+| [:round_pushpin:UPME_LineaTransmision.shp](../../file/data/DNP/UPME_LineaTransmision.zip) | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co.   |
 
 </div>
 
@@ -64,8 +65,16 @@ Para la descarga del modelo de terreno satelital, es necesaria la creación de u
 
 <div align="center"><img src="graph/QGIS_Buffer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-4. 
+4. En la tabla de atributos de la capa _/shp/IGAC_Municipio11001BoxBuffer500.shp_, cree 4 campos de atributos reales con precisión 10 con los nombres `LongLeft`, `LongRight`, `LatTop` y `LatBottom`. Utilizando las siguientes expresiones y desde el _Field Calculator_, obtenga las latitudes y longitudes que delimitan el polígono envolvente.
 
+* `LonDDMin = x_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+* `LonDDMax = x_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+* `LatDDMin = y_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+* `LatDDMax = y_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+
+<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. 
 
 * Obtención de modelo digital de elevación Copernicus.
 
