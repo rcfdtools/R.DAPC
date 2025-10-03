@@ -171,9 +171,15 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 <div align="center"><img src="graph/QGIS_SetZValue.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-10. 
+10. En la tabla de atributos de la capa _UPME_LineaTransmisionBogotaSplitNodoZ3D.shp_, cree un campo de atributos numérico entero largo con el nombre `IDNode` y con el calculador de campo asigne la propiedad `@id` para asignar un código único a cada nodo. Rotule los nodos a partir del campo de identificación de tramo e identificación de nodo con la expresión: `"IDLine"  || '-'  || "IDNode" `, podrá observar que los nodos del tramo han sido numerados consecutivamente de inicio a fin.
 
-* Obtención de cota 3D por torre.
+<div align="center"><img src="graph/QGIS_FieldCalculator4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
+
+
+
 
 
 ## 3. Distancia 3D entre torres
