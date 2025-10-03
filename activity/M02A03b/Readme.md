@@ -159,6 +159,7 @@ Elimine los vértices duplicados con Remove duplicate vertices
 * Cálculo de longitudes 3D en líneas de interconexión. Cálculo de catenaria y longitud real de cableado.
 
 
+* Estadístico de elevaciones Bogotá D.C.
 * Generación de curvas de nivel
 
 
