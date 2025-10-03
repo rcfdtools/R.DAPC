@@ -103,7 +103,7 @@ Para la descarga del modelo de terreno satelital, es necesaria la creación de u
 <div align="center"><img src="graph/QGIS_SymbologyHillshade.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 2. Localización de torres eléctricas
+## 2. Localización de torres eléctricas y elementos 3D
 
 Las dimensiones de las torres eléctricas varían significativamente; las de distribución son más bajas (15-55 metros), mientras que las de transmisión de alta tensión pueden superar los 300 metros, con diámetros variables según el diseño y la estructura de la celosía. Su altura depende de la tensión y la distancia de transporte, requiriendo tramos más altos para cruzar ríos u otros obstáculos. 
 
@@ -202,10 +202,11 @@ Obtendrá que la diferencia de longitudes 3D vs. 2D es de 582.09 metros.
 <div align="center"><img src="graph/AutoCAD_OpenFile.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 3. Distancia 3D entre torres
+## 3. Estadísticos de elevación y curvas de nivel
 
-* Cálculo de distancias 3D entre torres.
-* Cálculo de longitudes 3D en líneas de interconexión. Cálculo de catenaria y longitud real de cableado.
+1. 
+
+
 * Estadístico de elevaciones Bogotá D.C.
 * Generación de curvas de nivel
 
@@ -221,6 +222,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 |:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | M02A03b   | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | M02A03b   | Opcional en grupo: desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas. Incluir en la carpeta /shp, las capas creadas.                                                                                                                                                                                                                                                                                                                                           |
+| M02A03b   | Opcional en grupo: investigue que es la catenaria en un vano eléctrico y calcule la longitud real del cableado teniendo en cuenta la curvatura de la catenaria entre torres.                                                                                                                                                                                                                                                                                                                                                                                            |
 | M02A03b   | Opcional en grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
@@ -232,6 +234,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx
 * https://retielectrica.com/clasificacion-de-los-niveles-de-tension-capitulo-2-articulo-12/
+* [Calculemos la Catenaria de un Vano | Ejemplo de Clase Virtual Linielec](https://www.youtube.com/watch?v=AnHAPrNz7Qk)
 
 
 ## Control de versiones
