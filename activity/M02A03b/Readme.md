@@ -111,11 +111,15 @@ El ancho de la base de una torre eléctrica varía según su tipo, pero puede ir
 
 Para la segmentación de líneas de transmisión eléctrica a partir de la separación de torres eléctricas por tipo de tensión eléctrica, utilizaremos los siguientes valores de referencia:
 
+<div align="center">
+
 | Tensión                | Rango de separación (m)  |  Valor (m)  |
 |:-----------------------|:-------------------------|:-----------:|
 | Alta (AT) <= 500 kW    | Entre 350m y 1700m       |    1000     |
 | Media (MT) <= 230 kW   | Entre 275 y 455m         |     400     |
 | Baja (BT) <= 115 kW    | 100 metros               |     100     |
+
+</div>
 
 1. Agregue al proyecto la capa de líneas de transmisión eléctrica localizadas dentro de Bogotá D.C. desde la capa _/shp/UPME_LineaTransmisionBogota.shp_ y simbolice por categorías a partir del campo `UPME_Tesi`,
 
@@ -131,11 +135,15 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 4. Cree ahora un campo real de precisión 10 con el nombre `TorreDist`, luego utilizando la herramienta de selección por atributos y el calculador de campo, asigne los valores de separación definidos dependiendo de la tensión.
 
+<div align="center">
+
 | Tensión              | Query                            |  Valor (m)  |
 |:---------------------|:---------------------------------|:-----------:|
 | Alta (AT) <= 500 kW  | "UPME_Tensi" =  '500'            |    1000     |
 | Media (MT) <= 230 kW | "UPME_Tensi" =  '230'            |     400     |
 | Baja (BT) <= 115 kW  | "UPME_Tensi" in ('<110' , '115') |     100     |
+
+</div>
 
 <div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
