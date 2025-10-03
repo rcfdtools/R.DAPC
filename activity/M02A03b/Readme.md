@@ -181,9 +181,9 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 12. En la tabla de atributos cree campos numéricos reales de precisión 10 y calcule la longitud 2D, 3D y diferencia de longitudes, utilice las expresiones:
 
-* LP2Dm: length(@geometry)
-* LP3Dm: length3D(@geometry)
-* LPDiffm: length3D(@geometry)-length(@geometry)
+* LP2Dm: `length(@geometry)`
+* LP3Dm: `length3D(@geometry)`
+* LPDiffm: `length3D(@geometry)-length(@geometry)`
 
 Obtendrá que la diferencia de longitudes 3D vs. 2D es de 582.09 metros.
 
