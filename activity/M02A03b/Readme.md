@@ -189,6 +189,15 @@ Obtendrá que la diferencia de longitudes 3D vs. 2D es de 582.09 metros.
 
 <div align="center"><img src="graph/QGIS_FieldCalculator5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+13. Con la herramienta _View / Elevation Profile_, visualice el perfil 3D del tramo denominado _CIRCO - NUEVA ESPERANZA 1 230 kV_ a partir de la línea y nodos 3D. Podrá observar los nodos son representados correctamente y que el eje de la línea visualmente es presentado discontínuo.
+
+<div align="center"><img src="graph/QGIS_ElevationProfile1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+14. Con la herramienta _Vector general / Export layers to DXF_, exporte las capas _UPME_LineaTransmisionBogotaSplitNodoZ3D.shp_ y _UPME_LineaTransmisionBogota3D.shp_ usando el CRS 9377, guarde como _/cad/UPME_LineaTransmisionBogota3D.dxf_.
+
+<div align="center"><img src="graph/QGIS_ExportLayersToDXF.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+15. 
 
 
 
