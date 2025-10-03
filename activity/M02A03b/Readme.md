@@ -175,9 +175,19 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 <div align="center"><img src="graph/QGIS_FieldCalculator4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+11. Con la herramienta _Vector creation / Points to path_, convierta los nodos 3D a una polilínea 3D. Nombre la capa resultante como _/shp/UPME_LineaTransmisionBogota3D.shp_. Abra la tabla de atributos, observará que la línea corresponde al identificador IDLine = 10 y que ha sido creada a partir de 217 nodos incluyendo el nodo cero.
 
+<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+12. En la tabla de atributos cree campos numéricos reales de precisión 10 y calcule la longitud 2D, 3D y diferencia de longitudes, utilice las expresiones:
 
+* LP2Dm: length(@geometry)
+* LP3Dm: length3D(@geometry)
+* LPDiffm: length3D(@geometry)-length(@geometry)
+
+Obtendrá que la diferencia de longitudes 3D vs. 2D es de 582.09 metros.
+
+<div align="center"><img src="graph/QGIS_FieldCalculator5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
