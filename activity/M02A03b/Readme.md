@@ -197,8 +197,9 @@ Obtendrá que la diferencia de longitudes 3D vs. 2D es de 582.09 metros.
 
 <div align="center"><img src="graph/QGIS_ExportLayersToDXF.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-15. 
+15. Desde AutoCAD, abra el archivo generado ajustando con el comando **PTYPE** la representación de visualización de puntos a 20 metros. Desde las propiedades prodrá observar que la longitud 3D de la línea corresponde a 30317.8872 metros, coincidiendo con la longitud calculada por QGIS.
 
+<div align="center"><img src="graph/AutoCAD_OpenFile.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## 3. Distancia 3D entre torres
