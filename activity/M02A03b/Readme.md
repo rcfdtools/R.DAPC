@@ -153,10 +153,23 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 <div align="center"><img src="graph/QGIS_SplitLinesByMaximumLength.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_SplitLinesByMaximumLength1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-6.  Utilizando la herramienta _Processing Toolbox / Vector Geometry / Extract vertices_, obtenga todos los nodos 
+6. A través de un _Query Builder_, filtre por "nombre_tra" = 'CIRCO - TUNAL 1 230 kV' la capa segmentada. Observará que este tramo se componen de 75 segmentos entre torres a 400 metros debido a que hemos considerado este tramo como de tensión media.
+
+<div align="center"><img src="graph/QGIS_QueryBuilder.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+7. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Extract vertices_, obtenga todos los nodos 2D que componen los segmentos del tramo filtrado. Nombre la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplitNodo.shp_.
+
+<div align="center"><img src="graph/QGIS_ExtractVertices.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Tenga en cuenta que en cada tramo se han obtenido los nodos iniciales y finales, debido a esto, en las localizaciones intermedias obtendremos nodos duplicados. QGIS dispone de una herramienta de eliminación de vértices duplicados, denominada _Remove duplicate vertices_, sin embargo, esta herramienta no elimina no los elimina debido a que un nodo final de un tramo es coincidente con el nodo inicial del siguiente.
+
+8. Con la herramienta _Raster analysis / Sample raster values_, obtenga las cotas o elevaciones Z de todos los nodos a partir del DEM Copernicus30m9377.tif, utilice _COP30__ como prefijo de campo. Nombre la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplitNodoZ.shp_. 
+
+<div align="center"><img src="graph/QGIS_SampleRasterValues.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+9. Con la herramienta Set Z value, asigne el valor Z a cada nodo para obtener nodos 3D, 
 
 
-Elimine los vértices duplicados con Remove duplicate vertices
 
 * Obtención de cota 3D por torre.
 
@@ -165,8 +178,6 @@ Elimine los vértices duplicados con Remove duplicate vertices
 
 * Cálculo de distancias 3D entre torres.
 * Cálculo de longitudes 3D en líneas de interconexión. Cálculo de catenaria y longitud real de cableado.
-
-
 * Estadístico de elevaciones Bogotá D.C.
 * Generación de curvas de nivel
 
