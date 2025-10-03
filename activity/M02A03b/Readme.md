@@ -148,7 +148,7 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 <div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Split lines by maximum length_, divida cada tramo a partir del campo de atributos `TorreDist`, nombre la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplit.shp_. Abra y verifique la tabla de atributos, podrá observar que cada tramo contiene ahora múltiples segmentos. Simbolice usando flechas por segmento. 
+5. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Split lines by maximum length_, divida cada tramo a partir del campo de atributos `TorreDist`, Guarde la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplit.shp_. Abra y verifique la tabla de atributos, podrá observar que cada tramo contiene ahora múltiples segmentos. Simbolice usando flechas por segmento. 
 
 <div align="center"><img src="graph/QGIS_SplitLinesByMaximumLength.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_SplitLinesByMaximumLength1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
@@ -157,17 +157,17 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 <div align="center"><img src="graph/QGIS_QueryBuilder.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-7. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Extract vertices_, obtenga todos los nodos 2D que componen los segmentos del tramo filtrado. Nombre la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplitNodo.shp_.
+7. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Extract vertices_, obtenga todos los nodos 2D que componen los segmentos del tramo filtrado. Guarde la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplitNodo.shp_.
 
 <div align="center"><img src="graph/QGIS_ExtractVertices.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 > Tenga en cuenta que en cada tramo se han obtenido los nodos iniciales y finales, debido a esto, en las localizaciones intermedias obtendremos nodos duplicados. QGIS dispone de una herramienta de eliminación de vértices duplicados, denominada _Remove duplicate vertices_, sin embargo, esta herramienta no los elimina debido a que uno corresponde al nodo final de un tramo y otro al inicial del siguiente.
 
-8. Con la herramienta _Raster analysis / Sample raster values_, obtenga las cotas o elevaciones Z de todos los nodos a partir del DEM Copernicus30m9377.tif, utilice _COP30__ como prefijo de campo. Nombre la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplitNodoZ.shp_. 
+8. Con la herramienta _Raster analysis / Sample raster values_, obtenga las cotas o elevaciones Z de todos los nodos a partir del DEM Copernicus30m9377.tif, utilice _COP30__ como prefijo de campo. Guarde la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplitNodoZ.shp_. 
 
 <div align="center"><img src="graph/QGIS_SampleRasterValues.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-9. Con la herramienta _Vector geometry / Set Z value_, asigne el valor Z a cada nodo a partir del campo de atributos `COP30_1` para obtener nodos 3D. Nombre la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplitNodoZ3D.shp_. 
+9. Con la herramienta _Vector geometry / Set Z value_, asigne el valor Z a cada nodo a partir del campo de atributos `COP30_1` para obtener nodos 3D. Guarde la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplitNodoZ3D.shp_. 
 
 <div align="center"><img src="graph/QGIS_SetZValue.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -175,7 +175,7 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 <div align="center"><img src="graph/QGIS_FieldCalculator4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-11. Con la herramienta _Vector creation / Points to path_, convierta los nodos 3D a una polilínea 3D. Nombre la capa resultante como _/shp/UPME_LineaTransmisionBogota3D.shp_. Abra la tabla de atributos, observará que la línea corresponde al identificador IDLine = 10 y que ha sido creada a partir de 217 nodos incluyendo el nodo cero.
+11. Con la herramienta _Vector creation / Points to path_, convierta los nodos 3D a una polilínea 3D. Guarde la capa resultante como _/shp/UPME_LineaTransmisionBogota3D.shp_. Abra la tabla de atributos, observará que la línea corresponde al identificador IDLine = 10 y que ha sido creada a partir de 217 nodos incluyendo el nodo cero.
 
 <div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -204,14 +204,24 @@ Obtendrá que la diferencia de longitudes 3D vs. 2D es de 582.09 metros.
 
 ## 3. Estadísticos de elevación y curvas de nivel
 
-1. Utilizando la herramienta _Raster analysis / Zonal statistics_, calcule los estadísticos de elevación del modelo digital de elevación Copernicus a partir del polígono de la ciudad de Bogotá D.C. contenido en la capa geográfica _IGAC_Municipio.shp_. Podrá observar que el rango de elevaciones va de la cota 2280.55 a 4159.21 m.s.n.m. debido a que se incluyen las elevaciones correspondientes a la zona rural de la ciudad en el área de Sumapaz.
+1. Utilizando la herramienta _Raster analysis / Zonal statistics_, calcule los estadísticos de elevación del polígono de la ciudad de Bogotá D.C. contenido en la capa geográfica _IGAC_Municipio.shp_, a partir del modelo digital de elevación Copernicus. Podrá observar que el rango de elevaciones va de la cota 2280.55 a 4159.21 m.s.n.m. debido a que se incluyen las elevaciones correspondientes a la zona rural de la ciudad en el área de Sumapaz.
 
 <div align="center"><img src="graph/QGIS_ZonalStatistics.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 > Para calcular los estadísticos de elevación de las líneas de transmisión, cree un buffer de 0.1 metros alrededor de las líneas y luego ejecute la herramienta _Zonal statistics_. Lo anterior debido a que esta herramienta solo calcula valores a partir de polígonos. 
 
-2. Ejecute la herramienta Generación de curvas de nivel
+2. Ejecute la herramienta _GDAL / Raster extraction / Contour_, para generar curvas de nivel 3D cada 50 metros sobre toda la extensión del modelo digital de elevación Copernicus. Guarde la capa resultante como _/shp/IGAC_Municipio11001Contour.shp_.
 
+<div align="center"><img src="graph/QGIS_Contour.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Ejecute la herramienta _Vector overlay / Clip_ para recortar las curvas de nivel hasta el límite del polígono municipal de Bogotá D.C. Guarde la capa resultante como _/shp/IGAC_Municipio11001ContourClip.shp_. 
+
+<div align="center"><img src="graph/QGIS_Clip.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Simbolice por colores graduados a partir de la elevación de cada cota y para la línea de transmisión evaluada en la capa _UPME_LineaTransmisionBogota3D.shp_, identifique las curvas de nivel más próximas al punto de inicio y fin del tramo. Podrá observar que la curva cercana al punto inicial corresponde a 2850 m.s.n.m. y en el punto final 2600 m.s.n.m.
+
+<div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Symbology2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
