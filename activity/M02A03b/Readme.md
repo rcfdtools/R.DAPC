@@ -204,11 +204,13 @@ Obtendrá que la diferencia de longitudes 3D vs. 2D es de 582.09 metros.
 
 ## 3. Estadísticos de elevación y curvas de nivel
 
-1. 
+1. Utilizando la herramienta _Raster analysis / Zonal statistics_, calcule los estadísticos de elevación del modelo digital de elevación Copernicus a partir del polígono de la ciudad de Bogotá D.C. contenido en la capa geográfica _IGAC_Municipio.shp_. Podrá observar que el rango de elevaciones va de la cota 2280.55 a 4159.21 m.s.n.m. debido a que se incluyen las elevaciones correspondientes a la zona rural de la ciudad en el área de Sumapaz.
 
+<div align="center"><img src="graph/QGIS_ZonalStatistics.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-* Estadístico de elevaciones Bogotá D.C.
-* Generación de curvas de nivel
+> Para calcular los estadísticos de elevación de las líneas de transmisión, cree un buffer de 0.1 metros alrededor de las líneas y luego ejecute la herramienta _Zonal statistics_. Lo anterior debido a que esta herramienta solo calcula valores a partir de polígonos. 
+
+2. Ejecute la herramienta Generación de curvas de nivel
 
 
 
