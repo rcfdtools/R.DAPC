@@ -15,7 +15,7 @@ Al finalizar esta actividad, el estudiante:
 * Elabora mapas y planos.
 * Une capas geográficas para análisis con cobertura integrada.
 * Descarga y procesa imágenes satelitales de modelos digitales de elevación.
-* Crea nodos 3 líneas 3D.
+* Crea nodos y líneas 3D.
 
 
 ## Requerimientos
@@ -251,9 +251,9 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Control de versiones
 
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.09.13 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   8   |
+| Versión      | Descripción        | Autor                                       | Horas |
+|--------------|:-------------------|---------------------------------------------|:-----:|
+| 2025.10.03   | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |   8   |
 
 
 ##
