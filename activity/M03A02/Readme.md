@@ -115,8 +115,14 @@ Consulte y ajuste las rutas de almacenamiento de archivos para que por defecto R
 
 ## 3. Vinculación o importación de archivos de referencia CAD 
 
+Para el dibujo de objetos 3D en Revit, se pueden utilizar como referencia archivos de dibujo CAD. Existen los siguientes dos procedimientos genéricos:
 
+* Link CAD: permite vincular archivos externos permitiendo actualizar cambios desde el dibujo original, al compartir el proyecto, también es necesario compartir los archivos CAD.
+* Import CAD: permite importar los objetos CAD dentro del proyecto de Revit, por lo cual, al compartir el proyecto, no es necesario compartir los archivos de referencia. Los elementos importados no pueden ser actualizados automáticamente desde la fuente original, estos deben importados nuevamente al proyecto.
 
+1. En el menú _Insert / Link / Link CAD_, seleccione y vincule el archivo _/cad/DAPC_ProyectoCAD.dwg_, seleccionando las opciones de colores en _Blanco y Negro_, todas las capas, unidades de importación en metros, posicionamiento de origen y sobre el nivel arquitectónico L1.
+
+<div align="center"><img src="graph/Revit_LinkCAD.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
