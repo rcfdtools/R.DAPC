@@ -63,13 +63,35 @@ Module 2
 	https://www1.upme.gov.co/DemandayEficiencia
 	https://lowcarbonpower.org/es/region/Colombia
 	Rotación campus: -8.5°
+	2.3.c. Mapas e imágenes / Identificación de zonas con materiales ferrosos: Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de imagenes satelitales.
 
 
 
 Module 3
+	Revit doesn't use Layers use Categories
+	Disciplina - Categorías - Familias - Tipos
+	CM: agregar componente
+	RR: render
+	VG: mostrar categorías
+	WT: viewports split
+	TW: expand current viewport
+	LL: crear un nuevo nivel
+	UN: unidades de proyecto
+	LI: linea de modelo
+	DL: línea de detalle
+	SA: seleccionar elementos del mismo tipo
+	PT: pintura de muros
+	PLINE no existe en Revit
 	Pavco Revit objects catalog.
-
-
+	Cargar plantillas: File / Options / File location / c:\ProgramData\Autodesk\RVT###\FamilyTemplates\
+	Revit MEP 2019: https://www.youtube.com/watch?v=WOXomllloSE&list=PLZCc_omLYhhj9ajxqOKKSkW7lznuK9foH
+	MODELADO Y METRADO DE INST. ELÉCTRICAS REVIT https://www.youtube.com/watch?v=8z_gThSbVPQ&list=PLnLXyPBhtlYablShM3q-3l9aA8UsLLbBy
+	https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Revit-Content-Library.html
+	Get libraries: https://manage.autodesk.com/products/RVT?version=2026&platform=WIN64&language=EINT
+	Curso básico de Revit 2026 en español
+	https://www.youtube.com/playlist?list=PLZCc_omLYhhiU8wSjyyg2KKUp7juFug2Z
+	manage.autodesk.com
+	
 Commands
     QPMODE
 
