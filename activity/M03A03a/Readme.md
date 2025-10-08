@@ -1,4 +1,4 @@
-# 3.3.a. Creación y manipulación de elementos en Revit - Estructura 
+# 3.3.a. Creación y manipulación de elementos en Revit - Estructural 
 Keywords:  `revit` `bim` `axe` `structure` `columns` `beams` `floor` `m03a02`
 
 Control de visualización (Visibility graphics). Láminas de ploteo (Sheets). Creación de WorkSets, Creación de un archivo local y Relinquish all mine.
@@ -34,7 +34,25 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 1. Trazado de ejes
 
-<div align="center"><img src="graph/Revit_InstallLibraries2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+El inicio de creación de objetos de Revit comienza con la incorporación de los ejes o la grilla de localización.
+
+1. En el menú _Architecture_ o desde el menú _Structure_, seleccióne _Datum / Grid_ y, trace los ejes horizontales del proyecto. Utilice como referencia los puntos centrales de las columnas visibles en el archivo CAD de referencia. Trace el eje 1 al norte y luego con las herramientas de modificación, copie múltiples veces los demás ejes horizontales. Observará que los ejes creados tienen una numeración consecutiva.
+
+<div align="center"><img src="graph/Revit_Grid.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Ahora, trace los ejes verticales, primero el eje a la izquierda y renombre como _A_. Luego copie multiples veces hacia la derecha, observará que su nombramiento es alfabético.
+
+<div align="center"><img src="graph/Revit_Grid1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. En la vista 3D, visualice la localización de los ejes, podrá observar que ahora el dibujo se compone de los niveles de planta y los ejes estructurales.
+
+<div align="center"><img src="graph/Revit_3D.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
+
+
+
 
 
 
