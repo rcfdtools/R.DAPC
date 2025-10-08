@@ -59,6 +59,10 @@ El desarrollo de diseños eléctricos en edificaciones, requiere del conocimient
 
 <div align="center"><img src="graph/Revit_Column.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+En esta categoría, existen diferentes familias de elementos y tipos, p. ej., 
+
+<div align="center"><img src="graph/Revit_ColumnCategory.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 2. Seleccione la columna de _300 x 450mm_ y de clic en el botón _Duplicate..._ renombrando como _250 x 400mm_, luego ajuste las dimensiones `b` y `h` y de clic en _OK_.
 
 <div align="center"><img src="graph/Revit_Column1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
