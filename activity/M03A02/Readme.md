@@ -1,7 +1,7 @@
 # 3.2. Herramientas para la aplicación de la metodología BIM. Introducción al software Revit
 Keywords:  `revit` `bim` `m03a01`
 
-Uso de plantillas (templates). Fundamentos del software Revit. Configuración de Revit (Options)e Colombia.
+Uso de plantillas (templates). Fundamentos del software Revit. Configuración de Revit (Options).
 
 <div align="center"><img src="graph/m03a01.png" alt="R.DAPC" width="50%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/ae9373792145f9e2">https://gemini.google.com/</a></sub><br><br></div>
 
@@ -31,15 +31,56 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 >
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
+## 0. ¿Qué es Autodesk Revit?
 
-## 1. Uso de plantillas y configuración general
+Revit es un software de Autodesk para el diseño y la documentación que usa la metodología de Modelado de Información de Construcción (BIM) para crear edificios y su infraestructura. Funciona con objetos inteligentes en 3D, y cualquier cambio en una parte del proyecto se actualiza automáticamente en todas las vistas y documentos relacionados, permitiendo una mayor coordinación en el diseño arquitectónico, ingeniería y construcción. [^1] 
 
-Autodesk Revit, 
+Funciones y ventajas principales:
+
+* Diseño con objetos inteligentes: en lugar de solo dibujar, creas elementos constructivos como muros, puertas y ventanas que contienen información detallada sobre ellos. 
+* Coordinación automática: al ser paramétrico, un cambio en un elemento se actualiza al instante en todas las vistas (plantas, secciones, alzados) y en la documentación asociada. 
+* Plataforma multidisciplinaria: integra las disciplinas de arquitectura, ingeniería estructural, mecánica y eléctrica (MEP) en un solo entorno de trabajo, facilitando la colaboración. 
+* Generación de documentación: permite crear planos, dibujos, cronogramas y presupuestos detallados a partir del modelo 3D. 
+* Simulación y visualización: facilita el renderizado de modelos y la creación de recorridos virtuales para visualizar el proyecto de forma más realista. 
+
+Aplicaciones:
+
+* Diseño arquitectónico: crea diseños conceptuales y documenta edificios. 
+* Ingeniería civil y estructural: modela y analiza estructuras de concreto y acero. 
+* Ingeniería MEP: permite modelar las instalaciones mecánicas, eléctricas y de fontanería. 
+* Coordinación del proyecto: permite la colaboración entre diferentes equipos de trabajo. 
+
+En resumen, Revit es una herramienta esencial para profesionales de la construcción que buscan un flujo de trabajo más eficiente, desde el diseño inicial hasta la gestión del proyecto, al trabajar con información inteligente en un modelo 3D colaborativo. 
+
+
+## 1. Instalación de librerías
+
+Antes de iniciar a trabajar con Autodesk Revit, es necesario descarga e instalar las librerías que contienen las diferentes familias de objetos que son necesarias para la creación de modelos. Desde el enlace https://manage.autodesk.com/products/rvt, ingrese al administrador de productos y servicios de Autodesk y para el software Revit, descargue las librerías denominadas:
+
+* Spanish Content for Revit 2026: RVTCPESP.exe
+* Generic International - Spanish Content for Autodesk Revit 2026: RVTCPGENESP.exe
+
+<div align="center"><img src="graph/Revit_InstallLibraries.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_InstallLibraries1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_InstallLibraries2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Tenga en cuenta que el idioma de la interfaz de usuario de Autodesk Revit puede ser Inglés y el idioma de las librerías puede ser usado en cualquier idioma. 
+
+Desde la carpeta de descargas de su sistema operativo, instale los dos paquetes de librerías descargados. En caso de que ya estén instalados, aparecerá la siguiente ventana.
+
+<div align="center"><img src="graph/Revit_InstallLibraries3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
+
+## 2. Uso de plantillas y configuración general
+
+Autodesk Revit, permite la creación de proyectos a partir de plantillas por disciplina o multidisciplina. En la ventana de inicio de Revit, de clic en el botón _New..._ y seleccione la plantilla Metric Multi-discipline.
 
 <div align="center"><img src="graph/Revit_New.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 2. Instalación de librerías
+
 
 
 
@@ -87,4 +128,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [:arrow_backward: Anterior](../M02A03a/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente :arrow_forward:](../M02A03c/Readme.md) |
 |---------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------|
 
-[^1]: 
+[^1]: https://www.nti-group.com/es/blog/es/revit-que-es-novedades-autodesk
