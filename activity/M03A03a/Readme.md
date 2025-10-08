@@ -54,12 +54,14 @@ El inicio de creación de objetos de Revit comienza con la incorporación de los
 El desarrollo de diseños eléctricos en edificaciones, requiere del conocimiento detallado de los elementos estructurales del proyecto. Lo anterior debido a que los conductos no deben atravesar elementos estructurales o los refuerzos, y también debido a que es necesario conocer los cambios de dirección en las tuberías mediante codos, la localización de acoples, cajas conectoras y tableros.
 
 > Revit dispone de dos tipos de columnas o pilares: las arquitectónicas que funcionan solo como elementos de diseño y las estructurales que dan soporte a la construcción.
+> 
+> Es recomendable crear columnas en tramos independientes entre pisos para que se puedan generar los nodos de unión con las vigas en cada nivel.
 
 1. Abra la vista de nivel _L1 - Arquitectónico_, en el menú _Structure / Structure / Column_, ajuste las propiedades específicas de dimensionamiento de la columna estructural, para este ejemplo utilizaremos columnas de 25 x 40 cm. En el _Edit Type_, cargue y seleccione la familia _Pilares estructurales / Hormigón / M_Hormigón-Rectangular-Pilar.rfa_.
 
 <div align="center"><img src="graph/Revit_Column.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-En esta categoría, existen diferentes familias de elementos y tipos, p. ej., 
+En esta categoría, existen diferentes familias de elementos y tipos, p. ej.:
 
 <div align="center"><img src="graph/Revit_ColumnCategory.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
@@ -105,9 +107,10 @@ En esta categoría, existen diferentes familias de elementos y tipos, p. ej.,
 
 <div align="center"><img src="graph/Revit_Column9.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> Utilice la barra espaciadora cuando necesite crear o rotar 90 grados una columna.
+> Utilice la barra espaciadora cuando necesite crear o rotar 90 grados una columna seleccionada o una columna que esté creando.
 
 
+## 3. Dibujo de vigas
 
 
 
