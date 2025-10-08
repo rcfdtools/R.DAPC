@@ -149,11 +149,19 @@ Para el desarrollo del proyecto CAD, establecimos 12 metros de la altura de la b
 
 <div align="center"><img src="graph/Revit_ElevationSouth.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. En la vista _Sur - Arquitectónico_, de clic en el valor L2 correspondiente a 3.60 m y ajuste a 4.00 m. Podrá observar que en la vista 3D se visualiza la selección de este plano.
 
+<div align="center"><img src="graph/Revit_LevelL2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. Desde el menú _Architecture / Datum / Level_ o copiando desde el menú _Modify / Levels_ uno de los niveles existentes, cree los niveles L3 y L4 cuya altura total será de 12 metros. Observará que los niveles L1 y L2 se visualizan en color azul indicando que ya existen en el _Project Browser_, y que los niveles L3 y L4 son mostrados en color negro indicando que aún no se han incluido estas vistas en el árbol de visualización de proyecto.
 
+<div align="center"><img src="graph/Revit_LevelL4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+5. Para agregar los niveles creados a las vistas del _Project Browser_, en el menú _View / Create / Plan Views / Floor Plan_ seleccione estas vistas. En el árbol de vistas, renombre como _L3 - Arquitectónico_ y _L4 - Arquitectónico_.
 
+<div align="center"><img src="graph/Revit_PlanViewFloowPlan.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Ahora dispone de 
 
 
 ## Actividades de proyecto :triangular_ruler:
