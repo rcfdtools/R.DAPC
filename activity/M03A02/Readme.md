@@ -68,14 +68,29 @@ Luego de instalar el aplicativo y antes de iniciar a trabajar con Autodesk Revit
 
 Desde la carpeta de descargas de su sistema operativo, instale los dos paquetes de librerías descargados. En caso de que ya estén instalados, aparecerá la siguiente ventana.
 
-<div align="center"><img src="graph/Revit_InstallLibraries3.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/Revit_InstallLibraries3.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 ## 2. Uso de plantillas y configuración general
 
-Autodesk Revit, permite la creación de proyectos a partir de plantillas por disciplina o multidisciplina. En la ventana de inicio de Revit, de clic en el botón _New..._ y seleccione la plantilla Metric Multi-discipline.
+Autodesk Revit, permite la creación de proyectos a partir de plantillas por disciplina o multidisciplina. En la ventana de inicio de Revit, de clic en el botón _New..._ y seleccione la plantilla _c:/ProgramData/Autodesk/RVT2026/Templates/Spanish_INTL/Default-Multi-Discipline_MetricESP.rte_. Guarde el proyecto como _/file/cad/DAPC_Proyecto.rvt_.
+
+> Tenga presente que los archivos de plantilla o template tienen la extensión `.rte` y los proyectos de Revit la extensión `.rvt`.
 
 <div align="center"><img src="graph/Revit_New.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Dentro del proyecto Revit, podrá observar que a la izquierda se encuentra localizado el _Project Browser_ que contiene las vistas para las siguientes disciplinas:
+
+* Architectural
+* Coordination
+* Electrical
+* Mechanical
+* Plumbing
+* Structural
+
+También podrá observar que por defecto se despliega en la ventana de trabajo o _ViewPort_, la vista arquitectónica _L1 - Arquitectónico_.
+
+<div align="center"><img src="graph/Revit_Save.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
