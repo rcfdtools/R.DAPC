@@ -145,7 +145,9 @@ Para el desarrollo del proyecto CAD, establecimos 12 metros de la altura de la b
 
 <div align="center"><img src="graph/Revit_3DView1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2.
+2. En la vista _L1 - Arquitectónico_ de clic en el botón de vista de alzado _Sur - Arquitectónico_, o abra esta vista desde el _Project Browser_. Desde el menú _View / Windows / Tile Views_, visualice acopladas todas las ventanas de trabajo de las diferentes vistas. Esta acción puede ser realizada con el comando **WT** y restablecida a la vista de pestañas con el comando **TW** o el botón _View / Windows / Tab Views_.
+
+<div align="center"><img src="graph/Revit_ElevationSouth.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
