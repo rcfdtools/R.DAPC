@@ -103,7 +103,7 @@ Consulte y ajuste las rutas de almacenamiento de archivos para que por defecto R
 * Project templates / Metric Multi-discipline: _C:\ProgramData\Autodesk\RVT 2026\Templates\Spanish_INTL\Default-Multi-Discipline_MetricESP.rte_
 * Default path for family template files: _C:\ProgramData\Autodesk\RVT 2026\Family Templates_
 
-<div align="center"><img src="graph/Revit_Options2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_Options2.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 3. Desde el menú _Manage / Settings / Project Units_ o con el comando **UN**, ajuste la configuración de unidades comunes (Common) del proyecto estableciendo:
 
