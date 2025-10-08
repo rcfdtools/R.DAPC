@@ -73,7 +73,9 @@ Desde la carpeta de descargas de su sistema operativo, instale los dos paquetes 
 
 ## 2. Uso de plantillas y configuración general
 
-Autodesk Revit, permite la creación de proyectos a partir de plantillas por disciplina o multidisciplina. En la ventana de inicio de Revit, de clic en el botón _New..._ y seleccione la plantilla _c:/ProgramData/Autodesk/RVT2026/Templates/Spanish_INTL/Default-Multi-Discipline_MetricESP.rte_. Guarde el proyecto como _/file/cad/DAPC_Proyecto.rvt_.
+Autodesk Revit, permite la creación de proyectos a partir de plantillas por disciplina o multidisciplina.
+
+1. En la ventana de inicio de Revit, de clic en el botón _New..._ y seleccione la plantilla _c:/ProgramData/Autodesk/RVT 2026/Templates/Spanish_INTL/Default-Multi-Discipline_MetricESP.rte_. Guarde el proyecto como _/file/cad/DAPC_Proyecto.rvt_.
 
 > Tenga presente que los archivos de plantilla o template tienen la extensión `.rte` y los proyectos de Revit la extensión `.rvt`.
 
@@ -91,6 +93,31 @@ Dentro del proyecto Revit, podrá observar que a la izquierda se encuentra local
 También podrá observar que por defecto se despliega en la ventana de trabajo o _ViewPort_, la vista arquitectónica _L1 - Arquitectónico_.
 
 <div align="center"><img src="graph/Revit_Save.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. En el menú _File / Options_, consulte las opciones de configuración por defecto, en la pestaña _Hardware_, active la opción _Use hardware acceleration_ si dispone de tarjeta de video dedicada.
+
+<div align="center"><img src="graph/Revit_Options1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Consulte y ajuste las rutas de almacenamiento de archivos para que por defecto Revit utilice las siguientes localizaciones:
+
+* Project templates / Metric Multi-discipline: _C:\ProgramData\Autodesk\RVT 2026\Templates\Spanish_INTL\Default-Multi-Discipline_MetricESP.rte_
+* Default path for family template files: _C:\ProgramData\Autodesk\RVT 2026\Family Templates_
+
+<div align="center"><img src="graph/Revit_Options2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Desde el menú _Manage / Settings / Project Units_ o con el comando **UN**, ajuste la configuración de unidades comunes (Common) del proyecto estableciendo:
+
+* Distance: Metros con dos decimales mostrando símbolo (m).
+* Length: Metros con dos decimales mostrando símbolo (m).
+
+<div align="center"><img src="graph/Revit_Units.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+## 3. Vinculación o importación de archivos de referencia CAD 
+
+
+
+
 
 
 
