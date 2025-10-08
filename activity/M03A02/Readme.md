@@ -161,7 +161,7 @@ Para el desarrollo del proyecto CAD, establecimos 12 metros de la altura de la b
 
 <div align="center"><img src="graph/Revit_PlanViewFloowPlan.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-A partir de este momento, dispone de un archivo de proyecto de Revit listo para la creación de elementos 3D.
+A partir de este momento, dispone de un archivo de proyecto de Revit listo para la creación de elementos.
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -185,14 +185,13 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://help.autodesk.com/view/RVT/2026/ESP/
 * https://help.autodesk.com/view/RVT/2026/ESP/?guid=GUID-7F8CFFA4-22CB-43CA-84EA-332A27A0A0F0
-* 
 
 
 ## Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2025.10.08 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |   8   |
+| 2025.10.08 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |   5   |
 
 
 ##
@@ -202,7 +201,7 @@ _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M02A03a/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente :arrow_forward:](../M02A03c/Readme.md) |
-|---------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------|
+| [:arrow_backward: Anterior](../M03A01/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente :arrow_forward:](../M03A03a/Readme.md) |
+|----------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: https://www.nti-group.com/es/blog/es/revit-que-es-novedades-autodesk
