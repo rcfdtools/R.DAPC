@@ -96,7 +96,7 @@ También podrá observar que por defecto se despliega en la ventana de trabajo o
 
 2. En el menú _File / Options_, consulte las opciones de configuración por defecto, en la pestaña _Hardware_, active la opción _Use hardware acceleration_ si dispone de tarjeta de video dedicada.
 
-<div align="center"><img src="graph/Revit_Options1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_Options1.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 Consulte y ajuste las rutas de almacenamiento de archivos para que por defecto Revit utilice las siguientes localizaciones:
 
