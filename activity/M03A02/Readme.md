@@ -12,6 +12,8 @@ Al finalizar esta actividad, el estudiante:
 
 * Conoce la configuración básica del software Revit.
 * Instala librerías.
+* Vincular o importar archivos de referencia de dibujo CAD.
+* Crear niveles.
 
 
 ## Requerimientos
@@ -130,6 +132,10 @@ Para el dibujo de objetos 3D en Revit, se pueden utilizar como referencia archiv
 
 <div align="center"><img src="graph/Revit_3DView.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Para la actualización de archivos CAD vinculados, acceda en el menú _Insert / Manage / Manage Links_, seleccione el archivo a actualizar y de clic en el botón _Reload_. 
+
+<div align="center"><img src="graph/Revit_ManageLinks.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 
 ## 4. Creación de niveles 
 
@@ -138,6 +144,9 @@ Para el desarrollo del proyecto CAD, establecimos 12 metros de la altura de la b
 1. Con la rueda del apuntador, acérquese a la vista de cubo 3D, podrá observar que por defecto Revit ha creado dos niveles de referencia o pisos con separaciones de 3.6 metros de altura.
 
 <div align="center"><img src="graph/Revit_3DView1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2.
+
 
 
 
