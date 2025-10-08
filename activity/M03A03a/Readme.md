@@ -49,10 +49,59 @@ El inicio de creación de objetos de Revit comienza con la incorporación de los
 <div align="center"><img src="graph/Revit_3D.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 2. Dibujo de columnas
 
+El desarrollo de diseños eléctricos en edificaciones, requiere del conocimiento detallado de los elementos estructurales del proyecto. Lo anterior debido a que los conductos no deben atravesar elementos estructurales o los refuerzos, y también debido a que es necesario conocer los cambios de dirección en las tuberías mediante codos, la localización de acoples, cajas conectoras y tableros.
 
+> Revit dispone de dos tipos de columnas o pilares: las arquitectónicas que funcionan solo como elementos de diseño y las estructurales que dan soporte a la construcción.
 
+1. Abra la vista de nivel _L1 - Arquitectónico_, en el menú _Structure / Structure / Column_, ajuste las propiedades específicas de dimensionamiento de la columna estructural, para este ejemplo utilizaremos columnas de 25 x 40 cm. En el _Edit Type_, cargue y seleccione la familia _Pilares estructurales / Hormigón / M_Hormigón-Rectangular-Pilar.rfa_.
 
+<div align="center"><img src="graph/Revit_Column.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Seleccione la columna de _300 x 450mm_ y de clic en el botón _Duplicate..._ renombrando como _250 x 400mm_, luego ajuste las dimensiones `b` y `h` y de clic en _OK_.
+
+<div align="center"><img src="graph/Revit_Column1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Agregue manualmente una columna en cualquier localización fuera del proyecto, en la parte inferior derecha obtendrá una advertencia indicando que este elemento no puede ser visualizado en la vista arquitectónica de planta. Visualmente en la vista 3D, podrá ver la columna.
+
+<div align="center"><img src="graph/Revit_Column2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Para la visualización en planta de los elementos estructurales, en el menú _View / Plan Views / Structural Plan_, cree las vistas estructurales _L3_ y _L4_.
+
+<div align="center"><img src="graph/Revit_StructuralPlan.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. En el _Project Browser_, renombre las vistas estructurales cómo _L3 - Estructural_ y _L4 - Estructural_. y abra la vista estructural _L1_. En la parte inferior cambie el estilo de visualización a sombreado, podrá observar la columna creada.
+
+<div align="center"><img src="graph/Revit_Column3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. Borre la columna creada y vuelva a iniciar la creación de columnas estructurales. En el menú _Modify / Place Structural Column_, seleccione la opción _Múltiple / At Grids_ 
+
+<div align="center"><img src="graph/Revit_Column4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Verifique que todos los ejes requeridos hayan sido ingresados.
+
+7. Seleccione todos los ejes estructurales del proyecto y de clic en _Finish_. Observará que en todas las intersecciones de ejes se han creado automáticamente columnas.
+
+<div align="center"><img src="graph/Revit_Column5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+8. Abra la vista 3D, observará que todas las columnas se encuentran debajo del nivel L1 a una paralela proyectada de -2.5 metros. 
+
+<div align="center"><img src="graph/Revit_Column6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+9. Seleccione una de las columnas y dando clic derecho, seleccione todas las instancias de proyecto de este elemento, luego establezca 0.00 m en el valor _Base Offset_ y defina como nivel superior _L2_. Esto ajustará la localización de las columnas para que se dibujen entre los nivele _L1_ y _L2_.
+
+<div align="center"><img src="graph/Revit_Column7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+10. En la vista de planta estructural _L1_, elimine todas las columnas internas de la bodega y mantenga solo las perimetrales. Utilice la tecla <kbd>Ctrl</kbd> para realizar selecciones de múltiples objetos. Visualice en 3D.
+
+<div align="center"><img src="graph/Revit_Column8.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+11. En la zona del mezanine, agregue las dos columnas intermedias faltantes.
+
+<div align="center"><img src="graph/Revit_Column9.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Utilice la barra espaciadora cuando necesite crear o rotar 90 grados una columna.
 
 
 
