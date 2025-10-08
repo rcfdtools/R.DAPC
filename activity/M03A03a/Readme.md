@@ -110,7 +110,7 @@ En esta categoría, existen diferentes familias de elementos y tipos, p. ej.:
 > Utilice la barra espaciadora cuando necesite crear o rotar 90 grados una columna seleccionada o una columna que esté creando.
 
 
-## 3. Dibujo de vigas (Beam)
+## 3. Dibujo de vigas (Beam - Structural Framing)
 
 Para realizar la conexión horizontal entre las columnas, es necesaria la incorporación de las vigas estructurales. Para el ejemplo del proyecto de clase, utilizaremos vicas de 25 cm de alto por 40 cm de alto.
 
@@ -129,6 +129,24 @@ Para realizar la conexión horizontal entre las columnas, es necesaria la incorp
 Visualice en 3D.
 
 <div align="center"><img src="graph/Revit_Beam3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Acérquese a los extremos de la fachada frontal y posterior, podrá observar que las vigas se encuentran centradas con respecto a la columna.
+
+<div align="center"><img src="graph/Revit_Beam4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. Seleccione y filtre las vigas de la cara frontal
+
+<div align="center"><img src="graph/Revit_Filter.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. Utilice la herramienta _Modify / Align_ o el comando **AL**, para alinear las vigas al extremo externo de la fachada. Repita este mismo procedimiento en la fachada posterior.
+
+<div align="center"><img src="graph/Revit_Align.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+7. Cree manualmente una viga de amarre entre las columnas internas del mezanine.
+
+<div align="center"><img src="graph/Revit_Beam5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
 
 
 
