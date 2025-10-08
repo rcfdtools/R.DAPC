@@ -161,7 +161,7 @@ Para el desarrollo del proyecto CAD, establecimos 12 metros de la altura de la b
 
 <div align="center"><img src="graph/Revit_PlanViewFloowPlan.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Ahora dispone de 
+A partir de este momento, dispone de un archivo de proyecto de Revit listo para la creación de elementos 3D.
 
 
 ## Actividades de proyecto :triangular_ruler:
