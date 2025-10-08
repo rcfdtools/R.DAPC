@@ -1,9 +1,9 @@
 # 3.2. Herramientas para la aplicación de la metodología BIM. Introducción al software Revit
-Keywords:  `revit` `bim` `units` `options` `levels` `link-cad` `import-cad` `m03a01`
+Keywords:  `revit` `bim` `units` `options` `levels` `link-cad` `import-cad` `m03a02`
 
 Uso de plantillas (templates). Fundamentos del software Revit. Configuración de Revit (Options).
 
-<div align="center"><img src="graph/m03a01.png" alt="R.DAPC" width="50%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/ae9373792145f9e2">https://gemini.google.com/</a></sub><br><br></div>
+<div align="center"><img src="graph/m03a02.jpg" alt="R.DAPC" width="50%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/ae9373792145f9e2">https://gemini.google.com/</a></sub><br><br></div>
 
 
 ## Objetivos
