@@ -49,7 +49,7 @@ El inicio de creación de objetos de Revit comienza con la incorporación de los
 <div align="center"><img src="graph/Revit_3D.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 2. Dibujo de columnas
+## 2. Dibujo de columnas (Column)
 
 El desarrollo de diseños eléctricos en edificaciones, requiere del conocimiento detallado de los elementos estructurales del proyecto. Lo anterior debido a que los conductos no deben atravesar elementos estructurales o los refuerzos, y también debido a que es necesario conocer los cambios de dirección en las tuberías mediante codos, la localización de acoples, cajas conectoras y tableros.
 
@@ -81,7 +81,7 @@ En esta categoría, existen diferentes familias de elementos y tipos, p. ej.:
 
 <div align="center"><img src="graph/Revit_Column3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-6. Borre la columna creada y vuelva a iniciar la creación de columnas estructurales. En el menú _Modify / Place Structural Column_, seleccione la opción _Múltiple / At Grids_ 
+6. Borre la columna creada y vuelva a iniciar la creación de columnas estructurales. En el menú _Modify | Place Structural Column_, seleccione la opción _Múltiple / At Grids_ 
 
 <div align="center"><img src="graph/Revit_Column4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -110,10 +110,25 @@ En esta categoría, existen diferentes familias de elementos y tipos, p. ej.:
 > Utilice la barra espaciadora cuando necesite crear o rotar 90 grados una columna seleccionada o una columna que esté creando.
 
 
-## 3. Dibujo de vigas
+## 3. Dibujo de vigas (Beam)
 
+Para realizar la conexión horizontal entre las columnas, es necesaria la incorporación de las vigas estructurales. Para el ejemplo del proyecto de clase, utilizaremos vicas de 25 cm de alto por 40 cm de alto.
 
+1. En el menú _Structure / Structure / Beam_, seleccione la opción _Edit Type_ y cargue la familia _Armazón estructural / Hormigón / M_Hormigón-Viga rectangular.rfa_.
 
+<div align="center"><img src="graph/Revit_Beam.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Seleccione la viga de _300 x 600mm_ y cree un duplicado, ajuste el rótulo y tamaño a 250 x 400mm.
+
+<div align="center"><img src="graph/Revit_Beam1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Cree las vigas usando la herramienta de _Modify | Place Beam / Multiple / On Grids_, seleccionando todos los ejes estructurales del proyecto. Observará que se han creado vigas en toda la planta de nivel _L1_.
+
+<div align="center"><img src="graph/Revit_Beam2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Visualice en 3D.
+
+<div align="center"><img src="graph/Revit_Beam3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
