@@ -124,9 +124,15 @@ Para el dibujo de objetos 3D en Revit, se pueden utilizar como referencia archiv
 
 <div align="center"><img src="graph/Revit_LinkCAD.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+> Es recomendado que la planta principal del proyecto CAD, esté centrada en el origen de coordenadas 0,0 para que al ser insertada, su visualización este en el orogen de coordenadas de Revit.  
 
+2. Desde el menú _View / Create / 3D View / Defaul 3D view_, o desde la cinta de opciones superior de Revit, abra la vista 3D del proyecto. Podrá observar que se muestran todos los elementos de dibujo contenidos en el archivo CAD.
 
+<div align="center"><img src="graph/Revit_3DView.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Con la rueda del apuntador, acérquese a la vista de cubo 3D, podrá observar que por defecto Revit ha creado dos niveles de referencia o pisos con separaciones de 3.6 metros de altura.
+
+<div align="center"><img src="graph/Revit_3DView1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
