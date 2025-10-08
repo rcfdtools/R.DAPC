@@ -11,7 +11,7 @@ Uso de plantillas (templates). Fundamentos del software Revit. Configuración de
 Al finalizar esta actividad, el estudiante:
 
 * Conoce la configuración básica del software Revit.
-* 
+* Instala librerías.
 
 
 ## Requerimientos
