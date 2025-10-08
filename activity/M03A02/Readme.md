@@ -130,9 +130,15 @@ Para el dibujo de objetos 3D en Revit, se pueden utilizar como referencia archiv
 
 <div align="center"><img src="graph/Revit_3DView.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Con la rueda del apuntador, acérquese a la vista de cubo 3D, podrá observar que por defecto Revit ha creado dos niveles de referencia o pisos con separaciones de 3.6 metros de altura.
+
+## 4. Creación de niveles 
+
+Para el desarrollo del proyecto CAD, establecimos 12 metros de la altura de la bodega industrial con un mezanine localizado a 4 metros por encima del nivel de referencia del suelo. De acuerdo a estos parámetros, la bodega puede ser construída usando pórticos de 4 metros de altura, para lo cual son requeridos 4 niveles. 
+
+1. Con la rueda del apuntador, acérquese a la vista de cubo 3D, podrá observar que por defecto Revit ha creado dos niveles de referencia o pisos con separaciones de 3.6 metros de altura.
 
 <div align="center"><img src="graph/Revit_3DView1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 
 
 
