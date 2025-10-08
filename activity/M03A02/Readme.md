@@ -183,9 +183,9 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx
-* https://retielectrica.com/clasificacion-de-los-niveles-de-tension-capitulo-2-articulo-12/
-* [Calculemos la Catenaria de un Vano | Ejemplo de Clase Virtual Linielec](https://www.youtube.com/watch?v=AnHAPrNz7Qk)
+* https://help.autodesk.com/view/RVT/2026/ESP/
+* https://help.autodesk.com/view/RVT/2026/ESP/?guid=GUID-7F8CFFA4-22CB-43CA-84EA-332A27A0A0F0
+* 
 
 
 ## Control de versiones
