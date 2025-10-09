@@ -42,6 +42,8 @@ Dependiendo del sistema constructivo, los muros pueden ser arquitectónicos o es
 
 2. Realice una visualización 3D y ajuste la altura del muro a 3.6 metros para que se empalme con la altura de las vigas estructurales. 
 
+> Es recomendable dibujar cada tramo de muro entre columnas de forma independiente.
+
 <div align="center"><img src="graph/Revit_Wall1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 3. Dibuje todos los demás muros de forma contínua en la planta arquitectónica _L1_, incluso en las zonas donde se encuentran los vanos de puertas y ventanas.
@@ -52,6 +54,10 @@ Dependiendo del sistema constructivo, los muros pueden ser arquitectónicos o es
 4. En la zonas de los vanos de las puertas principales de la bodega, extienda la altura hasta 7.6 metros.
 
 <div align="center"><img src="graph/Revit_Wall4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. Repita el procedimiento anterior de creación para los muros de los niveles arquitectónicos _L2_ a _L4_.
+
+<div align="center"><img src="graph/Revit_Wall5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
