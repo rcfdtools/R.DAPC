@@ -188,7 +188,6 @@ Para el desarrollo del proyecto, es requerida la placa contrapiso reforzada en t
 <div align="center"><img src="graph/Revit_Floor5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-
 ## Actividades de proyecto :triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
@@ -216,7 +215,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2025.10.08 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |   5   |
+| 2025.10.09 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |  12   |
 
 
 ##
@@ -226,7 +225,7 @@ _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M03A01/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente :arrow_forward:](../M03A03a/Readme.md) |
-|----------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------|
+| [:arrow_backward: Anterior](../M03A02/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente :arrow_forward:](../M03A03b/Readme.md) |
+|--------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: https://www.nti-group.com/es/blog/es/revit-que-es-novedades-autodesk
