@@ -43,6 +43,8 @@ Dependiendo del sistema constructivo, los muros pueden ser arquitectónicos o es
 2. Realice una visualización 3D y ajuste la altura del muro a 3.6 metros para que se empalme con la altura de las vigas estructurales. 
 
 > Es recomendable dibujar cada tramo de muro entre columnas de forma independiente.
+> 
+> Utilice la barra espaciadora para cambiar el tipo de alineamiento.
 
 <div align="center"><img src="graph/Revit_Wall1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -55,14 +57,28 @@ Dependiendo del sistema constructivo, los muros pueden ser arquitectónicos o es
 
 <div align="center"><img src="graph/Revit_Wall4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. Repita el procedimiento anterior de creación para los muros de los niveles arquitectónicos _L2_ a _L4_.
+5. Repita el procedimiento anterior de creación para los muros de los niveles arquitectónicos _L2_ a _L4_. No incluya muros sobre la placa del mezanine al interior de la bodega.
 
 <div align="center"><img src="graph/Revit_Wall5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 2. Dibujo de puertas (Door)
 
+La categoría de puertas depende de la categoría de muros, esto quiere decir que para crear una puerta debe existir un muro anfitrión, incluso para puertas que abarcan el ancho completo del muro. Crear puertas de:
 
+* Acceso principal a oficina: 1200 x 2100mm hoja sencilla.
+* Internas en oficina y baños: 800 x 2100mm hoja sencilla.
+* Entradas principales bodega: 6000 x 7000mm hoja doble. 
 
+1. En la vista Arquitectónica _L1_ y desde el menú _Architecture / Build / Door, seleccione o cargue la puerta de paso simple de páneles planos de 750 x 2000mm, de clic en _Edit Type_ y duplicando cree puertas de 80 cm y 120 cm para el acceso principal a la zona de oficina, zona interna de oficinas y baños. 
+
+<div align="center">Acceso principal a oficina: 1200 x 2100mm<br><img src="graph/Revit_Door.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center">Internas en oficina y baños: 800 x 2100mm<br><img src="graph/Revit_Door1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Dibuje las puertas de una hoja sobre los muros correspondientes y realice una visualización 3D.
+
+<div align="center"><img src="graph/Revit_Door2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_Door3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
