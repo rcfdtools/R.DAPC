@@ -155,7 +155,21 @@ Visualice en 3D.
 <div align="center"><img src="graph/Revit_Beam7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 4. Dibujo de placas (Floor)
+## 4. Dibujo de placas o losas (Floor or slabs)
+
+Para el desarrollo del proyecto, es requerida la placa contrapiso reforzada en toda la superficie de la bodega y la placa del mezanine.
+
+1. Abra la vista arquitectónica _L1_, luego desde el menú _Structure / Structure / Floor / Floor: Structural_, seleccione la familia de suelo _Genérico de 300 mm_ y de clic en _Edit Type_.
+
+> Tenga en cuenta que el modo de creación de losas seguirá activo hasta que en el menú _Modify_ se acepte en el grupo _Mode_ la creación o cancelación de la creación.
+
+<div align="center"><img src="graph/Revit_Floor.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. En el editor de tipos, de clic en el botón _Duplicate_ nombrando como _Genérico 400 mm_, edite las propiedades de la placa especificando el grosor requerido. Podrá observar que este tipo de placa no tiene ningún tipo de recubrimiento superior o aislamiento inferior. Opcionalmente, puede utilizar un tipo de losa que contenga las diferentes capas requeridas, incluidos morteros, recubrimientos y aislamientos. 
+
+<div align="center"><img src="graph/Revit_Floor1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. 
 
 
 
