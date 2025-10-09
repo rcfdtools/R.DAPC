@@ -34,16 +34,24 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 1. Dibujo de muros (Wall)
 
-xxxx
+Dependiendo del sistema constructivo, los muros pueden ser arquitectónicos o estructurales. Para el desarrollo del proyecto, hemos utilizado el sistema de pórticos estructurales, por lo cual, el dibujo de los muros será arquitectónico.
 
-1. xxx
+1. En la vista Arquitectónica _L1_ y desde el menú _Architecture / Build / Wall / Wall: Architectural_, seleccione la familia _Basic Wall - Genérico 150 mm_, de clic en _Edit Type_ y cree una copia con el nombre _Genérico 150 mm DAPC_. Edite las propiedades incluyendo un patron de ladrillos de albañilería y dibuje uno de los muros. 
 
-<div align="center"><img src="graph/Revit_Grid.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_Wall.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Realice una visualización 3D y ajuste la altura del muro a 3.6 metros para que se empalme con la altura de las vigas estructurales. 
 
+<div align="center"><img src="graph/Revit_Wall1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Dibuje todos los demás muros de forma contínua en la planta arquitectónica _L1_, incluso en las zonas donde se encuentran los vanos de puertas y ventanas.
 
+<div align="center"><img src="graph/Revit_Wall2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_Wall3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. En la zonas de los vanos de las puertas principales de la bodega, extienda la altura hasta 7.6 metros.
+
+<div align="center"><img src="graph/Revit_Wall4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
