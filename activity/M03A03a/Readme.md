@@ -177,9 +177,15 @@ Para el desarrollo del proyecto, es requerida la placa contrapiso reforzada en t
 
 <div align="center"><img src="graph/Revit_Floor3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+5. En el proceso de creación de la losa en el nivel L1, Revit prioriza la generación de la losa sobre la generación de la viga. Ajuste el espesor de la placa a 0.35 metros. Para mantener la prioridad de las vigas sobre la losa, en el menú _Modify / Geometry / Switch Join Order_, primero, seleccione la losa y luego manteniendo oprimida la tecla <kbd>Ctrl</kbd>, seleccione las vigas para cambiar su orden. Al finalizar este proceso podrá observar que la losa ha sido ajustada solamente a los espacios entre vanos o vacíos de vigas.
 
+> Para facilitar el proceso de selección, seleccione en la vista 3D todos los elementos contenidos dentro del nivel L1 y luego aisle estos elementos utilizando la herramienta _Temporary Hide/Isolate_ (icono de lentes) que se encuentra en la parte inferior del view port principal de Revit. 
 
+<div align="center"><img src="graph/Revit_Floor4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+6. Repita el procedimiento de priorización para la placa del mezanine teniendo en cuenta las vigas y las columnas estructurales.
+
+<div align="center"><img src="graph/Revit_Floor5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
