@@ -146,6 +146,17 @@ Visualice en 3D.
 
 <div align="center"><img src="graph/Revit_Beam5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+8. Siga el procedimiento anterior para crear las vigas del nivel _L2_, edite y elimine las vigas internas, las vigas en las puertas de entrada y salida principal de la bodega manteniendo las vigas del mezanine. Recuerde alinear las vigas frontales y posterior de bodega y mezanine con las columnas externas. 
+
+<div align="center"><img src="graph/Revit_Beam6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+9. Para el proyecto, cree columnas entre los niveles _L1-L2_ y _L2-L3_ y las vigas en los niveles _L3_ y _L4_. 
+
+<div align="center"><img src="graph/Revit_Beam7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+## 4. Dibujo de placas (Floor)
+
 
 
 
