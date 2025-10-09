@@ -165,11 +165,17 @@ Para el desarrollo del proyecto, es requerida la placa contrapiso reforzada en t
 
 <div align="center"><img src="graph/Revit_Floor.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. En el editor de tipos, de clic en el botón _Duplicate_ nombrando como _Genérico 400 mm_, edite las propiedades de la placa especificando el grosor requerido. Podrá observar que este tipo de placa no tiene ningún tipo de recubrimiento superior o aislamiento inferior. Opcionalmente, puede utilizar un tipo de losa que contenga las diferentes capas requeridas, incluidos morteros, recubrimientos y aislamientos. 
+2. En el editor de tipos, de clic en el botón _Duplicate_ nombrando como _Genérico 400 mm_, edite las propiedades de la placa especificando el grosor requerido. Podrá observar que este tipo de placa no tiene ningún tipo de recubrimiento superior o aislamiento inferior. En material, especifique _Hormigón, moldeado in situ, gris_.  Opcionalmente, puede utilizar un tipo de losa que contenga las diferentes capas requeridas, incluidos morteros, recubrimientos y aislamientos. 
 
 <div align="center"><img src="graph/Revit_Floor1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. 
+3. Utilizando las herramientas de dibujo, cree líneas de contorno o un rectángulo alrededor del límite externo de la bodega y de clic en el botón Modify / Aceptar. Visualice en 3D.
+
+<div align="center"><img src="graph/Revit_Floor2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Repita el procedimiento anterior creando una placa de 20 cm de espesor en el mezanine en el nivel arquitectónico _L2_ dibujando un área interna que permita dejar el vacío de la escalera.
+
+<div align="center"><img src="graph/Revit_Floor3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
