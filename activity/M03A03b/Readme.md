@@ -80,8 +80,10 @@ La categoría de puertas depende de la categoría de muros, esto quiere decir qu
 <div align="center"><img src="graph/Revit_Door2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/Revit_Door3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Cree puertas de dos hojas de 6000 x 7000mm para las entradas principales de la bodega.
 
-
+<div align="center"><img src="graph/Revit_Door4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_Door5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
