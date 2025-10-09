@@ -1,5 +1,5 @@
 # 3.3.a. Creación y manipulación de elementos en Revit - Estructural 
-Keywords:  `revit` `bim` `axe` `structure` `columns` `beams` `structural-framing` `floor` `slab` `m03a02`
+Keywords:  `revit` `bim` `axe` `structure` `columns` `beams` `structural-framing` `floor` `slab` `m03a03a`
 
 Control de visualización (Visibility graphics). Láminas de ploteo (Sheets). Creación de WorkSets, Creación de un archivo local y Relinquish all mine.
 
@@ -10,7 +10,7 @@ Control de visualización (Visibility graphics). Láminas de ploteo (Sheets). Cr
 
 Al finalizar esta actividad, el estudiante:
 
-* Crea ejes
+* Crea ejes estructurales
 * Dibuja elementos estructurales: columnas, vigas, placas, vacíos.
 
 
@@ -228,4 +228,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [:arrow_backward: Anterior](../M03A02/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente :arrow_forward:](../M03A03b/Readme.md) |
 |--------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------|
 
-[^1]: https://www.nti-group.com/es/blog/es/revit-que-es-novedades-autodesk
+[^1]: 
