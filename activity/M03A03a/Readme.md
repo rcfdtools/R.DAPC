@@ -1,5 +1,5 @@
 # 3.3.a. Creación y manipulación de elementos en Revit - Estructural 
-Keywords:  `revit` `bim` `axe` `structure` `columns` `beams` `floor` `m03a02`
+Keywords:  `revit` `bim` `axe` `structure` `columns` `beams` `structural-framing` `floor` `slab` `m03a02`
 
 Control de visualización (Visibility graphics). Láminas de ploteo (Sheets). Creación de WorkSets, Creación de un archivo local y Relinquish all mine.
 
