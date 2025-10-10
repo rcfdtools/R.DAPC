@@ -99,9 +99,18 @@ La categoría de puertas depende de la categoría de muros, esto quiere decir qu
 <div align="center"><img src="graph/Revit_Window2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/Revit_Window3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+3. Para visualizar correctamente la localización de las ventanas en las vistas de planta, p. ej., para la vista arquitectónica _L1_, en el panel de propiedades _Floor Plan_, de clic en _Extents / View Range_ y ajuste el valor de la altura del plano de elevación, p. ej., a 2 metros.
 
+<div align="center"><img src="graph/Revit_ViewRange.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+También, puede mantener el valor por defecto establecido a 1.2 metros y crear regiones de visualización para las ventanas altas que se encuentran en la zona de los baños, para ello en el menú _View / Create / Plan Views / Plan Region_ cree un rectángulo y desde sus propiedades establezca el _Cut plane L1_ en 2.6 metros.   
 
+<div align="center"><img src="graph/Revit_PlanRegion.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_PlanRegion1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Para ocultar el recuadro de la vista, puede dar clic derecho el rectángulo y con clic derecho seleccionar _Hide in View_. Para visualizar los objetos ocultos, en la barra de herramientas inferior de _View Port_ principal, puede dar clic en el botón _Reveal Hidden Elements_ (ícono de bombilla). 
+
+<div align="center"><img src="graph/Revit_RevealHiddenElements.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
