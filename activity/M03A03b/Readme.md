@@ -157,6 +157,7 @@ Utilice la herramienta _Roof_ para la creación de la cubierta a un agua definid
 4. Repita el procedimiento de anclaje para las columnas estableciendo en _Attachment Justification: Maximum Intersection_.
 
 <div align="center"><img src="graph/Revit_Roof5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_Roof6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 De esta forma, hemos obtenido el dibujo arquitectónico de la bodega.
 
