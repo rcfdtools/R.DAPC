@@ -94,7 +94,7 @@ La categoría de puertas depende de la categoría de muros, esto quiere decir qu
 <div align="center"><img src="graph/Revit_Window.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/Revit_Window1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Para la zona de baños, cree ventanas de hoja deslizante _/Spanish/Ventanas/Ventana de 2 hojas (fija + oscilobatiente).rfa_ de 0.6 x 1.2 metros y localice a 2.6 metros de altura.
+2. Para la zona de baños, cree ventanas de hoja deslizante _/Spanish/Ventanas/Ventana corredera de 2 hojas 2.rfa_ de 0.6 x 1.2 metros y localice a 2.6 metros de altura.
 
 <div align="center"><img src="graph/Revit_Window2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/Revit_Window3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
