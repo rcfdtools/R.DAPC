@@ -114,12 +114,26 @@ Para ocultar el recuadro de la vista, puede dar clic derecho el rectángulo y co
 
 4. Para realizar la visualización 3D solo de los elementos correspondientes a la primera planta arquitectónica, en el _Project Browser / Coordination / 3D Views_, duplique la vista 3D existente y renombre como _3D L1_, luego, de clic en la esquina central del _View Cube_ localizado en la parte superior derecha del _View Port_ principal y seleccione la opción _Orient to View / Floor Plans / Floor Plan: L1 - Arquitectónico_. 
 
+> Una vez dibujados los elementos principales de planta a partir del archivo de dibujo CAD, este puede ser deshabilitado desde el menú Insert / Manage / Manage Links. 
+
 <div align="center"><img src="graph/Revit_3DFloorPlan.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 4. Dibujo de escalera (Stair)
 
+Revit, automáticamente calcula la longitud y el número de pasos requeridos para cambiar de un nivel a otro, a partir de un valor preestablecido de huella y contrahuella.
 
+1. En la vista Arquitectónica _L1_ y desde el menú _Architecture / Circulation / Stair, seleccione o cargue la familia de escaleras ensambladas y con las herramientas de dibujo disponibles en _Modify | Create Stair / Components / Straight_, dibuje la escalera requerida. Para el ejemplo, requerirá de 23 escalones considerando el dibujo de empalme de la huella en el último escalón.
 
+> Tenga en cuenta que a una escalera recta se le pueden definir cambios de dirección con descansos amplios. Para su trazado, dibuje primero los dos escalones iniciales, luego el cambio de dirección definiendo una distancia igual a la mitad del ancho requerido y luego los demás escalones requeridos hasta llegar al último nivel.
+
+<div align="center"><img src="graph/Revit_Stair.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Para ajustar el empalme superior, seleccione el último tramo recto y desde las propiedades, desmarque la casilla _End with Riser_, luego desde la vista de planta, estire este tramo para agregar el escalón existente.
+
+> Tenga en cuenta que al seleccionar un tramo, este dispone de dos herramientas para cambiar la distribución de los pasos (mediante la flecha) o agregar pasos (mediante el nodo).  
+
+<div align="center"><img src="graph/Revit_Stair1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
