@@ -112,6 +112,17 @@ Para ocultar el recuadro de la vista, puede dar clic derecho el rectángulo y co
 
 <div align="center"><img src="graph/Revit_RevealHiddenElements.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. Para realizar la visualización 3D solo de los elementos correspondientes a la primera planta arquitectónica, en el _Project Browser / Coordination / 3D Views_, duplique la vista 3D existente y renombre como _3D L1_, luego, de clic en la esquina central del _View Cube_ localizado en la parte superior derecha del _View Port_ principal y seleccione la opción _Orient to View / Floor Plans / Floor Plan: L1 - Arquitectónico_. 
+
+<div align="center"><img src="graph/Revit_3DFloorPlan.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
+
+
+
+
+
+
 
 
 
