@@ -158,6 +158,8 @@ Utilice la herramienta _Roof_ para la creación de la cubierta a un agua definid
 
 <div align="center"><img src="graph/Revit_Roof5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+De esta forma, hemos obtenido el dibujo arquitectónico de la bodega.
+
 
 ## Actividades de proyecto :triangular_ruler:
 
