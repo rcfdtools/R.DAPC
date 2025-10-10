@@ -136,9 +136,27 @@ Revit, automáticamente calcula la longitud y el número de pasos requeridos par
 <div align="center"><img src="graph/Revit_Stair1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 5. Cubierta (Roof)
 
+Utilice la herramienta _Roof_ para la creación de la cubierta a un agua definida para el proyecto.
 
+1. En la vista Arquitectónica _L1_ y desde el menú _Architecture / Build / Roof / Roof by Footprint, dibuje el rectángulo que describe la cubierta, incluidos los voladizos frontal y posterior. Podrá observar que inicialmente se define la cubierta a 4 aguas.
 
+<div align="center"><img src="graph/Revit_Roof.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_Roof1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_Roof2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Seleccione la cara superior, derecha e inferior y desmarque la casilla _Defines Roof Slope_. observará que la cubierta ahora está a un agua. Establezca pendiente de 5°. 
+
+<div align="center"><img src="graph/Revit_Roof3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3.Luego seleccione los muros del nivel 3 y con la herramienta _Modify | Walls / Attach_, anclé los muros a la cubierta.
+
+<div align="center"><img src="graph/Revit_Roof4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Repita el procedimiento de anclaje para las columnas estableciendo en _Attachment Justification: Maximum Intersection_.
+
+<div align="center"><img src="graph/Revit_Roof5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
