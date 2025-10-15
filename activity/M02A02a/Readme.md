@@ -68,10 +68,10 @@ Atributos requeridos:
 | PredioID | String (200) | Consultar el catastro distrital o nacional y obtener el código CHIP o llave predial de este predio. Es necesario investigar y documentar el proceso de obtención. |
 | AreaPm2  | Real (10)    | Área planar en m².                                                                                                                                                |
 | PerimPm  | Real (10)    | Perímetro planar en m.                                                                                                                                            |
-| CX       | Real (10)    | Coordenada X del centroide en m.                                                                                                                                  |
-| CY       | Real (10)    | Coordenada y del centroide en m.                                                                                                                                  |
-| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                             |
-| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                            |
+| CX       | Real (10)    | Coordenada X del centroide en m.<br>`x($geometry)`                                                                                                                |
+| CY       | Real (10)    | Coordenada y del centroide en m.<br>`y($geometry)`                                                                                                                |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                             |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                            |
 
 </div>
 
@@ -102,10 +102,10 @@ Atributos requeridos:
 | AreaCons   | Real (10)    | Total de área construída `AreaCons = AreaPm2 * Pisos`.                                                                                                                                 |
 | MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>• Concreto reforzado en pórticos<br>• Concreto reforzado en paneles<br>• Mampostería estructural<br>• Metálica<br>• Mixta. |
 | TipoCubier | String (100) | Tipo de cubierta predominante. Normalizar como:<br>• Teja inclinada<br>• Placa<br>• Carpa<br>• Domo<br>• Curvada continua<br>• Paneles solares<br>• Mixta.                             |
-| CX         | Real (10)    | Coordenada X del centroide en m.                                                                                                                                                       |
-| CY         | Real (10)    | Coordenada y del centroide en m.                                                                                                                                                       |
-| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                  |
-| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                 |
+| CX         | Real (10)    | Coordenada X del centroide en m.<br>`x($geometry)`                                                                                                                                     |
+| CY         | Real (10)    | Coordenada y del centroide en m.<br>`y($geometry)`                                                                                                                                     |
+| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                  |
+| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                 |
 
 </div>
 
@@ -148,10 +148,10 @@ Atributos requeridos:
 | Altura      | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario. |
 | RadioC      | Real (10)    | Radio de cobertura del canopy. Medir utilizando imagen satelital como mapa base.                                                      |
 | TipoArbol   | String (100) | Tipo de árbol. Normalizar como:<br>• Árbol<br>• Arbusto<br>• Planta<br>• Matorral                                                     |
-| CX          | Real (10)    | Coordenada X del centroide en m.                                                                                                      |
-| CY          | Real (10)    | Coordenada y del centroide en m.                                                                                                      |
-| LatDD       | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                 |
-| LonDD       | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                |
+| CX          | Real (10)    | Coordenada X del centroide en m.<br>`x($geometry)`                                                                                    |
+| CY          | Real (10)    | Coordenada y del centroide en m.<br>`y($geometry)`                                                                                    |
+| LatDD       | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                 |
+| LonDD       | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                |
 
 </div>
 
@@ -168,18 +168,18 @@ Atributos requeridos:
 
 <div align="center">
 
-| Campo    | Tipo         | Descripción                                                                                                                                                                                                                                   |
-|:---------|:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| LumID    | Long Integer | Identificación de cada luminaria. Incluir un valor consecutivo que no debe repetirse.                                                                                                                                                         |
-| Altura   | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario.                                                                                                         |
-| LumTipo  | String (100) | Tipo de luminaria. Normalizar como:<br>• LED<br>• Halogenuro Metálico (MH)<br>• Sodio (Na)                                                                                                                                                    |
-| Potencia | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W                                                                                                |
+| Campo    | Tipo         | Descripción                                                                                                                                                                                                                                  |
+|:---------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| LumID    | Long Integer | Identificación de cada luminaria. Incluir un valor consecutivo que no debe repetirse.                                                                                                                                                        |
+| Altura   | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario.                                                                                                        |
+| LumTipo  | String (100) | Tipo de luminaria. Normalizar como:<br>• LED<br>• Halogenuro Metálico (MH)<br>• Sodio (Na)                                                                                                                                                   |
+| Potencia | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W                                                                                               |
 | RadioC   | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.<br><br>Por ejemplo:<br>Lámparas de menos de 6 metros de altura: 10 metros.<br>Lámparas de más de 6 metros: entre 10 y 25 metros. |
-| Consumo  | Real (10)    | Consumo eléctrico.                                                                                                                                                                                                                            |
-| CX       | Real (10)    | Coordenada X del centroide en m.                                                                                                                                                                                                              |
-| CY       | Real (10)    | Coordenada y del centroide en m.                                                                                                                                                                                                              |
-| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                         |
-| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                        |
+| Consumo  | Real (10)    | Consumo eléctrico.                                                                                                                                                                                                                           |
+| CX       | Real (10)    | Coordenada X del centroide en m.<br>`x($geometry)`                                                                                                                                                                                           |
+| CY       | Real (10)    | Coordenada y del centroide en m.<br>`y($geometry)`                                                                                                                                                                                           |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                        |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                       |
 
 </div>
 
