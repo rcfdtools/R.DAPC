@@ -57,7 +57,7 @@ Para cada capa requerida, cree archivos de formas geográficas shapefile (.shp).
 
 ### 1.1. Predio o lote
 
-Crear una capa tipo polígono en 2D para digitalizar el predio de la institución educativa, nombrar como `Predio.shp`.
+Crear una capa tipo polígono en 2D para digitalizar el predio de la institución educativa, nombrar como `DAPC_Predio.shp`.
 
 Atributos requeridos:
 
@@ -84,10 +84,36 @@ Fuentes de datos para obtención de predios y/o lotes:
 * Predios Bogotá D.C.: https://datosabiertos.bogota.gov.co/dataset/lote
 * Predios nacionales: https://geoportal.igac.gov.co/contenido/consulta-catastral
 
+Código de creación en Python sobre QGIS:
+```
+# Creating Predio.shp
+import qgis
+
+output_path = 'D:/R.DAPC/file/shp/DAPC_Predio.shp'
+crs = QgsCoordinateReferenceSystem('EPSG:9377')  # WGS 84
+fields = QgsFields()
+fields.append(QgsField('PredioID', QVariant.String, len=200))
+fields.append(QgsField('AreaPm2', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('PerimPm', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('CX', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('CY', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('LatDD', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('LonDD', QVariant.Double, len=20, prec=10))
+# Geometry type can be QgsWkbTypes.Point, QgsWkbTypes.LineString, or QgsWkbTypes.Polygon
+writer = QgsVectorFileWriter(output_path, 'UTF-8', fields, QgsWkbTypes.Polygon, crs, 'ESRI Shapefile')
+if writer.hasError() != QgsVectorFileWriter.NoError:
+    print(f'Error creating shapefile: {writer.hasError()}')
+feat = QgsFeature()
+writer.addFeature(feat)
+iface.addVectorLayer(output_path, '', 'ogr')
+del writer
+```
+
+
 
 ### 1.2. Construcción 
 
-Crear una capa tipo polígono en 2D para las construcciones y/o edificios bajo cubierta, nombrar como `Construccion.shp`. En las construcciones incluir elementos como: invernaderos, casetas, carpas porterías.
+Crear una capa tipo polígono en 2D para las construcciones y/o edificios bajo cubierta, nombrar como `DAPC_Construccion.shp`. En las construcciones incluir elementos como: invernaderos, casetas, carpas porterías.
 
 Atributos requeridos:
 
@@ -117,7 +143,7 @@ Construcciones Bogotá:
 
 ### 1.3. Vías
 
-Crear una capa tipo línea 2D para las vías del campus, nombrar como `Vial.shp`.
+Crear una capa tipo línea 2D para las vías del campus, nombrar como `DAPC_Vial.shp`.
 
 Atributos requeridos:
 
@@ -136,7 +162,7 @@ Atributos requeridos:
 
 ### 1.4. Arbolado
 
-Crear una capa tipo punto 2D para el arbolado del Campus, nombrar como `Arbolado.shp`.
+Crear una capa tipo punto 2D para el arbolado del Campus, nombrar como `DAPC_Arbolado.shp`.
 
 Atributos requeridos:
 
@@ -162,7 +188,7 @@ Arbolado
 
 ### 1.5. Luminarias
 
-Crear una capa tipo punto 2D para las luminarias del campus, nombrar como `Luminaria.shp`.
+Crear una capa tipo punto 2D para las luminarias del campus, nombrar como `DAPC_Luminaria.shp`.
 
 Atributos requeridos:
 
@@ -255,6 +281,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.zgsm-china.com/lighting-design/lighting-design-road-lighting-simulation-by-dialux-evo.html
 * https://luxmanlight.com/es/como-calcular-la-altura-y-la-distancia-del-poste-de-luz-solar-de-la-calle/
 * https://www.ensa.com.pa/sites/default/files/13_capitulo_16_-_alumbrado_publico_ver.3.0.pdf
+* https://courses.spatialthoughts.com/pyqgis-masterclass.html
+* [QGIS Python (PyQGIS) - Create a new shapefile](https://www.youtube.com/watch?v=3PQiwTICGqs)
 
 
 ## Control de versiones
