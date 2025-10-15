@@ -86,11 +86,11 @@ Fuentes de datos para obtención de predios y/o lotes:
 
 Código de creación en Python sobre QGIS:
 ```
-# Creating Predio.shp
+# Creating DAPC_Predio.shp
 import qgis
 
 output_path = 'D:/R.DAPC/file/shp/DAPC_Predio.shp'
-crs = QgsCoordinateReferenceSystem('EPSG:9377')  # WGS 84
+crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
 fields.append(QgsField('PredioID', QVariant.String, len=200))
 fields.append(QgsField('AreaPm2', QVariant.Double, len=20, prec=10))
@@ -140,6 +140,35 @@ Construcciones Bogotá:
 * https://ideca.gov.co/recursos/mapas/construccion-bogota-dc
 * https://ideca.gov.co/recursos/mapas/construccion
 
+Código de creación en Python sobre QGIS:
+```
+# Creating DAPC_Construccion.shp
+import qgis
+
+output_path = 'D:/R.DAPC/file/shp/DAPC_Construccion.shp'
+crs = QgsCoordinateReferenceSystem('EPSG:9377')
+fields = QgsFields()
+fields.append(QgsField('EdifID', QVariant.String, len=200))
+fields.append(QgsField('AreaPm2', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('PerimPm', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('Pisos', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('AreaCons', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('MaterialEs', QVariant.String, len=100))
+fields.append(QgsField('TipoCubier', QVariant.String, len=100))
+fields.append(QgsField('CX', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('CY', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('LatDD', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('LonDD', QVariant.Double, len=20, prec=10))
+# Geometry type can be QgsWkbTypes.Point, QgsWkbTypes.LineString, or QgsWkbTypes.Polygon
+writer = QgsVectorFileWriter(output_path, 'UTF-8', fields, QgsWkbTypes.Polygon, crs, 'ESRI Shapefile')
+if writer.hasError() != QgsVectorFileWriter.NoError:
+    print(f'Error creating shapefile: {writer.hasError()}')
+feat = QgsFeature()
+writer.addFeature(feat)
+iface.addVectorLayer(output_path, '', 'ogr')
+del writer
+```
+
 
 ### 1.3. Vías
 
@@ -154,10 +183,31 @@ Atributos requeridos:
 | ViaID      | String (200) | Identificación de vía. Ejemplo: Calle 207, Sendero peatonal entre Bloques A y G...                                                                                                                                     |
 | AnchoProm  | Real (10)    | Ancho promedio en m. Medir usando imagen satelital como mapa base.                                                                                                                                                     |
 | ViaTipo    | String (100) | Tipo de Vía. Normalizar como:<br>• Vehicular<br>• Peatonal<br>• Sendero<br>• Privada<br>• Camino<br>• Andén                                                                                                            |
-| MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>• Concreto reforzado en pórticos<br>• Concreto reforzado en paneles<br>• Mampostería estructural<br>• Metálica<br>• Mixta.                                 |
 | Rodadura   | String (100) | Tipo de rodadura o recubrimiento. Normalizar como:<br>• Asfalto<br>• Concreto<br>• Adoquín<br>• Placa Huella<br>• Tierra<br>• Césped<br>• Arena<br>• Gravilla                                                          |
 
 </div>
+
+Código de creación en Python sobre QGIS:
+```
+# Creating DAPC_Vial.shp
+import qgis
+
+output_path = 'D:/R.DAPC/file/shp/DAPC_Vial.shp'
+crs = QgsCoordinateReferenceSystem('EPSG:9377')
+fields = QgsFields()
+fields.append(QgsField('ViaID', QVariant.String, len=200))
+fields.append(QgsField('AnchoProm', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('ViaTipo', QVariant.String, len=100))
+fields.append(QgsField('Rodadura', QVariant.String, len=100))
+# Geometry type can be QgsWkbTypes.Point, QgsWkbTypes.LineString, or QgsWkbTypes.Polygon
+writer = QgsVectorFileWriter(output_path, 'UTF-8', fields, QgsWkbTypes.LineString, crs, 'ESRI Shapefile')
+if writer.hasError() != QgsVectorFileWriter.NoError:
+    print(f'Error creating shapefile: {writer.hasError()}')
+feat = QgsFeature()
+writer.addFeature(feat)
+iface.addVectorLayer(output_path, '', 'ogr')
+del writer
+```
 
 
 ### 1.4. Arbolado
@@ -185,6 +235,32 @@ Arbolado
 
 * https://www.ideca.gov.co/recursos/mapas/arbolado-urbano-bogota-dc
 
+Código de creación en Python sobre QGIS:
+```
+# Creating DAPC_Arbolado.shp
+import qgis
+
+output_path = 'D:/R.DAPC/file/shp/DAPC_Arbolado.shp'
+crs = QgsCoordinateReferenceSystem('EPSG:9377')
+fields = QgsFields()
+fields.append(QgsField('ArbolID', QVariant.Int))
+fields.append(QgsField('Altura', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('RadioC', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('TipoArbol', QVariant.String, len=100))
+fields.append(QgsField('CX', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('CY', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('LatDD', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('LonDD', QVariant.Double, len=20, prec=10))
+# Geometry type can be QgsWkbTypes.Point, QgsWkbTypes.LineString, or QgsWkbTypes.Polygon
+writer = QgsVectorFileWriter(output_path, 'UTF-8', fields, QgsWkbTypes.Point, crs, 'ESRI Shapefile')
+if writer.hasError() != QgsVectorFileWriter.NoError:
+    print(f'Error creating shapefile: {writer.hasError()}')
+feat = QgsFeature()
+writer.addFeature(feat)
+iface.addVectorLayer(output_path, '', 'ogr')
+del writer
+```
+
 
 ### 1.5. Luminarias
 
@@ -197,7 +273,7 @@ Atributos requeridos:
 | Campo    | Tipo         | Descripción                                                                                                                                                                                                                                  |
 |:---------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | LumID    | Long Integer | Identificación de cada luminaria. Incluir un valor consecutivo que no debe repetirse.                                                                                                                                                        |
-| Altura   | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario.                                                                                                        |
+| Altura   | Real (10)    | Alto de luminaria. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario.                                                                                                     |
 | LumTipo  | String (100) | Tipo de luminaria. Normalizar como:<br>• LED<br>• Halogenuro Metálico (MH)<br>• Sodio (Na)                                                                                                                                                   |
 | Potencia | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W                                                                                               |
 | RadioC   | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.<br><br>Por ejemplo:<br>Lámparas de menos de 6 metros de altura: 10 metros.<br>Lámparas de más de 6 metros: entre 10 y 25 metros. |
@@ -210,6 +286,34 @@ Atributos requeridos:
 </div>
 
 > La potencia en watts o vatios en iluminación, representa la cantidad de energía eléctrica por hora que consume una lámpara.
+
+Código de creación en Python sobre QGIS:
+```
+# Creating DAPC_Luminaria.shp
+import qgis
+
+output_path = 'D:/R.DAPC/file/shp/DAPC_Luminaria.shp'
+crs = QgsCoordinateReferenceSystem('EPSG:9377')
+fields = QgsFields()
+fields.append(QgsField('LumID', QVariant.Int))
+fields.append(QgsField('Altura', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('LumTipo', QVariant.String, len=100))
+fields.append(QgsField('Potencia', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('RadioC', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('Consumo', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('CX', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('CY', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('LatDD', QVariant.Double, len=20, prec=10))
+fields.append(QgsField('LonDD', QVariant.Double, len=20, prec=10))
+# Geometry type can be QgsWkbTypes.Point, QgsWkbTypes.LineString, or QgsWkbTypes.Polygon
+writer = QgsVectorFileWriter(output_path, 'UTF-8', fields, QgsWkbTypes.Point, crs, 'ESRI Shapefile')
+if writer.hasError() != QgsVectorFileWriter.NoError:
+    print(f'Error creating shapefile: {writer.hasError()}')
+feat = QgsFeature()
+writer.addFeature(feat)
+iface.addVectorLayer(output_path, '', 'ogr')
+del writer
+```
 
 
 ## 2. Aferencias e índices
