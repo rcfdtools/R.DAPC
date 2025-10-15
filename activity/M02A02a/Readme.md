@@ -66,8 +66,8 @@ Atributos requeridos:
 | Campo    | Tipo         | Descripción                                                                                                                                                       |
 |:---------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PredioID | String (200) | Consultar el catastro distrital o nacional y obtener el código CHIP o llave predial de este predio. Es necesario investigar y documentar el proceso de obtención. |
-| AreaPm2  | Real (10)    | Área planar en m².                                                                                                                                                |
-| PerimPm  | Real (10)    | Perímetro planar en m.                                                                                                                                            |
+| AreaPm2  | Real (10)    | Área planar en m².<br>`area($geometry)`                                                                                                                           |
+| PerimPm  | Real (10)    | Perímetro planar en m.<br>`perimeter($geometry)`                                                                                                                  |
 | CX       | Real (10)    | Coordenada X del centroide en m.<br>`x($geometry)`                                                                                                                |
 | CY       | Real (10)    | Coordenada y del centroide en m.<br>`y($geometry)`                                                                                                                |
 | LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                             |
@@ -96,8 +96,8 @@ Atributos requeridos:
 | Campo      | Tipo         | Descripción                                                                                                                                                                            |
 |:-----------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | EdifID     | String (200) | Identificación de edificio o bloque. Texto de 100 caracteres. Ejemplo: Bloque A, Bloque B, Coliseo, Kiosco K1, Portería, etc.                                                          |
-| AreaPm2    | Real (10)    | Área planar en m².                                                                                                                                                                     |
-| PerimPm    | Real (10)    | Perímetro planar en m.                                                                                                                                                                 |
+| AreaPm2    | Real (10)    | Área planar en m².<br>`area($geometry)`                                                                                                                                                |
+| PerimPm    | Real (10)    | Perímetro planar en m.<br>`perimeter($geometry)`                                                                                                                                       |
 | Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional.                                                                                                        |
 | AreaCons   | Real (10)    | Total de área construída `AreaCons = AreaPm2 * Pisos`.                                                                                                                                 |
 | MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>• Concreto reforzado en pórticos<br>• Concreto reforzado en paneles<br>• Mampostería estructural<br>• Metálica<br>• Mixta. |
