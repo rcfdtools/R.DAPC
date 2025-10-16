@@ -108,6 +108,7 @@ iface.addVectorLayer(output_path, '', 'ogr')
 del writer
 ```
 
+Label: `'Predio: ' || "PredioID" ||  '\nA(m²): ' ||  "AreaPm2" ||  '\nP(m): ' || "PerimPm" ||  '\nX(m): ' || round("CX", 1) ||  ' Y(m): ' || round("CY", 1) ||  '\nLat(°): ' || round("LatDD", 1) ||  ' Lon(°): ' || round("LonDD", 1)`
 
 
 ### 1.2. Construcción 
@@ -342,7 +343,7 @@ Para el cálculo de los índices, cree y calcule los siguientes campos de atribu
 
 > `AreaPm2` corresponde al área del lote o predio.
 
-Código de creación en Python sobre QGIS:
+Código de creación de campos en Python sobre QGIS:
 ```
 # Add new fields to DAPC_Predio.shp
 import qgis
