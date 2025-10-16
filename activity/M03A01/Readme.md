@@ -56,6 +56,18 @@ El ciclo de vida de un proyecto BIM puede contener:
 
 Esta metodología también puede ser aplicada a proyectos ya construídos, donde se requiere gestionar todos los sistemas existentes; para ello, es requerido el levantamiento detallado de información usando sistemas no invasivos, p. ej., usando tecnología laser LIDAR y escáneres de elementos estructurales de refuerzo.
 
+Con respecto al nivel de detalle o LOD (Level of Development), en la aplicación de la metodología BIM, se define el nivel de detalle que posee cada elemento del modelo que hace parte de un componente, sistema constructivo o montaje del edificio. Los niveles LOD se clasifican cómo:
+
+| Nivel   | Alcance                                                      | Datos gráfico                                                                 | Datos no gráficos |
+|---------|--------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------|
+| LOD 100 | Modelo con información general                               | Existencia de elementos (representación simbólica).<br/>Ubicación aproximada. |                   |
+| LOD 200 | Modelo con información básica aproximada                     |                                                                               |                   |
+| LOD 300 | Modelo con información detallada                             |                                                                               |                   |
+| LOD 400 | Modelo con información detallada y coordinada                |                                                                               |                   |
+| LOD 500 | Modelo con informacion detallada de la fabricación y montaje |                                                                               |                   |
+
+
+
 
 
 ## 1. Componentes Clave de BIM
