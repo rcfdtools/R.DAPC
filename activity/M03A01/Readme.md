@@ -3,7 +3,7 @@ Keywords:  `bim` `bim-dimension` `m03a01`
 
 Conceptos de la metodología BIM. Generalidades del trabajo colaborativo. Taller conceptual. 
 
-<div align="center"><img src="graph/m03a01.jpg" alt="R.DAPC" width="50%" border="0" /></div>
+<div align="center"><img src="graph/m03a01.png" alt="R.SIGE" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/d70eb0accab3b715">https://gemini.google.com</a></sub><br><br></div>
 
 
 ## Objetivos
@@ -71,15 +71,18 @@ BIM va mucho más allá de ser simplemente un software o un modelo 3D. Es una me
 
 A menudo se habla de BIM en términos de "dimensiones" que representan la riqueza de la información añadida al modelo, tales como:
 
-| Dimensión / Enfoque      | Alcance                                                                                                                                                   |
-|:-------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1D / Idea                | Idea o concepto general del proyecto.                                                                                                                     |
-| 2D / Boceto              | Boceto o planimetría del modelo identificando dimensiones principales.                                                                                    |
-| 3D / Geometría           | La geometría tridimensional (forma, espacio, materiales, sistemas, equipos electromecánicos, componentes, mobiliario).                                    |
-| 4D / Tiempo              | El tiempo o planificación (scheduling). Relaciona los elementos del modelo con el cronograma de construcción.                                             |
-| 5D / Costo               | Los costos (cost estimating). Permite la extracción automática de cantidades y la generación de presupuestos precisos.                                    |
-| 6D / Sostenibilidad      | La sostenibilidad (sustainability). Analiza el rendimiento energético y ambiental del edificio.                                                           |
-| 7D / Gestión de archivos | La gestión del ciclo de vida (facility management). Utiliza el modelo y su información para la operación y mantenimiento del edificio una vez construido. |
+| Dimensión / Enfoque            | Alcance                                                                                                                                                   |
+|:-------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1D / Idea                      | Idea o concepto general del proyecto.                                                                                                                     |
+| 2D / Boceto                    | Boceto o planimetría del modelo identificando dimensiones principales.                                                                                    |
+| 3D / Geometría                 | La geometría tridimensional (forma, espacio, materiales, sistemas, equipos electromecánicos, componentes, mobiliario).                                    |
+| 4D / Tiempo                    | El tiempo o planificación (scheduling). Relaciona los elementos del modelo con el cronograma de construcción.                                             |
+| 5D / Costo                     | Los costos (cost estimating). Permite la extracción automática de cantidades y la generación de presupuestos precisos.                                    |
+| 6D / Sostenibilidad            | La sostenibilidad (sustainability). Analiza el rendimiento energético y ambiental del edificio.                                                           |
+| 7D / Gestión de archivos       | La gestión del ciclo de vida (facility management). Utiliza el modelo y su información para la operación y mantenimiento del edificio una vez construido. |
+| 8D / Seguridad                 | Dimensión conceptual que se enfoca en la Seguridad y la prevención de riesgos laborales en la fase de construcción.                                       |
+| 9D / Construcción sin pérdidas | Dimensión conceptual relacionada con la Construcción sin pérdidas (Lean Construction).                                                                    |
+| 10D / Industrialización        | Dimensión conceptual asociada con la Industrialización de la construcción.                                                                                |
 
 
 ## 3. Beneficios Principales
@@ -142,13 +145,14 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.concrelab.com/deteccion-de-aceros
 * https://revizto.com/es/programas-platformas-bim/
 * [Centro - ¿Cómo generar un proyecto a través de la metodología BIM?](https://www.youtube.com/watch?v=uc1RjoR9HT0)
+* [EALDE Business School - Cómo funcionan las 7 dimensiones de BIM para proyectos de construcción](https://www.youtube.com/watch?v=9eplIw2siwM)
 
 
 ## Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2025.10.16 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |   5   |
+| 2025.10.16 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |   4   |
 
 
 ##
