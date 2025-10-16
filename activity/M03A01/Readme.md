@@ -34,6 +34,55 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 0. ¿Qué es BIM?
 
+BIM son las siglas de Building Information Modeling (Modelado de Información de Construcción).
+
+Es un proceso inteligente basado en modelos 3D que dota a los profesionales de la arquitectura, ingeniería y construcción (AEC) de la información y herramientas necesarias para planificar, diseñar, construir y gestionar edificios e infraestructuras de manera más eficiente.
+
+
+## 1. Componentes Clave de BIM
+
+BIM va mucho más allá de ser simplemente un software o un modelo 3D. Es una metodología de trabajo colaborativa que implica varios aspectos fundamentales:
+
+* Modelo 3D: Es una representación digital que no solo muestra la geometría (forma y tamaño), sino que también contiene datos inteligentes sobre los elementos constructivos (materiales, especificaciones, costos, información del fabricante, propiedades térmicas, etc.).
+* Información (la "I" de BIM): Este es el componente más crucial. El modelo es una base de datos centralizada que se utiliza para generar toda la documentación del proyecto (planos 2D, listados de materiales, presupuestos, etc.).
+* Colaboración: Permite que diferentes disciplinas, tales como arquitectos, ingenieros estructurales, ingenieros MEP (Mecánica, Eléctrica y Fontanería), contratistas, trabajen sobre un único modelo coordinado, lo que reduce los errores y las inconsistencias durante el diseño y la construcción.
+
+
+## 2. Las Dimensiones del BIM
+
+A menudo se habla de BIM en términos de "dimensiones" que representan la riqueza de la información añadida al modelo, tales como:
+
+|  Dimensión  | Alcance                                                                                                                                                    |
+|:-----------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     3D      | La geometría tridimensional (forma, espacio).                                                                                                              |
+|     4D      | El tiempo o planificación (scheduling). Relaciona los elementos del modelo con el cronograma de construcción.                                              |
+|     5D      | Los costos (cost estimating). Permite la extracción automática de cantidades y la generación de presupuestos precisos.                                     |
+|     6D      | La sostenibilidad (sustainability). Analiza el rendimiento energético y ambiental del edificio.                                                            |
+|     7D      | La gestión del ciclo de vida (facility management). Utiliza el modelo y su información para la operación y mantenimiento del edificio una vez construido.  |
+
+
+## 3. Beneficios Principales
+
+La implementación de la metodología BIM ofrece las ventajas significativas:
+
+| Ventaja                           | Descripción                                                                                                                                                                                            |
+|:----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Mejor Coordinación                | Detección temprana de conflictos o "choques" (clash detection) entre las instalaciones, estructuras y arquitectura antes de que comiencen las obras, lo que minimiza los costosos cambios en el sitio. |
+| Visualización Mejorada            | Permite una mejor comprensión del proyecto por parte de todos los involucrados, incluyendo el cliente.                                                                                                 |
+| Extracción de Información Rápida  | Generación rápida y precisa de mediciones y presupuestos.                                                                                                                                              |
+| Gestión del Ciclo de Vida         | La información del modelo puede ser transferida a los gestores de las instalaciones para facilitar el mantenimiento y las renovaciones futuras.                                                        |
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -44,9 +93,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M03A02    | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| M03A02    | Obligatorio en grupo: desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas.                                                                                                                                                                                                                                                                                                                                                                                       |
-| M03A02    | Obligatorio en grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M03A01    | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| M03A01    | Obligatorio en grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
