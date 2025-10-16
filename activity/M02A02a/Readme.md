@@ -5,7 +5,7 @@ Bases de datos y su manejo en SIG. Definición de elementos de un SIG (shapes, r
 
 **Caso de estudio**: digitalización y cálculo de índices de la Universidad Escuela Colombiana de Ingeniería Julio Garavito.
 
-<div align="center"><img src="graph/m02a02a.jpg" alt="R.DAPC" width="60%" border="0" /><sub><br><a href="https://www.google.com/maps/place/Colombian+School+of+Engineering+Julio+Garavito/@4.7829367,-74.0443354,566m">https://www.google.com/maps</a></sub><br><br></div>
+<div align="center"><img src="graph/m02a02a.jpg" alt="R.DAPC" width="80%" border="0" /><sub><br><a href="https://www.google.com/maps/place/Colombian+School+of+Engineering+Julio+Garavito/@4.7829367,-74.0443354,566m">https://www.google.com/maps</a></sub><br><br></div>
 
 
 ## Objetivos
