@@ -45,7 +45,7 @@ Siga en clase las indicaciones del instructor y complete la digitalización teni
 * Algunos edificios requieren de la digitalización de zonas semicirculares o arcos.
 * Varias de las esquinas de las edificaciones están construidas a un ángulo de 90 grados, tenga en cuenta que debe conservar este ángulo en la digitalización.
 * Para los índices solicitados, es necesario mostrar captura de pantalla de la herramienta GIS con la ventana del Calculador de Campo, donde se observe la operación realizada.
-* Comprimir independientemente cada archivo de formas shapefile (_Predio.shp, Construccion.shp, Vial.shp, VialBuffer.shp, Arbolado.shp, ArboladoBuffer.shp, Luminaria.shp, LuminariaBuffer.shp_) y guardar en la carpeta /shp de su repositorio de proyecto. Recuerde que un archivo de forma shapefile está compuesto por 4 archivos: .shp, .shx, .prj, .dbf.
+* Comprimir independientemente cada archivo de formas shapefile (_DAPC_Predio.shp, DAPC_Construccion.shp, DAPC_Vial.shp, DAPC_VialBuffer.shp, DAPC_Arbolado.shp, DAPC_ArboladoBuffer.shp, DAPC_Luminaria.shp, DAPC_LuminariaBuffer.shp_) y guardar en la carpeta /shp de su repositorio de proyecto. Recuerde que un archivo de forma shapefile está compuesto por 4 archivos: .shp, .shx, .prj, .dbf.
 
 > Para facilitar la edición y visualización, agregue el mapa base de Google Satellite desde el conector https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}. Mapas base adicionales pueden ser agregados usando los enlaces contenidos en el repositorio https://github.com/opengeos/qgis-basemaps
 
@@ -323,7 +323,7 @@ Para las capas `Vial.shp`, `Arbolado.shp` y `Luminaria.shp`, cree aferencias par
 | ArboladoBuffer.shp  | Aferencia a partir del radio de cobertura de canopy `RadioC`.  |
 | LuminariaBuffer.shp | Aferencia a partir del radio de iluminación `RadioC`.          |
 
-Para el cálculo de los índices, cree y calcule los siguientes campos de atributos en la capa `Predio.shp`:
+Para el cálculo de los índices, cree y calcule los siguientes campos de atributos en la capa `DAPC_Predio.shp`:
 
 | Campo     | Tipo         | Descripción                                                                         |
 |:----------|:-------------|:------------------------------------------------------------------------------------|
