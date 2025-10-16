@@ -69,7 +69,6 @@ Con respecto al nivel de detalle o LOD (Level of Development), en la aplicación
 19:31
 
 
-
 ## 1. Componentes Clave de BIM
 
 BIM va mucho más allá de ser simplemente un software o un modelo 3D. Es una metodología de trabajo colaborativa que implica varios aspectos fundamentales:
