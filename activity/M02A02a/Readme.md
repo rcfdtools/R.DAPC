@@ -108,7 +108,7 @@ iface.addVectorLayer(output_path, '', 'ogr')
 del writer
 ```
 
-Label: `'Predio: ' || "PredioID" || '\nA(m²): ' || round("AreaPm2",1) || '\nP(m): ' || round("PerimPm",1) || '\nX(m): ' || round("CX", 1) || ' Y(m): ' || round("CY", 1) || '\nLat(°): ' || round("LatDD", 1) || ' Lon(°): ' || round("LonDD", 1)`
+Label: `'Predio: ' || "PredioID" || '\n● A(m²): ' || round("AreaPm2",1) || ' ● P(m): ' || round("PerimPm",1) || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 1) || ' ● Lon(°): ' || round("LonDD", 1)`
 
 
 ### 1.2. Construcción 
@@ -168,7 +168,7 @@ iface.addVectorLayer(output_path, '', 'ogr')
 del writer
 ```
 
-Label: `"EdifID" || '\nA(m²): ' || round("AreaPm2",1) || '\nP(m): ' || round("PerimPm",1) || '\nPisos: ' || "Pisos" || '\nArea Cons(m²): ' || round("AreaCons", 1) || '\nMaterial Est.: ' || "MaterialEs" || '\nCubierta: ' || "TipoCubier" || '\nX(m): ' || round("CX", 1) || ' Y(m): ' || round("CY", 1) || '\nLat(°): ' || round("LatDD", 1) || ' Lon(°): ' || round("LonDD", 1)`
+Label: `"EdifID" || '\n● A(m²): ' || round("AreaPm2",1) || ' ● P(m): ' || round("PerimPm",1) || ' ● Pisos: ' || "Pisos" || '\n● Area Cons(m²): ' || round("AreaCons", 1) || '\n● Material Est.: ' || "MaterialEs" || '\n● Cubierta: ' || "TipoCubier" || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 1) || ' ● Lon(°): ' || round("LonDD", 1)`
 
 
 ### 1.3. Vías
@@ -208,6 +208,8 @@ writer.addFeature(feat)
 iface.addVectorLayer(output_path, '', 'ogr')
 del writer
 ```
+
+Label: `"ViaID" || ' ● Ancho(m): ' || round("AnchoProm",2) || ' ● Tipo: ' || "ViaTipo" || ' ● Rodadura: ' || "Rodadura"`
 
 
 ### 1.4. Arbolado
@@ -259,6 +261,8 @@ writer.addFeature(feat)
 iface.addVectorLayer(output_path, '', 'ogr')
 del writer
 ```
+
+Label: `'Árbol: ' || "ArbolID" || '\n● Altura(m): ' || round("Altura",2) || ' ● Radio(m): ' || round("RadioC",2) || '\n● Tipo: ' || "TipoArbol" || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 1) || ' ● Lon(°): ' || round("LonDD", 1)`
 
 
 ### 1.5. Luminarias
@@ -312,6 +316,8 @@ writer.addFeature(feat)
 iface.addVectorLayer(output_path, '', 'ogr')
 del writer
 ```
+
+Label: `'Luminaria: ' || "LumID" || '\n● Altura(m): ' || round("Altura",2) || ' ● Tipo: ' || "LumTipo" || ' ● Potencia(Watt): ' || round("Potencia",0) || '\n● Radio(m): ' || round("RadioC",2) || ' ● Consumo: ' || round("Consumo",0) || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 1) || ' ● Lon(°): ' || round("LonDD", 1)`
 
 
 ## 2. Aferencias e índices
