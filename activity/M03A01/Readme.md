@@ -40,25 +40,13 @@ BIM es una metodología de trabajo colaborativo para el diseño, construcción y
 
 El ciclo de vida de un proyecto BIM puede contener:
 
+<div align="center">
+
 | Diseño                                                                                 | Construcción                                                                      | Operación                                                 |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------|
 | •Programación<br/>•Diseño conceptual<br/>•Diseño detallado<br/>•Análisis<br/>•Documentación | •Fabricación<br/>•Construcción (4D-Tiempo, 5D-Costos)<br/>•Logística de construcción | •Operación y mantenimiento<br/>•Renovación o remodelación   |
-                                                                                      |                                                                                   |                                                           |
 
-
-* Diseño
-  * Programación
-  * Diseño conceptual
-  * Diseño detallado
-  * Análisis
-  * Documentación
-* Construcción
-  * Fabricación
-  * Construcción (4D-Tiempo, 5D-Costos)
-  * Logística de construcción
-* Operación
-  * Operación y mantenimiento
-  * Renovación o remodelación
+</div>
 
 Esta metodología también puede ser aplicada a proyectos ya construídos, donde se requiere gestionar todos los sistemas existentes; para ello, es requerido el levantamiento detallado de información usando sistemas no invasivos, p. ej., usando tecnología laser LIDAR y escáneres de elementos estructurales de refuerzo.
 
