@@ -88,7 +88,6 @@ Código de creación en Python sobre QGIS:
 ```
 # Creating DAPC_Predio.shp
 import qgis
-
 output_path = 'D:/R.DAPC/file/shp/DAPC_Predio.shp'
 crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
@@ -144,7 +143,6 @@ Código de creación en Python sobre QGIS:
 ```
 # Creating DAPC_Construccion.shp
 import qgis
-
 output_path = 'D:/R.DAPC/file/shp/DAPC_Construccion.shp'
 crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
@@ -191,7 +189,6 @@ Código de creación en Python sobre QGIS:
 ```
 # Creating DAPC_Vial.shp
 import qgis
-
 output_path = 'D:/R.DAPC/file/shp/DAPC_Vial.shp'
 crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
@@ -239,7 +236,6 @@ Código de creación en Python sobre QGIS:
 ```
 # Creating DAPC_Arbolado.shp
 import qgis
-
 output_path = 'D:/R.DAPC/file/shp/DAPC_Arbolado.shp'
 crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
@@ -291,7 +287,6 @@ Código de creación en Python sobre QGIS:
 ```
 # Creating DAPC_Luminaria.shp
 import qgis
-
 output_path = 'D:/R.DAPC/file/shp/DAPC_Luminaria.shp'
 crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
@@ -347,6 +342,31 @@ Para el cálculo de los índices, cree y calcule los siguientes campos de atribu
 
 > `AreaPm2` corresponde al área del lote o predio.
 
+Código de creación en Python sobre QGIS:
+```
+# Add new fields to DAPC_Predio.shp
+import qgis
+layer = iface.activeLayer()
+if layer and layer.isValid():
+    print(f"Adding fields to layer: {layer.name()}")
+    layer.startEditing()
+    fields = []
+    fields.append(QgsField('ConsAreaH', QVariant.Double, len=20, prec=10))
+    fields.append(QgsField('ConstIO', QVariant.Double, len=20, prec=10))
+    fields.append(QgsField('ConsAreaV', QVariant.Double, len=20, prec=10))
+    fields.append(QgsField('ConstIC', QVariant.Double, len=20, prec=10))
+    fields.append(QgsField('VialArea', QVariant.Double, len=20, prec=10))
+    fields.append(QgsField('VialIO', QVariant.Double, len=20, prec=10))
+    fields.append(QgsField('ArbolArea', QVariant.Double, len=20, prec=10))
+    fields.append(QgsField('ArbolIO', QVariant.Double, len=20, prec=10))
+    fields.append(QgsField('LuminArea', QVariant.Double, len=20, prec=10))
+    fields.append(QgsField('LuminIC', QVariant.Double, len=20, prec=10))
+    layer.dataProvider().addAttributes(fields)
+    layer.updateFields()
+    layer.commitChanges()
+else:
+    print("No active layer or layer is invalid.")  
+```
 
 ## 3. Representación 3D
 
