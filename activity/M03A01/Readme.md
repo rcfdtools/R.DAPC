@@ -34,9 +34,25 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 0. ¿Qué es BIM?
 
-BIM son las siglas de Building Information Modeling (Modelado de Información de Construcción).
+BIM son las siglas de Building Information Modeling (Modelado de Información de Construcción). Es un proceso inteligente basado en modelos 3D que dota a los profesionales de la arquitectura, ingeniería y construcción (AEC) de la información y herramientas necesarias para planificar, diseñar, construir y gestionar edificios e infraestructuras de manera más eficiente.
 
-Es un proceso inteligente basado en modelos 3D que dota a los profesionales de la arquitectura, ingeniería y construcción (AEC) de la información y herramientas necesarias para planificar, diseñar, construir y gestionar edificios e infraestructuras de manera más eficiente.
+BIM es una metodología de trabajo colaborativo para el diseño, construcción y operación de un proyecto, se basa en modelos 3D paramétricos y bases de datos que permiten un flujo de trabajo eficiente y el intercambio de información entre disciplinas.
+
+El ciclo de vida de un proyecto BIM puede contener:
+
+* Diseño
+  * Programación
+  * Diseño conceptual
+  * Diseño detallado
+  * Análisis
+  * Documentación
+* Construcción
+  * Fabricación
+  * Construcción (4D-Tiempo, 5D-Costos)
+  * Logística de construcción
+* Operación
+  * Operación y mantenimiento
+  * Renovación
 
 
 ## 1. Componentes Clave de BIM
@@ -52,13 +68,16 @@ BIM va mucho más allá de ser simplemente un software o un modelo 3D. Es una me
 
 A menudo se habla de BIM en términos de "dimensiones" que representan la riqueza de la información añadida al modelo, tales como:
 
-|  Dimensión  | Alcance                                                                                                                                                    |
-|:-----------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     3D      | La geometría tridimensional (forma, espacio).                                                                                                              |
-|     4D      | El tiempo o planificación (scheduling). Relaciona los elementos del modelo con el cronograma de construcción.                                              |
-|     5D      | Los costos (cost estimating). Permite la extracción automática de cantidades y la generación de presupuestos precisos.                                     |
-|     6D      | La sostenibilidad (sustainability). Analiza el rendimiento energético y ambiental del edificio.                                                            |
-|     7D      | La gestión del ciclo de vida (facility management). Utiliza el modelo y su información para la operación y mantenimiento del edificio una vez construido.  |
+| Dimensión / Enfoque      | Alcance                                                                                                                                                   |
+|:-------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1D / Idea                | Idea o concepto general del proyecto.                                                                                                                     |
+| 2D / Boceto              | Boceto o planimetría del modelo identificando dimensiones principales.                                                                                    |
+| 3D / Geometría           | La geometría tridimensional (forma, espacio).                                                                                                             |
+| 3D / Geometría           | La geometría tridimensional (forma, espacio).                                                                                                             |
+| 4D / Tiempo              | El tiempo o planificación (scheduling). Relaciona los elementos del modelo con el cronograma de construcción.                                             |
+| 5D / Costo               | Los costos (cost estimating). Permite la extracción automática de cantidades y la generación de presupuestos precisos.                                    |
+| 6D / Sostenibilidad      | La sostenibilidad (sustainability). Analiza el rendimiento energético y ambiental del edificio.                                                           |
+| 7D / Gestión de archivos | La gestión del ciclo de vida (facility management). Utiliza el modelo y su información para la operación y mantenimiento del edificio una vez construido. |
 
 
 ## 3. Beneficios Principales
