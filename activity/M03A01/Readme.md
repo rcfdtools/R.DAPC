@@ -58,15 +58,15 @@ Esta metodología también puede ser aplicada a proyectos ya construídos, donde
 
 Con respecto al nivel de detalle o LOD (Level of Development), en la aplicación de la metodología BIM, se define el nivel de detalle que posee cada elemento del modelo que hace parte de un componente, sistema constructivo o montaje del edificio. Los niveles LOD se clasifican cómo:
 
-| Nivel   | Alcance                                                      | Datos gráfico                                                                 | Datos no gráficos |
-|---------|--------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------|
-| LOD 100 | Modelo con información general                               | Existencia de elementos (representación simbólica).<br/>Ubicación aproximada. |                   |
-| LOD 200 | Modelo con información básica aproximada                     |                                                                               |                   |
-| LOD 300 | Modelo con información detallada                             |                                                                               |                   |
-| LOD 400 | Modelo con información detallada y coordinada                |                                                                               |                   |
-| LOD 500 | Modelo con informacion detallada de la fabricación y montaje |                                                                               |                   |
+| Nivel   | Alcance                                                      | Datos gráfico                                                                                                                                                                                  | Datos no gráficos |
+|---------|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| LOD 100 | Modelo con información general                               | Existencia de elementos (representación simbólica).<br/>Ubicación aproximada.                                                                                                                  |                   |
+| LOD 200 | Modelo con información básica aproximada                     | Existencia de elementos.<br/>Cantidades, espesor y dimensiones aproximadas.                                                                                                                    |                   |
+| LOD 300 | Modelo con información detallada                             | Cantidades, espesores y dimensiones específicas.<br/>Materiales.<br/>Representación de la composición de elementos.                                                                            |                   |
+| LOD 400 | Modelo con información detallada y coordinada                | Cantidades, espesores y dimensiones específicas.<br/>Materiales.<br/>Representación de la composición e intersección de elementos y soportes.<br/>Fabricación, ensamblaje e instalación.       |                   |
+| LOD 500 | Modelo con informacion detallada de la fabricación y montaje | Cantidades, espesores y dimensiones específicas.<br/>Materiales.<br/>Representación de la composición e intersección de elementos y soportes.<br/>Información gráfica conforme a lo ejecutado. |                   |
 
-
+19:31
 
 
 
