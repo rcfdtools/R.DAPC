@@ -108,7 +108,7 @@ iface.addVectorLayer(output_path, '', 'ogr')
 del writer
 ```
 
-Label: `'Predio: ' || "PredioID" ||  '\nA(m²): ' ||  "AreaPm2" ||  '\nP(m): ' || "PerimPm" ||  '\nX(m): ' || round("CX", 1) ||  ' Y(m): ' || round("CY", 1) ||  '\nLat(°): ' || round("LatDD", 1) ||  ' Lon(°): ' || round("LonDD", 1)`
+Label: `'Predio: ' || "PredioID" || '\nA(m²): ' || round("AreaPm2",1) || '\nP(m): ' || round("PerimPm",1) || '\nX(m): ' || round("CX", 1) || ' Y(m): ' || round("CY", 1) || '\nLat(°): ' || round("LatDD", 1) || ' Lon(°): ' || round("LonDD", 1)`
 
 
 ### 1.2. Construcción 
@@ -167,6 +167,8 @@ writer.addFeature(feat)
 iface.addVectorLayer(output_path, '', 'ogr')
 del writer
 ```
+
+Label: `"EdifID" || '\nA(m²): ' || round("AreaPm2",1) || '\nP(m): ' || round("PerimPm",1) || '\nPisos: ' || "Pisos" || '\nArea Cons(m²): ' || round("AreaCons", 1) || '\nMaterial Est.: ' || "MaterialEs" || '\nCubierta: ' || "TipoCubier" || '\nX(m): ' || round("CX", 1) || ' Y(m): ' || round("CY", 1) || '\nLat(°): ' || round("LatDD", 1) || ' Lon(°): ' || round("LonDD", 1)`
 
 
 ### 1.3. Vías
