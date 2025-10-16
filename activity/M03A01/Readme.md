@@ -40,6 +40,12 @@ BIM es una metodología de trabajo colaborativo para el diseño, construcción y
 
 El ciclo de vida de un proyecto BIM puede contener:
 
+| Diseño                                                                                 | Construcción                                                                      | Operación                                                 |
+|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------|
+| •Programación<br/>•Diseño conceptual<br/>•Diseño detallado<br/>•Análisis<br/>•Documentación | •Fabricación<br/>•Construcción (4D-Tiempo, 5D-Costos)<br/>•Logística de construcción | •Operación y mantenimiento<br/>•Renovación o remodelación   |
+                                                                                      |                                                                                   |                                                           |
+
+
 * Diseño
   * Programación
   * Diseño conceptual
@@ -80,7 +86,7 @@ BIM va mucho más allá de ser simplemente un software o un modelo 3D. Es una me
 
 ## 2. Las Dimensiones del BIM
 
-A menudo se habla de BIM en términos de "dimensiones" que representan la riqueza de la información añadida al modelo, tales como:
+A menudo se habla de BIM en términos de “dimensiones” que representan la riqueza de la información añadida al modelo, tales como:
 
 | Dimensión / Enfoque            | Alcance                                                                                                                                                   |
 |:-------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
