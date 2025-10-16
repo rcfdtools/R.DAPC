@@ -113,3 +113,19 @@ Ancho columnas libros Excel proyecto
 =IF('4.Bodegaje'!I23>0,'4.Bodegaje'!I23,"")
 =IF('5.Planos'!I17>0,'5.Planos'!I17,"")
 =IF('6.Archivos'!H18>0,'6.Archivos'!H18,"")
+
+
+
+'Predio: ' || "PredioID" || '\n● A(m²): ' || round("AreaPm2",1) || ' ● P(m): ' || round("PerimPm",1) || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 1) || ' ● Lon(°): ' || round("LonDD", 1)
+
+
+"EdifID" || '\n● A(m²): ' || round("AreaPm2",1) || ' ● P(m): ' || round("PerimPm",1) || ' ● Pisos: ' || "Pisos" || '\n● Area Cons(m²): ' || round("AreaCons", 1) || '\n● Material Est.: ' || "MaterialEs" || '\n● Cubierta: ' || "TipoCubier" || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 1) || ' ● Lon(°): ' || round("LonDD", 1)
+
+
+"ViaID" || ' ● Ancho(m): ' || round("AnchoProm",2) || ' ● Tipo: ' || "ViaTipo" || ' ● Rodadura: ' || "Rodadura"
+
+
+'Árbol: ' || "ArbolID" || '\n● Altura(m): ' || round("Altura",2) || ' ● Radio(m): ' || round("RadioC",2) || '\n● Tipo: ' || "TipoArbol" || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 1) || ' ● Lon(°): ' || round("LonDD", 1)
+
+
+'Luminaria: ' || "LumID" || '\n● Altura(m): ' || round("Altura",2) || ' ● Tipo: ' || "LumTipo" || ' ● Potencia(Watt): ' || round("Potencia",0) || '\n● Radio(m): ' || round("RadioC",2) || ' ● Consumo: ' || round("Consumo",0) || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 1) || ' ● Lon(°): ' || round("LonDD", 1)
