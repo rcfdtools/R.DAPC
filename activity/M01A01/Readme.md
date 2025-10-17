@@ -1,3 +1,8 @@
+## :globe_with_meridians:Módulo 1: Dibujo asistido por computadora con AutoCAD
+
+En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD, Entorno gráfico e interfaz de AutoCAD, Comandos básicos, Dibujo de elementos básicos, Presentación de elementos básicos, Achurado y sombreado, Dimensionamiento de elementos, Herramientas de acotado, Rotulado, Herramientas de edición y dibujo en 3D, Creación y estructurado de un plano, Manejo de ventanas de impresión, Capas, Viewports: manejo de escalas, plantas, perfiles y secciones transversales.
+
+
 # 1.1. Conceptos básicos de diseño asistido por computador - CAD
 Keywords: `cad` `autocad` `model` `layout` `dwgunits` `line` `drawing-commands` `commandline` `status-bar` `measuregeom` `m01a01`
 
