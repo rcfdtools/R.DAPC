@@ -3,7 +3,7 @@ Keywords:  `revit` `bim` `units` `options` `levels` `link-cad` `import-cad` `m03
 
 Uso de plantillas (templates). Fundamentos del software Revit. Configuración de Revit (Options). Creación de vista de plantas (Plan views), Niveles de fondo (Underlay). 
 
-<div align="center"><img src="graph/m03a02.jpg" alt="R.DAPC" width="50%" border="0" /></div>
+<div align="center"><img src="graph/m03a02.jpg" alt="R.DAPC" width="70%" border="0" /></div>
 
 
 ## Objetivos
