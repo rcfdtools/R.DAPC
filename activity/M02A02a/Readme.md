@@ -14,6 +14,8 @@ Al finalizar esta actividad, el estudiante:
 
 * Comprende el uso de las bases de datos en SIG.
 * Realiza ejercicios prácticos en los que define y edita elementos de un SIG.
+* Utiliza Python para crear capas y agregar campos de atributos.
+* Ejecuta herramientas de geo-procesamiento.
 
 
 ## Requerimientos
@@ -66,12 +68,12 @@ Atributos requeridos:
 | Campo    | Tipo         | Descripción                                                                                                                                                       |
 |:---------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PredioID | String (200) | Consultar el catastro distrital o nacional y obtener el código CHIP o llave predial de este predio. Es necesario investigar y documentar el proceso de obtención. |
-| AreaPm2  | Real (10)    | Área planar en m².<br>`area($geometry)`                                                                                                                           |
-| PerimPm  | Real (10)    | Perímetro planar en m.<br>`perimeter($geometry)`                                                                                                                  |
-| CX       | Real (10)    | Coordenada X del centroide en m.<br>`x($geometry)`                                                                                                                |
-| CY       | Real (10)    | Coordenada y del centroide en m.<br>`y($geometry)`                                                                                                                |
-| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                             |
-| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                            |
+| AreaPm2  | Real (10)    | Área planar en m².<br>`area(@geometry)`                                                                                                                           |
+| PerimPm  | Real (10)    | Perímetro planar en m.<br>`perimeter(@geometry)`                                                                                                                  |
+| CX       | Real (10)    | Coordenada X del centroide en m.<br>`x(@geometry)`                                                                                                                |
+| CY       | Real (10)    | Coordenada y del centroide en m.<br>`y(@geometry)`                                                                                                                |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                             |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                            |
 
 </div>
 
@@ -122,16 +124,16 @@ Atributos requeridos:
 | Campo      | Tipo         | Descripción                                                                                                                                                                            |
 |:-----------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | EdifID     | String (200) | Identificación de edificio o bloque. Texto de 100 caracteres. Ejemplo: Bloque A, Bloque B, Coliseo, Kiosco K1, Portería, etc.                                                          |
-| AreaPm2    | Real (10)    | Área planar en m².<br>`area($geometry)`                                                                                                                                                |
-| PerimPm    | Real (10)    | Perímetro planar en m.<br>`perimeter($geometry)`                                                                                                                                       |
+| AreaPm2    | Real (10)    | Área planar en m².<br>`area(@geometry)`                                                                                                                                                |
+| PerimPm    | Real (10)    | Perímetro planar en m.<br>`perimeter(@geometry)`                                                                                                                                       |
 | Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional.                                                                                                        |
 | AreaCons   | Real (10)    | Total de área construída `AreaCons = AreaPm2 * Pisos`.                                                                                                                                 |
 | MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>• Concreto reforzado en pórticos<br>• Concreto reforzado en paneles<br>• Mampostería estructural<br>• Metálica<br>• Mixta. |
 | TipoCubier | String (100) | Tipo de cubierta predominante. Normalizar como:<br>• Teja inclinada<br>• Placa<br>• Carpa<br>• Domo<br>• Curvada continua<br>• Paneles solares<br>• Mixta.                             |
-| CX         | Real (10)    | Coordenada X del centroide en m.<br>`x($geometry)`                                                                                                                                     |
-| CY         | Real (10)    | Coordenada y del centroide en m.<br>`y($geometry)`                                                                                                                                     |
-| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                  |
-| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                 |
+| CX         | Real (10)    | Coordenada X del centroide en m.<br>`x(@geometry)`                                                                                                                                     |
+| CY         | Real (10)    | Coordenada y del centroide en m.<br>`y(@geometry)`                                                                                                                                     |
+| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                  |
+| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                 |
 
 </div>
 
@@ -179,12 +181,13 @@ Atributos requeridos:
 
 <div align="center">
 
-| Campo      | Tipo         | Descripción                                                                                                                                                                                                            |
-|:-----------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ViaID      | String (200) | Identificación de vía. Ejemplo: Calle 207, Sendero peatonal entre Bloques A y G...                                                                                                                                     |
-| AnchoProm  | Real (10)    | Ancho promedio en m. Medir usando imagen satelital como mapa base.                                                                                                                                                     |
-| ViaTipo    | String (100) | Tipo de Vía. Normalizar como:<br>• Vehicular<br>• Peatonal<br>• Sendero<br>• Privada<br>• Camino<br>• Andén                                                                                                            |
-| Rodadura   | String (100) | Tipo de rodadura o recubrimiento. Normalizar como:<br>• Asfalto<br>• Concreto<br>• Adoquín<br>• Placa Huella<br>• Tierra<br>• Césped<br>• Arena<br>• Gravilla                                                          |
+| Campo     | Tipo         | Descripción                                                                                                                                                   |
+|:----------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ViaID     | String (200) | Identificación de vía. Ejemplo: Calle 207, Sendero peatonal entre Bloques A y G...                                                                            |
+| LPm       | Real (10)    | Longitud planar de la vía en metros.<br>`length(@geometry)`                                                                                                        |
+| AnchoProm | Real (10)    | Ancho promedio en m. Medir usando imagen satelital como mapa base.                                                                                            |
+| ViaTipo   | String (100) | Tipo de Vía. Normalizar como:<br>• Vehicular<br>• Peatonal<br>• Sendero<br>• Privada<br>• Camino<br>• Andén                                                   |
+| Rodadura  | String (100) | Tipo de rodadura o recubrimiento. Normalizar como:<br>• Asfalto<br>• Concreto<br>• Adoquín<br>• Placa Huella<br>• Tierra<br>• Césped<br>• Arena<br>• Gravilla |
 
 </div>
 
@@ -196,6 +199,7 @@ output_path = 'D:/R.DAPC/file/shp/DAPC_Vial.shp'
 crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
 fields.append(QgsField('ViaID', QVariant.String, len=200))
+fields.append(QgsField('LPm', QVariant.Double, len=20, prec=10))
 fields.append(QgsField('AnchoProm', QVariant.Double, len=20, prec=10))
 fields.append(QgsField('ViaTipo', QVariant.String, len=100))
 fields.append(QgsField('Rodadura', QVariant.String, len=100))
@@ -226,10 +230,10 @@ Atributos requeridos:
 | Altura      | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario. |
 | RadioC      | Real (10)    | Radio de cobertura del canopy. Medir utilizando imagen satelital como mapa base.                                                      |
 | TipoArbol   | String (100) | Tipo de árbol. Normalizar como:<br>• Árbol<br>• Arbusto<br>• Planta<br>• Matorral                                                     |
-| CX          | Real (10)    | Coordenada X del centroide en m.<br>`x($geometry)`                                                                                    |
-| CY          | Real (10)    | Coordenada y del centroide en m.<br>`y($geometry)`                                                                                    |
-| LatDD       | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                 |
-| LonDD       | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                |
+| CX          | Real (10)    | Coordenada X del centroide en m.<br>`x(@geometry)`                                                                                    |
+| CY          | Real (10)    | Coordenada y del centroide en m.<br>`y(@geometry)`                                                                                    |
+| LatDD       | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                 |
+| LonDD       | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                |
 
 </div>
 
@@ -281,10 +285,10 @@ Atributos requeridos:
 | Potencia | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W                                                                                               |
 | RadioC   | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.<br><br>Por ejemplo:<br>Lámparas de menos de 6 metros de altura: 10 metros.<br>Lámparas de más de 6 metros: entre 10 y 25 metros. |
 | Consumo  | Real (10)    | Consumo eléctrico.                                                                                                                                                                                                                           |
-| CX       | Real (10)    | Coordenada X del centroide en m.<br>`x($geometry)`                                                                                                                                                                                           |
-| CY       | Real (10)    | Coordenada y del centroide en m.<br>`y($geometry)`                                                                                                                                                                                           |
-| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                        |
-| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                       |
+| CX       | Real (10)    | Coordenada X del centroide en m.<br>`x(@geometry)`                                                                                                                                                                                           |
+| CY       | Real (10)    | Coordenada y del centroide en m.<br>`y(@geometry)`                                                                                                                                                                                           |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                        |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                       |
 
 </div>
 

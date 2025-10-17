@@ -38,13 +38,13 @@ BIM son las siglas de Building Information Modeling (Modelado de Información de
 
 BIM es una metodología de trabajo colaborativo para el diseño, construcción y operación de un proyecto, se basa en modelos 3D paramétricos y bases de datos que permiten un flujo de trabajo eficiente y el intercambio de información entre disciplinas.
 
-El ciclo de vida de un proyecto BIM puede contener:
-
 <div align="center">
 
-| Diseño                                                                                 | Construcción                                                                      | Operación                                                 |
-|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------|
-| •Programación<br/>•Diseño conceptual<br/>•Diseño detallado<br/>•Análisis<br/>•Documentación | •Fabricación<br/>•Construcción (4D-Tiempo, 5D-Costos)<br/>•Logística de construcción | •Operación y mantenimiento<br/>•Renovación o remodelación   |
+El ciclo de vida de un proyecto BIM puede contener:
+
+| 1. Diseño                                                                                   | 2. Construcción                                                                      | 3. Operación                                              |
+|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| •Programación<br/>•Diseño conceptual<br/>•Diseño detallado<br/>•Análisis<br/>•Documentación | •Fabricación<br/>•Construcción (4D-Tiempo, 5D-Costos)<br/>•Logística de construcción | •Operación y mantenimiento<br/>•Renovación o remodelación |
 
 </div>
 
