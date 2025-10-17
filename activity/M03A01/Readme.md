@@ -48,17 +48,17 @@ El ciclo de vida de un proyecto BIM puede contener:
 
 </div>
 
-Esta metodología también puede ser aplicada a proyectos ya construídos, donde se requiere gestionar todos los sistemas existentes; para ello, es requerido el levantamiento detallado de información usando sistemas no invasivos, p. ej., usando tecnología laser LIDAR y escáneres de elementos estructurales de refuerzo.
+Esta metodología también puede ser aplicada a proyectos ya construídos, donde se requiere gestionar todos los sistemas existentes; para ello, es requerido el levantamiento detallado de información usando sistemas no invasivos, p. ej., usando tecnología laser LIDAR y escáneres de elementos y sistemas, p. ej., los refuerzos de elementos estructurales, los conductos embebidos en muros y en general los elementos de instalaciones no visibles.
 
 Con respecto al nivel de detalle o LOD (Level of Development), en la aplicación de la metodología BIM, se define el nivel de detalle que posee cada elemento del modelo que hace parte de un componente, sistema constructivo o montaje del edificio. Los niveles LOD se clasifican cómo:
 
 |  Nivel   | Alcance                                                      | Datos gráfico                                                                                                                                                                                  | Datos no gráficos |
 |:--------:|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| LOD-100  | Modelo con información general                               | Existencia de elementos (representación simbólica).<br/>Ubicación aproximada.                                                                                                                  |                   |
-| LOD-200  | Modelo con información básica aproximada                     | Existencia de elementos.<br/>Cantidades, espesor y dimensiones aproximadas.                                                                                                                    |                   |
-| LOD-300  | Modelo con información detallada                             | Cantidades, espesores y dimensiones específicas.<br/>Materiales.<br/>Representación de la composición de elementos.                                                                            |                   |
-| LOD-400  | Modelo con información detallada y coordinada                | Cantidades, espesores y dimensiones específicas.<br/>Materiales.<br/>Representación de la composición e intersección de elementos y soportes.<br/>Fabricación, ensamblaje e instalación.       |                   |
-| LOD-500  | Modelo con información detallada de la fabricación y montaje | Cantidades, espesores y dimensiones específicas.<br/>Materiales.<br/>Representación de la composición e intersección de elementos y soportes.<br/>Información gráfica conforme a lo ejecutado. |                   |
+| **LOD-100**  | Modelo con información general                               | Existencia de elementos (representación simbólica).<br/>Ubicación aproximada.                                                                                                                  |                   |
+| **LOD-200**  | Modelo con información básica aproximada                     | Existencia de elementos.<br/>Cantidades, espesor y dimensiones aproximadas.                                                                                                                    |                   |
+| **LOD-300**  | Modelo con información detallada                             | Cantidades, espesores y dimensiones específicas.<br/>Materiales.<br/>Representación de la composición de elementos.                                                                            |                   |
+| **LOD-400**  | Modelo con información detallada y coordinada                | Cantidades, espesores y dimensiones específicas.<br/>Materiales.<br/>Representación de la composición e intersección de elementos y soportes.<br/>Fabricación, ensamblaje e instalación.       |                   |
+| **LOD-500**  | Modelo con información detallada de la fabricación y montaje | Cantidades, espesores y dimensiones específicas.<br/>Materiales.<br/>Representación de la composición e intersección de elementos y soportes.<br/>Información gráfica conforme a lo ejecutado. |                   |
 
 19:31
 
@@ -78,16 +78,16 @@ A menudo se habla de BIM en términos de “dimensiones” que representan la ri
 
 | Dimensión / Enfoque            | Alcance                                                                                                                                                   |
 |:-------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1D / Idea                      | Idea o concepto general del proyecto.                                                                                                                     |
-| 2D / Boceto                    | Boceto o planimetría del modelo identificando dimensiones principales.                                                                                    |
-| 3D / Geometría                 | La geometría tridimensional (forma, espacio, materiales, sistemas, equipos electromecánicos, componentes, mobiliario).                                    |
-| 4D / Tiempo                    | El tiempo o planificación (scheduling). Relaciona los elementos del modelo con el cronograma de construcción.                                             |
-| 5D / Costo                     | Los costos (cost estimating). Permite la extracción automática de cantidades y la generación de presupuestos precisos.                                    |
-| 6D / Sostenibilidad            | La sostenibilidad (sustainability). Analiza el rendimiento energético y ambiental del edificio.                                                           |
-| 7D / Gestión de archivos       | La gestión del ciclo de vida (facility management). Utiliza el modelo y su información para la operación y mantenimiento del edificio una vez construido. |
-| 8D / Seguridad                 | Dimensión conceptual que se enfoca en la Seguridad y la prevención de riesgos laborales en la fase de construcción.                                       |
-| 9D / Construcción sin pérdidas | Dimensión conceptual relacionada con la Construcción sin pérdidas (Lean Construction).                                                                    |
-| 10D / Industrialización        | Dimensión conceptual asociada con la Industrialización de la construcción.                                                                                |
+| **1D** / Idea                      | Idea o concepto general del proyecto.                                                                                                                     |
+| **2D** / Boceto                    | Boceto o planimetría del modelo identificando dimensiones principales.                                                                                    |
+| **3D** / Geometría                 | La geometría tridimensional (forma, espacio, materiales, sistemas, equipos electromecánicos, componentes, mobiliario).                                    |
+| **4D** / Tiempo                    | El tiempo o planificación (scheduling). Relaciona los elementos del modelo con el cronograma de construcción.                                             |
+| **5D** / Costo                     | Los costos (cost estimating). Permite la extracción automática de cantidades y la generación de presupuestos precisos.                                    |
+| **6D** / Sostenibilidad            | La sostenibilidad (sustainability). Analiza el rendimiento energético y ambiental del edificio.                                                           |
+| **7D** / Gestión de archivos       | La gestión del ciclo de vida (facility management). Utiliza el modelo y su información para la operación y mantenimiento del edificio una vez construido. |
+| **8D** / Seguridad                 | Dimensión conceptual que se enfoca en la Seguridad y la prevención de riesgos laborales en la fase de construcción.                                       |
+| **9D** / Construcción sin pérdidas | Dimensión conceptual relacionada con la Construcción sin pérdidas (Lean Construction).                                                                    |
+| **10D** / Industrialización        | Dimensión conceptual asociada con la Industrialización de la construcción.                                                                                |
 
 
 ## 3. Beneficios Principales
