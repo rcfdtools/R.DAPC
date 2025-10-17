@@ -12,6 +12,7 @@ Al finalizar esta actividad, el estudiante:
 
 * Elabora mapas y planos.
 * Manipula imágenes. 
+* Utiliza herramientas de geoprocesamiento.
 
 
 ## Requerimientos
@@ -23,9 +24,6 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                             | Descripción                                                                                                    |
 |:------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://qgis.org/)                                                 | QGIS 3.44 o superior.                                                                                          |  
-| [:man_technologist:Cuenta de usuario en _Open Topography_](https://opentopography.org/)     | Cuenta de usuario requerida para descarga de modelos digitales de elevación DEM.                               |  
-| [:round_pushpin:IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)     | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/. |
-| [:round_pushpin:UPME_LineaTransmision.shp](../../file/data/DNP/UPME_LineaTransmision.zip) | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co.   |
 
 </div>
 
@@ -46,16 +44,16 @@ Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A01b](.
 
 ## 2. Digitalización de campus UECIJG
 
-Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A02a](../M02A02a/Readme.md), realice la digitalización completa del campus en planta, incluyendo:
+Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A02a](../M02A02a/Readme.md), realice la digitalización completa del campus, incluyendo:
 
 * Predio: unidad predial disponible en https://www.ideca.gov.co/recursos/mapas/predios-bogota-dc.
 * Construcción: todas las construcciones bajo cubierta.
 * Vías - ejes: todos los ejes viales, incluídos senderos, vías principales, vías peatonales.
-* Vías - aferencia: aferencias viales a partir de anchos medidos con recorte y extensión hasta el límite del predio.
+* Vías - aferencia: corredores viales a partir de anchos medidos con recorte y extensión hasta el límite del predio.
 * Arbolado - nodo: localización de nodos de arbolado.
-* Arbolado - aferencia: áreas de cobertura por vegetación a partir de ancho de canopy.
+* Arbolado - aferencia: áreas cubiertas por vegetación a partir de ancho en canopy.
 * Luminaria - nodo: localización de nodos de luminarias externas.
-* Luminaria - aferencia: áreas de cobertura de iluminación.
+* Luminaria - aferencia: áreas con cobertura de iluminación.
 
 > El informe técnico debe contener capturas de pantalla de los elementos digitalizados, tablas de atributos, estadísticas, análisis de índices de cobertura y representación 3D.
 
@@ -65,8 +63,9 @@ Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A02a](.
 Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A02b](../M02A02b/Readme.md), realice las siguientes actividades:
 
 * Presente un informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas en la construcción de los polígonos de cubiertas.
-* Investigar especificaciones técnicas y costos de instalación por KW solar instalado y calcular el potencial fotovoltáico de cada cubierta.
-* En AutoCAD y con ayuda del commando ARRAY, distribuya en cada cubierta los paneles solares estimados en esta actividad. Guardar como /cad/DAPC_CubiertaSolarUECIJG.dwg. Cree una capa geográfica que incorpore la distribución de los páneles solares y asocie cada elemento a la cubierta correspondiente a través del campo CubiertaID, guardar como /shp/DAPC_CubiertaSolarUECIJG.shp.
+* Investigar especificaciones técnicas y costos de instalación por KW solar instalado.
+* Calcular el potencial fotovoltáico de cada cubierta y el costo actual de instalación.
+* En AutoCAD y con ayuda del commando **ARRAY**, distribuya en cada cubierta los paneles solares estimados en esta actividad. Cree una capa geográfica que incorpore la distribución de los páneles solares y asocie cada elemento a la cubierta correspondiente a través del campo CubiertaID.
 
 
 ## 4. Red de interconexión energética nacional 2D y aislamientos RETIE
