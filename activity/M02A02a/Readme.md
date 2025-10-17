@@ -184,7 +184,7 @@ Atributos requeridos:
 | Campo     | Tipo         | Descripción                                                                                                                                                   |
 |:----------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ViaID     | String (200) | Identificación de vía. Ejemplo: Calle 207, Sendero peatonal entre Bloques A y G...                                                                            |
-| LPm       | Real (10)    | Longitud planar de la vía en metros.<br>`length(@geometry)`                                                                                                        |
+| LPm       | Real (10)    | Longitud planar de la vía en metros.<br>`length(@geometry)`                                                                                                   |
 | AnchoProm | Real (10)    | Ancho promedio en m. Medir usando imagen satelital como mapa base.                                                                                            |
 | ViaTipo   | String (100) | Tipo de Vía. Normalizar como:<br>• Vehicular<br>• Peatonal<br>• Sendero<br>• Privada<br>• Camino<br>• Andén                                                   |
 | Rodadura  | String (100) | Tipo de rodadura o recubrimiento. Normalizar como:<br>• Asfalto<br>• Concreto<br>• Adoquín<br>• Placa Huella<br>• Tierra<br>• Césped<br>• Arena<br>• Gravilla |

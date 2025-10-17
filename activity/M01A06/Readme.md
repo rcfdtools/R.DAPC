@@ -1,7 +1,7 @@
 # 1.6. Proyecto de dibujo asistido por computadora con Autodesk AutoCAD
 Keywords: `final-project` `industrial-transformer`  `m01a06`
 
-Aplicando los conceptos vistos durante el módulo 1 del curso, desarrollar un proyecto aplicado para el diseño de una bodega para el almacenamiento y distribución de transformadores eléctricos industriales.
+Aplicando los conceptos CAD vistos durante el módulo 1 del curso, desarrollar un proyecto aplicado para el diseño de una bodega para el almacenamiento y distribución de transformadores eléctricos industriales.
 
 Aplique los conceptos vistos en las diferentes actividades del módulo relacionadas con: Layers, papel. Texto menor, texto mayor. Planos de referencia para posiciones espaciales. Limits. Coordenadas cartesianas X, Y, Z. Coordenadas relativas posicionales. Coordenadas geográficas.   
 
