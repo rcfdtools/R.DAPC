@@ -66,7 +66,7 @@ Con respecto al nivel de detalle o LOD (Level of Development), en la aplicación
 | **LOD500**  | Modelo con información detallada de la fabricación y montaje  | • Cantidades, espesores y dimensiones específicas.<br/>• Materiales.<br/>• Representación de la composición e intersección de elementos y soportes.<br/>• Información gráfica conforme a lo ejecutado. | • Marcas y modelos.<br/>• Datos físicos y/o técnicos determinantes de elementos constructivos.<br/>• Datos para mantenimiento: guías, fichas técnicas, información comercial y revisiones. |
 
 
-## 1. Componentes Clave de BIM
+## 1. Componentes clave de BIM
 
 BIM va mucho más allá de ser simplemente un software o un modelo 3D. Es una metodología de trabajo colaborativa que implica varios aspectos fundamentales:
 
@@ -75,7 +75,7 @@ BIM va mucho más allá de ser simplemente un software o un modelo 3D. Es una me
 * Colaboración: permite que diferentes disciplinas, tales como arquitectos, ingenieros estructurales, ingenieros MEP (Mecánica, Eléctrica y Fontanería), contratistas, trabajen sobre un único modelo coordinado, lo que reduce los errores y las inconsistencias durante el diseño y la construcción.
 
 
-## 2. Las Dimensiones del BIM
+## 2. Las dimensiones del BIM
 
 A menudo se habla de BIM en términos de “dimensiones” que representan la riqueza de la información añadida al modelo, tales como:
 
@@ -93,7 +93,7 @@ A menudo se habla de BIM en términos de “dimensiones” que representan la ri
 | **10D** / Industrialización        | Dimensión conceptual asociada con la Industrialización de la construcción.                                                                                |
 
 
-## 3. Beneficios Principales
+## 3. Beneficios principales
 
 La implementación de la metodología BIM ofrece las ventajas significativas:
 
