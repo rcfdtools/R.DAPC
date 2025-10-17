@@ -36,7 +36,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 Utilizando los conceptos aprendidos en el desarrollo de la actividad [M03A02](../M03A02/Readme.md), realice las siguientes actividades:
 
 * Cree una plantilla multi-disciplina y configure en unidades métricas.
-* Ajuste y vincule el archivo CAD de diseño de la bodega _/cad/DAPC.dwg_, para que su sea centrado en la coordenada XY (0,0) de Revit.
+* Ajuste y vincule el archivo CAD de diseño de la bodega _/cad/DAPC.dwg_, para que su origen sea centrado en la coordenada XY (0,0) de Revit.
 * Cree 4 niveles de elevación con alturas cada 4 metros y nombre como L1, L2, L3, L4.
 
 
@@ -56,9 +56,9 @@ Utilizando los conceptos aprendidos en el desarrollo de la actividad [M03A03a](.
 Utilizando los conceptos aprendidos en el desarrollo de la actividad [M03A03b](../M03A03b/Readme.md), realice las siguientes actividades:
 
 * Dibujo de muros entre columnas.
-* Dibujo de puertas sobre muros.
-* Dibujo de ventanas sobre muros.
-* Dibujo de escalera con verificación de ajuste de acomplamiento entre placas.
+* Dibujo de puertas embebidas en muros.
+* Dibujo de ventanas embebidas en muros.
+* Dibujo de escalera con verificación de acoplamiento entre placas.
 * Dibujo de cubierta.
 
 
@@ -74,7 +74,7 @@ Utilizando los conceptos aprendidos en el desarrollo de la actividad [M03A04](..
 * Dibujo de tablero de control.
 * Trazado de redes conectoras de tomacorrientes.
 * Trazado de redes de iluminación con conexión a interruptores.
-* Trazado de redes de ventiladores industriales.
+* Trazado de redes de alimentación de ventiladores industriales.
 * Trazado de redes de conexión fotovoltáica.
 
 
@@ -96,7 +96,12 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* 
+* https://www.autodesk.com/latam/products/bim-collaborate/overview
+* https://www.graphisoft.com/es/try-archicad/explore-what-is-bim
+* https://www.concrelab.com/deteccion-de-aceros
+* https://revizto.com/es/programas-platformas-bim/
+* [Centro - ¿Cómo generar un proyecto a través de la metodología BIM?](https://www.youtube.com/watch?v=uc1RjoR9HT0)
+* [EALDE Business School - Cómo funcionan las 7 dimensiones de BIM para proyectos de construcción](https://www.youtube.com/watch?v=9eplIw2siwM)
 
 
 ## Control de versiones
