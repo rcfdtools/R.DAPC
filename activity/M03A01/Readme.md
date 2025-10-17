@@ -1,5 +1,5 @@
 # 3.1. Introducción
-Keywords:  `bim` `bim-dimension` `m03a01`
+Keywords:  `bim` `bim-dimension` `lod` `aec` `m03a01`
 
 Conceptos de la metodología BIM. Generalidades del trabajo colaborativo. Taller conceptual. 
 
@@ -65,9 +65,9 @@ Con respecto al nivel de detalle o LOD (Level of Development), en la aplicación
 
 BIM va mucho más allá de ser simplemente un software o un modelo 3D. Es una metodología de trabajo colaborativa que implica varios aspectos fundamentales:
 
-* Modelo 3D: Es una representación digital que no solo muestra la geometría (forma y tamaño), sino que también contiene datos inteligentes sobre los elementos constructivos (materiales, especificaciones, costos, información del fabricante, propiedades térmicas, etc.).
-* Información (la "I" de BIM): Este es el componente más crucial. El modelo es una base de datos centralizada que se utiliza para generar toda la documentación del proyecto (planos 2D, listados de materiales, presupuestos, etc.).
-* Colaboración: Permite que diferentes disciplinas, tales como arquitectos, ingenieros estructurales, ingenieros MEP (Mecánica, Eléctrica y Fontanería), contratistas, trabajen sobre un único modelo coordinado, lo que reduce los errores y las inconsistencias durante el diseño y la construcción.
+* Modelo 3D: es una representación digital que no solo muestra la geometría (forma y tamaño), sino que también contiene datos inteligentes sobre los elementos constructivos (materiales, especificaciones, costos, información del fabricante, propiedades térmicas, etc.).
+* Información (la "I" de BIM): este es el componente más crucial. El modelo es una base de datos centralizada que se utiliza para generar toda la documentación del proyecto (planos 2D, listados de materiales, presupuestos, etc.).
+* Colaboración: permite que diferentes disciplinas, tales como arquitectos, ingenieros estructurales, ingenieros MEP (Mecánica, Eléctrica y Fontanería), contratistas, trabajen sobre un único modelo coordinado, lo que reduce los errores y las inconsistencias durante el diseño y la construcción.
 
 
 ## 2. Las Dimensiones del BIM
@@ -114,17 +114,6 @@ Existen múltiples herramientas para la aplicación de la tecnología BIM, algun
 | [BricsCAD BIM](https://www.bricsys.com/bricscad)                                                                    | Herramienta de diseño CAD que permite crear un modelo conceptual, refinarlo y documentarlo para luego construirlo. Incorpora la metodología BIM en sus procesos derivados.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 
-
-
-
-
-
-
-
-
-
-
-
 ## Actividades de proyecto :triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
@@ -155,7 +144,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2025.10.16 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |   4   |
+| 2025.10.16 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |   6   |
 
 
 ##
