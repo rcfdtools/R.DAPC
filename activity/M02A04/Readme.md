@@ -72,7 +72,7 @@ Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A02b](.
 
 Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A03a](../M02A03a/Readme.md), realice las siguientes actividades:
 
-* Presente un informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas para analizar la red de interconexión de la ciudad de Bogotá D.C.
+* Presente un informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas para analizar la red de interconexión y servidumbres eléctricas de la ciudad de Bogotá D.C.
 * Para el predio del campus de la [UECIJG](https://www.escuelaing.edu.co/es/), determine y grafique el % de afectación de los corredores de servidumbre de la red de interconexión energética nacional y regional.
 
 
@@ -81,7 +81,7 @@ Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A03a](.
 Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A03b](../M02A03b/Readme.md), realice las siguientes actividades:
 
 * Presente un informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas en el análisis de líneas de interconexión eléctrica 3D.
-* Investigue que es la catenaria en un vano eléctrico y calcule la longitud real del cableado de la ciudad de Bogotá D.C. teniendo en cuenta la curvatura de la catenaria entre torres.
+* Investigue que es la catenaria en un vano eléctrico y calcule la longitud real 3D del cableado de la ciudad de Bogotá D.C. teniendo en cuenta la curvatura de la catenaria entre torres.
 
 
 ## Actividades de proyecto :triangular_ruler:
