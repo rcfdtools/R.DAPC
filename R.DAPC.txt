@@ -63,7 +63,7 @@ Module 2
 	https://www1.upme.gov.co/DemandayEficiencia
 	https://lowcarbonpower.org/es/region/Colombia
 	Rotación campus: -8.5°
-	2.3.c. Mapas e imágenes / Identificación de zonas con materiales ferrosos: Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de imagenes satelitales.
+	2.3.d. Mapas e imágenes / Identificación de zonas con materiales ferrosos: Mapas y cartografía. Elaboración de planos. Imágenes en SIG. Manejo y manipulación de imágenes. Procesamiento de imagenes satelitales.
 
 
 

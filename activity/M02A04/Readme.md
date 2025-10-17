@@ -3,7 +3,7 @@ Keywords:  `gis` `buffer` `2d` `3d` `powerline` `m02a04`
 
 Aplicando los conceptos GIS vistos durante el módulo 2 del curso, analice coberturas geográficas aplicadas en ingeniería eléctrica.
 
-<div align="center"><img src="graph/m02a04.jpg" alt="R.DAPC" width="50%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/ae9373792145f9e2">https://gemini.google.com/</a></sub><br><br></div>
+<div align="center"><img src="graph/m02a04.png" alt="R.DAPC" width="50%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/430bab142a3cfa08">https://gemini.google.com/</a></sub><br><br></div>
 
 
 ## Objetivos
