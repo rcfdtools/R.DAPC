@@ -92,12 +92,12 @@ A menudo se habla de BIM en términos de “dimensiones” que representan la ri
 
 La implementación de la metodología BIM ofrece las ventajas significativas:
 
-| Ventaja                           | Descripción                                                                                                                                                                                                             |
-|:----------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mejor Coordinación                | Detección temprana de conflictos o "choques o interferencias" (clash detection) entre las instalaciones, estructuras y arquitectura antes de que comiencen las obras, lo que minimiza los costosos cambios en el sitio. |
-| Visualización Mejorada            | Permite una mejor comprensión del proyecto por parte de todos los involucrados, incluyendo el cliente. Recorridos visuales 3D sobre el modelos, planos y vistas en planta, vistas de corte, vistas detalladas.          |
-| Extracción de Información Rápida  | Generación rápida y precisa de mediciones y presupuestos.                                                                                                                                                               |
-| Gestión del Ciclo de Vida         | La información del modelo puede ser transferida a los gestores de las instalaciones para facilitar el mantenimiento y las renovaciones futuras.                                                                         |
+| Ventaja                          | Descripción                                                                                                                                                                                                             |
+|:---------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Mejor coordinación               | Detección temprana de conflictos o "choques o interferencias" (clash detection) entre las instalaciones, estructuras y arquitectura antes de que comiencen las obras, lo que minimiza los costosos cambios en el sitio. |
+| Visualización mejorada           | Permite una mejor comprensión del proyecto por parte de todos los involucrados, incluyendo el cliente. Recorridos visuales 3D sobre el modelos, planos y vistas en planta, vistas de corte, vistas detalladas.          |
+| Extracción de información rápida | Generación rápida y precisa de mediciones y presupuestos.                                                                                                                                                               |
+| Gestión del ciclo de vida        | La información del modelo puede ser transferida a los gestores de las instalaciones para facilitar el mantenimiento y las renovaciones futuras.                                                                         |
 
 
 ## 4. Herramientas BIM
