@@ -326,15 +326,15 @@ Label: `'Luminaria: ' || "LumID" || '\n● Altura(m): ' || round("Altura",2) || 
 
 ## 2. Aferencias e índices
 
-Para las capas `Vial.shp`, `Arbolado.shp` y `Luminaria.shp`, cree aferencias para crear los corredores viales, el canopy o cobertura de la vegetación y las áreas iluminadas. En QGIS, utilice la herramienta _Processing Toolbox / Vector Geometry / Buffer_.
+Para las capas `DAPC_Vial.shp`, `DAPC_Arbolado.shp` y `DAPC_Luminaria.shp`, cree aferencias para crear los corredores viales, el canopy o cobertura de la vegetación y las áreas iluminadas. En QGIS, utilice la herramienta _Processing Toolbox / Vector Geometry / Buffer_.
 
 <div align="center">
 
-| Capa de aferencia   | Descripción                                                    |
-|---------------------|----------------------------------------------------------------|
-| VialBuffer.shp      | Aferencia a partir de ejes viales a partir de `AnchoProm / 2`. |
-| ArboladoBuffer.shp  | Aferencia a partir del radio de cobertura de canopy `RadioC`.  |
-| LuminariaBuffer.shp | Aferencia a partir del radio de iluminación `RadioC`.          |
+| Capa de aferencia        | Descripción                                                    |
+|--------------------------|----------------------------------------------------------------|
+| DAPC_VialBuffer.shp      | Aferencia a partir de ejes viales a partir de `AnchoProm / 2`. |
+| DAPC_ArboladoBuffer.shp  | Aferencia a partir del radio de cobertura de canopy `RadioC`.  |
+| DAPC_LuminariaBuffer.shp | Aferencia a partir del radio de iluminación `RadioC`.          |
 
 Para el cálculo de los índices, cree y calcule los siguientes campos de atributos en la capa `DAPC_Predio.shp`:
 
@@ -355,7 +355,7 @@ Para el cálculo de los índices, cree y calcule los siguientes campos de atribu
 
 > `AreaPm2` corresponde al área del lote o predio.
 
-Código de creación de campos en Python sobre QGIS:
+Código de creación de campos en Python sobre QGIS (antes de ejecutar, asegúrese de seleccionar en el panel _Layers_ la capa _DAPC_Predio.shp_):
 ```
 # Add new fields to DAPC_Predio.shp
 import qgis
