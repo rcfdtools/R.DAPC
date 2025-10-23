@@ -3,11 +3,14 @@ from qgis.core import QgsRasterLayer, QgsVectorLayer
 import pandas as pd
 import glob
 import os
+from datetime import date
+from dateutil.relativedelta import relativedelta
 
 variable = 'ssr' 
 steps = 888
+original_date = date(1950, 1, 1) # Define a starting date yyyy-m-d
 raster_path = 'C:/Temp/ERA5/ERA5_land_monthly_climatological_var_010ddRioBogota_ssr.tif'
-polygon_path = 'C:/Temp/ERA5/SZH2120.shp'
+polygon_path = 'C:/Temp/ERA5/Departamento.shp'
 output_path = 'C:/Temp/ERA5/stat/'
 output_stat_file = 'C:/Temp/ERA5/'+variable+'_stat.csv'
 
@@ -29,6 +32,9 @@ for i in range(steps):
     new_column_name = 'Step'
     new_column_values = [i+1]
     df[new_column_name] = new_column_values
+    new_column_name = 'Date'
+    new_column_values = original_date + relativedelta(months=i)
+    df[new_column_name] = new_column_values
     df.to_csv(output_file, index=False)
     
 # Join the .csv stat files
@@ -38,4 +44,6 @@ for file in all_csv_files:
     df = pd.read_csv(file)
     df_list.append(df)
 combined_df = pd.concat(df_list, ignore_index=True)
+combined_df = combined_df.sort_values(by='Date', ascending=True)
 combined_df.to_csv(output_stat_file, index=False) 
+print(f'Stats file: {output_stat_file}')
