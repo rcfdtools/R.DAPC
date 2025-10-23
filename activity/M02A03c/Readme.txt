@@ -14,7 +14,7 @@ LonDDMax = x_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326')
 LatDDMin = y_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))
 LatDDMax = y_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))
 
-5. Descargar datos de radiación y velocidad desde https://cds.climate.copernicus.eu/
+5. Descargar datos de radiación y velocidad desde https://cds.climate.copernicus.eu/ y renombrar dataset como ERA5_land_monthly_climatological_var_010dd_ssr_uv10_Colombia.nc
 
 Surface net solar radiation
 10m u-component of wind
@@ -25,4 +25,6 @@ South: -4.3
 East: -66.8
 West: -79.1
 
-6. 
+6. Cargar variable ssr y exportar como .tif
+
+7. 
