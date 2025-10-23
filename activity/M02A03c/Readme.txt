@@ -22,5 +22,7 @@ Surface net solar radiation
 
 North: 12.5
 South: -4.3
-East: -68.8
+East: -66.8
 West: -79.1
+
+6. 
