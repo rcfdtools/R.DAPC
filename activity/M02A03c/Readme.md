@@ -186,12 +186,15 @@ Podrá observar los siguientes campos de atributos:
 
 3. A partir del archivo _/table/SSR_stat_year.csv_ adicionado y con la misma herramienta _Statistics by categories_, obtenga el promedio total multianual de la radiación solar por Departamento. Guarde el archivo de resultados como [/table/SSR_stat_depto.csv](../../file/table/SSR_stat_depto.csv).
 
-> Obtendrá 32 registros correspondientes a dividir 2400 entre 75 años. El campo `mean` contendrá el promedio de los valores totales anuales de cada Departamento. Al ordenar ascendentemente los valores de la columna mean, podrá observar que el Departamento con menor promedio radiación sola es Chocó con 127150449.8 J/m² 
+> Obtendrá 32 registros correspondientes a dividir 2400 entre 75 años. El campo `mean` contendrá el promedio de los valores totales anuales de cada Departamento. Al ordenar ascendentemente los valores de la columna mean, podrá observar que el Departamento con menor promedio radiación sola es Chocó con 127150449.8 J/m² y el de mayor promedio es Atlántico con 193637963.5 J/m² seguido de La Guajira con 191980068.9 J/m².
 
 <div align="center"><img src="graph/QGIS_StatisticsByCategories1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-4. Utilizando el complemento _Data Plotly_, cree un gráfico de barras que represente  
+4. Utilizando el complemento _Data Plotly_, cree un gráfico de barras que represente los valores medios anuales obtenidos por Departamento.
 
+<div align="center"><img src="graph/QGIS_DataPlotly.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+5. 
 
 
 
