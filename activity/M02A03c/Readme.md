@@ -149,6 +149,17 @@ Rutas
 
 Podrá observar los siguientes campos de atributos:
 
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+|       |      |             |
+|       |      |             |
+|       |      |             |
+|       |      |             |
+|       |      |             |
+|       |      |             |
+|       |      |             |
+|       |      |             |
+|       |      |             |
 
 
 
