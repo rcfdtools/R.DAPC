@@ -174,12 +174,21 @@ Podrá observar los siguientes campos de atributos:
 
 ## 4. Análisis de resultados
 
-### 4.1. Promedio total multianual
+1. Utilizando la herramienta _Vector analysis / Statistics by categories_, obtenga sumatoria de la radiación solar de cada año. En los campos categóricos incluya `DeCodigo`, `DeNombre`, `Decade`, `Year` y utilice `SSR_mean` como el campo numérico para el cálculo estadístico. Guarde el archivo de resultados como [/table/SSR_stat_year.csv](../../file/table/SSR_stat_year.csv). 
 
-1. Utilizando la herramienta _Vector analysis / Statistics by categories_, obtenga la sumatoria de la radiación solar de cada año. Guarde el archivo de resultados como /table/SSR_stat_year.csv.
+> Obtendrá 2400 registros correspondientes a dividir 28800 entre 12 meses. El campo `sum` contendrá la sumatoria de los valores mensuales de cada año y cada Departamento. Automáticamente, será cargado el archivo de resultados al proyecto, remuévalo para luego cargarlo como un archivo de texto delimitado.
 
 <div align="center"><img src="graph/QGIS_StatisticsByCategories.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+2. Desde el menú _Layer / Add Layer / Add Delimited Text Layer..._, cargue al proyecto el archivo de resultados estadísticos _/table/SSR_stat_year.csv_.
+
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. A partir del archivo _/table/SSR_stat_year.csv_ adicionado y con la misma herramienta _Statistics by categories_, obtenga el promedio total multianual de la radiación solar por Departamento. Guarde el archivo de resultados como [/table/SSR_stat_depto.csv](../../file/table/SSR_stat_depto.csv).
+
+> Obtendrá 32 registros correspondientes a dividir 2400 entre 75 años. El campo `mean` contendrá el promedio de los valores totales anuales de cada Departamento.
+
+<div align="center"><img src="graph/QGIS_StatisticsByCategories1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 
