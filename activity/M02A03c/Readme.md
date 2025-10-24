@@ -116,6 +116,10 @@ Automáticamente, será redirigido a la ventana de solicitudes donde será neces
 <div align="center"><img src="graph/Chrome_Copernicus7.png" alt="R.SIGE" width="100%" border="0" /></div>
 
 
+## 3. Visualización y procesamiento
+
+1. Desde el archivo _/data/ERA5/ERA5_land_monthly_climatological_var_010dd_ssr_uv10_Colombia.nc_, cargue la variable _ssr_ 
+
 
 
 
