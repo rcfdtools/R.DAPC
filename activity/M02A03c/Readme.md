@@ -20,12 +20,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                             | Descripción                                                                                          |
-|:----------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                                 | QGIS 3.44 o superior.                                                                                |  
-| [:man_technologist:Cuenta de usuario _ECMWF Copernicus_](https://cds.climate.copernicus.eu/user/login)    | Cuenta de usuario requerida para descarga de datos satelitales hidro-climatológicos mundiales ERA5.  |  
-| [:round_pushpin:IGAC_Departamento.shp](../../file/data/IGAC/IGAC_Departamento_20251023.zip)               | Municipios de Colombia obtenidos de https://www.colombiaenmapas.gov.co/.                             |
-| [:round_pushpin:ERA5 Land Colombia.nc](../../file/data/ERA5/)                                             | Datos satelitales hidro-climatológicos mundiales ERA5 de [Copernicus](https://www.copernicus.eu/en)  |
+| Requerimiento                                                                                          | Descripción                                                                                                         |
+|:-------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                              | QGIS 3.44 o superior.                                                                                               |  
+| [:man_technologist:Cuenta de usuario _ECMWF Copernicus_](https://cds.climate.copernicus.eu/user/login) | Cuenta de usuario requerida para descarga de datos satelitales hidro-climatológicos mundiales ERA5.                 |  
+| [:round_pushpin:IGAC_Departamento.shp](../../file/data/IGAC/IGAC_Departamento_20251023.zip)            | Municipios de Colombia obtenidos de https://www.colombiaenmapas.gov.co/.                                            |
+| [:round_pushpin:ERA5 Land Colombia.nc](../../file/data/ERA5/)                                          | Datos satelitales hidro-climatológicos mundiales ERA5 de [Copernicus](https://www.copernicus.eu/en)                 |
+| [/src/qgis_netcdfstat.py](../../file/src/qgis_netcdfstat.py)                                           | Script Python para análisis estadístico de radiación solar, creado por [r.cfdtools](https://github.com/rcfdtools).  |
 
 </div>
 
@@ -66,7 +67,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 2. Descarga de datos climatológicos ERA5 Land (10km)
 
-Descargar los datos de radiación y velocidad del viento en sus componentes norte y este desde https://cds.climate.copernicus.eu/ para el rango 1950 a 2024 (correspondientes a 909 meses).
+Descargar los datos de radiación y velocidad del viento en sus componentes norte y este desde https://cds.climate.copernicus.eu/ para el rango 1950 a 2024 (correspondientes a 900 meses).
 
 Límites
 
@@ -126,7 +127,27 @@ Automáticamente, será redirigido a la ventana de solicitudes donde será neces
 
 <div align="center"><img src="graph/QGIS_SaveRasterLayerAs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-3. 
+3. En la consola de Python, cargue el script [/src/qgis_netcdfstat.py](../../file/src/qgis_netcdfstat.py). Verifique y ajuste las rutas de ubicación de los archivos descargados.
+
+> Para la correcta ejecución del script, es necesario crear la carpeta _/temp/stat_.
+
+Rutas
+
+* raster_path = 'D:/R.DAPC/file/grid/ERA5_land_monthly_climatological_var_010dd_ssr_Colombia.tif'
+* polygon_path = 'D:/R.DAPC/file/shp/ColombiaDptoContinental.shp'
+* output_path = 'D:/R.DAPC/file/temp/stat/'
+
+<div align="center"><img src="graph/QGIS_PythonConsole.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+4. Ejecute el script y espere hasta que sean evaluadas las 900 bandas correspondientes a 75 años de datos. El análisis estadístico es realizado para cada uno de los Departamentos de Colombia. Luego de finalizada la ejecución, obtendrá el archivo [/grid/SSR_stat.csv](../../file/grid/SSR_stat.csv) con los estadísticos zonales de cada instante de tiempo.
+
+<div align="center"><img src="graph/QGIS_PythonConsole1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+5. Desde el menú _Layer / Add Layer / Add Delimited Text Layer..._, cargue al proyecto el archivo de resultados estadísticos que contiene 28800 registros correspondientes a 900 bandas multiplicadas por 32 polígonos continentales de Departamentos.
+
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Podrá observar los siguientes campos de atributos:
 
 
 

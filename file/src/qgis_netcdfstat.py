@@ -1,4 +1,4 @@
-# ERA5 / Surface net solar radiation (ssr)
+# ERA5 / Surface net solar radiation (ssr) / Zonal statistics
 # Dataset: ERA5-Land monthly averaged data from 1950 to present
 
 import processing
@@ -11,7 +11,7 @@ from dateutil.relativedelta import relativedelta
 import calendar
 
 variable = 'SSR' 
-bands = 200 # 909 for 1950 to 2024
+bands = 900 # 900 for 1950 to 2024
 original_date = date(1950, 1, 1) # Define a starting date yyyy-m-d
 raster_path = 'D:/R.DAPC/file/grid/ERA5_land_monthly_climatological_var_010dd_ssr_Colombia.tif'
 polygon_path = 'D:/R.DAPC/file/shp/ColombiaDptoContinental.shp'
