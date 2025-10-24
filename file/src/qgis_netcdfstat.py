@@ -16,7 +16,7 @@ original_date = date(1950, 1, 1) # Define a starting date yyyy-m-d
 raster_path = 'D:/R.DAPC/file/grid/ERA5_land_monthly_climatological_var_010dd_ssr_Colombia.tif'
 polygon_path = 'D:/R.DAPC/file/shp/ColombiaDptoContinental.shp'
 output_path = 'D:/R.DAPC/file/temp/stat/'
-output_stat_file = 'D:/R.DAPC/file/grid/'+variable+'_stat.csv'
+output_stat_file = 'D:/R.DAPC/file/table/'+variable+'_stat.csv'
 print(f'Temporal output path: {output_path}')
 
 # Run the Zonal Statistics algorithm
@@ -40,6 +40,8 @@ for i in range(bands):
     year = (original_date + relativedelta(months=i)).year
     month = (original_date + relativedelta(months=i)).month
     df['Decade'] = (year // 10) * 10
+    df['Year'] = year
+    df['Month'] = month
     df['MonthDays'] = calendar.monthrange(year, month)[1]
     df['MonthSecs'] = (calendar.monthrange(year, month)[1])*24*60*60
     df[variable+'_Wattm2'] = df[variable+'_mean'] / df['MonthSecs']
