@@ -26,7 +26,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:man_technologist:Cuenta de usuario _ECMWF Copernicus_](https://cds.climate.copernicus.eu/user/login) | Cuenta de usuario requerida para descarga de datos satelitales hidro-climatológicos mundiales ERA5.                 |  
 | [:round_pushpin:IGAC_Departamento.shp](../../file/data/IGAC/IGAC_Departamento_20251023.zip)            | Municipios de Colombia obtenidos de https://www.colombiaenmapas.gov.co/.                                            |
 | [:round_pushpin:ERA5 Land Colombia.nc](../../file/data/ERA5/)                                          | Datos satelitales hidro-climatológicos mundiales ERA5 de [Copernicus](https://www.copernicus.eu/en)                 |
-| [/src/qgis_netcdfstat.py](../../file/src/qgis_netcdfstat.py)                                           | Script Python para análisis estadístico de radiación solar, creado por [r.cfdtools](https://github.com/rcfdtools).  |
+| [qgis_netcdfstat.py](../../file/src/qgis_netcdfstat.py)                                           | Script Python para análisis estadístico de radiación solar, creado por [r.cfdtools](https://github.com/rcfdtools).  |
 
 </div>
 
@@ -149,20 +149,28 @@ Rutas
 
 Podrá observar los siguientes campos de atributos:
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-|       |      |             |
-|       |      |             |
-|       |      |             |
-|       |      |             |
-|       |      |             |
-|       |      |             |
-|       |      |             |
-|       |      |             |
-|       |      |             |
+| Campo       | Tipo    | Descripción                                                                                                                       |
+|:------------|:--------|:----------------------------------------------------------------------------------------------------------------------------------|
+| DeCodigo    | Integer | Código de Departamento                                                                                                            |
+| DeNombre    | Text    | Nombre de Departamento                                                                                                            |
+| DeArea      | Double  | Area planar en km²                                                                                                                |
+| DeNorma     | Text    | Norma nacional de reconocimiento de límites geográficos                                                                           |
+| AGm2        | Double  | Area geográfica en m²                                                                                                             |
+| SSR_count   | Integer | Conteo de pixeles evaluado en la estadística zonal por Departamento y por mes                                                     |
+| SSR_mean    | Double  | Promedio zonal de valores de radiación solar en J/m² por Departamento y por mes                                                   |
+| SSR_stdev   | Double  | Desviación estándar zonal de valores de radiación solar en J/m² por Departamento y por mes                                        |
+| Band        | Integer | Número de banda, p . ej., 1 corresponde a 1950/01/01                                                                              |
+| Date        | Date    | Fecha correspondiente al número de banda                                                                                          |
+| Decade      | Integer | Decada correspondiente a la fecha de la banda                                                                                     |
+| MonthDays   | Integer | Días en el mes correspondientes a cada banda                                                                                      |
+| MonthSecs   | Integer | Segundos en el mes correspondientes a cada banda                                                                                  |
+| SSR_Wattm2  | Double  | Potencia de energía solar o irradiancia por Departamento en Watt/m² para cada mes. Se obtiene de: SSR_mean / MonthSecs            |
+| SSR_GWatt   | Double  | Potencia solar total sobre toda la superficie del Departamento en Giga Watt para cada mes. Se obtiene de: SSR_Wattm2 * AGm2 / 1e9 |
 
 
+## 4. Análisis de resultados
 
+1. 
 
 
 
