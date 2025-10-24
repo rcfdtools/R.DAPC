@@ -38,7 +38,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 1. Desde el portal https://www.colombiaenmapas.gov.co, descargue la capa de Departamentos de Colombia, guarde como [/file/data/IGAC/IGAC_Departamento.zip](../../file/data/IGAC/IGAC_Departamento_20251023.zip) y descomprima en la carpeta _/shp_.
 
-<div align="center"><img src="graph/www_ColombiaEnMapasDepartamentos.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_ColombiaEnMapasDepartamentos.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 2. En un proyecto nuevo de QGIS, cargue la capa de _/shp/IGAC_Departamento.shp_ y excluya San Andrés con la expresión: `"DeNombre" <  > 'San Andrés Providencia y Santa Catalina'`, elimine los campos geométricos `Shape_Area` y `Shape_Leng`. Rotúle con el nombre del Departamento, guarde el mapa como _/map/M02A03c.qgz_ y verifique que el CRS sea 9377.
 
@@ -118,7 +118,18 @@ Automáticamente, será redirigido a la ventana de solicitudes donde será neces
 
 ## 3. Visualización y procesamiento
 
-1. Desde el archivo _/data/ERA5/ERA5_land_monthly_climatological_var_010dd_ssr_uv10_Colombia.nc_, cargue la variable _ssr_ 
+1. Desde el archivo _/data/ERA5/ERA5_land_monthly_climatological_var_010dd_ssr_uv10_Colombia.nc_, cargue la variable _ssr_ correspondiente a Radiación solar de onda corta. En el panel _Layers_, de clic en el símbolo de interrogación y defina el CRS 4326. 
+
+<div align="center"><img src="graph/QGIS_AddLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. Exporte en formato GeoTiff y con el CRS 9377, el mapa ssr y guarde cómo _/grid/ERA5_land_monthly_climatological_var_010dd_ssr_Colombia.tif_. Una vez terminado, remueva de _Layers_ el mapa _ssr_ proveniente del archivo _.nc_.
+
+<div align="center"><img src="graph/QGIS_SaveRasterLayerAs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. 
+
+
+
 
 
 
