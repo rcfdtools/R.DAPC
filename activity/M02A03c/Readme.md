@@ -20,12 +20,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                               | Descripción                                                                                          |
-|:--------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                   | QGIS 3.44 o superior.                                                                                |  
-| [:man_technologist:Cuenta de usuario _ECMWF Copernicus_](htthttps://www.ecmwf.int/)         | Cuenta de usuario requerida para descarga de datos satelitales hidro-climatológicos mundiales ERA5.  |  
-| [:round_pushpin:IGAC_Departamento.shp](../../file/data/IGAC/IGAC_Departamento_20251023.zip) | Municipios de Colombia obtenidos de https://www.colombiaenmapas.gov.co/.                             |
-| [:round_pushpin:ERA5 Land Colombia.nc](../../file/data/ERA5/)                               | Datos satelitales hidro-climatológicos mundiales ERA5 de [Copernicus](https://www.copernicus.eu/en)  |
+| Requerimiento                                                                                             | Descripción                                                                                          |
+|:----------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                                 | QGIS 3.44 o superior.                                                                                |  
+| [:man_technologist:Cuenta de usuario _ECMWF Copernicus_](https://cds.climate.copernicus.eu/user/login)    | Cuenta de usuario requerida para descarga de datos satelitales hidro-climatológicos mundiales ERA5.  |  
+| [:round_pushpin:IGAC_Departamento.shp](../../file/data/IGAC/IGAC_Departamento_20251023.zip)               | Municipios de Colombia obtenidos de https://www.colombiaenmapas.gov.co/.                             |
+| [:round_pushpin:ERA5 Land Colombia.nc](../../file/data/ERA5/)                                             | Datos satelitales hidro-climatológicos mundiales ERA5 de [Copernicus](https://www.copernicus.eu/en)  |
 
 </div>
 
