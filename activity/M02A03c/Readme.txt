@@ -1,9 +1,7 @@
 
-
-
 1. Descargar capa Departamentos de Colombia desde www.colombiaenmapas.gov.colombiaenmapas
 
-2. Cargar capa de Departamentos y excluir San Andrés. "DeNombre" <  > 'San Andrés Providencia y Santa Catalina'
+2. Cargar capa de Departamentos y excluir San Andrés. "DeNombre" <  > 'San Andrés Providencia y Santa Catalina'. Exportar como /shp/ColombiaDptoContinental.shp. Con el calculador de campo, calcular el área geodésica como AGm2.
 
 3. Disolver departamentos para obtener el límite continental de Colombia, nombrar como /shp/ColombiaContinental.shp
 
