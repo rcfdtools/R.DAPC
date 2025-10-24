@@ -40,13 +40,81 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center"><img src="graph/www_ColombiaEnMapasDepartamentos.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-2. En un proyecto nuevo de QGIS, cargue la capa de _/shp/IGAC_Departamento.shp_ y excluya San Andrés con la expresión: `"DeNombre" <  > 'San Andrés Providencia y Santa Catalina'`. Rotúle con el nombre del departamento, guarde el mapa como _/map/M02A03c.qgz_.
+2. En un proyecto nuevo de QGIS, cargue la capa de _/shp/IGAC_Departamento.shp_ y excluya San Andrés con la expresión: `"DeNombre" <  > 'San Andrés Providencia y Santa Catalina'`, elimine los campos geométricos `Shape_Area` y `Shape_Leng`. Rotúle con el nombre del Departamento, guarde el mapa como _/map/M02A03c.qgz_ y verifique que el CRS sea 9377.
 
 > Para mejorar la visualización de los datos, agregue el mapa XYZ de Google Maps desde la url https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-3. Exportar como [/shp/ColombiaDptoContinental.shp](../../file/shp/ColombiaDptoContinental.zip). Con el calculador de campo, calcular el área geodésica como AGm2. 
+3. Exporte la capa filtrada de Departamentos como [/shp/ColombiaDptoContinental.shp](../../file/shp/ColombiaDptoContinental.zip). Con el calculador de campo, calcular el área geodésica en un campo numérico real de 10 de precisión con el nombre `AGm2`. 
+
+<div align="center"><img src="graph/QGIS_SaveVectorAs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+4. Disuelva la capa _/shp/ColombiaDptoContinental.shp_ para obtener el límite continental de Colombia, nombre como [/shp/ColombiaContinental.shp](../../file/shp/ColombiaContinental.zip).
+
+<div align="center"><img src="graph/QGIS_Dissolve.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+5. Para la capa _/shp/ColombiaContinental.shp_, cree campos numéricos reales con 10 de precisión y calcule los límites geográficos de Colombia.
+
+North = `y_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+South = `y_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+East = `x_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+West = `x_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+
+<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+## 2. Descarga de datos climatológicos ERA5 Land (10km)
+
+Descargar los datos de radiación y velocidad desde https://cds.climate.copernicus.eu/ para el rango 1950 a 2024 (correspondientes a 909 meses).
+
+Límites
+* 
+* North: 12.5
+* South: -4.3
+* East: -66.8
+* West: -79.1
+
+Variables climatológicas
+
+| Variable [^1]                                                                                     |       Unidades        | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------------------------------|:---------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Surface net solar radiation (**ssr**)<br><sub>Radiación solar de onda corta</sub>                 |         J m-2         | Amount of solar radiation (also known as shortwave radiation) reaching the surface of the Earth (both direct and diffuse) minus the amount reflected by the Earth's surface (which is governed by the albedo).Radiation from the Sun (solar, or shortwave, radiation) is partly reflected back to space by clouds and particles in the atmosphere (aerosols) and some of it is absorbed. The rest is incident on the Earth's surface, where some of it is reflected. The difference between downward and reflected solar radiation is the surface net solar radiation. This variable is accumulated from the beginning of the forecast time to the end of the forecast step. The units are joules per square metre (J m-2). To convert to watts per square metre (W m-2), the accumulated values should be divided by the accumulation period expressed in seconds. The ECMWF convention for vertical fluxes is positive downwards.                                                                                                                                         |
+| 10m u-component of wind (**u10**)<br><sub>Componente este del viento a 10 metros</sub>            |         m s-1         | Eastward component of the 10m wind. It is the horizontal speed of air moving towards the east, at a height of ten metres above the surface of the Earth, in metres per second. Care should be taken when comparing this variable with observations, because wind observations vary on small space and time scales and are affected by the local terrain, vegetation and buildings that are represented only on average in the ECMWF Integrated Forecasting System. This variable can be combined with the V component of 10m wind to give the speed and direction of the horizontal 10m wind.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 10m v-component of wind (**v10**)<br><sub>Componente norte del viento a 10 metros</sub>           |         m s-1         | Northward component of the 10m wind. It is the horizontal speed of air moving towards the north, at a height of ten metres above the surface of the Earth, in metres per second. Care should be taken when comparing this variable with observations, because wind observations vary on small space and time scales and are affected by the local terrain, vegetation and buildings that are represented only on average in the ECMWF Integrated Forecasting System. This variable can be combined with the U component of 10m wind to give the speed and direction of the horizontal 10m wind.                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+1. En https://cds.climate.copernicus.eu/, seleccione la opción _Datasets_
+
+<div align="center"><img src="graph/Chrome_Copernicus1.png" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. En la ventana de búsqueda ingrese _ERA5-Land monthly averaged data from 1950 to present_
+
+<div align="center"><img src="graph/Chrome_Copernicus2.png" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. De clic en la pestaña _Download data_ y seleccione:
+
+* Product type: Monthly average reanalysis.
+* Variable: Surface net solar radiation, 10m u-component of wind, 10m v-component of wind.
+* Year: 1950 to 2024.
+* Month: January to December.
+* Hour: 00:00.
+* Sub-region extraction: North 12.5, South -4.3, West -79.1, East -66.8.
+* Format: Zipped NetCDF-3 (experimental)
+
+<div align="center"><img src="graph/Chrome_Copernicus3.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus4.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus5.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus5a.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus5b.png" alt="R.SIGE" width="100%" border="0" /></div>
+
+4. Para solicitar los datos, de clic en el botón _Login/Register to submit request_ o _Submit Form_ si previamente ya había ingresado con su cuenta de usuario de Copernicus.
+
+<div align="center"><img src="graph/Chrome_Copernicus6.png" alt="R.SIGE" width="100%" border="0" /></div>
+
+Automáticamente, será redirigido a la ventana de solicitudes donde será necesario esperar hasta que sea completada la segmentación de descarga de datos solicitada. Una vez termine el proceso de extracción de datos aparecerá el botón de descarga. Descargue, guarde y renombre el dataset como [/data/ERA5/ERA5_land_monthly_climatological_var_010dd_ssr_uv10_Colombia.nc](../../file/data/ERA5/)
+
+<div align="center"><img src="graph/Chrome_Copernicus7.png" alt="R.SIGE" width="100%" border="0" /></div>
+
 
 
 
