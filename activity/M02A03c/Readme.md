@@ -56,10 +56,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 5. Para la capa _/shp/ColombiaContinental.shp_, cree campos numéricos reales con 10 de precisión y calcule los límites geográficos de Colombia.
 
-North = `y_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
-South = `y_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
-East = `x_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
-West = `x_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+* North = `y_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+* South = `y_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+* East = `x_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+* West = `x_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
 
 <div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
