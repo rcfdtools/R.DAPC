@@ -149,23 +149,23 @@ Rutas
 
 Podrá observar los siguientes campos de atributos:
 
-| Campo       | Tipo    | Descripción                                                                                                                       |
-|:------------|:--------|:----------------------------------------------------------------------------------------------------------------------------------|
-| DeCodigo    | Integer | Código de Departamento                                                                                                            |
-| DeNombre    | Text    | Nombre de Departamento                                                                                                            |
-| DeArea      | Double  | Area planar en km²                                                                                                                |
-| DeNorma     | Text    | Norma nacional de reconocimiento de límites geográficos                                                                           |
-| AGm2        | Double  | Area geográfica en m²                                                                                                             |
-| SSR_count   | Integer | Conteo de pixeles evaluado en la estadística zonal por Departamento y por mes                                                     |
-| SSR_mean    | Double  | Promedio zonal de valores de radiación solar en J/m² por Departamento y por mes                                                   |
-| SSR_stdev   | Double  | Desviación estándar zonal de valores de radiación solar en J/m² por Departamento y por mes                                        |
-| Band        | Integer | Número de banda, p . ej., 1 corresponde a 1950/01/01                                                                              |
-| Date        | Date    | Fecha correspondiente al número de banda                                                                                          |
-| Decade      | Integer | Decada correspondiente a la fecha de la banda                                                                                     |
-| MonthDays   | Integer | Días en el mes correspondientes a cada banda                                                                                      |
-| MonthSecs   | Integer | Segundos en el mes correspondientes a cada banda                                                                                  |
-| SSR_Wattm2  | Double  | Potencia de energía solar o irradiancia por Departamento en Watt/m² para cada mes. Se obtiene de: SSR_mean / MonthSecs            |
-| SSR_GWatt   | Double  | Potencia solar total sobre toda la superficie del Departamento en Giga Watt para cada mes. Se obtiene de: SSR_Wattm2 * AGm2 / 1e9 |
+| Campo       | Tipo    | Descripción                                                                                                                           |
+|:------------|:--------|:--------------------------------------------------------------------------------------------------------------------------------------|
+| DeCodigo    | Integer | Código de Departamento                                                                                                                |
+| DeNombre    | Text    | Nombre de Departamento                                                                                                                |
+| DeArea      | Double  | Area planar del Departamento en km²                                                                                                   |
+| DeNorma     | Text    | Norma nacional de reconocimiento de límites geográficos del Departamento                                                              |
+| AGm2        | Double  | Area geográfica del Departamento en m² calculada a partir del CRS 9377                                                                |
+| SSR_count   | Integer | Conteo de pixeles evaluado en la estadística zonal por Departamento y por mes                                                         |
+| SSR_mean    | Double  | Promedio zonal de valores de radiación solar en J/m² por Departamento y por mes                                                       |
+| SSR_stdev   | Double  | Desviación estándar zonal de valores de radiación solar en J/m² por Departamento y por mes                                            |
+| Band        | Integer | Número de banda, p . ej., 1 corresponde a 1950/01/01                                                                                  |
+| Date        | Date    | Fecha correspondiente al número de banda                                                                                              |
+| Decade      | Integer | Década correspondiente a la fecha de la banda                                                                                         |
+| MonthDays   | Integer | Días en el mes correspondientes a cada banda                                                                                          |
+| MonthSecs   | Integer | Segundos en el mes correspondientes a cada banda                                                                                      |
+| SSR_Wattm2  | Double  | Potencia de energía solar o irradiancia por Departamento en Watt/m² y para cada mes. Se obtiene de: `SSR_mean / MonthSecs`            |
+| SSR_GWatt   | Double  | Potencia solar total sobre toda la superficie del Departamento en Giga Watt para cada mes. Se obtiene de: `SSR_Wattm2 * AGm2 / 1e9`   |
 
 <div align="center"><img src="graph/QGIS_AddDelimitedTextLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
