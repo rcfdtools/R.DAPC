@@ -167,6 +167,8 @@ Podrá observar los siguientes campos de atributos:
 | SSR_Wattm2  | Double  | Potencia de energía solar o irradiancia por Departamento en Watt/m² para cada mes. Se obtiene de: SSR_mean / MonthSecs            |
 | SSR_GWatt   | Double  | Potencia solar total sobre toda la superficie del Departamento en Giga Watt para cada mes. Se obtiene de: SSR_Wattm2 * AGm2 / 1e9 |
 
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
 
 ## 4. Análisis de resultados
 
