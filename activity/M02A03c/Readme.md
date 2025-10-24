@@ -54,7 +54,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center"><img src="graph/QGIS_Dissolve.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. Para la capa _/shp/ColombiaContinental.shp_, cree campos numéricos reales con 10 de precisión y calcule los límites geográficos de Colombia.
+5. Para la capa _/shp/ColombiaContinental.shp_, cree campos numéricos reales con 10 de precisión y calcule los límites geográficos continentales de Colombia.
 
 * North = `y_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
 * South = `y_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
@@ -66,10 +66,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 2. Descarga de datos climatológicos ERA5 Land (10km)
 
-Descargar los datos de radiación y velocidad desde https://cds.climate.copernicus.eu/ para el rango 1950 a 2024 (correspondientes a 909 meses).
+Descargar los datos de radiación y velocidad del viento en sus componentes norte y este desde https://cds.climate.copernicus.eu/ para el rango 1950 a 2024 (correspondientes a 909 meses).
 
 Límites
-* 
+
 * North: 12.5
 * South: -4.3
 * East: -66.8
@@ -85,11 +85,11 @@ Variables climatológicas
 
 1. En https://cds.climate.copernicus.eu/, seleccione la opción _Datasets_
 
-<div align="center"><img src="graph/Chrome_Copernicus1.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 2. En la ventana de búsqueda ingrese _ERA5-Land monthly averaged data from 1950 to present_
 
-<div align="center"><img src="graph/Chrome_Copernicus2.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 3. De clic en la pestaña _Download data_ y seleccione:
 
@@ -101,19 +101,19 @@ Variables climatológicas
 * Sub-region extraction: North 12.5, South -4.3, West -79.1, East -66.8.
 * Format: Zipped NetCDF-3 (experimental)
 
-<div align="center"><img src="graph/Chrome_Copernicus3.png" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/Chrome_Copernicus4.png" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/Chrome_Copernicus5.png" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/Chrome_Copernicus5a.png" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/Chrome_Copernicus5b.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus5a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus5b.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 4. Para solicitar los datos, de clic en el botón _Login/Register to submit request_ o _Submit Form_ si previamente ya había ingresado con su cuenta de usuario de Copernicus.
 
-<div align="center"><img src="graph/Chrome_Copernicus6.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 Automáticamente, será redirigido a la ventana de solicitudes donde será necesario esperar hasta que sea completada la segmentación de descarga de datos solicitada. Una vez termine el proceso de extracción de datos aparecerá el botón de descarga. Descargue, guarde y renombre el dataset como [/data/ERA5/ERA5_land_monthly_climatological_var_010dd_ssr_uv10_Colombia.nc](../../file/data/ERA5/)
 
-<div align="center"><img src="graph/Chrome_Copernicus7.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Chrome_Copernicus7.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## 3. Visualización y procesamiento
