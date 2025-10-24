@@ -122,7 +122,7 @@ Automáticamente, será redirigido a la ventana de solicitudes donde será neces
 
 <div align="center"><img src="graph/QGIS_AddLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-2. Exporte en formato GeoTiff y con el CRS 9377, el mapa _ssr_ y guarde cómo _/grid/ERA5_land_monthly_climatological_var_010dd_ssr_Colombia.tif_. Una vez terminado, remueva de _Layers_ el mapa _ssr_ proveniente del archivo _.nc_.
+2. Exporte en formato GeoTiff y con el CRS 9377, el mapa _ssr_ y guarde cómo [/grid/ERA5_land_monthly_climatological_var_010dd_ssr_Colombia.tif](../../file/grid/ERA5_land_monthly_climatological_var_010dd_ssr_Colombia.zip). Una vez terminado, remueva de _Layers_ el mapa _ssr_ proveniente del archivo _.nc_.
 
 <div align="center"><img src="graph/QGIS_SaveRasterLayerAs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
