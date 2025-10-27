@@ -84,6 +84,15 @@ Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A03b](.
 * Investigue que es la catenaria en un vano eléctrico y calcule la longitud real 3D del cableado de la ciudad de Bogotá D.C. teniendo en cuenta la curvatura de la catenaria entre torres.
 
 
+## 6. Análisis de potencial energético usando ERA5 Land Monthly
+
+Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A03c](../M02A03c/Readme.md), realice las siguientes actividades:
+
+* Aplicando los conceptos aprendidos y a partir de las tablas generadas, realice un análisis decadal (campo: `Decade`) de radiación solar para cada Departamento.   
+* A partir de las tablas generadas, realice un análisis multianual por departamento a partir de la irradiancia en Watt/m² estimada en el campo `SSR_Wattm2`. A partir del campo `SSR_GWatt` y suponiendo que en cada departamento únicamente se pueden crear granjas solares hasta el 2% de cada área total, estime el potencial fotovoltáico del país en Giga-watts.
+
+
+
 ## Actividades de proyecto :triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
