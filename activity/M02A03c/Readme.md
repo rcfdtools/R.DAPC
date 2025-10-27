@@ -139,7 +139,7 @@ Rutas
 
 <div align="center"><img src="graph/QGIS_PythonConsole.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-4. Ejecute el script y espere hasta que sean evaluadas las 900 bandas correspondientes a 75 años de datos. El análisis estadístico es realizado para cada uno de los Departamentos de Colombia. Luego de finalizada la ejecución, obtendrá el archivo [/table/SSR_stat.csv](../../file/grid/SSR_stat.csv) con los estadísticos zonales de cada instante de tiempo.
+4. Ejecute el script y espere hasta que sean evaluadas las 900 bandas correspondientes a 75 años de datos. El análisis estadístico es realizado para cada uno de los Departamentos de Colombia. Luego de finalizada la ejecución, obtendrá el archivo [/table/SSR_stat.csv](../../file/table/SSR_stat.csv) con los estadísticos zonales de cada instante de tiempo.
 
 <div align="center"><img src="graph/QGIS_PythonConsole1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
