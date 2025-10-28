@@ -82,6 +82,7 @@ Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A03b](.
 
 * Presente un informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas en el análisis de líneas de interconexión eléctrica 3D.
 * Investigue que es la catenaria en un vano eléctrico y calcule la longitud real 3D del cableado de la ciudad de Bogotá D.C. teniendo en cuenta la curvatura de la catenaria entre torres.
+* realice el procedimiento de estimación de longitud 3D de las líneas de transmisión utilizando 3 diferentes modelos de elevación digital DEM, p. ej., Copernicus 30m, ASTER GDEM v3 y SRTM.
 
 
 ## 6. Análisis de potencial energético usando ERA5 Land Monthly
