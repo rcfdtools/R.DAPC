@@ -93,7 +93,7 @@ Para la descarga del modelo de terreno satelital, es necesaria la creación de u
 <div align="center"><img src="graph/wwwOpenTopography4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/wwwOpenTopography5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> El procedimiento de descarga de modelos digitales de elevación DEM, también puede ser realizado directamente desde QGIS instalando el complemento _OpenTopography_ que requiere de una API Key que puede ser obtenida desde el perfil de usuario de este servicio.
+> El procedimiento de descarga de modelos digitales de elevación DEM, también puede ser realizado directamente desde QGIS instalando el complemento _[OpenTopography](https://plugins.qgis.org/plugins/OpenTopography-DEM-Downloader/)_ que requiere de una API Key que puede ser obtenida desde el perfil de usuario de este servicio.
 
 8. Agregue el DEM al mapa de QGIS y consulte sus propiedades, podrá observar que el CRS asociado es el 4326 ó WGS84.
 
