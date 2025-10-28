@@ -24,12 +24,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                             | Descripción                                                                                                    |
-|:------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                 | QGIS 3.44 o superior.                                                                                          |  
-| [:man_technologist:Cuenta de usuario en _Open Topography_](https://opentopography.org/)     | Cuenta de usuario requerida para descarga de modelos digitales de elevación DEM.                               |  
-| [:round_pushpin:IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)     | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/. |
-| [:round_pushpin:UPME_LineaTransmision.shp](../../file/data/DNP/UPME_LineaTransmision.zip) | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co.   |
+| Requerimiento                                                                            | Descripción                                                                                                    |
+|:-----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                | QGIS 3.44 o superior.                                                                                          |  
+| [:man_technologist:Cuenta de usuario en _Open Topography_](https://opentopography.org/)  | Cuenta de usuario requerida para descarga de modelos digitales de elevación DEM.                               |  
+| [:round_pushpin:IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)    | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/. |
+| [:round_pushpin:UPME_LineaTransmision.shp](../../file/shp/DNP/UPME_LineaTransmision.zip) | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co.   |
 
 </div>
 
@@ -139,11 +139,11 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 <div align="center">
 
-| Tensión              | Query                            |  Valor (m)  |
-|:---------------------|:---------------------------------|:-----------:|
-| Alta (AT) <= 500 kW  | "UPME_Tensi" =  '500'            |    1000     |
-| Media (MT) <= 230 kW | "UPME_Tensi" =  '230'            |     400     |
-| Baja (BT) <= 115 kW  | "UPME_Tensi" in ('<110' , '115') |     100     |
+| Tensión             | Query                           |  Valor (m)  |
+|:--------------------|:--------------------------------|:-----------:|
+| Alta (AT) = 500 kW  | "UPME_Tensi" =  '500'           |    1000     |
+| Media (MT) = 230 kW | "UPME_Tensi" =  '230'           |     400     |
+| Baja (BT) = 115 kW  | "UPME_Tensi" in ('<110', '115') |     100     |
 
 </div>
 
