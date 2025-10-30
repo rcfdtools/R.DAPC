@@ -91,6 +91,8 @@ Module 3
 	Curso básico de Revit 2026 en español
 	https://www.youtube.com/playlist?list=PLZCc_omLYhhiU8wSjyyg2KKUp7juFug2Z
 	manage.autodesk.com
+	Eléctrico: https://www.youtube.com/watch?v=c0eHRWybxrM&list=PLZCc_omLYhhj9ajxqOKKSkW7lznuK9foH&index=7
+	
 	
 Commands
     QPMODE
