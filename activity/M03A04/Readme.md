@@ -92,7 +92,7 @@ En la pestaña _Systems_, encontrará el grupo de opciones _Electrical_, corresp
 
 <div align="center"><img src="graph/Revit_Lighting3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-6. Antes de crear el circuito, con el comando _CM_, acceda a la ventana de creación de componentes e incorpore la familia /Spanish_INTL/Eléctrico/MEP/Energía Eléctrica/Distribución/M_Cuadro de control de accesorios e iluminación - 208V MLO.rfa (/English/US/Electrical/MEP/Electric Power/Distribution/M_Lighting and Appliance Panelboard - 208V MLO.rfa)
+6. Antes de crear el circuito, con el comando **CM**, acceda a la ventana de creación de componentes e incorpore la familia /Spanish_INTL/Eléctrico/MEP/Energía Eléctrica/Distribución/M_Cuadro de control de accesorios e iluminación - 208V MLO.rfa (/English/US/Electrical/MEP/Electric Power/Distribution/M_Lighting and Appliance Panelboard - 208V MLO.rfa)
 
 Los dos tipos de tableros de control por defecto para accesorios de iluminación son:
 
@@ -105,9 +105,38 @@ Los dos tipos de tableros de control por defecto para accesorios de iluminación
 
 <div align="center"><img src="graph/Revit_Lighting5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+8. En la vista _L1 - Iluminación_, seleccione todas las luminarias. En el menú _Modify | Lighting Fixtures / Create Systems / Power_, cree el circuito eléctrico de iluminación conectando al panel eléctrico y con cableado _Chamfered Wire_. Automáticamente Revit trazará el circuito.  
+
+<div align="center"><img src="graph/Revit_Lighting6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+Una vez terminada la definición del circuito, podrá visualizar el esquema de cableado. 
+
+<div align="center"><img src="graph/Revit_Lighting7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+9. En la vista L1 - Alimentación eléctrica, consulte las propiedades del tablero eléctrico, podrá observar que para el ejemplo, el voltaje total aparente (VA) de todas las lámparas conectadas es de 1088 VA.
+
+<div align="center"><img src="graph/Revit_Lighting8.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Tenga en cuenta que el trazado del circuito no crea las tuberías de conexión entre las luminarias y el tablero.
 
 
+## 2. Localización de tomacorrientes e interruptores
 
+1. Desde la ventana de componentes (comando **CM**), agregue la familia de tomacorrientes /Spanish_INTL/Eléctrico/MEP/Energía Eléctrica/Terminales/M_Toma doble.rfa (/English/US/Electrical/MEP/Electric Power/Terminals/M_Duplex Receptacle.rfa)
+
+<div align="center"><img src="graph/Revit_Terminals1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. Incorpore al plano de planta _L1 - Alimentación eléctrica_, los tomacorrientes estándar de pared requeridos en una de las oficinas. Por defecto, serán localizados a 0.46 m con respecto a la placa de piso.
+
+Tipos:
+* Standard: (tomacorriente regular sin protección de choques eléctricos) 
+* GFCI: Ground Fault Circuit Interrupter (tomacorriente con protección de choques eléctricos fatales)
+
+<div align="center"><img src="graph/Revit_Terminals2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Realice una visualización en la vista 3D, oculte algunos muros para que pueda visualizar los elementos.
+
+<div align="center"><img src="graph/Revit_Terminals3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
