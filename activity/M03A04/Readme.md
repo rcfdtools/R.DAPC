@@ -31,6 +31,30 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
+## 0. Configuración de componentes eléctricos
+
+Antes de iniciar con la localización de los elementos eléctricos correspondientes a dispositivos, circuitos de cableado y conductos, es necesario definir la configuración del sistema eléctrico, para ello, en el menú _Systems / Electrical_, de clic en el expansor de opciones o ingrese el comando **ES**. 
+
+> Tenga en cuenta que la configuración debe ser ajustada a la norma técnica eléctrica de cada país.
+
+1. En la pestaña _General_, defina el estilo de representación eléctrica, p. ej., colocando la descripción del voltaje del conector, el número de polos y la carga. Para el nombrado de las fases, puede definir por ejemplo A, B, C y para el secuenciamiento, utilice valores numéricos de 1 a n.  
+
+<div align="center"><img src="graph/Revit_ElectricalSettingsGeneral.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+2. En la pestaña _Angles_, defina los ángulos de los empalmes de conductos a través de códos eléctricos. Por defecto, el valor establecido es usando cualquier ángulo. Active la opción de ángulos específicos y establezca los valores mostrados en la ilustración.
+
+<div align="center"><img src="graph/Revit_ElectricalSettingsAngles.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+
+3. En la pestaña _Voltaje Definitions_, defina los tipos de voltajes a utilizar en las redes eléctricas del proyecto. Por defecto, Revit incluye voltajes nominales de 120, 208, 240, 277 y 480 Voltios. Tenga en cuenta que en Colombia, los voltajes que regularmente se usan son 110, 115, 220, 230, 500 V.
+
+> Para este ejercicio, utilizaremos los valores que por defecto presenta Revit.
+
+<div align="center"><img src="graph/Revit_ElectricalSettingsVoltajeDefinitions.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. En la pestaña 
+
+
+
 ## 1. Localización de luminarias
 
 En la pestaña _Systems_, encontrará el grupo de opciones _Electrical_, correspondiente a elementos de alambrado, bandejas de cableado, conductos simples, conductos paralelos, equipos electrónicos y dispositivos, entre otros.
