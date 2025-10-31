@@ -35,7 +35,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 Antes de iniciar con la localización de los elementos eléctricos correspondientes a dispositivos, circuitos de cableado y conductos, es necesario definir la configuración del sistema eléctrico, para ello, en el menú _Systems / Electrical_, de clic en el expansor de opciones o ingrese el comando **ES**. 
 
-> Tenga en cuenta que la configuración debe ser ajustada a la norma técnica eléctrica de cada país.
+> Tenga en cuenta que la configuración eléctrica debe ser ajustada a la norma técnica eléctrica específica de cada país.
 
 1. En la pestaña _General_, defina el estilo de representación eléctrica, p. ej., colocando la descripción del voltaje del conector, el número de polos y la carga. Para el nombrado de las fases, puede definir por ejemplo A, B, C y para el secuenciamiento, utilice valores numéricos de 1 a n.  
 
@@ -51,7 +51,19 @@ Antes de iniciar con la localización de los elementos eléctricos correspondien
 
 <div align="center"><img src="graph/Revit_ElectricalSettingsVoltajeDefinitions.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-4. En la pestaña 
+4. En la pestaña _Distribution Systems_, podrá encontrar los sistemas de distribución a emplear en el trazado del cableado eléctrico.
+
+<div align="center"><img src="graph/Revit_ElectricalSettingsDistributionSystems.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. En la pestaña _Cable Tray Settings / Size_, podrá encontrar los tamaños estándar de bandejas de cableado.
+
+<div align="center"><img src="graph/Revit_ElectricalSettingsCableTraySize.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. En la pestaña _Conduit Settings / Size_, podrá encontrar los tamaños estándar de los conductos eléctricos.
+
+<div align="center"><img src="graph/Revit_ElectricalSettingsConduitSize.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+
 
 
 
