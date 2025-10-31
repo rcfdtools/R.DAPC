@@ -74,7 +74,7 @@ En la pestaña _Systems_, encontrará el grupo de opciones _Electrical_, corresp
 
 <div align="center"><img src="graph/Revit_CeilingL1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Desde el menú _Systems / Model / Component_ o con el comando **CM**, cargue la familia /Spanish_INTL/Iluminación/MEP/Interno/M_Luminarias de superficie lisas.rfa (/English/US/Lighting/MEP/Internal/Plain Surface Lighting Fixture.rfa).
+2. Desde el menú _Systems / Model / Component_ o con el comando **CM**, cargue la familia _/Spanish_INTL/Iluminación/MEP/Interno/M_Luminarias de superficie lisas.rfa_ (_/English/US/Lighting/MEP/Internal/Plain Surface Lighting Fixture.rfa_).
 
 <div align="center"><img src="graph/Revit_PlainSurfaceLightingFixture.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -92,7 +92,7 @@ En la pestaña _Systems_, encontrará el grupo de opciones _Electrical_, corresp
 
 <div align="center"><img src="graph/Revit_Lighting3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-6. Antes de crear el circuito, con el comando **CM**, acceda a la ventana de creación de componentes e incorpore la familia /Spanish_INTL/Eléctrico/MEP/Energía Eléctrica/Distribución/M_Cuadro de control de accesorios e iluminación - 208V MLO.rfa (/English/US/Electrical/MEP/Electric Power/Distribution/M_Lighting and Appliance Panelboard - 208V MLO.rfa)
+6. Antes de crear el circuito, con el comando **CM**, acceda a la ventana de creación de componentes e incorpore la familia _/Spanish_INTL/Eléctrico/MEP/Energía Eléctrica/Distribución/M_Cuadro de control de accesorios e iluminación - 208V MLO.rfa_ (_/English/US/Electrical/MEP/Electric Power/Distribution/M_Lighting and Appliance Panelboard - 208V MLO.rfa_)
 
 Los dos tipos de tableros de control por defecto para accesorios de iluminación son:
 
@@ -124,7 +124,7 @@ Una vez terminada la definición del circuito, podrá visualizar el esquema de c
 
 ## 2. Localización de tomacorrientes
 
-1. Desde la ventana de componentes (comando **CM**), agregue la familia de tomacorrientes /Spanish_INTL/Eléctrico/MEP/Energía Eléctrica/Terminales/M_Toma doble.rfa (/English/US/Electrical/MEP/Electric Power/Terminals/M_Duplex Receptacle.rfa)
+1. Desde la ventana de componentes (comando **CM**), agregue la familia de tomacorrientes _/Spanish_INTL/Eléctrico/MEP/Energía Eléctrica/Terminales/M_Toma doble.rfa_ (_/English/US/Electrical/MEP/Electric Power/Terminals/M_Duplex Receptacle.rfa_)
 
 <div align="center"><img src="graph/Revit_Terminals1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -144,13 +144,32 @@ Tipos:
 
 4. En la vista _L1 - Alimentación eléctrica_, seleccione todas las tomas y cree un circuito conectando a la caja eléctrica principal. Consulte el tablero, podrá observar que el voltaje aparente ha cambiado de 1088 VA a 2140.73 VA.
 
+> Para verificar la conectividad del circuito, localice el puntero del mouse sobre una de las líneas del circuito (sin hacer clic o seleccionar el elemento), y luego oprima la tecla <kbd>TAB</kbd>.
+
 <div align="center"><img src="graph/Revit_Terminals4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
+## 3. Dibujo 3D de tuberías
 
+Una vez se ha resuelto la distribución de los circuitos de iluminación cmy de tomacorrientes, es necesario realizar el trazado de las tuberías de conducción, para lo que es necesario incorporar cajas de conexión. 
 
+1. Desde la ventana de componentes (comando **CM**), agregue la familia de tomacorrientes _/Spanish_INTL/Tubo/Uniones/RNC/M_Caja de conexiones de tubo - Cruz - PVC.rfa_ (_/English/US/Conduit/Fittings/RNC/M_Conduit Junction Box - Cross - PVC.rfa_)
 
+<div align="center"><img src="graph/Revit_Conduit1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. En la vista _L1 - Alimentación elétrica_, incorpore las cajas de conexión a una altura de 0.46 m y rote y ajuste su posición para que se alinee con cada tomacorriente.
+
+<div align="center"><img src="graph/Revit_Conduit2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. Visualice en 3D.
+
+<div align="center"><img src="graph/Revit_Conduit3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Utilizando la herramienta de conductos, realice las conexiones entre cajas.
+
+<div align="center"><img src="graph/Revit_Conduit4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Realice el mismo procedimiento anterior para el circuito de iluminación.
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -161,6 +180,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M02A04    | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | M02A04    | Opcional en grupo: desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado, con capturas de pantalla de todas las herramientas utilizadas para el dibujo en Autodesk Revit, del proyecto de la bodega diseñada en el Módulo 1 de Dibujo asistido por computadora con AutoCAD.                                                                                                                                                                                                                                                      |
 | M02A04    | Opcional en grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
