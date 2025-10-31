@@ -3,7 +3,7 @@ Keywords:  `bim` `discipline` `categories` `families` `type` `2d` `3d` `electric
 
 Concepto de familias de Revit. Creación de perfiles. Creación de planos de trabajo. Convertir líneas en símbolos (Convert lines) y Controles de visibilidad.
 
-<div align="center"><img src="graph/M03A04.jpg" alt="R.DAPC" width="50%" border="0" /></div>
+<div align="center"><img src="graph/M03A04.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
 
 ## Objetivos
