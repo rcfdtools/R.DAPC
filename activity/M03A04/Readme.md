@@ -126,7 +126,9 @@ Una vez terminada la definición del circuito, podrá visualizar el esquema de c
 
 <div align="center"><img src="graph/Revit_Terminals1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Incorpore al plano de planta _L1 - Alimentación eléctrica_, los tomacorrientes estándar de pared requeridos en una de las oficinas. Por defecto, serán localizados a 0.46 m con respecto a la placa de piso.
+2. Incorpore al plano de planta _L1 - Alimentación eléctrica_, los tomacorrientes estándar de pared requeridos en las oficinas. Por defecto, serán localizados a 0.46 m con respecto a la placa de piso.
+
+> El ejemplo de clase incluye las tomacorrientes de una de las oficinas, para su proyecto, incluya todas las tomas reqieridas. 
 
 Tipos:
 * Standard: (tomacorriente regular sin protección de choques eléctricos) 
