@@ -161,13 +161,3 @@ En este módulo abordaremos: Introducción a los conceptos BIM, Uso de plantilla
 
 
 ##
-
-_R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
-
-_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
-
-
-| [:arrow_backward: Anterior](../M03A04/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) |
-|----------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|
-
-[^1]: 
