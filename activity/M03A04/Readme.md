@@ -55,28 +55,28 @@ Antes de iniciar con la localización de los elementos eléctricos correspondien
 
 <div align="center"><img src="graph/Revit_ElectricalSettingsDistributionSystems.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. En la pestaña _Cable Tray Settings / Size_, podrá encontrar los tamaños estándar de bandejas de cableado.
+5. En la pestaña _Cable Tray Settings / Size_, podrá encontrar los tamaños estándar de bandejas de cableado, de 25 a 900 mm.
 
 <div align="center"><img src="graph/Revit_ElectricalSettingsCableTraySize.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-6. En la pestaña _Conduit Settings / Size_, podrá encontrar los tamaños estándar de los conductos eléctricos.
+6. En la pestaña _Conduit Settings / Size_, podrá encontrar los tamaños estándar de los conductos eléctricos de 16 a 103 mm.
 
 <div align="center"><img src="graph/Revit_ElectricalSettingsConduitSize.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-
-
-
 ## 1. Localización de luminarias
 
-En la pestaña _Systems_, encontrará el grupo de opciones _Electrical_, correspondiente a elementos de alambrado, bandejas de cableado, conductos simples, conductos paralelos, equipos electrónicos y dispositivos, entre otros.
+En la pestaña _Systems_, encontrará el grupo de opciones _Electrical_, correspondiente a elementos de alambrado, bandejas de cableado, conductos simples, conductos paralelos, equipos electrónicos y dispositivos.
 
 > Tenga en cuenta que las tuberías o _Pipes_, hacen parte de los elementos de plomería redes de distribución de agua potable, y que los elementos denominados _Conduit_ pertenecen a la disciplina eléctrica.
 
-1. 
+1. En el panel lateral izquierdo _Project Browser_, active la vista de Plano de techo eléctrico denominada _L1 - Iluminación_. Por defecto se muestran las vistas de los dos primeros niveles y para el proyecto de la bodega, hemos establecido 4 niveles. Acérquese a la zona de oficinas.
 
-<div align="center"><img src="graph/Revit_Wall.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Revit_CeilingL1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+2. Desde el menú _Systems / Model / Component_ o con el comando **CM**, cargue la familia Spanish_INTL/Iluminación/MEP/Interno/M_Luminarias de superficie lisas.rfa (US/Lighting/MEP/Internal/Plain Surface Lighting Fixture.rfa).
+
+<div align="center"><img src="graph/Revit_PlainSurfaceLightingFixture.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
