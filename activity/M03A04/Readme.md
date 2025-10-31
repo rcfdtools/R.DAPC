@@ -118,9 +118,11 @@ Una vez terminada la definición del circuito, podrá visualizar el esquema de c
 <div align="center"><img src="graph/Revit_Lighting8.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 > Tenga en cuenta que el trazado del circuito no crea las tuberías de conexión entre las luminarias y el tablero.
+>
+> Investigue, incorpore y conecte al circuito de iluminación, los interruptores requeridos.
 
 
-## 2. Localización de tomacorrientes e interruptores
+## 2. Localización de tomacorrientes
 
 1. Desde la ventana de componentes (comando **CM**), agregue la familia de tomacorrientes /Spanish_INTL/Eléctrico/MEP/Energía Eléctrica/Terminales/M_Toma doble.rfa (/English/US/Electrical/MEP/Electric Power/Terminals/M_Duplex Receptacle.rfa)
 
@@ -140,7 +142,9 @@ Tipos:
 
 <div align="center"><img src="graph/Revit_Terminals3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+4. En la vista _L1 - Alimentación eléctrica_, seleccione todas las tomas y cree un circuito conectando a la caja eléctrica principal. Consulte el tablero, podrá observar que el voltaje aparente ha cambiado de 1088 VA a 2140.73 VA.
 
+<div align="center"><img src="graph/Revit_Terminals4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
 
