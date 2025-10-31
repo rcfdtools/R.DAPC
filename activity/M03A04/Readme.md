@@ -64,7 +64,7 @@ Antes de iniciar con la localización de los elementos eléctricos correspondien
 <div align="center"><img src="graph/Revit_ElectricalSettingsConduitSize.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 1. Localización de luminarias
+## 1. Localización de luminarias, tablero eléctrico y circuito
 
 En la pestaña _Systems_, encontrará el grupo de opciones _Electrical_, correspondiente a elementos de alambrado, bandejas de cableado, conductos simples, conductos paralelos, equipos electrónicos y dispositivos.
 
@@ -74,9 +74,37 @@ En la pestaña _Systems_, encontrará el grupo de opciones _Electrical_, corresp
 
 <div align="center"><img src="graph/Revit_CeilingL1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Desde el menú _Systems / Model / Component_ o con el comando **CM**, cargue la familia Spanish_INTL/Iluminación/MEP/Interno/M_Luminarias de superficie lisas.rfa (US/Lighting/MEP/Internal/Plain Surface Lighting Fixture.rfa).
+2. Desde el menú _Systems / Model / Component_ o con el comando **CM**, cargue la familia /Spanish_INTL/Iluminación/MEP/Interno/M_Luminarias de superficie lisas.rfa (/English/US/Lighting/MEP/Internal/Plain Surface Lighting Fixture.rfa).
 
 <div align="center"><img src="graph/Revit_PlainSurfaceLightingFixture.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+3. En la ventana de propiedades de componentes, busque la familia de luminarias y seleccione la de superficie lisa de _300x1200 - 120_, correspondiente a una lámpara de 30 cm por 1.2 metros para voltaje de 120 V.
+
+<div align="center"><img src="graph/Revit_Lighting1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+4. Realice la distribución de las luminarias en el espacio de las oficinas y baños.
+
+> Utilizando la herramienta _Aligned Dimension_ disponible en la cinta de opciones superior o el comando **D**, dibuje el dimensionamiento a los ejes centrales de lámpara a ejes centrales de columnas, y con la herramienta Equal, distribuya uniformemente las luminarias en cada espacio.
+
+<div align="center"><img src="graph/Revit_Lighting2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+5. En la vista 3D, oculte la placa, la cubierta y algunos muros para visualizar la localización de las luminarias.
+
+<div align="center"><img src="graph/Revit_Lighting3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+6. Antes de crear el circuito, con el comando _CM_, acceda a la ventana de creación de componentes e incorpore la familia /Spanish_INTL/Eléctrico/MEP/Energía Eléctrica/Distribución/M_Cuadro de control de accesorios e iluminación - 208V MLO.rfa (/English/US/Electrical/MEP/Electric Power/Distribution/M_Lighting and Appliance Panelboard - 208V MLO.rfa)
+
+Los dos tipos de tableros de control por defecto para accesorios de iluminación son:
+
+* MCB: Miniature Circuit Breaker (panel eléctrico con sistema de interrupción automática por sobrecarga)
+* MLO: Main Lug Only (panel eléctrico o subpanel diseñado para distribuir la potencia de los circuitos y sin un interruptor principal)
+
+<div align="center"><img src="graph/Revit_Lighting4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+7. Abra la vista _Electrical / L1 - Alimentación eléctrica_ y Localice un panel eléctrico de iluminación MLO de 225 A en el muro de la fachada principal.
+
+<div align="center"><img src="graph/Revit_Lighting5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
 
 
 
