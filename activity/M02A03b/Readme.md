@@ -115,11 +115,11 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 <div align="center">
 
-| Tensión                | Rango de separación (m)  |  Valor (m)  |
-|:-----------------------|:-------------------------|:-----------:|
-| Alta (AT) <= 500 kW    | Entre 350m y 1700m       |    1000     |
-| Media (MT) <= 230 kW   | Entre 275 y 455m         |     400     |
-| Baja (BT) <= 115 kW    | 100 metros               |     100     |
+| Tensión                 | Rango de separación (m)  |
+|:------------------------|:-------------------------|
+| Alta (AT) = 500 kW      | Entre 350m y 1700m       |
+| Media (MT) = 230 kW     | Entre 275 y 455m         |
+| Baja (BT) = 110, 115 kW | 100 metros               |
 
 </div>
 
@@ -139,11 +139,11 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 <div align="center">
 
-| Tensión             | Query                           |  Valor (m)  |
-|:--------------------|:--------------------------------|:-----------:|
-| Alta (AT) = 500 kW  | "UPME_Tensi" =  '500'           |    1000     |
-| Media (MT) = 230 kW | "UPME_Tensi" =  '230'           |     400     |
-| Baja (BT) = 115 kW  | "UPME_Tensi" in ('<110', '115') |     100     |
+| Tensión                 | Query                           |  Valor (m)  |
+|:------------------------|:--------------------------------|:-----------:|
+| Alta (AT) = 500 kW      | "UPME_Tensi" =  '500'           |    1000     |
+| Media (MT) = 230 kW     | "UPME_Tensi" =  '230'           |     400     |
+| Baja (BT) = 110, 115 kW | "UPME_Tensi" in ('<110', '115') |     100     |
 
 </div>
 
