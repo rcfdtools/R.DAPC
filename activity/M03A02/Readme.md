@@ -110,8 +110,8 @@ Consulte y ajuste las rutas de almacenamiento de archivos para que por defecto R
 
 3. Desde el menú _Manage / Settings / Project Units_ o con el comando **UN**, ajuste la configuración de unidades comunes (Common) del proyecto estableciendo:
 
-* Distance: Metros con dos decimales mostrando símbolo (m).
-* Length: Metros con dos decimales mostrando símbolo (m).
+* Distance: metros con dos decimales mostrando símbolo (m).
+* Length: metros con dos decimales mostrando símbolo (m).
 
 <div align="center"><img src="graph/Revit_Units.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -129,7 +129,7 @@ Para el dibujo de objetos 3D en Revit, se pueden utilizar como referencia archiv
 
 > Es recomendado que la planta principal del proyecto CAD, esté centrada en el origen de coordenadas 0,0 para que al ser insertada, su visualización este en el orogen de coordenadas de Revit.  
 
-2. Desde el menú _View / Create / 3D View / Defaul 3D view_, o desde la cinta de opciones superior de Revit, abra la vista 3D del proyecto. Podrá observar que se muestran todos los elementos de dibujo contenidos en el archivo CAD.
+2. Desde el menú _View / Create / 3D View / Default 3D view_, o desde la cinta de opciones superior de Revit, abra la vista 3D del proyecto. Podrá observar que se muestran todos los elementos de dibujo contenidos en el archivo CAD.
 
 <div align="center"><img src="graph/Revit_3DView.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
