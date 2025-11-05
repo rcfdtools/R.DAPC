@@ -209,6 +209,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://help.autodesk.com/view/RVT/2026/ESP/
 * https://help.autodesk.com/view/RVT/2026/ESP/?guid=GUID-7F8CFFA4-22CB-43CA-84EA-332A27A0A0F0
+* [Relinquish Ownership without Synchronize with Central](https://help.autodesk.com/view/RVT/2015/ENU/?guid=GUID-CB878234-4510-457F-838F-408A68EC60B3)
 
 
 ## Control de versiones
