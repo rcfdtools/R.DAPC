@@ -57,7 +57,7 @@ El desarrollo de diseños eléctricos en edificaciones, requiere del conocimient
 > 
 > Es recomendable crear columnas en tramos independientes entre pisos para que se puedan generar los nodos de unión con las vigas en cada nivel.
 
-1. Abra la vista de nivel _L1 - Arquitectónico_, en el menú _Structure / Structure / Column_, ajuste las propiedades específicas de dimensionamiento de la columna estructural, para este ejemplo utilizaremos columnas de 25 x 40 cm. En el _Edit Type_, cargue y seleccione la familia _Pilares estructurales / Hormigón / M_Hormigón-Rectangular-Pilar.rfa_.
+1. Abra la vista de nivel _L1 - Arquitectónico_, en el menú _Structure / Structure / Column_, ajuste las propiedades específicas de dimensionamiento de la columna estructural, para este ejemplo utilizaremos columnas de 25 x 40 cm. En el _Edit Type_, cargue y seleccione la familia _Pilares estructurales / Hormigón / M_Hormigón-Rectangular-Pilar.rfa_ (/US/Structural Columns/Concrete/Concrete-Square-Column.rfa).
 
 <div align="center"><img src="graph/Revit_Column.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -95,7 +95,7 @@ En esta categoría, existen diferentes familias de elementos y tipos, p. ej.:
 
 <div align="center"><img src="graph/Revit_Column6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-9. Seleccione una de las columnas y dando clic derecho, seleccione todas las instancias de proyecto de este elemento, luego establezca 0.00 m en el valor _Base Offset_ y defina como nivel superior _L2_. Esto ajustará la localización de las columnas para que se dibujen entre los nivele _L1_ y _L2_.
+9. Seleccione una de las columnas y dando clic derecho, seleccione todas las instancias de proyecto de este elemento, luego establezca 0.00 m en el valor _Base Offset_ y defina como nivel superior _L2_. Esto ajustará la localización de las columnas para que se dibujen entre los niveles _L1_ y _L2_.
 
 <div align="center"><img src="graph/Revit_Column7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
