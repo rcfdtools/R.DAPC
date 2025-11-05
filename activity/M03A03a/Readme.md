@@ -65,7 +65,7 @@ En esta categoría, existen diferentes familias de elementos y tipos, p. ej.:
 
 <div align="center"><img src="graph/Revit_ColumnCategory.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
-2. Seleccione la columna de _300 x 450mm_ y de clic en el botón _Duplicate..._ renombrando como _250 x 400mm_, luego ajuste las dimensiones `b` y `h` y de clic en _OK_.
+2. Seleccione la columna de _300 x 450 mm_ y de clic en el botón _Duplicate..._ renombrando como _250 x 400 mm_, luego ajuste las dimensiones `b` y `h` y de clic en _OK_.
 
 <div align="center"><img src="graph/Revit_Column1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -114,7 +114,7 @@ En esta categoría, existen diferentes familias de elementos y tipos, p. ej.:
 
 Para realizar la conexión horizontal entre las columnas, es necesaria la incorporación de las vigas estructurales. Para el ejemplo del proyecto de clase, utilizaremos vicas de 25 cm de alto por 40 cm de alto.
 
-1. En el menú _Structure / Structure / Beam_, seleccione la opción _Edit Type_ y cargue la familia _Armazón estructural / Hormigón / M_Hormigón-Viga rectangular.rfa_.
+1. En el menú _Structure / Structure / Beam_, seleccione la opción _Edit Type_ y cargue la familia _Armazón estructural / Hormigón / M_Hormigón-Viga rectangular.rfa_ (/US/Structural Framing/Concrete/Concrete-Rectangular Beam.rfa).
 
 <div align="center"><img src="graph/Revit_Beam.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
