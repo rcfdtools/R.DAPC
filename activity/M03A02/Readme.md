@@ -25,7 +25,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                               | Descripción                                         |
 |:--------------------------------------------------------------------------------------------|:----------------------------------------------------|
 | [:toolbox:Herramienta](https://www.autodesk.com/products/revit)                             | Autodesk Revit 2026 o superior (english version).   |  
-| [:round_pushpin:DAPC_ProyectoCAD.dwg](../../file/cad/DAPC_ProyectoCAD_2025_02_Grupo1.dwg)   | Proyecto CAD (tomado del Grupo 01 edición 2025-01.  |
+| [:round_pushpin:DAPC_ProyectoCAD.dwg](../../file/cad/DAPC_ProyectoCAD_2025_02_Grupo1.dwg)   | Proyecto CAD (Tomado del Grupo 01 edición 2025-02). |
 
 </div>
 
@@ -58,16 +58,16 @@ En resumen, Revit es una herramienta esencial para profesionales de la construcc
 
 ## 1. Instalación de librerías
 
-Luego de instalar el aplicativo y antes de iniciar a trabajar con Autodesk Revit, es requerido descarga e instalar las librerías que contienen las diferentes familias de objetos que son necesarias para la creación de modelos. Desde el enlace https://manage.autodesk.com/products/rvt, ingrese al administrador de productos y servicios de Autodesk y para el software Revit, descargue las librerías denominadas:
+Luego de instalar el aplicativo y antes de iniciar a trabajar con Autodesk Revit, puede descargar e instalar las librerías en español que contienen las diferentes familias de objetos que son necesarias para la creación de modelos. Desde el enlace https://manage.autodesk.com/products/rvt, ingrese al administrador de productos y servicios de Autodesk y para el software Revit, descargue las librerías denominadas:
 
 * Spanish Content for Revit 2026: RVTCPESP.exe
 * Generic International - Spanish Content for Autodesk Revit 2026: RVTCPGENESP.exe
 
+> Tenga en cuenta que el idioma de la interfaz de usuario de Autodesk Revit puede ser Inglés y el idioma de las librerías puede ser usado en cualquier idioma.
+
 <div align="center"><img src="graph/Revit_InstallLibraries.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/Revit_InstallLibraries1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/Revit_InstallLibraries2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-
-> Tenga en cuenta que el idioma de la interfaz de usuario de Autodesk Revit puede ser Inglés y el idioma de las librerías puede ser usado en cualquier idioma. 
 
 Desde la carpeta de descargas de su sistema operativo, instale los dos paquetes de librerías descargados. En caso de que ya estén instalados, aparecerá la siguiente ventana.
 
