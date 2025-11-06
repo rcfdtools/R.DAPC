@@ -162,6 +162,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://www.energy.gov/eere/solar/homeowners-guide-going-solar
 * https://en.wikipedia.org/wiki/Photovoltaics
+* [Aladdin: Engineering Design Enhanced by AI](https://intofuture.org/aladdin.html)
+* https://institute-for-future-intelligence.github.io/aladdin/
 
 
 ## Control de versiones
