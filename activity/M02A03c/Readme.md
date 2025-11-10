@@ -223,6 +223,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://data.europa.eu/data/datasets/d08cd288-a2c5-4c8d-a621-eedc33fab449?locale=es
 * https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5
+* [ERA5: How to calculate wind speed and wind direction from u and v components of the wind?](https://confluence.ecmwf.int/pages/viewpage.action?pageId=133262398)
 
 
 ## Control de versiones
