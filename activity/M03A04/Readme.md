@@ -68,9 +68,9 @@ Antes de iniciar con la localización de los elementos eléctricos correspondien
 
 En la pestaña _Systems_, encontrará el grupo de opciones _Electrical_, correspondiente a elementos de alambrado, bandejas de cableado, conductos simples, conductos paralelos, equipos electrónicos y dispositivos.
 
-> Tenga en cuenta que las tuberías o _Pipes_, hacen parte de los elementos de plomería redes de distribución de agua potable, y que los elementos denominados _Conduit_ pertenecen a la disciplina eléctrica.
+> Tenga en cuenta que las tuberías o _Pipes_, hacen parte de los elementos de plomería redes de distribución de agua potable o de desagues, y que los elementos denominados _Conduit_ pertenecen a la disciplina eléctrica.
 
-1. En el panel lateral izquierdo _Project Browser_, active la vista de Plano de techo eléctrico denominada _L1 - Iluminación_. Por defecto se muestran las vistas de los dos primeros niveles y para el proyecto de la bodega, hemos establecido 4 niveles. Acérquese a la zona de oficinas.
+1. En el panel lateral izquierdo _Project Browser_, active la vista de Plano de techo eléctrico o Ceiling denominada _L1 - Iluminación_. Por defecto se muestran las vistas de los dos primeros niveles y para el proyecto de la bodega, hemos establecido 4 niveles. Acérquese a la zona de oficinas.
 
 <div align="center"><img src="graph/Revit_CeilingL1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -84,7 +84,7 @@ En la pestaña _Systems_, encontrará el grupo de opciones _Electrical_, corresp
 
 4. Realice la distribución de las luminarias en el espacio de las oficinas y baños.
 
-> Utilizando la herramienta _Aligned Dimension_ disponible en la cinta de opciones superior o el comando **D**, dibuje el dimensionamiento a los ejes centrales de lámpara a ejes centrales de columnas, y con la herramienta Equal, distribuya uniformemente las luminarias en cada espacio.
+> Utilizando la herramienta _Aligned Dimension_ disponible en la cinta de opciones superior o el comando **DI**, dibuje el dimensionamiento a los ejes centrales de lámpara a ejes centrales de columnas, y con la herramienta Equal, distribuya uniformemente las luminarias en cada espacio.
 
 <div align="center"><img src="graph/Revit_Lighting2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
