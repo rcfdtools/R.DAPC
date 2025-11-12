@@ -70,7 +70,7 @@ La categoría de puertas depende de la categoría de muros, esto quiere decir qu
 * Internas en oficina y baños: 800 x 2100mm hoja sencilla.
 * Entradas principales bodega: 6000 x 7000mm hoja doble. 
 
-1. En la vista Arquitectónica _L1_ y desde el menú _Architecture / Build / Door, seleccione o cargue la puerta de paso simple de páneles planos de 750 x 2000mm, de clic en _Edit Type_ y duplicando cree puertas de 80 cm y 120 cm para el acceso principal a la zona de oficina, zona interna de oficinas y baños. 
+1. En la vista Arquitectónica _L1_ y desde el menú _Architecture / Build / Door, seleccione o cargue la puerta de paso simple de páneles planos de 750 x 2000mm (/US/Door/Door-Single-Panel.rfa, /US/Door/Door-Double-Flush_Panel.rfa), de clic en _Edit Type_ y duplicando cree puertas de 80 cm y 120 cm para el acceso principal a la zona de oficina, zona interna de oficinas y baños. 
 
 <div align="center">Acceso principal a oficina: 1200 x 2100mm<br><img src="graph/Revit_Door.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center">Internas en oficina y baños: 800 x 2100mm<br><img src="graph/Revit_Door1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
