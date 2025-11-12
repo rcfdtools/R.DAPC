@@ -140,7 +140,7 @@ Revit, automáticamente calcula la longitud y el número de pasos requeridos par
 
 Utilice la herramienta _Roof_ para la creación de la cubierta a un agua definida para el proyecto.
 
-1. En la vista Arquitectónica _L1_ y desde el menú _Architecture / Build / Roof / Roof by Footprint, dibuje el rectángulo que describe la cubierta, incluidos los voladizos frontal y posterior. Podrá observar que inicialmente se define la cubierta a 4 aguas.
+1. En la vista Arquitectónica _L4_ y desde el menú _Architecture / Build / Roof / Roof by Footprint, dibuje el rectángulo que describe la cubierta, incluidos los voladizos frontal y posterior. Podrá observar que inicialmente se define la cubierta a 4 aguas.
 
 <div align="center"><img src="graph/Revit_Roof.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/Revit_Roof1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
