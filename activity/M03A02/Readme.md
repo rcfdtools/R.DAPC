@@ -10,6 +10,7 @@ Uso de plantillas (templates). Fundamentos del software Revit. Configuración de
 
 Al finalizar esta actividad, el estudiante:
 
+* Entiende los conceptos Revit de Disciplinas / Categorías / Familias / Tipos.
 * Conoce la configuración básica del software Revit.
 * Instala librerías.
 * Vincular o importar archivos de referencia de dibujo CAD.
