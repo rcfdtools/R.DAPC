@@ -88,7 +88,7 @@ La categoría de puertas depende de la categoría de muros, esto quiere decir qu
 
 ## 3. Dibujo de ventanas (Window)
 
-1. En la vista Arquitectónica _L1_ y desde el menú _Architecture / Build / Window, seleccione o cargue la familia _/Spanish/Ventanas/Ventana simple fija con cubrejuntas interior.rfa_, de clic en _Edit Type_ y duplique para crear ventanas de 5 x 3 metros y 1.8 x 2 metros. Dibuje las ventanas principales a partir de los niveles _L2_ y las secundarias en la zona de oficinas.
+1. En la vista Arquitectónica _L1_ y desde el menú _Architecture / Build / Window, seleccione o cargue la familia _/Spanish/Ventanas/Ventana simple fija con cubrejuntas interior.rfa_ (/US/Windows/Window-Fixed.rfa), de clic en _Edit Type_ y duplique para crear ventanas de 5 x 3 metros y 1.8 x 2 metros. Dibuje las ventanas principales a partir de los niveles _L2_ y las secundarias en la zona de oficinas.
 
 <div align="center"><img src="graph/Revit_Window0.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/Revit_Window.jpg" alt="R.DAPC" width="100%" border="0" /></div>
