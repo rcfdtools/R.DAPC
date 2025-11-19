@@ -188,6 +188,12 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/RVT/2026/ESP/
 * https://help.autodesk.com/view/RVT/2026/ESP/?guid=GUID-7F8CFFA4-22CB-43CA-84EA-332A27A0A0F0
 
+Solución para reparar el Project Browser de Revit 2026 cuando este aparece vacío:
+
+* https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-reset-the-Autodesk-Revit-ribbon-toolbar-and-browser-to-default-settings.html
+* https://knowledge.autodesk.com/support/revit-products/learn-explore/caas/sfdcarticles/sfdcarticles/How-to-Disable-Add-Ins-for-Revit-Products.html?_gl=1*xwbmzp*_gcl_aw*R0NMLjE3NjA2MjI1OTguQ2p3S0NBandyOExIQmhCS0Vpd0F5NDd1VXNMdkM5YS1tVlBHWjVPMThfZXpLWmgtWkFmRTF0Z3FPWHhxZ1RBSUZ0al8zb1NqOW5fYWV4b0NwU3NRQXZEX0J3RQ..*_ga*MTYwNDE5ODc4OS4xNzUzMjMxODc5*_ga_NZSJ72N6RX*czE3NjM1Njk0MDQkbzEzJGcxJHQxNzYzNTY5NDUxJGoxMyRsMCRoMA..
+* https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-97276239-B101-4ECE-B30A-3CCD7174EEC4
+
 
 ## Control de versiones
 
