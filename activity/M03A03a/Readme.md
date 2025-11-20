@@ -36,7 +36,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 El inicio de creación de objetos de Revit comienza con la incorporación de los ejes o la grilla de localización.
 
-1. En el menú _Architecture_ o desde el menú _Structure_, seleccióne _Datum / Grid_ y, trace los ejes horizontales del proyecto. Utilice como referencia los puntos centrales de las columnas visibles en el archivo CAD de referencia. Trace el eje 1 al norte y luego con las herramientas de modificación, copie múltiples veces los demás ejes horizontales. Observará que los ejes creados tienen una numeración consecutiva.
+1. En el menú _Architecture_ o desde el menú _Structure_, seleccióne _Datum / Grid_ o con el comando **GR** y, trace los ejes horizontales del proyecto. Utilice como referencia los puntos centrales de las columnas visibles en el archivo CAD de referencia. Trace el eje 1 al norte y luego con las herramientas de modificación, copie múltiples veces los demás ejes horizontales. Observará que los ejes creados tienen una numeración consecutiva.
 
 <div align="center"><img src="graph/Revit_Grid.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -57,7 +57,7 @@ El desarrollo de diseños eléctricos en edificaciones, requiere del conocimient
 > 
 > Es recomendable crear columnas en tramos independientes entre pisos para que se puedan generar los nodos de unión con las vigas en cada nivel.
 
-1. Abra la vista de nivel _L1 - Arquitectónico_, en el menú _Structure / Structure / Column_, ajuste las propiedades específicas de dimensionamiento de la columna estructural, para este ejemplo utilizaremos columnas de 25 x 40 cm. En el _Edit Type_, cargue y seleccione la familia _Pilares estructurales / Hormigón / M_Hormigón-Rectangular-Pilar.rfa_ (/US/Structural Columns/Concrete/Concrete-Square-Column.rfa).
+1. Abra la vista de nivel _L1 - Arquitectónico_, en el menú _Structure / Structure / Column_ o con el comando **CL**, ajuste las propiedades específicas de dimensionamiento de la columna estructural, para este ejemplo utilizaremos columnas de 25 x 40 cm. En el _Edit Type_, cargue y seleccione la familia _Pilares estructurales / Hormigón / M_Hormigón-Rectangular-Pilar.rfa_ (/US/Structural Columns/Concrete/Concrete-Square-Column.rfa).
 
 <div align="center"><img src="graph/Revit_Column.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -114,7 +114,7 @@ En esta categoría, existen diferentes familias de elementos y tipos, p. ej.:
 
 Para realizar la conexión horizontal entre las columnas, es necesaria la incorporación de las vigas estructurales. Para el ejemplo del proyecto de clase, utilizaremos vicas de 25 cm de alto por 40 cm de alto.
 
-1. En el menú _Structure / Structure / Beam_, seleccione la opción _Edit Type_ y cargue la familia _Armazón estructural / Hormigón / M_Hormigón-Viga rectangular.rfa_ (/US/Structural Framing/Concrete/Concrete-Rectangular Beam.rfa).
+1. En el menú _Structure / Structure / Beam_ o el comando **BM**, seleccione la opción _Edit Type_ y cargue la familia _Armazón estructural / Hormigón / M_Hormigón-Viga rectangular.rfa_ (/US/Structural Framing/Concrete/Concrete-Rectangular Beam.rfa).
 
 <div align="center"><img src="graph/Revit_Beam.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -159,7 +159,7 @@ Visualice en 3D.
 
 Para el desarrollo del proyecto, es requerida la placa contrapiso reforzada en toda la superficie de la bodega y la placa del mezanine.
 
-1. Abra la vista arquitectónica _L1_, luego desde el menú _Structure / Structure / Floor / Floor: Structural_, seleccione la familia de suelo _Genérico de 300 mm_ y de clic en _Edit Type_.
+1. Abra la vista arquitectónica _L1_, luego desde el menú _Structure / Structure / Floor / Floor: Structural_ o con el comando **SB**, seleccione la familia de suelo _Genérico de 300 mm_ y de clic en _Edit Type_.
 
 > Tenga en cuenta que el modo de creación de losas seguirá activo hasta que en el menú _Modify_ se acepte en el grupo _Mode_ la creación o cancelación de la creación.
 
