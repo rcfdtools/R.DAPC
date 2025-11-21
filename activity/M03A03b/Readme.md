@@ -66,21 +66,21 @@ Dependiendo del sistema constructivo, los muros pueden ser arquitectónicos o es
 
 La categoría de puertas depende de la categoría de muros, esto quiere decir que para crear una puerta debe existir un muro anfitrión, incluso para puertas que abarcan el ancho completo del muro. Crear puertas de:
 
-* Acceso principal a oficina: 1200 x 2100mm hoja sencilla.
-* Internas en oficina y baños: 800 x 2100mm hoja sencilla.
-* Entradas principales bodega: 6000 x 7000mm hoja doble. 
+* Acceso principal a oficina: 1200 x 2100 mm hoja sencilla.
+* Internas en oficina y baños: 800 x 2100 mm hoja sencilla.
+* Entradas principales bodega: 6000 x 7000 mm hoja doble. 
 
 1. En la vista Arquitectónica _L1_ y desde el menú _Architecture / Build / Door o el comando **DR**, seleccione o cargue la puerta de paso simple de páneles planos de 750 x 2000mm (/US/Door/Door-Single-Panel.rfa, /US/Door/Door-Double-Flush_Panel.rfa), de clic en _Edit Type_ y duplicando cree puertas de 80 cm y 120 cm para el acceso principal a la zona de oficina, zona interna de oficinas y baños. 
 
-<div align="center">Acceso principal a oficina: 1200 x 2100mm<br><img src="graph/Revit_Door.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-<div align="center">Internas en oficina y baños: 800 x 2100mm<br><img src="graph/Revit_Door1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center">Acceso principal a oficina: 1200 x 2100 mm<br><img src="graph/Revit_Door.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center">Internas en oficina y baños: 800 x 2100 mm<br><img src="graph/Revit_Door1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 2. Dibuje las puertas de una hoja sobre los muros correspondientes y realice una visualización 3D.
 
 <div align="center"><img src="graph/Revit_Door2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/Revit_Door3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Cree puertas de dos hojas de 6000 x 7000mm para las entradas principales de la bodega.
+3. Cree puertas de dos hojas de 6000 x 7000 mm para las entradas principales de la bodega.
 
 <div align="center"><img src="graph/Revit_Door4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/Revit_Door5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
