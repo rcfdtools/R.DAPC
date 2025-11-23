@@ -151,7 +151,7 @@ Tipos:
 
 ## 3. Dibujo 3D de tuberías
 
-Una vez se ha resuelto la distribución de los circuitos de iluminación cmy de tomacorrientes, es necesario realizar el trazado de las tuberías de conducción, para lo que es necesario incorporar cajas de conexión. 
+Una vez se ha resuelto la distribución de los circuitos de iluminación y de tomacorrientes, es necesario realizar el trazado de las tuberías de conducción, para lo que es necesario incorporar cajas de conexión. 
 
 1. Desde la ventana de componentes (comando **CM**), agregue la familia de tomacorrientes _/Spanish_INTL/Tubo/Uniones/RNC/M_Caja de conexiones de tubo - Cruz - PVC.rfa_ (_/English/US/Conduit/Fittings/RNC/M_Conduit Junction Box - Cross - PVC.rfa_)
 

@@ -1,0 +1,8 @@
+,Width##length##millimeters,Height##length##millimeters
+750 x 2000mm,750,2000
+750 x 2100mm,750,2100
+800 x 2100mm,800,2100
+850 x 2000mm,850,2000
+850 x 2100mm,850,2100
+900 x 2000mm,900,2000
+900 x 2100mm,900,2100
