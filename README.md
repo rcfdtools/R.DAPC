@@ -15,22 +15,20 @@ El contenido del curso está dirigido a estudiantes de pregrado que se encuentre
 **Metodología académica**
 
 * Mediante el desarrollo de talleres prácticos, presentar a los participantes, diferentes conceptos y aplicaciones del dibujo asistido por computador en la ingeniería.
-* Al inicio de cada clase, el tutor realizará una presentación y demostración general de los conceptos y las herramientas computacionales a utilizar y luego los estudiantes desarrollarán los contenidos de cada taller, actividad o ejercicio.
-* Proyecto de clase: se desarrolla en grupos y se evalúan los conocimientos adquiridos en los talleres prácticos; consta de 3 componentes: CAD, GIS y BIM.
+* Al inicio de cada clase, el instructor realizará una presentación y demostración general de los conceptos y las herramientas computacionales a utilizar y luego los estudiantes desarrollarán los contenidos de cada taller, actividad o ejercicio.
+* Proyecto de clase (opcional no calificable): se desarrolla en grupos aplicando los conocimientos y habilidades adquiridos en los talleres prácticos; consta de 3 componentes: CAD, GIS y BIM.
 * Antes de cada clase, es recomendable que los participantes den lectura a las guías de clase para así comprender mejor las explicaciones recibidas en aula.
 
 **Evaluación**
 
-La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias desarrolladas. Las calificaciones de los estudiantes como expresión cuantitativa de la evaluación del aprendizaje, considera tres calificaciones, una por cada tercio con los siguientes porcentajes: primer tercio 30%, segundo tercio 30% y tercer tercio 40 %. En el último tercio se realiza un examen final obligatorio que comprende todos los temas tratados durante el semestre.
+La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias o habilidades desarrolladas. Las calificaciones de los estudiantes como expresión cuantitativa de la evaluación del aprendizaje, considera tres calificaciones, una por cada tercio con los siguientes porcentajes: primer tercio 30%, segundo tercio 30% y tercer tercio 40 %.
 
-* Asistencia: se evalúa individualmente.
-* Quices: se presentan individualmente.
-* [Ejercicios por actividad](activity/Readme.md ): se evalúan en grupo.
-* [Proyecto CAD](activity/M01A06/Readme.md): se evalúa en grupo.
-* [Proyecto GIS](file/table/DAPC_ProyectoGIS.xlsx): se evalúa en grupo.
-* [Proyecto BIM](file/table/DAPC_ProyectoBIM.xlsx): se evalúa en grupo.
-
-> Estudiantes con calificación inferior a 3.0 en el tercio académico, presentan examen y será computado con las demás calificaciones obtenidas en cada cohorte.  
+* Asistencia (10%): se evalúa individualmente.
+* [Quices o ejercicios por actividad (40%)](activity/Readme.md ): se evalúa individualmente _(Según el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0). Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.)_
+* Examen por tercio (50%): se evalúa individualmente y al final de cada tercio, comprende todos los temas tratados durante el periodo.
+* [Proyecto CAD](activity/M01A06/Readme.md): opcional, no calificable y se desarrolla en grupo.
+* [Proyecto GIS](activity/M02A04/Readme.md): opcional, no calificable y se desarrolla en grupo.
+* [Proyecto BIM](file/table/DAPC_ProyectoBIM.xlsx): opcional, no calificable y se desarrolla en grupo.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
