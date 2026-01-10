@@ -27,7 +27,7 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 * [Quices o ejercicios por actividad (40%)](activity/Readme.md ): se evalúan individualmente 
 * Examen por tercio (50%): se evalúa individualmente y al final de cada tercio, comprende todos los temas tratados durante el periodo.
 
-> Según el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0). Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
+> Según el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, la asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0). Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
@@ -36,15 +36,15 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 <div align="center">
 
-| Requerimiento                                                                                                   | Descripción                                                                                                                                                                     |
-|:----------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.office.com/)                                                                 | Microsoft 365 (Word, Excel, OneDrive, Teams).                                                                                                                                   |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                          | Notepad++ (editor de texto).                                                                                                                                                    |
-| [:toolbox:Herramienta](https://qgis.org/)                                                                       | QGIS 3.44 o superior.                                                                                                                                                           |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                               | Autodesk Autocad 2026 o superior (english version).                                                                                                                             |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)                                                 | Autodesk Revit 2026 o superior (english version).                                                                                                                               |
-| [:open_file_folder:Repositorio de proyecto (opcional y no calificable)](https://forms.office.com/r/gVg8DjvVFh)  | Para la revisión de los avances del proyecto, crear y compartir un repositorio de archivos (p. ej., en OneDrive de Campus) con los integrantes de su grupo y con el instructor. |
-| [:open_file_folder:Estructura de directorios](file/Readme.md)                                                   | Estructura requerida para el desarrollo del curso.                                                                                                                              |
+| Requerimiento                                                                                                  | Descripción                                                                                                                                                                     |
+|:---------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.office.com/)                                                                | Microsoft 365 (Word, Excel, OneDrive, Teams).                                                                                                                                   |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                         | Notepad++ (editor de texto).                                                                                                                                                    |
+| [:toolbox:Herramienta](https://qgis.org/)                                                                      | QGIS 3.44 o superior.                                                                                                                                                           |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                              | Autodesk Autocad 2026 o superior (english version).                                                                                                                             |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)                                                | Autodesk Revit 2026 o superior (english version).                                                                                                                               |
+| [:open_file_folder:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh) (opcional y no calificable) | Para la revisión de los avances del proyecto, crear y compartir un repositorio de archivos (p. ej., en OneDrive de Campus) con los integrantes de su grupo y con el instructor. |
+| [:open_file_folder:Estructura de directorios](file/Readme.md)                                                  | Estructura requerida para el desarrollo del curso.                                                                                                                              |
 
 </div>
 
