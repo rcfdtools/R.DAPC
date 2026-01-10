@@ -1,4 +1,4 @@
-# Ejercicios entregables a desarrollar en grupo (opcional no calificable)
+# Ejercicios a desarrollar en grupo (opcional no calificable)
 
 Durante el desarrollo del curso, los grupos de proyecto presentarán los siguientes ejercicios siguiendo las especificaciones y parámetros definidos en cada actividad.
 
@@ -14,7 +14,7 @@ En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD,
 
 Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 
-> Para la calificación de los ejercicios, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo (UDig).
+> Para la revisión de los ejercicios, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo (UDig).
 
 | Ejercicio                                         | Descripción                                                                                                                                                                                                                                                                                                                                                                                                            | Figura                                                                        | 
 |:--------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
