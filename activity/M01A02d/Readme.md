@@ -33,7 +33,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 >
-> El origen de las figuras 3D, deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y su coordenada absoluta en X deberá desplazarse en una longitud correspondiente a la sumatoria del último dígito de los códigos de alumno de su grupo. Utilizar cero (0) en las coordenadas (Y,Z). Las unidades de todas las figuras están milímetros. 
+> El origen de las figuras 3D, deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y su coordenada absoluta en X deberá desplazarse en una longitud correspondiente al dígito de alumno **SDig**. Utilizar cero (0) en las coordenadas (Y,Z). Las unidades de todas las figuras están milímetros. 
 
 
 ## 0. Configuración preliminar 
@@ -534,7 +534,7 @@ Especificaciones:
 * Plano de referencia: libre elección.
 
 
-## Actividades de proyecto :triangular_ruler:
+## Actividades de proyecto (opcional no calificable) :triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
 
