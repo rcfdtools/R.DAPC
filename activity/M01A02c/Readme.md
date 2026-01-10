@@ -117,7 +117,7 @@ A partir de la longitud de los semiejes, generar las coordenadas de localizació
 
 Especificaciones:
 
-* Semiejes: la longitud del semieje mayor o _a_, corresponden a la sumatoria del último dígito de los códigos de alumno de su grupo; la longitud del semieje menor o b, corresponde al 35% de la longitud del semieje mayor.
+* Semiejes: la longitud del semieje mayor o _a_, corresponde al dígito de alumno **SDig**; la longitud del semieje menor o b, corresponde al 35% de la longitud del semieje mayor.
 
 
 ## 2. Óvalo [^1]
@@ -131,15 +131,15 @@ Curva cerrada, con la convexidad vuelta siempre a la parte de afuera, de forma p
 
 Trace las líneas constructivas y dibuje óvalos en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Guarde el dibujo como _/file/cad/**M01A02cE01**.dwg_.
 
-1. Para el dibujo de un _óvalo dado el eje menor_, utilice una longitud igual a la sumatoria del último dígito de los códigos de alumno de su grupo.
+1. Para el dibujo de un _óvalo dado el eje menor_, utilice una longitud igual al dígito de alumno **SDig**.
 
 <div align="center"><img src="graph/AutoCAD_Ovalo1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Para el dibujo de un _óvalo dado el eje mayor_, utilice una longitud igual a dos veces la sumatoria del último dígito de los códigos de alumno de su grupo.
+2. Para el dibujo de un _óvalo dado el eje mayor_, utilice una longitud igual a dos veces al dígito de alumno **SDig**.
 
 <div align="center"><img src="graph/AutoCAD_Ovalo2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Para el dibujo de un _óvalo dado el eje mayor y el eje menor_, utilice como mayor valor una longitud igual la sumatoria del último dígito de los códigos de alumno de su grupo y como valor menor una longitud de 4/5 con respecto al valor anterior.
+3. Para el dibujo de un _óvalo dado el eje mayor y el eje menor_, utilice como mayor valor una longitud igual al dígito de alumno **SDig** y como valor menor una longitud de 4/5 con respecto al valor anterior.
 
 <div align="center"><img src="graph/AutoCAD_Ovalo3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -161,17 +161,17 @@ Posee dos ejes ortogonales, denominados mayor y menor. Tiene cuatro centros de c
 
 Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos circulares, conociendo: eje mayor, eje menor, los dos ejes. Guarde el dibujo como _/file/cad/**M01A02cE02**.dwg_.
 
-1. Para el dibujo de un _ovoide dado el eje menor_, utilice una longitud igual a la sumatoria del último dígito de los códigos de alumno de su grupo.
+1. Para el dibujo de un _ovoide dado el eje menor_, utilice una longitud igual al dígito de alumno **SDig**.
 
 <div align="center"><img src="graph/AutoCAD_Ovoide1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Para el dibujo de un _ovoide dado el eje mayor_, utilice una longitud igual a dos veces la sumatoria del último dígito de los códigos de alumno de su grupo.
+2. Para el dibujo de un _ovoide dado el eje mayor_, utilice una longitud igual a dos veces el dígito de alumno **SDig**.
 
 > Utilizando el comando **DIVIDE**, divida en 6 partes el eje mayor para obtener nodos a lo largo del eje. El trazado del arco superior se realiza en el nodo de la segunda división. El trazado del arco inferior se realiza en el nodo de la primera división.
 
 <div align="center"><img src="graph/AutoCAD_Ovoide2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Para el dibujo de un _ovoide dado el eje mayor y el eje menor_, utilice como mayor valor una longitud igual la sumatoria del último dígito de los códigos de alumno de su grupo y como valor menor una longitud de 5/8 con respecto al valor anterior.
+3. Para el dibujo de un _ovoide dado el eje mayor y el eje menor_, utilice como mayor valor una longitud igual al dígito de alumno **SDig** y como valor menor una longitud de 5/8 con respecto al valor anterior.
 
 <div align="center"><img src="graph/AutoCAD_Ovoide3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -230,7 +230,7 @@ Al verificar la distancia desde su foco hasta cualquier punto sobre la curva (p.
 
 ### Ejercicio M01A02cE04
 
-Utilizando los conceptos aprendidos acerca de parábolas, trace una parábola cuya longitud horizontal corresponda a la sumatoria del último dígito de los códigos de alumno de su grupo y con longitud vertical correspondiente al 40% de la longitud horizontal. Guarde el dibujo como _/file/cad/**M01A02cE04**.dwg_.
+Utilizando los conceptos aprendidos acerca de parábolas, trace una parábola cuya longitud horizontal corresponda al dígito de alumno **SDig** y con longitud vertical correspondiente al 40% de la longitud horizontal. Guarde el dibujo como _/file/cad/**M01A02cE04**.dwg_.
 
 Requerimientos:
 
@@ -265,7 +265,7 @@ Otro ejemplo de su construcción cuando solo conocemos el punto de inflexión y 
 
 ### Ejercicio M01A02cE05
 
-Utilizando los conceptos aprendidos de hipérbolas, trace una hipérbola cuya longitud horizontal o eje real corresponda a la sumatoria del último dígito de los códigos de alumno de su grupo y con longitud vertical o eje imaginario correspondiente 2.25 veces la longitud horizontal. La elección del punto de origen es libre. Guarde el dibujo como _/file/cad/**M01A02cE05**.dwg_.
+Utilizando los conceptos aprendidos de hipérbolas, trace una hipérbola cuya longitud horizontal o eje real corresponda al dígito de alumno **SDig** y con longitud vertical o eje imaginario correspondiente 2.25 veces la longitud horizontal. La elección del punto de origen es libre. Guarde el dibujo como _/file/cad/**M01A02cE05**.dwg_.
 
 Requerimientos:
 
@@ -309,7 +309,7 @@ Luego de eliminados los trazos sobrantes, obtendrá el trazado final de las func
 
 ### Ejercicio M01A02cE06
 
-Utilizando los conceptos aprendidos, dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con origen en (0,0). Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual a sumatoria del último dígito de los códigos de alumno de su grupo, y escale las funciones a este tamaño. Guarde el dibujo como _/file/cad/**M01A02cE06**.dwg_.
+Utilizando los conceptos aprendidos, dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con origen en (0,0). Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual al dígito de alumno **SDig**, y escale las funciones a este tamaño. Guarde el dibujo como _/file/cad/**M01A02cE06**.dwg_.
 
 
 ## Actividades de proyecto (opcional no calificable):triangular_ruler:
