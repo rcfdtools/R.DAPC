@@ -29,7 +29,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 >
-> Para la calificación de los ejercicios, el nodo de inicio o punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
+> Para la revisión de los ejercicios de esta actividad, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde al dígito de alumno **SDig**.
 
 
 ## 0. Herramientas de dibujo en AutoCAD
@@ -417,14 +417,14 @@ Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con p
 
 ### Ejercicio M01A02bE09
 
-Creando un array de 10 líneas horizontales por 10 líneas verticales y trazando líneas, cree el logo de la [UECIJG](https://www.escuelaing.edu.co/). El ancho y alto de la figura debe corresponder a la sumatoria del último dígito de los códigos de alumno de su grupo. El origen de la figura está localizado en la esquina inferior izquierda. Guarde el dibujo como _/file/cad/**M01A02bE09**.dwg_.
+Creando un array de 10 líneas horizontales por 10 líneas verticales y trazando líneas, cree el logo de la [UECIJG](https://www.escuelaing.edu.co/). El ancho y alto de la figura debe corresponder corresponde al dígito de alumno **SDig**. El origen de la figura está localizado en la esquina inferior izquierda. Guarde el dibujo como _/file/cad/**M01A02bE09**.dwg_.
 
 <div align="center"><img src="graph/M01A02bE09.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 
 > Este logo deberá ser utilizado en el formato de impresión del proyecto y se localizará en la casilla superior izquierda.
 
 
-## Actividades de proyecto :triangular_ruler:
+## Actividades de proyecto (opcional no calificable) :triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
 
