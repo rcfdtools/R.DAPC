@@ -30,8 +30,6 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 </div>
 
-> :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
->
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
@@ -47,7 +45,7 @@ Siga en clase las indicaciones del instructor y complete la digitalización teni
 * Algunos edificios requieren de la digitalización de zonas semicirculares o arcos.
 * Varias de las esquinas de las edificaciones están construidas a un ángulo de 90 grados, tenga en cuenta que debe conservar este ángulo en la digitalización.
 * Para los índices solicitados, es necesario mostrar captura de pantalla de la herramienta GIS con la ventana del Calculador de Campo, donde se observe la operación realizada.
-* Comprimir independientemente cada archivo de formas shapefile (_DAPC_Predio.shp, DAPC_Construccion.shp, DAPC_Vial.shp, DAPC_VialBuffer.shp, DAPC_Arbolado.shp, DAPC_ArboladoBuffer.shp, DAPC_Luminaria.shp, DAPC_LuminariaBuffer.shp_) y guardar en la carpeta /shp de su repositorio de proyecto. Recuerde que un archivo de forma shapefile está compuesto por 4 archivos: .shp, .shx, .prj, .dbf.
+* Comprimir independientemente cada archivo de formas shapefile (_DAPC_Predio.shp, DAPC_Construccion.shp, DAPC_Vial.shp, DAPC_VialBuffer.shp, DAPC_Arbolado.shp, DAPC_ArboladoBuffer.shp, DAPC_Luminaria.shp, DAPC_LuminariaBuffer.shp_) y guardar en la carpeta /shp de su repositorio. Recuerde que un archivo de forma shapefile está compuesto por 4 archivos: .shp, .shx, .prj, .dbf.
 
 > Para facilitar la edición y visualización, agregue el mapa base de Google Satellite desde el conector https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}. Mapas base adicionales pueden ser agregados usando los enlaces contenidos en el repositorio https://github.com/opengeos/qgis-basemaps
 
@@ -393,7 +391,7 @@ Cree una visualización 3D con alzados que integre:
 * Luminarias y cobertura de iluminación
 
 
-## Actividades de proyecto :triangular_ruler:
+## Actividades de proyecto (opcional no calificable) :triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
 
@@ -402,8 +400,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | M02A02a   | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad.<br/><br/>Cada estudiante presenta un informe técnico incluyendo como mínimo:<br/>• 1 predio.<br/>• 5 construcciones.<br/>• 1 kilómetro de ejes viales.<br/>• Buffer vial.<br/>• 20 árboles.<br/>• Buffer de arbolado.<br/>• 5 luminarias.<br/>• Buffer de luminarias.<br/>• Calculo de índices.<br/>• Representación 3D.<br/><br/>El informe técnico debe contener capturas de pantalla donde se visualice cada capa, la tabla de atributos y los rótulos de cada elemento. |
-| M02A02a   | Opcional en grupo: desarrolle los numerales indicados en esta actividad, incluída la digitalización completa del campus y presente un informe técnico detallado.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| M02A02a   | Opcional en grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos.                                       | 
+| M02A02a   | Desarrolle los numerales indicados en esta actividad, incluída la digitalización completa del campus y presente un informe técnico detallado.                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| M02A02a   | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos.                                                          | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
