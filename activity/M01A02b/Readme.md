@@ -417,7 +417,7 @@ Dibuje el siguiente elemento isométrico correspondiente a pieza mecánica con p
 
 ### Ejercicio M01A02bE09
 
-Creando un array de 10 líneas horizontales por 10 líneas verticales y trazando líneas, cree el logo de la [UECIJG](https://www.escuelaing.edu.co/). El ancho y alto de la figura debe corresponder corresponde al dígito de alumno **SDig**. El origen de la figura está localizado en la esquina inferior izquierda. Guarde el dibujo como _/file/cad/**M01A02bE09**.dwg_.
+Creando un array de 10 líneas horizontales por 10 líneas verticales y trazando líneas, cree el logo de la [UECIJG](https://www.escuelaing.edu.co/). El ancho y alto de la figura corresponde al dígito de alumno **SDig**. El origen de la figura está localizado en la esquina inferior izquierda. Guarde el dibujo como _/file/cad/**M01A02bE09**.dwg_.
 
 <div align="center"><img src="graph/M01A02bE09.jpg" alt="R.DAPC" width="30%" border="0" /></div>
 

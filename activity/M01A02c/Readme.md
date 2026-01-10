@@ -312,7 +312,7 @@ Luego de eliminados los trazos sobrantes, obtendrá el trazado final de las func
 Utilizando los conceptos aprendidos, dibuje las funciones trigonométricas en x de 0 a π (0 a 360 grados) con origen en (0,0). Luego, encuentre la escala proporcional de ajuste para que la longitud horizontal de las funciones trazadas, sea igual a sumatoria del último dígito de los códigos de alumno de su grupo, y escale las funciones a este tamaño. Guarde el dibujo como _/file/cad/**M01A02cE06**.dwg_.
 
 
-## Actividades de proyecto :triangular_ruler:
+## Actividades de proyecto (opcional no calificable):triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
 
