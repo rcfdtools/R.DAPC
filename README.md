@@ -28,7 +28,7 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 * Examen por tercio (50%): se evalúa individualmente y al final de cada tercio, comprende todos los temas tratados durante el periodo.
 * [Proyecto CAD](activity/M01A06/Readme.md): opcional, no calificable y se desarrolla en grupo.
 * [Proyecto GIS](activity/M02A04/Readme.md): opcional, no calificable y se desarrolla en grupo.
-* [Proyecto BIM](file/table/DAPC_ProyectoBIM.xlsx): opcional, no calificable y se desarrolla en grupo.
+* [Proyecto BIM](activity/M03A05/Readme.md): opcional, no calificable y se desarrolla en grupo.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
