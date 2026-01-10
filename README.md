@@ -24,8 +24,10 @@ El contenido del curso está dirigido a estudiantes de pregrado que se encuentre
 La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias o habilidades desarrolladas. Las calificaciones de los estudiantes como expresión cuantitativa de la evaluación del aprendizaje, considera tres calificaciones, una por cada tercio con los siguientes porcentajes: primer tercio 30%, segundo tercio 30% y tercer tercio 40%.
 
 * Asistencia (10%): se evalúa individualmente.
-* [Quices o ejercicios por actividad (40%)](activity/Readme.md ): se evalúan individualmente _(Según el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0). Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase)._
+* [Quices o ejercicios por actividad (40%)](activity/Readme.md ): se evalúan individualmente 
 * Examen por tercio (50%): se evalúa individualmente y al final de cada tercio, comprende todos los temas tratados durante el periodo.
+
+> Según el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0). Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
