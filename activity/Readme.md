@@ -1,6 +1,6 @@
-# Ejercicios a desarrollar en grupo (opcional no calificable)
+# Ejercicios a desarrollar individualmente (opcional no calificable)
 
-Durante el desarrollo del curso, los grupos de proyecto presentarán los siguientes ejercicios siguiendo las especificaciones y parámetros definidos en cada actividad.
+Durante el desarrollo del curso, los estudiantes presentarán los siguientes ejercicios siguiendo las especificaciones y parámetros definidos en cada actividad.
 
 > Los dibujos de AutoCAD se almacenan en la carpeta _/file/cad/_ usando el nombre del ejercicio y la extensión .dwg.
 
@@ -14,7 +14,7 @@ En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD,
 
 Usos y aplicaciones de herramientas computacionales. Barra de menús. Comandos LINE, GRID y SNAP.
 
-> Para la revisión de los ejercicios, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo (UDig).
+> Para la revisión de los ejercicios de esta actividad, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde al dígito de alumno **SDig**.
 
 | Ejercicio                                         | Descripción                                                                                                                                                                                                                                                                                                                                                                                                            | Figura                                                                        | 
 |:--------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
