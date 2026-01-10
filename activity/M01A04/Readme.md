@@ -241,7 +241,7 @@ Complementariamente, cree estilos personales a partir del estilo de dimensión _
 > Tenga en cuenta que al igual que los textos simples y multilínea, los acotados también cambian su tamaño en función de la escala de impresión, por lo que se recomienda crear estilos anotativos para que se conserve el tamaño definido de los textos.
 
 
-## Actividades de proyecto :triangular_ruler:
+## Actividades de proyecto (opcional no calificable) :triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
 
