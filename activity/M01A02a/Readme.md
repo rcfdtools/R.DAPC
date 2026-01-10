@@ -566,7 +566,7 @@ CapaEjemplo
 En el archivo _M01A02a.dwg_, cree las capas establecidas en el catálogo [DAPC_AIALayerName.xlsx](../../file/table/DAPC_AIALayerName.xlsx) para el curso DACP. En las descripciones incluya el nombre de la disciplina un guion y la descripción, p. ej., _Arquitectura - Área_.
 
 
-## Actividades de proyecto :triangular_ruler:
+## Actividades de proyecto (opcional no calificable) :triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
 

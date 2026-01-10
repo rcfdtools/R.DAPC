@@ -41,7 +41,7 @@ Normas para definición de nombres y creación de capas o Layers.
 
 Sistema de coordenadas de usuario - UCS. Barra de herramientas de puntos de convergencia. Comandos de dibujo POLYLINE, CIRCLE, ARC, RECTANGLE, POLYGON, POINT, DONUT, HELIX... Comandos de modificación: FILLET, CHAMFER, ARRAY, OFFSET, TRIM, MIRROR...
 
-> Para la calificación de los ejercicios, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde a la sumatoria del último dígito de los códigos de alumno de su grupo.
+> Para la revisión de los ejercicios de esta actividad, el nodo de inicio o el punto de origen (X,Y) de coordenadas absolutas de todas las figuras, corresponde al dígito de alumno **SDig**.
 
 | Ejercicio                                            | Descripción                                                                                                                                                                                                                                                                                                                  | Figura                                                                           |
 |:-----------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ Dibujo de elipse, óvalo, parábola, hipérbola y funciones trigonométricas.
 
 Creación de superficies y sólidos tridimensionales.
 
-> Para la calificación de los ejercicios, el origen de las figuras 3D, deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y su coordenada absoluta (X) deberá desplazarse en una longitud correspondiente a la sumatoria del último dígito de los códigos de alumno de su grupo. Utilizar cero (0) en las coordenadas (Y,Z). 
+> Para la calificación de los ejercicios, el origen de las figuras 3D, deberá ser localizado en la esquina inferior izquierda del plano frontal de referencia y su coordenada absoluta (X) deberá desplazarse en una longitud correspondiente al dígito de alumno **SDig**. Utilizar cero (0) en las coordenadas (Y,Z). 
 
 | Ejercicio                                            | Descripción                                                                                                                                                                                | Figura                                                                           |
 |:-----------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
