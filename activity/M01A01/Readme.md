@@ -234,7 +234,7 @@ Utilizando el Teorema de Pitágoras y análisis trigonométrico, calcule manualm
 
 </div>
 
-Tracemos una línea horizontal de 2500 metros desde la coordenada X = 0 metros, Y = 0 metros hasta la coordenada X = 2500 metros, Y = 0 metros. Seleccione la herramienta _Line_, en el Command ingrese las coordenadas absolutas del punto inicial 0,0 y luego las coordenadas del punto final 2500,0 y presione la tecla <kbd>enter</kbd>. Para finalizar la creación, presione la tecla <kbd>enter</kbd>.
+Tracemos una línea horizontal de 2500 metros desde la coordenada X = 0 metros, Y = 0 metros hasta la coordenada X = 2500 metros, Y = 0 metros. Verifique en la barra de estado (ubicada en la parte inferior derecha de AutoCAD) que la entrada dinámica o _Dynamic Input_ o F12 o **DYNMODE** esté desactivada, luego seleccione la herramienta _Line_, en el Command ingrese las coordenadas absolutas del punto inicial 0,0 y luego las coordenadas del punto final 2500,0 y presione la tecla <kbd>enter</kbd>. Para finalizar la creación, presione la tecla <kbd>enter</kbd>.
 
 <div align="center"><img src="graph/AutoCAD_Line1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -249,7 +249,7 @@ Consulte las propiedades de la línea, observará que su longitud es 2500 metros
 
 ### Ejercicio M01A01E01
 
-Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura asimétrica y guarde como _/file/cad/M01A01E01.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros.
+Aplicando los conceptos aprendidos de coordenadas absolutas y relativas, dibuje manualmente la siguiente figura asimétrica y guarde como _/file/cad/M01A01E01.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros, cuyas coordenadas (x,y) son **SDig**.
 
 <div align="center"><img src="graph/M01A01E01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br> Imagen adaptada de: <a href="https://www.mhe.es/bachillerato/bachillerato_dibujo/8448181107/archivos/8448181107_%20Unidad0_DT1Bach.pdf">https://www.mhe.es</a></sub><br><br></div>
 
@@ -275,6 +275,8 @@ LINE
 ```
 
 > Al insertar un espacio en blanco al final de las 3 sentencias utilizadas, estará ejecutando la tecla <kbd>enter</kbd> que completará la creación de la línea.
+> 
+> En la ventana de propiedades podrá observar que el ángulo corresponde a 50 grados centesimales, correspondiente a 45 grados decimales.  
 
 <div align="center"><img src="graph/AutoCAD_Line4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -319,11 +321,12 @@ LINE
 
 ### Ejercicio M01A01E02
 
-**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, guarde las secuencias en _/file/report/M01A01E02A.txt_ y el dibujo en _/file/cad/M01A01E02A.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros.
+**Parte A:** aplicando los conceptos aprendidos, cree secuencias de comandos (una con posiciones absolutas, otra con posiciones relativas y una final con ángulos) para la construcción de la figura presentada en el Ejercicio M01A01E01, guarde las secuencias en _/file/report/M01A01E02A.txt_ y el dibujo en _/file/cad/M01A01E02A.dwg_. El nodo de inicio deberá corresponder con la esquina superior más a la izquierda donde se encuentra el tramo de 15 metros, cuyas coordenadas (x,y) son **SDig**.
 
 <div align="center"><img src="graph/M01A01E02.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Ejemplo de secuencia para coordenadas relativas usando @
+Ejemplo de secuencia para coordenadas relativas usando @  
+(Los valores iniciales y finales 250,250 deberán ser reemplazados por **SDig**,**SDig**)
 ```
 LINE
 250,250
@@ -350,7 +353,7 @@ LINE
 * Triángulo equilátero de 50 metros de lado con origen en la coordenada absoluta indicada.
 * Triángulo rectángulo con área de 200 m² y con origen en la coordenada absoluta indicada.
 
-> Tenga en cuenta que la sumatoria interna de ángulos de un polígono es $(n-2) * 180$, con lo que para un tríangulo con n=3 la sumatoria interna es (3-2)*180 = 180°. 
+> Tenga en cuenta que la sumatoria interna de ángulos de un polígono es = $(n-2) * 180$, con lo que para un tríangulo con n=3 la sumatoria interna es (3-2)*180 = 180°. 
 > 
 > Recuerde que si sus unidades angulares han sido establecidas en grados, deberá incluir la letra **d** (degrees) luego del valor del ángulo requerido. Coordenadas en grados decimales no requieren de la letra **d**
 
@@ -466,28 +469,28 @@ Para practicar las herramientas de dibujo asistido, construiremos en clase el si
 
 ### Ejercicio M01A01E04
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E04.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico. 
+Trace el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E04.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico. 
 
 <div align="center"><img src="graph/M01A01E04.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E05
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E05.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico. 
+Trace el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E05.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico. 
 
 <div align="center"><img src="graph/M01A01E05.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E06
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E06.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico. 
+Trace el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior, calcule las áreas de cada cara proyectada y el volúmen total del sólido. Guarde el dibujo como _/file/cad/M01A01E06.dwg_. El origen de la figura está localizado en la esquina inferior del dibujo isométrico. 
 
 <div align="center"><img src="graph/M01A01E06.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - DGEP (pág. 122)</sub></div>
 
 
 ### Ejercicio M01A01E07
 
-Dibuje el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A01E07.dwg_. El origen de la figura está localizado en la esquina inferior izquierda del dibujo isométrico.
+Trace el siguiente [dibujo isométrico](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_isom%C3%A9trica) de una escalera a partir de líneas y dibuje las vistas proyectadas y planas lateral derecha, superior, frontal y posterior. Guarde el dibujo como _/file/cad/M01A01E07.dwg_. El origen de la figura está localizado en la esquina inferior izquierda del dibujo isométrico.
 
 El espesor del material de la escalera es 2.5 y el ángulo de dibujo es de 45 grados.
 
