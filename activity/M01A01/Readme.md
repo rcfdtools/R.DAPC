@@ -129,7 +129,7 @@ AutoCAD es una herramienta versátil que facilita el proceso de diseño y dibujo
 
 0. Sí va a trabajar en AutoCAD por primera vez y en un equipo compartido, lo primero es restablecer la configuración inicial de la aplicación para luego establecer su propia configuración. Para ello, en el menú Inicio de Windows escriba AutoCAD y en las opciones de acceso rápido de clic en _Open File Location_ y desde la carpeta de accesos directos de la aplicación ejecute la herramienta _Reset Settings to Default_.
 
-<div align="center"><img src="graph/AutoCAD_ResetSettingsToDefault.png" alt="R.DAPC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_ResetSettingsToDefault.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
 1. Antes de iniciar con el uso de herramientas computacionales en los campos de la ingeniería, es recomendable definir la siguiente configuración regional de su sistema operativo:
 
