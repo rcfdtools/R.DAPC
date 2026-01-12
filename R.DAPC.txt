@@ -32,7 +32,8 @@ El origen de la figura está localizado en el centroide del círculo principal o
 Para la descarga e instalación de AutoCAD, ingresar al enlace https://www.autodesk.com/in/education/edu-software/overview, una vez descargue e instale en su equipo, será necesario crear una cuenta de usuario en Autodesk con su correo @mail.escuelaing.edu.co, usando enlace de creación de cuenta que envié a su correo de estudiante en días anteriores.
 
 Pending
-    Change Revit language ENU
+    Check all quices and final exams
+	Change Revit language ENU
 	Include GIS and BIM activities in https://github.com/rcfdtools/R.DAPC/blob/main/activity/Readme.md
 	
 	La sumatoria de los ángulos interiores de un polígono es (7 - 2) * 180° = 900°.

@@ -166,9 +166,9 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 
 <div align="center"><img src="graph/AutoCAD_Drawing1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. Desde el botón _AutoCAD / Drawing Utilities / Units_, defina las unidades de longitud en _Decimal_, ángulos en _Grados decimales_, precisión usando dos decimales y unidades de dibujo o de escala para inserción de elementos externos (tales como bloques) en el espacio de dibujo en milímetros. Esta misma acción puede ser realizada con el comando **UNITS** o con **DWGUNITS**, adicionalmente permite convertir un dibujo trazado p. ej., en metros, a milímetros.   
+5. Desde el botón _AutoCAD / Drawing Utilities / Units_, defina las unidades de longitud en _Decimal_, ángulos en _Grados decimales_, precisión usando dos decimales y unidades de dibujo o de escala para inserción de elementos externos (tales como bloques) en el espacio de dibujo en metros. Esta misma acción puede ser realizada con el comando **UNITS** o con **DWGUNITS**, adicionalmente permite convertir un dibujo trazado p. ej., en metros, a milímetros (Tenga en cuenta que AutoCAD no realiza conversiones entre sistemas de unidades, p. ej., una línea de longitud 2 pulgadas no será convertida a su equivalente en milímetros al cambiar las unidades de dibujo).   
 
-> Diferencia entre Grados Decimales y Grados en AutoCAD: son dos diferentes unidades para representación de ángulos, los _Grados Decimales_ son la forma más común de representar ángulos usando fracciones decimales (p. ej., 27.32°), mientras que los _Grados_ dividen la circunferencia en 400 partes iguales. 
+> Diferencia entre Grados Decimales y Grados centesimales en AutoCAD: son dos diferentes unidades para representación de ángulos, los _Grados Decimales_ ° son la forma más común de representar ángulos usando fracciones decimales (p. ej., 27.32° entre 0 y 360 grados), mientras que los _Grados_ (centesimales) dividen la circunferencia en 400 partes iguales (cuyo equivalente en grados decimales es 360/400 o 0.9°). 
 > 
 > Tenga en cuenta que en el espacio de impresión o _Layout_ siempre dibujaremos en milímetros.
 > 
@@ -187,7 +187,7 @@ Para el dibujo de elementos, por defecto el mouse o apuntador realiza las siguie
 
 <div align="center"><img src="graph/M01A01_Mouse.jpg" alt="R.DAPC" width="40%" border="0" /><sub><br>Adaptado de: <a href="https://www.vecteezy.com/vector-art/24103530-set-of-computer-mouse-outline-drawing-vector-computer-mouse-in-a-sketch-style-computer-mouse-training-template-outline-vector-">www.vecteezy.com</a></sub><br><br></div>
 
-:blue_heart: Al ampliar o reducir el zoom con la rueda del mouse, la ubicación del cursor es importante. Puede considerar el cursor como una lupa., p. ej. si coloca el cursor en el área superior derecha del área de dibujo, se amplía esa área sin cambiar su posición.
+:blue_heart: Al ampliar o reducir el Zoom con la rueda del mouse, la ubicación del cursor es importante. Puede considerar el cursor como una lupa., p. ej. si coloca el cursor en el área superior derecha del área de dibujo, se amplía esa área sin cambiar su posición.
 
 1. Seleccione la herramienta _Line_ y trace una línea de izquierda a derecha en cualquier lugar del espacio de dibujo. Podrá observar que luego de establecer el nodo final, el puntero sigue solicitando la inserción de un nuevo nodo, para completar la línea oprima la tecla <kbd>esc</kbd>, de <kbd>enter</kbd> o utilice el clic derecho del Mouse y seleccione la opción _Enter_.
 
@@ -346,7 +346,7 @@ LINE
 * Triángulo equilátero de 50 metros de lado con origen en la coordenada absoluta indicada.
 * Triángulo rectángulo con área de 200 m² y con origen en la coordenada absoluta indicada.
 
-> Tenga en cuenta que la sumatoria interna de ángulos de un triángulo es de 180°.
+> Tenga en cuenta que la sumatoria interna de ángulos de un polígono es $(n-2) * 180$, con lo que para un tríangulo con n=3 la sumatoria interna es (3-2)*180 = 180°. 
 > 
 > Recuerde que si sus unidades angulares han sido establecidas en grados, deberá incluir la letra **d** (degrees) luego del valor del ángulo requerido. Coordenadas en grados decimales no requieren de la letra **d**
 
