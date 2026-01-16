@@ -105,8 +105,6 @@ _:beginner: **Ayuda / Colabora**: a través de la pestaña _[Discussions](https:
 
 _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](LICENSE.md)._
 
-_Clonación: para compatibilidad completa de las rutas utilizadas en los scripts y herramientas de R.DAPC, en Microsoft Windows clonar y/o descomprimir en _D:\R.DAPC_. Enlace para clonación https://github.com/rcfdtools/R.DAPC.git._
-
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 | [:sun_with_face: Iniciar curso](activity/M01A01/Readme.md) | [:infinity: Otros cursos y herramientas](https://github.com/rcfdtools) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [:notebook: Referencias](file/ref/Readme.md) | [:label: Comandos, iconografía, abreviaturas y definiciones](Definitions.md) |
