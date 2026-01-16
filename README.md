@@ -49,7 +49,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 </div>
 
 
-## :black_circle:Módulo 1: Dibujo asistido por computadora con AutoCAD
+## :large_blue_circle:Módulo 1: Dibujo asistido por computadora con AutoCAD
 
 En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD, Entorno gráfico e interfaz de AutoCAD, Comandos básicos, Dibujo de elementos básicos, Presentación de elementos básicos, Achurado y sombreado, Dimensionamiento de elementos, Herramientas de acotado, Rotulado, Herramientas de edición y dibujo en 3D, Creación y estructurado de un plano, Manejo de ventanas de impresión, Capas, Viewports: manejo de escalas, plantas, perfiles y secciones transversales.
 
@@ -68,7 +68,7 @@ En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD,
 | [1.6. Proyecto de dibujo asistido por computadora con Autodesk AutoCAD](activity/M01A06/Readme.md) | Aplicando los conceptos CAD vistos durante el módulo 1 del curso, desarrollar un proyecto aplicado para el diseño de una bodega para el almacenamiento y distribución de transformadores eléctricos industriales.<br><br>[Autoevaluación individual de proyecto](https://forms.office.com/r/pBZtqhfHXY).                                                                                                                                                                                                           |        3.0        |
 
 
-## :black_circle:Módulo 2: Sistemas de información geográfica GIS
+## :large_blue_circle:Módulo 2: Sistemas de información geográfica GIS
 
 En este módulo abordaremos: Fundamentos de los sistemas de información geográfica, Definición y edición de elementos de un SIG, Digitalización y entrada de entidades, Creación y edición de tablas relacionales, Mapas y cartografía, Elaboración de planos, Imágenes en SIG, Manejo y manipulación.
 
@@ -85,7 +85,7 @@ En este módulo abordaremos: Fundamentos de los sistemas de información geográ
 | [2.4. Proyecto de sistemas de información geográfica - GIS](activity/M02A04/Readme.md)                                          | Aplicando los conceptos GIS vistos durante el módulo 2 del curso, analice coberturas geográficas aplicadas en ingeniería eléctrica.                                                                                                                                                                                                                               |        3.0        |
 
 
-## :black_circle:Módulo 3: Metodología de modelado de información para la construcción (BIM) con REVIT
+## :large_blue_circle:Módulo 3: Metodología de modelado de información para la construcción (BIM) con REVIT
 
 En este módulo abordaremos: Introducción a los conceptos BIM, Uso de plantillas, Manejo básico del software REVIT, Configuración, Creación de vista de plantas, niveles de fondo, filtros y manipulación de elementos, Control de visualización, Láminas de ploteo, Metrados, Creación de WorkSets, Creación de un archivo local y Relinquish all mine, Introducción a Revit familias, Creación de perfiles y Concepto de familias Revit, Creación de planos de trabajo, Convertir líneas en símbolos y Controles de visibilidad. 
 
