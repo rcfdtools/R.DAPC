@@ -1,4 +1,4 @@
-# :globe_with_meridians:Módulo 2: Sistemas de información geográfica GIS
+# :large_blue_circle:Módulo 2: Sistemas de información geográfica GIS
 
 En este módulo abordaremos: Fundamentos de los sistemas de información geográfica, Definición y edición de elementos de un SIG, Digitalización y entrada de entidades, Creación y edición de tablas relacionales, Mapas y cartografía, Elaboración de planos, Imágenes en SIG, Manejo y manipulación.
 
