@@ -47,6 +47,18 @@ Pending
 	Links and icon to each command used.
 	LIMITS, GRIDDISPLAY: 3 for all 0 for show only inside limits.
 	
+	
+Software requerido curso DAPC en aulas C1-103l y C1-105l
+Para el desarrollo del curso de Dibujo asistido por computador - DAPC, es requerida la instalación de las siguientes herramientas:
+Microsoft Office 365 - https://www.office.com/
+Notepad++ (editor de texto) - https://notepad-plus-plus.org/
+ArcGIS Pro 3.6 (English version) - https://www.esri.com/es-es/arcgis/products/arcgis-pro
+QGIS 3.44.6 o superior - https://qgis.org/
+Autodesk AutoCAD 2026 o superior (English version) - https://www.autodesk.com/products/autocad
+Autodesk Revit 2026 o superior (English version) - https://www.autodesk.com/products/revit
+Autodesk Revit 2026 - Paquete de librerías en español RVTCPESP.exe y RVTCPGENESP.exe https://manage.autodesk.com/products/rvt
+Autodesk Revit 2026 - Paquete de librerías en inglés RVTCPENU.exe https://manage.autodesk.com/products/rvt
+
 
 Quiz exercices
 	Geometric calculatios from diferent objects: angle, perimeter, length, área, regular geometric shape, inscrited and subincrited circle, arc.
