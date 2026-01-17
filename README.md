@@ -57,7 +57,6 @@ En _Microsoft Windows / Panel de control / Region / Formats / Additional setting
 * Separador de listas (List separator): coma (,)
 
 
-
 ## :large_blue_circle:Módulo 1: Dibujo asistido por computadora con AutoCAD
 
 En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD, Entorno gráfico e interfaz de AutoCAD, Comandos básicos, Dibujo de elementos básicos, Presentación de elementos básicos, Achurado y sombreado, Dimensionamiento de elementos, Herramientas de acotado, Rotulado, Herramientas de edición y dibujo en 3D, Creación y estructurado de un plano, Manejo de ventanas de impresión, Capas, Viewports: manejo de escalas, plantas, perfiles y secciones transversales.
