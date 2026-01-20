@@ -25,7 +25,7 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 
 * Asistencia (10%): se evalúa individualmente.
 * [Quices o ejercicios por actividad (40%)](activity/Readme.md ): se evalúan individualmente.
-* Examen por tercio (50%): se evalúa individualmente y al final de cada tercio, comprende todos los temas tratados durante el semestre.
+* Examen por tercio (50%): se evalúa individualmente y al final de cada tercio, comprende todos los temas tratados durante el semestre _(sí el promedio de las calificaciones del tercio 1 o 2 es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen de tercio, si el promedio de calificaciones de todo el semestre es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen final)_.
 
 > Acorde con el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
 
