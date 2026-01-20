@@ -8,7 +8,7 @@ La ingeniería eléctrica contemporánea implica un trabajo multidisciplinario q
 <div align="center"><img src="file/graph/Gemini_Generated_Image_bj9a2jbj9a2jbj9a.png" alt="R.SIGE" width="60%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/aeeb9a71c799bdf7">https://gemini.google.com</a></sub><br><br></div>
 
 
-## Participantes, metodología y requerimientos
+## Participantes, metodología, requerimientos y evaluación
 
 El contenido del curso está dirigido a estudiantes de pregrado que se encuentren cursando estudios de ingeniería eléctrica. Como prerrequisito, los estudiantes requieren de conocimientos básicos en programación de computadores.
 
