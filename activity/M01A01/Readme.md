@@ -167,6 +167,8 @@ En _Region_, de clic en el botón con _Configuración adicional... (Aditional se
 * En la parte inferior y debajo del espacio de dibujo encontrará una la barra de estado con las pestañas del espacio de modelado, hojas de impresión y herramientas adicionales para facilitar el trazado de dibujos con precisión.
 
 > El * en el nombre del dibujo, índica que este es nuevo o que no han sido guardados los cambios.
+> 
+> En la esquina superior izquierda del espacio de dibujo, podrá encontrar, activar o cambiar los Viewports Controls (para activar: ViewCube, Navigation Bar), los planos y vistas isométricas y los estilos visuales de representación.
 
 <div align="center"><img src="graph/AutoCAD_Drawing1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
