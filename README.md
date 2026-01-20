@@ -24,9 +24,11 @@ El contenido del curso está dirigido a estudiantes de pregrado que se encuentre
 La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias o habilidades desarrolladas. Las calificaciones de los estudiantes como expresión cuantitativa de la evaluación del aprendizaje, considera tres calificaciones, una por cada tercio con los siguientes porcentajes: primer tercio 30%, segundo tercio 30% y tercer tercio 40%.
 
 * Asistencia (10%): se evalúa individualmente.
-* [Quices o ejercicios por actividad (40%)](activity/Readme.md ): se evalúan individualmente.
+* [Quices o ejercicios por actividad (40%)](activity/Readme.md ): se evalúan individualmente (a cada estudiante un valór numérico denominado **_SDig_**).
 * Examen por tercio (50%): se evalúa individualmente y al final de cada tercio, comprende todos los temas tratados durante el semestre _(sí el promedio de las calificaciones del tercio 1 o 2 es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen de tercio, si el promedio de calificaciones de todo el semestre es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen final)_.
 
+> ¿Qué es **_SDig_** (student drawing value)?: es un valor numérico único asignado a cada estudiante, que es utilizado como parámetro para la localización de puntos de origen, localización de centroides, definición de propiedades en figuras o dibujos geométricos y como valor de referencia en la construcción de los modelos realizados en el curso DAPC.
+> 
 > Acorde con el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
 
 
