@@ -154,7 +154,7 @@ En AutoCAD, las herramientas de modificación son comandos y funciones que permi
 
 ## 2. Iconografía [^1]
 
-Iconografía utilizada en este respositorio.
+Iconografía utilizada en este repositorio.
 
 |           Ícono            | shortcode                    | Utilidad                                                                                             |
 |:--------------------------:|:-----------------------------|:-----------------------------------------------------------------------------------------------------|
