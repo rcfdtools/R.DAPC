@@ -237,7 +237,6 @@ Abreviaturas relacionadas dentro de la documentación oficial de este repositori
 | [ITRF](https://en.wikipedia.org/wiki/International_Terrestrial_Reference_System_and_Frame)    | The International Terrestrial Reference System (ITRS) describes procedures for creating reference frames suitable for use with measurements on or near the Earth's surface.                                                                                                                                                                                                                                                                                                                |
 | [UTM](https://es.wikipedia.org/wiki/Sistema_de_coordenadas_universal_transversal_de_Mercator) | El sistema de coordenadas universal transversal de Mercator (en inglés Universal Transverse Mercator, UTM) es un sistema de coordenadas basado en la proyección cartográfica transversa de Mercator, que se construye como la proyección de Mercator normal, pero en vez de hacerla tangente al Ecuador, se la hace secante a un meridiano. A diferencia del sistema de coordenadas geográficas, expresadas en longitud y latitud, las magnitudes en el sistema UTM se expresan en metros. |
 | SGR                                                                                           | Sistema general de regalías                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 
 ## 4. Definiciones
@@ -254,7 +253,6 @@ Definiciones generales utilizadas en este repositorio.
 | [Cartografía](https://support.esri.com/es-es/gis-dictionary/surveying)                                                                 | Registro y mediciones del terreno, relieve y formas del terreno de la superficie de la tierra, los planetas y las lunas                                                                                                                                                                                                                                                                                                                                                                |
 | [Reseña](https://definicion.com/resena-historica/)                                                                                     | Se denomina así al escrito que se usa para informar sobre algo al mismo tiempo que lo valora. Una de sus características principales es que, una reseña, describe y emite un juicio sobre una obra, un fenómeno o una situación; ya sea a favor o en contra de la misma. Como valoración de algo, la reseña es puramente descriptiva y siempre está acompañada de argumentos sólidos. En este sentido, es un modo de presentar o evaluar un objeto o una situación, de manera crítica. |
 | [Histórica](https://definicion.com/resena-historica/)                                                                                  | Palabra relativa a historia, por tanto, refiere a algo que ha tenido existencia en el pasado reciente o lejano y que, además, se caracteriza por haber sido algo real y comprobado. Generalmente, abarca un periodo de tiempo, el cual se describe y se analiza.                                                                                                                                                                                                                       |
-|                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 
 ## 5. Extensiones y tipos de archivos
@@ -309,11 +307,13 @@ Cálculo de propiedades geométricas
 * Límite sur en grados decimales: `y_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
 
 
-_R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](LICENSE.md)._
+##
+
+_R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
-| [:house: Inicio](README.md) |
-|-----------------------------|
+| [:house: Inicio](../../README.md) |
+|-----------------------------------|
 
 [^1]: https://github.com/ikatyang/emoji-cheat-sheet
