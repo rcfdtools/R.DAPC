@@ -86,13 +86,13 @@ Como observa en la figura, el nodo de origen del triángulo se encuentra alinead
 
 <div align="center"><img src="graph/AutoCAD_UCS1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Desde el _Command_, ejecute el comando **UCS**, seleccione el nodo superior del triángulo para mover el orígen, luego el nodo derecho para rotar el sistema de coordenadas y oprima `enter` para completar.
+2. Desde el _Command_, ejecute el comando **UCS**, seleccione el nodo superior del triángulo para mover el origen, luego el nodo derecho para rotar el sistema de coordenadas y oprima `enter` para completar.
 
 > Es necesario activar las opciones de encajado u **OSNAP**, oprima la tecla de función `F3`.
 
 <div align="center"><img src="graph/AutoCAD_UCS2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Observe que el orígen y la rotación de la grilla de referencia han cambiado.
+Observe que el origen y la rotación de la grilla de referencia han cambiado.
 
 <div align="center"><img src="graph/AutoCAD_UCS3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -104,7 +104,7 @@ Observe que el orígen y la rotación de la grilla de referencia han cambiado.
 
 <div align="center"><img src="graph/AutoCAD_UCS5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-5. Para restablecer el orígen absoluto de coordenadas, en el _Command_, ingrese el comando **UCS** y seleccione la opción **W**orld.
+5. Para restablecer el origen absoluto de coordenadas, en el _Command_, ingrese el comando **UCS** y seleccione la opción **W**orld.
 
 <div align="center"><img src="graph/AutoCAD_UCS6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -113,7 +113,7 @@ Observe que el orígen y la rotación de la grilla de referencia han cambiado.
 
 En AutoCAD, una polilínea es una entidad de dibujo compuesta por segmentos de línea o arco que se consideran un único objeto. Esto significa que puedes seleccionar, editar o manipular la polilínea como un todo, en lugar de tratar cada segmento individualmente. El comando genérico para su creación es **PLINE** o su creación puede ser iniciada desde el menú _Home_ en el grupo _Draw_.
 
-1. Utilizando las coordenadas de la figura asimétrica creada en el ejercicio [M01A00E01](../M01A00), creemos una polilínea con orígen absoluto en (200,0). Una ver completada la creación, active desde la barra inferior la visualización rápida de propiedades o ejecute el comando **QPMODE**, seleccione la polílinea y consulte sus propiedades. Podrá observar que se ha calculado automáticamente el área y el perímetro de la figura y que se indica que la polilinea está abierta.
+1. Utilizando las coordenadas de la figura asimétrica creada en el ejercicio [M01A00E01](../M01A00), creemos una polilínea con origen absoluto en (200,0). Una vez completada la creación, active desde la barra inferior la visualización rápida de propiedades o ejecute el comando **QPMODE**, seleccione la polílinea y consulte sus propiedades. Podrá observar que se ha calculado automáticamente el área y el perímetro de la figura y que se indica que la polilinea está abierta.
 
 > Para visualizar campos adicionales en la ventana flotante de propiedades rápidas, de clic en el piñon de la ventana y agregue los campos deseados.
 
@@ -215,7 +215,7 @@ Cómo observa, el punto es difícilmente visible en el espacio de trabajo, para 
 
 <div align="center"><img src="graph/AutoCAD_POINT1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-2. Creemos ahora manualmente una nube de puntos separados cada 10 metros, con orígen en la coordenada absoluta (0,130), con 30 repeticiones en la horizontal o eje X y 20 repeticiones en la vertical o eje Y. Para ello, cree primero un punto en la coordenada indicada. `POINT 0,130`, luego seleccione el punto, ahora seleccione la herramienta _Home / Modify / Rectangular Array_ o el comando **ARRAY** (se abrirá una nueva cinta de opciones denominada Array Creation) definiendo las separaciones requeridas, para finalizar de clic en _Close Array_.
+2. Creemos ahora manualmente una nube de puntos separados cada 10 metros, con origen en la coordenada absoluta (0,130), con 30 repeticiones en la horizontal o eje X y 20 repeticiones en la vertical o eje Y. Para ello, cree primero un punto en la coordenada indicada. `POINT 0,130`, luego seleccione el punto, ahora seleccione la herramienta _Home / Modify / Rectangular Array_ o el comando **ARRAY** (se abrirá una nueva cinta de opciones denominada Array Creation) definiendo las separaciones requeridas, para finalizar de clic en _Close Array_.
 
 <div align="center"><img src="graph/AutoCAD_ARRAYRECT.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
