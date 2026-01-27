@@ -31,6 +31,20 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 > 
 > Acorde con el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
 
+**Directrices para Quices**
+
+* La duración se indica en clase al inicio del quiz.
+* Se permite la apertura de la guía de clase en el navegador de Internet.
+* Se presenta presencial e individualmente en el horario de clase.
+* Se permite realizar consultas al profesor, por cada consulta se descontarán 5 décimas.
+* El quiz solo será válido sí se desarrolla en el aula de clase.
+* Quices CAD solo serán válidos si la figura se dibuja en el punto de origen indicado y con las dimensiones solicitadas.
+* En quices CAD, por cada error de dibujo serán descotadas 5 décimas.
+* El quiz solo será válido sí registra sus respuestas en Forms y envía por correo electrónico los adjuntos solicitador.
+* No se admite presentación extemporánea.
+* No se permite el uso de ninguna aplicación de mensajería instantánea.
+* No se permite hablar con otros estudiantes durante el quiz, este sera anulado.
+
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
 
