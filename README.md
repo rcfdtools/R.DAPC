@@ -12,14 +12,16 @@ La ingeniería eléctrica contemporánea implica un trabajo multidisciplinario q
 
 El contenido del curso está dirigido a estudiantes de pregrado que se encuentren cursando estudios de ingeniería eléctrica. Como prerrequisito, los estudiantes requieren de conocimientos básicos en programación de computadores.
 
-**Metodología académica**
+
+### Metodología académica
 
 * Mediante el desarrollo de talleres prácticos, presentar a los participantes, diferentes conceptos y aplicaciones del dibujo asistido por computador en la ingeniería.
 * Al inicio de cada clase, el instructor realizará una presentación y demostración general de los conceptos y las herramientas computacionales a utilizar y luego los estudiantes desarrollarán los contenidos de cada taller, actividad o ejercicio.
 * Proyecto de clase (opcional no calificable): se desarrolla en grupos aplicando los conocimientos y habilidades adquiridos en los talleres prácticos; consta de 3 componentes: [CAD](activity/M01A06/Readme.md), [GIS](activity/M02A04/Readme.md) y [BIM](activity/M03A05/Readme.md).
 * Antes de cada clase, es recomendable que los participantes den lectura a las guías de clase para así comprender mejor las explicaciones recibidas en aula.
 
-**Evaluación**
+
+### Evaluación
 
 La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias o habilidades desarrolladas. Las calificaciones de los estudiantes como expresión cuantitativa de la evaluación del aprendizaje, considera tres calificaciones, una por cada tercio con los siguientes porcentajes: primer tercio 30%, segundo tercio 30% y tercer tercio 40%.
 
@@ -31,9 +33,10 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 > 
 > Acorde con el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
 
-**Directrices para Quices**
 
-* La duración se indica en clase al inicio del quiz.
+### Directrices para quices y exámenes
+
+* La duración es indicada en clase al inicio de la prueba técnica.
 * Se permite la apertura de la guía de clase en el navegador de Internet.
 * Se presenta presencial e individualmente en el horario de clase.
 * Se permite realizar consultas al profesor, por cada consulta se descontarán 5 décimas.
