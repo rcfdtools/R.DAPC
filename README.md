@@ -1,4 +1,4 @@
-<div align="center"><img alt="R.TSIG" src="file/graph/R.DAPC.svg" width="220px"><br><i>COURSE - Computer aided drawing in engineering - DAPC</i></div>
+<div align="center"><img alt="R.TSIG" src="file/graph/R.DAPC.svg" width="220px"><br><i>COURSE - Computer aided drawing in engineering</i></div>
 
 # CURSO: Dibujo asistido por computador en ingeniería - DAPC
 Keywords: `cad` `computed-aidded-design` `autodesk` `autocad` `revit` `bim` `qgis` `mapping-system`
