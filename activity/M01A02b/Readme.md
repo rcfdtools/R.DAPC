@@ -230,7 +230,7 @@ Cómo observa, el punto es difícilmente visible en el espacio de trabajo, para 
 > Los puntos creados podrán ser usados como referencia para crear otras entidades.
 
 
-## 7. Trazado de espirales
+## 7. Trazado de B-splines (NURBS)
 
 Este tipo de líneas, permiten trazar curvas sin arcos circulares ajustándose o inscribiéndose en los nodos de una entidad.
 
@@ -251,7 +251,7 @@ Complementariamente, desde las opciones del _Command_, podrá definir el grado d
 <div align="center"><img src="graph/AutoCAD_SPLINE2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 8. Creación de donut y hélice
+## 8. Creación de donut y espirales o hélices
 
 La Donut, es un tipo de objeto que permite crear una falsa superficie en forma de arandela, al ser explotada se convierte en dos semicircunferencias que describen su eje central.
 
