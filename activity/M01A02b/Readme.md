@@ -360,7 +360,7 @@ Especificaciones adicionales:
 
 * Para las líneas constructivas, utilice un escalado de líneas o **LTSCALE** en 0.05.
 * En el mismo dibujo, cree copias de la figura creada a escalas 0.5:1, 2:1 y 5:1.
-* Utilizando la herramienta de dibujo **ELLIPSE** para círculos isométricos, trace una de las elipses creadas, calcule y compare su área con respecto a las trazadas manualmente.
+* Utilizando la herramienta de dibujo **ELLIPSE** para círculos isométricos (que únicamente puede ser seleccionadas desde el Command al ingresar el comando), trace una de las elipses creadas, calcule y compare su área con respecto a las trazadas manualmente.
 
 <div align="center"><img src="graph/M01A02bE01.jpg" alt="R.DAPC" width="30%" border="0" /><br><sub>Adaptado de: Dibujo Técnico I - Anaya (pág. 80)</sub></div>
 
