@@ -471,4 +471,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [◄ Anterior](../M02A01b/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente ►](../M02A02b/Readme.md) |
 |----------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------|
 
-[^1]: 
+[^1]: Lineamientos para el uso de información geográfica en el desarrollo del componente rural de los Planes de Ordenamiento Territorial
