@@ -1,4 +1,4 @@
-<sub><i>CURSO: Dibujo asistido por computador en ingeniería - DAPC</i></sub>
+<i>CURSO: Dibujo asistido por computador en ingeniería - DAPC</i>
 
 # 1.2.c. Elementos básicos de dibujo / Curvas especiales
 Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `trigonometric-function` `mirror` `m01a02c`
