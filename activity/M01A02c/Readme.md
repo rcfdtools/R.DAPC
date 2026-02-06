@@ -42,7 +42,7 @@ Métodos de dibujo en AutoCAD:
 * Nodos de extremo de eje mayor, nodo semieje menor.
 * Arco elíptico con nodos de extremo de eje mayor, nodo semieje menor, nodo inicio arco, nodo fin arco.
 
-La ecuación general de una elipse horizontal o vertical con centro en (0,0) es:
+La ecuación general de una elipse horizontal o vertical con centro en (h,k) es:
 
 <div align="center"><img src="graph/EcuacionElipse0.jpg" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: https://www.fisimat.com.mx/ecuacion-de-la-elipse-con-centro-fuera-del-origen/</sub></div>
 
@@ -65,6 +65,8 @@ Donde
 * b: longitud del semieje menor.
 
 > Los focos se ubican en el eje mayor. Si la elipse es horizontal, los focos están en (h ± c, k); si es vertical, están en (h, k ± c). 
+
+La excentricidad _e_ de una elipse es un parámetro numérico que mide cuánto se desvía su forma de una circunferencia perfecta, definiéndose como el cociente entre la semidistancia focal _c_ y la longitud del semieje mayor _a_, expresado como _e=c/a_. Su valor siempre oscila entre 0 y 1 (0 ≤ e < 1); cuanto más cercano a 0, más circular es, y cuanto más cerca de 1, más plana o alargada se vuelve.
 
 1. Para el dibujo manual en AutoCAD de las polilíneas por cuadrante que describen una elipse a partir de coordenadas o nodos, crearemos la siguiente hoja de Excel:
 
