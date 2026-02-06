@@ -174,7 +174,7 @@ Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos ci
 
 <div align="center"><img src="graph/AutoCAD_Ovoide2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Para el dibujo de un _ovoide dado el eje mayor y el eje menor_, utilice como mayor valor una longitud igual al dígito de alumno **SDig** y como valor menor una longitud de 5/8 con respecto al valor anterior.
+3. Para el dibujo de un _ovoide dado el eje mayor y el eje menor_, utilice como mayor valor una longitud igual al dígito de alumno **SDig** y como valor menor una longitud de 5/8 con respecto al valor anterior. Localice el eje menor a 2/5 del extremo superior del eje mayor.
 
 <div align="center"><img src="graph/AutoCAD_Ovoide3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
