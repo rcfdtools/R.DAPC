@@ -1,3 +1,5 @@
+<img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px">
+
 # 1.2.a. Elementos básicos de dibujo / Creación de capas o layers
 Keywords: `aia` `nibs` `iso-13567` `layer` `layer-freeze` `layer-set-current` `layer-on` `layer-delete` `lwdisplay` `laydel` `m01a02a`
 
