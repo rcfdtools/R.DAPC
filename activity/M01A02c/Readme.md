@@ -110,6 +110,7 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 
 <div align="center"><img src="graph/AutoCAD_Elipse5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+
 > :bulb: Para convertir las polilíneas trazadas a partir de los nodos de Excel en una curva cerrada similar a la elipse, con el comando **JOIN** una las 4 líneas, luego con el comando **PLINE** cierre la polilínea y desde el mismo comando ejecute **F**it.
 
 
@@ -146,7 +147,7 @@ Trace las líneas constructivas y dibuje óvalos en AutoCAD a partir de arcos ci
 <div align="center"><img src="graph/AutoCAD_Ovalo3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-## 2. Ovoide [^2]
+## 3. Ovoide [^2]
 
 El término ovoide hace referencia a una forma geométrica convexa y redondeada, que se asemeja al perfil de un huevo de ave en su sentido más amplio.
 
