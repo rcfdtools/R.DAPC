@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 2.3.c. Mapas e imágenes / Análisis de potencial energético usando ERA5 Land Monthly
 Keywords:  `era5` `ssr` `u10` `v10` `m02a03c`
 

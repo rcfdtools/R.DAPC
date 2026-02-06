@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 3.3.b. Creación y manipulación de elementos en Revit - Arquitectónico
 Keywords:  `revit` `bim` `wall` `stair` `roof` `door` `window` `m03a03b`
 

@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 1.6. Proyecto de dibujo asistido por computadora con Autodesk AutoCAD
 Keywords: `final-project` `industrial-transformer`  `m01a06`
 

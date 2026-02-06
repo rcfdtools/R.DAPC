@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 2.1.b. Conceptos aplicados / Análisis de luminarias por UPZ en Bogotá D.C.
 Keywords: `electrical-ilumination` `upz` `bogota` `energy` `hydraulic-energy` `eolic-energy` `solar-energy` `shapefile` `m02a01b`
 

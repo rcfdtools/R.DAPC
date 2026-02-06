@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 1.5. Layout e Impresión
 Keywords: `mview` `print` `zoom` `scale` `mvsetup` `block` `field` `m01a05`
 

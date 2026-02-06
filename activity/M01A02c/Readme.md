@@ -1,4 +1,4 @@
-<img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px">  
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
 
 # 1.2.c. Elementos básicos de dibujo / Curvas especiales
 Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `trigonometric-function` `mirror` `m01a02c`

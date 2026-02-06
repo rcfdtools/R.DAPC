@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 3.2. Herramientas para la aplicación de la metodología BIM. Introducción al software Revit
 Keywords:  `revit` `bim` `units` `options` `levels` `link-cad` `import-cad` `m03a02`
 

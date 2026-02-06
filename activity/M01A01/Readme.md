@@ -1,4 +1,4 @@
-<img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px">
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
 
 # :large_blue_circle:Módulo 1: Dibujo asistido por computadora con AutoCAD
 

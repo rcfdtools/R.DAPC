@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 1.2.d. Dibujo en 3D
 Keywords: `box` `cylinder` `cone` `sphere` `pyramid` `wedge` `torus` `extrude` `loft` `revolve` `sweep` `shell` `fillet-edge` `3d-rotate` `massprop` `area-object` `m01a2d`
 

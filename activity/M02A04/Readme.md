@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 2.4. Proyecto de sistemas de información geográfica - GIS
 Keywords:  `gis` `buffer` `2d` `3d` `powerline` `m02a04`
 

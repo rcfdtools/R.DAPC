@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 1.2.b. Elementos básicos de dibujo / UCS y Geometrías
 Keywords: `polyline` `circle` `arc` `ellipse` `rectangle` `polygon` `point` `spline` `donut` `helix` `xline` `fillet` `chamfer` `array` `mirror` `offset` `trim` `array` `qpmode` `ltscale` `selectioncycling` `m01a02b`
 

@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 2.2.a. Definición y edición de elementos / Digitalización de campus
 Keywords:  `shapefile` `new_layer` `land_index` `buffer` `point` `line` `polygon` `m02a02a`
 

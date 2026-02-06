@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 3.3.a. Creación y manipulación de elementos en Revit - Estructural 
 Keywords:  `revit` `bim` `axe` `structure` `columns` `beams` `structural-framing` `floor` `slab` `m03a03a`
 

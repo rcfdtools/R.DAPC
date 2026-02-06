@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 2.2.b. Definición y edición de elementos / Potencial fotovoltáico campus
 Keywords:  `photovoltaic` `solar-panel` `m02a02b`
 

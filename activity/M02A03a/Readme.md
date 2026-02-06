@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 2.3.a. Mapas e imágenes / Red de interconexión energética nacional 2D y aislamientos RETIE
 Keywords: `study-zone` `powerline-offset` `m02a03a`
 

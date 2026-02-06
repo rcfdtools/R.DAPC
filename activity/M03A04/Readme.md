@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 3.4. Familias de Revit - Eléctrico
 Keywords:  `bim` `discipline` `categories` `families` `type` `2d` `3d` `electrical` `m03a04`
 

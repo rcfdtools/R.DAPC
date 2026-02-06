@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 1.4. Textos, anotaciones y dimensionamiento
 Keywords: `style` `dtext` `text` `mtext` `txt2mtxt` `dimstyle` `dim` `realigment`  `m01a04`
 

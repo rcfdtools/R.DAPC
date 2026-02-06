@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="46px"></div>
+
 # 1.3. Bloques - Achurados- Viewports
 Keywords: `block` `dynamic-block` `resetblock` `hatch` `solid` `vports` `mview` `pspace` `vplayer` `join` `copy` `rename` `adc` `m01a03`
 
