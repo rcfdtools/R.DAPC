@@ -183,7 +183,7 @@ Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos ci
 
 ### Ejercicio M01A02cE03
 
-**Parte A**: utilizando los conceptos aprendidos acerca de óvalos, cree un libro formulado en Excel para el trazado de una superelipse, el tamaño y localización de la figura es de libre elección. Guarde el dibujo como _/file/cad/**M01A02cE03A**.dwg_.
+**Parte A**: utilizando los conceptos aprendidos acerca de elipses, cree un libro formulado en Excel para el trazado de una superelipse con el tamaño de un campo deportivo de 105 x 68 metros y localización en 0,0. Guarde el dibujo como _/file/cad/**M01A02cE03A**.dwg_.
 
 Ecuación Superelipse
 
