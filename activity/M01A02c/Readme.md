@@ -183,7 +183,7 @@ Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos ci
 
 ### Ejercicio M01A02cE03
 
-**Parte A**: utilizando los conceptos aprendidos acerca de elipses, cree un libro formulado en Excel para el trazado de una superelipse con factor de forma 4, con el tamaño de un campo deportivo de 105 x 68 metros y localización en 0,0. Guarde el dibujo como _/file/cad/**M01A02cE03A**.dwg_.
+**Parte A**: utilizando los conceptos aprendidos acerca de elipses, cree un libro formulado en Excel para el trazado de una superelipse con factor de forma 4, con el tamaño de un campo deportivo de 105 x 68 metros y localización en 0,0, luego cree una paralela externa a 20 metros para la zona de gradas. Guarde el dibujo como _/file/cad/**M01A02cE03A**.dwg_.
 
 Ecuación Superelipse
 
