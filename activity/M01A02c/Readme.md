@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.DAPC.svg" height="32px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="32px"></div>
 <div align="center"><sub><i>CURSO: Dibujo asistido por computador en ingeniería - DAPC</i></sub></div>
 
 # 1.2.c. Elementos básicos de dibujo / Curvas especiales
