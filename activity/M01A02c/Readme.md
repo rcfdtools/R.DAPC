@@ -1,5 +1,3 @@
-<div align="left" style="vertical-align: middle;"><img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="32px"><sub><i>CURSO: Dibujo asistido por computador en ingeniería - DAPC</i></sub></div>
-
 # <img alt="rcfdtools" src="../../file/graph/R.DAPC.svg" height="32px"> 1.2.c. Elementos básicos de dibujo / Curvas especiales
 Keywords: `ellipse` `parabola` `hyperbola` `clothoid` `trigonometric-function` `mirror` `m01a02c`
 
