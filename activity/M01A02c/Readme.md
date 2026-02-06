@@ -4,7 +4,7 @@
     <div style="width:50%; float:left;">
         Left Div Content
     </div>
-    <div style="width:50%; float:left;">
+    <div style="width:50%; float:right;">
         Right Div Content
     </div>
 </div>
