@@ -491,18 +491,18 @@ En AutoCAD, una capa (o layer) es una herramienta de organización que permite a
 
 El listado presentado en el numeral anterior, no incluye las siguientes sub-capas genéricas cero (0), debido a que no se encuentran en el catálogo AIA:
 
-| Layer - name    | Disciplina  | Capa - Descripción                 | CAD Color | CAD Linetype                        | CAD Lineweight |
-|:----------------|-------------|:-----------------------------------|:---------:|:------------------------------------|:--------------:|
-| 0-Annotation    | (genérica)  | Textos de anotación                |    251    | Continuous                          |    Default     |
-| 0-Axe           | (genérica)  | Ejes                               |    43     | ACAD_ISO04W100 (ISO long-dash dot)  |      0.25      |
-| 0-CrossSection  | (genérica)  | Cortes y/o secciones tranversales  |    113    | Continuous                          |      0.18      |
-| 0-Dimension     | (genérica)  | Dimensiones o acotados             |    92     | Continuous                          |    Default     |
-| 0-Grid          | (genérica)  | Grilla o retícula de impresión     |    254    | Continuous                          |      0.15      |
-| 0-Hatch         | (genérica)  | Achurado o sombreado               |    251    | Continuous                          |      0.00      |
-| 0-Object        | (genérica)  | Objetos de dibujo                  |   white   | Continuous                          |      0.30      |
-| 0-Profile       | (genérica)  | Perfil longitudinal                |    113    | Continuous                          |      0.18      |
-| 0-Sketch        | (genérica)  | Lineas constructivas               |    20     | ACAD_ISO02W100 (ISO dash)           |    Default     |
-| 0-Text          | (genérica)  | Textos descriptivos                |   cyan    | Continuous                          |      0.20      |
+| Layer - name   | Disciplina  | Capa - Descripción                 | CAD Color | CAD Linetype                        | CAD Lineweight |
+|:---------------|-------------|:-----------------------------------|:---------:|:------------------------------------|:--------------:|
+| 0-Annotation   | (genérica)  | Textos de anotación                |    251    | Continuous                          |    Default     |
+| 0-Axis         | (genérica)  | Ejes                               |    43     | ACAD_ISO04W100 (ISO long-dash dot)  |      0.25      |
+| 0-CrossSection | (genérica)  | Cortes y/o secciones tranversales  |    113    | Continuous                          |      0.18      |
+| 0-Dimension    | (genérica)  | Dimensiones o acotados             |    92     | Continuous                          |    Default     |
+| 0-Grid         | (genérica)  | Grilla o retícula de impresión     |    254    | Continuous                          |      0.15      |
+| 0-Hatch        | (genérica)  | Achurado o sombreado               |    251    | Continuous                          |      0.00      |
+| 0-Object       | (genérica)  | Objetos de dibujo                  |   white   | Continuous                          |      0.30      |
+| 0-Profile      | (genérica)  | Perfil longitudinal                |    113    | Continuous                          |      0.18      |
+| 0-Sketch       | (genérica)  | Lineas constructivas               |    20     | ACAD_ISO02W100 (ISO dash)           |    Default     |
+| 0-Text         | (genérica)  | Textos descriptivos                |   cyan    | Continuous                          |      0.20      |
 
 1. Cree un nuevo dibujo usando la plantilla métrica _acadiso.dwt_, guarde como _/file/cad/M01A02a.dwg_ y con el comando _UNITS_, establezca longitud tipo _Decimal_, ángulos en _grados decimales_, precisiones en 2 decimales y unidades de escala de contenido insertado en _metros_. En el menú _Home_, seleccione en la pestaña _Layers_ la opción _Layer Properties_ o en el _Command_ ingrese el comando _**LAYER**_. Como observa, por defecto se ha creado la capa cero (0) en color blanco, con tipo de línea contínua, ancho por defecto y sin transparencia (valor de 0 a 100, donde 100 es completamente transparente).
 
