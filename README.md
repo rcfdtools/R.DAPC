@@ -68,13 +68,15 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 </div>
 
-**Configuración regional**
+**Configuración regional en ingeniería para Sistemas Operativos y Aplicaciones**
 
 En _Microsoft Windows / Panel de control / Region / Formats / Additional settings..._, establezca:
 
 * Símbolo decimal (Decimal symbol): punto (.)
 * Símbolo de agrupación de miles (Digit grouping symbol): coma (,)
 * Separador de listas (List separator): coma (,)
+
+Para la correcta utilización de los libros de Microsoft Excel suministrados o construídos en el curso, en el menú _Archivo / Opciones / Avanzado / Opciones de Edición_, desmarque la casilla de _Uso de Separadores del Sistema_ y establezca punto (,) como separador decimal y coma (,) como separador de miles. 
 
 
 ## :large_blue_circle:Módulo 1: Dibujo asistido por computadora con AutoCAD
