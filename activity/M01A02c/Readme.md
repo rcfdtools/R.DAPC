@@ -34,7 +34,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > La elección de las coordenadas del centroide (X,Y) o el punto de referencia de dibujo de cada figura es libre.
 
 
-## 1. Elipse
+## 1. Elipse y Superelipse
 
 Como vimos en la actividad anterior, el dibujo de la elipse es especialmente útil en la representación de circunferencias en figuras isométricas. Si bien AutoCAD permite dibujar elipses por 3 métodos diferentes, es importante conocer los parámetros que permiten su trazado.
 
@@ -125,6 +125,19 @@ Especificaciones:
 * Semiejes: la longitud del semieje mayor o _a_, corresponde al dígito de alumno **SDig**; la longitud del semieje menor o b, corresponde al 35% de la longitud del semieje mayor.
 
 
+### Ejercicio M01A02cE03
+
+**Parte A**: utilizando los conceptos aprendidos acerca de elipses, cree un libro formulado en Excel para el trazado de una superelipse con factor de forma 4, con el tamaño de un campo deportivo de 105 x 68 metros y localización en 0,0, luego cree una paralela externa a 20 metros para la zona de gradas. Guarde el dibujo como _/file/cad/**M01A02cE03A**.dwg_.
+
+Ecuación Superelipse
+
+<div align="center"><img src="graph/EcuacionSuperelipse.svg" alt="R.DAPC" width="15%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
+
+<div align="center"><img src="graph/Superelipse.png" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
+
+**Parte B**: investigue la forma geométrica que tienen las pistas de atletismo y realice el trazado de su contorno interno en AutoCAD, luego y utilizando la herramienta **OFFSET**, trace 8 líneas paralelas externas con separación a 1.22 metros y ejes a 0.61 metros que le permitirán obtener 8 carriles, calcule la longitud de sus ejes centrales. Guarde el dibujo como _/file/cad/**M01A02cE03B**.dwg_.
+
+
 ## 2. Óvalo [^1]
 
 Curva cerrada, con la convexidad vuelta siempre a la parte de afuera, de forma parecida a la de la elipse, y simétrica respecto de uno o de dos ejes. La ecuación general del óvalo corresponde a:
@@ -182,18 +195,6 @@ Trace las líneas constructivas y dibuje ovoides en AutoCAD a partir de arcos ci
 
 > Para la evaluación del trazado de esta figura, utilice las coordenadas absolutas de localización y dimensiones indicadas por el instructor.
 
-
-### Ejercicio M01A02cE03
-
-**Parte A**: utilizando los conceptos aprendidos acerca de elipses, cree un libro formulado en Excel para el trazado de una superelipse con factor de forma 4, con el tamaño de un campo deportivo de 105 x 68 metros y localización en 0,0, luego cree una paralela externa a 20 metros para la zona de gradas. Guarde el dibujo como _/file/cad/**M01A02cE03A**.dwg_.
-
-Ecuación Superelipse
-
-<div align="center"><img src="graph/EcuacionSuperelipse.svg" alt="R.DAPC" width="15%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
-
-<div align="center"><img src="graph/Superelipse.png" alt="R.DAPC" width="45%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/%C3%93valo</sub></div>
-
-**Parte B**: investigue la forma geométrica que tienen las pistas de atletismo y realice el trazado de su contorno interno en AutoCAD, luego y utilizando la herramienta **OFFSET**, trace 8 líneas paralelas externas con separación a 1.22 metros y ejes a 0.61 metros que le permitirán obtener 8 carriles, calcule la longitud de sus ejes centrales. Guarde el dibujo como _/file/cad/**M01A02cE03B**.dwg_.
 
 
 ## 4. Parábola [^3]
