@@ -5,7 +5,7 @@ Keywords: `mview` `print` `zoom` `scale` `mvsetup` `block` `field` `m01a05`
 
 Creación de plantillas. Espacio papel y espacio modelo. Asignación de escala. Configuración de impresora y trazadores (plotter). Configuración del trazado. Impresión. Comandos MVSETUP, PRINT, ZOOM, SCALE.                                           
 
-<div align="center"><img src="graph/M01A05.jpg" alt="R.DAPC" width="90%" border="0" /></div>
+<div align="center"><img src="graph/M01A05.jpg" alt="rcfdtools" width="90%" border="0" /></div>
 
 
 ## Objetivos
@@ -42,13 +42,13 @@ Los tamaños, formatos de papel, están regulados por la norma de estandarizaci�
 
 Para identificación de los tamaños debemos tener en cuenta que cada formato de mayor orden, es la mitad del anterior, es decir, ISO A5 (DIN A5) es la mitad de la ISO A4 (DIN A4). De la misma forma, la ISO A3 (DIN A3) es el doble de la ISO A4 (DIN A4). Al conjunto de estos tamaños se le llama serie A. 
 
-<div align="center"><img src="graph/ISO_APaperSize.png" alt="R.DAPC" width="30%" border="0" /><br><sub>Tomado de: /www.lehighprint.us</sub></div><br>
+<div align="center"><img src="graph/ISO_APaperSize.png" alt="rcfdtools" width="30%" border="0" /><br><sub>Tomado de: /www.lehighprint.us</sub></div><br>
 
 > Tenga en cuenta que en el mundo existen diferentes tamaños estándar de papel para impresión y que el más utilizado es el [ISO](https://www.iso.org/) estándar y sus diferentes variaciones, también existen los [ANSI](https://www.ansi.org/) y los ARCH, p. ej., ISO A, ISO B, N. American ANSI y N. American ARCH or Architectural.[^2]
 
 De acuerdo a la Norma Técnica Colombiana NTC-1687 del 2003 de Dibujo técnico para formato y plegado de planos técnicos, los tamaños estándar de hoja, tamaño de rótulo y márgenes en milímetros son:
 
-<div align="center"><img src="graph/NTC1687_Formato.jpg" alt="R.DAPC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/NTC1687_Formato.jpg" alt="rcfdtools" width="70%" border="0" /></div>
 
 La disposición de la caja de rotulado, será la parte inferior de la hoja de impresión en el caso del formato ISO A4, y en la parte inferior derecha para el resto de formatos.
 
@@ -56,12 +56,12 @@ La disposición de la caja de rotulado, será la parte inferior de la hoja de im
 
 Para el desarrollo del curso DAPC, utilizaremos como referencia los siguientes formatos:
 
-<div align="center">Rótulo papel A4 - Formato vertical<br><img src="graph/NTC1687_RotuloVertical.jpg" alt="R.DAPC" width="90%" border="0" /></div>
-<div align="center">Rótulo papel A4 - Formato horizontal<br><img src="graph/NTC1687_RotuloHorizontal.jpg" alt="R.DAPC" width="90%" border="0" /></div>
+<div align="center">Rótulo papel A4 - Formato vertical<br><img src="graph/NTC1687_RotuloVertical.jpg" alt="rcfdtools" width="90%" border="0" /></div>
+<div align="center">Rótulo papel A4 - Formato horizontal<br><img src="graph/NTC1687_RotuloHorizontal.jpg" alt="rcfdtools" width="90%" border="0" /></div>
 
 1. En AutoCAD, cree una copia del archivo _/file/cad/M01A04.dwg_ que contiene la configuración de Layers y dimensiones establecida en actividades anteriores, y guarde como _/file/cad/M01A05.dwg_. Con el comando **UNITS**, verifique que las unidades de dibujo han sido establecidas en milímetros. Conserve como ejemplo la figura acotada y el rótulo que contiene los campos de área y perímetro.
 
-<div align="center"><img src="graph/AutoCAD_Layout1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 2. Desde la barra de estado, elimine los Layout existentes en el dibujo y cree uno nuevo con el nombre _A4-Vertical_. Elimine la ventana a la vista del modelo y desde las propiedades del _Layout_ creado y la opción _Page Setup Manager_, establezca las siguientes especificaciones:
 
@@ -71,54 +71,54 @@ Para el desarrollo del curso DAPC, utilizaremos como referencia los siguientes f
 * Plot style table: monochrome.pctb.
 * Drawing orientation: Portrait.
 
-<div align="center"><img src="graph/AutoCAD_Layout2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 3. Utilizando las herramientas de dibujo y sobre la capa cero (0), cree un polígono de 185 x 287 milímetros de ancho y alto con orígen en la coordenada absoluta (20,5). Estos valores ya contienen las márgenes de reborde definidas en la norma NTC-1687. Observará que el recuadro ha sido creado centrado horizontalmente y a la margen izquierda requerida de 20 milímetros.
 
 > El orígen de coordenadas absoluto del espacio de papel corresponde a la esquina inferior izquierda y el punto de orígen del recuadro del marco de impresión, debe ser localizado a partir de las márgenes.
 
-<div align="center"><img src="graph/AutoCAD_Layout3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout3.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 4. Con el comando **OFFSET** o con el comando **COPY** / **A**rray, dibuje líneas paralelas a la línea inferior, utilizando como referencia las dimensiones establecidas para el rótulo vertical.
 
-<div align="center"><img src="graph/AutoCAD_Layout4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout4.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 5. Utilizando el comando **TRIM**, recorte las líneas internas que delimitan las zonas del rótulo. Luego incluya los textos de una línea requeridos para cada elemento, utilice tamaño de 1.5 mm para textos secundarios y 2 mm para los principales. Desde la ventana de propiedades, ajuste los grosores de las líneas internas a 0.18 mm y externa del marco principal a 0.4 mm.
 
 > Para garantizar que todos los rótulos se ubiquen a la misma distancia de los bordes, cree un texto con orígen en la coordenada absoluta (22.25,7.25).
 
-<div align="center"><img src="graph/AutoCAD_Layout5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout5.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 6. Copie y pegue el array de texto utilizando como referencia los anchos de las columnas establecidas.
 
-<div align="center"><img src="graph/AutoCAD_Layout6.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout6.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 7. Con el comando **EXPLODE**, separe los arrays, elimine y modifique los textos requeridos.
 
-<div align="center"><img src="graph/AutoCAD_Layout7.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout7.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 8. Para la creación de los campos de atributos que el dibujante diligenciará durante el proceso de elaboración del plano, desde el menú _Insert / Block Definition / Define Attributes_, cree uno a uno los atributos requeridos y localícelos por encajado en los puntos de inserción de los textos usados como referencia a partir del array. Utilice texto multilínea para `ID-EMPRESA` e `ID-TITULO`.
 
 > Para que al insertar el rótulo este solicite los atributos del rótulo, al menos uno de los atributos definidos no sebe ser definido con un valor o texto por defecto.
 
-<div align="center"><img src="graph/AutoCAD_Layout8.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-<div align="center"><img src="graph/AutoCAD_Layout9.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout8.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout9.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 9. Una vez comprobada la localización de los elementos del rótulo y los atributos requeridos, guarde los cambios realizados en el dibujo y luego desde el botón de AutoCAD, guarde el archivo en la carpeta de bloque como _/file/cad/block/BloquesFormatoA4Vertical.dwg_. Copie todos los objetos del espacio de impresión o el layout _A4-Vertical_, al espacio de modelado, luego elimine el layout. Utilizando el menú _Insert / Block Definition / Set Base Point_, establezca la esquina inferior izquierda del rótulo como punto de inserción y guarde el archivo.
 
-<div align="center"><img src="graph/AutoCAD_Layout10.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout10.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 Cierre el archivo del bloque.
 
 10. Abra nuevamente el archivo _/file/cad/M01A05.dwg_ y elimine todos los objetos contenidos en la ventana del layout A4-Vertical. Desde el menú _Insert / Block / Recent Blocks_, inserte el archivo _/file/cad/block/BloquesFormatoA4Vertical.dwg_, como punto de inserción establezca la coordenada (20,5) correspondientes a la esquina inferior del rótulo de acuerdo a las márgenes establecidas previamente.
 
-<div align="center"><img src="graph/AutoCAD_Layout11.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-<div align="center"><img src="graph/AutoCAD_Layout12.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout11.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout12.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 12. Una vez definido el punto de inserción, AutoCAD solicitará el diligenciamiento de los atributos del rótulo a partir de los campos definidos.
 
-<div align="center"><img src="graph/AutoCAD_Layout13.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-<div align="center"><img src="graph/AutoCAD_Layout14.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout13.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout14.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 > Desde ahora, cada vez que requiera insertar el rótulo en cualquier dibujo, podrá hacerlo utilizando este archivo de bloque.
 
@@ -129,22 +129,22 @@ Cómo actividad complementaria, a partir del rótulo vertical, cree el rótulo h
 
 1. Utilizando el comando **MVIEW** o desde el menú _Layout / Layout Viewports_, inserte en la capa cero (0), una ventana de impresión del espacio de modelado. Establezca por encajado las esquinas superior izquierda e inferior derecha del área útil del rótulo. Observará que automáticamente se ha escalado el dibujo del espacio del modelo al espacio de impresión. Opcionalmente y con el comando **ZOOM**, podrá acercarse a diferentes zonas del dibujo para verificar el grosor correcto de las plumas de impresión.
 
-<div align="center"><img src="graph/AutoCAD_Layout15.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout15.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 2. Desde las propiedades de la ventana de layout, establezca una escala de 1:1, observará que la figura ocupa una fracción del espacio disponible en la ventana y que al medir con el comando **DIST**, las medidas son idénticas a las del espacio de modelado. También observará que el grosor de la pluma de impresión de las cotas es muy grueso, ajuste a 0.09.
 
-<div align="center"><img src="graph/AutoCAD_Layout16.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-<div align="center"><img src="graph/AutoCAD_Layout17.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout16.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout17.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 3. Establezca en la ventana, una escala de 1:1.5 y con el comando <kbd>ctrl</kbd> + <kbd>P</kbd> o **PRINT**, imprima en formato .pdf, guarde como _/file/report/M01A05-A4-Vertical.pdf_ y visualice el archivo.
 
-<div align="center"><img src="graph/AutoCAD_Layout18.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-<div align="center"><img src="graph/AutoCAD_Layout19.jpg" alt="R.DAPC" width="100%" border="0" /></div>
-<div align="center"><img src="graph/AutoCAD_Layout20.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout18.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout19.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout20.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 4. Dando doble clic en cualquiera de los campos del formato, ajuste las propiedades específicas para el dibujo realizado y vuelva a imprimir.
 
-<div align="center"><img src="graph/AutoCAD_Layout21.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutoCAD_Layout21.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 > Opciones complementarias de dibujo para impresión pueden ser establecidas con el comando **MVSETUP**.
 >
