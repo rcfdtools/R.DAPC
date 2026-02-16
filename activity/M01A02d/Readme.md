@@ -144,13 +144,13 @@ Para los elementos dibujados, cree un libro en Excel que permita calcular el vol
 
 > Utilice el comando **AREA** y la opción **O**bject para calcular el área supercicial de los sólidos en AutoCAD.
 > 
-> Los [momentos de inercia](https://help.autodesk.com/view/ACD/2023/ESP/?guid=GUID-CAA51229-293E-4A0C-BFF3-93226252CF13) de la masa, que se utilizan para calcular la fuerza necesaria para girar un objeto respecto a un eje determinado, como una rueda girando alrededor de un eje. La fórmula para determinar los momentos de inercia de masa cuando el eje está fuera del objeto es `I = mr²`, donde `I` es el momento de inercia, `m` es la masa del objeto y `r` es la distancia de la masa al eje de referencia del objeto. 
+> Los [momentos de inercia](https://help.autodesk.com/view/ACD/2023/ESP/?guid=GUID-CAA51229-293E-4A0C-BFF3-93226252CF13) de la masa, se utilizan para calcular la fuerza necesaria para girar un objeto respecto a un eje determinado, como una rueda girando alrededor de un eje. La fórmula para determinar los momentos de inercia de masa cuando el eje está fuera del objeto es `I = mr²`, donde `I` es el momento de inercia, `m` es la masa del objeto y `r` es la distancia de la masa al eje de referencia del objeto. 
 
 11. Suavicemos ahora las arístas anguladas del objeto creado. Primero cree una copia del objeto integrado y luego en el menú _Solid / Solid Editing_, seleccione la herramienta _Fillet Edge_, defina un radio de suavizado en 5 unidades y suavice todas las aristas del cubo inicial.
 
 <div align="center"><img src="graph/AutoCAD_SolidEditingFilletEdge.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-12. Designemos ahora acero o Steel como material del objeto. Desde el menú _Visualize / Materials_, aplique el material requerido arrastrando el material hacia el objeto.
+12. Designemos ahora Acero o Steel como material del objeto. Desde el menú _Visualize / Materials_, aplique el material requerido arrastrando el material hacia el objeto.
 
 <div align="center"><img src="graph/AutoCAD_VisualizeMaterials.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
