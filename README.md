@@ -129,14 +129,16 @@ En este módulo abordaremos: Introducción a los conceptos BIM, Uso de plantilla
 | [3.5. Proyecto BIM con Autodesk Revit](activity/M03A05/Readme.md)                                                       | Aplicando los conceptos BIM vistos durante el módulo 3 del curso, desarrolle un proyecto aplicado en ingeniería eléctrica.                                                                                                                                                                                                               |         3         |
 
 
-## Exámenes finales
+## Exámenes
+
+Los exámenes (parciales o final), son evaluaciones sumativas obligatorias que se realizan durante un ciclo académico (semestre) para medir el conocimiento y habilidad global adquirido en la asignatura, determinando la aprobación definitiva de la materia. Su objetivo es evaluar la integración de todos los temas vistos durante el curso.
 
 <div align="center">
 
 | Actividad                                                          | Descripción                                                                               |
 |:-------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
-| [Examen Final - Tercio 1](https://forms.office.com/r/zGPnNrUsyK)   | Duración: 1.5 horas.<br/>Se evalúan los contenidos y talleres del Módulo 1.               |
-| [Examen Final - Tercio 2]()                                        | Duración: 1.5 horas.<br/>Se evalúan los contenidos y talleres del Módulo 2.               |
+| [Examen Parcial - Tercio 1](https://forms.office.com/r/zGPnNrUsyK) | Duración: 1.5 horas.<br/>Se evalúan los contenidos y talleres del Módulo 1.               |
+| [Examen Parcial - Tercio 2]()                                        | Duración: 1.5 horas.<br/>Se evalúan los contenidos y talleres del Módulo 2.               |
 | [Examen Final - Tercio 3]()                                        | Duración: 2.0 horas.<br/>Se evalúan los contenidos y talleres vistos en todo el curso.    |
 
 </div>
