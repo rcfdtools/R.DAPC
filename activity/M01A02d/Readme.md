@@ -588,3 +588,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 |---------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: https://www.ledestube.com/es_mx/una-guia-completa-sobre-codos-para-conductos-electricos/
+
