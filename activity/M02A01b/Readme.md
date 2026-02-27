@@ -245,6 +245,8 @@ Rotule con la expresión `'$' || round("CostoTotal",1)` y simbolice por colores 
 
 3. Usando la herramienta _Statistics_, estime el consumo total mensual de la ciudad en millones de kilovatios por hora o GWh. Obtendrá que el alumbrado de la ciudad consume mensualmente 16.9795 GWh o 16979.5 MWh.
 
+Expresión: `("LEDConskWh" + "MhConskWh" + "NaConskWh" )/1000000`
+
 > Un GWh (Gigavatio hora) es una unidad de energía que representa mil millones (1 000 000 000) de vatios hora y es utilizada para medir la enorme capacidad energética de redes eléctricas nacionales, grandes industrias y proyectos de almacenamiento de energía. Se define a partir de la potencia (Gigavatios) multiplicada por el tiempo (hora). 
 
 <div align="center"><img src="graph/QGIS_Symbology6.jpg" alt="R.DAPC" width="100%" border="0" /></div>

@@ -92,7 +92,7 @@ Cree el bloque del símbolo de riesgo eléctrico del _Reglamento Técnico de Ins
 
 > Las diferentes instancias del bloque puede ser eliminadas y el bloque original permanecerá asociado internamente al archivo de AutoCAD.
 
-4. Con el comando **INSERT** o **IN**, repita el procedimiento de inserción del bloque creado, arrastrando desde el panel el elemento al dibujo. En la ventana de inserción podrá establecer las opciones relacionadas con el bloque, tales como su punto de inserción, escala y demás.
+4. Con el comando **INSERT**, repita el procedimiento de inserción del bloque creado, arrastrando desde el panel el elemento al dibujo. En la ventana de inserción podrá establecer las opciones relacionadas con el bloque, tales como su punto de inserción, escala y demás.
 
 <div align="center"><img src="graph/AutoCAD_INSERT.jpg" alt="R.DAPC" width="80%" border="0" /></div>
 
