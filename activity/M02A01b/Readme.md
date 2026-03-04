@@ -274,7 +274,7 @@ Hay tres tipos principales de turbina, dependiendo del caudal de agua y de la di
 
 Para la estimación del número de turbinas, supongamos que utilizaremos turbinas de 700 MWh, cómo las utilizadas en la [Presa de las Tres Gargantas en China](https://es.wikipedia.org/wiki/Presa_de_las_Tres_Gargantas). Entonces, de acuerdo a la estimación del consumo de alumbrado de la ciudad de Bogotá, correspondiente a 16979.5 MWh, son requeridas (16979.5 / 700) aproximadamente 25 turbinas.
 
-> Investigue y plantee un proyecto de suministro energético utilizando energía eólica, solar o termoeléctrica para alimentar las luminarias de la ciudad de Bogotá e indique el número de generadores, páneles o unidades requeridas.
+> :pencil2:Investigue y plantee un proyecto de suministro energético utilizando energía eólica, solar o termoeléctrica para alimentar las luminarias de la ciudad de Bogotá e indique el número de generadores, páneles o unidades requeridas.
 
 
 ## Actividades de proyecto (opcional no calificable) :triangular_ruler:
