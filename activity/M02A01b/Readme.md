@@ -63,7 +63,7 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 
 Siga las indicaciones del instructor para:
 
-* Configurar en idioma inglés la herramienta QGIS.
+* Configurar en idioma inglés la interfaz de QGIS.
 * Organizar los páneles y barras de herramientas.
 * Agregar la lista de mapas base XYZ usando Python.
 
