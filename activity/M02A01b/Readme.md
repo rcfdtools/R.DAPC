@@ -59,7 +59,9 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 
 ## 1. Visualización, consulta de atributos y representación geográfica
 
-0. En la raíz de su unidad de almacenamiento, cree una carpeta con el nombre _DAPC_ y subcarpetas con la [estructura de directorios](../../file/R.DAPC.File.Structure.zip) definida para este curso. Siga las indicaciones para:
+0. En la raíz de su unidad de almacenamiento, cree una carpeta con el nombre _DAPC_ y subcarpetas con la [estructura de directorios](../../file/R.DAPC.File.Structure.zip) definida para este curso.
+
+Siga las indicaciones del instructor para:
 
 * Configurar en idioma inglés la herramienta QGIS.
 * Organizar los páneles y barras de herramientas.
