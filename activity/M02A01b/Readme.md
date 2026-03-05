@@ -59,7 +59,11 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 
 ## 1. Visualización, consulta de atributos y representación geográfica
 
-0. En la raíz de su unidad de almacenamiento, cree una carpeta con el nombre _DAPC_ y subcarpetas con la [estructura de directorios](../../file/R.DAPC.File.Structure.zip) definida para este curso. Siga las indicaciones para organizar los páneles y barras de herramientas y para configurar en idioma inglés la herramienta QGIS.
+0. En la raíz de su unidad de almacenamiento, cree una carpeta con el nombre _DAPC_ y subcarpetas con la [estructura de directorios](../../file/R.DAPC.File.Structure.zip) definida para este curso. Siga las indicaciones para:
+
+* Configurar en idioma inglés la herramienta QGIS.
+* Organizar los páneles y barras de herramientas.
+* Agregar la lista de mapas base XYZ usando Python.
 
 1. En QGIS, cree un mapa nuevo, cargue la capa [/shp/Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip) y consulte su tabla de atributos. Podrá observar que se encuentran los campos de atributos correspondientes a: código de UPZ, nombre de UPZ, conteo de lámparas por tipo, total de lámparas, área y perímetro. Consulte los metadatos de la capa, encontrará que la capa contiene 112 polígonos y que para su trazado se ha utilizado el sistema de proyección de coordenadas EPSG: 3857, correspondiente a _WGS 84 / Pseudo-Mercator_ utilizado a nivel mundial con sistema geográfico en grados geodésicos y proyectado en metros usando Mercator o cilíndrica. 
 
