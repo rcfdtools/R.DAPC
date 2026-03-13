@@ -102,6 +102,8 @@ En la representación anterior, evaluámos el total de luminarias por UPZ tenien
 
 <div align="center"><img src="graph/QGIS_Statistics1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+> :pencil2: Realice el ejercicio anterior de densidades para los diferentes tipos de iluminación.
+
 
 ## 3. Conteo de elementos por clase
 
