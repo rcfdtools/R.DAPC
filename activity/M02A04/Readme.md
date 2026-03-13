@@ -96,8 +96,7 @@ Utilizando los conceptos aprendidos en el desarrollo de la actividad [M02A03c](.
 * A partir de las tablas generadas, realice un análisis multianual por departamento a partir de la irradiancia en Watt/m² estimada en el campo `SSR_Wattm2`. A partir del campo `SSR_GWatt` y suponiendo que en cada departamento únicamente se pueden crear granjas solares hasta el 2% de cada área total, estime el potencial fotovoltáico del país en Giga-watts.
 
 
-
-## Actividades de proyecto (opcional no calificable) :triangular_ruler:
+## Actividades de proyecto (grupal opcional no calificable, individual requerido) :triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
 

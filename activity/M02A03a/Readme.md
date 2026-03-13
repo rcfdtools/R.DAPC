@@ -176,7 +176,7 @@ metros frente a las redes eléctricas.
 4. En la tabla de atributos, cree un campo de atributos real con el nombre `Dp` y calcule la distribución porcentual de las 3 clases obtenidas en función de las áreas por nivel de tensión.
 
 
-## Actividades de proyecto (opcional no calificable) :triangular_ruler:
+## Actividades de proyecto (grupal opcional no calificable, individual requerido) :triangular_ruler:
 
 Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
 
