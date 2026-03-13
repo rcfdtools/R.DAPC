@@ -75,7 +75,7 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 
 3. Agregue nuevamente la capa _Luminarias_UPZ.shp_ al mapa y simbolice por agrupamiento de forma gradual en 3 clases por quantiles a partir del campo `TOTAL` utilizando la paleta _Cividis_ invertida. Incluya un rótulo del total de lámparas por cada UPZ. Renombre la capa cómo _Luminarias_UPZ (Graduated Quantile TOTAL)_. Podrá observar las zonas de Bogotá agrupadas en 3 clases y los valores de corte.
 
-> Realice este mismo ejercicio para los demás modos de representación disponibles en QGIS: Equal Interval, Fixed Interval, Logarithmic Scale, Natural Breaks, Pretty Breaks y Standard Deviation.
+> :pencil2: Realice este mismo ejercicio para los demás modos de representación disponibles en QGIS: Equal Interval, Fixed Interval, Logarithmic Scale, Natural Breaks, Pretty Breaks y Standard Deviation.
 
 <div align="center"><img src="graph/QGIS_Symbology2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -194,7 +194,7 @@ IQR: 2.3247210629999993
 <div align="center"><img src="graph/QGIS_Symbology3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_Symbology4.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> Realice el ejercicio anterior distribuyendo porcentualmente los diferentes tipos de iluminación por UPZ y el valor total.
+> :pencil2: Realice el ejercicio anterior distribuyendo porcentualmente los diferentes tipos de iluminación por UPZ y el valor total.
 
 
 ## 6. Estimación de consumo y costo eléctrico mensual
