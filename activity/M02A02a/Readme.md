@@ -91,7 +91,7 @@ Siga en clase las indicaciones del instructor y complete la digitalización teni
 
 Para cada capa requerida, cree archivos de formas geográficas shapefile (.shp). 
 
-> :pencil2: En el informe técnico incluya capturas de pantalla detalladas del proceso de creación con Python, digitalización de vectores, asignación y cálculo de atributos y propiedades de cada una de las capas requeridas.
+> :pencil2: En el informe técnico incluya capturas de pantalla detalladas del proceso de creación con Python, digitalización de vectores, asignación o cálculo de atributos y propiedades de cada una de las capas requeridas.
 
 
 ### 2.1. Predio o lote
