@@ -103,15 +103,15 @@ Atributos requeridos:
 
 <div align="center">
 
-| Campo    | Tipo         | Descripción                                                                                                                                                       |
-|:---------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PredioID | String (200) | Consultar el catastro distrital o nacional y obtener el código CHIP o llave predial de este predio. Es necesario investigar y documentar el proceso de obtención. |
-| AreaPm2  | Real (10)    | Área planar en m².<br>`area(@geometry)`                                                                                                                           |
-| PerimPm  | Real (10)    | Perímetro planar en m.<br>`perimeter(@geometry)`                                                                                                                  |
-| CX       | Real (10)    | Coordenada X del centroide en m.<br>`x(@geometry)`                                                                                                                |
-| CY       | Real (10)    | Coordenada y del centroide en m.<br>`y(@geometry)`                                                                                                                |
-| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                             |
-| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                            |
+| Campo    | Tipo         | Descripción                                                                                                                                                                     |
+|:---------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PredioID | String (200) | Consultar el catastro distrital o nacional y obtener el código CHIP o llave predial de este predio.<br/>:pencil2: Es necesario investigar y documentar el proceso de obtención. |
+| AreaPm2  | Real (10)    | Área planar en m².<br>`area(@geometry)`                                                                                                                                         |
+| PerimPm  | Real (10)    | Perímetro planar en m.<br>`perimeter(@geometry)`                                                                                                                                |
+| CX       | Real (10)    | Coordenada X del centroide en m.<br>`x(@geometry)`                                                                                                                              |
+| CY       | Real (10)    | Coordenada y del centroide en m.<br>`y(@geometry)`                                                                                                                              |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                           |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                          |
 
 </div>
 
