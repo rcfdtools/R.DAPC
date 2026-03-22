@@ -32,7 +32,11 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 
 > ¿Qué es **_SDig_** (student drawing value)?: es un valor numérico único asignado a cada estudiante, que es utilizado como parámetro para la localización de puntos de origen, localización de centroides, definición de propiedades en figuras o dibujos geométricos y como valor de referencia en la construcción de los modelos realizados en el curso DAPC.
 > 
-> Acorde con el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
+> **Pregrado**: acorde con el parágrafo del Artículo 38 del reglamento estudiantil, _“La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)”_.
+> 
+> **Posgrado**: acorde con el Literal b del Artículo 46 del reglamento estudiantil, los estudiantes de posgrado deben _“Asistir y participar cumplida y activamente en todas las actividades académicas contempladas en el plan de estudios”_.
+> 
+> **Informe técnico**: solo será válido si en cada una de las capturas de pantalla se observa su código de alumno en el título o nombre de archivo. Para las capturas de pantalla puede utilizar la Herramienta de Recortes o Snipping Tool, las teclas <kbd>Win</kbd>+<kbd>PrtScn</kbd> para guardar capturas de toda la ventana en la carpeta de imágenes, las teclas <kbd>Win</kbd>+<kbd>G</kbd> para obtener capturas desde la Game Bar, o las teclas <kbd>Win</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> para capturas instantáneas. Una vez finalizada la elaboración del informe técnico, este debe ser convertido a formato Adobe Acrobat .pdf y adjuntado al Quiz.
 
 
 ### Directrices para quices y exámenes
