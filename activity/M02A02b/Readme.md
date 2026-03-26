@@ -167,13 +167,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://institute-for-future-intelligence.github.io/aladdin/
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.09.10 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   8   |
-
-
 ##
 
 _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

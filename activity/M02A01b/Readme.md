@@ -313,13 +313,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://paratec.xm.com.co/reportes/capacidad-efectiva-neta-tipo-generacion
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.08.22 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  12   |
-
-
 ##
 
 _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

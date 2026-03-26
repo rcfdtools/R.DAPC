@@ -354,13 +354,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [Autodesk / How to draw parabolas](https://www.autodesk.com/es/support/technical/article/caas/sfdcarticles/sfdcarticles/ESP/How-to-draw-parabolas-in-AutoCAD.html)
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.07.01 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  20   |
-
-
 ##
 
 _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

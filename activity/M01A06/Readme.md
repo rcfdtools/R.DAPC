@@ -227,13 +227,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://mailchimp.com/es/resources/how-to-choose-a-business-name/
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.07.18 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  12   |
-
-
 ##
 
 _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

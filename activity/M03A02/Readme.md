@@ -195,13 +195,6 @@ Solución para reparar el Project Browser de Revit 2026 cuando este aparece vac�
 * https://help.autodesk.com/view/RVT/2025/ENU/?guid=GUID-97276239-B101-4ECE-B30A-3CCD7174EEC4
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                       | Horas |
-|------------|:-------------------|---------------------------------------------|:-----:|
-| 2025.10.08 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |   5   |
-
-
 ##
 
 _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

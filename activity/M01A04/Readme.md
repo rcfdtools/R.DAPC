@@ -271,12 +271,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [Autodesk AutoCAD / Acerca de la creación de líneas directrices](https://help.autodesk.com/view/ACD/2025/ESP/?guid=GUID-8E2FF7CD-1DF9-49F8-AA10-A614C7E63F68)
 * [AutoCAD para todos / Dibujo isométrico con acotado y manejo de impresión](https://www.youtube.com/watch?v=Yu6_rZKDoDU)
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.07.15 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  12   |
-
 
 ##
 

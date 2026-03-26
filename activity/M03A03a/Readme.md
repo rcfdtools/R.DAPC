@@ -212,13 +212,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [Relinquish Ownership without Synchronize with Central](https://help.autodesk.com/view/RVT/2015/ENU/?guid=GUID-CB878234-4510-457F-838F-408A68EC60B3)
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                       | Horas |
-|------------|:-------------------|---------------------------------------------|:-----:|
-| 2025.10.09 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |  12   |
-
-
 ##
 
 _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

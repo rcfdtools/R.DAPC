@@ -184,13 +184,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://help.autodesk.com/view/RVT/2026/ESP/?guid=GUID-7F8CFFA4-22CB-43CA-84EA-332A27A0A0F0
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                       | Horas |
-|------------|:-------------------|---------------------------------------------|:-----:|
-| 2025.10.10 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |  12   |
-
-
 ##
 
 _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

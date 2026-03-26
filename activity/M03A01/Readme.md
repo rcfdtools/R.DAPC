@@ -145,13 +145,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [EALDE Business School - Cómo funcionan las 7 dimensiones de BIM para proyectos de construcción](https://www.youtube.com/watch?v=9eplIw2siwM)
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                       | Horas |
-|------------|:-------------------|---------------------------------------------|:-----:|
-| 2025.10.16 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |   6   |
-
-
 ##
 
 _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

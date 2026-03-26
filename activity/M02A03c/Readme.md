@@ -227,13 +227,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * [ERA5: How to calculate wind speed and wind direction from u and v components of the wind?](https://confluence.ecmwf.int/pages/viewpage.action?pageId=133262398)
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                       | Horas |
-|------------|:-------------------|---------------------------------------------|:-----:|
-| 2025.10.24 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)   |   8   |
-
-
 ##
 
 _R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
