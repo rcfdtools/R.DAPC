@@ -55,7 +55,7 @@ Descargue la capa de Municipios de Colombia y exporte el polígono geográfico d
 
 <div align="center"><img src="graph/wwwColombiaEnMapas_CabeceraUrbana.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Desde el portal https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx, descargue las capas geográficas de líneas de transmisión eléctrica y subestaciones del sistema nacional y regional. Guardar los comprimidos en /data/DNP como [LineasTransmisionSTN.shp](../../file/data/DNP/LineasTransmisionSTN.zip), [LineasTransmisionSTR.shp](../../file/data/DNP/LineasTransmisionSTR.zip), [SubestacionesSTN.shp](../../file/data/DNP/SubestacionesSTN.zip), [SubestacionesSTR.shp](../../file/data/DNP/SubestacionesSTR.zip).
+3. Desde el portal https://onl.dnp.gov.co/transicion-energetica/Paginas/default.aspx o desde el Observatorio de Logística e Infraestructura de Colombia https://onl.dnp.gov.co/olic/main.aspx, descargue las capas geográficas de líneas de transmisión eléctrica y subestaciones del sistema nacional y regional. Guardar los comprimidos en /data/DNP como [LineasTransmisionSTN.shp](../../file/data/DNP/LineasTransmisionSTN.zip), [LineasTransmisionSTR.shp](../../file/data/DNP/LineasTransmisionSTR.zip), [SubestacionesSTN.shp](../../file/data/DNP/SubestacionesSTN.zip), [SubestacionesSTR.shp](../../file/data/DNP/SubestacionesSTR.zip).
 
 <div align="center"><img src="graph/wwwDNP_EnergiaElectrica.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
