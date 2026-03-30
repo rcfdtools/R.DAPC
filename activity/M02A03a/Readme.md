@@ -63,12 +63,12 @@ Descargue la capa de Municipios de Colombia y exporte el polígono geográfico d
 
 5. Cree un proyecto nuevo en QGIS, asigne el CRS 9377, cargue las capas y desde el panel _Browser_ renombre como:
 
+* Municipio, Distrito y Área no municipalizada.shp -> IGAC_Municipio.shp
 * MGN_URB_AREA_CENSAL.shp -> DANE_CentroUrbano.shp
 * LineasTransmisionSTN.shp -> UPME_LineaTransmisionSTN.shp
 * LineasTransmisionSTR.shp -> UPME_LineaTransmisionSTR.shp
 * SubestacionesSTN.shp -> UPME_SubestacionSTN.shp
 * SubestacionesSTR.shp -> UPME_SubestacionSTR.shp
-* Municipio, Distrito y Area no municipalizada.shp -> IGAC_Municipio.shp
 
 Simbolice las líneas de transmisión a partir del campo `id_tension`. Tenga en cuenta que la tabla de atributos dispone de códigos de dominio 0, del 17 al 26 y no de rótulos asociados a la tensión eléctrica.
 
