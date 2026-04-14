@@ -53,6 +53,8 @@ Para la descarga del modelo de terreno satelital, es necesaria la creación de u
 
 2. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Bounding boxes_, obtenga el polígono regular envolvente que rodea el polígono de la ciudad. Guarde como _/shp/IGAC_Municipio11001Box.shp_ y simbolice solo por contorno.
 
+> La herramienta _Layer Tools / Extract layer extent_ también permite obtener el polígono envolvente sin conservar los atributos originales de la capa geográfica utilizada como referencia.
+
 <div align="center"><img src="graph/QGIS_BoundingBoxes.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 3. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Buffer_, cree un polígono con aferencia de 500 metros alrededor del polígono envolvente. Guarde como _/shp/IGAC_Municipio11001BoxBuffer500.shp_ y simbolice solo por contorno. En los parámetros establezca:
