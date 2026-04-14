@@ -26,13 +26,14 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                            | Descripción                                                                                                          |
-|:-----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                | QGIS 3.44 o superior.                                                                                                |
-| [:round_pushpin:qgis_basemaps.py](../../file/src/qgis_basemaps.py)                       | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps). |
-| [:man_technologist:Cuenta de usuario en _Open Topography_](https://opentopography.org/)  | Cuenta de usuario requerida para descarga de modelos digitales de elevación DEM.                                     |  
-| [:round_pushpin:IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)    | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/.       |
-| [:round_pushpin:UPME_LineaTransmision.shp](../../file/shp/UPME_LineaTransmision.zip)     | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co.         |
+| Requerimiento                                                                           | Descripción                                                                                                          |
+|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                               | QGIS 3.44 o superior.                                                                                                |
+| [:round_pushpin:qgis_basemaps.py](../../file/src/qgis_basemaps.py)                      | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps). |
+| [:man_technologist:Cuenta de usuario en _Open Topography_](https://opentopography.org/) | Cuenta de usuario requerida para descarga de modelos digitales de elevación DEM.                                     |  
+| [:round_pushpin:IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)   | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/.       |
+| [:round_pushpin:UPME_LineaTransmision.shp](../../file/shp/UPME_LineaTransmision.zip)    | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co.         |
+| [:round_pushpin:qgis_contour_type.py](../../file/src/qgis_contour_type.py)              | Script en Python para clasificación de curvas de nivel principales y secundarias.                                    |
 
 </div>
 
@@ -53,7 +54,7 @@ Para la descarga del modelo de terreno satelital, es necesaria la creación de u
 
 2. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Bounding boxes_, obtenga el polígono regular envolvente que rodea el polígono de la ciudad. Guarde como _/shp/IGAC_Municipio11001Box.shp_ y simbolice solo por contorno.
 
-> La herramienta _Processing Toolbox / Layer Tools / Extract layer extent_ también permite obtener el polígono envolvente sin conservar los atributos originales de la capa geográfica utilizada como referencia.
+> La herramienta _Processing Toolbox / Layer Tools / Extract layer extent_ también permite obtener el polígono envolvente, pero sin conservar los atributos originales de la capa geográfica utilizada como referencia.
 
 <div align="center"><img src="graph/QGIS_BoundingBoxes.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -227,6 +228,8 @@ Obtendrá que la diferencia de longitudes 3D vs. 2D es de 582.09 metros.
 
 <div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_Symbology2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
+
+> Desde el calculador de campo, utilice el script de Python [qgis_contour_type.py](../../file/src/qgis_contour_type.py) para clasificar las curvas de nivel en principales y secundarias.
 
 
 ## Actividades de proyecto (grupal opcional no calificable, individual requerido) :triangular_ruler:
