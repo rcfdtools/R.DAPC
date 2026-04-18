@@ -25,10 +25,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                               | Descripción                                         |
-|:--------------------------------------------------------------------------------------------|:----------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)                             | Autodesk Revit 2026 o superior (english version).   |  
-| [:round_pushpin:DAPC_ProyectoCAD.dwg](../../file/cad/DAPC_ProyectoCAD_2025_02_Grupo1.dwg)   | Proyecto CAD (Tomado del Grupo 01 edición 2025-02). |
+| Requerimiento                                                                             | Descripción                                         |
+|:------------------------------------------------------------------------------------------|:----------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)                           | Autodesk Revit 2026 o superior (english version).   |  
+| [:round_pushpin:DAPC_ProyectoCAD.dwg](../../file/cad/DAPC_ProyectoCAD_2025_02_Grupo1.dwg) | Proyecto CAD (Tomado del Grupo 01 edición 2025-02). |
+| [:round_pushpin:DAPC_ProyectoBIM.xlsx](../../file/table/DAPC_ProyectoBIM.xlsx)            | Especificaciones para proyecto individual BIM.      |
 
 </div>
 
@@ -142,6 +143,8 @@ Para el dibujo de objetos 3D en Revit, se pueden utilizar como referencia archiv
 ## 4. Creación de niveles 
 
 Para el desarrollo del proyecto CAD, establecimos 12 metros de la altura de la bodega industrial con un mezanine localizado a 4 metros por encima del nivel de referencia del suelo. De acuerdo a estos parámetros, la bodega puede ser construída usando pórticos de 4 metros de altura, para lo cual son requeridos 4 niveles. 
+
+> Tenga en cuenta que cada estudiante realiza un proyecto individual acorde con las especificaciones definidas en: [DAPC_ProyectoBIM.xlsx](../../file/table/DAPC_ProyectoBIM.xlsx)
 
 1. Con la rueda del apuntador, acérquese a la vista de cubo 3D, podrá observar que por defecto Revit ha creado dos niveles de referencia o pisos con separaciones de 3.6 metros de altura.
 
