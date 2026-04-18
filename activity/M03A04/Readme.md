@@ -22,9 +22,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                      | Descripción                                        |
-|:-------------------------------------------------------------------|:---------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)    | Autodesk Revit 2026 o superior (english version).  |  
+| Requerimiento                                                                        | Descripción                                       |
+|:-------------------------------------------------------------------------------------|:--------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)                      | Autodesk Revit 2026 o superior (english version). |  
+| [:round_pushpin:DAPC_ProyectoBIM.xlsx](../../file/table/DAPC_ProyectoBIM.xlsx)       | Especificaciones para proyecto individual BIM.    |
 
 </div>
 
