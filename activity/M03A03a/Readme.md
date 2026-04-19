@@ -22,11 +22,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                             | Descripción                                         |
-|:------------------------------------------------------------------------------------------|:----------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)                           | Autodesk Revit 2026 o superior (english version).   |  
-| [:round_pushpin:DAPC_ProyectoCAD.dwg](../../file/cad/DAPC_ProyectoCAD_2025_02_Grupo1.dwg) | Proyecto CAD (tomado del Grupo 01 edición 2025-01.  |
-| [:round_pushpin:DAPC_ProyectoBIM.xlsx](../../file/table/DAPC_ProyectoBIM.xlsx)            | Especificaciones para proyecto individual BIM.      |
+| Requerimiento                                                                             | Descripción                                        |
+|:------------------------------------------------------------------------------------------|:---------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)                           | Autodesk Revit 2026 o superior (english version).  |  
+| [:round_pushpin:DAPC_ProyectoCAD.dwg](../../file/cad/DAPC_ProyectoCAD_2025_02_Grupo1.dwg) | Proyecto CAD (tomado del Grupo 01 edición 2025-01. |
+| [:round_pushpin:DAPC_ProyectoBIM.xlsx](../../file/table/DAPC_ProyectoBIM.xlsx)            | Especificaciones para proyecto individual BIM.     |
+| [:round_pushpin:RevitFamilyEnglishUS.zip](../../file/cad/revit/RevitFamilyEnglishUS.zip)  | Proyecto individual - Familias Revit en Inglés.    |
+| [:round_pushpin:RevitFamilySpanish.zip](../../file/cad/revit/RevitFamilySpanish.zip)      | Proyecto individual - Familias Revit en Español.   |
 
 </div>
 
