@@ -143,7 +143,7 @@ Los exámenes (parciales o final), son evaluaciones sumativas obligatorias que s
 | [Examen Tercio 1](https://forms.office.com/r/zGPnNrUsyK)                 | Duración: 1.5 horas.<br/>Se evalúan los contenidos y talleres del Módulo 1. |
 | [Examen Tercio 2](https://forms.office.com/r/xnd7rQKi0d)                 | Duración: 1.5 horas.<br/>Se evalúan los contenidos y talleres del Módulo 2. |
 | [Examen Tercio 3 - Parte A - CAD](https://forms.office.com/r/XC7NUE9zrN) | Duración: 1.5 horas.<br/>Se evalúan los contenidos y talleres CAD.          |
-| [Examen Tercio 3 - Parte B - GIS / BIM]()                                | Duración: 3.0 horas.<br/>Se evalúan los contenidos y talleres GIS y BIM.    |
+| [Examen Tercio 3 - Parte B - GIS / BIM]()                                | Duración: 3.0 horas.<br/>Se evalúan los contenidos y talleres GIS / BIM.    |
 
 </div>
 
