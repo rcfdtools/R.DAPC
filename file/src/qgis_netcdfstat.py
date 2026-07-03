@@ -12,7 +12,7 @@ from datetime import date
 from dateutil.relativedelta import relativedelta
 import calendar
 
-variable = 'SSR' 
+variable = 'ssr' # ● ERA5 variable name to process, e.g.,: ssr, d2m, t2m, e, ro, u10, v10, tp, sp
 bands = 900 # 900 for 1950 to 2024
 original_date = date(1950, 1, 1) # Define a starting date yyyy-m-d
 main_path = 'C:/DAPC/'
@@ -47,8 +47,9 @@ for i in range(bands):
     df['Month'] = month
     df['MonthDays'] = calendar.monthrange(year, month)[1]
     df['MonthSecs'] = (calendar.monthrange(year, month)[1])*24*60*60
-    df[variable+'_Wattm2'] = df[variable+'_mean'] / df['MonthSecs']
-    df[variable+'_GWatt'] = df[variable+'_Wattm2'] * df['AGm2'] / 1000000000
+    if variable == 'ssr':
+        df[variable+'_Wattm2'] = df[variable+'_mean'] / df['MonthSecs']
+        df[variable+'_GWatt'] = df[variable+'_Wattm2'] * df['AGm2'] / 1000000000
     df.to_csv(output_file, index=False)
 
 
