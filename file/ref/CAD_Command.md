@@ -1,10 +1,7 @@
-# Comandos, iconografía, abreviaturas, definiciones y tipos de archivo
+# Herramientas y comandos de AutoCAD
 
 
-## 1. Herramientas y comandos de AutoCAD
-
-
-### 1.0. Barra de estado
+## 1. Barra de estado
 
 La barra de estado en AutoCAD es una barra horizontal ubicada en la parte inferior de la interfaz, que proporciona acceso rápido a herramientas de dibujo y configuración del entorno de trabajo. En ella se encuentran botones que permiten activar o desactivar diversas funciones como el forzado de cursor, la rejilla, el rastreo polar, las referencias a objetos, entre otros. También muestra la posición del cursor y el progreso de tareas en segundo plano. 
 
@@ -41,7 +38,7 @@ La barra de estado en AutoCAD es una barra horizontal ubicada en la parte inferi
 | <img src="../graph/AutoCAD_CleanScreen.png" alt="R.DAPC" width="28" border="0" />          | Clean Screen          | [CLEANSCREEN](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-8FBF7BAA-4A34-4171-A7B5-A6E28B8EC4CE)<br> <kbd>ctrl</kbd>+<kbd>0</kbd>                                                                                                                                                                                                       | Permite visualizar AutoCAD en pantalla completa.                                                                                                                                                                                                                                                                    |
 
 
-### 1.1. Dibujo
+## 2. Dibujo
 
 En AutoCAD, las herramientas de dibujo son comandos y funciones que permiten crear y manipular objetos gráficos en un dibujo. Estas herramientas son esenciales para la creación de diseños precisos y detallados, tanto en 2D como en 3D, y abarcan desde líneas y círculos hasta polilíneas, arcos, y más complejas formas. 
 
@@ -85,7 +82,7 @@ En AutoCAD, las herramientas de dibujo son comandos y funciones que permiten cre
 |  <img src="../graph/AutoCAD_Thicken.png" alt="R.DAPC" width="28" border="0" />  | Thicken                    | [THICKEN](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-50CAFB97-22BA-4224-9B48-60D6E7ABFCF1)           | Convierte una superficie en un sólido 3D con un espesor definido.                                                                      |
 
 
-### 1.2. Modificación 
+## 3. Modificación 
 
 En AutoCAD, las herramientas de modificación son comandos y funciones que permiten alterar objetos existentes en un dibujo. Estas herramientas son esenciales para editar y manipular elementos de diseño, como mover, copiar, rotar, escalar, recortar, alargar, entre otras acciones. En resumen, facilitan la modificación precisa y eficiente de los diseños en AutoCAD. 
 
@@ -125,7 +122,7 @@ En AutoCAD, las herramientas de modificación son comandos y funciones que permi
 |  <img src="../graph/AutoCAD_Draworder.png" alt="R.DAPC" width="28" border="0" />   | Bring To - Draw order    | [DRAWORDER](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-3DC76D6E-8F81-4803-8D0A-AA7541D6357E)          | Cambia el orden o posición de dibujo de un objeto con respecto a otro, p. ej., una columna que se encuentra en la capa S-COLS puede ser colocada encima o debajo de un muro dibujado en la capa A-WALL. |
 
 
-### 1.3. Generales
+## 4. Generales
 
 |                                      Ícono                                       | Herramienta              | Comando                                                                                                                                         | Utilidad                                                                                                                                                                                                                                                             |
 |:--------------------------------------------------------------------------------:|:-------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
