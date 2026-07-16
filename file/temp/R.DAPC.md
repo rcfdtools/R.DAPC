@@ -5,18 +5,9 @@ Password: 2******************4
 
 ## Pending tasks
 
-* Check all quices and final exams
-* Change Revit language ENU
+* Change Revit language: in shortcut change to ENU
 * Include GIS and BIM activities in https://github.com/rcfdtools/R.DAPC/blob/main/activity/Readme.md
 * La sumatoria de los ángulos interiores de un polígono es (7 - 2) * 180° = 900°.
-* Grading table: exercices, quiz, project.
-* Clothoid curves.
-* Parametric drawing.
-* Crear toma levington con caja.
-* Bombilla 3D con materiales.
-* External references.
-* GIS external maps.
-* Links and icon to each command used.
 * LIMITS, GRIDDISPLAY: 3 for all 0 for show only inside limits.
 
 
