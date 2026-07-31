@@ -459,7 +459,7 @@ Para el dibujo isométrico en AutoCAD, es necesario activar los siguientes asist
 
 * <img src="../../file/graph/AutoCAD_DynamicInput.png" alt="R.DAPC" width="28" border="0" /> Dynamic Input, <kbd>F12</kbd>, **DYNMODE**.
 * <img src="../../file/graph/AutoCAD_PolarTracking.png" alt="R.DAPC" width="28" border="0" /> Polar Tracking, <kbd>F10</kbd> para ángulos de 30 grados.
-* <img src="../../file/graph/AutoCAD_IsometricDrafting.png" alt="R.DAPC" width="28" border="0" />  Isometric Drafting , **ISODRAFT**.
+* <img src="../../file/graph/AutoCAD_IsometricDrafting.png" alt="R.DAPC" width="28" border="0" />  Isometric Drafting , **ISODRAFT**. Utilice la tecla <kbd>F5</kbd> para cambiar entre planos.
 * <img src="../../file/graph/AutoCAD_ObjectSnapTracking.png" alt="R.DAPC" width="28" border="0" /> Object Snap Tracking, <kbd>F11</kbd>, **AUTOSNAP**.
 * <img src="../../file/graph/AutoCAD_2DObjectSnap.png" alt="R.DAPC" width="28" border="0" /> 2D Object Snap, <kbd>F3</kbd>, **OSNAP** para Endpoint, Midpoint, Center, Quadrant, Intersection y Tangent.
 
