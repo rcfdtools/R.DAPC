@@ -230,6 +230,8 @@ Cómo observa, el punto es difícilmente visible en el espacio de trabajo, para 
 <div align="center"><img src="graph/AutoCAD_ARRAYRECT2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 > Los puntos creados podrán ser usados como referencia para crear otras entidades.
+> 
+> ✏️Cree arreglos por ruta y polar a partir de un punto como objeto sobre una circunferencia y un arco.
 
 
 ## 7. Trazado de B-splines (NURBS)
