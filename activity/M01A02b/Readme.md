@@ -180,7 +180,7 @@ Por ejemplo, para la creación de arcos de máximo radio en los extremos de la f
 
 <div align="center"><img src="graph/AutoCAD_ARC1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Para el trazado de arco máximo de proyección en las caras de la figura, puede utilizar _Start, End, Direction_, estableciendo una dirección de 45 grados para lo cual deberá rotar el UCS o utilizar _Center, Start, End_ utilizando como centro el punto medio de la base de cada triángulo.
+Para el trazado de arco máximo de proyección en las caras de la figura, puede utilizar _Start, End, Direction_, estableciendo una dirección de 45 grados o 135 grados, para lo cual deberá rotar el UCS o utilizar _Center, Start, End_ utilizando como centro el punto medio del arco de dirección máxima de 90 grados.
 
 <div align="center"><img src="graph/AutoCAD_ARC2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
