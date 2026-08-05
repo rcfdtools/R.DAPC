@@ -48,7 +48,7 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 * Se permite realizar consultas al profesor, por cada consulta se descontarán 5 décimas.
 * El quiz solo será válido sí se desarrolla en el aula de clase.
 * Quices CAD solo serán válidos si la figura se dibuja en el punto de origen indicado y con las dimensiones solicitadas.
-* En quices CAD, por cada error de dibujo serán descotadas 5 décimas.
+* En quices CAD, por cada error de dibujo serán descontadas 5 décimas.
 * El quiz solo será válido sí registra sus respuestas en Forms y envía por correo electrónico los adjuntos solicitados.
 * No se admite presentación extemporánea.
 * No se permite el uso de ninguna aplicación de mensajería instantánea.
