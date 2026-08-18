@@ -90,7 +90,7 @@ Y generaremos la secuencia de comandos para la generación de las polilíneas po
 
 <div align="center"><img src="graph/AutoCAD_Elipse.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> Tenga en cuenta que debido a que el libro de Excel permite la generación de coordenadas de hasta 100 puntos por cuadrante, y en el ejemplo hemos definido que utilizaremos solo 48 nodos, es posible que los nodos de los extremos contengas duplicidades.
+> Tenga en cuenta que debido a que el libro de Excel permite la generación de coordenadas de hasta 100 puntos por cuadrante, y en el ejemplo hemos definido que utilizaremos solo 48 nodos, es posible que los nodos de los extremos contengan duplicidades.
 
 3. Para verificar el número de nodos por cada polilínea, seleccione cualquiera de los cuadrantes y desde el _Command_ ejecute el comando **LIST**.
 
