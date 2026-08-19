@@ -252,7 +252,7 @@ La hipérbola es la última forma geométrica que se estudia en la geometría an
 
 <div align="center"><img src="graph/EcuacionHiperbola.png" alt="R.DAPC" width="60%" border="0" /><br><sub>Tomado de: https://es.wikipedia.org/wiki/Par%C3%A1bola_(matem%C3%A1tica)/</sub></div>
 
-Para su trazado en AutoCAD, existen diferentes metodologías, para este ejemplo, construiremos la hipérbola a partir del eje real (línea entre puntos de inflexión A-B) e imaginario (línea C-D). Con estos ejes buscaremos los focos y definiendo la localización del punto 1 (cualquier punto en la proyección del eje real y alejado del foco), obtendremos la localización de un punto conocido sobre la hipérbola.
+Para su trazado en AutoCAD, existen diferentes metodologías; para este ejemplo, construiremos la hipérbola a partir del eje real (línea entre puntos de inflexión A-B) e imaginario (línea C-D). Con estos ejes buscaremos los focos y definiendo la localización del punto 1 (cualquier punto en la proyección del eje real y alejado del foco), obtendremos la localización de un punto conocido sobre la hipérbola.
 
 <div align="center">Parte A<br><img src="graph/AutoCAD_Hiperbola0.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
