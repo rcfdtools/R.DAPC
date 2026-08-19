@@ -246,7 +246,7 @@ Requerimientos:
 
 ## 5. Hipérbola [^4]
 
-La hipérbola es la última forma geométrica que se estudia en la geometría analítica. En esta hablaremos sobre la ecuación de la hipérbola con centro en el origen. 
+La hipérbola es la última forma geométrica que se estudia en la geometría analítica. En esta actividad hablaremos sobre la ecuación de la hipérbola con centro en el origen. 
 
 > La Hipérbola es aquel lugar geométrico de los puntos del plano que se mueven de tal manera que el valor absoluto de la diferencia de sus distancias a dos puntos fijos llamados focos son siempre constantes. 
 
