@@ -59,7 +59,7 @@ Para el dibujo 3D en AutoCAD, es necesario activar los siguientes asistentes de 
 
 ## 1. Modelado de geometrías 3D
 
-En AutoCAD, las herramientas de dibujo son comandos y funciones que permiten crear y manipular objetos gráficos en un dibujo. Estas herramientas son esenciales para la creación de diseños precisos y detallados, tanto en 2D como en 3D, y abarcan desde líneas y círculos hasta polilíneas, arcos, y más complejas formas.
+En AutoCAD, las herramientas de dibujo son comandos y funciones que permiten crear y manipular objetos gráficos en un dibujo. Estas herramientas son esenciales para la creación de diseños precisos y detallados, tanto en 2D como en 3D, y abarcan desde líneas y círculos hasta polilíneas, arcos, y formas más complejas.
 
 De forma nativa, desde el menú _Home / Modeling_, AutoCAD permite la construcción de formas geométricas básicas. Complementariamente, desde la pestaña Modeling, podrá crear superficies o sólidos a partir de elementos geométricos 2D o formas creadas a partir de objetos, utilizando las siguientes herramientas:
 
