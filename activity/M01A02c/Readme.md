@@ -113,7 +113,7 @@ Acérquese al extremo lateral derecho y verifique el dibujo a partir de coordena
 <div align="center"><img src="graph/AutoCAD_Elipse5.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
 
-> :bulb: Para convertir las polilíneas trazadas a partir de los nodos de Excel en una curva cerrada similar a la elipse, con el comando **JOIN** una las 4 líneas, luego con el comando **PLINE** cierre la polilínea y desde el mismo comando ejecute **F**it.
+> :bulb: Para convertir las polilíneas trazadas a partir de los nodos de Excel en una curva cerrada similar a la elipse, con el comando **PEDIT** y la opción **F**it, convierta los segmentos rectos a curvos, desde las propiedades verifique el ajuste de las curvas y con el comando **JOIN** una las 4 líneas.
 
 
 ### Ejercicio M01A02cE00
