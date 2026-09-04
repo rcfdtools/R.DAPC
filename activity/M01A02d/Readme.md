@@ -184,6 +184,25 @@ Otras opciones específicas de este comando, permiten definir:
 
 A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un sólido en acero y calcule su área superficial, volumen y masa. 
 
+```
+PLINE
+250,250
+@15,0
+@0,-11.5
+@40,0
+@0,42.5
+@20,0
+@0,-34
+@5,0
+@0,-3.5
+@17,0
+@-4,-20
+@-18,0
+@0,5
+@-75,0
+250,250
+```
+
 Especificaciones:
 
 * Archivo: _/file/cad/M01A02dE02.dwg_.
@@ -442,6 +461,26 @@ Crea un sólido o una superficie 3D mediante el barrido de un objeto o un subobj
 ### Ejercicio M01A02dE17
 
 A partir de la figura dibujada en el ejercicio [M01A01E01](../M01A01), cree un sólido en acero y calcule su área superficial, volumen y masa. 
+
+```
+PLINE
+250,250
+@15,0
+@0,-11.5
+@40,0
+@0,42.5
+@20,0
+@0,-34
+@5,0
+@0,-3.5
+@17,0
+@-4,-20
+@-18,0
+@0,5
+@-75,0
+250,250
+```
+
 
 Especificaciones:
 
