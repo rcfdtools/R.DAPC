@@ -29,7 +29,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 |:----------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://qgis.org/)                                 | QGIS 3.44 o superior                                                                                                |  
 | [:round_pushpin:qgis_basemaps.py](../../file/src/qgis_basemaps.py)         | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps) |
-| [:round_pushpin:Luminarias_UPZ_9377.shp](../../file/shp/Luminarias_UPZ_9377.zip)     | Capa de polígonos UPZ con conteo de luminarias por tipo a 2025/08/14 obtenida de www.ideca.gov.co                   |
+| [:round_pushpin:Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip)     | Capa de polígonos UPZ con conteo de luminarias por tipo a 2025/08/14 obtenida de www.ideca.gov.co                   |
 | [:memo:Plantilla informe técnico](../../file/report/)               | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes|
 
 </div>
@@ -66,7 +66,7 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 * Organizar los páneles y barras de herramientas.
 * Agregar la lista de mapas base XYZ usando Python.
 
-1. En QGIS, cree un mapa nuevo, cargue la capa [/shp/Luminarias_UPZ_9377.shp](../../file/shp/Luminarias_UPZ.zip) y consulte su tabla de atributos. Podrá observar que se encuentran los campos de atributos correspondientes a: código de UPZ, nombre de UPZ, conteo de lámparas por tipo, total de lámparas, área y perímetro. Consulte los metadatos de la capa, encontrará que la capa contiene 112 polígonos y que para su trazado se ha utilizado el sistema de proyección de coordenadas EPSG: 3857, correspondiente a _WGS 84 / Pseudo-Mercator_ utilizado a nivel mundial con sistema geográfico en grados geodésicos y proyectado en metros usando Mercator o cilíndrica. 
+1. En QGIS, cree un mapa nuevo, cargue la capa [/shp/Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip) y consulte su tabla de atributos. Podrá observar que se encuentran los campos de atributos correspondientes a: código de UPZ, nombre de UPZ, conteo de lámparas por tipo, total de lámparas, área y perímetro. Consulte los metadatos de la capa, encontrará que la capa contiene 112 polígonos y que para su trazado se ha utilizado el sistema de proyección de coordenadas EPSG: 3857, correspondiente a _WGS 84 / Pseudo-Mercator_ utilizado a nivel mundial con sistema geográfico en grados geodésicos y proyectado en metros usando Mercator o cilíndrica. 
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -74,7 +74,7 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 
 <div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-3. Agregue nuevamente la capa _Luminarias_UPZ_9377.shp_ al mapa y simbolice por agrupamiento de forma gradual en 3 clases por quantiles a partir del campo `TOTAL` utilizando la paleta _Cividis_ invertida. Incluya un rótulo del total de lámparas por cada UPZ. Renombre la capa cómo _Luminarias_UPZ (Graduated Quantile TOTAL)_. Podrá observar las zonas de Bogotá agrupadas en 3 clases y los valores de corte.
+3. Agregue nuevamente la capa _Luminarias_UPZ.shp_ al mapa y simbolice por agrupamiento de forma gradual en 3 clases por quantiles a partir del campo `TOTAL` utilizando la paleta _Cividis_ invertida. Incluya un rótulo del total de lámparas por cada UPZ. Renombre la capa cómo _Luminarias_UPZ (Graduated Quantile TOTAL)_. Podrá observar las zonas de Bogotá agrupadas en 3 clases y los valores de corte.
 
 > :pencil2: Realice este mismo ejercicio para los demás modos de representación disponibles en QGIS: Equal Interval, Fixed Interval, Logarithmic Scale, Natural Breaks, Pretty Breaks y Standard Deviation.
 
@@ -85,7 +85,7 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 
 En la representación anterior, evaluámos el total de luminarias por UPZ teniendo en cuenta únicamente la localización de la UPZ y no su tamaño geográfico. El estudio de la densidad permite relacionar un valor representativo (cómo el total de las lámparas) con el tamaño del área geográfica, para así evaluar que UPZ's son las más densamente iluminadas.
 
-1. Agregue la capa _Luminarias_UPZ_9377.shp_ al mapa y renombre cómo _Luminarias_UPZ (Densidad Lum/km²)_. Abra la tabla de atributos y con el _Field Calculator_ cree un campo de atributos numérico real con 10 decimales de precisión con el nombre `Akm2` y calcule con la expresión `area(@geometry)/1000000`, el área en km² de cada UPZ.
+1. Agregue la capa _Luminarias_UPZ.shp_ al mapa y renombre cómo _Luminarias_UPZ (Densidad Lum/km²)_. Abra la tabla de atributos y con el _Field Calculator_ cree un campo de atributos numérico real con 10 decimales de precisión con el nombre `Akm2` y calcule con la expresión `area(@geometry)/1000000`, el área en km² de cada UPZ.
 
 > En la expresión, es necesario dividir en área geométrica calculada en m² para cada polígono entre 1000x1000, para realizar la conversión a km².
 > 
@@ -145,7 +145,7 @@ Gráfico de promedio de densidades por clase
 
 Para conocer la localización de las UPZ's que tienen p. ej., 2500 o más lámparas LED, 600 o menos lámparas de Halogenuro Metálico (MH) y entre 300 y 1600 lámparas de  Sodio (Na), podrémos utilizar la herramienta Query Builder.
 
-1. Agregue la capa _Luminarias_UPZ_9377.shp_ al mapa y renombre cómo _Luminarias_UPZ (Filtro múltiple)_. Desde las propiedades de la capa y la pestaña Source, cree con _Query Builder_ el filtro solicitado utilizando la expresión: `"LED"  >= 2500 OR "Mh" <= 600 OR ("Na" >= 300 AND "Na" <= 1600) `. Encontrará que 96 polígonos cumplen con esta condición debido a que hemos incluido el operador OR, lo que significa que sí la UPZ cumple con una de las 3 condiciones, esta seguirá visible. Explore la tabla de atributos.
+1. Agregue la capa _Luminarias_UPZ.shp_ al mapa y renombre cómo _Luminarias_UPZ (Filtro múltiple)_. Desde las propiedades de la capa y la pestaña Source, cree con _Query Builder_ el filtro solicitado utilizando la expresión: `"LED"  >= 2500 OR "Mh" <= 600 OR ("Na" >= 300 AND "Na" <= 1600) `. Encontrará que 96 polígonos cumplen con esta condición debido a que hemos incluido el operador OR, lo que significa que sí la UPZ cumple con una de las 3 condiciones, esta seguirá visible. Explore la tabla de atributos.
 
 > Para comprender mejor la localización geográfica de las UPZ's que cumplen con la condición, agregue el mapa base XYZ de Google Maps desde https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}, establezca transparencia del 65% en la capa y rotule con  `'LED: '  || "LED"  ||  '\n MH: '  ||  "Mh" ||  '\n Na: '  ||  "Na" `.
 > 
@@ -162,7 +162,7 @@ Para conocer la localización de las UPZ's que tienen p. ej., 2500 o más lámpa
 
 Calcule el % del área de cada polígono con respecto al total del área de la capa.
 
-1. Agregue la capa _Luminarias_UPZ_9377.shp_ al mapa y renombre cómo _Luminarias_UPZ (Distribución porcentual de área)_. Desde el menú _Vector_, ejecute la herramienta _Analysis Tools / Basic Statistics for Fields_ para el campo _Akm2_. 
+1. Agregue la capa _Luminarias_UPZ.shp_ al mapa y renombre cómo _Luminarias_UPZ (Distribución porcentual de área)_. Desde el menú _Vector_, ejecute la herramienta _Analysis Tools / Basic Statistics for Fields_ para el campo _Akm2_. 
 
 <div align="center"><img src="graph/QGIS_BasicStatisticsForFields.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -229,7 +229,7 @@ Para el cálculo total mensual por UPZ, se multiplica el total de luminarias de 
 
 <div align="center"> Consumo (kWh) = Potencia (kW) x Horas de uso<br><br></div>
 
-1. Agregue la capa _Luminarias_UPZ_9377.shp_ al mapa y renombre cómo _Luminarias_UPZ (Consumo mensual kWh y costo)_. Cree y calcule los siguientes campos de atributos numéricos reales:
+1. Agregue la capa _Luminarias_UPZ.shp_ al mapa y renombre cómo _Luminarias_UPZ (Consumo mensual kWh y costo)_. Cree y calcule los siguientes campos de atributos numéricos reales:
 
 | Campo      | Descripción                                                                  | Expresión                                                     |
 |:-----------|:-----------------------------------------------------------------------------|:--------------------------------------------------------------|
