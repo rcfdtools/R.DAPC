@@ -26,7 +26,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 <div align="center">
 
 | Requerimiento                                                             | Descripción                                                                                                          |
-|:----------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
+|:-----------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://qgis.org/)                                 | QGIS 3.44 o superior                                                                                                |  
 | [:round_pushpin:qgis_basemaps.py](../../file/src/qgis_basemaps.py)         | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps) |
 | [:round_pushpin:Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip)     | Capa de polígonos UPZ con conteo de luminarias por tipo a 2025/08/14 obtenida de www.ideca.gov.co                   |
@@ -113,7 +113,7 @@ En el ejemplo anterior, analizamos las densidades y representamos por quantiles 
 Expresión de análisis en Python:
 ```
 def classeval(var):
-  cuteval = [758.0105954477, 1119.2344377237, 1736]
+  cuteval = [769.1153182, 1135.716742, 1762]
   j = 1
   for i in cuteval:
     if var <= i:
