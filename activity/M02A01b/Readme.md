@@ -29,7 +29,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 |:-----------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://qgis.org/)                                 | QGIS 3.44 o superior                                                                                                |  
 | [:round_pushpin:qgis_basemaps.py](../../file/src/qgis_basemaps.py)         | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps) |
-| [:round_pushpin:Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip)     | Capa de polígonos UPZ con conteo de luminarias por tipo a 2025/08/14 obtenida de www.ideca.gov.co                   |
+| [:round_pushpin:Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip)     | Capa de polígonos UPZ con conteo de luminarias por tipo a 2025/08/14 obtenida de www.ideca.gov.co con conversión a CRS 9377                  |
 | [:memo:Plantilla informe técnico](../../file/report/)               | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes|
 
 </div>
@@ -67,6 +67,8 @@ En la ciudad de Bogotá, son utilizadas lúminarias de los siguientes tipos:
 * Agregar la lista de mapas base XYZ usando Python.
 
 1. En QGIS, cree un mapa nuevo, cargue la capa [/shp/Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip) y consulte su tabla de atributos. Podrá observar que se encuentran los campos de atributos correspondientes a: código de UPZ, nombre de UPZ, conteo de lámparas por tipo, total de lámparas, área y perímetro. Consulte los metadatos de la capa, encontrará que la capa contiene 112 polígonos y que para su trazado se ha utilizado el sistema de proyección de coordenadas EPSG: 3857, correspondiente a _WGS 84 / Pseudo-Mercator_ utilizado a nivel mundial con sistema geográfico en grados geodésicos y proyectado en metros usando Mercator o cilíndrica. 
+
+> 🔥 La capa [Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip) que contiene los polígonos de las UPZ con el conteo de luminarias por tipo a 2025/08/14 obtenida de www.ideca.gov.co, ha sido convertida del CRS 3857 al CRS 9377, razón por la cual algunos de los valores mostrados en la guía de clase, pueden diferentes a los obtenidos en el desarrollo del quiz.
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
