@@ -76,7 +76,7 @@ A partir del archivo [DAPC_CubiertaNodoUECIJG.csv](../../file/table/DAPC_Cubiert
 
 A partir de los nodos de cubierta, cree las líneas perimetrales de cada cubierta.
 
-1. Utilizando la herramienta _Processing Toolbox / Vector creation / Point to path_, cree la capa de líneas y guarde como _/shp/DAPC_CubiertaLineaUECIJG.shp_.
+1. Utilizando la herramienta _Processing Toolbox / Vector creation / Points to path_, cree la capa de líneas y guarde como _/shp/DAPC_CubiertaLineaUECIJG.shp_.
 
 <div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
@@ -97,7 +97,7 @@ En el rótulo incluya en un nuevo renglón, la longitud redondeada a dos decimal
 
 A partir de las líneas perimetrales, cree los polígonos de las cubiertas.
 
-1. Utilizando la herramienta _Processing Toolbox / Vector creation / Polygonize_, cree la capa de polígonos y guarde como _/shp/DAPC_CubiertaPoligonoUECIJG.shp_.
+1. Utilizando la herramienta _Processing Toolbox / Vector geometry / Polygonize_, cree la capa de polígonos y guarde como _/shp/DAPC_CubiertaPoligonoUECIJG.shp_.
 
 <div align="center"><img src="graph/QGIS_Polygonize.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
