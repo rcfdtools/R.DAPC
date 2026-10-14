@@ -23,10 +23,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                           | Descripción                                                                                                          |
-|:--------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)               | QGIS 3.44 o superior.                                                                                                |
-| [⚡qgis_basemaps.py](../../file/src/qgis_basemaps.py)   | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps). |
+| Requerimiento                                           | Descripción                                                                                                         |
+|:--------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)               | QGIS 3.44 o superior                                                                                                |
+| [⚡qgis_basemaps.py](../../file/src/qgis_basemaps.py)   | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps) |
 
 </div>
 
