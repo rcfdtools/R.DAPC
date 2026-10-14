@@ -25,12 +25,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                             | Descripción                                                                                                          |
-|:-----------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                 | QGIS 3.44 o superior                                                                                                |  
-| [:round_pushpin:qgis_basemaps.py](../../file/src/qgis_basemaps.py)         | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps) |
-| [:round_pushpin:Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip)     | Capa de polígonos UPZ con conteo de luminarias por tipo a 2025/08/14 obtenida de www.ideca.gov.co con conversión a CRS 9377                  |
-| [:memo:Plantilla informe técnico](../../file/report/)               | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes|
+| Requerimiento                                             | Descripción                                                                                                          |
+|:----------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                 | QGIS 3.44 o superior                                                                                                |  
+| [⚡qgis_basemaps.py](../../file/src/qgis_basemaps.py)     | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps) |
+| [📌Luminarias_UPZ.shp](../../file/shp/Luminarias_UPZ.zip) | Capa de polígonos UPZ con conteo de luminarias por tipo a 2025/08/14 obtenida de www.ideca.gov.co con conversión a CRS 9377                  |
+| [:memo:Plantilla informe técnico](../../file/report/)     | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes|
 
 </div>
 
