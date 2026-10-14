@@ -11,8 +11,8 @@ Dibujo de elipse, óvalo, parábola, hipérbola y funciones trigonométricas.
 
 Al finalizar esta actividad, el estudiante:
 
-* Calcula los elementos que componen las curvas especiales.
-* Dibuja curvas especiales con precisión.
+* Calcula los elementos que componen las curvas especiales
+* Dibuja curvas especiales con precisión
 
 
 ## Requerimientos
@@ -21,11 +21,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                      | Descripción                                                          |
-|:-----------------------------------------------------------------------------------|:---------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior.                                 |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365.                                                 |
-| [:date:DAPC_Curves.xlsx](../../file/table/DAPC_Curves.xlsx)                        | Libro de cálculo para generación de valores XY en curvas especiales. |
+| Requerimiento                                                                      | Descripción                                                         |
+|:-----------------------------------------------------------------------------------|:--------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior                                 |
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365                                                 |
+| [:date:DAPC_Curves.xlsx](../../file/table/DAPC_Curves.xlsx)                        | Libro de cálculo para generación de valores XY en curvas especiales |
 
 </div>
 
@@ -326,11 +326,11 @@ Las especificaciones técnicas detalladas del proyecto para este módulo del cur
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada grupo de proyecto.
 
-| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|:----------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A02c   | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de quices de conocimiento y habilidad.                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| M01A02c   | En grupo: dibuje los elementos de proyecto del grupo _1. Especificaciones técnicas generales_, correspondientes a: logotipo corporativo incorporando en el diseño, una de las curvas especiales vistas en esta actividad.                                                                                                                                                                                                                                                                                                                                       |
-| M01A02c   | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M01A02c   | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de quices de conocimiento y habilidad                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| M01A02c   | En grupo: dibuje los elementos de proyecto del grupo _1. Especificaciones técnicas generales_, correspondientes a: logotipo corporativo incorporando en el diseño, una de las curvas especiales vistas en esta actividad                                                                                                                                                                                                                                                                                                                                      |
+| M01A02c   | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
@@ -362,7 +362,7 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 
 | [◄ Anterior](../M01A02b/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente ►](../M01A02d/Readme.md) |
-|---------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------|
+|------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: https://es.wikipedia.org/wiki/%C3%93valo
 [^2]: https://es.wikipedia.org/wiki/Ovoide

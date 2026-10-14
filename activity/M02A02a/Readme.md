@@ -14,10 +14,10 @@ Bases de datos y su manejo en SIG. Definición de elementos de un SIG (shapes, r
 
 Al finalizar esta actividad, el estudiante:
 
-* Comprende el uso de las bases de datos en SIG.
-* Realiza ejercicios prácticos en los que define y edita elementos de un SIG.
-* Utiliza Python para crear capas y agregar campos de atributos.
-* Ejecuta herramientas de geo-procesamiento.
+* Comprende el uso de las bases de datos en SIG
+* Realiza ejercicios prácticos en los que define y edita elementos de un SIG
+* Utiliza Python para crear capas y agregar campos de atributos
+* Ejecuta herramientas de geo-procesamiento
 
 
 ## Requerimientos
@@ -26,11 +26,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                   | Descripción                                                                                                          |
-|:------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                       | QGIS 3.44 o superior.                                                                                                |  
-| [⚡qgis_basemaps.py](../../file/src/qgis_basemaps.py)                              | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps). |
-| [:calendar:DAPC_M02A02a_Digitalizacion.xlsx](../../file/table/DAPC_M02A02a_Digitalizacion.xlsx) | Tabla de asignación de edificios a digitalizar en función de su código de alumno.                                    |
+| Requerimiento                                                                                   | Descripción                                                                                                         |
+|:------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                       | QGIS 3.44 o superior                                                                                                |  
+| [⚡qgis_basemaps.py](../../file/src/qgis_basemaps.py)                                           | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps) |
+| [:calendar:DAPC_M02A02a_Digitalizacion.xlsx](../../file/table/DAPC_M02A02a_Digitalizacion.xlsx) | Tabla de asignación de edificios a digitalizar en función de su código de alumno                                    |
 
 </div>
 
@@ -160,9 +160,9 @@ Atributos requeridos:
 
 <div align="center">
 
-| Campo      | Tipo         | Descripción                                                                                                                                                                            |
-|:-----------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EdifID     | String (200) | Identificación de edificio o bloque. Texto de 100 caracteres. Ejemplo: Bloque A, Bloque B, Coliseo, Kiosco K1, Portería, etc                                                          |
+| Campo      | Tipo         | Descripción                                                                                                                                                                           |
+|:-----------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EdifID     | String (200) | Identificación de edificio o bloque. Texto de 100 caracteres. Ejemplo: Bloque A, Bloque B, Coliseo, Kiosco K1, Portería, etc...                                                       |
 | AreaPm2    | Real (10)    | Área planar en m²<br>`area(@geometry)`                                                                                                                                                |
 | PerimPm    | Real (10)    | Perímetro planar en m<br>`perimeter(@geometry)`                                                                                                                                       |
 | Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional                                                                                                        |
@@ -448,11 +448,11 @@ Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaIn
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada grupo de proyecto o individualmente.
 
-| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M02A02a   | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad.<br/><br/>Individual - Cada estudiante presenta un informe técnico incluyendo como mínimo:<br/>• 1 predio.<br/>• 5 construcciones.<br/>• 1 kilómetro de ejes viales conectando los edificios digitalizados.<br/>• Buffer vial.<br/>• 20 árboles.<br/>• Buffer de arbolado.<br/>• 5 luminarias.<br/>• Buffer de luminarias.<br/>• Calculo de índices.<br/>• Representación 3D.<br/><br/>El informe técnico debe contener capturas de pantalla donde se visualice cada capa, la tabla de atributos y los rótulos de cada elemento. |
-| M02A02a   | En grupo: desarrolle los numerales indicados en esta actividad, incluída la digitalización completa del campus y presente un informe técnico detallado.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| M02A02a   | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos.                                                                                                    | 
+| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M02A02a   | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad.<br/><br/>Individual - Cada estudiante presenta un informe técnico incluyendo como mínimo:<br/>• 1 predio.<br/>• 5 construcciones.<br/>• 1 kilómetro de ejes viales conectando los edificios digitalizados.<br/>• Buffer vial.<br/>• 20 árboles.<br/>• Buffer de arbolado.<br/>• 5 luminarias.<br/>• Buffer de luminarias.<br/>• Calculo de índices.<br/>• Representación 3D.<br/><br/>El informe técnico debe contener capturas de pantalla donde se visualice cada capa, la tabla de atributos y los rótulos de cada elemento |
+| M02A02a   | En grupo: desarrolle los numerales indicados en esta actividad, incluída la digitalización completa del campus y presente un informe técnico detallado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| M02A02a   | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos                                                                                                    | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >

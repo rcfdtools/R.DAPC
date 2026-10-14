@@ -12,10 +12,10 @@ Texto simple, multilínea y de anotación. Estilo de la dimensión. Acotado de l
 
 Al finalizar esta actividad, el estudiante:
 
-* Incorpora textos simples, de múltiples líneas y de anotación en dibujos.
-* Crea, edita e interpreta apropiadamente elementos dimensionales aplicando comandos en CAD.
-* Comprende y aplica los conceptos de textos anotativos.
-* Comprende el uso de escalas para impresión de textos.
+* Incorpora textos simples, de múltiples líneas y de anotación en dibujos
+* Crea, edita e interpreta apropiadamente elementos dimensionales aplicando comandos en CAD
+* Comprende y aplica los conceptos de textos anotativos
+* Comprende el uso de escalas para impresión de textos
 
 
 ## Requerimientos
@@ -24,9 +24,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                           | Descripción                                                                                                                      |
-|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                       | Autodesk Autocad 3D 2026 o superior.                                                                                             |
+| Requerimiento                                                      | Descripción                         |
+|:-------------------------------------------------------------------|:------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)  | Autodesk Autocad 3D 2026 o superior |
 
 </div>
 
@@ -42,26 +42,26 @@ En AutoCAD, el texto se utiliza para añadir anotaciones y detalles a los dibujo
 
 Tipos de texto y comandos relacionados en AutoCAD:
 
-| Tipo                              | Comando         | Descripción                                                                                                                                                                                                                                                    |
-|:----------------------------------|:----------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Texto de una sola línea           | DTEXT, TEXT, DT | Cada línea de texto se considera un objeto independiente. Es fácil de crear y editar, y es ideal para anotaciones breves como etiquetas o referencias. Es necesario ingresar la altura del texto en unidades de dibujo y el ángulo de inclinación              |
-| Texto multilínea                  | MTEXT, MT, T    | Permite texto con múltiples líneas, ofreciendo más opciones de formato, como fuentes, tamaños, estilos, alineación y columnas. Es más adecuado para descripciones detalladas, notas o documentos extensos. Es necesario definir el tamaño de la caja de texto. |
-| Textos simples a multilínea       | TXT2MTXT        | Convierte varios de textos simples en un texto multilínea.                                                                                                                                                                                                     |
-| Texto multilínea a textos simples | EXPLODE, X      | El comando EXPLODE permite separar textos multilinea. Fracciones y textos de tolerancia son separados en textos simples.                                                                                                                                       |
-| MText toolbar                     | MTEXTTOOLBAR    | Esta variable de sistema permite mostrar u ocultar la barra de edición de textos multilínea, defina 1 para mostrar la barra o 2 para ocultarla.                                                                                                                |
-| Estilos de texto                  | STYLE           | Configuración de estilos de texto.                                                                                                                                                                                                                             |
+| Tipo                              | Comando         | Descripción                                                                                                                                                                                                                                                   |
+|:----------------------------------|:----------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Texto de una sola línea           | DTEXT, TEXT, DT | Cada línea de texto se considera un objeto independiente. Es fácil de crear y editar, y es ideal para anotaciones breves como etiquetas o referencias. Es necesario ingresar la altura del texto en unidades de dibujo y el ángulo de inclinación             |
+| Texto multilínea                  | MTEXT, MT, T    | Permite texto con múltiples líneas, ofreciendo más opciones de formato, como fuentes, tamaños, estilos, alineación y columnas. Es más adecuado para descripciones detalladas, notas o documentos extensos. Es necesario definir el tamaño de la caja de texto |
+| Textos simples a multilínea       | TXT2MTXT        | Convierte varios de textos simples en un texto multilínea                                                                                                                                                                                                     |
+| Texto multilínea a textos simples | EXPLODE, X      | El comando EXPLODE permite separar textos multilinea. Fracciones y textos de tolerancia son separados en textos simples                                                                                                                                       |
+| MText toolbar                     | MTEXTTOOLBAR    | Esta variable de sistema permite mostrar u ocultar la barra de edición de textos multilínea, defina 1 para mostrar la barra o 2 para ocultarla                                                                                                                |
+| Estilos de texto                  | STYLE           | Configuración de estilos de texto.                                                                                                                                                                                                                            |
 
 
 Importancia y consideraciones del texto en AutoCAD:
 
-| Importancia       | Descripción                                                                                                                                                        |
-|:------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Comunicación      | El texto transmite información esencial sobre el diseño, como dimensiones, materiales, especificaciones y notas.                                                   |
-| Claridad          | Un texto bien formateado y ubicado facilita la comprensión del dibujo y la comunicación del diseño.                                                                |
-| Documentación     | El texto ayuda a documentar el diseño, proporcionando información relevante para la fabricación, construcción o implementación.                                    |
-| Estilos de texto  | Se recomienda crear estilos de texto personalizados con fuentes, tamaños y formatos predefinidos para mantener la coherencia en el dibujo.                         |
-| Anotaciones       | El texto puede ser anotativo, lo que significa que se escala automáticamente con la escala del dibujo, asegurando que sea legible en diferentes vistas y escalas.  |
-| Edición           | Tanto el texto de una línea como el multilínea pueden editarse fácilmente, permitiendo actualizaciones y correcciones según sea necesario.                         |
+| Importancia       | Descripción                                                                                                                                                      |
+|:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comunicación      | El texto transmite información esencial sobre el diseño, como dimensiones, materiales, especificaciones y notas                                                  |
+| Claridad          | Un texto bien formateado y ubicado facilita la comprensión del dibujo y la comunicación del diseño                                                               |
+| Documentación     | El texto ayuda a documentar el diseño, proporcionando información relevante para la fabricación, construcción o implementación                                   |
+| Estilos de texto  | Se recomienda crear estilos de texto personalizados con fuentes, tamaños y formatos predefinidos para mantener la coherencia en el dibujo                        |
+| Anotaciones       | El texto puede ser anotativo, lo que significa que se escala automáticamente con la escala del dibujo, asegurando que sea legible en diferentes vistas y escalas |
+| Edición           | Tanto el texto de una línea como el multilínea pueden editarse fácilmente, permitiendo actualizaciones y correcciones según sea necesario                        |
 
 1. En AutoCAD, cree una copia del archivo _/file/cad/M01A02a.dwg_ y guarde como _/file/cad/M01A04.dwg_. Con el comando **UNITS**, verifique que las unidades de dibujo han sido establecidas en milímetros y utilizando la siguiente secuencia de comandos, dibuje en la capa _0-Objeto_, la figura mostrada en la ilustración. Utilizando el comando **DIST**, mida el tamaño horizontal y vertical que envuelve el elemento, obtendrá un tamaño de H=57.5 mm por L=97 mm. Con <kbd>ctrl</kbd> + <kbd>1</kbd>, active la ventana de propiedades, podrá observar que el elemento tiene un perímetro de 328.396 mm y un área de 2190 mm². 
 
@@ -166,14 +166,14 @@ Verifiquemos ahora el tamaño del texto en la hoja de impresión.
 
 En AutoCAD, los textos de anotación son textos que se crean y gestionan de manera que se adaptan automáticamente a diferentes escalas de visualización, manteniendo su tamaño y apariencia consistentes en el dibujo, independientemente de la escala del modelo o de las ventanas gráficas de presentación. Esto significa que no es necesario crear múltiples versiones del mismo texto para diferentes escalas; el texto anotativo se ajusta automáticamente, además contiene las siguientes características:
 
-| Características                    | Descripción                                                                                                                                                                                                                   |
-|:-----------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Adaptabilidad a diferentes escalas | Los objetos anotativos, incluyendo el texto, están diseñados para cambiar de tamaño y escala automáticamente cuando se cambia la escala de visualización en el dibujo o en las ventanas gráficas.                             |
-| Consistencia en la presentación    | El objetivo principal es mantener la legibilidad y la claridad del dibujo, asegurando que el texto anotativo se vea del mismo tamaño y con la misma apariencia, ya sea que se visualice a escala 1:1 o a una escala reducida. |
-| Eficiencia en el diseño            | Al utilizar texto anotativo, se evita la necesidad de crear múltiples versiones del mismo texto para diferentes escalas, lo que simplifica el proceso de diseño y reduce la posibilidad de errores.                           |
-| Control sobre la visibilidad       | Además de la escala, se puede controlar la visibilidad de los objetos anotativos en diferentes ventanas gráficas, lo que permite mostrar solo la información relevante en cada ventana.                                       |
-| Comandos y herramientas            | AutoCAD proporciona comandos específicos como MTEXT (texto de líneas múltiples) y herramientas para crear y gestionar objetos anotativos, incluyendo el ajuste de escalas de anotación y la gestión de la visibilidad.        |
-| Estilos de anotación               | Se pueden crear estilos de anotación que definen la apariencia y el comportamiento de los objetos anotativos, lo que permite una gestión centralizada de las propiedades de los objetos de anotación.                         |
+| Características                    | Descripción                                                                                                                                                                                                                  |
+|:-----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Adaptabilidad a diferentes escalas | Los objetos anotativos, incluyendo el texto, están diseñados para cambiar de tamaño y escala automáticamente cuando se cambia la escala de visualización en el dibujo o en las ventanas gráficas                             |
+| Consistencia en la presentación    | El objetivo principal es mantener la legibilidad y la claridad del dibujo, asegurando que el texto anotativo se vea del mismo tamaño y con la misma apariencia, ya sea que se visualice a escala 1:1 o a una escala reducida |
+| Eficiencia en el diseño            | Al utilizar texto anotativo, se evita la necesidad de crear múltiples versiones del mismo texto para diferentes escalas, lo que simplifica el proceso de diseño y reduce la posibilidad de errores                           |
+| Control sobre la visibilidad       | Además de la escala, se puede controlar la visibilidad de los objetos anotativos en diferentes ventanas gráficas, lo que permite mostrar solo la información relevante en cada ventana                                       |
+| Comandos y herramientas            | AutoCAD proporciona comandos específicos como MTEXT (texto de líneas múltiples) y herramientas para crear y gestionar objetos anotativos, incluyendo el ajuste de escalas de anotación y la gestión de la visibilidad        |
+| Estilos de anotación               | Se pueden crear estilos de anotación que definen la apariencia y el comportamiento de los objetos anotativos, lo que permite una gestión centralizada de las propiedades de los objetos de anotación                         |
 
 1. Cree una copia del texto multilínea de la figura principal y desde sus propiedades, cambie al estilo _Annotative_, defina la escala anotativa en 1:1, establezca el _Paper Text Height_ en 2.5 mm con justificación _Top left_ para que el texto crezca hacia la derecha y hacia abajo. En la barra de estado seleccione 1:1 en la escala de anotación.
 
@@ -196,22 +196,22 @@ En AutoCAD, los textos de anotación son textos que se crean y gestionan de mane
 
 En AutoCAD, el dimensionamiento (o acotación) es el proceso de agregar información numérica y simbólica a un dibujo técnico para indicar las dimensiones y otras características de un objeto, como longitudes, ángulos, radios, diámetros, etc. Se utiliza para comunicar claramente las medidas y relaciones espaciales de los elementos en el diseño. El dimensionamiento en AutoCAD implica:
 
-| Implicación          | Descripción                                                                                                               |
-|:---------------------|:--------------------------------------------------------------------------------------------------------------------------|
-| Líneas de referencia | Se utilizan para conectar las líneas de cota a los objetos que se están midiendo.                                         |
-| Líneas de cota       | Son líneas que indican la distancia o magnitud que se está midiendo.                                                      |
-| Flechas o símbolos   | Se colocan en los extremos de las líneas de cota para indicar los puntos de referencia.                                   |
-| Valores numéricos    | Se muestran junto a las líneas de cota para indicar la medida específica.                                                 |
-| Notas                | Se pueden agregar textos o símbolos adicionales para proporcionar información adicional, como tolerancias, acabados, etc. |
+| Implicación          | Descripción                                                                                                                 |
+|:---------------------|:----------------------------------------------------------------------------------------------------------------------------|
+| Líneas de referencia | Se utilizan para conectar las líneas de cota a los objetos que se están midiendo                                            |
+| Líneas de cota       | Son líneas que indican la distancia o magnitud que se está midiendo                                                         |
+| Flechas o símbolos   | Se colocan en los extremos de las líneas de cota para indicar los puntos de referencia                                      |
+| Valores numéricos    | Se muestran junto a las líneas de cota para indicar la medida específica                                                    |
+| Notas                | Se pueden agregar textos o símbolos adicionales para proporcionar información adicional, como tolerancias, acabados, etc... |
 
  Su uso es importante debido a que:
 
-| Importancia                | Descripción                                                                                               |
-|:---------------------------|:----------------------------------------------------------------------------------------------------------|
-| Comunicación clara         | Permite que otros usuarios del dibujo comprendan las dimensiones y relaciones espaciales de los objetos.  |
-| Fabricación y construcción | Facilita la fabricación de piezas y la construcción de estructuras según las especificaciones del diseño. |
-| Control de calidad         | Permite verificar que las piezas y estructuras cumplen con las dimensiones y tolerancias requeridas.      |
-| Documentación              | Forma parte esencial de la documentación técnica de un proyecto.                                          |
+| Importancia                | Descripción                                                                                              |
+|:---------------------------|:---------------------------------------------------------------------------------------------------------|
+| Comunicación clara         | Permite que otros usuarios del dibujo comprendan las dimensiones y relaciones espaciales de los objetos  |
+| Fabricación y construcción | Facilita la fabricación de piezas y la construcción de estructuras según las especificaciones del diseño |
+| Control de calidad         | Permite verificar que las piezas y estructuras cumplen con las dimensiones y tolerancias requeridas      |
+| Documentación              | Forma parte esencial de la documentación técnica de un proyecto                                          |
 
 
 ### Ejercicio M01A04E01
@@ -251,10 +251,10 @@ Las especificaciones técnicas detalladas del proyecto para este módulo del cur
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada grupo de proyecto.
 
-| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A04    | En grupo: incorpore los elementos de proyecto del grupo _1. Especificaciones técnicas generales_, correspondientes a: estilos de acotado propios fijos y anotativos para las diferentes escalas de impresión a usar, utilizar el prefijo DAPC. Incorporar en la plantilla _DAPC.dwt_ y en el archivo general de proyecto _DAPC.dwg_. En el dibujo de la bodega, realice la inclusión de las dimensiones de todos los espacios dibujados y textos descriptivos requeridos.                                                                                        |
-| M01A04    | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos.   | 
+| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|:----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M01A04    | En grupo: incorpore los elementos de proyecto del grupo _1. Especificaciones técnicas generales_, correspondientes a: estilos de acotado propios fijos y anotativos para las diferentes escalas de impresión a usar, utilizar el prefijo DAPC. Incorporar en la plantilla _DAPC.dwt_ y en el archivo general de proyecto _DAPC.dwg_. En el dibujo de la bodega, realice la inclusión de las dimensiones de todos los espacios dibujados y textos descriptivos requeridos                                                                                       |
+| M01A04    | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos  | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >

@@ -12,9 +12,9 @@ Creación de plantillas. Espacio papel y espacio modelo. Asignación de escala. 
 
 Al finalizar esta actividad, el estudiante:
 
-* Diferencia y configura apropiadamente los parámetros para la impresión de planos realizados en CAD.
-* Crear plantillas de impresión con campos dinámicos.
-* Imprimir planos digitales en formado Adobe Acrobat .pdf.
+* Diferencia y configura apropiadamente los parámetros para la impresión de planos realizados en CAD
+* Crear plantillas de impresión con campos dinámicos
+* Imprimir planos digitales en formado Adobe Acrobat .pdf
 
 
 ## Requerimientos
@@ -23,11 +23,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                      | Descripción                                                                                                    |
-|:-----------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior.                                                                           |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365.                                                                                           |
-| [:date:DAPC_TamanoPapelNTC1687.xlsx](DAPC_TamanoPapelNTC1687.xlsx)                 | Libro de cálculo con tamaños de papel estándar definidos en norma NTC-1678 y dimensionador de rótulos básicos. |
+| Requerimiento                                                                      | Descripción                                                                                                   |
+|:-----------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 3D 2026 o superior                                                                           |
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365                                                                                           |
+| [:date:DAPC_TamanoPapelNTC1687.xlsx](DAPC_TamanoPapelNTC1687.xlsx)                 | Libro de cálculo con tamaños de papel estándar definidos en norma NTC-1678 y dimensionador de rótulos básicos |
 
 </div>
 
@@ -164,11 +164,11 @@ Las especificaciones técnicas detalladas del proyecto para este módulo del cur
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada grupo de proyecto.
 
-| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|:----------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A05    | En grupo: cree y dibuje los elementos de proyecto del grupo _1. Especificaciones técnicas generales_, correspondientes a: creación de plantilla _ /file/cad/DAPC.dwt_, formatos para impresión ISO-A0 / ISO-A4, horizontal y vertical. Formatos adicionales pueden ser incluídos en la plantilla.                                                                                                                                                                                                                                                               |
-| M01A05    | En grupo: cree o genere los elementos de proyecto del grupo _5. Planos_, correspondientes a: planta general, cubiertas y fachadas, corte longitudinal, corte transversal, red eléctrica interna 110v, red eléctrica interna 220v, red de datos usando cableado, red foto-voltáica, red vigilancia o seguridad.                                                                                                                                                                                                                                                  |
-| M01A05    | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M01A05    | En grupo: cree y dibuje los elementos de proyecto del grupo _1. Especificaciones técnicas generales_, correspondientes a: creación de plantilla _ /file/cad/DAPC.dwt_, formatos para impresión ISO-A0 / ISO-A4, horizontal y vertical. Formatos adicionales pueden ser incluídos en la plantilla                                                                                                                                                                                                                                                              |
+| M01A05    | En grupo: cree o genere los elementos de proyecto del grupo _5. Planos_, correspondientes a: planta general, cubiertas y fachadas, corte longitudinal, corte transversal, red eléctrica interna 110v, red eléctrica interna 220v, red de datos usando cableado, red foto-voltáica, red vigilancia o seguridad                                                                                                                                                                                                                                                 |
+| M01A05    | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
