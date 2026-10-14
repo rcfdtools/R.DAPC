@@ -129,7 +129,7 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 </div>
 
-1. Agregue al proyecto la capa de líneas de transmisión eléctrica localizadas dentro de Bogotá D.C. desde la capa _[/shp/UPME_LineaTransmisionBogota.shp](../../file/shp/UPME_LineaTransmisionBogota.zip)_ y simbolice por categorías a partir del campo `UPME_Tesi`,
+1. Agregue al proyecto la capa de líneas de transmisión eléctrica localizadas dentro de Bogotá D.C. desde la capa _[/shp/UPME_LineaTransmisionBogota.shp](../../file/shp/UPME_LineaTransmisionBogota.zip)_ y simbolice por categorías a partir del campo `UPME_Tesi`.
 
 <div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
