@@ -156,7 +156,7 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 <div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-Esta operación puede ser realizada automáticamente a través de un CASE cómo:
+Esta operación puede ser realizada rápidamente desde el _Field Calculator_ a través de un _CASE_ cómo:
 
 ```
 CASE 
