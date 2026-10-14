@@ -13,7 +13,7 @@ Control de visualización (Visibility graphics). Láminas de ploteo (Sheets). Cr
 Al finalizar esta actividad, el estudiante:
 
 * Crea ejes estructurales
-* Dibuja elementos estructurales: columnas, vigas, placas, vacíos.
+* Dibuja elementos estructurales: columnas, vigas, placas, vacíos
 
 
 ## Requerimientos
@@ -22,13 +22,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                | Descripción                                        |
-|:-----------------------------------------------------------------------------|:---------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)              | Autodesk Revit 2026 o superior (english version).  |  
-| [📏DAPC_ProyectoCAD.dwg](../../file/cad/DAPC_ProyectoCAD_2025_02_Grupo1.dwg) | Proyecto CAD (tomado del Grupo 01 edición 2025-01. |
-| [📅DAPC_ProyectoBIM.xlsx](../../file/table/DAPC_ProyectoBIM.xlsx)            | Especificaciones para proyecto individual BIM.     |
-| [📂RevitFamilyEnglishUS.zip](../../file/cad/revit/RevitFamilyEnglishUS.zip)  | Proyecto individual - Familias Revit en Inglés.    |
-| [📂RevitFamilySpanish.zip](../../file/cad/revit/RevitFamilySpanish.zip)      | Proyecto individual - Familias Revit en Español.   |
+| Requerimiento                                                                | Descripción                                                |
+|:-----------------------------------------------------------------------------|:-----------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)              | Autodesk Revit 2026 o superior (english version)           |  
+| [📏DAPC_ProyectoCAD.dwg](../../file/cad/DAPC_ProyectoCAD_2025_02_Grupo1.dwg) | Proyecto CAD (Ejemplo tomado del Grupo 01 edición 2025-01) |
+| [📅DAPC_ProyectoBIM.xlsx](../../file/table/DAPC_ProyectoBIM.xlsx)            | Especificaciones para proyecto individual BIM              |
+| [📂RevitFamilyEnglishUS.zip](../../file/cad/revit/RevitFamilyEnglishUS.zip)  | Proyecto individual - Familias Revit en Inglés             |
+| [📂RevitFamilySpanish.zip](../../file/cad/revit/RevitFamilySpanish.zip)      | Proyecto individual - Familias Revit en Español            |
 
 </div>
 
@@ -197,11 +197,11 @@ Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaIn
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada grupo de proyecto o individualmente.
 
-| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|:----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M03A03a   | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad.                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| M03A03a   | En grupo: desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado, con capturas de pantalla de todas las herramientas utilizadas para el dibujo en Autodesk Revit, del proyecto de la bodega diseñada en el Módulo 1 de Dibujo asistido por computadora con AutoCAD.                                                                                                                                                                                                                                                      |
-| M03A03a   | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M03A03a   | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| M03A03a   | En grupo: desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado, con capturas de pantalla de todas las herramientas utilizadas para el dibujo en Autodesk Revit, del proyecto de la bodega diseñada en el Módulo 1 de Dibujo asistido por computadora con AutoCAD                                                                                                                                                                                                                                                      |
+| M03A03a   | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >

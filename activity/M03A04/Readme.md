@@ -12,8 +12,8 @@ Concepto de familias de Revit. Creación de perfiles. Creación de planos de tra
 
 Al finalizar esta actividad, el estudiante:
 
-* Conoce los fundamentos de las familias de Revit. 
-* Crea planos de trabajo en Revit. 
+* Conoce los fundamentos de las familias de Revit 
+* Crea planos de trabajo en Revit
 
 
 ## Requerimientos
@@ -22,10 +22,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                        | Descripción                                       |
-|:-------------------------------------------------------------------------------------|:--------------------------------------------------|
-| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)                      | Autodesk Revit 2026 o superior (english version). |  
-| [📅DAPC_ProyectoBIM.xlsx](../../file/table/DAPC_ProyectoBIM.xlsx)       | Especificaciones para proyecto individual BIM.    |
+| Requerimiento                                                      | Descripción                                      |
+|:-------------------------------------------------------------------|:-------------------------------------------------|
+| [:toolbox:Herramienta](https://www.autodesk.com/products/revit)    | Autodesk Revit 2026 o superior (english version) |  
+| [📅DAPC_ProyectoBIM.xlsx](../../file/table/DAPC_ProyectoBIM.xlsx)  | Especificaciones para proyecto individual BIM    |
 
 </div>
 
@@ -179,11 +179,11 @@ Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaIn
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada grupo de proyecto o individualmente.
 
-| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|:----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M02A04    | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad.                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| M02A04    | En grupo: desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado, con capturas de pantalla de todas las herramientas utilizadas para el dibujo en Autodesk Revit, del proyecto de la bodega diseñada en el Módulo 1 de Dibujo asistido por computadora con AutoCAD.                                                                                                                                                                                                                                                      |
-| M02A04    | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M02A04    | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| M02A04    | En grupo: desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado, con capturas de pantalla de todas las herramientas utilizadas para el dibujo en Autodesk Revit, del proyecto de la bodega diseñada en el Módulo 1 de Dibujo asistido por computadora con AutoCAD                                                                                                                                                                                                                                                      |
+| M02A04    | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
