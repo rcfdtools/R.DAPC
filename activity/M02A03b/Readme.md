@@ -156,6 +156,16 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 <div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
+Esta operación puede ser realizada automáticamente a través de un CASE cómo:
+
+```
+CASE 
+  WHEN  "UPME_Tensi" in ('<110', '115') THEN 100
+  WHEN  "UPME_Tensi" =  '230' THEN 400
+  WHEN  "UPME_Tensi" =  '500' THEN 1000
+END
+```
+
 5. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Split lines by maximum length_, divida cada tramo a partir del campo de atributos `TorreDist`, Guarde la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplit.shp_. Abra y verifique la tabla de atributos, podrá observar que cada tramo contiene ahora múltiples segmentos. Simbolice usando flechas por segmento. 
 
 <div align="center"><img src="graph/QGIS_SplitLinesByMaximumLength.jpg" alt="R.DAPC" width="100%" border="0" /></div>
