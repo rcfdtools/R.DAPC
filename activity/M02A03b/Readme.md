@@ -166,6 +166,7 @@ CASE
 END
 ```
 
+
 5. Utilizando la herramienta _Processing Toolbox / Vector Geometry / Split lines by maximum length_, divida cada tramo a partir del campo de atributos `TorreDist`, Guarde la capa resultante como _/shp/UPME_LineaTransmisionBogotaSplit.shp_. Abra y verifique la tabla de atributos, podrá observar que cada tramo contiene ahora múltiples segmentos. Simbolice usando flechas por segmento. 
 
 <div align="center"><img src="graph/QGIS_SplitLinesByMaximumLength.jpg" alt="R.DAPC" width="100%" border="0" /></div>
