@@ -26,14 +26,16 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                           | Descripción                                                                                                          |
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                               | QGIS 3.44 o superior.                                                                                                |
-| [:round_pushpin:qgis_basemaps.py](../../file/src/qgis_basemaps.py)                      | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps). |
-| [:man_technologist:Cuenta de usuario en _Open Topography_](https://opentopography.org/) | Cuenta de usuario requerida para descarga de modelos digitales de elevación DEM.                                     |  
-| [:round_pushpin:IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)   | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/.       |
-| [:round_pushpin:UPME_LineaTransmision.shp](../../file/shp/UPME_LineaTransmision.zip)    | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co.         |
-| [:round_pushpin:qgis_contour_type.py](../../file/src/qgis_contour_type.py)              | Script en Python para clasificación de curvas de nivel principales y secundarias.                                    |
+| Requerimiento                                                                       | Descripción                                                                                                                                            |
+|:------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [🧰Herramienta](https://qgis.org/)                                                  | QGIS 3.44 o superior                                                                                                                                   |
+| [⚡qgis_basemaps.py](../../file/src/qgis_basemaps.py)                               | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps)                                    |
+| [👨‍💻Cuenta de usuario en _Open Topography_](https://opentopography.org/)             | Cuenta de usuario requerida para descarga de modelos digitales de elevación DEM                                                                        |  
+| [📌IGAC_Municipio.shp](../../file/data/IGAC/IGAC_Municipio_20250912.zip)            | Municipios, Distritos y Áreas no municipalizadas de Colombia obtenidas de https://www.colombiaenmapas.gov.co/                                          |
+| [📌UPME_LineaTransmision.shp](../../file/shp/UPME_LineaTransmision.zip)             | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co                                            |
+| [📌UPME_LineaTransmisionBogota.zip](../../file/shp/UPME_LineaTransmisionBogota.zip) | Líneas de transmisión regional y nacional dentro del área geopolítica de Bogotá D.C., integradas a partir de capas obtenidas de https://onl.dnp.gov.co |
+| [📌rasters_COP30.tar.gz](../../file/dem/rasters_COP30.tar.gz)                       | Modelo digital de elevación Copernicus 30 metros con cobertura sobre Bogotá D.C., obtenido de https://opentopography.org/                              |
+| [⚡qgis_contour_type.py](../../file/src/qgis_contour_type.py)                       | Script en Python para clasificación de curvas de nivel principales y secundarias                                                                       |
 
 </div>
 
@@ -127,7 +129,7 @@ Para la segmentación de líneas de transmisión eléctrica a partir de la separ
 
 </div>
 
-1. Agregue al proyecto la capa de líneas de transmisión eléctrica localizadas dentro de Bogotá D.C. desde la capa _/shp/UPME_LineaTransmisionBogota.shp_ y simbolice por categorías a partir del campo `UPME_Tesi`,
+1. Agregue al proyecto la capa de líneas de transmisión eléctrica localizadas dentro de Bogotá D.C. desde la capa _[/shp/UPME_LineaTransmisionBogota.shp](../../file/shp/UPME_LineaTransmisionBogota.zip)_ y simbolice por categorías a partir del campo `UPME_Tesi`,
 
 <div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
