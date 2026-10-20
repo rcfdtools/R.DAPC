@@ -1,4 +1,6 @@
-# Ejercicios a desarrollar individualmente (opcional no calificable)
+<div align="center"><img alt="rcfdtools" src="../file/graph/R.DAPC.svg" height="46px"></div>
+
+# ✏️Ejercicios a desarrollar individualmente (opcional no calificable)
 
 Durante el desarrollo del curso, los estudiantes presentarán los siguientes ejercicios siguiendo las especificaciones y parámetros definidos en cada actividad.
 
