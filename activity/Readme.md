@@ -7,7 +7,7 @@ Durante el desarrollo del curso, los estudiantes presentarán los siguientes eje
 > Los dibujos de AutoCAD se almacenan en la carpeta _/file/cad/_ usando el nombre del ejercicio y la extensión .dwg.
 
 
-## :globe_with_meridians:Módulo 1: Dibujo asistido por computadora con AutoCAD
+## 🔵Módulo 1: Dibujo asistido por computadora con AutoCAD
 
 En este módulo abordaremos: Conceptos básicos, Usos y aplicaciones de AutoCAD, Entorno gráfico e interfaz de AutoCAD, Comandos básicos, Dibujo de elementos básicos, Presentación de elementos básicos, Achurado y sombreado, Dimensionamiento de elementos, Herramientas de acotado, Rotulado, Herramientas de edición y dibujo en 3D, Creación y estructurado de un plano, Manejo de ventanas de impresión, Capas, Viewports: manejo de escalas, plantas, perfiles y secciones transversales.
 
@@ -144,14 +144,14 @@ Layers, papel. Texto menor, texto mayor. Planos de referencia para posiciones es
 | Varios    | A partir de los contenidos vistos en el Módulo 1, desarrolle progresivamente los numerales indicados en la actividad de proyecto [M01A06](M01A06), siguiendo las especificaciones técnicas definidas en [DAPC_ProyectoCAD.xlsx](../file/table/DAPC_ProyectoCAD.xlsx) |        |
 
 
-## :globe_with_meridians:Módulo 2: Sistemas de información geográfica
+## 🔵Módulo 2: Sistemas de información geográfica
 
 En este módulo abordaremos: Fundamentos de los sistemas de información geográfica, Definición y edición de elementos de un SIG, Digitalización y entrada de entidades, Creación y edición de tablas relacionales, Mapas y cartografía, Elaboración de planos, Imágenes en SIG, Manejo y manipulación. [Actividades de proyecto](https://github.com/rcfdtools/R.DAPC/blob/main/activity/M02A04/Readme.md).
 
 
 
 
-## :globe_with_meridians:Módulo 3: Metodología de modelado de información para la construcción (BIM) con REVIT
+## 🔵Módulo 3: Metodología de modelado de información para la construcción (BIM) con REVIT
 
 En este módulo abordaremos: Introducción a los conceptos BIM, Uso de plantillas, Manejo básico del software REVIT, Configuración, Creación de vista de plantas, niveles de fondo, filtros y manipulación de elementos, Control de visualización, Láminas de ploteo, Metrados, Creación de WorkSets, Creación de un archivo local y Relinquish all mine, Introducción a Revit familias, Creación de perfiles y Concepto de familias Revit, Creación de planos de trabajo, Convertir líneas en símbolos y Controles de visibilidad. [Actividades de proyecto](https://github.com/rcfdtools/R.DAPC/blob/main/activity/M03A05/Readme.md).
 
