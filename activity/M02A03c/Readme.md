@@ -12,8 +12,8 @@ Desde la plataforma [Copernicus](https://www.copernicus.eu/en) del [ECMWF](https
 
 Al finalizar esta actividad, el estudiante:
 
-* Elabora mapas y planos.
-* Descarga datos hidro-climatológicos de re-análisis a partir de datos satelitales ERA5.
+* Elabora mapas y planos
+* Descarga datos hidro-climatológicos de re-análisis a partir de datos satelitales ERA5
 
 
 ## Requerimientos
@@ -95,12 +95,12 @@ Variables climatológicas
 
 3. De clic en la pestaña _Download data_ y seleccione:
 
-* Product type: Monthly average reanalysis.
-* Variable: Surface net solar radiation, 10m u-component of wind, 10m v-component of wind.
-* Year: 1950 to 2024.
-* Month: January to December.
-* Hour: 00:00.
-* Sub-region extraction: North 12.5, South -4.3, West -79.1, East -66.8.
+* Product type: Monthly average reanalysis
+* Variable: Surface net solar radiation, 10m u-component of wind, 10m v-component of wind
+* Year: 1950 to 2024
+* Month: January to December
+* Hour: 00:00
+* Sub-region extraction: North 12.5, South -4.3, West -79.1, East -66.8
 * Format: Zipped NetCDF-3 (experimental)
 
 <div align="center"><img src="graph/Chrome_Copernicus3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
@@ -206,14 +206,14 @@ Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaIn
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada grupo de proyecto o individualmente.
 
-| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M02A03c   | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| M02A03c   | Individual: aplicando los conceptos aprendidos y a partir de las tablas generadas, realice un análisis decadal (campo: `Decade`) de radiación solar para cada Departamento                                                                                                                                                                                                                                                                                                                                                                                    |
-| M02A03c   | Individual: aplicando los conceptos aprendidos y a partir de las tablas generadas, realice un análisis multianual por departamento a partir de la irradiancia en Watt/m² estimada en el campo `SSR_Wattm2`. A partir del campo `SSR_GWatt` y suponiendo que en cada departamento únicamente se pueden crear granjas solares hasta el 2% de cada área total, estime el potencial fotovoltáico del país en Giga-watts                                                                                                                                           |
-| M02A03c   | En grupo: desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas. Incluir en la carpeta /shp, las capas creadas                                                                                                                                                                                                                                                                                                                                           |
-| M02A03c   | En grupo: aplique los conceptos aprendido para crear un script que permita analizar la velocidad del viento a partir de las variables u10 y v10. Presente un análisis detallado por Departamento                                                                                                                                                                                                                                                                                                                                                              |
-| M02A03c   | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos | 
+| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|:----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M02A03c   | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| M02A03c   | Individual: aplicando los conceptos aprendidos y a partir de las tablas generadas, realice un análisis decadal (campo: `Decade`) de radiación solar para cada Departamento                                                                                                                                                                                                                                                                                                                                                                                   |
+| M02A03c   | Individual: aplicando los conceptos aprendidos y a partir de las tablas generadas, realice un análisis multianual por departamento a partir de la irradiancia en Watt/m² estimada en el campo `SSR_Wattm2`. A partir del campo `SSR_GWatt` y suponiendo que en cada departamento únicamente se pueden crear granjas solares hasta el 2% de cada área total, estime el potencial fotovoltáico del país en Giga-watts                                                                                                                                          |
+| M02A03c   | En grupo: desarrolle los numerales indicados en esta actividad y presente un informe técnico detallado con capturas de pantalla de todas las herramientas utilizadas. Incluir en la carpeta /shp, las capas creadas                                                                                                                                                                                                                                                                                                                                          |
+| M02A03c   | En grupo: aplique los conceptos aprendido para crear un script que permita analizar la velocidad del viento a partir de las variables u10 y v10. Presente un análisis detallado por Departamento                                                                                                                                                                                                                                                                                                                                                             |
+| M02A03c   | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla)<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
