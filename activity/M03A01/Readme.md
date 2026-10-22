@@ -39,7 +39,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 0. ¿Qué es BIM?
 
-BIM son las siglas de Building Information Modeling (Modelado de Información de Construcción). Es un proceso inteligente de gestión de proyecto (PM ó project management) basado en modelos 3D que dota a los profesionales de la arquitectura, ingeniería y construcción (AEC) de la información y herramientas necesarias para planificar, diseñar, construir y gestionar edificios e infraestructuras de manera más eficiente.
+BIM son las siglas de Building Information Modeling (Modelado de Información para Construcciones). Es un proceso inteligente de gestión de proyecto (PM ó project management) basado en modelos 3D que dota a los profesionales de la arquitectura, ingeniería y construcción (AEC) de la información y herramientas necesarias para planificar, diseñar, construir y gestionar edificios e infraestructuras de manera más eficiente.
 
 BIM es una metodología de trabajo colaborativo para el diseño, construcción y operación de un proyecto, se basa en modelos 3D paramétricos y bases de datos que permiten un flujo de trabajo eficiente y el intercambio de información entre disciplinas.
 
