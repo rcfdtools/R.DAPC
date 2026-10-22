@@ -36,6 +36,25 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
+## 0. ¿Qué es ERA5?
+
+ERA5 (ECMWF Re-Analysis) es el reanálisis climático y atmosférico de quinta generación desarrollado por el ECMWF (Centro Europeo de Predicción a Medio Plazo). Combina modelos físicos con millones de observaciones globales (satélites, estaciones, aviones y boyas) para reconstruir el estado de la atmósfera hora tras hora desde 1940 hasta la actualidad.
+
+Características principales
+
+* Cobertura temporal: Desde enero de 1940 hasta el presente
+* Resolución espacial: Aproximadamente 31 km en la atmósfera global y 9 km en su versión de superficie llamada ERA5-Land
+* Frecuencia: Datos disponibles con resolución horaria
+* Acceso: Totalmente gratuito a través del portal Climate Data Store del programa Copernicus
+
+Para qué se utiliza
+
+* Estudios climáticos: Analizar tendencias de temperatura, olas de calor y eventos meteorológicos extremos
+* Energías renovables: Evaluar recursos de energía eólica y solar en proyectos históricos
+* Inteligencia Artificial: Entrenar modelos meteorológicos modernos de machine learning (como GraphCast o Pangu-Weather)
+* Validación: Verificar pronósticos y modelos meteorológicos locales o regionales
+
+
 ## 1. Obtención de límites geográficos
 
 1. Desde el portal https://www.colombiaenmapas.gov.co, descargue la capa de Departamentos de Colombia, guarde como [/data/IGAC/IGAC_Departamento.zip](../../file/data/IGAC/IGAC_Departamento_20251023.zip) y descomprima en la carpeta _/shp_.
