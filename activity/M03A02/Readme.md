@@ -87,12 +87,12 @@ Pasos para cambiar el idioma
 
 Códigos de idioma principales
 
-• ESP: Español
-• ENU: Inglés (English)
-• FRA: Francés
-• DEU: Alemán
-• ITA: Italiano
-• PTB: Portugués de Brasil
+* ESP: Español
+* ENU: Inglés (English)
+* FRA: Francés
+* DEU: Alemán
+* ITA: Italiano
+* PTB: Portugués de Brasil
 
 
 ## 2. Uso de plantillas y configuración general
