@@ -58,7 +58,7 @@ Aplicaciones:
 En resumen, Revit es una herramienta esencial para profesionales de la construcción que buscan un flujo de trabajo más eficiente, desde el diseño inicial hasta la gestión del proyecto, al trabajar con información inteligente en un modelo 3D colaborativo. 
 
 
-## 1. Instalación de librerías
+## 1. Instalación de librerías y cambio de idioma
 
 Luego de instalar el aplicativo y antes de iniciar a trabajar con Autodesk Revit, puede descargar e instalar las librerías en español que contienen las diferentes familias de objetos que son necesarias para la creación de modelos. Desde el enlace https://manage.autodesk.com/products/rvt, ingrese al administrador de productos y servicios de Autodesk y para el software Revit, descargue las librerías denominadas:
 
@@ -74,6 +74,25 @@ Luego de instalar el aplicativo y antes de iniciar a trabajar con Autodesk Revit
 Desde la carpeta de descargas de su sistema operativo, instale los dos paquetes de librerías descargados. En caso de que ya estén instalados, aparecerá la siguiente ventana.
 
 <div align="center"><img src="graph/Revit_InstallLibraries3.jpg" alt="R.DAPC" width="60%" border="0" /></div>
+
+Pasos para cambiar el idioma
+
+1. Cierre Revit y todos los proyectos que tengas abiertos
+2. Desde el inicio de Microsof Windows abra la localización del icono de acceso directo de Revit (o cree una copia si deseas tener un acceso directo para cada idioma)
+3. Haga clic derecho sobre el icono y selecciona _Propiedades_
+4. En la pestaña Acceso directo, busca el campo llamado _Destino_ o _Target_
+5. Al final de la ruta de texto escrita en ese campo, deje un espacio después de las comillas y añada el parámetro del idioma. p ej., `"C:\Program Files\Autodesk\Revit 2026\Revit.exe" /language ESP`
+6. Haz clic en _Aplicar_ y luego en _Aceptar_. Si Windows le solicita permisos de administrador, haz clic en _Continuar_
+7. Abra Revit nuevamente desde ese acceso directo para ver la interfaz en el nuevo idioma
+
+Códigos de idioma principales
+
+• ESP: Español
+• ENU: Inglés (English)
+• FRA: Francés
+• DEU: Alemán
+• ITA: Italiano
+• PTB: Portugués de Brasil
 
 
 ## 2. Uso de plantillas y configuración general
