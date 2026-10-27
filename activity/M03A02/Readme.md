@@ -60,6 +60,9 @@ En resumen, Revit es una herramienta esencial para profesionales de la construcc
 
 ## 1. Instalación de librerías y cambio de idioma
 
+
+### Librerías
+
 Luego de instalar el aplicativo y antes de iniciar a trabajar con Autodesk Revit, puede descargar e instalar las librerías en español que contienen las diferentes familias de objetos que son necesarias para la creación de modelos. Desde el enlace https://manage.autodesk.com/products/rvt, ingrese al administrador de productos y servicios de Autodesk y para el software Revit, descargue las librerías denominadas:
 
 * Spanish Content for Revit 2026: RVTCPESP.exe
@@ -75,7 +78,46 @@ Desde la carpeta de descargas de su sistema operativo, instale los dos paquetes 
 
 <div align="center"><img src="graph/Revit_InstallLibraries3.jpg" alt="R.DAPC" width="60%" border="0" /></div>
 
-Pasos para cambiar el idioma
+
+### Disciplina / Categoría / Familia / Tipo / Ejemplar
+
+1. Disciplina
+
+* Qué es: Es el filtro o división de orden superior según la especialidad técnica del proyecto.
+* Cuáles existen: Arquitectura, Estructura, Electricidad, Fontanería (Plumbing), Mecánica y Coordinación.
+* Características: Vienen predefinidas por el programa, no se pueden crear ni borrar; sirven para controlar la visibilidad y cómo interactúan los sistemas.
+
+2. Categoría
+
+* Qué es: Es el agrupamiento general de elementos constructivos que comparten una misma función o comportamiento en el edificio.
+* Ejemplos: Muros, Puertas, Ventanas, Pilares, Suelos, Mobiliario, Luminarias.
+* Características: Son globales, vienen fijadas por Autodesk (el usuario no puede crear nuevas categorías) y determinan qué propiedades y parámetros tendrá el objeto.
+
+3. Familia
+
+* Qué es: Es una sub-agrupación dentro de una categoría que comparte un conjunto de parámetros, un uso similar y una representación gráfica común.
+
+Tipos de familias en Revit:
+
+* Familias de sistema: Vienen integradas por defecto en el proyecto (ej. muros, suelos, cubiertas); no se pueden guardar como archivo externo ni borrar, solo duplicar y modificar.
+* Familias cargables: Son bloques externos con extensión .rfa que se importan al proyecto desde bibliotecas (ej. una silla específica, una puerta de madera comercial, un inodoro).
+* Familias in situ (In-Place): Se modelan directamente dentro del proyecto para elementos únicos y no estándar que no se van a repetir (ej. una escalera curva con forma irregular hecha a la medida).
+ 
+4. Tipo
+
+* Qué es: Es una versión específica o variante dentro de una misma familia, definida por dimensiones, materiales o reglas de cálculo particulares.
+* Regla de oro: Si modifica un parámetro de _Tipo_, cambian automáticamente todos los objetos que tengan asignado ese mismo tipo en el proyecto.
+* El nivel inferior al _Tipo_ es el Ejemplar (o instancia), que es el objeto físico y único que colocas dibujado en el espacio de trabajo.
+
+Ejemplo práctico:
+
+* Disciplina: Arquitectura
+* Categoría: Muros
+* Familia: Muro básico (Basic Wall)
+* Tipo: Muro de ladrillo de 15 cm o Muro de hormigón de 20 cm
+
+
+### Cambio de idioma
 
 1. Cierre Revit y todos los proyectos que tengas abiertos
 2. Desde el inicio de Microsof Windows abra la localización del icono de acceso directo de Revit (o cree una copia si deseas tener un acceso directo para cada idioma)
