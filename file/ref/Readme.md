@@ -52,6 +52,7 @@ Otras normas técnicas y referencias
 * [AIA_CADLayerGuidelines_v5.pdf](https://facilities.duke.edu/sites/default/files/AIA%20CAD%20Layer%20Guidelines.pdf) 
 * [Neuferet](https://ia800205.us.archive.org/23/items/neufert_202402/NEUFERT.pdf) 
 * [35 Essential AutoCAD Commands](https://thecadmasters.com/useful-autocad-commands/)
+* [Civil World Tech / How To Show And Change Direction Of Polyline In Autocad](https://www.youtube.com/watch?v=M4CWj-Dmw4I)
 
 
 ## Sitios web relevantes
