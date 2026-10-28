@@ -34,8 +34,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [📌UPME_LineaTransmision.shp](../../file/shp/UPME_LineaTransmision.zip)             | Líneas de transmisión regional y nacional, integradas a partir de capas obtenidas de https://onl.dnp.gov.co                                            |
 | [📌UPME_LineaTransmisionBogota.shp](../../file/shp/UPME_LineaTransmisionBogota.zip) | Líneas de transmisión regional y nacional dentro del área geopolítica de Bogotá D.C., integradas a partir de capas obtenidas de https://onl.dnp.gov.co |
 | [📌Copernicus30m.tif](../../file/dem/rasters_COP30.tar.gz)                          | Modelo digital de elevación Copernicus 30 metros con cobertura sobre Bogotá D.C., obtenido de https://opentopography.org/                              |
-| [⚡qgis_basemaps.py](../../file/src/qgis_basemaps.py)                               | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps)                                    |
-| [⚡qgis_contour_type.py](../../file/src/qgis_contour_type.py)                       | Script en Python para clasificación de curvas de nivel principales y secundarias                                                                       |
+| [⚡qgis_basemaps.py](https://github.com/rcfdtools/R.HydroTools/blob/main/file/src/qgis_basemaps.py)                               | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps)                                    |
+| [⚡qgis_contour_type.py](https://github.com/rcfdtools/R.HydroTools/blob/main/file/src/qgis_contour_type.py)                       | Script en Python para clasificación de curvas de nivel principales y secundarias                                                                       |
 
 </div>
 
@@ -242,7 +242,7 @@ Obtendrá que la diferencia de longitudes 3D vs. 2D es de 582.09 metros.
 <div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_Symbology2.jpg" alt="R.DAPC" width="100%" border="0" /></div>
 
-> ✏️ Desde el calculador de campo, utilice el script de Python [qgis_contour_type.py](../../file/src/qgis_contour_type.py) para clasificar las curvas de nivel en principales y secundarias.
+> ✏️ Desde el calculador de campo, utilice el script de Python [qgis_contour_type.py](https://github.com/rcfdtools/R.HydroTools/blob/main/file/src/qgis_contour_type.py) para clasificar las curvas de nivel en principales y secundarias.
 > 
 > ✏️ Investigue qué es y como se calcula la catenaria de los cables de las redes de transmisión eléctrica. Para la línea de transmisión evaluada en el taller de clase, calcule para cada tramo entre apoyos las longitudes 3D incluyendo la catenaria y compare con los valores de la línea 2D y 3D inicial. 
 
